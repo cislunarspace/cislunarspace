@@ -4,7 +4,7 @@ description: In the restricted three-body problem, five points where the gravita
 keywords: Libration Point, Libration Point
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Libration Point
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ In the restricted three-body problem, five points where the gravitational pull o
 
 ## Application Value
 
-在航天器动力学建模中，需要准确描述引力场、摄动力和坐标系变换。该概念是进行轨道力学分析、姿态控制和任务设计的基础。
+In spacecraft dynamics modeling, the gravity field, perturbing forces, and coordinate-frame transformations must be described accurately. This concept provides the foundation for orbital mechanics analysis, attitude control, and mission design.
 
 ## Related Concepts
 

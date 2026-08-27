@@ -4,7 +4,7 @@ description: The difference in right ascension between the spacecraft and the ta
 keywords: Right Ascension Deviation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Right Ascension Deviation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The difference in right ascension between the spacecraft and the target body in 
 
 ## Application Value
 
-赤经偏差是实际位置与预期位置的赤经差异，导航系统设计师用它修正轨道确定误差。
+The right ascension deviation is the difference in right ascension between the actual and expected positions; navigation system designers use it to correct orbit determination errors.
 
 ## Related Concepts
 

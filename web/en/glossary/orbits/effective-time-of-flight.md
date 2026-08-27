@@ -4,7 +4,7 @@ description: In low-energy transfer design, the actual flight time after subtrac
 keywords: Effective Time of Flight
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Effective Time of Flight
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -41,7 +41,7 @@ The Effective Time of Flight plays a significant role in cislunar space mission 
 - Football Orbit
 - [Orbit Chain](/en/glossary/orbits/orbit-chain/)
 - Prograde Polar Orbit
-- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
+- Eccentricity/Inclination Vector Separation
 
 ## References
 

@@ -4,7 +4,7 @@ description: The Weak Stability Boundary (WSB) is the region in the Earth-Moon-S
 keywords: Weak Stability Boundary, WSB, ballistic capture, weak stability region, WSR, weak instability, Belbruno, low-energy transfer, Hiten, practical stability region
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Weak Stability and Weak Stability Boundary (WSB)
   desc: Ballistic lunar capture through solar perturbations — from Belbruno's algorithm to Hiten's flight.
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/wsb/
 ---
 
-# Weak Stability and Weak Stability Boundary (WSB)（弱稳定性与弱稳定边界）
+# Weak Stability and Weak Stability Boundary (WSB)
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

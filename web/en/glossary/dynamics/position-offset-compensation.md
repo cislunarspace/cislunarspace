@@ -4,7 +4,7 @@ description: Because the fourth-stage burn pushes the interceptor away from the 
 keywords: Position Offset Compensation, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Position Offset Compensation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Because the fourth-stage burn pushes the interceptor away from the target point,
 
 ## Application Value
 
-位置偏移补偿through Lambert 制导引导至偏移瞄准点来补偿燃烧produce of 位置偏差, is 提high落点accuracy of important technology. In 弹道导弹和lunar着陆中has application.
+Position offset compensation guides the interceptor to an offset aimpoint via Lambert guidance to compensate for the position deviation caused by the burn; it is a key technology for improving impact-point accuracy, with applications in ballistic missiles and lunar landing.
 
 ## Related Concepts
 

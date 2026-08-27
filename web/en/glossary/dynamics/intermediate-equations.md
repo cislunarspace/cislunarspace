@@ -4,7 +4,7 @@ description: A simplified model between the bicircular problem and the real equa
 keywords: Intermediate Equations, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Intermediate Equations
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A simplified model between the bicircular problem and the real equations of moti
 
 ## Application Value
 
-middleequation is 双圆problem和真实motionequation之间 of 简化model, 仅保留Sunwill合周期 of 周期项. In middle周期orbit of calculate中has applicationvalue.
+The intermediate equations are a simplified model between the bicircular problem and the real equations of motion, retaining only periodic terms with the synodic period of the Sun. They are applied in computing intermediate periodic orbits.
 
 ## Related Concepts
 

@@ -4,7 +4,7 @@ description: An autonomous navigation method for satellites in libration point o
 keywords: Liaison Navigation, autonomous navigation, orbit determination, measurement
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Liaison Navigation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An autonomous navigation method for satellites in libration point orbits propose
 
 ## Application Value
 
-[Translation needed for: 自主导航技术使航天器能够在没有地面测控支持的情况下确定自身位置和速度，对地月空间探测任务的长期运行至...]
+Autonomous navigation technology enables spacecraft to determine their own position and velocity without ground tracking support, which is essential to the long-term operation of cislunar exploration missions.
 
 ## Related Concepts
 

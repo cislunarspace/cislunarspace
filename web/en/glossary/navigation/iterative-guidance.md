@@ -4,7 +4,7 @@ description: Guidance method that iteratively solves optimal control problems du
 keywords: Iterative Guidance, navigation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Iterative Guidance
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Guidance method that iteratively solves optimal control problems during flight, 
 
 ## Application Value
 
-该制导方法在交会对接和着陆过程中用于实时轨迹优化。
+This guidance method is used for real-time trajectory optimization during rendezvous docking and landing.
 
 ## Related Concepts
 

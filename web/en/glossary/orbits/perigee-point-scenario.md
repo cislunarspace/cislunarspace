@@ -4,7 +4,7 @@ description: A baseline transfer configuration method for halo orbits that requi
 keywords: Perigee-Point Scenario
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Perigee-Point Scenario
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A baseline transfer configuration method for halo orbits that requires the manif
 
 ## Application Value
 
-在进行轨道转移设计时，This概念有助于评估转移代价和飞行时间，为任务方案比选provides定量依据。结合全局搜索算法，可找到多族解和帕累托前沿，指导轨道设计决策。
+When designing transfer trajectories, this concept helps evaluate transfer cost and flight time, providing a quantitative basis for comparing mission schemes. Combined with global search algorithms, families of solutions and Pareto fronts can be found to guide orbit design decisions.
 
 ## Related Concepts
 
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 临界轨道（Critical Orbit）
-- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Lunar Free-Return Orbit (LFO)
+- Critical Orbit
+- Quasi-Periodic Distant Retrograde Orbit (QPDRO)
 
 ## References
 

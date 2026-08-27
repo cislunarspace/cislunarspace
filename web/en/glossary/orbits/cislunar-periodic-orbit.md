@@ -4,7 +4,7 @@ description: A special class of resonance orbits in the Earth-Moon three-body sy
 keywords: Cislunar Periodic Orbit
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Cislunar Periodic Orbit
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A special class of resonance orbits in the Earth-Moon three-body system, lying i
 
 ## Application Value
 
-地月周期轨道是在地月空间中闭合的周期轨道，如DRO和NRHO，是未来地月空间站选址的依据。
+Cislunar periodic orbits are periodic orbits closed within cislunar space, such as DROs and NRHOs, and provide the basis for siting future cislunar space stations.
 
 ## Related Concepts
 

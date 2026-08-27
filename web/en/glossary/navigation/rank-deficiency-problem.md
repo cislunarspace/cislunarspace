@@ -4,7 +4,7 @@ description: In SST autonomous orbit determination, the state transition matrice
 keywords: Rank Deficiency Problem, navigation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Rank Deficiency Problem
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ In SST autonomous orbit determination, the state transition matrices of conventi
 
 ## Application Value
 
-在设计地月转移方案时，利用该轨道特性可降低任务总速度增量需求。在编目系统中，该技术可提高对空间目标的探测、跟踪和编目能力。精密定轨是实现地月空间导航的基础，决定了轨道预报精度。
+When designing Earth–Moon transfer schemes, exploiting this orbit characteristic reduces the total mission ΔV requirement. In cataloging systems, the technique improves the detection, tracking, and cataloging of space objects. Precise orbit determination is the foundation of cislunar space navigation and determines orbit prediction accuracy.
 
 ## Related Concepts
 

@@ -4,7 +4,7 @@ description: A navigation method that achieves absolute positioning through inte
 keywords: Libration Point Navigation, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Libration Point Navigation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A navigation method that achieves absolute positioning through inter-satellite l
 
 ## Application Value
 
-地月拉格朗日点navigationutilize L1/L2 引力不对称性through 星间链路achieve 绝对定位, is cislunar space自主navigation of important 体制.
+Libration point navigation achieves absolute positioning through inter-satellite links by exploiting L1/L2 gravitational asymmetry, and is an important mode of autonomous navigation in cislunar space.
 
 ## Related Concepts
 

@@ -4,7 +4,7 @@ description: "A latitudinal station-keeping strategy that applies small thrust i
 keywords: North-South Control, orbit design, transfer trajectory, periodic orbit
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: North-South Control
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A latitudinal station-keeping strategy that applies small thrust in the orbit-no
 
 ## Application Value
 
-[Translation needed for: 控制策略的设计直接影响航天器的任务表现和寿命，合理的控制方法可以在保证任务完成的同时最小化推进剂消耗...]
+The design of the control strategy directly affects spacecraft mission performance and lifetime; a sound control method minimizes propellant consumption while ensuring mission completion.
 
 ## Related Concepts
 

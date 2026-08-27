@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/kam-theory/
 ---
 
-# KAM Theory and Long-Term Stability（KAM理论与长期稳定性）
+# KAM Theory and Long-Term Stability
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

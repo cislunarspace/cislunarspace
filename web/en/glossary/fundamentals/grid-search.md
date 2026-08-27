@@ -4,7 +4,7 @@ description: A global optimization method that uniformly samples points in a par
 keywords: Grid Search, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Grid Search
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A global optimization method that uniformly samples points in a parameter space,
 
 ## Application Value
 
-在轨道动力学数值仿真中，该方法用于提高计算精度和效率. 通过合理的离散化策略，可以在保证数值稳定性的同时大幅减少计算量.
+In numerical simulations of orbital dynamics, the method improves computational accuracy and efficiency. With a well-chosen discretization strategy, the computational cost can be greatly reduced while numerical stability is preserved.
 
 ## Related Concepts
 
-- [同步旋转坐标系（Synodic Rotating Frame）](/en/glossary/fundamentals/synodic-frame/)
-- Gauss求积公式（Gauss Quadrature Formula）
-- 星座构型向量（Constellation Pattern Vector）
-- 着陆缓冲机构（Landing Impact Attenuation Mechanism）
+- [Synodic Rotating Frame](/en/glossary/fundamentals/synodic-frame/)
+- Gauss Quadrature Formula
+- Constellation Pattern Vector
+- Landing Impact Attenuation Mechanism
 
 ## References
 

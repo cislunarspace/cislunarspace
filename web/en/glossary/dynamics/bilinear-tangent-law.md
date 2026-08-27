@@ -4,7 +4,7 @@ description: The propellant-optimal thrust attitude law for landing in a uniform
 keywords: Bilinear Tangent Law
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Bilinear Tangent Law
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ The propellant-optimal thrust attitude law for landing in a uniform gravity fiel
 
 ## Application Value
 
-在航天器控制系统设计中，This方法可used for设计姿态控制律或制导律，achieves对航天器姿态和轨道的精确控制。在实际任务中，基于This方法的控制器能够提高姿态稳定性和轨迹跟踪精度。
+In spacecraft control system design, this method can be used to design attitude control laws or guidance laws, achieving precise control of spacecraft attitude and orbit. In practical missions, controllers based on this method improve attitude stability and trajectory tracking accuracy.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- 机动重构（Maneuver Reconstruction）
-- [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
-- 功能连接理论（Theory of Functional Connections）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- Maneuver Reconstruction
+- [Inner Frequencies](/glossary/dynamics/inner-frequencies/)
+- Theory of Functional Connections
 
 ## References
 

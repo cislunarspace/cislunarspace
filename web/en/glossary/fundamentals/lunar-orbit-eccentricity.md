@@ -4,7 +4,7 @@ description: The eccentricity of the Moon's orbit around the Earth ($e \approx 0
 keywords: Lunar Orbit Eccentricity, elliptic restricted three-body problem, ER3BP, Earth-Moon distance variation, eccentricity sensitivity analysis, transfer trajectory design
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lunar Orbit Eccentricity
   desc: $e \approx 0.0549$ — quantitative impact of the elliptical orbit on Earth-Moon transfer design.
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/fundamentals/lunar-orbit-eccentricity/
 ---
 
-# Lunar Orbit Eccentricity (月球轨道偏心率)
+# Lunar Orbit Eccentricity
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

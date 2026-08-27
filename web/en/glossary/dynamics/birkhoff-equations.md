@@ -4,7 +4,7 @@ description: A reformulation of the circular restricted three-body problem that 
 keywords: Birkhoff Equations
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Birkhoff Equations
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,11 +38,11 @@ Based on its definition, a reformulation of the circular restricted three-body p
 
 ## Related Concepts
 
-- 三体问题（Three-Body Problem）
-- 最优控制（Optimal Control）
-- 轨迹优化（Trajectory Optimization）
+- Three-Body Problem
+- Optimal Control
+- Trajectory Optimization
 
 ## References
 
 - Lunar capture trajectories and homoclinic connections through isomorphic mapping (Giancotti et al., 2012)
-- Pontani和Teofilatto - 2016 - Polyhedral representation of invariant manifolds applied to orbit transfers in the Earth–moon system
+- Pontani & Teofilatto - 2016 - Polyhedral representation of invariant manifolds applied to orbit transfers in the Earth–moon system

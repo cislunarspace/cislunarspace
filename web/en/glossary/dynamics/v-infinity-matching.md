@@ -4,7 +4,7 @@ description: A strategy that matches the hyperbolic excess velocities (v-infinit
 keywords: V-infinity Matching
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: V-infinity Matching
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ A strategy that matches the hyperbolic excess velocities (v-infinity) before and
 
 ## Application Value
 
-在v无穷匹配的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+In the design and analysis involving v-infinity matching, it can be used to optimize transfer schemes and reduce fuel consumption. This concept provides an important theoretical foundation for cislunar mission design. In practical engineering it can be used for orbit design, mission planning, and control system analysis.
 
 ## References
 

@@ -4,7 +4,7 @@ description: A canonical transformation method in Hamiltonian systems that const
 keywords: Lie Transformation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lie Transformation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,9 +33,9 @@ A canonical transformation method in Hamiltonian systems that constructs a gener
 
 ## Application Value
 
-该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+This concept provides an important theoretical foundation for cislunar mission design. In practical engineering it can be applied to orbit design, mission planning, or control system analysis.
 
 ## References
 
 - Orbital parameter characterization and objects cataloging for Earth-moon collinear libration points
-- Gómez 等 - 2001
+- Gómez et al. - 2001

@@ -4,7 +4,7 @@ description: In the restricted three-body problem, the two-dimensional tubular s
 keywords: Conley-McGehee Tube
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Conley-McGehee Tube
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ In the restricted three-body problem, the two-dimensional tubular structure form
 
 ## Application Value
 
-This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms.
+This term has important application value in cislunar space missions. In orbit design, it can be used for optimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understand the motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this term can improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ This term在cislunar space missions中has important application value. In orbit 
 
 ## References
 
-- Liang 等 - 2016 - The classification of cislunar trajectories and its applications in the Earth–moon system
+- Liang et al. - 2016 - The classification of cislunar trajectories and its applications in the Earth–moon system

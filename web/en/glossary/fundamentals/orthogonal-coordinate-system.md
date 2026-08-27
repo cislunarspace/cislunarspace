@@ -4,7 +4,7 @@ description: "A coordinate system defined by radial and chord unit vectors, used
 keywords: Orthogonal coordinate system
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Orthogonal coordinate system
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,9 +38,9 @@ Based on its definition, a coordinate system defined by radial and chord unit ve
 
 ## Related Concepts
 
-- 轨道力学（Orbital Mechanics）
-- 坐标系（Coordinate Frame）
-- 积分（Integration）
+- Orbital Mechanics
+- Coordinate Frame
+- Integration
 
 ## References
 

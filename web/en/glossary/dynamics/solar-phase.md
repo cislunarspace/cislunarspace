@@ -4,7 +4,7 @@ description: The angle β between the Earth-Moon line and the ecliptic, determin
 keywords: Solar Phase
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Solar Phase
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ The angle β between the Earth-Moon line and the ecliptic, determining the posit
 
 ## Application Value
 
-在太阳相位的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+In the design and analysis involving the solar phase, it can be used to optimize transfer schemes and reduce fuel consumption. This concept provides an important theoretical foundation for cislunar mission design. In practical engineering it can be used for orbit design, mission planning, and control system analysis.
 
 ## References
 

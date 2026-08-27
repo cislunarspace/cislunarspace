@@ -4,7 +4,7 @@ description: An arrival mode in which the Earth-Moon transfer flight time is les
 keywords: Short-Reach Arrival
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Short-Reach Arrival
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,9 +38,9 @@ Based on its definition, an arrival mode in which the earth-moon transfer flight
 
 ## Related Concepts
 
-- 周期轨道（Periodic Orbit）
-- 平动点轨道（Libration Point Orbit）
-- 轨道转移（Orbit Transfer）
+- Periodic Orbit
+- Libration Point Orbit
+- Orbit Transfer
 
 ## References
 

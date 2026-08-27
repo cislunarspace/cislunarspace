@@ -4,7 +4,7 @@ description: A numerical method that tracks a family of periodic orbits continuo
 keywords: Stream Function Method
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Stream Function Method
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A numerical method that tracks a family of periodic orbits continuously by varyi
 
 ## Application Value
 
-在周期轨道设计中，该指标用于评估轨道的有界性和长期稳定性，指导轨道维持策略的制定。
+In periodic orbit design, this indicator is used to assess the boundedness and long-term stability of an orbit, guiding the formulation of stationkeeping strategies.
 
 ## Related Concepts
 

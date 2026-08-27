@@ -4,7 +4,7 @@ description: A set of transfer trajectories with similar geometry and clustered 
 keywords: Grouping of Transfers, orbit design, transfer trajectory, periodic orbit
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Grouping of Transfers
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A set of transfer trajectories with similar geometry and clustered around simila
 
 ## Application Value
 
-[Translation needed for: 轨道转移设计是任务成败的关键环节，合理选择转移策略可以显著降低速度增量需求，提高任务经济性。...]
+Transfer trajectory design is a critical factor in mission success; a well-chosen transfer strategy significantly reduces the velocity increment requirement and improves mission cost-effectiveness.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ A set of transfer trajectories with similar geometry and clustered around simila
 
 ## References
 
-- Haapala和Howell, 2016
+- Haapala & Howell, 2016

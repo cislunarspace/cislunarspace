@@ -4,7 +4,7 @@ description: "过月球中心且垂直于月球自转轴的平面，作为月固
 keywords: 月球赤道面, Lunar Equatorial Plane, 基础概念, 轨道力学, 坐标系统
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lunar Equatorial Plane
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,13 +34,13 @@ The plane passing through the Moon's center perpendicular to the lunar rotation 
 
 ## Application Value
 
-月球赤道面是地月空间研究的基础概念，为理解更复杂的航天器动力学问题提供了理论支撑 在实际工程应用中，月球赤道面的准确计算和分析对于任务成功至关重要 掌握月球赤道面的概念有助于工程师进行轨道设计和任务规划 月球赤道面为航天器轨道力学研究提供了基本框架，是进一步学习高级概念的基础
+The lunar equatorial plane is a foundational concept in cislunar space research, laying the groundwork for understanding more complex spacecraft dynamics problems. In engineering practice, accurate computation and analysis of the lunar equatorial plane are critical to mission success. A solid grasp of this concept helps engineers carry out orbit design and mission planning. It provides a basic frame of reference for the study of spacecraft orbital mechanics and paves the way for advanced concepts.
 
 ## Related Concepts
 
-- Bang推力剖面
-- 春分点
-- L1同伦法
+- Bang-bang thrust profile
+- Equinox
+- L1 homotopy method
 
 ## References
 

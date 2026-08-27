@@ -4,7 +4,7 @@ description: A functional constructed via TFC that always satisfies prescribed b
 keywords: Constrained Functional, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Constrained Functional
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A functional constructed via TFC that always satisfies prescribed boundary const
 
 ## Application Value
 
-constraint泛函由 TFC 框架构造, 始终满足预先specify of boundaryconstraintcondition. In constraintprocess中, constraint泛函提供了一种willboundarycondition嵌入targetfunction of method.
+The constrained functional is constructed within the TFC framework, always satisfying the prescribed boundary constraint conditions. In the solution process, the constrained functional provides a way to embed boundary conditions into the target function.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ constraint泛函由 TFC 框架构造, 始终满足预先specify of boundaryconst
 
 ## References
 
-- Criscola等 - 2024
+- Criscola et al. - 2024

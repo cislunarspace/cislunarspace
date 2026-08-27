@@ -38,9 +38,9 @@ Based on its definition, an umbrella term for periodic orbits in the earth-moon 
 
 ## Related Concepts
 
-- 周期轨道（Periodic Orbit）
-- 平动点轨道（Libration Point Orbit）
-- 轨道转移（Orbit Transfer）
+- Periodic Orbit
+- Libration Point Orbit
+- Orbit Transfer
 
 ## References
 

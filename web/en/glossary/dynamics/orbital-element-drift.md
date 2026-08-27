@@ -1,4 +1,4 @@
-﻿---
+---
 title: Orbital Element Drift (轨道根数漂移)
 description: The slow, continuous change of spacecraft orbital elements over time due to perturbing forces — non-spherical gravity, third-body perturbations, atmospheric drag, and solar radiation pressure. In lunar orbit, RAAN drift is dominated by the Moon's higher-order gravity field ($J_2, J_3, \dots$), while periapsis rotation is influenced by Earth's third-body perturbation — jointly determining the long-term viability of parking orbits and rendezvous windows.
 keywords: Orbital Element Drift, osculating elements, secular perturbation, RAAN drift, periapsis rotation, lunar non-spherical gravity, third-body perturbation, frozen orbit, parking orbit design
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/orbital-element-drift/
 ---
 
-# Orbital Element Drift (轨道根数漂移)
+# Orbital Element Drift
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

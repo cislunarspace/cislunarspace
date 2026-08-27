@@ -4,7 +4,7 @@ description: An observation scheme where multiple satellites alternate to mainta
 keywords: Relay Observation, Relay Observation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Relay Observation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An observation scheme where multiple satellites alternate to maintain continuous
 
 ## Application Value
 
-在观测系统设计中，需要考虑传感器性能、观测几何和数据处理方法。该概念支撑目标检测、跟踪和识别等任务。
+In observation system design, sensor performance, observation geometry, and data processing methods must be considered. This concept supports tasks such as target detection, tracking, and identification.
 
 ## Related Concepts
 

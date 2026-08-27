@@ -4,7 +4,7 @@ description: "Direct communication between lunar far side and Earth via a relay 
 keywords: Far Side Communication, communication
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Far Side Communication
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Direct communication between lunar far side and Earth via a relay satellite in E
 
 ## Application Value
 
-Far Side Communication is cislunar space 通信系统 关键技术之一。在实际任务中，该技术可用于保障星间/星地通信链路、传递时空基准信息或扩展通信覆盖范围， for cislunar space 任务提供可靠 通信保障。
+Far Side Communication is one of the key technologies of cislunar space communication systems. In practical missions, it safeguards inter-satellite and satellite-ground links, relays spatiotemporal reference information, and extends communication coverage, providing reliable communication support for cislunar space missions.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ Far Side Communication is cislunar space 通信系统 关键技术之一。在�
 
 ## References
 
-- （暂无参考文献）
+- (No references available)

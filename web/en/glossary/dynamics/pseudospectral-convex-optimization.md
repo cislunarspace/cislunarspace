@@ -4,7 +4,7 @@ description: Trajectory optimization technique that discretizes optimal control 
 keywords: Pseudospectral Convex Optimization, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Pseudospectral Convex Optimization
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Trajectory optimization technique that discretizes optimal control problems usin
 
 ## Application Value
 
-在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗。该优化方法计算效率高，适合处理带约束的轨迹优化问题。
+In the orbit design phase, the method can solve for low-energy transfer trajectories while reducing propellant consumption. The optimization method is computationally efficient and suited to constrained trajectory optimization problems.
 
 ## Related Concepts
 

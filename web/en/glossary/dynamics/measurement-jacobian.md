@@ -4,7 +4,7 @@ description: A matrix describing the local sensitivity of measurements to system
 keywords: Measurement Jacobian, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Measurement Jacobian
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A matrix describing the local sensitivity of measurements to system states, defi
 
 ## Application Value
 
-该矩阵在可观测性分析和滤波器设计中起关键作用。在编目系统中，该技术可提高对空间目标的探测、跟踪和编目能力。
+This matrix plays a key role in observability analysis and filter design. In cataloging systems, this technique improves the ability to detect, track, and catalog space objects.
 
 ## Related Concepts
 

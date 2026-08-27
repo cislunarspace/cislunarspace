@@ -4,7 +4,7 @@ description: The tubular topological structure formed by invariant manifolds of 
 keywords: Tube Structure
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Tube Structure
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The tubular topological structure formed by invariant manifolds of small-amplitu
 
 ## Application Value
 
-管状结构描述动力学系统中不变流形形成的管状通道，轨道设计师利用管状结构规划低能转移路径。
+The tube structure describes tubular channels formed by invariant manifolds in a dynamical system; orbit designers exploit this structure to plan low-energy transfer paths.
 
 ## Related Concepts
 

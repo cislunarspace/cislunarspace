@@ -4,7 +4,7 @@ description: A multi-stage strategy for solving optimal control problems. Stage 
 keywords: Staggered Optimization
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Staggered Optimization
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,9 +38,9 @@ Based on its definition, a multi-stage strategy for solving optimal control prob
 
 ## Related Concepts
 
-- 轨道力学（Orbital Mechanics）
-- 坐标系（Coordinate Frame）
-- 积分（Integration）
+- Orbital Mechanics
+- Coordinate Frame
+- Integration
 
 ## References
 

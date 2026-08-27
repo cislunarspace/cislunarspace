@@ -34,13 +34,13 @@ A perturbation method for small control magnitude (low thrust) that uses the tru
 
 ## Application Value
 
-在平均化方法的分析中，可用于轨道传播和机动设计，帮助工程师评估航天器在不同动力学环境下的运动特性 该概念为地月空间任务设计提供了理论基础，尤其在平动点轨道设计和低能转移分析中具有重要应用价值 利用平均化方法进行轨迹优化，可以有效降低任务燃料消耗，提高任务经济效益 在任务设计中，平均化方法的分析有助于理解航天器在复杂引力场中的行为，指导轨道保持策略的制定
+in analyses involving the averaging method, it can be applied to orbit propagation and maneuver design, helping engineers evaluate spacecraft motion characteristics across different dynamical environments. this concept provides an important theoretical foundation for cislunar mission design, and is of significant value in libration point orbit design and low-energy transfer analysis. using the averaging method for trajectory optimization can effectively reduce mission fuel consumption and improve mission economics. in mission design, analysis with the averaging method helps understand spacecraft behavior in complex gravity fields and guides the formulation of station-keeping strategies
 
 ## Related Concepts
 
-- 微分代数
-- 羽流冲击
-- 动量积分
+- Differential Algebra
+- Plume Impingement
+- Momentum Integral
 
 ## References
 

@@ -4,7 +4,7 @@ description: "A set of transfer trajectories sharing similar dynamical character
 keywords: Transfer Family
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Transfer Family
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -41,9 +41,9 @@ The Transfer Family plays a significant role in cislunar space mission design, a
 - Football Orbit
 - [Orbit Chain](/en/glossary/orbits/orbit-chain/)
 - Prograde Polar Orbit
-- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
+- Eccentricity/Inclination Vector Separation
 
 ## References
 
 - Scott and Spencer, 2010, JGCD, DOI:10.2514/1.47791
-- Ren 等 - 2020
+- Ren et al. - 2020

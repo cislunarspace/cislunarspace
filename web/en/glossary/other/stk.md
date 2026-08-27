@@ -4,7 +4,7 @@ description: A commercial space mission analysis software developed by Analytica
 keywords: Satellite Tool Kit, other
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Satellite Tool Kit
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A commercial space mission analysis software developed by Analytical Graphics, I
 
 ## Application Value
 
-The 卫星工具包 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Satellite Tool Kit concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

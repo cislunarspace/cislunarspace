@@ -4,7 +4,7 @@ description: Region of the initial costate locus where S>12, corresponding to mu
 keywords: Spiral Region, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Spiral Region
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ Region of the initial costate locus where S>12, corresponding to multi-revolutio
 
 ## Application Value
 
-在轨道设计和转移轨道优化中，该方法用于确定最优转移时机和轨道形状，以最小化燃料消耗或飞行时间. 通过数值仿真和迭代优化，可获得满足任务约束的可行轨道方案.
+In orbit design and transfer trajectory optimization, the method determines the optimal transfer timing and orbit shape while minimizing fuel consumption or flight time. Through numerical simulation and iterative optimization, feasible orbit solutions satisfying mission constraints can be obtained.
 
 ## Related Concepts
 
-- [Hill 模型（Hill Model）](/en/glossary/dynamics/hill-region-and-hill-problem/)
-- [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/en/glossary/dynamics/spacecraft-formation-flying/)
-- [受摄Lambert问题（Perturbational Lambert Problem）](/en/glossary/fundamentals/lamberts-problem/)
-- 探测器定位（Probe Targeting）
+- [Hill Model](/en/glossary/dynamics/hill-region-and-hill-problem/)
+- [Formation Fixed Relative to Inertial Frame](/en/glossary/dynamics/spacecraft-formation-flying/)
+- [Perturbational Lambert Problem](/en/glossary/fundamentals/lamberts-problem/)
+- Probe Positioning
 
 ## References
 

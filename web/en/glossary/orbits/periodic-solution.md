@@ -4,7 +4,7 @@ description: The bounded solution in the fundamental solution set of linearized 
 keywords: Periodic Solution, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Periodic Solution
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The bounded solution in the fundamental solution set of linearized relative moti
 
 ## Application Value
 
-周期解corresponding同一条 DRO 上相位略有different of 伴飞编队, 副星 and 主星maintain固定relative位置关系, is DRO 近distance自然伴飞编队 of 力学foundation.
+The periodic solution corresponds to co-orbital formation flight on the same DRO with a small phase offset, where the deputy and the chief maintain a fixed relative position; it forms the dynamical basis for DRO close-range natural formation flight.
 
 ## Related Concepts
 
@@ -47,4 +47,4 @@ The bounded solution in the fundamental solution set of linearized relative moti
 
 - Yang et al. 2023
 - Yang, Fu & Zhang 2023
-- Meyer和Offin - 2017
+- Meyer and Offin - 2017

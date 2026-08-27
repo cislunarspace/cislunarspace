@@ -4,7 +4,7 @@ description: An indirect phasing strategy in which the spacecraft transfers tang
 keywords: DRO-Lyapunov-DRO Transition Phasing, DLD, dynamics
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: DRO-Lyapunov-DRO Transition Phasing, DLD
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An indirect phasing strategy in which the spacecraft transfers tangentially from
 
 ## Application Value
 
-The DRO经Lyapunov轨道过渡调相 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The DRO-Lyapunov-DRO transition phasing (DLD) concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 
@@ -42,4 +42,4 @@ The DRO经Lyapunov轨道过渡调相 concept is applied in cislunar space resear
 
 ## References
 
-- 地月远距离逆行轨道脉冲调相方法
+- DRO impulsive phasing method for cislunar distant retrograde orbits

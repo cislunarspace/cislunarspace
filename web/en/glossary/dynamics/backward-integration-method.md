@@ -4,7 +4,7 @@ description: A trajectory computation method that starts from the terminal state
 keywords: Backward Integration Method
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Backward Integration Method
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A trajectory computation method that starts from the terminal state of a known o
 
 ## Application Value
 
-反向积分法从终点向前积分求解轨道问题，是边值问题求解的常用方法之一。
+The backward integration method solves the orbital problem by integrating from the terminal state backward in time, making it one of the common approaches for boundary-value problems.
 
 ## Related Concepts
 

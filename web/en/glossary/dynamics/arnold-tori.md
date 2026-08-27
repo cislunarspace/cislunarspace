@@ -4,7 +4,7 @@ description: Phase space structure composed of invariant tori in nearly integrab
 keywords: Arnold Tori, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Arnold Tori
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Phase space structure composed of invariant tori in nearly integrable Hamiltonia
 
 ## Application Value
 
-共振轨道可用于设计长期稳定的任务轨道，减少轨道维持代价。
+Resonant orbits can help design long-term stable mission orbits and reduce station-keeping costs.
 
 ## Related Concepts
 

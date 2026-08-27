@@ -4,7 +4,7 @@ description: A technique that adds a small constant εT to the thrust magnitude 
 keywords: Mass Leak Technique
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Mass Leak Technique
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ A technique that adds a small constant εT to the thrust magnitude formula T=√
 
 ## Application Value
 
-为航天器的精确控制提供理论依据，确保任务执行的可靠性 结合数值优化算法，可实现高性能的轨迹规划 用于评估导航系统的精度上限，指导滤波器设计。
+It provides the theoretical basis for precise spacecraft control and helps ensure mission reliability. Combined with numerical optimization algorithms, it enables high-performance trajectory planning. It is also used to evaluate the accuracy upper bound of navigation systems and guide filter design.
 
 ## References
 

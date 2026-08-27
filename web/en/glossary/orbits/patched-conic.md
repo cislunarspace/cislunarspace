@@ -4,7 +4,7 @@ description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的�
 keywords: 拼接圆锥, Patched Conic, 轨道, 轨道设计, 转移轨道
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Patched Conic
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A classical method of forming complete transfer trajectories by patching multipl
 
 ## Application Value
 
-拼接圆锥是地月空间轨道设计中的重要参考轨型，可用于目标轨道选择和转移方案设计 在实际任务中，基于拼接圆锥的轨道设计能够满足特定的任务约束，如通信仰角、覆盖范围和燃料最优等要求 利用拼接圆锥的特性，可以优化转移轨道设计，实现从地球到月球的高效转移 拼接圆锥为月球探测任务提供了多样化的轨道选择方案，有助于任务的灵活规划
+The patched conic is an important reference trajectory type in cislunar orbit design, applicable to target orbit selection and transfer scheme design. In actual missions, orbit designs based on the patched conic can satisfy specific mission constraints such as communication elevation angle, coverage, and fuel optimality. Exploiting the characteristics of the patched conic enables optimized transfer trajectory design for efficient Earth-to-Moon transfers. The patched conic provides diverse orbit options for lunar exploration missions and supports flexible mission planning.
 
 ## Related Concepts
 
-- [月心段](/en/glossary/orbits/selenocentric-segment/)
-- 垂直振幅
-- [z方向运动振幅](/en/glossary/orbits/zm/)
+- [Selenocentric Segment](/en/glossary/orbits/selenocentric-segment/)
+- Out-of-plane amplitude
+- [z-direction Motion Amplitude](/en/glossary/orbits/zm/)
 
 ## References
 
-- Campana 等 - 2024 - Low-energy earth–moon transfers via theory of functional connections and homotopy
+- Campana et al. - 2024 - Low-energy earth–moon transfers via theory of functional connections and homotopy

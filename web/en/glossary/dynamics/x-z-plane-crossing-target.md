@@ -4,7 +4,7 @@ description: The core constraint formulation in the Optimal Continuation Strateg
 keywords: x-z Plane Crossing Target, orbital dynamics, trajectory optimization, celestial mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: x-z Plane Crossing Target
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The core constraint formulation in the Optimal Continuation Strategy. Position o
 
 ## Application Value
 
-[Translation needed for: 轨道面变更机动是轨道控制中的高能耗操作，通常需要精心设计机动策略以节约推进剂。...]
+Plane-change maneuvers are among the most energy-intensive operations in orbit control, usually requiring carefully designed maneuver strategies to save propellant.
 
 ## Related Concepts
 

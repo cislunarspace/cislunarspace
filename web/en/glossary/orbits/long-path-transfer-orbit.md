@@ -4,7 +4,7 @@ description: One of two solution categories in the Lambert problem. The arc angl
 keywords: Long-Path Transfer Orbit, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Long-Path Transfer Orbit
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ One of two solution categories in the Lambert problem. The arc angle from depart
 
 ## Application Value
 
-在设计地月转移方案时，利用该轨道特性可降低任务总速度增量需求。Lambert问题是轨道转移设计的基础，可求解两点边值问题。
+When designing Earth–Moon transfer schemes, exploiting this orbit characteristic reduces the total mission ΔV requirement. The Lambert problem is the foundation of orbit transfer design and can solve two-point boundary value problems.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ One of two solution categories in the Lambert problem. The arc angle from depart
 
 ## References
 
-- Shen和Tsiotras - 2003 - Optimal two-impulse rendezvous using multiple-revolution lambert solutions
+- Shen & Tsiotras - 2003 - Optimal two-impulse rendezvous using multiple-revolution lambert solutions

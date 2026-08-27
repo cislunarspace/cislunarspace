@@ -4,7 +4,7 @@ description: The Floquet modal method is a libration point stationkeeping strate
 keywords: Floquet modal method, stationkeeping, libration point, unstable mode cancellation, orbit balancing, orbit continuation, impulse control, ARTEMIS, quasi-Floquet transformation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Floquet Modal Method and Libration Point Stationkeeping
   desc: "Floquet-theory-based libration point stationkeeping: from unstable mode cancellation to orbit continuation."
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/floquet-modal-method/
 ---
 
-# Floquet Modal Method and Libration Point Stationkeeping（Floquet模态法与平动点轨道保持）
+# Floquet Modal Method and Libration Point Stationkeeping
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

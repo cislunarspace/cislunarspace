@@ -4,7 +4,7 @@ description: Refers to three-body systems governed by different primary bodies, 
 keywords: Heterospace System
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Heterospace System
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ Refers to three-body systems governed by different primary bodies, such as the S
 
 ## Application Value
 
-在轨道力学分析和任务设计中，This概念为轨道特性评估和方案比选provides理论依据，有助于优化轨道设计参数，提高任务经济性。
+In orbital mechanics analysis and mission design, this concept provides the theoretical basis for evaluating orbit characteristics and comparing design options, helping optimize orbit design parameters and improve mission cost-effectiveness.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 临界轨道（Critical Orbit）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Lunar Free-Return Orbit, LFO
+- Critical Orbit
 
 ## References
 

@@ -4,7 +4,7 @@ description: 地月转移轨道中从EML1平动点出发、最终到达月球轨
 keywords: 月心段, Selenocentric Segment, 轨道, 轨道设计, 转移轨道
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Selenocentric Segment
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ The selenocentric dynamic flight segment of Earth-Moon transfer trajectory, from
 
 ## Application Value
 
-月心段是地月空间轨道设计中的重要参考轨型，可用于目标轨道选择和转移方案设计 在实际任务中，基于月心段的轨道设计能够满足特定的任务约束，如通信仰角、覆盖范围和燃料最优等要求 利用月心段的特性，可以优化转移轨道设计，实现从地球到月球的高效转移 月心段为月球探测任务提供了多样化的轨道选择方案，有助于任务的灵活规划
+The selenocentric segment is an important reference trajectory type in cislunar orbit design, applicable to target orbit selection and transfer scheme design. In actual missions, orbit designs based on the selenocentric segment can satisfy specific mission constraints such as communication elevation angle, coverage, and fuel optimality. Exploiting the characteristics of the selenocentric segment enables optimized transfer trajectory design for efficient Earth-to-Moon transfers. The selenocentric segment provides diverse orbit options for lunar exploration missions and supports flexible mission planning.
 
 ## Related Concepts
 
-- 垂直振幅
-- [z方向运动振幅](/en/glossary/orbits/zm/)
-- 锥角
+- Out-of-plane amplitude
+- [z-direction Motion Amplitude](/en/glossary/orbits/zm/)
+- Cone Angle
 
 ## References
 
-- Minimum-fuel low-thrust trajectories to the moon (Yoon和Petukhov, 2023)
+- Minimum-fuel low-thrust trajectories to the moon (Yoon and Petukhov, 2023)

@@ -4,7 +4,7 @@ description: The time a chaser spends waiting on a parking orbit to establish a 
 keywords: Wait Time, navigation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Wait Time
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The time a chaser spends waiting on a parking orbit to establish a favorable pha
 
 ## Application Value
 
-The 等待时间 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Waiting Time concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

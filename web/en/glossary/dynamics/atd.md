@@ -4,7 +4,7 @@ description: A trajectory design reference catalog developed collaboratively by 
 keywords: Adaptive Trajectory Design Catalog, dynamics
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Adaptive Trajectory Design Catalog
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A trajectory design reference catalog developed collaboratively by Purdue Univer
 
 ## Application Value
 
-The 自适应轨迹设计目录 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Adaptive Trajectory Design Catalog concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

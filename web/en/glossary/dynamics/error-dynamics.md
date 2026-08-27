@@ -4,7 +4,7 @@ description: "The evolution equation describing the deviation between the spacec
 keywords: Error Dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Error Dynamics
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,15 +34,15 @@ The evolution equation describing the deviation between the spacecraft's actual 
 
 ## Application Value
 
-在轨道设计阶段，可usingThis轨道类型构建候选轨道池，为星座部署和任务轨道选择provides参考。在轨运行时，This轨道特性可used for轨道维持策略设计，降低推进剂消耗。在轨道转移规划中，其稳定流形结构可指导低能量转移走廊的搜索。
+in the orbit design phase, this orbit type can be used to build a candidate orbit pool, providing a reference for constellation deployment and mission orbit selection. during operations, its orbit characteristics can be used to design station-keeping strategies and reduce propellant consumption. in transfer planning, its stable manifold structure can guide the search for low-energy transfer corridors.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 临界轨道（Critical Orbit）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Lunar Free-Return Orbit (LFO)
+- Critical Orbit
 
 ## References
 
-- 徐明和徐世杰 - 2008 - Halo轨道维持的线性周期控制策略
+- Xu Ming & Xu Shijie - 2008 - Linear periodic control strategy for Halo orbit station-keeping

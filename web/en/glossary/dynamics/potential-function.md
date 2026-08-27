@@ -4,7 +4,7 @@ description: In the rotating frame of the CR3BP, the scalar function U = G(m_E/r
 keywords: Potential Function, orbital dynamics, trajectory optimization, celestial mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Potential Function
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ In the rotating frame of the CR3BP, the scalar function U = G(m_E/r_E + m_M/r_M)
 
 ## Application Value
 
-[Translation needed for: 函数形式的分析是理解动力学系统行为的有效工具。...]
+Analyzing the form of this function is an effective tool for understanding the behavior of dynamical systems.
 
 ## Related Concepts
 

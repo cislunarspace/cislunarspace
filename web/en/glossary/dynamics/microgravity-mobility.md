@@ -4,7 +4,7 @@ description: Mobility technology in microgravity environments where weak gravita
 keywords: Microgravity Mobility, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Microgravity Mobility
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Mobility technology in microgravity environments where weak gravitational fields
 
 ## Application Value
 
-微重力环境下传统move方式受限, 跳跃式平台 is 一种可行 of move方案. In lunar表面探测中, 微重力机动 of designneed考虑地形和can源constraint.
+In microgravity environments, conventional mobility modes are constrained; hopping platforms are a viable mobility solution. In lunar surface exploration, microgravity mobility design must account for terrain and power constraints.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ Mobility technology in microgravity environments where weak gravitational fields
 
 ## References
 
-- Starek 等 - 2016 - Spacecraft autonomy challenges for next-generation space missions
+- Starek et al. - 2016 - Spacecraft autonomy challenges for next-generation space missions

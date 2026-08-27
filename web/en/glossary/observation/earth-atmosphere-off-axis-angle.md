@@ -4,7 +4,7 @@ description: "The angle between the camera boresight and the tangent line from t
 keywords: Earth-Atmosphere Off-Axis Angle
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Earth-Atmosphere Off-Axis Angle
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ The angle between the camera boresight and the tangent line from the satellite c
 
 ## Application Value
 
-在导航系统设计中，This技术可used forachieves航天器自主导航定位，减少对地面测控的依赖。through优化观测几何和算法精度，可提高导航定位的准确性和可靠性。
+In navigation system design, this technology enables autonomous spacecraft navigation and positioning while reducing dependence on ground tracking. By optimizing observation geometry and algorithm accuracy, the accuracy and reliability of navigation and positioning can be improved.
 
 ## Related Concepts
 
-- [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
-- 帧叠加（Frame Stacking）
-- 体积去相干（Volume Decorrelation）
-- 观测相位角（Observation Phase Angle）
+- [Valuable Region](/glossary/observation/valuable-region/)
+- Frame Stacking
+- Volume Decorrelation
+- Observation Phase Angle
 
 ## References
 

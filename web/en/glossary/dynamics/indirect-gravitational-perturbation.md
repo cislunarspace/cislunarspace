@@ -4,7 +4,7 @@ description: 第三天体对中心天体的引力导致参考系非惯性而产�
 keywords: 间接引力, Indirect Gravitational Perturbation, 轨道动力学, 三体问题, 平动点
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Indirect Gravitational Perturbation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,13 +34,13 @@ The equivalent force arising from the non-inertial nature of a reference frame c
 
 ## Application Value
 
-在间接引力的分析中，可用于轨道传播和机动设计，帮助工程师评估航天器在不同动力学环境下的运动特性 该概念为地月空间任务设计提供了理论基础，尤其在平动点轨道设计和低能转移分析中具有重要应用价值 利用间接引力进行轨迹优化，可以有效降低任务燃料消耗，提高任务经济效益 在任务设计中，间接引力的分析有助于理解航天器在复杂引力场中的行为，指导轨道保持策略的制定
+In analyses involving indirect gravity, it can be applied to orbit propagation and maneuver design, helping engineers evaluate spacecraft motion characteristics across different dynamical environments. This concept provides the theoretical basis for cislunar mission design, with significant application value especially in libration point orbit design and low-energy transfer analysis. Using indirect gravity for trajectory optimization can effectively reduce mission fuel consumption and improve mission cost-effectiveness. In mission design, analyzing indirect gravity helps understand spacecraft behavior in complex gravitational fields and guides the formulation of station-keeping strategies.
 
 ## Related Concepts
 
-- 微分代数
-- 羽流冲击
-- 动量积分
+- Differential Algebra
+- Plume Impingement
+- Momentum Integral
 
 ## References
 

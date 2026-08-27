@@ -4,7 +4,7 @@ description: An optimization framework that decomposes multi-phase trajectories 
 keywords: Multiple-Shooting Differential Dynamic Programming, MDDP, dynamics
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Multiple-Shooting Differential Dynamic Programming, MDDP
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An optimization framework that decomposes multi-phase trajectories into independ
 
 ## Application Value
 
-The 多重打靶差分动态规划 concept provides technical support and analytical methods for cislunar space research and lunar exploration missions.
+The multiple-shooting differential dynamic programming concept provides technical support and analytical methods for cislunar space research and lunar exploration missions.
 
 ## Related Concepts
 

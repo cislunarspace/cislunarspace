@@ -4,7 +4,7 @@ description: The dynamical mechanism by which a spacecraft is naturally captured
 keywords: ballistic capture, temporary capture, permanent capture, weak stability boundary, low-energy capture, WSB, Belbruno, Earth-Moon capture, lunar capture energy, invariant manifold, Conley theorem, Three-Body Problem
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: 弹道捕获（Ballistic Capture）
   desc: Dynamical mechanism of capture without retro-burn
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/ballistic-capture/
 ---
 
-# Ballistic Capture (弹道捕获)
+# Ballistic Capture
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
@@ -158,9 +158,9 @@ In the numerical construction of ballistic capture, perturbing a libration point
 
 - Oshima et al., 2017, Permanent capture and escape in the Earth-Moon system, *Celest. Mech. Dyn. Astron.*
 
-- 徐明 (Xu Ming), 2010, Conditions and trajectory construction for Earth-Moon low-energy transfer, *Science China*
+- Xu Ming, 2010, Conditions and trajectory construction for Earth-Moon low-energy transfer, *Science China*
 
-- 李翔宇, 乔栋, 程潏 (Li, Qiao, & Cheng), 2021, Progress of three-body orbital dynamics study, *Advances in Mechanics*
+- Li, Qiao, & Cheng, 2021, Progress of three-body orbital dynamics study, *Advances in Mechanics*
 
 - Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press
 

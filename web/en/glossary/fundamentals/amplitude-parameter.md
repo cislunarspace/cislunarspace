@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/fundamentals/amplitude-parameter/
 ---
 
-# Amplitude Parameter & Phase Parameter (振幅参数与相位参数)
+# Amplitude Parameter & Phase Parameter
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

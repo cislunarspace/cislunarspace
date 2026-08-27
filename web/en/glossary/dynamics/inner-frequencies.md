@@ -4,7 +4,7 @@ description: The proper frequencies of motion near triangular libration points, 
 keywords: Inner Frequencies
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Inner Frequencies
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,15 +34,15 @@ The proper frequencies of motion near triangular libration points, generalizing 
 
 ## Application Value
 
-This术语在地月空间任务的设计、分析和控制中具有important应用价值，为相关技术领域的研究和工程实践provides理论支撑。
+This term has important application value in the design, analysis, and control of cislunar missions, providing theoretical support for research and engineering practice in related fields.
 
 ## Related Concepts
 
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
-- 推进制动返回（Propulsive Braking Return）
-- [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Quasi-Periodic Distant Retrograde Orbit, QPDRO
+- Propulsive Braking Return
+- [Valuable Region](/glossary/observation/valuable-region/)
 
 ## References
 
-- Gómez 等 - 2001
+- Gómez et al. - 2001

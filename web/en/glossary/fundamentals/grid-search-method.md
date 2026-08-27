@@ -4,7 +4,7 @@ description: A method that searches for feasible trajectories by uniformly discr
 keywords: Grid Search Method
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Grid Search Method
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ A method that searches for feasible trajectories by uniformly discretizing initi
 
 ## Related Concepts
 
-- （暂无相关概念）
+- (No related concepts yet)
 
 ## References
 

@@ -4,7 +4,7 @@ description: 轨迹中发动机关闭的自由飞行区段。小推力最优轨�
 keywords: 滑行弧, Coast Arc, 基础概念, 轨道力学, 坐标系统
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Coast Arc
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,13 +34,13 @@ Segments of a trajectory where the engine is off and the spacecraft coasts freel
 
 ## Application Value
 
-滑行弧是地月空间研究的基础概念，为理解更复杂的航天器动力学问题提供了理论支撑 在实际工程应用中，滑行弧的准确计算和分析对于任务成功至关重要 掌握滑行弧的概念有助于工程师进行轨道设计和任务规划 滑行弧为航天器轨道力学研究提供了基本框架，是进一步学习高级概念的基础
+The coast arc is a foundational concept in cislunar space research, laying the groundwork for understanding more complex spacecraft dynamics problems. In engineering practice, accurate computation and analysis of coast arcs are critical to mission success. A solid grasp of the coast arc concept helps engineers carry out orbit design and mission planning. The coast arc provides a basic framework for the study of spacecraft orbital mechanics and paves the way for advanced concepts.
 
 ## Related Concepts
 
-- Bang推力剖面
-- 春分点
-- L1同伦法
+- Bang-bang thrust profile
+- Equinox
+- L1 homotopy method
 
 ## References
 

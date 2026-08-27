@@ -4,7 +4,7 @@ description: 周期轨道在轨道平面法向上的最大偏移量，记作Az�
 keywords: 轨道振幅, Orbital Amplitude, 导航, 定轨, 星间链路
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Orbital Amplitude
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,13 +34,13 @@ The maximum out-of-plane displacement of a periodic orbit, denoted Az. The orbit
 
 ## Application Value
 
-轨道振幅技术为地月空间航天器提供精确的定位能力，是实现自主导航的关键技术之一 在实际任务中，利用轨道振幅可以有效提高定轨精度，降低对地面测控系统的依赖 轨道振幅的研究对于构建地月空间导航基础设施具有重要意义 通过轨道振幅，航天器能够在复杂的空间环境中实现精确自主定位，支撑月球及更远深空的探测任务
+Orbital amplitude technology provides precise positioning capability for spacecraft in cislunar space and is one of the key technologies for autonomous navigation. In practical missions, it effectively improves orbit determination accuracy and reduces dependence on ground tracking systems. Research on orbital amplitude is of great significance for building cislunar navigation infrastructure. With it, spacecraft can achieve precise autonomous positioning in complex space environments, supporting lunar exploration and missions to deeper space.
 
 ## Related Concepts
 
-- 星地联合定轨
-- [地月空间卫星导航系统](/en/glossary/navigation/cislunar-space-satellite-navigation-system/)
-- 链路数量
+- Joint Satellite-Ground Orbit Determination
+- [Cislunar Space Satellite Navigation System](/en/glossary/navigation/cislunar-space-satellite-navigation-system/)
+- Number of Links
 
 ## References
 

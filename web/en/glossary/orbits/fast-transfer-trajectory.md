@@ -4,7 +4,7 @@ description: A transfer trajectory achieving rapid DRO insertion using the invar
 keywords: Fast Transfer Trajectory
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Fast Transfer Trajectory
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,9 +38,9 @@ Based on its definition, a transfer trajectory achieving rapid dro insertion usi
 
 ## Related Concepts
 
-- 周期轨道（Periodic Orbit）
-- 平动点轨道（Libration Point Orbit）
-- 轨道转移（Orbit Transfer）
+- Periodic Orbit
+- Libration Point Orbit
+- Orbit Transfer
 
 ## References
 

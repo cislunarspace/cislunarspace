@@ -4,7 +4,7 @@ description: An injection strategy in interior transfers where the impulse direc
 keywords: Non-tangential Injection
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Non-tangential Injection
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ An injection strategy in interior transfers where the impulse direction is not p
 
 ## Application Value
 
-在轨道力学分析中，This摄动因素is轨道预报误差的main来源之一。准确建模This效应有助于提高轨道预测精度，支持轨道维持和碰撞预警等应用。
+In orbital mechanics analysis, this perturbation factor is one of the main sources of orbit prediction error. Accurately modeling this effect helps improve orbit prediction accuracy and supports applications such as station keeping and collision warning.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 临界轨道（Critical Orbit）
-- 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Critical Orbit
+- Constraint Transformation Nonlinear Programming
 
 ## References
 

@@ -4,7 +4,7 @@ description: The total signal path length from Earth through an L3 halo orbit re
 keywords: Earth-Halo-Moon Relay Path, EHM Path, communication
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Earth-Halo-Moon Relay Path, EHM Path
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The total signal path length from Earth through an L3 halo orbit relay satellite
 
 ## Application Value
 
-The 地月Halo中继路径 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Earth-Halo-Moon Relay Path concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

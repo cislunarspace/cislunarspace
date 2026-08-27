@@ -4,7 +4,7 @@ description: A general-relativistic effect in which the gravitational field of a
 keywords: Gravitational Light Deflection
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Gravitational Light Deflection
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,9 +38,9 @@ Based on its definition, a general-relativistic effect in which the gravitationa
 
 ## Related Concepts
 
-- 轨道力学（Orbital Mechanics）
-- 坐标系（Coordinate Frame）
-- 积分（Integration）
+- Orbital Mechanics
+- Coordinate Frame
+- Integration
 
 ## References
 

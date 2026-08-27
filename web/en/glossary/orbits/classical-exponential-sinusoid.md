@@ -4,7 +4,7 @@ description: "The original form of the exponential sinusoid shape function: r = 
 keywords: Classical Exponential Sinusoid
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Classical Exponential Sinusoid
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -32,7 +32,7 @@ The original form of the exponential sinusoid shape function: r = k0 exp[k1 sin(
 
 ## Application Value
 
-形状法利用解析函数近似轨迹几何形状，为高精度的最优控制求解器提供良好的初始猜测，是小推力转移轨道设计的重要工具。
+The shape-based method approximates trajectory geometry with analytical functions, provides good initial guesses for high-precision optimal control solvers, and is an important tool for low-thrust transfer trajectory design.
 
 ## References
 

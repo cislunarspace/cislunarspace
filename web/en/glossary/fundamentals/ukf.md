@@ -4,7 +4,7 @@ description: A nonlinear filtering method that captures nonlinear transformation
 keywords: Unscented Kalman Filter, UKF, fundamentals
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Unscented Kalman Filter, UKF
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A nonlinear filtering method that captures nonlinear transformations of mean and
 
 ## Application Value
 
-The 无迹卡尔曼滤波 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The unscented Kalman filter concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

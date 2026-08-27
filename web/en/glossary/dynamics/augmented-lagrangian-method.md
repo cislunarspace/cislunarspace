@@ -4,7 +4,7 @@ description: A constraint-handling method that augments the objective function w
 keywords: Augmented Lagrangian Method, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Augmented Lagrangian Method
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A constraint-handling method that augments the objective function with both Lagr
 
 ## Application Value
 
-在轨道动力学数值仿真中，该方法用于提高计算精度和效率. 通过合理的离散化策略，可以在保证数值稳定性的同时大幅减少计算量.
+In numerical simulations of orbital dynamics, the method improves computational accuracy and efficiency. Through a sound discretization strategy, the computational load can be greatly reduced while numerical stability is maintained.
 
 ## Related Concepts
 
-- [Hill 模型（Hill Model）](/en/glossary/dynamics/hill-region-and-hill-problem/)
-- [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/en/glossary/dynamics/spacecraft-formation-flying/)
-- [受摄Lambert问题（Perturbational Lambert Problem）](/en/glossary/fundamentals/lamberts-problem/)
-- 探测器定位（Probe Targeting）
+- [Hill Model](/en/glossary/dynamics/hill-region-and-hill-problem/)
+- [Formation Fixed Relative to Inertial Frame](/en/glossary/dynamics/spacecraft-formation-flying/)
+- [Perturbational Lambert Problem](/en/glossary/fundamentals/lamberts-problem/)
+- Probe Targeting
 
 ## References
 

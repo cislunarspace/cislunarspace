@@ -4,7 +4,7 @@ description: Eigenvalues of the monodromy matrix C in Floquet theory.
 keywords: Characteristic Multiplier
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Characteristic Multiplier
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ Eigenvalues of the monodromy matrix C in Floquet theory. Characteristic multipli
 
 ## Application Value
 
-在特征乘子的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+In the design and analysis of characteristic multipliers, they can be used to optimize transfer schemes and reduce fuel consumption. This concept provides an important theoretical foundation for cislunar mission design. In practical engineering it can be applied to orbit design, mission planning, or control system analysis.
 
 ## Related Concepts
 
-- [对偶控制变换（Adjoint-Control Transformation）](/en/glossary/dynamics/adjoint-control-transformation/)
-- 贝叶斯压缩感知（Bayesian Compressive Sensing）
-- [Lyapunov轨道（Lyapunov Orbit）](/en/glossary/orbits/lyapunov-orbit/)
-- 状态转移矩阵（State Transition Matrix）
+- [Adjoint-Control Transformation](/en/glossary/dynamics/adjoint-control-transformation/)
+- Bayesian Compressive Sensing
+- [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
+- State Transition Matrix
 
 ## References
 

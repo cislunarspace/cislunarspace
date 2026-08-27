@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/low-energy-transfer/
 ---
 
-# Low-Energy Transfer (低能转移)
+# Low-Energy Transfer
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

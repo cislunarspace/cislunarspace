@@ -4,7 +4,7 @@ description: A perturbation method for solving averaged co-orbital resonance pro
 keywords: Kozai Method, orbital dynamics, trajectory optimization, celestial mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Kozai Method
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A perturbation method for solving averaged co-orbital resonance problems, common
 
 ## Application Value
 
-[Translation needed for: 方法的选择直接影响问题求解的效率和精度，需要根据具体问题选择合适的方法。...]
+The choice of method directly affects the efficiency and accuracy of problem solving, so an appropriate method should be selected according to the specific problem.
 
 ## Related Concepts
 

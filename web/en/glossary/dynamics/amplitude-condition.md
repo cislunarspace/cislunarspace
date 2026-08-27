@@ -4,7 +4,7 @@ description: "The amplitude-phase parameterization framework for Lissajous/Halo 
 keywords: Amplitude Condition, Effective Phase, EPP, Effective Phases Plane, Richardson third-order solution, Halo orbit, Lissajous orbit, in-plane amplitude, out-of-plane amplitude, amplitude correction maneuver, LOEWE, eclipse avoidance
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Amplitude Condition & Effective Phase
   desc: CR3BP Lissajous/Halo orbit amplitude-phase parameterization — from Richardson constraint to the EPP.
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/amplitude-condition/
 ---
 
-# Amplitude Condition & Effective Phase (振幅条件与有效相位)
+# Amplitude Condition & Effective Phase
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

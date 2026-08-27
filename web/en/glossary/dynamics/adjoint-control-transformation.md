@@ -4,7 +4,7 @@ description: A variable transformation technique that simplifies solving optimal
 keywords: Adjoint-Control Transformation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Adjoint-Control Transformation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,4 +33,4 @@ A variable transformation technique that simplifies solving optimal control prob
 
 ## Application Value
 
-为航天器的精确控制提供理论依据，确保任务执行的可靠性 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+It provides the theoretical basis for precise spacecraft control and helps ensure mission reliability. This concept provides an important theoretical foundation for cislunar mission design. In practical engineering it can be applied to orbit design, mission planning, or control system analysis.

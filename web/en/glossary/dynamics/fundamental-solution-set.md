@@ -4,7 +4,7 @@ description: A set of linearly independent solutions to a linearized equation wi
 keywords: Fundamental Solution Set
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Fundamental Solution Set
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ A set of linearly independent solutions to a linearized equation with periodic c
 
 ## Application Value
 
-This term has significant application value in cislunar space missions。In the orbital design phase, engineers use relevant theories for trajectory optimization；In navigation and orbit determination, it is used to improve measurement accuracy；In attitude control and orbit maintenance tasks, it ensures stable spacecraft operation。In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency。
+This term has significant application value in cislunar space missions. In the orbital design phase, engineers use relevant theories for trajectory optimization. In navigation and orbit determination, it is used to improve measurement accuracy. In attitude control and orbit maintenance tasks, it ensures stable spacecraft operation. In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency.
 
 ## Related Concepts
 
@@ -43,4 +43,4 @@ This term has significant application value in cislunar space missions。In the 
 
 ## References
 
-- 航空学报, 2023, 44(5): 326563
+- Acta Aeronautica et Astronautica Sinica, 2023, 44(5): 326563
