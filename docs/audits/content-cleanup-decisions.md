@@ -1,3 +1,5 @@
+[简体中文](content-cleanup-decisions.md) | [English](content-cleanup-decisions.en.md)
+
 # 站点内容清理决策记录
 
 - **Status:** In progress（逐模块讨论中）

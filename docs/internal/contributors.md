@@ -1,3 +1,5 @@
+[简体中文](contributors.md) | [English](contributors.en.md)
+
 # 贡献者名单
 
 感谢所有为地月空间入门指南项目做出贡献的开发者、研究者和爱好者！

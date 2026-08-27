@@ -1,3 +1,5 @@
+[简体中文](page-title-customization.md) | [English](page-title-customization.en.md)
+
 # 页面标题定制方案
 
 ## 设计原则

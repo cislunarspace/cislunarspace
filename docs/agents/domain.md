@@ -1,3 +1,5 @@
+[简体中文](domain.md) | [English](domain.en.md)
+
 # Domain Docs
 
 工程技能在探索代码库时如何使用本仓库的领域文档。

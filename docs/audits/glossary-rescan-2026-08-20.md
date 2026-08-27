@@ -1,3 +1,5 @@
+[简体中文](glossary-rescan-2026-08-20.md) | [English](glossary-rescan-2026-08-20.en.md)
+
 # glossary 清洗收尾新扫描报告
 
 - **Date:** 2026-08-20

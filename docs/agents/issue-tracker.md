@@ -1,3 +1,5 @@
+[简体中文](issue-tracker.md) | [English](issue-tracker.en.md)
+
 # Issue tracker: GitHub
 
 本仓库的 issue 和 PRD 存放在 GitHub Issues 中。所有操作使用 `gh` CLI。

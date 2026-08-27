@@ -1,3 +1,5 @@
+[简体中文](AGENTS.md) | [English](AGENTS.en.md)
+
 # AGENTS.md
 
 ## 交流语言
