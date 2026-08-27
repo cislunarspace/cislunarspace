@@ -4,7 +4,7 @@ description: Principles, launch windows, energy budget, and typical mission para
 keywords: TLI, Trans-Lunar Injection, launch window, C3, hyperbolic excess velocity, Apollo, Chang'e
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/transfer/tli-overview/
 wechatShare:
   title: "Cislunar Space Guide | TLI Overview"
@@ -50,9 +50,9 @@ TLI energy requirements are characterized by hyperbolic excess velocity $C_3$:
 
 $$C_3 = v^2 - \frac{2\mu_E}{r}$$
 
-The velocity increment needed to go from LEO (185 km circular orbit, $v \approx 7.8$ km/s) to escape velocity ($v_{escape} = \sqrt{2\mu_E/r} \approx 11.0$ km/s):
+The velocity increment needed to go from LEO (185 km circular orbit, $v \approx 7.8$ km/s) onto a trans-lunar trajectory requires raising perigee speed by about 3.1 km/s, corresponding to $C_3 \approx -2.0$ to $-1.0$ km$^2$/s$^2$. Note that the transfer orbit never reaches escape velocity — its apogee remains within the Earth–Moon system, which is exactly what distinguishes TLI from an escape maneuver:
 
-$$\Delta V_{TLI} = v_{escape} - v_{LEO} \approx 3.1-3.3 \text{ km/s}$$
+$$\Delta V_{TLI} \approx 3.1 \text{ km/s}$$
 
 | Mission | LEO Parking Orbit | TLI ΔV | Notes |
 | --------- | ------------------- | --------- | ------- |

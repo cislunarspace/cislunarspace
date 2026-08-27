@@ -8,7 +8,7 @@ wechatShare:
 keywords: TLI, 地月转移轨道插入, 发射窗口, C3, 双曲面超速, Apollo, 嫦娥
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /cislunar-orbits/transfer/tli-overview/
 ---
 
@@ -52,9 +52,9 @@ TLI 的能量需求用双曲面超速 $C_3$ 表征：
 
 $$C_3 = v^2 - \frac{2\mu_E}{r}$$
 
-从 LEO（185 km 圆轨道，$v \approx 7.8$ km/s）到达逃逸速度（$v_{escape} = \sqrt{2\mu_E/r} \approx 11.0$ km/s）所需的速度增量：
+从 LEO（185 km 圆轨道，$v \approx 7.8$ km/s）进入地月转移轨道，需在近地点将速度提高约 3.1 km/s，对应 $C_3$ 约 $-2.0$ 至 $-1.0$ km$^2$/s$^2$。注意转移轨道并未达到逃逸速度——其远地点仍留在地月空间内，这正是 TLI 与逃逸机动的本质区别：
 
-$$\Delta V_{TLI} = v_{escape} - v_{LEO} \approx 3.1-3.3 \text{ km/s}$$
+$$\Delta V_{TLI} \approx 3.1 \text{ km/s}$$
 
 | 任务 | LEO 停泊轨道 | TLI ΔV | 备注 |
 | ------ | ------------- | --------- | ------ |

@@ -4,7 +4,7 @@ description: NASA's Lunar Gateway NRHO orbit selection rationale, international 
 keywords: Gateway, Artemis, Lunar Gateway, NRHO applications, international cooperation
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/nrho/gateway-cases/
 wechatShare:
   title: "Cislunar Space Guide | Gateway Engineering Case Study"
@@ -20,16 +20,16 @@ wechatShare:
 
 ## Lunar Gateway Overview
 
-NASA's **Lunar Gateway** is the cornerstone infrastructure of the Artemis program, a small space station planned for operation in cislunar space. Unlike the International Space Station (ISS), the Gateway does not occupy a continuous resident orbit; instead, it operates in an L1 NRHO, periodically visiting the lunar surface and supporting deep-space missions.
+NASA's **Lunar Gateway** is the cornerstone infrastructure of the Artemis program, a small space station planned for operation in cislunar space. Unlike the International Space Station (ISS), the Gateway does not occupy a continuous resident orbit; instead, it flies an L2 southern 9:2 synodic-resonant NRHO, circling the Moon every ≈ 6.56 days and supporting deep-space and polar-surface missions.
 
 NASA selected NRHO as the Gateway's operational orbit based on the following considerations:
 
-1. **Orbital Stability**: The quasi-periodic nature of NRHO in the CR3BP model reduces the propellant required for station-keeping
+1. **Orbital Stability**: NRHO's weak hyperbolic instability keeps station-keeping propellant demand low
 2. **Lunar Surface Accessibility**: Transfer ΔV from NRHO to the lunar poles is approximately 200–400 m/s, superior to LEO
-3. **Communication Coverage**: NRHO provides good communication visibility to the lunar far side, especially the south pole
+3. **Communication Coverage**: The station hovers above the lunar south polar region for most of every revolution, giving good visibility of polar landing zones
 4. **Deep-Space Hub**: NRHO can serve as an intermediate staging point for cis-lunar and deep-space missions
 
-Gateway's target NRHO parameters: $A_x \approx 3100$ km, period approximately 6.5 days, located near the L1 point.
+Gateway's target NRHO parameters: perilune altitude roughly 1,500–3,000 km (sweeping over the lunar north pole), apolune about 70,000 km from the Moon (extending beyond the south pole), period approximately 6.56 days.
 
 ## International Cooperation Framework
 
@@ -49,9 +49,9 @@ Each module is designed to operate independently or collaboratively in the Gatew
 Transfers from Earth to the Gateway NRHO are typically divided into two phases:
 
 1. **Trans-Lunar Injection (TLI)**: Launch from LEO or direct injection into a trans-lunar trajectory
-2. **NRHO Insertion**: Orbital maneuvers near the L1 point to insert the spacecraft into the NRHO
+2. **NRHO Insertion**: After lunar arrival, the spacecraft follows the stable manifold into the target orbit and performs the insertion maneuver
 
-A typical TLI energy budget is approximately $\Delta V \approx 3.1–3.3$ km/s (relative to LEO), with NRHO insertion maneuvers after arriving at the L1 sphere of influence requiring approximately 200–400 m/s.
+A typical TLI energy budget is approximately $\Delta V \approx 3.1–3.3$ km/s (relative to LEO), with NRHO insertion maneuvers after arriving at the lunar sphere of influence requiring approximately 200–400 m/s.
 
 ## Alternative Orbit Comparison
 
@@ -60,10 +60,10 @@ During the Gateway planning phase, DRO was also considered as an alternative ope
 | Characteristic | NRHO | DRO |
 | ---------------- | ------ | ----- |
 | Lunar Surface Accessibility | Good (200–400 m/s to poles) | Poor |
-| Station-Keeping ΔV | 30–80 m/s/year | 5–20 m/s/year |
+| Station-Keeping ΔV | A few m/s/year (below 2 m/s/year with modern methods) | Practically none (linearly stable in the CR3BP) |
 | Earth Communication | Good | Better |
-| Lunar Far-Side Coverage | Moderate | Poor |
-| Engineering Maturity | Low (Gateway is first large-scale application) | Higher (validated by CAPSTONE) |
+| Lunar South-Pole Coverage | Good (southern members dwell above the south pole most of each revolution) | Moderate |
+| Engineering Maturity | Low (Gateway is first large-scale application; CAPSTONE already validated this orbit class) | Artemis I actually flew a distant retrograde lunar orbit |
 
 NASA ultimately selected NRHO as the Gateway's operational orbit primarily due to its accessibility advantage to the lunar surface, especially the south pole landing zone.
 

@@ -4,7 +4,7 @@ description: Geometric characteristics, dynamic constraints, and farside communi
 keywords: L2 NRHO, L2 halo orbit, Earth-Moon L2 point, lunar farside communication
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/nrho/l2-nrho/
 wechatShare:
   title: "Cislunar Space Guide | L2 Near-Rectilinear Halo Orbit"
@@ -38,7 +38,7 @@ The geometry of the L2 NRHO is similar to that of the L1 NRHO: the spacecraft os
 
 The dynamic constraints of L2 NRHO are essentially the same as those of L1 NRHO: the existence of the orbit family is constrained by the Jacobi constant $C_J$ conservation in the CR3BP. However, because the gravitational potential barrier at L2 is weaker (farther from the Moon), L2 NRHO is typically slightly more sensitive to perturbations than L1 NRHO, especially showing more significant response to solar gravitational perturbations.
 
-L2 NRHO also exhibits a dipole frozen inclination. Its stability analysis requires numerical validation using high-precision ephemeris models (JPL DE440 or higher).
+L2 NRHO likewise benefits from near-polar geometry for polar coverage; its stability analysis requires numerical validation using high-precision ephemeris models (JPL DE440 or higher).
 
 ## Design Constraints
 
@@ -48,10 +48,10 @@ The design constraints for L2 NRHO are similar to those for L1 NRHO, with additi
 2. **Communication Geometry**: L2 NRHO provides better coverage of the lunar farside than L1, but Earth visibility may be obstructed by the Moon during certain orbital phases
 3. **Transfer Corridors**: Transfer corridor design from L2 NRHO to the lunar south/north poles must account for lunar surface shadow cycles
 
-## Lunar Farside Communication Applications
+## Lunar South-Pole and Farside Communication Applications
 
-The primary application value of L2 NRHO lies in its ability to provide continuous communication coverage for lunar farside missions. Since L2 itself is in the farside direction of the Moon, spacecraft on L2 NRHO can:
+The primary application value of the L2 southern NRHO lies in supporting lunar south-polar and farside missions. The spacecraft spends most of each revolution above the lunar south polar region, where it can:
 
-- Have continuous visibility of the lunar farside (except for a few rare near-lunar shadow zones)
-- Provide data relay for lunar farside landers such as Chang'e-4/6
+- Keep polar landing zones and parts of the lunar farside in view for long stretches
+- Inform relay concepts for missions such as Chang'e-4/6 (Queqiao-1, on an L2 large-amplitude halo orbit, remains the most famous engineering application of this geometry)
 - Support continuous observation of lunar surface resources and communication relay

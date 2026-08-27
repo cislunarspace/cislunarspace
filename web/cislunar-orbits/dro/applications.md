@@ -8,7 +8,7 @@ wechatShare:
 keywords: DRO应用, 应急返回, 中继通信, 编队飞行, CAPSTONE, Artemis
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /cislunar-orbits/dro/applications/
 ---
 
@@ -44,33 +44,18 @@ DRO 对某些特定任务具有中继通信优势：
 - 实现编队飞行任务（如合成孔径雷达、引力波探测等）
 - 形成"星座"结构，提高覆盖范围或冗余度
 
-典型的编队维持 ΔV 预算约为 5-10 m/s/年，显著低于 NRHO 编队的 20-40 m/s/年。
+中科院先导专项的 DRO-A/B 双星即采用该思路：2024 年 3 月发射入轨后，双星于同年 8 月分离编队，验证地月 DRO 上的编队与测量技术。
 
 ## 典型任务案例
 
-### CAPSTONE
+### 阿尔忒尼斯 1 号
 
-NASA 的 **CAPSTONE**（Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment）是首个专门验证地月 DRO 的任务，于 2022 年发射。CAPSTONE 运行在 L1 DRO 上，用于验证：
+NASA 的阿尔忒尼斯 1 号（Artemis I，2022 年）是 DRO 工程应用最直接的实例：猎户座无人飞船绕月飞行 25.5 天，采用的正是远距离逆行类轨道，并创下了载人级航天器的最远深空飞行纪录。这次任务直接检验了此类轨道在真实星历环境下的运行特性。
 
-- DRO 轨道的长期稳定性
-- 自主导航技术
-- 与月球勘测轨道器（LRO）的通信
+### 中科院 DRO-A/B 双星
 
-CAPSTONE 的成功验证了 DRO 作为地月空间任务运行轨道的可行性。
+中国科学院先导专项的 DRO-A/B 双星于 2024 年 3 月发射。发射过程中上面级故障，卫星经地面救援变轨后进入预定轨道，同年 8 月双星分离编队，目前仍在轨运行。这是我国地月 DRO 轨道首批在轨验证任务。
 
-### Artemis 计划中的 DRO
+## 与 NRHO 方案的取舍
 
-在 Artemis 计划中，DRO 被考虑作为备用运行轨道方案。虽然 NASA 最终选择 NRHO 作为 Gateway 的运行轨道，但 DRO 在以下方面具有优势：
-
-- 更低的维持 ΔV
-- 更高的固有稳定性
-- 更简单的轨道设计
-
-## 各应用场景 ΔV 预算对比
-
-| 应用场景 | 从 LEO 出发 ΔV | 轨道维持 ΔV/年 |
-| ---------- | ----------------- | ---------------- |
-| L1 DRO | ~3.2 km/s | 5-10 m/s |
-| L2 DRO | ~3.3 km/s | 8-15 m/s |
-| L1 NRHO | ~3.1 km/s | 30-50 m/s |
-| L2 NRHO | ~3.1 km/s | 40-80 m/s |
+Gateway 规划阶段曾比较 DRO 与 NRHO 两种方案。DRO 胜在固有稳定性与更低的维持代价；NRHO 则以极区可达性取胜——近月点低、每个周期大部分时间悬于月球南极上空，适合载人登月中转。最终 NASA 为 Gateway 选定 NRHO；而 Artemis 1 号绕月使用 DRO 类轨道，两者各有分工而非简单替代。

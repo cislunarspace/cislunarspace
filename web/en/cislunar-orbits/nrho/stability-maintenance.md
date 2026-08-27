@@ -4,7 +4,7 @@ description: Initial condition sensitivity, Lyapunov exponent analysis, ΔV budg
 keywords: NRHO stability, station-keeping, ΔV budget, Lyapunov exponent, orbital maintenance
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/nrho/stability-maintenance/
 wechatShare:
   title: "Cislunar Space Guide | NRHO Stability and Station-Keeping"
@@ -18,19 +18,11 @@ wechatShare:
 
 # NRHO Stability and Station-Keeping
 
-## Initial Condition Sensitivity and Lyapunov Exponents
+## Initial Condition Sensitivity and Divergence Timescale
 
-Although NRHOs appear as stable quasi-periodic orbits in the CR3BP model, they exhibit significant sensitivity to initial condition errors and external perturbations in a real ephemeris environment. This sensitivity can be quantified using the **Lyapunov Exponent**.
+NRHOs are weakly hyperbolic orbits: linearized analysis shows Floquet multipliers with modulus greater than 1 along certain directions, so state errors grow revolution by revolution. For the operationally favored 9:2 resonant members, the monodromy matrix has an unstable multiplier of about −2.18 (roughly 2.2–3.1 across the weakly hyperbolic interval), meaning errors grow to about twice their size each 6.56-day period — far milder than the hundreds-fold multipliers of large-amplitude Halo orbits. In continuous-time terms the growth rate is of order 0.1 day⁻¹, giving an e-folding time measured in days, not months.
 
-The Lyapunov exponent $\lambda$ characterizes the exponential separation (or convergence) rate of neighboring trajectories in phase space:
-
-- $\lambda > 0$: Orbital errors grow exponentially (unstable)
-- $\lambda < 0$: Errors are suppressed (stable)
-- $\lambda = 0$: Neutral (marginal stability along the orbital direction)
-
-For L1/L2 NRHOs, Floquet modal analysis of the linearized equations shows that unstable modes with $\lambda > 0$ exist along certain directions. This means even minute initial errors are amplified over several orbital periods.
-
-A typical NRHO Lyapunov exponent is on the order of $\lambda \sim 10^{-2}$ day$^{-1}$, corresponding to an e-folding time of approximately 50-100 days.
+This slow amplification is precisely what keeps maintenance costs so low; it also means navigation and maneuver-execution errors must be monitored and suppressed every revolution rather than allowed to accumulate.
 
 ## ΔV Station-Keeping Budget
 
@@ -42,10 +34,7 @@ Station-keeping for an NRHO requires periodic low-thrust corrections. The typica
 
 Typical values:
 
-- L1 NRHO: $\Delta V \approx 30-50$ m/s/year
-- L2 NRHO: $\Delta V \approx 40-80$ m/s/year (slightly higher than L1 due to stronger solar gravitational perturbations)
-
-For comparison, DRO station-keeping budgets are approximately 5-20 m/s/year, demonstrating their higher inherent stability.
+- L1/L2 NRHO: annual station-keeping $\Delta V$ of a few m/s; modern methods such as Cauchy–Green stretching-direction targeting or full-state-targeting MPC reduce this below 2 m/s/year (the NASA Gateway baseline is in the same range)
 
 ## Station-Keeping Strategies
 
@@ -59,7 +48,7 @@ For electric propulsion systems, continuous low-thrust corrections can be employ
 
 ### Optimal Correction Timing
 
-The optimal station-keeping strategy must balance correction frequency against correction accuracy. Too-low correction frequency leads to accumulated orbital deviations, increasing the $\Delta V$ required per correction; too-high frequency increases propellant consumption and mission scheduling complexity.
+The optimal station-keeping strategy must balance correction frequency against correction accuracy. Numerical studies (Muralidharan & Howell, 2022) show that placing maneuvers near the apolune departure region (true anomaly ≈ 160°–200°), where the maximum stretch direction of the Cauchy–Green strain tensor acts, suppresses divergence at theoretical minimum energy; combined with full-state-targeting MPC, along-track phase drift can be eliminated entirely. Too-low correction frequency lets deviations accumulate; too-high frequency adds scheduling complexity.
 
 ## Effects of External Perturbations
 
