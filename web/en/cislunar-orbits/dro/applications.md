@@ -54,4 +54,4 @@ The Chinese Academy of Sciences' DRO-A/B twins were launched in March 2024. Afte
 
 ## Choosing Between DRO and NRHO
 
-During Gateway planning, DRO and NRHO were compared as candidate operational orbits. DRO wins on inherent stability and lower maintenance cost, while NRHO offers superior polar accessibility — low perilune and most of each revolution above the lunar south pole make it suitable for crewed landing staging. NASA ultimately selected NRHO for Gateway, while Artemis I used a distant retrograde-class orbit for its lunar loop: the two are complementary rather than interchangeable
+During Gateway planning, DRO and NRHO were compared as candidate operational orbits. DRO wins on inherent stability and lower maintenance cost, while NRHO offers superior polar accessibility — low perilune and most of each revolution above the lunar south pole make it suitable for crewed landing staging. NASA ultimately selected NRHO for Gateway, while Artemis I used a distant retrograde-class orbit for its lunar loop: the two are complementary rather than interchangeable.
