@@ -46,5 +46,4 @@ Classical literature often traces the origin of DROs through bifurcation chains 
 
 ![DRO orbit schematic](../../glossary/figures/dro/barycentric-frame-and-dro-schematic.png)
 
-The figure above shows the morphology of DRO orbits in the Earth-Moon rotating frame, clearly demonstrating their retrograde characteristic (motion opposite to the rotating frame).
-
+The figure above shows the morphology of DRO orbits in the Earth-Moon rotating frame, clearly demonstrating their retrograde characteristic (motion opposite to the rotating frame)
