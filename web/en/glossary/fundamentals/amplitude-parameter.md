@@ -1,10 +1,10 @@
 ---
 title: Amplitude Parameter & Phase Parameter (振幅参数与相位参数)
-description: "The two fundamental descriptive parameters for Distant Retrograde Orbits (DROs) in the synodic frame: the amplitude parameter characterizes the size of the DRO relative to the libration point, and the phase parameter indicates the position of a point along the DRO period. Together they uniquely determine the state at any point on a DRO for a given Jacobi constant."
+description: "The two fundamental descriptive parameters for Distant Retrograde Orbits (DROs) in the synodic frame: the amplitude parameter characterizes the size of the DRO with respect to a reference scale given by the Earth-Moon $L_1$/$L_2$ x-coordinates, and the phase parameter indicates the position of a point along the DRO period. Together they uniquely determine the state at any point on a DRO for a given Jacobi constant."
 keywords: Amplitude Parameter, Phase Parameter, DRO, Distant Retrograde Orbit, synodic frame, orbit parameterization, Jacobi constant, differential correction
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Amplitude Parameter & Phase Parameter
   desc: Two fundamental DRO parameters — size and position on the orbit — together uniquely determine the state.
@@ -32,7 +32,7 @@ permalink: /en/glossary/fundamentals/amplitude-parameter/
 
 Distant Retrograde Orbits (DROs) in the synodic frame are characterized by the Jacobi constant $C_J$ (or equivalently, the energy level) and two parameters: the **amplitude parameter** gives the size of the orbit, and the **phase parameter** indicates the position of a point along the orbit.
 
-The amplitude parameter describes the size of a DRO relative to a libration point in the synodic frame, typically defined as the absolute difference between the initial x-coordinate and the x-coordinate of the Earth-Moon $L_1$ or $L_2$ point (Tan 2014). For a given Jacobi constant, there is a one-to-one correspondence between the amplitude parameter and the DRO size. The phase parameter describes the location of a point on the DRO within the orbital period, corresponding to the orbital phase angle at time $t$. Together, for a specified Jacobi constant, they uniquely determine the state (position and velocity) at any point on a DRO in the synodic frame (Tan 2014).
+The amplitude parameter characterizes the size of a DRO in the synodic frame, using the Earth-Moon $L_1$ or $L_2$ x-coordinate as its reference, and is typically defined as the absolute difference between the initial x-coordinate and that reference (Tan 2014). This reference scale is a convention of the literature; it does not mean the DRO revolves around a libration point — DROs are centered on the Moon (see below). For a given Jacobi constant, there is a one-to-one correspondence between the amplitude parameter and the DRO size. The phase parameter describes the location of a point on the DRO within the orbital period, corresponding to the orbital phase angle at time $t$. Together, for a specified Jacobi constant, they uniquely determine the state (position and velocity) at any point on a DRO in the synodic frame (Tan 2014).
 
 DROs form a family of periodic orbits that enclose the Moon and travel in the direction opposite to the synodic frame rotation (retrograde). At high Jacobi constants they lie close to the Moon; at low Jacobi constants the orbit size increases (Scott 2010). The amplitude parameter effectively serves as a label for this one-parameter orbit family: different amplitudes correspond to different DRO sizes and different stability characteristics.
 

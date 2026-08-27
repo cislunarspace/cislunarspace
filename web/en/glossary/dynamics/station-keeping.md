@@ -4,7 +4,7 @@ description: "The periodic control operation that counteracts perturbation-induc
 keywords: station-keeping, orbit maintenance, cislunar, NRHO, DRO, halo orbit, libration point, target point method, Floquet mode, DLQR, impulsive station-keeping, annual cost, solar radiation pressure
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Station-Keeping / Orbit Maintenance
   desc: Periodic control to keep a spacecraft near its nominal orbit under three-body perturbations in cislunar space.
@@ -114,10 +114,10 @@ The annual station-keeping cost is the core metric for assessing orbit maintenan
 | DRO (1), small amplitude | 5.46 | 1.000 (stable) | 1.96 |
 | halo (3), moderate amplitude | 13.35 | 51.6 (strongly unstable) | 1.15 |
 | halo (1), large amplitude | 14.58 | 349.0 (extremely unstable) | 1.25 |
-| NRHO (4), 9:2 resonance | 6.56 | 1.32 (nearly stable) | 1.63 |
-| NRHO (5), lowest perilune | 6.13 | 1.09 (nearly stable) | 2.78 |
+| NRHO (4), 9:2 resonance | 6.56 | 1.32 (weakly unstable) | 1.63 |
+| NRHO (5), lowest perilune | 6.13 | 1.09 (weakly unstable) | 2.78 |
 
-Key finding (Zhang et al., 2022): **The stability index $\nu$ has no direct monotonic relationship with annual station-keeping cost.** Stable orbits (e.g., DRO, $\nu = 1$) are not necessarily cheaper than unstable ones (halo, $\nu \gg 1$) -- because maintenance cost is a compound outcome of navigation error, maneuver execution error, SRP mismodeling, and impulse interval. Unstable orbits can hedge their divergence through higher maneuver frequency to keep total cost manageable. Large-amplitude DROs, farthest from the Moon with the smoothest dynamics, yield the lowest annual cost (~0.82 m/s/yr). NRHOs, despite near-unity $\nu$, in fact incur higher annual costs than halo orbits because of the sensitive perilune region.
+Key finding (Zhang et al., 2022): **The stability index $\nu$ has no direct monotonic relationship with annual station-keeping cost.** Stable orbits (e.g., DRO, $\nu = 1$) are not necessarily cheaper than unstable ones (halo, $\nu \gg 1$) -- because maintenance cost is a compound outcome of navigation error, maneuver execution error, SRP mismodeling, and impulse interval. Unstable orbits can hedge their divergence through higher maneuver frequency to keep total cost manageable. Large-amplitude DROs, farthest from the Moon with the smoothest dynamics, yield the lowest annual cost (~0.82 m/s/yr). NRHOs, despite near-unity $\nu$, in fact incur higher annual costs than halo orbits because of the sensitive perilune region. Note that the tabulated $\nu$ is not itself an eigenvalue: converted via $\nu = (\lambda + 1/\lambda)/2$, the two NRHOs have eigenvalue magnitudes of roughly 2.2 and 1.5 and remain weakly hyperbolically unstable; "near unity" refers only to the numerical value of $\nu$.
 
 ## Engineering Constraints
 
