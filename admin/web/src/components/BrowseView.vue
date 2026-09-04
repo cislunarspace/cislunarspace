@@ -50,7 +50,7 @@ async function load() {
     const data = await api.listContents(type.value, { q: q.value.trim(), cat: cat.value });
     items.value = data.items || [];
     // 过滤后可能选中了已不可见的行，清掉避免误操作
-    const keys = new Set(items.value.map((it) => it.pairKey));
+    const keys = new Set(items.value.map((it) => it.relPath));
     checkedRowKeys.value = checkedRowKeys.value.filter((k) => keys.has(k));
   } catch (err) {
     error.value = err.message;
@@ -89,7 +89,7 @@ const catOptions = computed(() =>
 const checkedRowKeys = ref([]);
 
 const selectedItems = computed(() =>
-  items.value.filter((it) => checkedRowKeys.value.includes(it.pairKey))
+  items.value.filter((it) => checkedRowKeys.value.includes(it.relPath))
 );
 
 // ---------- 删除流程 ----------
@@ -116,11 +116,11 @@ async function startDelete(paths) {
 }
 
 function openDelete(item) {
-  startDelete([item.zh?.relPath, item.en?.relPath].filter(Boolean));
+  startDelete([item.relPath]);
 }
 
 function openBatchDelete() {
-  startDelete(selectedItems.value.flatMap((it) => [it.zh?.relPath, it.en?.relPath].filter(Boolean)));
+  startDelete(selectedItems.value.map((it) => it.relPath));
 }
 
 async function confirmDelete() {
@@ -146,7 +146,7 @@ async function confirmDelete() {
 
 // ---------- 拖动修改分类 ----------
 const dragging = ref(false);
-const dragKeys = ref([]); // 正在拖动的条目 pairKey 列表
+const dragKeys = ref([]); // 正在拖动的条目 relPath 列表
 const hoverCat = ref(''); // 拖动悬停的分类
 
 function rowProps(item) {
@@ -155,9 +155,9 @@ function rowProps(item) {
     draggable: true,
     onDragstart: (e) => {
       // 拖已选中的行 → 拖动整个选中集；否则只拖这一行
-      dragKeys.value = checkedRowKeys.value.includes(item.pairKey)
+      dragKeys.value = checkedRowKeys.value.includes(item.relPath)
         ? [...checkedRowKeys.value]
-        : [item.pairKey];
+        : [item.relPath];
       dragging.value = true;
       e.dataTransfer?.setData('text/plain', dragKeys.value.join('\n'));
       if (e.dataTransfer) e.dataTransfer.effectAllowed = 'move';
@@ -184,8 +184,8 @@ function onDropCategory(catName) {
 async function confirmAssign() {
   assignBusy.value = true;
   try {
-    const dragged = items.value.filter((it) => dragKeys.value.includes(it.pairKey));
-    const paths = dragged.flatMap((it) => [it.zh?.relPath, it.en?.relPath].filter(Boolean));
+    const dragged = items.value.filter((it) => dragKeys.value.includes(it.relPath));
+    const paths = dragged.map((it) => it.relPath);
     const r = await api.assignCategory(type.value, paths, assignTarget.value);
     const n = r.changed?.length ?? r.moved?.length ?? 0;
     const skip = (r.unchanged?.length ?? 0) + (r.skipped?.length ?? 0);
@@ -272,11 +272,11 @@ async function submitCategory() {
 
 // ---------- 图片预览 ----------
 function imageFor(item) {
-  // 取 zh 或 en 的 image frontmatter 字段，转成可访问的相对路径
-  const s = item.zh?.image || item.en?.image;
+  // 取 image frontmatter 字段，转成可访问的相对路径
+  const s = item.image;
   if (!s) return null;
   // ./figures/... 相对当前 md 目录 → 转成 web/ 内相对路径，交给 /api/image 读取
-  const mdDir = (item.zh?.relPath || item.en?.relPath).replace(/\/[^/]+$/, '');
+  const mdDir = item.relPath.replace(/\/[^/]+$/, '');
   let rel = s.startsWith('./') ? `${mdDir}/${s.slice(2)}` : s;
   rel = rel.replace(/\.\.\//g, '');
   // 去掉前导 / 或 web/ 前缀，得到 web/ 内相对路径
@@ -294,46 +294,31 @@ const previewPath = ref('');
 const showSitePreview = ref(false);
 
 function openPreview(item) {
-  previewPath.value = item.zh?.relPath || item.en?.relPath;
+  previewPath.value = item.relPath;
   showSitePreview.value = true;
 }
 
 // ---------- 表格列 ----------
-function translateTag(item) {
-  const zh = !!item.zh;
-  const en = !!item.en;
-  if (zh && en) return h(NTag, { size: 'small', type: 'success', bordered: false }, () => '中英齐全');
-  if (zh) return h(NTag, { size: 'small', type: 'warning', bordered: false }, () => '缺英文');
-  return h(NTag, { size: 'small', type: 'warning', bordered: false }, () => '缺中文');
-}
-
-function translateKey(item) {
-  if (item.zh && item.en) return 'full';
-  if (item.zh) return 'no-en';
-  return 'no-zh';
-}
-
 function statusTag(item) {
-  if (item.zh?.yamlError || item.en?.yamlError) {
+  if (item.yamlError) {
     return h(NTag, { size: 'small', type: 'error', bordered: false }, () => 'YAML 错误');
   }
-  if (item.zh?.draft || item.en?.draft) {
+  if (item.draft) {
     return h(NTag, { size: 'small', type: 'info', bordered: false }, () => '草稿');
   }
   return h(NTag, { size: 'small', bordered: false }, () => '正常');
 }
 
 function statusKey(item) {
-  if (item.zh?.yamlError || item.en?.yamlError) return 'yaml';
-  if (item.zh?.draft || item.en?.draft) return 'draft';
+  if (item.yamlError) return 'yaml';
+  if (item.draft) return 'draft';
   return 'normal';
 }
 
 // 条目在各类型下的展示分类：
 // glossary / kb 用所在目录（scan.js 的 section 字段）
 function displayCats(item) {
-  const side = item.zh || item.en || {};
-  return side.section ? [side.section] : [];
+  return item.section ? [item.section] : [];
 }
 
 const columns = computed(() => [
@@ -342,13 +327,10 @@ const columns = computed(() => [
     title: '标题',
     key: 'title',
     sorter: (a, b) =>
-      String(a.zh?.title || a.en?.title || '').localeCompare(
-        String(b.zh?.title || b.en?.title || ''),
-        'zh-Hans-CN'
-      ),
+      String(a.title || '').localeCompare(String(b.title || ''), 'zh-Hans-CN'),
     render(item) {
-      const title = item.zh?.title || item.en?.title;
-      const path = item.zh?.relPath || item.en?.relPath;
+      const title = item.title;
+      const path = item.relPath;
       return h('div', null, [
         h('div', null, title),
         h('div', { class: 'path-cell', style: 'margin-top: 2px' }, path),
@@ -375,21 +357,8 @@ const columns = computed(() => [
     title: '日期',
     key: 'date',
     width: 120,
-    sorter: (a, b) =>
-      String(a.zh?.date || a.en?.date || '').localeCompare(String(b.zh?.date || b.en?.date || '')),
-    render: (item) => item.zh?.date || item.en?.date || '—',
-  },
-  {
-    title: '翻译',
-    key: 'translate',
-    width: 96,
-    filterOptions: [
-      { label: '中英齐全', value: 'full' },
-      { label: '缺英文', value: 'no-en' },
-      { label: '缺中文', value: 'no-zh' },
-    ],
-    filter: (value, item) => translateKey(item) === value,
-    render: translateTag,
+    sorter: (a, b) => String(a.date || '').localeCompare(String(b.date || '')),
+    render: (item) => item.date || '—',
   },
   {
     title: '状态',
@@ -426,7 +395,7 @@ const columns = computed(() => [
     width: 190,
     align: 'right',
     render(item) {
-      const path = item.zh?.relPath || item.en?.relPath;
+      const path = item.relPath;
       return h('div', { class: 'row-actions' }, [
         h(
           NButton,
@@ -509,7 +478,7 @@ const columns = computed(() => [
       :columns="columns"
       :data="items"
       :loading="loading"
-      :row-key="(item) => item.pairKey"
+      :row-key="(item) => item.relPath"
       :checked-row-keys="checkedRowKeys"
       :row-props="rowProps"
       size="small"

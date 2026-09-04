@@ -2,17 +2,17 @@
  * Taxonomy Module — interface shapes.
  *
  * See ADR-0001 (docs/adr/0001-unified-taxonomy-module.md) for rules:
- *   - Stable, locale-independent `id`
+ *   - Stable `id`
  *   - Open-enum `kind` (adapters filter by what they know)
- *   - Bilingual `label.{zh,en}`
- *   - `path.{zh,en}` with explicit `null` for locale-gated nodes
- *   - Optional `locales` for explicit locale gating
+ *   - `label`（中文显示名）
+ *   - `path` with explicit `null` for path-less kinds (group,
+ *     navbar-root, glossary-category, …)
  *   - Sibling-scoped `order` (lower first; ties broken by id)
  *
- * Identity / ordering / locale rules are enforced by `validate.ts`.
+ * Identity / ordering rules are enforced by `validate.ts`.
  */
 
-/** Stable, locale-independent identity for a taxonomy node. */
+/** Stable identity for a taxonomy node. */
 export type NodeId = string;
 
 /**
@@ -29,19 +29,13 @@ export type NodeKind =
   | 'navbar-link'
   | 'external-link';
 
-export interface LocalePath {
-  zh: string | null;
-  en: string | null;
-}
-
 export interface TaxonomyNode {
   /** Stable identity. Never reused after rename — renames mean new id + redirect. */
   id: NodeId;
   kind: NodeKind;
-  label: { zh: string; en: string };
-  path: LocalePath;
-  /** Explicit locale gating. Undefined = present in both. */
-  locales?: Array<'zh' | 'en'>;
+  label: string;
+  /** Internal site path; null only for path-less kinds (group, navbar-root, …). */
+  path: string | null;
   /** Sibling sort order. Lower = earlier. Stable within parent. */
   order: number;
   /** Parent node id, or null for roots. */
@@ -55,8 +49,6 @@ export interface TaxonomyNode {
   meta?: Record<string, unknown>;
 }
 
-export type Locale = 'zh' | 'en';
-
 export interface TaxonomyModule {
   /** All nodes, in deterministic order (by id ascending). */
   all(): readonly TaxonomyNode[];
@@ -64,11 +56,8 @@ export interface TaxonomyModule {
   /** Get one node by id. Throws if absent. */
   get(id: NodeId): TaxonomyNode;
 
-  /**
-   * Children of a node, already sorted by `order` (ties broken by id) and
-   * filtered by locale gating.
-   */
-  children(parentId: NodeId | null, locale: Locale): readonly TaxonomyNode[];
+  /** Children of a node, already sorted by `order` (ties broken by id). */
+  children(parentId: NodeId | null): readonly TaxonomyNode[];
 
   /** Filter by kind, optionally within a parent. */
   byKind(kind: NodeKind, parentId?: NodeId | null): readonly TaxonomyNode[];

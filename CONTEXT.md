@@ -1,184 +1,139 @@
-[English](CONTEXT.md) | [简体中文](CONTEXT.zh-CN.md)
+# CONTEXT：地月空间入门指南
 
-# CONTEXT: Cislunar Space Beginner's Guide
+一个关于地月空间的中文知识库（单语，见 [ADR-0006](docs/adr/0006-remove-english-site.md)）。本文件记录应在 issue、ADR、测试、代码与 PR 中保持一致使用的领域词汇。如果你需要的概念不在这里，这是一个信号：要么重新斟酌术语，要么通过 `/grill-with-docs` 扩充本文件。
 
-A bilingual (zh/en) knowledge base about cislunar space. This file captures domain vocabulary that should be used consistently across issues, ADRs, tests, code, and PRs. If a concept you need isn't here, that's a signal: either reconsider the term or extend this file via `/grill-with-docs`.
+## 词汇表
 
-## Glossary
+### 分类法模块（Taxonomy）
 
-### Taxonomy
-
-The structured catalogue of every knowledge-base section, page, glossary category, news category, navbar entry, special surface, and wayfinding entry on the site, together with their identity, ordering, and bilingual paths. See [ADR-0001](docs/adr/0001-unified-taxonomy-module.md) for the unified taxonomy module.
+站点上每个知识库章节、页面、词条类别、导航栏项、特殊表面与导引项的结构化目录，连同它们的身份、排序与文档路径。见统一分类法模块的 [ADR-0001](docs/adr/0001-unified-taxonomy-module.md)。
 
 ### TaxonomyNode
 
-One entry in the taxonomy. Carries a stable locale-independent `id`, a `kind` (open enum: section, group, page, index, glossary-category, navbar-link, external-link, …), bilingual `label`, locale-resolved `path`, sibling `order`, and `parentId`. Defined in `web/.vuepress/taxonomy/types.ts` (target shape).
+分类法中的一个条目。携带稳定的 `id`，一个 `kind`（开放枚举：section、group、page、index、glossary-category、navbar-link、external-link……），`label`，`path`，同级 `order` 与 `parentId`。定义于 `web/.vuepress/taxonomy/types.ts`。
 
-### Identity (NodeId)
+### 身份（NodeId）
 
-A `TaxonomyNode`'s stable, locale-independent string id (e.g. `research-frontiers/directions/orbit-design`). Derived from the canonical zh slug chain. Renames of a slug create a new id plus a redirect (ids are never silently reused). Renames of a **label** do not change the id.
-
-### VuePress locale root/config
-
-The framework-level locale routing and theme configuration. The site currently uses `/` for zh-CN and `/en/` for en-US. This is not a taxonomy identity, not a `LocalePath`, and not a user preference; it is the route-root convention VuePress uses to select locale-specific title, description, navbar, sidebar, and language-selector labels.
-
-### LocalePath
-
-The pair `{ zh, en }` of resolved URL paths for a `TaxonomyNode`. `null` on a locale means the node is intentionally absent there (see Locale gating), or that the node is an intentionally pathless metadata/group/category kind. `LocalePath` is routing data after locale roots, path conventions, and gating have already been applied; consumers select `path[locale]`, they do not construct it ad hoc and never concatenate `'/en' + zhPath`.
-
-### Locale gating
-
-The convention that a `TaxonomyNode` declares its locale presence via an optional `locales: ('zh'|'en')[]` field. Undefined = both locales. `['zh']` = zh-only (and conversely). Used for content that is deliberately not translated (e.g. the dialectic surface under `navbar/dialectic`).
-
-### Runtime locale detection
-
-The runtime decision of which locale branch should render for the current page. For current-page rendering, the route wins: pages under `/en/` render en UI/data, and other pages render zh UI/data. Runtime locale detection answers **where is the user now?**; it is separate from stored locale preference and from taxonomy locale presence.
-
-### Locale preference (`cislunar-lang-chosen`)
-
-A persisted browser-local preference/sentinel used to bias landing redirects and remember that the visitor has crossed locale roots. It stores short `zh`/`en` values. It is not the current locale itself and must not override the current route, unavailable `LocalePath`, locale gating, or a missing bilingual counterpart.
-
-### Bilingual counterpart
-
-The corresponding zh/en content item that shares a stable identity across locales. For taxonomy pages, the counterpart relation is anchored by the same `NodeId` plus the node's `LocalePath`. Counterpart existence is about locale availability; it does not guarantee identical text, translation completeness, or publication timing.
-
-### Translation gap
-
-An unintentional missing bilingual counterpart in a locale where the concept should exist. Today this is tracked for glossary pages that exist in zh but not en, surfaced by `TranslationGapIntake` and the AI route index's **(needs translation)** placeholders. Locale gating is intentional absence; a locale-gated page is not a translation gap. The taxonomy module does not conflate them.
-
-### Locale-partitioned generated artifact
-
-A generated build output whose records are grouped or filtered by locale, often shaped like `{ zh: ..., en: ... }`. Examples include the AI route index and the AI context corpus. Locale partitions are derived outputs from source content, taxonomy, intakes, and adapters; they are not the source of locale policy.
-
-### Locale selection order
-
-For rendering the current page, the current route/runtime locale wins. Stored locale preference may bias landing redirects or explicit locale switching only when a valid target exists. `LocalePath` and bilingual counterpart availability decide whether a target route/content item can exist. Locale gating and Translation gap define why an expected locale is absent: intentional absence vs unintentional missing counterpart.
-
-### Adapter
-
-A pure function that derives a site-surface-specific output shape from the taxonomy module. Each existing output (navbar, sidebar, glossary-categories, news-categories, wayfinding, ai-chat-index) becomes an adapter rather than a source of truth. See ADR-0001 for the inventory.
-
-### Intake
-
-The existing pipeline stage name (under `web/.vuepress/intakes/`) for build-time data collection. Intakes consume the filesystem scan and produce typed intermediates (e.g. `GlossaryScan`, `ChatIndexIntake`, `TranslationGapIntake`). In the unified-taxonomy world, intakes read from adapters rather than from `glossary-meta.ts` or `sidebar/data.ts` directly.
+`TaxonomyNode` 的稳定字符串 id（如 `research-frontiers/directions/orbit-design`）。由规范 zh slug 链派生。重命名 slug 会产生新 id 并附带一条重定向（id 永不无声复用）。重命名 **label** 不改变 id。
 
 ### NodeKind
 
-The discriminator on a `TaxonomyNode`. An **open enum**: new kinds may be added without amending ADR-0001, provided the `TaxonomyNode` interface shape, locale-gating rule, identity rule, and path-convention rule are unchanged. Adapters tolerate unknown kinds by ignoring them.
+`TaxonomyNode` 上的判别字段。**开放枚举**：可以新增 kind 而无需修订 ADR-0001，前提是 `TaxonomyNode` 接口形状、身份规则与路径约定规则不变。Adapter 以忽略未知 kind 的方式保持容忍。
 
 ### Section / group / page / index
 
-The four structural kinds inside the sidebar tree.
+侧边栏树中的四个结构 kind。
 
-- **Section**: top-level entry of a sidebar (e.g. `cislunar-orbits`, `research-frontiers`).
-- **Group**: collapsible cluster inside a section (e.g. `nrho`, `dro`).
-- **Page**: leaf content page.
-- **Index**: the README at a section/group root; shares its parent's path (`slug === ''` in the current `sidebar/data.ts`).
+- **Section**：侧边栏顶层条目（如 `cislunar-orbits`、`research-frontiers`）。
+- **Group**：section 内可折叠的簇（如 `nrho`、`dro`）。
+- **Page**：叶子内容页。
+- **Index**：section/group 根上的 README；与其父节点共用路径（现 `sidebar/data.ts` 中 `slug === ''`）。
 
-### Sidebar source of truth
+### Sidebar source of truth（侧边栏事实来源）
 
-`web/.vuepress/taxonomy/data.ts` (target). Today this responsibility is split across `sidebar/data.ts`, `navbar.ts`, `navbar-en.ts`, `glossary-meta.ts`, `category-meta.json`, and inline arrays in `wayfinding-intake.ts`. Migration plan in ADR-0001.
+`web/.vuepress/taxonomy/data.ts`（目标态）。今天这一职责分散在 `sidebar/data.ts`、`navbar.ts`、`glossary-meta.ts`、`category-meta.json` 以及 `wayfinding-intake.ts` 的内联数组里。迁移计划见 ADR-0001。
 
-### AI route index
+### 词条 frontmatter 关系字段（aliases / related）
+词条 frontmatter 中的知识库数据字段：`aliases` 为非空不重复的别名数组；`related` 为 `{ ref, relation }` 数组，`ref` 是词条 slug 路径（如 `orbits/halo-orbit`），必须解析到存在的词条文件 `glossary/<ref>.md`；`relation` 属于开放枚举 `{broader, transfer, related}`。由 `check-glossary-frontmatter` 在 `npm run check` 中强制校验。正文"相关概念"列表是该数据的人工视图。
 
-The generated AI-chat route-planning artifact served as `/ai-chat-index.json`. Its canonical shape is grouped by locale and by `ChatIndexCategory`: `{ zh: ChatIndexCategory[], en: ChatIndexCategory[] }`. Each `ChatIndexCategory` contains a grouping key plus `IndexRow` entries; each `IndexRow` carries an AI retrieval path and title. The AI route index is for route selection and valid-link constraints only (it is not the full answer corpus and is not the sidebar-tree **Index** kind).
+### 引用键（\cite 键）
 
-### AI context corpus
+正文中 `\cite{key}` 引用的 key，指向 `web/.vuepress/ref.bib` 的 BibTeX 条目。渲染为指向 `/references#key` 的编号链接；`check-links` 对其做存在性校验。手写参考文献表已废弃：正文引用即数据，编号与题录由 bibliography 生成器从 ref.bib 派生。
 
-The generated AI-chat answer-context artifact served as `/ai-chat-context.json`. It is a per-locale corpus keyed by AI retrieval path: `{ zh: Record<path, { title, text }>, en: Record<path, { title, text }> }`. The Answer phase reads from the AI context corpus only after the Router has selected AI retrieval paths from the AI route index. Missing rows here are AI context gaps, not Translation gaps unless the missing content is specifically a zh-only glossary page.
+### AI route index（AI 路由索引）
 
-### AI retrieval path
+以 `/ai-chat-index.json` 伺服的生成型 AI 问答路线规划工件。按 `ChatIndexCategory` 分组；每个 `ChatIndexCategory` 含一个分组键加若干 `IndexRow`；每个 `IndexRow` 携带一条 AI 检索路径和标题。AI 路由索引只用于路线选择与有效链接约束（它不是完整答案语料，也不是侧边栏树的 **Index** kind）。
 
-The runtime URL path selected by the Router and used to join an `IndexRow` in the AI route index to a `{ title, text }` record in the AI context corpus. It is a retrieval/join key, not a taxonomy identity: do not confuse it with `NodeId`, `LocalePath`, `relativePath`, article slug, or article filename.
+### AI context corpus（AI 上下文语料）
+
+以 `/ai-chat-context.json` 伺服的生成型 AI 问答答案上下文工件。以 AI 检索路径为键的语料：`Record<path, { title, text }>`。Router 从 AI 路由索引选出 AI 检索路径之后，Answer 阶段才从 AI 上下文语料读取。
+
+### AI retrieval path（AI 检索路径）
+
+Router 选出的运行时 URL 路径，用来把 AI 路由索引中的 `IndexRow` 连接到 AI 上下文语料中的 `{ title, text }` 记录。它是检索/连接键，不是分类法身份：不要与 `NodeId`、`relativePath`、文章 slug 或文章文件名混淆。
 
 ### ChatIndexCategory
 
-An AI-specific grouping key inside the grouped AI route index. It clusters `IndexRow` entries for routing/prompt structure, but it is not a `glossary-category`, not an editorial tag, and not a `TaxonomyNode` category kind.
+分组后的 AI 路由索引内的一种 AI 专用分组键。它为路由/提示结构聚合 `IndexRow` 条目，但它不是 `glossary-category`，不是编辑标签，也不是 `TaxonomyNode` 的 category kind。
 
-### Two-phase retrieval
+### Two-phase retrieval（两阶段检索）
 
-The AI Chat flow that first runs a Router phase against the AI route index, then runs an Answer phase using excerpts joined from the AI context corpus by AI retrieval path. Disabling two-phase retrieval means answer-only mode: the Answer phase still sees the route index as a valid-link list, but it does not load the AI context corpus.
+AI 问答流程：先对 AI 路由索引跑 Router 阶段，再用按 AI 检索路径从 AI 上下文语料连接出的摘录跑 Answer 阶段。关闭两阶段检索即仅答案模式：Answer 阶段仍把路由索引视为有效链接列表，但不加载 AI 上下文语料。
 
-### Layout
+### Layout（布局）
 
-The VuePress page shell selected by page frontmatter or VuePress route configuration (for example `AiChatLayout`). A layout controls page chrome and rendering structure; it is not the page's domain identity, not a `TaxonomyNode.kind`, not a route identity, and not the feature or surface itself.
+由页面 frontmatter 或 VuePress 路由配置选择的 VuePress 页面外壳（例如 `AiChatLayout`）。布局控制页面镶边与渲染结构；它不是页面的领域身份，不是 `TaxonomyNode.kind`，不是路由身份，也不是功能或表面本身。
 
 ### LayoutTypes
 
-The shell-hook classifier used by the custom default `Layout.vue` to decide which global shell classes and chrome rules apply. `LayoutTypes` is not the complete registry of VuePress layout components: some real layouts bypass the default shell entirely, and some special surfaces may use the default `Layout` plus a component in markdown.
+自定义默认 `Layout.vue` 用来决定哪些全局外壳类与镶边规则生效的外壳钩子分类器。`LayoutTypes` 不是 VuePress 布局组件的完整注册表：一些真实布局完全绕过默认外壳，一些特殊表面可能使用默认 `Layout` 加 markdown 中的组件。
 
-### Special surface
+### Special surface（特殊表面）
 
-A non-standard site experience that is not just a normal markdown content page in the knowledge-base tree. A special surface may have a layout, taxonomy node, navbar entry, generated artifacts, runtime state, or shell class hooks, but none of those is the surface's identity by itself. Examples today include AI Chat.
+不只是知识库树中普通 markdown 内容页的非标准站点体验。特殊表面可能有布局、分类法节点、导航栏项、生成工件、运行时状态或外壳类钩子，但没有哪一样单独构成表面的身份。如今的例子是 AI 问答。
 
-### Interactive surface
+### Interactive surface（交互表面）
 
-A special surface whose primary value comes from user interaction or runtime behaviour rather than reading static markdown content. AI Chat is the interactive surface today.
+主要价值来自用户交互或运行时行为而非阅读静态 markdown 内容的特殊表面。如今 AI 问答就是交互表面。
 
-### VuePress sidebar config
+### VuePress sidebar config（VuePress 侧边栏配置）
 
-The native VuePress theme sidebar route-prefix map consumed by the VuePress default theme for left navigation. It is an adapter output derived from taxonomy and build inputs; it is not the taxonomy source of truth.
+供 VuePress 默认主题消费的原生主题侧边栏路由前缀映射，用于左侧导航。它是从分类法与构建输入派生的 adapter 输出；不是分类法的事实来源。
 
-### Section sidebar
+### Section sidebar（章节侧边栏）
 
-The per-section `VueSidebarItem` tree for knowledge-base sections such as `what-is-cislunarspace`, `cislunar-orbits`, `research-frontiers`, and `resources-tools`. Section sidebars are derived from taxonomy `section`, `group`, `page`, and `index` nodes, then inserted into the VuePress sidebar config for matching route prefixes.
+知识库各章节（如 `what-is-cislunarspace`、`cislunar-orbits`、`research-frontiers`、`resources-tools`）各自的 `VueSidebarItem` 树。章节侧边栏从分类法的 `section`、`group`、`page`、`index` 节点派生，再插入 VuePress 侧边栏配置以匹配路由前缀。
 
-### Wayfinding disclosure
+### Wayfinding disclosure（导引披露）
 
-The global site-map disclosure prepended to normal section sidebars. It helps users jump across top-level areas of the site. Wayfinding is not a sidebar by itself, not a sidebar index, and not an AI route index.
+前置在普通章节侧边栏之前的全局站点地图披露。帮助用户跨站点顶层区域跳转。导引本身不是侧边栏，不是侧边栏 index，也不是 AI 路由索引。
 
-### Glossary category
+### Glossary category（词条类别）
 
-A `TaxonomyNode` of kind `glossary-category` (today: entries in `glossaryCategories` in `glossary-meta.ts`). Defines the buckets under `/glossary/` and `/en/glossary/` (fundamentals, dynamics, orbits, …). A category may nest **one level of subcategories**: a subcategory node parents at its category node (e.g. `glossary/orbits`), its `meta.slug` is the full path form (`orbits/halo`), and entries live in `glossary/<cat>/<sub>/<slug>.md`. Entries may also sit directly in the category root (unsorted).
+kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` 中 `glossaryCategories` 的条目)。定义 `/glossary/` 下的桶（fundamentals、dynamics、orbits……）。类别可嵌套**一级子类别**：子类别节点挂在所属类别节点下（如 `glossary/orbits`），其 `meta.slug` 为完整路径形式（`orbits/halo`），词条存放在 `glossary/<cat>/<sub>/<slug>.md`。词条也可以直接放在类别根下（未归类）。
 
-### Content module
+### Content module（内容模块）
 
-The module at `web/.vuepress/content/` (see ADR-0003; skeleton landed 2026-08-19: list/read/write/refreshIndex, with create/delete/categories to follow) that owns all content operations behind one domain interface. The content writers (admin GUI, agents/humans) all go through it. The content module is to content operations what the taxonomy module is to structure data; it is not a database, not a server process, and not part of the build pipeline. Its frontmatter round-trip uses the `yaml` package (`parseMarkdownDoc`/`renderMarkdown`), not `utils/frontmatter-parser.ts`, whose simplified parsing cannot round-trip nested frontmatter.
+`web/.vuepress/content/` 处的模块（见 ADR-0003；骨架已于 2026-08-19 落地：list/read/write/refreshIndex，create/delete/categories 待续），用一个领域接口承接所有内容操作。内容写入方（admin GUI、agent/人类）都经由它。内容模块之于内容操作，如分类法模块之于结构数据；它不是数据库，不是服务进程，不属于构建流水线。其 frontmatter 往返使用 `yaml` 包（`parseMarkdownDoc`/`renderMarkdown`），而非 `utils/frontmatter-parser.ts`——后者的简化解析无法往返嵌套 frontmatter。
 
-### Content family
+### Content family（内容族）
 
-One of the two content kinds the content module operates on: `glossary`, `kb-section`. Path conventions, frontmatter rules, and bilingual pairing are defined per family in the content router, never re-expressed by callers. A content family is not a `NodeKind` and not a layout.
+内容模块操作的两种内容类型之一：`glossary`、`kb-section`。路径约定与 frontmatter 规则按族定义在内容 router 中，调用方永不重复表达。内容族不是 `NodeKind`，也不是布局。
 
-### Content source / Derived artifact / Build output
+### Content source / Derived artifact / Build output（内容源 / 派生工件 / 构建输出）
 
-The three asset layers of the repository (see ADR-0004):
+仓库的三个资产层（见 ADR-0004）：
 
-- **Content source**: markdown, `taxonomy/`, `sidebar/data.ts`, figures (single zh-side copy), `ref.bib`, hand-maintained public assets. Tracked in git.
-- **Derived artifact**: everything `generate.ts` produces (`*.auto.json`, articles/AI-chat/bibliography JSON). Written only to `.vuepress/public/`, never tracked in git. **Derived artifact** names the layer; the existing term generated artifact continues to name individual JSON files.
-- **Build output**: `dist/`. Never tracked in git.
+- **Content source（内容源）**：markdown、`taxonomy/`、`sidebar/data.ts`、图片、`ref.bib`、手工维护的 public 资产。纳入 git。
+- **Derived artifact（派生工件）**：`generate.ts` 产出的一切（`*.auto.json`、AI-chat/bibliography JSON）。只写入 `.vuepress/public/`，绝不纳入 git。**Derived artifact** 指称这个层；既有术语 generated artifact 继续指称单个 JSON 文件。
+- **Build output（构建输出）**：`dist/`。永不纳入 git。
 
-Rules: derived artifacts are rebuildable from content source at any time (no consumer may rely on their git presence); sync-figures is the only channel that places figures into build output; en-locale md figure references are URL conventions resolved at build time, not physical file requirements.
+规则：派生工件任何时候都能从内容源重建（任何消费方都不得依赖它在 git 里的存在）；sync-figures 是把图片放进构建输出的唯一通道。
 
-## Terminology to avoid
+## 应避免的术语
 
-- **Sidebar config** as a synonym for taxonomy: taxonomy is the **concept**, sidebar configs are one **adapter output**.
-- **Layout** as a catch-all for AI Chat or any non-article custom experience: use **Layout** only for the VuePress page shell, and use **special surface** or **interactive surface** for the user-facing experience.
-- **Sidebar** without qualification: say **VuePress sidebar config**, **section sidebar**, or **wayfinding disclosure**.
-- **Wayfinding** called an index or sidebar: wayfinding is a global site-map disclosure, not the sidebar-tree **Index** kind and not the AI route index.
-- **Surface** without qualification when precision matters: say **special surface**, **interactive surface**, content page, or site-surface-specific adapter output.
-- **i18n key** for `NodeId`: ids are not i18n keys; they are stable identities.
-- **Locale root**, **VuePress root**, **LocalePath**, and **route prefix** used interchangeably: **VuePress locale root/config** is framework configuration; **LocalePath** is taxonomy-resolved routing data.
-- `'/en' + zhPath` as a path construction rule: consumers select from `LocalePath`; they do not manually prefix the Chinese path.
-- **Current language** without saying whether it means **runtime locale detection**, **locale preference**, or explicit user switching.
-- `cislunar-lang-chosen` treated as the site locale: it is only a persisted preference/sentinel, not the current route locale.
-- **Same page** for zh/en content unless stable taxonomy identity is the point: say **bilingual counterpart** for paired locale content, and **LocalePath entries** for their routes.
-- **Bilingual** for generated artifacts without naming the partition model: say **locale-partitioned generated artifact** for shapes like `{ zh: ..., en: ... }`.
-- **Category** without a qualifier: say **glossary-category**. (The `news-category` kind was removed with the Space News module, see ADR-0005.)
-- **Image** or **image path** without specifying **hero/card image**, **figure set**, **source figure path**, **built dist asset path**, or **share image**.
-- **Slug** when referring to the full filename: say **article slug** for the identifier after `YYYY-MM-DD-`, and **article filename** for `YYYY-MM-DD-slug.md`.
-- **AI index** or bare **index** for `/ai-chat-index.json`: say **AI route index**. **Index** already means a README at a section/group root in the sidebar tree.
-- **Context index**, **AI context index**, or **site index** for `/ai-chat-context.json`: say **AI context corpus**.
-- **Path** without qualification when discussing AI retrieval: say **AI retrieval path** when you mean the Router-selected key used to join route rows to context records.
-- **ChatIndexCategory** as a normal category: it is an AI-specific grouping key, not a **glossary-category**, editorial tag, or article attribute.
-- AI generated artifacts described as **Adapters** or **Intakes**: adapters derive site-surface outputs from taxonomy; intakes collect build-time data. `/ai-chat-index.json` and `/ai-chat-context.json` are generated AI-chat artifacts.
-- **Translation missing** used interchangeably with **locale gated**: see Translation gap vs Locale gating.
+- 用 **Sidebar config** 作 taxonomy 的同义词：taxonomy 是**概念**，侧边栏配置只是其中一种 **adapter 输出**。
+- 把 **Layout** 当 AI 问答或任何非文章自定义体验的统称：**Layout** 只指 VuePress 页面外壳；面向用户的体验请用 **special surface** 或 **interactive surface**。
+- 不加限定地说 **Sidebar**：要说 **VuePress sidebar config**、**section sidebar** 或 **wayfinding disclosure**。
+- 把 **Wayfinding** 叫成 index 或侧边栏：导引是全局站点地图披露，既不是侧边栏树的 **Index** kind，也不是 AI 路由索引。
+- 在需要精确的场合不加限定地说 **Surface**：要说 **special surface**、**interactive surface**、content page 或 site-surface-specific adapter output。
+- 用 **i18n key** 指 `NodeId`：id 不是 i18n key，它们是稳定身份。
+- 不加限定词的 **Category**：要说 **glossary-category**。（`news-category` kind 已随太空新闻模块移除，见 ADR-0005。）
+- 不区分 **hero/card image**、**figure set**、**source figure path**、**built dist asset path**、**share image**，笼统说 **Image** 或 **image path**。
+- 指代完整文件名时说 **Slug**：`YYYY-MM-DD-` 之后的标识符叫 **article slug**，`YYYY-MM-DD-slug.md` 整体叫 **article filename**。
+- 用 **AI index** 或光秃秃的 **index** 指 `/ai-chat-index.json`：要说 **AI route index**。**Index** 已经表示侧边栏树中 section/group 根上的 README。
+- 用 **Context index**、**AI context index**、**site index** 指 `/ai-chat-context.json`：要说 **AI context corpus**。
+- 讨论 AI 检索时不加限定地说 **Path**：指 Router 选出、用于连接路由行与上下文记录的键时，要说 **AI retrieval path**。
+- 把 **ChatIndexCategory** 当普通 category：它是 AI 专用分组键，不是 **glossary-category**、编辑标签或文章属性。
+- 把 AI 生成工件描述为 **Adapters** 或 **Intakes**：adapter 从分类法派生站点表面输出；intake 采集构建期数据。`/ai-chat-index.json` 与 `/ai-chat-context.json` 是生成的 AI 问答工件。
+- 用 **hand-written reference list**（手写参考文献表）指词条尾部的文献列表：该形态已由**引用键**取代，题录一律由 ref.bib 派生。
 
-## See also
-
-- [ADR-0001: Unified Taxonomy Module](docs/adr/0001-unified-taxonomy-module.md)
-- [ADR-0003: Content Module](docs/adr/0003-content-module.md)
-- [ADR-0004: Asset Layering](docs/adr/0004-asset-layering.md)
-- [ADR-0005: Remove Space News Module](docs/adr/0005-remove-space-news-module.md)
-- [docs/agents/domain.md](docs/agents/domain.md): how agents should consume this file
+- [ADR-0001：统一分类法模块](docs/adr/0001-unified-taxonomy-module.md)
+- [ADR-0003：内容模块](docs/adr/0003-content-module.md)
+- [ADR-0004：资产分层](docs/adr/0004-asset-layering.md)
+- [ADR-0005：移除太空新闻模块](docs/adr/0005-remove-space-news-module.md)
+- [ADR-0006：删除英文版本](docs/adr/0006-remove-english-site.md)
+- [ADR-0007：贡献流程](docs/adr/0007-contribution-workflow.md)
+- [docs/agents/domain.md](docs/agents/domain.md)：agent 应如何消费本文件
 - [docs/agents/issue-tracker.md](docs/agents/issue-tracker.md)
 - [docs/agents/triage-labels.md](docs/agents/triage-labels.md)

@@ -15,7 +15,6 @@ import type {
   ContentFamily,
   ContentModule,
   ContentUpdate,
-  DeleteOptions,
   DeleteReport,
 } from './types.ts';
 
@@ -50,18 +49,16 @@ export function createContentModule(deps: ContentDeps): ContentModule {
     return path.resolve(deps.webRoot, relPath);
   }
 
-  /** list 的遍历根：每个内容族 × 每个语言侧的具体目录列表。 */
+  /** list 的遍历根：每个内容族的具体目录列表。 */
   function familyRoots(family: ContentFamily): string[] {
-    if (family === 'glossary') return ['glossary', 'en/glossary'];
-    // kb-section 逐 section 目录遍历，天然不会越过 locale 根
-    return [...deps.sectionDirs, ...deps.sectionDirs.map((s) => `en/${s}`)];
+    if (family === 'glossary') return ['glossary'];
+    return [...deps.sectionDirs];
   }
 
   function toEntry(relPath: string): ContentEntry {
     const route = router.resolve(relPath)!; // 调用方已过滤
     const entry: ContentEntry = {
       ...route,
-      counterpartExists: fs.existsSync(absOf(route.counterpartPath)),
       frontmatter: {},
     };
     try {
@@ -108,25 +105,17 @@ export function createContentModule(deps: ContentDeps): ContentModule {
     refresh();
   }
 
-  function deleteMany(relPaths: readonly string[], opts: DeleteOptions): DeleteReport {
+  function deleteMany(relPaths: readonly string[]): DeleteReport {
     const stamp = new Date().toISOString().replace(/[:.]/g, '-');
     const trashDir = path.join('.trash', stamp);
     const targets = new Set<string>();
     const skipped: string[] = [];
     for (const rel of relPaths) {
-      const route = router.resolve(rel);
-      if (!route || !fs.existsSync(absOf(rel))) {
+      if (!router.resolve(rel) || !fs.existsSync(absOf(rel))) {
         skipped.push(rel);
         continue;
       }
       targets.add(rel);
-      if (
-        opts.withCounterpart &&
-        route.counterpartPath !== rel &&
-        fs.existsSync(absOf(route.counterpartPath))
-      ) {
-        targets.add(route.counterpartPath);
-      }
     }
     const deletedFiles: string[] = [];
     for (const t of targets) {
@@ -217,7 +206,7 @@ export function createContentModule(deps: ContentDeps): ContentModule {
     list,
     read,
     write,
-    delete: (relPath: string, o: DeleteOptions) => deleteMany([relPath], o),
+    delete: (relPath: string) => deleteMany([relPath]),
     deleteMany,
     refreshIndex: refresh,
   };

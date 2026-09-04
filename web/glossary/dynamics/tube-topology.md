@@ -26,7 +26,7 @@ permalink: /glossary/dynamics/tube-topology/
 
 - [不变流形](/glossary/dynamics/invariant-manifold/)
 - [共线拉格朗日点](/glossary/fundamentals/collinear-lagrange-point/)
-- [零速度面](/glossary/fundamentals/zero-velocity-surface/)
+- [零速度面](/glossary/dynamics/zero-velocity-surface/)
 
 ## 参考文献
 

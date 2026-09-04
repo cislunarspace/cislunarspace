@@ -1,4 +1,3 @@
-[简体中文](glossary-cleanup-report.md) | [English](glossary-cleanup-report.en.md)
 
 # glossary 词条清洗扫描报告
 

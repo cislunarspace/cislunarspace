@@ -22,7 +22,6 @@ export interface NormalizePageMetadataInput {
   fallbackDescription?: string;
 }
 
-export type PageLocale = 'zh-CN' | 'en-US';
 export type PageMetadataType = 'article' | 'website';
 
 export interface NormalizedShareMetadata {
@@ -36,7 +35,6 @@ export interface NormalizedPageMetadata {
   title: string;
   description: string;
   image: string;
-  locale: PageLocale;
   siteName: string;
   url: string;
   type: PageMetadataType;

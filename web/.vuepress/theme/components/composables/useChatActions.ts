@@ -1,35 +1,37 @@
-import type { ComputedRef } from 'vue';
+import type { Message } from '../../chat/chat-types';
 import type { ChatStateMachine } from '../../utils/chat-state-machine';
 import type { ChatUIManager } from '../../utils/chat-ui-manager';
-import type { Message } from '../../chat/chat-types';
 
 export interface ChatHistoryApi {
-  saveCurrentChat: (messages: Message[], isEn: boolean) => void;
-  startNewChat: (messages: Message[], isEn: boolean) => void;
-  switchChat: (idx: number, messages: Message[], isEn: boolean) => Message[] | null;
+  saveCurrentChat: (messages: Message[]) => void;
+  startNewChat: (messages: Message[]) => void;
+  switchChat: (idx: number, messages: Message[]) => Message[] | null;
   deleteChat: (idx: number) => void;
   activeChatIndex: { value: number };
 }
 
+/**
+ * Thin wrapper grouping history mutations so AiChat.vue can bind them
+ * directly to click handlers without knowing the save-on-switch dance.
+ */
 export function createChatActions(
   state: ChatStateMachine,
   ui: ChatUIManager,
   history: ChatHistoryApi,
-  isEn: ComputedRef<boolean>,
 ) {
   function saveCurrentChat() {
-    history.saveCurrentChat(state.messages.value, isEn.value);
+    history.saveCurrentChat(state.messages.value);
   }
 
   function startNewChat() {
-    history.startNewChat(state.messages.value, isEn.value);
+    history.startNewChat(state.messages.value);
     state.startNewChat();
     ui.userInput.value = '';
   }
 
   function switchChat(idx: number) {
     if (state.isLoading.value) return;
-    const restored = history.switchChat(idx, state.messages.value, isEn.value);
+    const restored = history.switchChat(idx, state.messages.value);
     state.switchChat(restored);
     ui.sidebarOpen.value = false;
   }
@@ -38,12 +40,13 @@ export function createChatActions(
     const wasActive = history.activeChatIndex.value === idx;
     history.deleteChat(idx);
     state.deleteChat(wasActive);
+    ui.sidebarOpen.value = false;
   }
 
-  function sendSuggested(question: string) {
-    if (state.isLoading.value) return;
-    ui.userInput.value = question;
-  }
-
-  return { saveCurrentChat, startNewChat, switchChat, deleteChat, sendSuggested };
+  return {
+    saveCurrentChat,
+    startNewChat,
+    switchChat,
+    deleteChat,
+  };
 }

@@ -20,7 +20,6 @@ export interface SceneContext {
   simElapsed: Ref<number>;
   simTime: Ref<Date>;
   labels: SceneLabels;
-  locale: string;
 }
 
 /** 场景标注文字（从 ui computed 中提取子集） */
@@ -140,12 +139,12 @@ export function addEquatorRing(ctx: SceneContext): void {
 }
 
 export function addCoordAxes(ctx: SceneContext): void {
-  const { Cesium, viewer, locale } = ctx;
+  const { Cesium, viewer } = ctx;
   const L = 1.0e7;
   const axes = [
-    { dir: [L, 0, 0], color: '#ff3366', label: locale === 'en' ? 'X  Vernal' : 'X  春分点 ♈' },
+    { dir: [L, 0, 0], color: '#ff3366', label: 'X  春分点 ♈' },
     { dir: [0, L, 0], color: '#33ff66', label: 'Y' },
-    { dir: [0, 0, L], color: '#4488ff', label: locale === 'en' ? 'Z  North' : 'Z  北极' },
+    { dir: [0, 0, L], color: '#4488ff', label: 'Z  北极' },
   ];
   axes.forEach((ax) => {
     const tip = new Cesium.Cartesian3(ax.dir[0], ax.dir[1], ax.dir[2]);

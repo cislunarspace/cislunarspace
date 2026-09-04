@@ -3,12 +3,11 @@ import { createChatUIManager } from './chat-ui-manager';
 import type { Message } from '../chat/chat-types';
 
 describe('createChatUIManager', () => {
-  it('updates suggested questions by locale', () => {
+  it('populates the default suggested questions', () => {
     const ui = createChatUIManager();
-    ui.updateSuggestedQuestions(false);
+    ui.updateSuggestedQuestions();
     expect(ui.suggestedQuestions.value[0]).toBe('什么是地月空间？');
-    ui.updateSuggestedQuestions(true);
-    expect(ui.suggestedQuestions.value[0]).toBe('What is cislunar space?');
+    expect(ui.suggestedQuestions.value).toHaveLength(4);
   });
 
   it('auto-resizes a textarea', () => {

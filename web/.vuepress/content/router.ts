@@ -1,20 +1,16 @@
 /**
  * 内容路径约定的唯一表达（ADR-0003：路径约定只表达一次）。
  *
- * 双向规则：
- *   relPath → { family, locale, counterpartPath }
- *   family + locale + 标识（由各族的路径模式承载）→ relPath
- *
  * 规则来源（沿用既有目录约定，未引入新约定）：
- *   - glossary 词条：(en/)?glossary/<category>/<slug>.md
+ *   - glossary 词条：glossary/<category>/<slug>.md
  *     （glossary/README.md 同理不识别）
- *   - kb-section 页面：(en/)?<section>/ 下任意深度的 .md（含各层 README）。
+ *   - kb-section 页面：<section>/ 下任意深度的 .md（含各层 README）。
  *     section 目录列表由调用方注入 —— 生产环境从 taxonomy 的
  *     kind:'section' 节点派生，测试传 fixture 列表。
  */
-import type { ContentFamily, ContentLocale, ContentRoute } from './types.ts';
+import type { ContentFamily, ContentRoute } from './types.ts';
 
-const GLOSSARY_ENTRY = /^(?:en\/)?glossary\/([^/]+)\/([^/]+)\.md$/;
+const GLOSSARY_ENTRY = /^glossary\/([^/]+)\/([^/]+)\.md$/;
 
 /** 路径的安全检查：拒绝绝对路径与穿越（router 只认 web/ 内的相对路径）。 */
 function isSafeRelPath(relPath: string): boolean {
@@ -24,23 +20,9 @@ function isSafeRelPath(relPath: string): boolean {
   return parts.every((p) => p !== '' && p !== '.' && p !== '..');
 }
 
-function localeOf(relPath: string): ContentLocale {
-  return relPath.startsWith('en/') ? 'en' : 'zh';
-}
-
-function withoutLocalePrefix(relPath: string): string {
-  return relPath.startsWith('en/') ? relPath.slice(3) : relPath;
-}
-
-function withLocale(relPathNoPrefix: string, locale: ContentLocale): string {
-  return locale === 'en' ? `en/${relPathNoPrefix}` : relPathNoPrefix;
-}
-
 export interface ContentRouter {
   /** 识别一个相对路径；不认识（含 README 索引页、未知目录）返回 null。 */
   resolve(relPath: string): ContentRoute | null;
-  /** 双语对应路径：本侧推导对侧。不识别的路径原样返回 null。 */
-  counterpart(relPath: string): string | null;
 }
 
 export function createContentRouter(sectionDirs: readonly string[]): ContentRouter {
@@ -53,27 +35,15 @@ export function createContentRouter(sectionDirs: readonly string[]): ContentRout
     if (GLOSSARY_ENTRY.test(relPath)) {
       family = 'glossary';
     } else {
-      const top = withoutLocalePrefix(relPath).split('/')[0] ?? '';
+      const top = relPath.split('/')[0] ?? '';
       if (sections.has(top)) family = 'kb-section';
     }
     if (!family) return null;
 
-    const locale = localeOf(relPath);
-    const noPrefix = withoutLocalePrefix(relPath);
-    return {
-      relPath,
-      family,
-      locale,
-      counterpartPath: withLocale(noPrefix, locale === 'zh' ? 'en' : 'zh'),
-    };
+    return { relPath, family };
   }
 
-  return {
-    resolve,
-    counterpart(relPath: string): string | null {
-      return resolve(relPath)?.counterpartPath ?? null;
-    },
-  };
+  return { resolve };
 }
 
 /** 生产环境的 section 目录列表：从 taxonomy 的 section 节点路径派生。 */

@@ -29,12 +29,6 @@ export interface ChatIndexCategory {
   entries: ChatIndexEntry[];
 }
 
-export interface TranslationGap {
-  category: string;
-  slug: string;
-  zhTitle: string;
-}
-
 export interface GlossaryScanEntry {
   slug: string;
   title: string;
@@ -43,14 +37,7 @@ export interface GlossaryScanEntry {
 }
 
 export interface GlossaryScan {
-  zh: { entries: GlossaryScanEntry[]; missing: TranslationGap[] };
-  en: { entries: GlossaryScanEntry[] };
-}
-
-export interface TranslationGapIntake {
-  total: number;
-  byCategory: Record<string, number>;
-  gaps: TranslationGap[];
+  entries: GlossaryScanEntry[];
 }
 
 // === Runtime generated artifact shapes =====================================

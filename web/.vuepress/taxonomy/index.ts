@@ -25,7 +25,7 @@ const engine = createViewEngine(taxonomy);
 
 export { taxonomy, engine, NAVBAR_ROOT_ID, WAYFINDING_ROOT_ID, GLOSSARY_ROOT_ID };
 
-export type { Locale, NodeId, NodeKind, TaxonomyModule, TaxonomyNode } from './types';
+export type { NodeId, NodeKind, TaxonomyModule, TaxonomyNode } from './types';
 export { TaxonomyValidationError } from './validate';
 export { createTaxonomyModule } from './module';
 export { validateTaxonomy } from './validate';

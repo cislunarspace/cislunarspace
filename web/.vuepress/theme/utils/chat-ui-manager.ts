@@ -9,27 +9,19 @@ import { ref } from 'vue';
 import { renderLinkedHtml } from './markdown-renderer';
 import type { Message } from '../chat/chat-types';
 
-const DEFAULT_SUGGESTED_QUESTIONS = {
-  en: [
-    'What is cislunar space?',
-    'What is the CR3BP model?',
-    'What are the characteristics of NRHO orbits?',
-    'What are Lagrange points used for?',
-  ],
-  zh: [
-    '什么是地月空间？',
-    'CR3BP 模型是什么？',
-    '有谁在研究地月空间？',
-    '地月空间研究前沿是什么？',
-  ],
-};
+const DEFAULT_SUGGESTED_QUESTIONS = [
+  '什么是地月空间？',
+  'CR3BP 模型是什么？',
+  '有谁在研究地月空间？',
+  '地月空间研究前沿是什么？',
+];
 
 export interface ChatUIManager {
   sidebarOpen: Ref<boolean>;
   userInput: Ref<string>;
-  suggestedQuestions: Ref<string[]>;
-  /** Pick suggested questions based on locale. */
-  updateSuggestedQuestions(isEn: boolean): void;
+  /** Reset suggested questions to the default list. */
+  updateSuggestedQuestions(): void;
+
   /** Auto-resize a textarea to fit its content. */
   autoResize(input: HTMLTextAreaElement | null): void;
   /** Scroll a container to the bottom. */
@@ -50,10 +42,8 @@ export function createChatUIManager(): ChatUIManager {
   const userInput = ref('');
   const suggestedQuestions = ref<string[]>([]);
 
-  function updateSuggestedQuestions(isEn: boolean) {
-    suggestedQuestions.value = isEn
-      ? DEFAULT_SUGGESTED_QUESTIONS.en
-      : DEFAULT_SUGGESTED_QUESTIONS.zh;
+  function updateSuggestedQuestions() {
+    suggestedQuestions.value = DEFAULT_SUGGESTED_QUESTIONS;
   }
 
   function autoResize(input: HTMLTextAreaElement | null) {

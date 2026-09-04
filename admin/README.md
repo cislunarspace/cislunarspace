@@ -1,4 +1,3 @@
-[简体中文](README.md) | [English](README.en.md)
 
 # 地月空间内容管理器（本地 GUI）
 
@@ -73,12 +72,12 @@ npm start    # tsx 运行（可 import web 侧 TS 的 content 模块）
 顶部「分类管理」按钮打开管理弹窗：
 
 - **添加分类**：
-  - Glossary：创建 `web/glossary/<name>/` 与 `web/en/glossary/<name>/` 目录并注册
-    taxonomy 节点；选择父分类则创建**子分类**（`web/glossary/<parent>/<name>/`，
-    只支持一层；词条也可直接放在分类根目录，表示未细分）
+  - Glossary：创建 `web/glossary/<name>/` 目录并注册 taxonomy 节点；选择父分类
+    则创建**子分类**（`web/glossary/<parent>/<name>/`，只支持一层；词条也可直接
+    放在分类根目录，表示未细分）
 - **删除分类**：
   - 默认「仅删分类，保留条目」：把该目录下所有条目移到选定的目标分类
-  - 可选「连同条目一起删除」：删除该目录下全部条目（中英镜像，进回收站），目录一并删除
+  - 可选「连同条目一起删除」：删除该目录下全部条目（进回收站），目录一并删除
   - 所有操作记日志，gen-sidebar 自动重跑
 
 ### 2. 编辑器
@@ -118,7 +117,7 @@ npm start    # tsx 运行（可 import web 侧 TS 的 content 模块）
 
 ## 内容操作架构（ADR-0003 follow-up 3b）
 
-- 数据操作走 `web/.vuepress/content` 模块：路径约定、双语配对、删除回收（`web/.trash`）、索引刷新的真理在 content；本服务只做 HTTP 形状适配（`lib/content-bridge.ts`）。
+- 数据操作走 `web/.vuepress/content` 模块：路径约定、删除回收（`web/.trash`）、索引刷新的真理在 content；本服务只做 HTTP 形状适配（`lib/content-bridge.ts`）。
 - **保存后自动刷新派生索引**（后台执行 gen，编辑器不等待），修复了此前保存后列表与侧边栏数据陈旧的问题。
 - **新建内容**：`POST /api/content/create`（content.create，自动定路径、建月份 README 索引行）；前端新建入口待后续版本。
 - 列表/读取仍走本地 scan（迁移到 content.list 为后续批次）。

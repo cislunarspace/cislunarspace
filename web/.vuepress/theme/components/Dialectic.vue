@@ -118,10 +118,8 @@
                 class="input-textarea"
                 :value="inputs[currentStep].note"
                 @input="onNoteInput"
-                :placeholder="
-                  isEn ? 'Explain your rating and sources...' : '补充说明定级理由与来源情况...'
-                "
-                :aria-label="isEn ? 'Rating explanation' : '定级说明'"
+                placeholder="补充说明定级理由与来源情况..."
+                aria-label="定级说明"
               ></textarea>
               <div v-else class="placeholder-hint">请先选择证据级别</div>
               <div class="ai-bar">
@@ -138,20 +136,16 @@
                   class="input-textarea half"
                   :value="inputs[currentStep].view1"
                   @input="(e) => onDualInput(e, 'view1')"
-                  :placeholder="
-                    isEn ? 'First theoretical perspective...' : '输入第一个理论视角及其演绎解释...'
-                  "
-                  :aria-label="isEn ? 'Perspective 1' : '视角一'"
+                  placeholder="输入第一个理论视角及其演绎解释..."
+                  aria-label="视角一"
                 ></textarea>
-                <span class="box-label">{{ isEn ? 'Perspective 2' : '视角二' }}</span>
+                <span class="box-label">视角二</span>
                 <textarea
                   class="input-textarea half"
                   :value="inputs[currentStep].view2"
                   @input="(e) => onDualInput(e, 'view2')"
-                  :placeholder="
-                    isEn ? 'Second theoretical perspective...' : '输入第二个理论视角及其演绎解释...'
-                  "
-                  :aria-label="isEn ? 'Perspective 2' : '视角二'"
+                  placeholder="输入第二个理论视角及其演绎解释..."
+                  aria-label="视角二"
                 ></textarea>
               </div>
               <div class="ai-bar">
@@ -196,7 +190,6 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { useIsEn } from '../composables/useIsEn';
 import { useDialecticHistory } from '../utils/useDialecticHistory';
 import type { DialecticReport } from '../utils/useDialecticHistory';
 import { steps, TEMPLATES, validateStep } from '../utils/dialectic-prompts';
@@ -208,7 +201,6 @@ type View = 'home' | 'dialectic' | 'report';
 
 // --- State ---
 const { loadReports, addReport, findReport, deleteReport, clearAllReports } = useDialecticHistory();
-const isEn = useIsEn();
 
 const view = ref<View>('home');
 const reports = ref<DialecticReport[]>([]);
@@ -261,14 +253,7 @@ function enterDemo() {
 
 function goHome() {
   if (view.value === 'dialectic' && hasAnyInput()) {
-    if (
-      !confirm(
-        isEn.value
-          ? 'Leave will discard current progress. Continue?'
-          : '返回首页将丢失当前进度，确定继续？',
-      )
-    )
-      return;
+    if (!confirm('返回首页将丢失当前进度，确定继续？')) return;
   }
   view.value = 'home';
   reports.value = loadReports();
@@ -416,9 +401,7 @@ function onAIAssist() {
     })
     .catch(() => {
       isAILoading.value = false;
-      aiResponse.value = isEn.value
-        ? 'AI request failed. Please check your network and try again.'
-        : 'AI 请求失败，请检查网络后重试。';
+      aiResponse.value = 'AI 请求失败，请检查网络后重试。';
     });
 }
 

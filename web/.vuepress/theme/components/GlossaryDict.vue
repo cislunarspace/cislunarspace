@@ -1,15 +1,10 @@
 <template>
   <div class="glossary-dict">
     <div class="dict-toolbar">
-      <input
-        v-model="keyword"
-        class="dict-search"
-        type="search"
-        :placeholder="isEn ? 'Search terms (zh/en)…' : '搜索术语（中英）…'"
-      />
+      <input v-model="keyword" class="dict-search" type="search" placeholder="搜索术语（中英）…" />
       <div class="dict-cats">
         <button class="dict-chip" :class="{ active: activeCat === null }" @click="activeCat = null">
-          {{ isEn ? 'All' : '全部' }} ({{ totalCount }})
+          全部 ({{ totalCount }})
         </button>
         <button
           v-for="c in categories"
@@ -24,7 +19,7 @@
     </div>
 
     <p v-if="error" class="dict-msg">{{ error }}</p>
-    <p v-else-if="!ready" class="dict-msg">{{ isEn ? 'Loading…' : '加载中…' }}</p>
+    <p v-else-if="!ready" class="dict-msg">加载中…</p>
     <template v-else>
       <section v-for="c in visibleCategories" :key="c.slug" class="dict-section">
         <h3 :id="c.slug">
@@ -37,20 +32,15 @@
           </div>
           <p v-if="e.definition" class="dict-def">{{ e.definition }}</p>
         </div>
-        <p v-if="filtered(c.entries).length === 0" class="dict-msg">
-          {{ isEn ? 'No match in this category.' : '本分类无匹配词条。' }}
-        </p>
+        <p v-if="filtered(c.entries).length === 0" class="dict-msg">本分类无匹配词条。</p>
       </section>
-      <p v-if="matchCount === 0" class="dict-msg">
-        {{ isEn ? 'No matching term.' : '没有匹配的词条。' }}
-      </p>
+      <p v-if="matchCount === 0" class="dict-msg">没有匹配的词条。</p>
     </template>
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue';
-import { useRoute } from 'vue-router';
 
 interface DictEntry {
   slug: string;
@@ -63,9 +53,6 @@ interface DictCategory {
   label: string;
   entries: DictEntry[];
 }
-
-const route = useRoute();
-const isEn = computed(() => route.path.startsWith('/en'));
 
 const keyword = ref('');
 const activeCat = ref<string | null>(null);
@@ -100,16 +87,11 @@ onMounted(async () => {
   try {
     const res = await fetch('/glossary-dictionary.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = (await res.json()) as {
-      zh: { categories: DictCategory[] };
-      en: { categories: DictCategory[] };
-    };
-    categories.value = (isEn.value ? data.en : data.zh).categories;
+    const data = (await res.json()) as { categories: DictCategory[] };
+    categories.value = data.categories;
     ready.value = true;
   } catch (err) {
-    error.value = isEn.value
-      ? `Failed to load the dictionary: ${err instanceof Error ? err.message : err}`
-      : `词典数据加载失败：${err instanceof Error ? err.message : err}`;
+    error.value = `词典数据加载失败：${err instanceof Error ? err.message : err}`;
   }
 });
 </script>

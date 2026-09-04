@@ -25,7 +25,7 @@ permalink: /glossary/dynamics/xac/
 ## 相关概念
 
 - [近直线晕轨道](/glossary/orbits/nrho/)
-- [打靶法](/glossary/dynamics/shooting-method/)
+- [打靶法](/glossary/navigation/differential-correction/)
 - [轨道维持](/glossary/dynamics/station-keeping/)
 
 ## 参考文献

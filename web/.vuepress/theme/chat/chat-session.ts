@@ -30,7 +30,6 @@ import type {
 
 export class ChatSession {
   private readonly cfg: NormalizedConfig;
-  private readonly locale: 'zh' | 'en';
   private readonly siteIndex: HierarchicalSiteIndex;
   private readonly flatIndex: { path: string; title: string }[];
   private readonly router: ChatRouter;
@@ -38,16 +37,10 @@ export class ChatSession {
   private readonly transport: ChatTransport;
   private readonly contextManager: ChatContextManager;
 
-  constructor(
-    cfg: NormalizedConfig,
-    locale: 'zh' | 'en',
-    siteIndex: HierarchicalSiteIndex,
-    deps: ChatSessionDeps = {},
-  ) {
+  constructor(cfg: NormalizedConfig, siteIndex: HierarchicalSiteIndex, deps: ChatSessionDeps = {}) {
     this.cfg = cfg;
-    this.locale = locale;
     this.siteIndex = siteIndex;
-    this.flatIndex = flatIndexFor(siteIndex, locale);
+    this.flatIndex = flatIndexFor(siteIndex);
     this.transport = deps.transport ?? createFetchTransport();
     this.contextManager = deps.contextManager ?? createFetchContextManager();
     this.router = deps.router ?? createLLMRouter({ transport: this.transport });
@@ -56,7 +49,7 @@ export class ChatSession {
   }
 
   async loadSiteContext(signal: AbortSignal = new AbortController().signal): Promise<SiteContext> {
-    return (await this.contextManager.loadContext(signal)) ?? { zh: {}, en: {} };
+    return (await this.contextManager.loadContext(signal)) ?? {};
   }
 
   async route(
@@ -71,7 +64,6 @@ export class ChatSession {
       callbacks,
       signal,
       cfg: this.cfg,
-      locale: this.locale,
       siteIndex: this.siteIndex,
       flatIndex: this.flatIndex,
       router: this.router,
@@ -84,7 +76,6 @@ export class ChatSession {
       callbacks,
       signal,
       cfg: this.cfg,
-      locale: this.locale,
       siteIndex: this.siteIndex,
       answerEngine: this.answerEngine,
       transport: this.transport,
@@ -118,7 +109,6 @@ interface RoutingPhaseInput {
   callbacks: RouteCallbacks;
   signal: AbortSignal;
   cfg: NormalizedConfig;
-  locale: 'zh' | 'en';
   siteIndex: HierarchicalSiteIndex;
   flatIndex: { path: string; title: string }[];
   router: ChatRouter;
@@ -128,7 +118,7 @@ interface RoutingPhaseInput {
  *  retrieval is off; otherwise call the router. Returns the chosen paths,
  *  or null when the router signaled abort. */
 async function runRoutingPhase(input: RoutingPhaseInput): Promise<string[] | null> {
-  const { callbacks, cfg, locale, flatIndex } = input;
+  const { callbacks, cfg, flatIndex } = input;
   const twoPhaseOn = cfg.twoPhaseRetrieval !== false && flatIndex.length > 0;
   if (!twoPhaseOn) {
     callbacks.onProcessStep('stepAnswerAlone');
@@ -142,15 +132,14 @@ async function runRoutingPhase(input: RoutingPhaseInput): Promise<string[] | nul
       siteIndex: input.siteIndex,
       flatIndex,
       config: cfg,
-      locale,
       callbacks: toRouterCallbacks(callbacks),
       signal: input.signal,
     });
-    callbacks.onProcessStepComplete('stepNav', locale === 'en' ? 'ok' : '已选');
+    callbacks.onProcessStepComplete('stepNav', '已选');
     return decision.paths;
   } catch (err) {
     if (err instanceof Error && err.name === 'AbortError') throw err;
-    callbacks.onProcessStepComplete('stepNav', locale === 'en' ? 'error' : '导览未成功');
+    callbacks.onProcessStepComplete('stepNav', '导览未成功');
     callbacks.onProcessStep('stepAnswer');
     return [];
   }
@@ -162,7 +151,6 @@ interface AnswerPhaseInput {
   callbacks: RouteCallbacks;
   signal: AbortSignal;
   cfg: NormalizedConfig;
-  locale: 'zh' | 'en';
   siteIndex: HierarchicalSiteIndex;
   answerEngine: ReturnType<typeof createAnswerEngine>;
   transport: ChatTransport;
@@ -175,7 +163,6 @@ async function runAnswerPhase(input: AnswerPhaseInput): Promise<void> {
     paths: input.paths,
     history: input.history,
     siteIndex: input.siteIndex,
-    locale: input.locale,
     config: input.cfg,
     callbacks: toAnswerEngineCallbacks(input.callbacks),
     signal: input.signal,

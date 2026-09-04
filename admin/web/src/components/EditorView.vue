@@ -29,7 +29,7 @@ const dialog = useDialog();
 
 const loading = ref(true);
 const error = ref('');
-const sides = ref([]); // [{ lang, path, body, yamlText, orig, form, changed, rawTouched }]
+const doc = ref(null); // { path, body, yamlText, orig, form, changed, rawTouched }
 const kind = ref('glossary');
 const saving = ref(false);
 const validating = ref(false);
@@ -70,11 +70,9 @@ function makeForm(fm) {
   };
 }
 
-function initSides(data) {
+function initDoc(data) {
   kind.value = data.kind || 'glossary';
-  const arr = [];
-  const primary = {
-    lang: data.lang,
+  doc.value = {
     path: data.path,
     body: data.body,
     yamlText: data.rawFrontmatter ?? '',
@@ -83,21 +81,6 @@ function initSides(data) {
     changed: {},
     rawTouched: false,
   };
-  arr.push(primary);
-  if (data.mirror) {
-    const m = data.mirror;
-    arr.push({
-      lang: m.lang,
-      path: m.path,
-      body: m.body,
-      yamlText: m.rawFrontmatter ?? '',
-      orig: m.frontmatter || {},
-      form: makeForm(m.frontmatter || {}),
-      changed: {},
-      rawTouched: false,
-    });
-  }
-  sides.value = arr;
   dirty.value = false;
 }
 
@@ -156,11 +139,8 @@ function onBodyInput(side, value) {
 async function validateNow() {
   validating.value = true;
   try {
-    const all = [];
-    for (const s of sides.value) {
-      const r = await api.validate({ frontmatterRaw: s.yamlText });
-      for (const e of r.errors || []) all.push(`${s.lang.toUpperCase()} ${e}`);
-    }
+    const r = await api.validate({ frontmatterRaw: doc.value.yamlText });
+    const all = r.errors || [];
     if (all.length) {
       message.error('校验未通过：' + all.join('；'));
     } else {
@@ -177,12 +157,8 @@ async function saveNow() {
   if (saving.value || !dirty.value) return;
   saving.value = true;
   try {
-    const saves = sides.value.map((s) => ({
-      path: s.path,
-      frontmatterRaw: s.yamlText,
-      body: s.body,
-    }));
-    await api.save(saves);
+    const d = doc.value;
+    await api.save([{ path: d.path, frontmatterRaw: d.yamlText, body: d.body }]);
     message.success('已保存。');
     dirty.value = false;
     // 重新加载，刷新 orig 基线
@@ -227,7 +203,7 @@ onMounted(async () => {
   window.addEventListener('beforeunload', onBeforeUnload);
   try {
     const data = await api.content(props.path);
-    initSides(data);
+    initDoc(data);
   } catch (err) {
     error.value = err.message;
   } finally {
@@ -245,7 +221,7 @@ const showSitePreview = ref(false);
 
 // ---------- AI 选区润色 ----------
 const aiShow = ref(false);
-const aiContext = ref({ fieldLabel: '', selectedText: '', fullText: '', hasSelection: false, kind: 'glossary', lang: 'zh' });
+const aiContext = ref({ fieldLabel: '', selectedText: '', fullText: '', hasSelection: false, kind: 'glossary' });
 let aiTarget = null; // { side, fieldKey, field?, sel? }
 
 /** 在字段 wrapper 的 mouseup/keyup 上捕获原生选区（e.target 是真实 input/textarea） */
@@ -277,7 +253,6 @@ function openAi(side, fieldKey, fieldLabel) {
     fullText,
     hasSelection: !!sel,
     kind: kind.value,
-    lang: side.lang,
   };
   aiShow.value = true;
 }
@@ -336,18 +311,11 @@ function applyAi(text, mode) {
     </div>
     <n-alert v-else-if="error" type="error">{{ error }}</n-alert>
 
-    <template v-else>
-      <n-alert v-if="sides.length === 1" type="info" style="margin-bottom: 14px">
-        该页面只有 {{ sides[0].lang === 'zh' ? '中文' : '英文' }} 版本，暂无对应镜像文件。
-      </n-alert>
-
+    <template v-else-if="doc">
       <div class="editor-grid">
-        <n-card v-for="side in sides" :key="side.lang" size="small">
+        <n-card size="small">
           <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap">
-            <n-tag size="small" :type="side.lang === 'en' ? 'warning' : 'info'" :bordered="false">
-              {{ side.lang === 'zh' ? '中文' : 'English' }}
-            </n-tag>
-            <code class="path-cell" style="max-width: none">{{ side.path }}</code>
+            <code class="path-cell" style="max-width: none">{{ doc.path }}</code>
           </div>
 
           <n-alert v-if="side.rawTouched" type="warning" style="margin-bottom: 10px">

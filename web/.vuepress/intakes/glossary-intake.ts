@@ -6,24 +6,19 @@ import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.js';
 import { categoryRegistry } from '../taxonomy/adapters/glossary-categories.js';
 import { taxonomy, GLOSSARY_ROOT_ID } from '../taxonomy/index.js';
 import type { MarkdownFile } from '../utils/markdown-walker.js';
-import type { GlossaryScan, TranslationGap } from '../sidebar/types.ts';
+import type { GlossaryScan, GlossaryScanEntry } from '../sidebar/types.ts';
 
 export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
   const isReadme = (f: MarkdownFile) => path.basename(f.relPath).startsWith('README');
 
-  const zhFiles = files.filter((f) => f.relPath.startsWith('glossary/') && !isReadme(f));
-  const enFiles = files.filter((f) => f.relPath.startsWith('en/glossary/') && !isReadme(f));
-
-  const enRelPaths = new Set(enFiles.map((f) => f.relPath));
+  const glossaryFiles = files.filter((f) => f.relPath.startsWith('glossary/') && !isReadme(f));
 
   const glossaryRootNode = taxonomy.get(GLOSSARY_ROOT_ID);
-  const zhBase = glossaryRootNode.path.zh!;
-  const enBase = glossaryRootNode.path.en!;
+  const base = glossaryRootNode.path!;
 
-  const zhEntries: GlossaryScan['zh']['entries'] = [];
-  const missing: TranslationGap[] = [];
+  const entries: GlossaryScanEntry[] = [];
 
-  for (const file of zhFiles.sort((a, b) => a.relPath.localeCompare(b.relPath))) {
+  for (const file of glossaryFiles.sort((a, b) => a.relPath.localeCompare(b.relPath))) {
     const parts = file.relPath.split('/');
     // 接受 glossary/<cat>/<slug>.md 与 glossary/<cat>/<sub>/<slug>.md 两种深度
     if (parts.length !== 3 && parts.length !== 4) continue;
@@ -35,29 +30,8 @@ export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
 
     const { frontmatter } = parseFrontmatterAndBody(file.content);
     const title = (frontmatter.title && String(frontmatter.title)) || slug;
-    zhEntries.push({ slug, title, path: `${zhBase}${categorySlug}/${slug}/`, category });
-
-    if (!enRelPaths.has(`en/glossary/${categorySlug}/${filename}`)) {
-      missing.push({ category: category.label.zh, slug, zhTitle: title });
-    }
+    entries.push({ slug, title, path: `${base}${categorySlug}/${slug}/`, category });
   }
 
-  const enEntries: GlossaryScan['en']['entries'] = [];
-
-  for (const file of enFiles.sort((a, b) => a.relPath.localeCompare(b.relPath))) {
-    const parts = file.relPath.split('/');
-    // en 侧对应深度为 4 或 5（多一段 en/ 前缀）
-    if (parts.length !== 4 && parts.length !== 5) continue;
-    const categorySlug = parts.slice(2, -1).join('/');
-    const filename = parts[parts.length - 1];
-    const slug = filename.replace(/\.md$/i, '');
-    const category = categoryRegistry.getBySlug(categorySlug);
-    if (!category) continue;
-
-    const { frontmatter } = parseFrontmatterAndBody(file.content);
-    const title = (frontmatter.title && String(frontmatter.title)) || slug;
-    enEntries.push({ slug, title, path: `${enBase}${categorySlug}/${slug}/`, category });
-  }
-
-  return { zh: { entries: zhEntries, missing }, en: { entries: enEntries } };
+  return { entries };
 }

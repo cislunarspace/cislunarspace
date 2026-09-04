@@ -3,8 +3,7 @@ import { createFetchContextManager, createInMemoryContextManager } from './chat-
 import type { SiteContext } from './chat-types';
 
 const sample: SiteContext = {
-  zh: { '/foo/': { title: 'Foo', text: 'zh body' } },
-  en: {},
+  '/foo/': { title: 'Foo', text: 'zh body' },
 };
 
 describe('chat-context-manager', () => {
@@ -45,15 +44,9 @@ describe('chat-context-manager', () => {
       vi.stubGlobal('fetch', fetchMock);
       const manager = createFetchContextManager();
 
-      await expect(manager.loadContext(new AbortController().signal)).resolves.toEqual({
-        zh: {},
-        en: {},
-      });
+      await expect(manager.loadContext(new AbortController().signal)).resolves.toEqual({});
       // Second call uses the empty-context cache, not a new fetch
-      await expect(manager.loadContext(new AbortController().signal)).resolves.toEqual({
-        zh: {},
-        en: {},
-      });
+      await expect(manager.loadContext(new AbortController().signal)).resolves.toEqual({});
       expect(fetchMock).toHaveBeenCalledTimes(1);
     });
 

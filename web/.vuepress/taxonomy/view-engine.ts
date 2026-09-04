@@ -2,24 +2,22 @@
  * TaxonomyViewEngine — declarative query layer over TaxonomyModule.
  *
  * Centralises the traversal logic that view adapters previously duplicated:
- * locale-filtered child lookup, locale-specific path and label resolution,
- * and recursive tree building.
+ * child lookup, path and label resolution, and recursive tree building.
  *
  * Query DSL:
  *
  *   engine
  *     .fromRoot(id)             // anchor at a node (null = forest root)
- *     .withLocale(locale)       // set locale for resolution + gating
  *     .filter(predicate)       // narrow flat results (list / walk)
  *     .list()                  //   → direct children as ViewNode[]
  *     .walk()                  //   → root + all descendants, depth-first
  *     .root()                  //   → root node as ViewNode, or null
  *     .buildTree(projector)    //   → recursive tree; projector returns null to skip
  *
- * ViewNode pre-resolves the locale-specific path (including external-link
- * href) and label so projectors never touch raw TaxonomyNode locale maps.
+ * ViewNode pre-resolves the path (including external-link href) and label
+ * so projectors never touch raw TaxonomyNode fields.
  */
-import type { Locale, NodeId, TaxonomyModule, TaxonomyNode } from './types';
+import type { NodeId, TaxonomyModule, TaxonomyNode } from './types';
 
 // ── Public types ─────────────────────────────────────────────────────────────
 
@@ -30,9 +28,8 @@ export interface ViewNode {
 }
 
 export interface ViewQuery {
-  withLocale(locale: Locale): ViewQuery;
   filter(predicate: (vn: ViewNode) => boolean): ViewQuery;
-  /** Direct children of the root, locale-filtered and sorted. */
+  /** Direct children of the root, sorted by sibling order. */
   list(): ViewNode[];
   /** Root node followed by all descendants in depth-first pre-order. */
   walk(): ViewNode[];
@@ -52,19 +49,19 @@ export interface TaxonomyViewEngine {
 
 // ── Path resolution ──────────────────────────────────────────────────────────
 
-function resolvePath(node: TaxonomyNode, locale: Locale): string | null {
+function resolvePath(node: TaxonomyNode): string | null {
   if (node.kind === 'external-link') {
     const href = node.meta?.href;
     return typeof href === 'string' ? href : null;
   }
-  return node.path[locale] ?? null;
+  return node.path ?? null;
 }
 
-function toViewNode(node: TaxonomyNode, locale: Locale): ViewNode {
+function toViewNode(node: TaxonomyNode): ViewNode {
   return {
     node,
-    path: resolvePath(node, locale),
-    label: node.label[locale],
+    path: resolvePath(node),
+    label: node.label,
   };
 }
 
@@ -73,25 +70,23 @@ function toViewNode(node: TaxonomyNode, locale: Locale): ViewNode {
 function createQuery(
   taxonomy: TaxonomyModule,
   rootId: NodeId | null,
-  locale: Locale,
   filters: ReadonlyArray<(vn: ViewNode) => boolean>,
 ): ViewQuery {
-  const toVN = (node: TaxonomyNode): ViewNode => toViewNode(node, locale);
   const passes = (vn: ViewNode): boolean => filters.every((f) => f(vn));
 
-  const list = (): ViewNode[] => taxonomy.children(rootId, locale).map(toVN).filter(passes);
+  const list = (): ViewNode[] => taxonomy.children(rootId).map(toViewNode).filter(passes);
 
   const walk = (): ViewNode[] => {
     const result: ViewNode[] = [];
     const visit = (parentId: NodeId | null): void => {
-      for (const child of taxonomy.children(parentId, locale)) {
-        const vn = toVN(child);
+      for (const child of taxonomy.children(parentId)) {
+        const vn = toViewNode(child);
         if (passes(vn)) result.push(vn);
         visit(child.id);
       }
     };
     if (rootId !== null) {
-      const rootVN = toVN(taxonomy.get(rootId));
+      const rootVN = toViewNode(taxonomy.get(rootId));
       if (passes(rootVN)) result.push(rootVN);
     }
     visit(rootId);
@@ -100,14 +95,14 @@ function createQuery(
 
   const root = (): ViewNode | null => {
     if (rootId === null) return null;
-    return toVN(taxonomy.get(rootId));
+    return toViewNode(taxonomy.get(rootId));
   };
 
   const buildTree = <T>(projector: (vn: ViewNode, children: T[]) => T | null): T[] => {
     const buildLevel = (parentId: NodeId | null): T[] => {
       const result: T[] = [];
-      for (const child of taxonomy.children(parentId, locale)) {
-        const vn = toVN(child);
+      for (const child of taxonomy.children(parentId)) {
+        const vn = toViewNode(child);
         const children = buildLevel(child.id);
         const item = projector(vn, children);
         if (item !== null) result.push(item);
@@ -118,9 +113,8 @@ function createQuery(
   };
 
   return {
-    withLocale: (l: Locale) => createQuery(taxonomy, rootId, l, filters),
     filter: (predicate: (vn: ViewNode) => boolean) =>
-      createQuery(taxonomy, rootId, locale, [...filters, predicate]),
+      createQuery(taxonomy, rootId, [...filters, predicate]),
     list,
     walk,
     root,
@@ -132,6 +126,6 @@ function createQuery(
 
 export function createViewEngine(taxonomy: TaxonomyModule): TaxonomyViewEngine {
   return {
-    fromRoot: (rootId: NodeId | null) => createQuery(taxonomy, rootId, 'zh', []),
+    fromRoot: (rootId: NodeId | null) => createQuery(taxonomy, rootId, []),
   };
 }

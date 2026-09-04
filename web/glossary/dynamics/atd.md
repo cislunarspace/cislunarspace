@@ -24,9 +24,9 @@ permalink: /glossary/dynamics/atd/
 
 ## 相关概念
 
-- [打靶法](/glossary/dynamics/shooting-method/)
-- [轨道延续法](/glossary/dynamics/continuation-method/)
-- [共振轨道](/glossary/orbits/resonant-orbit/)
+- [打靶法](/glossary/navigation/differential-correction/)
+- [轨道延续法](/glossary/dynamics/continuation/)
+- [共振轨道](/glossary/orbits/resonant-orbit-family/)
 
 ## 参考文献
 

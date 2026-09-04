@@ -30,23 +30,20 @@ export function flattenCategories(categories: ChatIndexCategory[]): IndexRow[] {
 
 export function buildContextBlob(
   ctx: SiteContext,
-  loc: 'zh' | 'en',
   paths: string[],
   charBudget: number,
-  isEn: boolean,
 ): string | null {
-  const bag = loc === 'en' ? ctx.en : ctx.zh;
   const parts: string[] = [];
   let used = 0;
 
   for (const p of paths) {
-    const rec = bag[p];
+    const rec = ctx[p];
     if (!rec) continue;
     const block = `--- ${p}\n# ${rec.title || p}\n\n${rec.text || ''}\n`;
     if (used + block.length > charBudget) {
       const left = Math.max(0, charBudget - used - 50);
       if (left < 200) break;
-      parts.push(`${block.slice(0, left)}…\n[${isEn ? 'truncated' : '已截断'}]`);
+      parts.push(`${block.slice(0, left)}…\n[已截断]`);
       break;
     }
     used += block.length;

@@ -26,7 +26,7 @@ import { ref, computed, onBeforeUnmount } from 'vue';
 import { useRoute } from 'vue-router';
 import { usePage } from 'vuepress/client';
 import { stripFrontmatter } from '../utils/strip-frontmatter';
-import { getCopyPageLocaleText, shouldShowCopyButton } from '../utils/copy-page';
+import { shouldShowCopyButton } from '../utils/copy-page';
 import type { PageData } from '../utils/types';
 
 const route = useRoute();
@@ -34,9 +34,8 @@ const page = usePage();
 const isCopied = ref(false);
 let timer: ReturnType<typeof setTimeout> | null = null;
 
-const locale = computed(() => getCopyPageLocaleText(route.path));
-const copyText = computed(() => locale.value.copy);
-const copiedText = computed(() => locale.value.copied);
+const copyText = '复制页面';
+const copiedText = '已复制';
 
 const show = computed(() => {
   const fm = (page.value as PageData).frontmatter || {};

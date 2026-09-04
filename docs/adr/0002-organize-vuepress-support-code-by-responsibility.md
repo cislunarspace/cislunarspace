@@ -1,69 +1,68 @@
-[English](0002-organize-vuepress-support-code-by-responsibility.md) | [简体中文](0002-organize-vuepress-support-code-by-responsibility.zh-CN.md)
 
-# ADR 0002: Organize VuePress support code by responsibility
+# ADR 0002：按职责整理 VuePress 支撑代码
 
-- **Status:** Accepted
-- **Date:** 2026-06-03
-- **Supersedes:** —
-- **Superseded by:** —
+- **状态:** 已接受
+- **日期:** 2026-06-03
+- **取代:** —
+- **被取代:** —
 
-## Context
+## 背景
 
-The `web/.vuepress/` root directory accumulated support files across multiple development phases, reaching ~25 source files with mixed responsibilities:
+`web/.vuepress/` 根目录在多个开发阶段中积累了大量支撑文件，达到约 25 个源文件、职责混杂：
 
-- **Build tooling** (sync-figures, sharded-build, measure-build, verify-dist): infrastructure scripts with no content knowledge
-- **Theme display data** (extraSideBar, footer): consumed only by theme components, but living in the config directory
-- **Sidebar support code** (sidebar-data, sidebar-types, sidebar-transforms): types and definitions for the knowledge-base sidebar tree
-- **Content generators** (gen-sidebar, gen-ai-chat-context): build-time JSON artifact producers mixing seven distinct output families in a single 255-line orchestrator
-- **Deprecated compatibility files** (build-sidebar): re-exports with no runtime importers
+- **构建工具**（sync-figures, sharded-build, measure-build, verify-dist）：不具内容知识的基建脚本
+- **主题展示数据**（extraSideBar, footer）：仅被主题组件消费，却放在 config 目录
+- **侧边栏支撑代码**（sidebar-data, sidebar-types, sidebar-transforms）：知识库侧边栏树的类型与定义
+- **内容生成器**（gen-sidebar, gen-ai-chat-context）：构建期 JSON 工件生产者，把七种互异的输出族混在一个 255 行的编排器里
+- **已废弃兼容文件**（build-sidebar）：无运行时引用者的 re-export
 
-This layout made it hard for maintainers and agents to find out where X lives without reading multiple files. Adding or modifying any content family required navigating a flat directory that mixed unrelated concerns.
+这种布局让维护者和 agent 很难不读多个文件就找到 X 在哪。增改任何内容族都得在一个混杂无关关切的扁平目录里穿行。
 
-## Decision
+## 决策
 
-Organize VuePress support code into responsibility-scoped directories:
+按职责划分目录来组织 VuePress 支撑代码：
 
-| Directory | Responsibility | Examples |
+| 目录 | 职责 | 示例 |
 |-----------|---------------|---------|
-| `.vuepress/sidebar/` | Sidebar data definitions, types, and runtime config construction | `data.ts`, `types.ts`, `config.ts`, `intake.ts`, `runtime.ts` |
-| `.vuepress/generators/` | Build-time JSON artifact generators (one per output family) | `space-news.ts`, `ai-chat.ts`, `glossary.ts` |
-| `.vuepress/build/` | Build infrastructure scripts (no content knowledge) | `sync-figures.js`, `sharded-build.ts`, `measure-build.ts`, `verify-dist.ts` |
-| `.vuepress/theme2/data/` | Theme display data consumed by theme components only | `wechat-widget.ts`, `footer.ts` |
-| `.vuepress/taxonomy/` | Unified taxonomy module (unchanged) | `types.ts`, `data.ts`, `define.ts`, `adapters/` |
-| `.vuepress/intakes/` | Build-time data collection (unchanged) | `glossary-intake.ts`, `chat-index-intake.ts` |
+| `.vuepress/sidebar/` | 侧边栏数据定义、类型与运行时配置组装 | `data.ts`, `types.ts`, `config.ts`, `intake.ts`, `runtime.ts` |
+| `.vuepress/generators/` | 构建期 JSON 工件生成器（每种输出族一个） | `space-news.ts`, `ai-chat.ts`, `glossary.ts` |
+| `.vuepress/build/` | 构建基建脚本（无内容知识） | `sync-figures.js`, `sharded-build.ts`, `measure-build.ts`, `verify-dist.ts` |
+| `.vuepress/theme2/data/` | 仅被主题组件消费的主题展示数据 | `wechat-widget.ts`, `footer.ts` |
+| `.vuepress/taxonomy/` | 统一分类法模块（不变） | `types.ts`, `data.ts`, `define.ts`, `adapters/` |
+| `.vuepress/intakes/` | 构建期数据采集（不变） | `glossary-intake.ts`, `chat-index-intake.ts` |
 
-The VuePress config root (`.vuepress/config.ts`, `navbar.ts`, `navbar-en.ts`, `og-meta-plugin.ts`) remains at the top level because these files are directly consumed by `config.ts` and there are few enough of them that a dedicated directory is not justified. `page-metadata.ts` (and its `.mjs` sibling) is a utility used by the plugin, the theme, and standalone CLI scripts; it lives in `.vuepress/utils/page-metadata.ts` alongside other VuePress config helpers.
+VuePress 配置根文件（`.vuepress/config.ts`, `navbar.ts`, `navbar-en.ts`, `og-meta-plugin.ts`)保留在顶层:它们由 `config.ts` 直接消费,数量少到不值得单设目录。`page-metadata.ts`(及 `.mjs` 同伴)是插件、主题和独立 CLI 脚本共用的工具,放在 `.vuepress/utils/page-metadata.ts`,与其他 VuePress 配置助手同处。
 
-The build-time orchestrator (`generate.ts`) is a thin CLI entry point that delegates to the three generators; it no longer inlines any generation logic.
+构建期编排器（`generate.ts`）是薄 CLI 入口，委托给三个生成器；不再内联任何生成逻辑。
 
-## Non-goals
+## 非目标
 
-1. **No change to route URLs or page content.** All markdown files, page paths, and locale roots (`/` for zh, `/en/` for en) are unchanged.
-2. **No change to ADR-0001 taxonomy rules.** `TaxonomyNode`, `NodeId`, `LocalePath`, locale gating, and the adapter pattern remain as specified.
-3. **No change to content data sources.** `sidebar/data.ts` remains the manual definition source for knowledge-base sections; glossary and Space News remain filesystem-scanned.
-4. **No plugin directory.** With only one VuePress plugin (`og-meta-plugin.ts`) and direct `config.ts` imports, a `plugins/` directory is not yet justified.
-5. **No reorganization of `gen-ai-chat-context.ts`.** It remains at the root because it is consumed by `generators/ai-chat.ts` at its current path and has no other dependents.
+1. **不改路由 URL 与页面内容。** 所有 markdown 文件、页面路径与语言根（zh 用 `/`，en 用 `/en/`）保持不变。
+2. **不改 ADR-0001 分类法规则。** `TaxonomyNode`, `NodeId`, `LocalePath`, 语言门控与 adapter 模式照旧。
+3. **不改内容数据源。** `sidebar/data.ts` 仍是知识库章节的手工定义源；glossary 与 Space News 仍走文件系统扫描。
+4. **不设插件目录。** 只有唯一的 VuePress 插件（`og-meta-plugin.ts`）且被 `config.ts` 直接 import,`plugins/` 目录尚无必要。
+5. **不重组 `gen-ai-chat-context.ts`。** 它留在根目录:`generators/ai-chat.ts` 在现路径上消费它,且无其他依赖方。
 
-## Consequences
+## 后果
 
-### Positive
+### 正面
 
-- Each responsibility area has a single directory; where X goes is answered by the directory name.
-- `generate.test.ts` exercises the new generator structure, confirming artifact equivalence.
-- Deprecated `build-sidebar.ts` is removed; no stale re-exports remain.
-- The WeChat signature service example is moved to `scripts/`, correctly identified as a project-level utility rather than VuePress build code.
+- 每个职责区域一个目录；“X 放哪”由目录名回答。
+- `generate.test.ts` 检验新生成器结构，确认工件等价。
+- 废弃的 `build-sidebar.ts` 移除；不再有过期 re-export。
+- 微信签名服务示例移入 `scripts/`——它本就是项目级工具而非 VuePress 构建代码。
 
-### Negative
+### 负面
 
-- Import paths for moved files changed; any out-of-tree forks referencing these paths will need updating.
-- The `pagePatterns` config must continue to exclude `.vuepress/**/*.md` to avoid treating new `.ts` sibling files as pages (already satisfied by the existing pattern).
-- `web/.vuepress/sidebar/types.ts` is a thin re-export hub (`intake.ts` + `runtime.ts`) to preserve backward compatibility; it can be removed once all direct namespace imports are migrated.
+- 被移动文件的 import 路径变了；树外 fork 若引用这些路径需要更新。
+- `pagePatterns` 配置必须继续排除 `.vuepress/**/*.md`，避免把新增的 `.ts` 邻居当作页面（现有模式已满足）。
+- `web/.vuepress/sidebar/types.ts` 是为向后兼容保留的薄 re-export 中枢（`intake.ts` + `runtime.ts`）；待所有直接 namespace import 迁移完即可移除。
 
-## Verification
+## 验证
 
-- `npm run gen-sidebar` produces all six JSON artifacts with identical content to pre-refactor.
-- `npm run test` passes all tests except `navbar.test.ts` dialectic route (pre-existing failure unrelated to this change).
-- `npm run docs:build` has not been run in this issue to avoid build cost; it should be validated in CI.
+- `npm run gen-sidebar` 产出全部六种 JSON 工件，内容与重构前一致。
+- `npm run test` 全过，唯一例外是 `navbar.test.ts` 的 dialectic route（与本改动无关的既存失败）。
+- 为省构建成本，本 issue 未跑 `npm run docs:build`；应在 CI 里验证。
 
 ## 实施后记
 

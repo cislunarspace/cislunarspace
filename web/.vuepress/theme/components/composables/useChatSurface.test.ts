@@ -1,12 +1,6 @@
 import { afterEach, beforeEach, describe, it, expect, vi } from 'vitest';
-import { computed, defineComponent, nextTick, reactive, ref } from 'vue';
+import { defineComponent, nextTick, ref } from 'vue';
 import { useChatSurface } from './useChatSurface';
-
-const pagePath = ref('/zh/ai-chat');
-
-vi.mock('vuepress/client', () => ({
-  usePage: () => computed(() => ({ path: pagePath.value })),
-}));
 
 function mockGlobals() {
   const listeners: Array<{ type: string; handler: EventListener }> = [];
@@ -35,7 +29,6 @@ async function waitForMountedAsync() {
 
 describe('useChatSurface', () => {
   beforeEach(() => {
-    pagePath.value = '/zh/ai-chat';
     vi.stubGlobal(
       'fetch',
       vi.fn(async () => new Response(JSON.stringify({}), { status: 200 })),
@@ -46,7 +39,7 @@ describe('useChatSurface', () => {
     vi.unstubAllGlobals();
   });
 
-  it('exposes locale, i18n, state, theme, ui, history, and actions', async () => {
+  it('exposes i18n, state, theme, ui, history, and actions', async () => {
     mockGlobals();
     const TestComponent = defineComponent({
       setup() {
@@ -63,7 +56,6 @@ describe('useChatSurface', () => {
     const vm = app.mount(document.createElement('div'));
     await waitForMountedAsync();
 
-    expect((vm as any).surface.isEn.value).toBe(false);
     expect((vm as any).surface.t('newChat')).toBe('新对话');
     expect((vm as any).surface.state).toBeDefined();
     expect((vm as any).surface.theme).toBeDefined();
@@ -96,8 +88,7 @@ describe('useChatSurface', () => {
     app.unmount();
   });
 
-  it('updates suggested questions when locale changes', async () => {
-    pagePath.value = '/zh/ai-chat';
+  it('populates suggested questions on mount', async () => {
     mockGlobals();
     const TestComponent = defineComponent({
       setup() {
@@ -115,11 +106,6 @@ describe('useChatSurface', () => {
     await waitForMountedAsync();
 
     expect((vm as any).surface.ui.suggestedQuestions.value[0]).toBe('什么是地月空间？');
-
-    pagePath.value = '/en/ai-chat';
-    await waitForMountedAsync();
-
-    expect((vm as any).surface.ui.suggestedQuestions.value[0]).toBe('What is cislunar space?');
     app.unmount();
   });
 

@@ -1,4 +1,3 @@
-[简体中文](site-content-audit-2026-06-04.md) | [English](site-content-audit-2026-06-04.en.md)
 
 # Site Content Audit: 2026-06-04
 

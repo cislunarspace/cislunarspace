@@ -8,12 +8,12 @@
           <div class="footer-logo">
             <img src="/logo.png" :alt="branding.nameZh" class="logo-img" />
             <div class="logo-text">
-              <span class="logo-name">{{ isEn ? branding.nameEn : branding.nameZh }}</span>
-              <span class="logo-tagline">{{ isEn ? branding.taglineEn : branding.tagline }}</span>
+              <span class="logo-name">{{ branding.nameZh }}</span>
+              <span class="logo-tagline">{{ branding.tagline }}</span>
             </div>
           </div>
           <a :href="githubLink.href" target="_blank" rel="noopener noreferrer" class="join-btn">
-            <span>{{ isEn ? 'View on GitHub' : '在 GitHub 查看' }}</span>
+            <span>在 GitHub 查看</span>
             <svg
               class="arrow-icon"
               viewBox="0 0 24 24"
@@ -28,19 +28,17 @@
 
         <!-- Navigation Columns -->
         <div v-for="(section, idx) in sections" :key="idx" class="footer-nav-col">
-          <h4 class="nav-col-title">{{ isEn ? section.titleEn : section.title }}</h4>
+          <h4 class="nav-col-title">{{ section.title }}</h4>
           <ul class="nav-links">
             <li v-for="(link, linkIdx) in section.links" :key="linkIdx">
-              <a :href="link.href" class="nav-link">{{
-                isEn && link.labelEn ? link.labelEn : link.label
-              }}</a>
+              <a :href="link.href" class="nav-link">{{ link.label }}</a>
             </li>
           </ul>
         </div>
 
         <!-- Social Column -->
         <div class="footer-social-col">
-          <h4 class="nav-col-title">{{ isEn ? 'Follow Us' : '关注我们' }}</h4>
+          <h4 class="nav-col-title">关注我们</h4>
           <div class="social-links">
             <a
               v-for="(social, idx) in socials"
@@ -71,15 +69,14 @@
     <div class="footer-utility">
       <div class="footer-container utility-content">
         <span class="copyright">
-          © {{ currentYear }} {{ isEn ? branding.nameEn : branding.nameZh }} &nbsp;|&nbsp;
+          © {{ currentYear }} {{ branding.nameZh }} &nbsp;|&nbsp;
           <a :href="copyright.href" target="_blank" rel="noopener noreferrer">{{
             copyright.name
           }}</a>
         </span>
         <div class="friend-links">
-          <span class="friend-links-label">{{ isEn ? 'Related:' : '友情链接:' }}</span>
+          <span class="friend-links-label">友情链接:</span>
           <a
-            v-for="(link, idx) in friendLinks"
             :key="idx"
             :href="link.href"
             target="_blank"
@@ -97,9 +94,7 @@
 <script setup lang="ts">
 import footerConfig from '../data/footer';
 import { computed } from 'vue';
-import { useIsEn } from '../composables/useIsEn';
 
-const isEn = useIsEn();
 const branding = footerConfig.branding;
 const sections = footerConfig.sections;
 const socials = footerConfig.social;

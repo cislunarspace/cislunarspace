@@ -12,13 +12,6 @@ import {
   type SceneContext,
 } from '../utils/cesium-scene';
 
-const props = withDefaults(
-  defineProps<{
-    locale?: 'zh' | 'en';
-  }>(),
-  { locale: 'zh' },
-);
-
 const CESIUM_JS = 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js';
 const CESIUM_CSS =
   'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css';
@@ -31,7 +24,7 @@ const viewerEl = ref<HTMLElement | null>(null);
 const maskVisible = ref(true);
 const maskError = ref<string | null>(null);
 
-const sim = useOrbitSim(props.locale);
+const sim = useOrbitSim();
 const {
   orb,
   simTime,
@@ -54,34 +47,20 @@ let viewer: any = null;
 let CesiumRef: any = null;
 let rafId = 0;
 
-const ui = computed(() => orbitSimI18n(props.locale));
-
-/** 英文完整标题与说明（中文取自 PRESETS.desc，按「 | 」拆分） */
-const PRESET_CHIP_EN: Record<PresetKey, { title: string; subtitle: string }> = {
-  leo: { title: 'Low Earth orbit', subtitle: 'Circular; ISS-class altitude' },
-  sso: { title: 'Sun-synchronous orbit', subtitle: 'Nodal precession ≈ 0.9856°/day' },
-  frozen: { title: 'Frozen orbit', subtitle: 'ω = 270°; limits J₂ apsidal drift' },
-  repeating: { title: 'Repeating ground track', subtitle: 'Daily repeating footprint' },
-  geo: { title: 'Geostationary orbit', subtitle: 'T = 23h56m04s; fixed subsatellite point' },
-};
+const ui = orbitSimI18n();
 
 const PRESET_CHIP_ORDER: PresetKey[] = ['leo', 'sso', 'frozen', 'repeating', 'geo'];
 
-const presetChips = computed(() => {
-  const en = props.locale === 'en';
-  return PRESET_CHIP_ORDER.map((key, idx) => {
+const presetChips = computed(() =>
+  PRESET_CHIP_ORDER.map((key, idx) => {
     const hint = String(idx + 1);
-    if (en) {
-      const { title, subtitle } = PRESET_CHIP_EN[key];
-      return { key, hint, title, subtitle };
-    }
     const d = PRESETS[key].desc;
     const sep = d.indexOf(' | ');
     const title = sep >= 0 ? d.slice(0, sep) : d;
     const subtitle = sep >= 0 ? d.slice(sep + 3) : '';
     return { key, hint, title, subtitle };
-  });
-});
+  }),
+);
 
 function loadCss(href: string) {
   return new Promise<void>((resolve, reject) => {
@@ -198,7 +177,7 @@ function onKeydown(e: KeyboardEvent) {
     case 'r':
     case 'R':
       sim.resetClock();
-      toast(ui.value.resetClock);
+      toast(ui.resetClock);
       break;
   }
 }
@@ -211,12 +190,11 @@ function sceneCtx(): SceneContext {
     simElapsed,
     simTime,
     labels: {
-      equator: ui.value.equator,
-      peri: ui.value.peri,
-      apo: ui.value.apo,
-      sun: ui.value.sun,
+      equator: ui.equator,
+      peri: ui.peri,
+      apo: ui.apo,
+      sun: ui.sun,
     },
-    locale: props.locale ?? 'zh',
   };
 }
 
@@ -312,7 +290,7 @@ onMounted(async () => {
       loadPresetWithToast('leo');
       startLoop();
       maskVisible.value = false;
-      toast(ui.value.ready);
+      toast(ui.ready);
     }, 1200);
   } catch (err) {
     maskVisible.value = false;
@@ -343,13 +321,9 @@ function onResize() {
       <div v-if="maskVisible || maskError" class="os-mask">
         <template v-if="maskError">
           <div class="os-err">
-            <p>⚠ {{ locale === 'en' ? 'Initialization failed' : '初始化失败' }}</p>
+            <p>⚠ 初始化失败</p>
             <p class="os-err-detail">
-              {{
-                locale === 'en'
-                  ? 'Use HTTP(S), check network / Cesium CDN.'
-                  : '请确保在 HTTP 服务环境下运行并检查网络。'
-              }}
+              请确保在 HTTP 服务环境下运行并检查网络。
               <br />
               {{ maskError }}
             </p>
@@ -388,9 +362,7 @@ function onResize() {
           </div>
           <div class="os-brand-text">
             <span class="os-brand-text__title">{{ ui.titleShort }}</span>
-            <span class="os-brand-text__sub">{{
-              locale === 'en' ? 'Cesium · J2 · teaching' : 'Cesium · J2 · 教学沙盘'
-            }}</span>
+            <span class="os-brand-text__sub">Cesium · J2 · 教学沙盘</span>
           </div>
         </div>
         <div class="os-topbar__meta">
@@ -408,13 +380,7 @@ function onResize() {
           <div class="pscroll">
             <div class="os-panel-intro">
               <h2 class="sec-title">{{ ui.secOrb }}</h2>
-              <p class="os-panel-lead">
-                {{
-                  locale === 'en'
-                    ? 'Drag sliders or pick a preset. Earth rotates in ECI frame.'
-                    : '拖动滑块或点选预设；地球在惯性系中自转显示。'
-                }}
-              </p>
+              <p class="os-panel-lead">拖动滑块或点选预设；地球在惯性系中自转显示。</p>
               <details class="os-assumptions">
                 <summary class="os-assumptions__summary">
                   <span class="os-assumptions__title">{{ ui.assumptionsTitle }}</span>
@@ -610,11 +576,7 @@ function onResize() {
               </button>
               <div class="tctl__speedpill">{{ speedLabel }}</div>
             </div>
-            <div
-              class="tctl__row tctl__row--rates"
-              role="group"
-              :aria-label="locale === 'en' ? 'Time rate' : '时间速率'"
-            >
+            <div class="tctl__row tctl__row--rates" role="group" aria-label="时间速率">
               <button type="button" class="tbtn tbtn--ghost" @click="setSpeedWithUpdate(0.5)">
                 ½×
               </button>
@@ -635,7 +597,7 @@ function onResize() {
         </aside>
 
         <div class="os-right">
-          <div :id="'orbit-cesium-' + (locale || 'zh')" ref="viewerEl" class="cesiumViewer" />
+          <div id="orbit-cesium" ref="viewerEl" class="cesiumViewer" />
 
           <div class="hud hud-panel">
             <section class="hud-section">
@@ -695,30 +657,14 @@ function onResize() {
           <div class="legend" role="region" :aria-label="ui.legend">
             <div class="ltitle">{{ ui.legend }}</div>
             <ul class="legend-grid">
+              <li class="li"><span class="ll ll--solid" style="--ll: #38bdf8" />卫星轨道</li>
+              <li class="li"><span class="ll ll--solid" style="--ll: #fbbf24" />地心–卫星</li>
+              <li class="li"><span class="ll ll--dash" style="--ll: #fb923c" />地心–太阳</li>
               <li class="li">
-                <span class="ll ll--solid" style="--ll: #38bdf8" />{{
-                  locale === 'en' ? 'Orbit' : '卫星轨道'
-                }}
+                <span class="ll ll--soft" style="--ll: rgba(56, 189, 248, 0.45)" />赤道面
               </li>
               <li class="li">
-                <span class="ll ll--solid" style="--ll: #fbbf24" />{{
-                  locale === 'en' ? 'Nadir' : '地心–卫星'
-                }}
-              </li>
-              <li class="li">
-                <span class="ll ll--dash" style="--ll: #fb923c" />{{
-                  locale === 'en' ? 'Earth–Sun' : '地心–太阳'
-                }}
-              </li>
-              <li class="li">
-                <span class="ll ll--soft" style="--ll: rgba(56, 189, 248, 0.45)" />{{
-                  locale === 'en' ? 'Equator' : '赤道面'
-                }}
-              </li>
-              <li class="li">
-                <span class="ll ll--soft" style="--ll: rgba(251, 191, 36, 0.4)" />{{
-                  locale === 'en' ? 'Ecliptic' : '黄道面'
-                }}
+                <span class="ll ll--soft" style="--ll: rgba(251, 191, 36, 0.4)" />黄道面
               </li>
               <li class="li"><span class="ld" style="background: #f43f5e" />X</li>
               <li class="li"><span class="ld" style="background: #4ade80" />Y</li>

@@ -66,16 +66,15 @@ function sendError(res, err) {
   return res.status(status).json({ ok: false, error: err.message || String(err) });
 }
 
-/** 读取单个文件内容（含镜像）供编辑器使用 */
+/** 读取单个文件内容供编辑器使用 */
 function readContent(relPath) {
   const rel = String(relPath).replace(/\\/g, '/').replace(/^\/+/, '');
   assertEditableMd(rel);
   const info = readMd(rel);
   if (!info) throw new PathError(`文件不存在: ${rel}`);
   const cls = classify(rel);
-  const base = {
+  return {
     path: rel,
-    lang: cls.lang,
     kind: cls.kind,
     frontmatter: info.fm,
     rawFrontmatter: info.rawFrontmatter,
@@ -83,24 +82,6 @@ function readContent(relPath) {
     yamlOk: info.yamlOk,
     yamlError: info.yamlError,
   };
-  const mirrorRel = rel.startsWith('en/') ? rel.slice(3) : 'en/' + rel;
-  const mirrorInfo = readMd(mirrorRel);
-  if (mirrorInfo) {
-    const mcls = classify(mirrorRel);
-    base.mirror = {
-      path: mirrorRel,
-      lang: mcls.lang,
-      kind: mcls.kind,
-      frontmatter: mirrorInfo.fm,
-      rawFrontmatter: mirrorInfo.rawFrontmatter,
-      body: mirrorInfo.body,
-      yamlOk: mirrorInfo.yamlOk,
-      yamlError: mirrorInfo.yamlError,
-    };
-  } else {
-    base.mirror = null;
-  }
-  return base;
 }
 
 /** 保存一个 md 文件：frontmatterRaw 必须是合法 YAML；保存后后台刷新派生索引 */
@@ -219,7 +200,7 @@ app.post('/api/categories/assign', async (req, res) => {
   }
 });
 
-/** 读取单个文件（含中英镜像）：/api/content?path=<相对路径> */
+/** 读取单个文件：/api/content?path=<相对路径> */
 app.get('/api/content', (req, res) => {
   try {
     const data = readContent(req.query.path || '');

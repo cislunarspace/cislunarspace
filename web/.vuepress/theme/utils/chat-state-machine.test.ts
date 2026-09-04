@@ -87,7 +87,6 @@ describe('createChatStateMachine', () => {
 
     const save = vi.fn();
     await sm.sendMessage('question', {
-      locale: 'zh',
       t,
       createSession: () => session,
       saveCurrentChat: save,
@@ -119,7 +118,6 @@ describe('createChatStateMachine', () => {
     });
 
     await sm.sendMessage('q', {
-      locale: 'zh',
       t,
       createSession: () => session,
       saveCurrentChat: vi.fn(),
@@ -141,7 +139,6 @@ describe('createChatStateMachine', () => {
     });
 
     const p = sm.sendMessage('q', {
-      locale: 'zh',
       t,
       createSession: () => session,
       saveCurrentChat: vi.fn(),
@@ -163,7 +160,6 @@ describe('createChatStateMachine', () => {
     });
 
     await sm.sendMessage('q', {
-      locale: 'zh',
       t,
       createSession: () => session,
       saveCurrentChat: vi.fn(),
@@ -211,7 +207,6 @@ describe('createChatStateMachine', () => {
     const save = vi.fn(() => callOrder.push('save'));
 
     await sm.sendMessage('q', {
-      locale: 'zh',
       t,
       createSession: () => session,
       saveCurrentChat: save,

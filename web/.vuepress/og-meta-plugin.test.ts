@@ -50,12 +50,12 @@ describe('ogMetaPlugin', () => {
     });
 
     test('resolves ./figures/nested/ image path without trailing slash', () => {
-      const page = createMockPage('/en/space-news/2026/05/2026-05-11-article', {
+      const page = createMockPage('/space-news/2026/05/2026-05-11-article', {
         image: './figures/nested/cover.png',
       });
       const head = captureHead(page);
       expect(getMetaContent(head, 'og:image')).toBe(
-        'https://cislunarspace.cn/en/space-news/2026/05/figures/nested/cover.png',
+        'https://cislunarspace.cn/space-news/2026/05/figures/nested/cover.png',
       );
     });
 
@@ -102,13 +102,5 @@ describe('ogMetaPlugin', () => {
     expect(getMetaContent(head, 'og:image')).toBe(
       'https://cislunarspace.cn/space-news/2026/05/figures/wechat.jpg',
     );
-  });
-
-  test('uses locale-specific site names', () => {
-    const zhHead = captureHead(createMockPage('/space-news/2026/05/article/'));
-    const enHead = captureHead(createMockPage('/en/space-news/2026/05/article/'));
-
-    expect(getMetaContent(zhHead, 'og:site_name')).toBe('地月空间入门指南');
-    expect(getMetaContent(enHead, 'og:site_name')).toBe("Cislunar Space Beginner's Guide");
   });
 });

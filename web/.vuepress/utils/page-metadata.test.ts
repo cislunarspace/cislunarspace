@@ -24,7 +24,6 @@ describe('normalizePageMetadata', () => {
       title: 'Launch update',
       description: 'Mission summary',
       image: 'https://cislunarspace.cn/space-news/2026/05/figures/hero.jpg',
-      locale: 'zh-CN',
       siteName: '地月空间入门指南',
       url: 'https://cislunarspace.cn/space-news/2026/05/2026-05-13-launch-update/',
       type: 'article',
@@ -62,22 +61,6 @@ describe('normalizePageMetadata', () => {
       image: 'https://cislunarspace.cn/space-news/2026/05/figures/wechat.jpg',
       url: 'https://cislunarspace.cn/space-news/2026/05/2026-05-13-launch-update/',
     });
-  });
-
-  test('normalizes English locale site name and website type', () => {
-    const metadata = normalizePageMetadata({
-      path: '/en/resources-tools/',
-      frontmatter: {
-        title: 'Resources',
-        image: '/images/resources.png',
-      },
-      siteBaseUrl: 'https://cislunarspace.cn',
-    });
-
-    expect(metadata.locale).toBe('en-US');
-    expect(metadata.siteName).toBe("Cislunar Space Beginner's Guide");
-    expect(metadata.type).toBe('website');
-    expect(metadata.image).toBe('https://cislunarspace.cn/images/resources.png');
   });
 
   test('preserves absolute images and falls back to WeChat description', () => {

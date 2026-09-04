@@ -68,15 +68,14 @@ function registerGlossaryTaxonomyNode(fullSlug, labelZh) {
   const nextOrder = (orders.length ? Math.max(...orders) : 20000) + 10;
 
   const parent = isSub ? `'glossary/${fullSlug.split('/')[0]}'` : 'GLOSSARY_ROOT_ID';
-  const enLabel = fullSlug.split('/').pop();
   // 中文标签直接拼进 TS 单引号字符串，必须转义单引号/反斜杠，避免写坏源文件
   const zhSafe = String(labelZh).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 
   const node = `  {
     id: 'glossary/${fullSlug}',
     kind: 'glossary-category',
-    label: { zh: '${zhSafe}', en: '${enLabel}' },
-    path: { zh: null, en: null },
+    label: '${zhSafe}',
+    path: null,
     order: ${nextOrder},
     parentId: ${parent},
     meta: { slug: '${fullSlug}' },
@@ -94,8 +93,8 @@ function registerGlossaryTaxonomyNode(fullSlug, labelZh) {
 
 /**
  * 添加 glossary 分类：
- * - 顶级：创建 web/glossary/<name>/ 与 web/en/glossary/<name>/；
- * - 子分类（opts.parent 指定父分类 slug）：创建 <parent>/<name>/ 两级目录。
+ * - 顶级：创建 web/glossary/<name>/；
+ * - 子分类（opts.parent 指定父分类 slug）：创建 <parent>/<name>/ 目录。
  * 创建后幂等注册 taxonomy 节点；opts.labelZh 为节点的中文名（缺省用 name）。
  */
 export function addGlossaryCategory(name, { parent = '', labelZh = '' } = {}) {
@@ -109,15 +108,13 @@ export function addGlossaryCategory(name, { parent = '', labelZh = '' } = {}) {
     fullSlug = `${parent}/${slug}`;
   }
   if (listGlossaryCategories().includes(fullSlug)) throw new PathError(`分类已存在: ${fullSlug}`);
-  for (const rel of [`glossary/${fullSlug}`, `en/glossary/${fullSlug}`]) {
-    fs.mkdirSync(path.join(WEB_ROOT, rel), { recursive: true });
-  }
+  fs.mkdirSync(path.join(WEB_ROOT, `glossary/${fullSlug}`), { recursive: true });
   const registered = registerGlossaryTaxonomyNode(fullSlug, labelZh || name);
-  log('ADD_GLOSSARY_CATEGORY', [`${fullSlug} (zh+en dirs)`, `taxonomy=${registered ? 'registered' : 'exists'}`]);
+  log('ADD_GLOSSARY_CATEGORY', [`${fullSlug}`, `taxonomy=${registered ? 'registered' : 'exists'}`]);
   return {
     ok: true,
     slug: fullSlug,
-    dirs: [`glossary/${fullSlug}`, `en/glossary/${fullSlug}`],
+    dirs: [`glossary/${fullSlug}`],
     taxonomyRegistered: registered,
   };
 }
@@ -125,7 +122,7 @@ export function addGlossaryCategory(name, { parent = '', labelZh = '' } = {}) {
 /**
  * 删除 glossary 分类：
  * - 保条目（deleteEntries=false）：把该目录下所有条目移到目标分类（必须提供 target）。
- * - 连删（deleteEntries=true）：删除目录下所有条目（中英镜像），目录也一并删除。
+ * - 连删（deleteEntries=true）：删除目录下所有条目，目录也一并删除。
  */
 export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '' } = {}) {
   const norm = String(slug).trim().toLowerCase();
@@ -142,14 +139,13 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
     if (target === norm) throw new PathError('目标分类不能与被删分类相同');
   }
 
-  // 收集中英镜像下所有 md
+  // 收集该分类目录下所有 md
   const rels = [];
-  for (const base of [`glossary/${norm}`, `en/glossary/${norm}`]) {
-    const abs = path.join(WEB_ROOT, base);
-    if (!fs.existsSync(abs)) continue;
-    for (const f of fs.readdirSync(abs)) {
+  const catAbs = path.join(WEB_ROOT, `glossary/${norm}`);
+  if (fs.existsSync(catAbs)) {
+    for (const f of fs.readdirSync(catAbs)) {
       if (f.endsWith('.md') && !f.toLowerCase().startsWith('readme')) {
-        rels.push(`${base}/${f}`);
+        rels.push(`glossary/${norm}/${f}`);
       }
     }
   }
@@ -167,9 +163,9 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
       fs.renameSync(src, dest);
       deleted.push(rel);
     } else {
-      // 移到目标分类：web/glossary/<target>/<stem>.md（en 同理）
+      // 移到目标分类：web/glossary/<target>/<stem>.md
       const cls = classify(rel);
-      const targetRel = `${cls.lang === 'en' ? 'en/' : ''}glossary/${target}/${cls.stem}.md`;
+      const targetRel = `glossary/${target}/${cls.stem}.md`;
       if (fs.existsSync(path.join(WEB_ROOT, targetRel))) {
         // 目标已存在同名文件：保留被删分类的，跳过去重（记日志）
         moved.push({ from: rel, to: targetRel, status: 'exists' });
@@ -181,8 +177,8 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
   }
 
   // 删除空目录（连删模式目录一定空，保条目模式若全部移走也删）
-  for (const base of [`glossary/${norm}`, `en/glossary/${norm}`]) {
-    const abs = path.join(WEB_ROOT, base);
+  {
+    const abs = catAbs;
     try {
       if (fs.existsSync(abs) && fs.readdirSync(abs).length === 0) fs.rmdirSync(abs);
     } catch {
@@ -205,12 +201,6 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
 }
 
 /* ============ 批量修改分类（拖动改分类） ============ */
-
-/** 把一个 md 相对路径展开为含中英镜像的列表（只保留实际存在的） */
-function expandMirrors(rel) {
-  const pair = rel.startsWith('en/') ? [rel.slice(3), rel] : [rel, `en/${rel}`];
-  return pair.filter((r) => fs.existsSync(path.join(WEB_ROOT, r)));
-}
 
 /**
  * 在 frontmatter YAML 文本中设置 category。
@@ -252,7 +242,7 @@ function setCategoryYaml(raw, target, mode) {
 
 /**
  * 批量修改分类：
- * - glossary：把条目文件（含中英镜像）移动到 target 目录，
+ * - glossary：把条目文件移动到 target 目录，
  *         并同步更新 glossary/README.md 索引中的分类路径。
  */
 export async function assignCategory(kind, paths, target, { mode = 'replace' } = {}) {
@@ -267,7 +257,7 @@ async function assignGlossaryCategory(paths, target) {
   if (!listGlossaryCategories().includes(target)) {
     throw new PathError(`目标分类不存在: ${target}`);
   }
-  const rels = [...new Set(paths.flatMap((p) => expandMirrors(String(p))))];
+  const rels = [...new Set(paths.map(String))];
   const moved = [];
   const skipped = [];
   const errors = [];
@@ -281,18 +271,17 @@ async function assignGlossaryCategory(paths, target) {
       skipped.push({ path: rel, status: 'same-category' });
       continue;
     }
-    const targetRel = `${cls.lang === 'en' ? 'en/' : ''}glossary/${target}/${cls.stem}.md`;
+    const targetRel = `glossary/${target}/${cls.stem}.md`;
     if (fs.existsSync(path.join(WEB_ROOT, targetRel))) {
       skipped.push({ from: rel, to: targetRel, status: 'exists' });
       continue;
     }
     fs.renameSync(path.join(WEB_ROOT, rel), path.join(WEB_ROOT, targetRel));
-    moved.push({ from: rel, to: targetRel, fromCat: cls.cat, stem: cls.stem, lang: cls.lang });
+    moved.push({ from: rel, to: targetRel, fromCat: cls.cat, stem: cls.stem });
   }
 
   // 更新 glossary/README.md 索引：条目链接含分类路径，移动后需同步改写
-  const zhMoved = moved.filter((m) => m.lang !== 'en');
-  const readmeUpdated = zhMoved.length ? updateGlossaryReadmeIndex(zhMoved, target) : false;
+  const readmeUpdated = moved.length ? updateGlossaryReadmeIndex(moved, target) : false;
 
   const genSidebar = moved.length ? await runGenSidebar() : null;
   log('ASSIGN_CATEGORY', [
