@@ -1,4 +1,3 @@
-[简体中文](seo-frontmatter-template.md) | [English](seo-frontmatter-template.en.md)
 
 # SEO优化的Front Matter模板
 
@@ -31,35 +30,6 @@ twitter:
 ---
 ```
 
-## 英文页面模板
-
-```yaml
----
-permalink: /en/页面路径/
-title: Page Title  # 只写简洁的页面名，不要带栏目前缀
-description: Page description, 150-160 characters, include keywords
-keywords: keyword1, keyword2, keyword3
-author: Tianjiang Shuo
-date: 2026-03-07
-lastUpdated: 2026-03-07
-category: [keyword1, keyword2]  # must be an array; single category also wraps in []
-wechatShare:
-  title: WeChat Share Title
-  desc: WeChat Share Description
-  image: /logo.png
-og:
-  title: Page Title  # 不需要添加后缀，SEO插件会处理
-  description: Open Graph Description
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: Page Title  # 不需要添加后缀，SEO插件会处理
-  description: Twitter Card Description
-  image: /logo.png
----
-```
-
 ## 关键SEO字段说明
 
 1. **title**: 页面标题，只写简洁的页面名（如"西北工业大学"），不要带栏目前缀（如"地月空间研究机构与团队盘点 | "），长标题放在 wechatShare.title 中
@@ -76,19 +46,15 @@ twitter:
 ### 1. 地月空间是什么 (What Is Cislunar Space)
 
 - **主要关键词**: 地月空间, 地月空间定义, 地月空间环境, 地月空间战略价值
-- **英文关键词**: cislunar space, cislunar space definition, cislunar environment, strategic value
 
 ### 2. 地月空间术语词典 (Cislunar Glossary)
 
 - **主要关键词**: CR3BP, 圆形限制性三体问题, X射线脉冲星导航, 地月空间术语
-- **英文关键词**: CR3BP, Circular Restricted Three-Body Problem, X-ray pulsar navigation, cislunar terminology
 
 ### 3. 资源与工具 (Resources & Tools)
 
 - **主要关键词**: 地月空间数据集, JPL星历, 轨道仿真工具, 航天资源
-- **英文关键词**: cislunar datasets, JPL ephemerides, orbit simulation tools, aerospace resources
 
 ### 4. 研究前沿 (Research Frontiers)
 
 - **主要关键词**: 地月空间研究方向, 研究机构, 期刊会议, 重大工程项目
-- **英文关键词**: cislunar research directions, research institutions, journals conferences, major projects

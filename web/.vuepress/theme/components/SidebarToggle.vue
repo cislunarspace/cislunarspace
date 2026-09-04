@@ -44,18 +44,16 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
 import { useRoute } from 'vue-router';
-import { useIsEn } from '../composables/useIsEn';
 
 const route = useRoute();
-const isEn = useIsEn();
 const isHidden = ref(false);
 
-const showLabel = computed(() => (isEn.value ? 'Expand sidebar' : '展开侧边栏'));
-const hideLabel = computed(() => (isEn.value ? 'Collapse sidebar' : '收起侧边栏'));
+const showLabel = computed(() => '展开侧边栏');
+const hideLabel = computed(() => '收起侧边栏');
 
 const isAiChatPage = computed(() => {
   const p = route.path;
-  return p === '/ai-chat' || p === '/ai-chat/' || p === '/en/ai-chat' || p === '/en/ai-chat/';
+  return p === '/ai-chat' || p === '/ai-chat/';
 });
 
 function toggle() {

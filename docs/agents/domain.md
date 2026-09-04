@@ -1,4 +1,3 @@
-[简体中文](domain.md) | [English](domain.en.md)
 
 # Domain Docs
 

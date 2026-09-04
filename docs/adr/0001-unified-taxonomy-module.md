@@ -1,43 +1,42 @@
-[English](0001-unified-taxonomy-module.md) | [简体中文](0001-unified-taxonomy-module.zh-CN.md)
 
-# ADR 0001: Unified Taxonomy Module for zh/en Sites
+# ADR 0001：zh/en 站点的统一分类法模块
 
-- **Status:** Accepted
-- **Date:** 2026-05-15
+- **状态:** 已接受
+- **日期:** 2026-05-15
 - **Issue:** [#30](https://github.com/cislunarspace/cislunarspace/issues/30)
-- **Supersedes:** —
-- **Superseded by:** —
+- **取代:** —
+- **被取代:** —
 
-## Context
+## 背景
 
-The site currently expresses its taxonomy (the identity, locale paths, ordering, navigation labels, sidebar structure, glossary categories, news categories, and AI-chat index inputs of every knowledge-base section) across **at least seven separate files**, with overlapping but not identical shapes:
+站点目前的分类法（每个知识库章节的身份、语言路径、排序、导航标签、侧边栏结构、词条类别、新闻类别与 AI 问答索引输入）分散在**至少七个文件**里，形状重叠但不一致：
 
-| File | What it owns | Locale handling |
+| 文件 | 拥有什么 | 语言处理 |
 |---|---|---|
-| `web/.vuepress/navbar.ts` | Top-nav entries (zh) | zh only |
-| `web/.vuepress/navbar-en.ts` | Top-nav entries (en) | en only |
-| `web/.vuepress/sidebar-data.ts` | Section + entry tree for non-glossary sidebars | bilingual node with `label.{zh,en}` and optional `locales`, plus `childrenByLocale` escape hatch |
-| `web/.vuepress/glossary-meta.ts` | Glossary category identity + order | bilingual `label.{zh,en}` + `order` |
-| `web/.vuepress/category-meta.json` | Space-news category identity + colour | bilingual `label.{zh,en}` + `color` |
-| `web/.vuepress/intakes/wayfinding-intake.ts` | Hard-coded site map sidebar tree | duplicated zh/en arrays |
-| `web/.vuepress/intakes/chat-index-intake.ts` | AI-chat index inputs | derived from `glossary-meta.ts` + filesystem |
+| `web/.vuepress/navbar.ts` | 顶部导航条目（zh） | 仅 zh |
+| `web/.vuepress/navbar-en.ts` | 顶部导航条目（en） | 仅 en |
+| `web/.vuepress/sidebar-data.ts` | 非词条侧边栏的章节 + 条目树 | 双语节点 `label.{zh,en}` 加可选 `locales`，另有 `childrenByLocale` 逃生口 |
+| `web/.vuepress/glossary-meta.ts` | 词条类别身份 + 排序 | 双语 `label.{zh,en}` + `order` |
+| `web/.vuepress/category-meta.json` | 新闻类别身份 + 颜色 | 双语 `label.{zh,en}` + `color` |
+| `web/.vuepress/intakes/wayfinding-intake.ts` | 硬编码的站点地图侧边栏树 | zh/en 数组成对复制 |
+| `web/.vuepress/intakes/chat-index-intake.ts` | AI 问答索引输入 | 从 `glossary-meta.ts` + 文件系统派生 |
 
-Adding or renaming a section today requires touching **three to five** of these files in lock-step, and the rules for what happens when zh exists but en doesn't differ between modules:
+今天新增或重命名一个章节要同步改 **三到五个**文件，而且"zh 有 en 没有"时会发生什么,各模块规则不同:
 
-- `sidebar-data.ts` uses explicit `locales: ['zh']` gating.
-- `chat-index-intake.ts` synthesises an English-locale placeholder marking entries that need translation.
-- `navbar-en.ts` is a hand-maintained copy with no relationship to its zh sibling.
-- `wayfinding-intake.ts` duplicates everything inline.
+- `sidebar-data.ts` 用显式 `locales: ['zh']` 门控。
+- `chat-index-intake.ts` 合成一个标注需翻译条目的英文占位。
+- `navbar-en.ts` 是一份手工维护的拷贝,与其 zh 姊妹毫无关联。
+- `wayfinding-intake.ts` 把一切内联复制。
 
-This drift is a known source of bugs (orphaned sidebar entries, broken `/en/` links, mismatched ordering between locales). It also blocks AFK agents from confidently adding new sections, because there is no single concept model that says this is what a taxonomy node is.
+这种漂移是已知的 bug 来源(孤儿侧边栏条目、失效的 `/en/` 链接、跨语言排序不一致)。它也阻止 AFK agent 放心添加新章节——因为不存在一个说清"分类法节点是什么"的概念模型。
 
-This ADR fixes the **architectural shape** of a unified taxonomy module so follow-up issues can implement, migrate, and adapt without re-litigating the interface. It does **not** write the module; that is deferred to follow-up AFK issues.
+本 ADR 定下统一分类法模块的**架构形状**,让后续 issue 可以实施、迁移、适配而不必重新争论接口。它**不**实现模块;实现留给后续 AFK issue。
 
-## Decision
+## 决策
 
-We will introduce a single **Taxonomy Module** at `web/.vuepress/taxonomy/` that owns one concept (the `TaxonomyNode`) and exposes typed views consumed by every site surface (navbar, sidebar, glossary, news, AI-chat, wayfinding). Every existing output listed above becomes an **adapter** that derives its shape from the taxonomy module rather than carrying its own truth.
+引入唯一的**分类法模块(Taxonomy Module)**,位于 `web/.vuepress/taxonomy/`:持有一个概念(`TaxonomyNode`),暴露站点各表面(navbar、sidebar、glossary、news、AI-chat、wayfinding)消费的类型化视图。上面列出的每个既有输出都变成从分类法模块派生自身形状的 **adapter**,而不再各自携带真相。
 
-### TaxonomyNode interface (shape only)
+### TaxonomyNode 接口(仅形状)
 
 ```ts
 // web/.vuepress/taxonomy/types.ts (target shape — not yet implemented)
@@ -106,112 +105,112 @@ export interface TaxonomyModule {
 }
 ```
 
-### Rules
+### 规则
 
-#### Identity
+#### 身份
 
-- `id` is **stable** and locale-independent. It is derived from the canonical zh path's slug chain but is **not** the path: rename of the slug requires a new id and a redirect entry.
-- Renaming the zh **label** does not change the id.
-- Renaming the slug at any level changes the id of every descendant; this is a migration, not an in-place edit.
+- `id` **稳定**且语言无关。它由规范 zh 路径的 slug 链派生,但**不是**路径:重命名 slug 需要新 id 加一条重定向。
+- 重命名 zh **label** 不改变 id。
+- 在任一层级重命名 slug 会改变所有后代节点的 id;这是一次迁移,不是就地编辑。
 
-#### Locale paths
+#### 语言路径
 
-- `path.zh` is canonical. `path.en` is derived by prefixing `/en` and substituting any en-specific slugs (e.g. `blue-team-research`'s `childrenByLocale` cases).
-- An adapter that needs a single string MUST select by locale, never concatenate `'/en' + zhPath`.
-- A node may have `path.en === null` if and only if `locales === ['zh']` (or symmetrically for en-only).
+- `path.zh` 是规范的。`path.en` 由加 `/en` 前缀并替换 en 特有 slug 派生(如 `blue-team-research` 的 `childrenByLocale` 情形)。
+- 需要单个字符串的 adapter 必须按 locale 选取,绝不拼接 `'/en' + zhPath`。
+- 节点可以有 `path.en === null`,当且仅当 `locales === ['zh']`(仅 en 的情形对称)。
 
-#### Missing translations
+#### 缺失翻译
 
-We adopt **explicit locale gating** (matches the existing `sidebar-data.ts` convention):
+我们采用**显式语言门控**(与既有 `sidebar-data.ts` 约定一致):
 
-- Each node carries optional `locales?: ('zh'|'en')[]`. Undefined means present in both.
-- A node gated out of a locale is **invisible** in that locale's navbar, sidebar, and wayfinding adapters.
-- The glossary adapter additionally produces a `TranslationGapIntake` listing zh-only glossary pages, and the AI-chat adapter surfaces them as (needs translation) placeholders. This behaviour is **adapter-local** and does not change the node's `locales` field.
-- Rationale: explicit gating keeps maintainer intent visible (`locales: ['zh']` reads as intentional), and prevents accidental publication of half-translated content. The current `sidebar-data.ts` already follows this rule, so adoption is a rename, not a behaviour change.
+- 每个节点携带可选 `locales?: ('zh'|'en')[]`。未定义表示双语皆有。
+- 被某语言门控掉的节点在该语言的 navbar、sidebar、wayfinding adapter 中**不可见**。
+- 词条 adapter 额外产出一份 `TranslationGapIntake`,列出仅 zh 存在的词条页面;AI 问答 adapter 以 (needs translation) 占位符呈现它们。此行为是 **adapter 本地**的,不改变节点的 `locales` 字段。
+- 理由:显式门控让维护者意图可见(`locales: ['zh']` 一眼看出是有意的),并防止半翻译内容意外发布。现有 `sidebar-data.ts` 已遵循此规则,采纳只是改名,不是行为变化。
 
-#### Ordering
+#### 排序
 
-- `order` is a number; lower comes first; ties broken by `id` lexicographically.
-- Order is **sibling-scoped**: there is no global ordering.
-- Adapters that need a different presentation order (e.g. news categories sorted alphabetically) sort their own view; they do not mutate `order`.
+- `order` 是数字;小者在前;平局按 `id` 字典序。
+- 排序是**同级作用域**的:没有全局顺序。
+- 需要不同呈现顺序的 adapter(如新闻类别按字母排)排自己的视图;不改 `order`。
 
-#### Path conventions
+#### 路径约定
 
-- zh root: `/`. en root: `/en/`.
-- Section paths end with `/`. Page paths end with `/`. Index pages share the section/group path (`path.zh === parent.path.zh`).
-- External links use the full URL in `meta.href` and leave `path.{zh,en}` as `null`.
+- zh 根:`/`;en 根:`/en/`。
+- 章节路径以 `/` 结尾。页面路径以 `/` 结尾。Index 页面与所属 section/group 共用路径(`path.zh === parent.path.zh`)。
+- 外链在 `meta.href` 用完整 URL,`path.{zh,en}` 留 `null`。
 
-### Adapters (existing outputs that become consumers, not sources)
+### Adapter(既有输出变为消费者,而非来源)
 
-| Current file | Becomes | Reads via |
+| 现有文件 | 变为 | 经由读取 |
 |---|---|---|
 | `navbar.ts` | `adapters/navbar-zh.ts` | `taxonomy.byKind('navbar-link')` + `taxonomy.children(navbarId, 'zh')` |
-| `navbar-en.ts` | `adapters/navbar-en.ts` | same, locale `'en'` |
-| `sidebar-data.ts` (export `sidebarSections`) | `adapters/sidebar-sections.ts` | `taxonomy.byKind('section')` + recursive `taxonomy.children` |
-| `glossary-meta.ts` (export `glossaryCategories`) | `adapters/glossary-categories.ts` | `taxonomy.byKind('glossary-category')` |
-| `category-meta.json` | `adapters/news-categories.ts` (TypeScript) | `taxonomy.byKind('news-category')` with `meta.color` |
-| `intakes/wayfinding-intake.ts` | `adapters/wayfinding.ts` | `taxonomy.byKind('section')` filtered to top-level |
-| `intakes/chat-index-intake.ts` | unchanged consumer | reads `glossary-categories` and `sidebar-sections` adapters (no longer imports `glossary-meta.ts` or `sidebar-data.ts` directly) |
-| `intakes/translation-gap-intake.ts` | unchanged consumer | reads taxonomy + filesystem scan |
-| `gen-sidebar.ts` | unchanged orchestrator | composes adapters |
+| `navbar-en.ts` | `adapters/navbar-en.ts` | 同上,locale `'en'` |
+| `sidebar-data.ts`(导出 `sidebarSections`) | `adapters/sidebar-sections.ts` | `taxonomy.byKind('section')` + 递归 `taxonomy.children` |
+| `glossary-meta.ts`(导出 `glossaryCategories`) | `adapters/glossary-categories.ts` | `taxonomy.byKind('glossary-category')` |
+| `category-meta.json` | `adapters/news-categories.ts`(TypeScript) | `taxonomy.byKind('news-category')` 取 `meta.color` |
+| `intakes/wayfinding-intake.ts` | `adapters/wayfinding.ts` | `taxonomy.byKind('section')` 过滤顶层 |
+| `intakes/chat-index-intake.ts` | 不变的消费者 | 读 `glossary-categories` 与 `sidebar-sections` adapter(不再直接 import `glossary-meta.ts` 或 `sidebar-data.ts`) |
+| `intakes/translation-gap-intake.ts` | 不变的消费者 | 读 taxonomy + 文件系统扫描 |
+| `gen-sidebar.ts` | 不变的编排器 | 组合 adapters |
 
-Adapters are **pure functions** from `TaxonomyModule` (+ optional filesystem scan) to their existing output shape. The pipeline (`gen-sidebar.ts`) keeps the same entry points and output files; adapters change where the data comes from, not what gets produced.
+Adapter 是从 `TaxonomyModule`(加可选文件系统扫描)到其既有输出形状的**纯函数**。流水线(`gen-sidebar.ts`)保持相同入口与输出文件;adapter 改变数据从哪来,不改变产出什么。
 
-### Source of truth
+### 事实来源
 
-The taxonomy module's data lives in **one declarative file**, `web/.vuepress/taxonomy/data.ts` (or `.json`), structured as a flat array of `TaxonomyNode`. Editor-friendliness is preserved by:
+分类法模块的数据存于**一个声明式文件** `web/.vuepress/taxonomy/data.ts`(或 `.json`),结构为扁平的 `TaxonomyNode` 数组。编辑友好性靠两点保留:
 
-- a `defineTaxonomy()` helper that accepts a nested literal and flattens at module load,
-- a build-time validator (run from `gen-sidebar.ts`) that checks: unique ids, parents exist, no cycles, locale gating consistent with `path`, `order` is a number.
+- 一个 `defineTaxonomy()` 助手,接受嵌套字面量并在模块加载时拍平;
+- 一个构建期校验器(由 `gen-sidebar.ts` 运行),检查:id 唯一、父节点存在、无环、语言门控与 `path` 一致、`order` 是数字。
 
-The flat representation is what adapters consume; the nested literal is what humans edit.
+扁平形态供 adapter 消费;嵌套字面量供人编辑。
 
-### Extensibility
+### 可扩展性
 
-`NodeKind` is an **open enum** (TypeScript string-literal union, but adapters tolerate unknown kinds by ignoring them). Adding a new kind (e.g. `'forum-thread'`, `'tool-page'`) does **not** require amending this ADR. It requires:
+`NodeKind` 是**开放枚举**(TypeScript 字符串字面量联合,但 adapter 以忽略未知 kind 的方式保持容忍)。新增 kind(如 `'forum-thread'`、`'tool-page'`)**不需要**修订本 ADR,只需要:
 
-1. Adding the literal to `NodeKind`.
-2. Writing or extending the adapter that consumes it.
-3. No changes to existing adapters (they filter by the kinds they know).
+1. 把字面量加入 `NodeKind`;
+2. 编写或扩展消费它的 adapter;
+3. 不改任何既有 adapter(它们按自己认识的 kind 过滤)。
 
-Amending this ADR is required only for changes to: the `TaxonomyNode` interface shape, the locale-gating rule, the identity rule, or the path-convention rule.
+只有这些变更才需要修订本 ADR:`TaxonomyNode` 接口形状、语言门控规则、身份规则或路径约定规则。
 
-## Consequences
+## 后果
 
-### Positive
+### 正面
 
-- Adding a new section becomes a **single-file change** to `taxonomy/data.ts`. The build pipeline updates navbar, sidebar, wayfinding, and AI-chat together.
-- zh/en drift becomes a validation error, not a runtime 404.
-- AFK agents have one concept (`TaxonomyNode`) and one file to edit, with a typed validator that catches mistakes at build time.
-- Existing outputs (`sidebar.auto.json`, `space-news-articles-zh.json`, `space-news-articles-en.json`, navbar arrays) are unchanged in shape, so downstream consumers (VuePress, theme components) are untouched.
+- 新增章节变成对 `taxonomy/data.ts` 的**单文件改动**。构建流水线把 navbar、sidebar、wayfinding 与 AI-chat 一并更新。
+- zh/en 漂移变成校验错误,而不是运行时 404。
+- AFK agent 只需一个概念(`TaxonomyNode`)和一个待改文件,外加一个构建期抓错类型化校验器。
+- 既有输出(`sidebar.auto.json`、`space-news-articles-zh.json`、`space-news-articles-en.json`、navbar 数组)形状不变,下游消费者(VuePress、主题组件)不受影响。
 
-### Negative
+### 负面
 
-- One-time migration cost: re-expressing the seven existing files as taxonomy + adapters. Estimated 4–6 follow-up issues.
-- The flat-with-helper representation adds a small layer of indirection over today's nested literals.
-- `childrenByLocale` (used today only by `blue-team-research`) loses its escape-hatch nature: en-specific subtrees become normal nodes with `locales: ['en']`. This is a deliberate simplification. Where today's `childrenByLocale` encodes **different slugs per locale at the same tree position** (e.g. `blue-team-research/doctrine-strategy/us-doctrine-system` zh-only vs `…/us-strategy-doctrine` en-only), the migration produces **two sibling nodes** with disjoint `locales`, not one node with a locale switch; each gets its own stable `id`.
+- 一次性迁移成本:把七个既有文件重新表达为 taxonomy + adapters。预计 4–6 个后续 issue。
+- "扁平+助手"的形态在今天的嵌套字面量上增加了一小层间接。
+- `childrenByLocale`(今天只有 `blue-team-research` 使用)失去逃生口性质:en 特有子树变成带 `locales: ['en']` 的普通节点。这是有意的简化。凡今日 `childrenByLocale` 编码的是**同一树位置上按语言不同的 slug**(如 `blue-team-research/doctrine-strategy/us-doctrine-system` 仅 zh vs `…/us-strategy-doctrine` 仅 en),迁移产出**两个兄弟节点**,`locales` 不相交,而不是一个带语言开关的节点;各自拥有稳定的 `id`。
 
-### Neutral
+### 中性
 
-- Performance: taxonomy is built once at build time, cached for the build. No runtime cost.
-- Test surface: the validator and each adapter are pure functions, trivially unit-testable. Existing `gen-sidebar.test.ts`, `glossary-meta.test.ts`, `page-metadata.test.ts` continue to work.
+- 性能:taxonomy 构建期构建一次并缓存。无运行时成本。
+- 测试面:校验器与每个 adapter 都是纯函数,天然可单测。既有 `gen-sidebar.test.ts`、`glossary-meta.test.ts`、`page-metadata.test.ts` 继续可用。
 
-## Follow-up AFK issues (unblocked by this ADR)
+## 后续 AFK issue(本 ADR 解除阻塞)
 
-Each can be picked up independently:
+每个可独立认领:
 
-1. **`taxonomy/types.ts` + `data.ts` scaffold**: define the interface, seed with current `sidebar-data.ts` content, add the build-time validator. No adapters yet.
-2. **Glossary categories adapter**: migrate `glossary-meta.ts` consumers to read from taxonomy. Delete `glossaryCategories` export.
-3. **Sidebar sections adapter**: migrate `sidebar-data.ts` consumers. Delete `sidebarSections` export.
-4. **Navbar adapter (zh + en)**: replace `navbar.ts` and `navbar-en.ts` with derived arrays.
-5. **News categories adapter**: migrate `category-meta.json` into taxonomy (kind `'news-category'`, `meta.color`).
-6. **Wayfinding adapter**: replace the hard-coded arrays in `wayfinding-intake.ts`.
+1. **`taxonomy/types.ts` + `data.ts` 骨架**:定义接口,用当前 `sidebar-data.ts` 内容播种,加构建期校验器。暂无 adapter。
+2. **词条类别 adapter**:迁移 `glossary-meta.ts` 的消费者改为读 taxonomy。删除 `glossaryCategories` 导出。
+3. **章节侧边栏 adapter**:迁移 `sidebar-data.ts` 消费者。删除 `sidebarSections` 导出。
+4. **导航 adapter(zh + en)**:用派生数组替换 `navbar.ts` 与 `navbar-en.ts`。
+5. **新闻类别 adapter**:把 `category-meta.json` 迁入 taxonomy(kind `'news-category'`,`meta.color`)。
+6. **Wayfinding adapter**:替换 `wayfinding-intake.ts` 中的硬编码数组。
 
-Each follow-up issue is a TDD-shaped vertical slice (one adapter, one test file, one cut-over). None of them needs to re-decide the interface.
+每个后续 issue 都是 TDD 形状的垂直切片(一个 adapter、一个测试文件、一次切换)。无需再决定接口。
 
-## Alternatives considered
+## 考虑过的替代方案
 
-- **Status quo with stricter conventions**: rejected. Conventions have not prevented drift; a structural fix is needed.
-- **Auto-generate everything from the filesystem**: rejected. Ordering and labels need explicit human curation; the filesystem cannot express bilingual labels or sibling order.
-- **Required-both-locales with a TranslationGap report**: rejected. Forces fake en labels for zh-only content (e.g. NUDT, NPU), which then leak into navbar/sidebar. Explicit gating keeps intent legible.
-- **Closed `NodeKind` enum requiring ADR amendments per new kind**: rejected. Site surfaces evolve (forum, dialectic, tools) faster than ADR cadence; open enum with adapter-local knowledge is the lower-friction equilibrium.
+- **维持现状加更严的约定**:否决。约定没能阻止漂移;需要结构性修复。
+- **一切从文件系统自动生成**:否决。排序与标签需要人工策划;文件系统表达不了双语标签和同级顺序。
+- **强制双语言配翻译缺口报告**:否决。会迫使为仅 zh 内容(如 NUDT、NPU)伪造 en 标签,继而泄漏进 navbar/sidebar。显式门控让意图保持可读。
+- **封闭 `NodeKind` 枚举,每种新 kind 都修订 ADR**:否决。站点表面(论坛、辩证、工具)的演化比 ADR 节奏快;开放枚举加 adapter 本地知识是摩擦最低的平衡点。

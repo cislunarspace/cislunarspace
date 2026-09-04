@@ -10,7 +10,6 @@ let content: ContentModule;
 let refreshSpy: ReturnType<typeof vi.fn>;
 
 const AD_ZH = 'glossary/fundamentals/ad.md';
-const AD_EN = 'en/glossary/fundamentals/ad.md';
 const BVP_ZH = 'glossary/fundamentals/bvp.md';
 
 function write(rel: string, doc: string): void {
@@ -42,7 +41,6 @@ beforeEach(() => {
       '',
     ].join('\n'),
   );
-  write(AD_EN, '---\ntitle: Automatic Differentiation\ndate: 2026-04-01\n---\n\n# AD body\n');
   write(BVP_ZH, '---\ntitle: 边值问题（缺英文）\ndate: 2026-04-02\n---\n\n边值问题正文。\n');
   write('glossary/observation/ssa.md', '---\ntitle: 空间态势感知\n---\n\n## 定义\n词条正文。\n');
   write(
@@ -68,7 +66,7 @@ beforeEach(() => {
     ].join('\n'),
   );
   write('cislunar-orbits/README.md', '---\ntitle: 地月轨道\n---\n\n章节首页。\n');
-  write('en/cislunar-orbits/nrho/page.md', '---\ntitle: NRHO\n---\n\nNRHO page.\n');
+  write('cislunar-orbits/nrho/page.md', '---\ntitle: NRHO\n---\n\nNRHO page.\n');
 
   refreshSpy = vi.fn();
   content = createContentModule({
@@ -83,18 +81,14 @@ afterEach(() => {
 });
 
 describe('content / list', () => {
-  it('glossary：列出双侧词条，报告配对状态', () => {
+  it('glossary：列出词条并读取 frontmatter 摘要', () => {
     const entries = content.list('glossary');
     expect(entries.map((e) => e.relPath).sort()).toEqual(
-      [AD_EN, AD_ZH, BVP_ZH, 'glossary/observation/ssa.md'].sort(),
+      [AD_ZH, BVP_ZH, 'glossary/observation/ssa.md'].sort(),
     );
     const adZh = entries.find((e) => e.relPath === AD_ZH)!;
-    expect(adZh.locale).toBe('zh');
-    expect(adZh.counterpartPath).toBe(AD_EN);
-    expect(adZh.counterpartExists).toBe(true);
+    expect(adZh.family).toBe('glossary');
     expect(adZh.frontmatter.title).toBe('自动微分：原理与实现');
-    const bvp = entries.find((e) => e.relPath === BVP_ZH)!;
-    expect(bvp.counterpartExists).toBe(false);
   });
 
   it('glossary 与 kb-section：各归其族，README 算 kb 内容', () => {
@@ -103,13 +97,13 @@ describe('content / list', () => {
         .list('glossary')
         .map((e) => e.relPath)
         .sort(),
-    ).toEqual([AD_EN, AD_ZH, BVP_ZH, 'glossary/observation/ssa.md']);
+    ).toEqual([AD_ZH, BVP_ZH, 'glossary/observation/ssa.md']);
     expect(
       content
         .list('kb-section')
         .map((e) => e.relPath)
         .sort(),
-    ).toEqual(['cislunar-orbits/README.md', 'en/cislunar-orbits/nrho/page.md']);
+    ).toEqual(['cislunar-orbits/README.md', 'cislunar-orbits/nrho/page.md']);
   });
 });
 
@@ -166,9 +160,9 @@ describe('content / write', () => {
 });
 
 describe('content / delete', () => {
-  it('删除双语对应一起入回收站，glossary 索引行清理、计数更新、空节移除', () => {
-    const report = content.delete(AD_ZH, { withCounterpart: true });
-    expect(report.deletedFiles.sort()).toEqual([AD_EN, AD_ZH].sort());
+  it('删除入回收站，glossary 索引行清理、计数更新、空节移除', () => {
+    const report = content.delete(AD_ZH);
+    expect(report.deletedFiles).toEqual([AD_ZH]);
     expect(report.skipped).toEqual([]);
     expect(report.readmeLinesRemoved).toEqual([{ file: 'glossary/README.md', count: 1 }]);
     // 文件移入回收站且内容原样
@@ -187,10 +181,10 @@ describe('content / delete', () => {
 
   it('deleteMany 清空一节时移除节标题，只刷新一次索引', () => {
     refreshSpy.mockClear();
-    const report = content.deleteMany(
-      ['glossary/observation/ssa.md', 'glossary/fundamentals/bvp.md'],
-      { withCounterpart: false },
-    );
+    const report = content.deleteMany([
+      'glossary/observation/ssa.md',
+      'glossary/fundamentals/bvp.md',
+    ]);
     expect(report.deletedFiles).toHaveLength(2);
     expect(refreshSpy).toHaveBeenCalledTimes(1);
     const readme = fs.readFileSync(path.join(webRoot, 'glossary/README.md'), 'utf-8');
@@ -202,10 +196,11 @@ describe('content / delete', () => {
   });
 
   it('不识别与不存在路径进 skipped，不影响其他删除', () => {
-    const report = content.deleteMany(
-      ['glossary/fundamentals/bvp.md', 'glossary/README.md', 'glossary/fundamentals/none.md'],
-      { withCounterpart: false },
-    );
+    const report = content.deleteMany([
+      'glossary/fundamentals/bvp.md',
+      'glossary/README.md',
+      'glossary/fundamentals/none.md',
+    ]);
     expect(report.skipped).toEqual(['glossary/README.md', 'glossary/fundamentals/none.md']);
     expect(report.deletedFiles).toEqual(['glossary/fundamentals/bvp.md']);
   });

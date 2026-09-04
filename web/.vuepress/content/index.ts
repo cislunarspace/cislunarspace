@@ -16,7 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const webRoot = path.join(__dirname, '..', '..');
 
 export const sectionDirs = sectionDirsFromPaths(
-  taxonomy.byKind('section', null).map((s) => s.path.zh ?? ''),
+  taxonomy.byKind('section', null).map((s) => s.path ?? ''),
 );
 
 export const content = createContentModule({

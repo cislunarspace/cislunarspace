@@ -2,13 +2,13 @@
  * Navbar adapter — derives VuePress NavbarConfig from the taxonomy module
  * via the TaxonomyViewEngine.
  *
- * The engine handles locale filtering, external-link path resolution, and
- * recursive tree traversal. The projector is a pure function mapping each
- * ViewNode (+ children) to a navbar item.
+ * The engine handles external-link path resolution and recursive tree
+ * traversal. The projector is a pure function mapping each ViewNode
+ * (+ children) to a navbar item.
  */
 import type { NavbarConfig } from 'vuepress';
 import { engine as defaultEngine, NAVBAR_ROOT_ID, createViewEngine } from '..';
-import type { Locale, TaxonomyModule } from '../types';
+import type { TaxonomyModule } from '../types';
 import type { ViewNode } from '../view-engine';
 
 interface VuepressNavbarItem {
@@ -33,11 +33,9 @@ function navbarProjector(vn: ViewNode, children: VuepressNavbarItem[]): Vuepress
   return null;
 }
 
-/**
- * Build the VuePress NavbarConfig for a single locale.
- */
-export function buildNavbar(locale: Locale, taxonomyModule?: TaxonomyModule): NavbarConfig {
+/** Build the VuePress NavbarConfig. */
+export function buildNavbar(taxonomyModule?: TaxonomyModule): NavbarConfig {
   const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine;
-  const items = viewEngine.fromRoot(NAVBAR_ROOT_ID).withLocale(locale).buildTree(navbarProjector);
+  const items = viewEngine.fromRoot(NAVBAR_ROOT_ID).buildTree(navbarProjector);
   return items as NavbarConfig;
 }

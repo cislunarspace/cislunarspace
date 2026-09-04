@@ -25,15 +25,12 @@ const config: NormalizedConfig = {
   maxHistoryTurns: 10,
 };
 
-const siteIndex: HierarchicalSiteIndex = {
-  zh: [
-    {
-      category: '轨道',
-      entries: [{ path: '/cislunar-orbits/', title: '地月轨道' }],
-    },
-  ],
-  en: [],
-};
+const siteIndex: HierarchicalSiteIndex = [
+  {
+    category: '轨道',
+    entries: [{ path: '/cislunar-orbits/', title: '地月轨道' }],
+  },
+];
 
 function createCallbacks(): RouteCallbacks {
   return {
@@ -136,7 +133,7 @@ describe('ChatSession', () => {
     };
     const callbacks = createCallbacks();
 
-    const session = new ChatSession(config, 'zh', siteIndex, deps);
+    const session = new ChatSession(config, siteIndex, deps);
     await session.route(
       '什么是地月轨道？',
       [{ role: 'user', content: '什么是地月轨道？' }],
@@ -147,14 +144,12 @@ describe('ChatSession', () => {
     expect(router.route).toHaveBeenCalledWith(
       expect.objectContaining({
         question: '什么是地月轨道？',
-        locale: 'zh',
         flatIndex: [{ path: '/cislunar-orbits/', title: '地月轨道' }],
       }),
     );
     expect(buildSpy).toHaveBeenCalledWith(
       expect.objectContaining({
         paths: ['/cislunar-orbits/'],
-        locale: 'zh',
       }),
     );
     expect(transport.completeJson).toHaveBeenCalledWith(
@@ -179,7 +174,7 @@ describe('ChatSession', () => {
     });
     const callbacks = createCallbacks();
 
-    const session = new ChatSession(config, 'zh', siteIndex, {
+    const session = new ChatSession(config, siteIndex, {
       router,
       answerEngine: engine,
       transport,
@@ -195,13 +190,12 @@ describe('ChatSession', () => {
 
   it('caches loaded site context from the default context manager', async () => {
     const context: SiteContext = {
-      zh: { '/cislunar-orbits/': { title: '地月轨道', text: '轨道节选' } },
-      en: {},
+      '/cislunar-orbits/': { title: '地月轨道', text: '轨道节选' },
     };
     const fetchMock = vi.fn(async () => new Response(JSON.stringify(context), { status: 200 }));
     vi.stubGlobal('fetch', fetchMock);
 
-    const session = new ChatSession(config, 'zh', siteIndex);
+    const session = new ChatSession(config, siteIndex);
     await expect(session.loadSiteContext()).resolves.toEqual(context);
     await expect(session.loadSiteContext()).resolves.toEqual(context);
 
@@ -218,9 +212,9 @@ describe('ChatSession', () => {
       vi.fn(async () => new Response('', { status: 500 })),
     );
 
-    const session = new ChatSession(config, 'zh', siteIndex);
+    const session = new ChatSession(config, siteIndex);
 
-    await expect(session.loadSiteContext()).resolves.toEqual({ zh: {}, en: {} });
+    await expect(session.loadSiteContext()).resolves.toEqual({});
   });
 
   it('streams answer chunks through an injected transport', async () => {
@@ -236,7 +230,7 @@ describe('ChatSession', () => {
     });
     const callbacks = createCallbacks();
 
-    const session = new ChatSession({ ...config, stream: true }, 'zh', siteIndex, {
+    const session = new ChatSession({ ...config, stream: true }, siteIndex, {
       router,
       answerEngine: engine,
       transport,
@@ -261,7 +255,7 @@ describe('ChatSession', () => {
     const router = createRouterStub({ paths: [], throw: abortError });
     const callbacks = createCallbacks();
 
-    const session = new ChatSession(config, 'zh', siteIndex, {
+    const session = new ChatSession(config, siteIndex, {
       router,
       answerEngine: createAnswerEngineStub().engine,
       transport: createTransportStub(),
@@ -279,14 +273,14 @@ describe('ChatSession', () => {
       'fetch',
       vi.fn(async (input: string) => {
         if (input === '/ai-chat-context.json') {
-          return new Response(JSON.stringify({ zh: {}, en: {} }), { status: 200 });
+          return new Response(JSON.stringify({}), { status: 200 });
         }
         return new Response('SECRET_UPSTREAM_DIAGNOSTIC', { status: 502 });
       }),
     );
     const callbacks = createCallbacks();
 
-    const session = new ChatSession({ ...config, twoPhaseRetrieval: false }, 'zh', siteIndex);
+    const session = new ChatSession({ ...config, twoPhaseRetrieval: false }, siteIndex);
     await session.route('问题', [], callbacks, new AbortController().signal);
 
     expect(callbacks.onError).toHaveBeenCalledWith('networkError', 'HTTP 502');
@@ -302,7 +296,7 @@ describe('ChatSession', () => {
     });
     const callbacks = createCallbacks();
 
-    const session = new ChatSession({ ...config, twoPhaseRetrieval: false }, 'zh', siteIndex, {
+    const session = new ChatSession({ ...config, twoPhaseRetrieval: false }, siteIndex, {
       transport,
       answerEngine: createAnswerEngineStub().engine,
       contextManager: createContextManagerStub(),
@@ -321,7 +315,6 @@ describe('ChatSession', () => {
 
     const session = new ChatSession(
       { ...config, stream: true, twoPhaseRetrieval: false },
-      'zh',
       siteIndex,
       {
         transport,
@@ -349,7 +342,7 @@ describe('ChatSession', () => {
       { role: 'user', content: 'msg2' },
       { role: 'assistant', content: 'ans2' },
     ];
-    const session = new ChatSession({ ...config, maxHistoryTurns: 1 }, 'zh', siteIndex, {
+    const session = new ChatSession({ ...config, maxHistoryTurns: 1 }, siteIndex, {
       router,
       answerEngine: engine,
       transport,

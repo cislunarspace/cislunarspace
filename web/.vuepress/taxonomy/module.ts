@@ -5,13 +5,7 @@
  * Children are pre-bucketed and pre-sorted at construction time so that
  * adapter calls are O(1) lookups.
  */
-import type { Locale, NodeId, NodeKind, TaxonomyModule, TaxonomyNode } from './types';
-
-interface ChildrenIndex {
-  /** parentId ('__root__' for null) → locale → sorted node array */
-  zh: Map<string, TaxonomyNode[]>;
-  en: Map<string, TaxonomyNode[]>;
-}
+import type { NodeId, NodeKind, TaxonomyModule, TaxonomyNode } from './types';
 
 const ROOT_KEY = '__root__';
 
@@ -20,32 +14,15 @@ function compareNodes(a: TaxonomyNode, b: TaxonomyNode): number {
   return a.id < b.id ? -1 : a.id > b.id ? 1 : 0;
 }
 
-function isVisibleIn(node: TaxonomyNode, locale: Locale): boolean {
-  if (!node.locales) return true;
-  return node.locales.includes(locale);
-}
-
-function buildChildrenIndex(nodes: readonly TaxonomyNode[]): ChildrenIndex {
-  const zh = new Map<string, TaxonomyNode[]>();
-  const en = new Map<string, TaxonomyNode[]>();
-
+function buildChildrenIndex(nodes: readonly TaxonomyNode[]): Map<string, TaxonomyNode[]> {
+  const index = new Map<string, TaxonomyNode[]>();
   for (const node of nodes) {
     const parentKey = node.parentId ?? ROOT_KEY;
-    if (isVisibleIn(node, 'zh')) {
-      if (!zh.has(parentKey)) zh.set(parentKey, []);
-      zh.get(parentKey)!.push(node);
-    }
-    if (isVisibleIn(node, 'en')) {
-      if (!en.has(parentKey)) en.set(parentKey, []);
-      en.get(parentKey)!.push(node);
-    }
+    if (!index.has(parentKey)) index.set(parentKey, []);
+    index.get(parentKey)!.push(node);
   }
-
-  for (const map of [zh, en]) {
-    for (const list of map.values()) list.sort(compareNodes);
-  }
-
-  return { zh, en };
+  for (const list of index.values()) list.sort(compareNodes);
+  return index;
 }
 
 export function createTaxonomyModule(nodes: readonly TaxonomyNode[]): TaxonomyModule {
@@ -62,10 +39,9 @@ export function createTaxonomyModule(nodes: readonly TaxonomyNode[]): TaxonomyMo
       if (!node) throw new Error(`TaxonomyModule: unknown node id "${id}"`);
       return node;
     },
-    children(parentId, locale) {
+    children(parentId) {
       const key = parentId ?? ROOT_KEY;
-      const map = locale === 'zh' ? childrenIndex.zh : childrenIndex.en;
-      return map.get(key) ?? [];
+      return childrenIndex.get(key) ?? [];
     },
     byKind(kind: NodeKind, parentId?: NodeId | null) {
       const list: TaxonomyNode[] = [];

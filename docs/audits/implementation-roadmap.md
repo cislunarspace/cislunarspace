@@ -1,4 +1,3 @@
-[简体中文](implementation-roadmap.md) | [English](implementation-roadmap.en.md)
 
 # Implementation Roadmap: Cislunar Space Content Audit Remediation
 

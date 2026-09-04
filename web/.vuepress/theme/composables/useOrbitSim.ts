@@ -39,7 +39,7 @@ export interface SyncValues {
   nu: number;
 }
 
-export function useOrbitSim(locale: 'zh' | 'en') {
+export function useOrbitSim() {
   const orb = reactive<OrbElements>({
     a: 6778000,
     e: 0,
@@ -81,9 +81,7 @@ export function useOrbitSim(locale: 'zh' | 'en') {
   });
 
   const speedLabel = computed(() => `${simSpeed.value}×`);
-  const pauseLabel = computed(() =>
-    isPaused.value ? (locale === 'en' ? '▶ Resume' : '▶ 继续') : '⏸ 暂停',
-  );
+  const pauseLabel = computed(() => (isPaused.value ? '▶ 继续' : '⏸ 暂停'));
   const topTime = computed(() => `UTC  ${fmtUTC(simTime.value)}`);
 
   function updateHUD() {

@@ -1,4 +1,3 @@
-[简体中文](page-title-customization.md) | [English](page-title-customization.en.md)
 
 # 页面标题定制方案
 
@@ -10,7 +9,7 @@
 4. **用户意图**：考虑用户搜索时的意图
 5. **行动导向**：鼓励点击
 
-## 中文页面标题定制
+## 页面标题定制
 
 ### 1. 地月空间是什么 (What Is Cislunar Space)
 
@@ -87,73 +86,8 @@
   - 优化：地月空间飞行器运行轨道类型与特性详解
   - 关键词：地月空间轨道，飞行器轨道，轨道类型，轨道特性
 
-## 英文页面标题定制
-
-### 1. What Is Cislunar Space
-
-- **首页** (`/en/what-is-cislunarspace/README.md`)
-  - 优化：Cislunar Space Definition and Strategic Value Analysis
-  - 关键词：cislunar space definition, strategic value, Earth-Moon gravity
-
-- **环境页面** (`/en/what-is-cislunarspace/environment.md`)
-  - 优化：Cislunar Space Environment Characteristics and Mission Impacts
-  - 关键词：cislunar space environment, environmental characteristics, mission impacts
-
-### 2. Cislunar Glossary
-
-- **首页** (`/en/glossary/README.md`)
-  - 优化：Cislunar Space Terminology Dictionary | CR3BP, Pulsar Navigation Terms
-  - 关键词：cislunar terminology, professional terms, CR3BP, pulsar navigation
-
-- **CR3BP页面** (`/en/glossary/cr3bp.md`)
-  - 优化：Circular Restricted Three-Body Problem (CR3BP) Detailed Explanation
-  - 关键词：Circular Restricted Three-Body Problem, CR3BP, cislunar dynamics
-
-- **X-ray Pulsar Navigation** (`/en/glossary/xray-pulsar-navigation.md`)
-  - 优化：X-ray Pulsar Navigation Principles and Applications
-  - 关键词：X-ray pulsar navigation, pulsar navigation, deep space autonomous navigation
-
-### 3. Resources & Tools
-
-- **首页** (`/en/resources-tools/README.md`)
-  - 优化：Cislunar Space Research Resources and Tools Collection
-  - 关键词：cislunar space resources, research tools, datasets, simulation platforms
-
-- **数据集页面** (`/en/resources-tools/datasets.md`)
-  - 优化：Cislunar Space Research Datasets Download | JPL Ephemerides, Orbit Data
-  - 关键词：cislunar datasets, JPL ephemerides, orbit data, data download
-
-### 4. Research Frontiers
-
-- **首页** (`/en/research-frontiers/README.md`)
-  - 优化：Cislunar Space Research Frontiers and Hot Topics Analysis
-  - 关键词：cislunar space research, scientific frontiers, hot topics
-
-- **研究方向** (`/en/research-frontiers/directions/README.md`)
-  - 优化：Main Research Directions and Technical Challenges in Cislunar Space
-  - 关键词：cislunar research directions, technical challenges, research areas
-
-- **研究机构** (`/en/research-frontiers/institutions/README.md`)
-  - 优化：Global Cislunar Space Research Institutions and Laboratories
-  - 关键词：cislunar research institutions, laboratories, global institutions
-
-- **期刊与会议** (`/en/research-frontiers/journals-conferences.md`)
-  - 优化：Core Journals and Important Conferences in Cislunar Space Field
-  - 关键词：cislunar journals, academic conferences, core journals, conference guide
-
-- **重大工程项目** (`/en/research-frontiers/major-projects.md`)
-  - 优化：Major Engineering Projects and Mission Cases in Cislunar Space
-  - 关键词：cislunar projects, major engineering, mission cases, engineering projects
-
-### 5. Cislunar Orbits
-
-- **首页** (`/en/cislunar-orbits/README.md`)
-  - 优化：Cislunar Spacecraft Orbit Types and Characteristics Detailed Guide
-  - 关键词：cislunar orbits, spacecraft orbits, orbit types, orbit characteristics
-
 ## 实施步骤
 
 1. 先更新已经修改过的页面标题
 2. 然后按类别逐个更新其他页面
-3. 确保中英文页面标题对应
-4. 构建并测试效果
+3. 构建并测试效果

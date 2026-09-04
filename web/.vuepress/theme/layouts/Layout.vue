@@ -23,17 +23,13 @@ import CopyPageButton from '../components/CopyPageButton.vue';
 import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy';
 import {
   enhanceContentTables,
-  setIsEnFn,
   setupTableToolbar,
   startTableEnhanceObserver,
   teardownTableToolbar,
 } from '../composables/useTableEnhance';
-import { useIsEn } from '../composables/useIsEn';
 
 const route = useRoute();
 const page = usePage();
-const isEn = useIsEn();
-setIsEnFn(() => isEn.value);
 
 function runTableEnhance() {
   const run = () => {

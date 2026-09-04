@@ -37,8 +37,7 @@ function fileToUrlPath(relFromWeb: string, fm: Frontmatter): string {
 }
 
 export function generateAiChatContext(files: MarkdownFile[]): void {
-  const zh: Record<string, { title: string; text: string }> = {};
-  const en: Record<string, { title: string; text: string }> = {};
+  const pages: Record<string, { title: string; text: string }> = {};
 
   for (const file of files) {
     const { frontmatter, body } = parseFrontmatterAndBody(file.content);
@@ -47,15 +46,8 @@ export function generateAiChatContext(files: MarkdownFile[]): void {
     const pagePath = fileToUrlPath(file.relPath, frontmatter);
     const title = (frontmatter.title && String(frontmatter.title)) || pagePath;
     const text = markdownToPlain(body).slice(0, MAX_TEXT_PER_PAGE) || '';
-    const rec = { title, text: text || '(无正文)' };
-    const isEn = file.relPath.toLowerCase().startsWith('en/');
-
-    if (isEn) {
-      if (!en[pagePath]) {
-        en[pagePath] = rec;
-      }
-    } else if (!zh[pagePath]) {
-      zh[pagePath] = rec;
+    if (!pages[pagePath]) {
+      pages[pagePath] = { title, text: text || '(无正文)' };
     }
   }
 
@@ -66,12 +58,10 @@ export function generateAiChatContext(files: MarkdownFile[]): void {
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
   const contextPath = path.join(outDir, 'ai-chat-context.json');
-  fs.writeFileSync(contextPath, JSON.stringify({ zh, en }, null, 0));
+  fs.writeFileSync(contextPath, JSON.stringify(pages, null, 0));
 
   const sizeCtx = (fs.statSync(contextPath).size / 1024).toFixed(1);
-  console.log(
-    `Generated ai-chat-context.json (${Object.keys(zh).length} zh, ${Object.keys(en).length} en pages, ${sizeCtx} KB)`,
-  );
+  console.log(`Generated ai-chat-context.json (${Object.keys(pages).length} pages, ${sizeCtx} KB)`);
 }
 
 const isMain =

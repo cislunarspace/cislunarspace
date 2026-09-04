@@ -16,13 +16,15 @@ const config: NormalizedConfig = {
   maxHistoryTurns: 10,
 };
 
-const siteIndex: HierarchicalSiteIndex = {
-  zh: [
-    { category: '轨道', entries: [{ path: '/cislunar-orbits/', title: '地月轨道' }] },
-    { category: '背景', entries: [{ path: '/background/intro/', title: '背景' }] },
-  ],
-  en: [],
-};
+const siteIndex: HierarchicalSiteIndex = [
+  {
+    category: '轨道',
+    entries: [
+      { path: '/cislunar-orbits/', title: '地月轨道' },
+      { path: '/background/intro/', title: '背景' },
+    ],
+  },
+];
 
 function createCallbacks() {
   return {
@@ -43,9 +45,8 @@ const routerParams = {
   question: '什么是地月轨道？',
   history: [],
   siteIndex,
-  flatIndex: flatIndexFor(siteIndex, 'zh'),
+  flatIndex: flatIndexFor(siteIndex),
   config,
-  locale: 'zh' as const,
 };
 
 describe('chat-router', () => {
@@ -146,12 +147,11 @@ describe('chat-router', () => {
   });
 
   describe('flatIndexFor', () => {
-    it('flattens the hierarchical site index for the given locale', () => {
-      expect(flatIndexFor(siteIndex, 'zh')).toEqual([
+    it('flattens the hierarchical site index', () => {
+      expect(flatIndexFor(siteIndex)).toEqual([
         { path: '/cislunar-orbits/', title: '地月轨道' },
         { path: '/background/intro/', title: '背景' },
       ]);
-      expect(flatIndexFor(siteIndex, 'en')).toEqual([]);
     });
   });
 });

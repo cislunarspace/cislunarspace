@@ -1,4 +1,3 @@
-[English](0004-asset-layering.en.md) | [简体中文](0004-asset-layering.md)
 
 # ADR 0004: 资产分层与仓库形态
 

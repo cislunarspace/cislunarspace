@@ -20,10 +20,6 @@ export interface KatexRenderResult {
   placeholders: string[];
 }
 
-export interface RenderOptions {
-  locale?: 'zh' | 'en';
-}
-
 /**
  * Render KaTeX block/inline math, replacing each math block with a placeholder.
  * Returns the text with placeholders and the array of rendered HTML strings.

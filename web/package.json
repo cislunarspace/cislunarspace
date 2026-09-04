@@ -11,7 +11,7 @@
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#dist\"",
     "lint:code": "eslint .",
     "format:check": "prettier --check .",
-    "check": "tsx .vuepress/build/check-bilingual-mirror.ts && tsx .vuepress/build/check-en-chinese.ts && tsx .vuepress/build/check-links.ts"
+    "check": "tsx .vuepress/build/check-links.ts && tsx .vuepress/build/check-glossary-frontmatter.ts"
   },
   "license": "MIT",
   "devDependencies": {

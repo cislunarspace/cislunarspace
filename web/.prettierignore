@@ -11,3 +11,5 @@ space-news-articles-zh.json
 space-news-articles-en.json
 space-news-articles.json
 space-news-sidebar-data.json
+.vuepress/.cache
+.vuepress/.temp

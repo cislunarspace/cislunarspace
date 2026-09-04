@@ -11,7 +11,7 @@ import { api } from '../api';
 
 const props = defineProps({
   show: { type: Boolean, default: false },
-  // { fieldLabel, selectedText, fullText, hasSelection, kind, lang }
+  // { fieldLabel, selectedText, fullText, hasSelection, kind }
   context: { type: Object, required: true },
 });
 const emit = defineEmits(['update:show', 'apply']);
@@ -29,7 +29,7 @@ const systemPrompt = computed(() => {
   const scope = c.hasSelection ? '用户选中了其中一段文字' : '用户未选中文字，将作用于整个字段';
   return (
     `你在协助编辑一篇${KIND_LABEL[c.kind] || '网页'}的「${c.fieldLabel}」字段` +
-    `（语言：${c.lang === 'en' ? '英文' : '中文'}）。${scope}。` +
+    `。${scope}。` +
     '按用户的要求修改或润色这段内容。回复时先给出修改后的完整文本（用 ``` 代码块包裹），' +
     '再用一两句话说明改了什么。不要改动事实，不要增减信息量，除非用户明确要求。'
   );
@@ -113,7 +113,7 @@ watch(
 
     <div ref="listEl" class="ai-chat-list">
       <div v-if="messages.length === 0" class="scope-line" style="text-align: center; padding: 16px 0">
-        输入你的要求，例如「润色这段文字」「翻译成英文」「压缩到两句话」
+        输入你的要求，例如「润色这段文字」「压缩到两句话」
       </div>
       <div
         v-for="(m, i) in messages"

@@ -118,54 +118,32 @@ describe('normalizeAndValidatePaths', () => {
 // ---------------------------------------------------------------------------
 describe('buildContextBlob', () => {
   const ctx: SiteContext = {
-    zh: {
-      '/a/': { title: '页面A', text: '内容A' },
-      '/b/': { title: '页面B', text: '内容B' },
-    },
-    en: {
-      '/a/': { title: 'Page A', text: 'Content A' },
-      '/b/': { title: 'Page B', text: 'Content B' },
-    },
+    '/a/': { title: '页面A', text: '内容A' },
+    '/b/': { title: '页面B', text: '内容B' },
   };
 
-  it('returns concatenated blocks for valid paths (zh)', () => {
-    const result = buildContextBlob(ctx, 'zh', ['/a/', '/b/'], 10000, false);
+  it('returns concatenated blocks for valid paths', () => {
+    const result = buildContextBlob(ctx, ['/a/', '/b/'], 10000);
     expect(result).toContain('页面A');
     expect(result).toContain('内容A');
     expect(result).toContain('页面B');
     expect(result).toContain('内容B');
   });
 
-  it('returns English content for en locale', () => {
-    const result = buildContextBlob(ctx, 'en', ['/a/'], 10000, true);
-    expect(result).toContain('Page A');
-    expect(result).toContain('Content A');
-  });
-
   it('skips paths not found in the context bag', () => {
-    const result = buildContextBlob(ctx, 'zh', ['/missing/'], 10000, false);
+    const result = buildContextBlob(ctx, ['/missing/'], 10000);
     expect(result).toBeNull();
   });
 
   it('returns null for empty paths array', () => {
-    expect(buildContextBlob(ctx, 'zh', [], 10000, false)).toBeNull();
+    expect(buildContextBlob(ctx, [], 10000)).toBeNull();
   });
 
   it('truncates when content exceeds budget', () => {
     const bigCtx: SiteContext = {
-      zh: { '/x/': { title: '大页面', text: '字'.repeat(5000) } },
-      en: {},
+      '/x/': { title: '大页面', text: '字'.repeat(5000) },
     };
-    const result = buildContextBlob(bigCtx, 'zh', ['/x/'], 500, false);
+    const result = buildContextBlob(bigCtx, ['/x/'], 500);
     expect(result).toContain('已截断');
-  });
-
-  it('truncates with English label when isEn is true', () => {
-    const bigCtx: SiteContext = {
-      zh: {},
-      en: { '/x/': { title: 'Big', text: 'w'.repeat(5000) } },
-    };
-    const result = buildContextBlob(bigCtx, 'en', ['/x/'], 500, true);
-    expect(result).toContain('truncated');
   });
 });

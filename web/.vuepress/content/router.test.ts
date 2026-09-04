@@ -10,31 +10,20 @@ const router = createContentRouter([
 ]);
 
 describe('createContentRouter / resolve', () => {
-  it('识别中文侧 glossary 词条并推到英文侧', () => {
+  it('识别 glossary 词条', () => {
     expect(router.resolve('glossary/fundamentals/ad.md')).toEqual({
       relPath: 'glossary/fundamentals/ad.md',
       family: 'glossary',
-      locale: 'zh',
-      counterpartPath: 'en/glossary/fundamentals/ad.md',
-    });
-  });
-
-  it('识别英文侧 glossary 词条并推回中文侧', () => {
-    expect(router.resolve('en/glossary/fundamentals/ad.md')).toMatchObject({
-      family: 'glossary',
-      locale: 'en',
-      counterpartPath: 'glossary/fundamentals/ad.md',
     });
   });
 
   it('识别 kb-section 页面（含 README 与深层页面）', () => {
-    expect(router.resolve('cislunar-orbits/README.md')).toMatchObject({
+    expect(router.resolve('cislunar-orbits/README.md')).toEqual({
+      relPath: 'cislunar-orbits/README.md',
       family: 'kb-section',
-      locale: 'zh',
     });
-    expect(router.resolve('en/cislunar-orbits/nrho/README.md')).toMatchObject({
+    expect(router.resolve('cislunar-orbits/nrho/README.md')).toMatchObject({
       family: 'kb-section',
-      locale: 'en',
     });
   });
 
@@ -53,25 +42,11 @@ describe('createContentRouter / resolve', () => {
   });
 });
 
-describe('createContentRouter / counterpart', () => {
-  it('双向推导', () => {
-    expect(router.counterpart('glossary/fundamentals/ad.md')).toBe(
-      'en/glossary/fundamentals/ad.md',
-    );
-    expect(router.counterpart('en/glossary/fundamentals/ad.md')).toBe(
-      'glossary/fundamentals/ad.md',
-    );
-  });
-
-  it('未识别路径返回 null', () => {
-    expect(router.counterpart('nope.md')).toBeNull();
-  });
-});
-
 describe('sectionDirsFromPaths', () => {
   it('从 taxonomy 路径派生目录名', () => {
-    expect(
-      sectionDirsFromPaths(['/what-is-cislunarspace/', '/cislunar-orbits/', '/en/ignored/', '/']),
-    ).toEqual(['what-is-cislunarspace', 'cislunar-orbits']);
+    expect(sectionDirsFromPaths(['/what-is-cislunarspace/', '/cislunar-orbits/', '/'])).toEqual([
+      'what-is-cislunarspace',
+      'cislunar-orbits',
+    ]);
   });
 });

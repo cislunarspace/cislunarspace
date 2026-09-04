@@ -6,25 +6,25 @@ import { createViewEngine } from './view-engine';
 // ── Test fixture ─────────────────────────────────────────────────────────────
 //
 // A small synthetic taxonomy that exercises every code path the engine
-// needs to handle: locale-gated nodes, display-only groups, index nodes,
-// external links, and nested trees. Tests run against this fixture, not
-// the production taxonomy, so they are independent of view-spec changes.
+// needs to handle: display-only groups, index nodes, external links, and
+// nested trees. Tests run against this fixture, not the production
+// taxonomy, so they are independent of view-spec changes.
 
 const FIXTURE: TaxonomyNode[] = [
   // Root-level sections
   {
     id: 'section-a',
     kind: 'section',
-    label: { zh: '甲', en: 'Alpha' },
-    path: { zh: '/a/', en: '/en/a/' },
+    label: '甲',
+    path: '/a/',
     order: 0,
     parentId: null,
   },
   {
     id: 'section-b',
     kind: 'section',
-    label: { zh: '乙', en: 'Bravo' },
-    path: { zh: '/b/', en: '/en/b/' },
+    label: '乙',
+    path: '/b/',
     order: 1,
     parentId: null,
   },
@@ -33,32 +33,32 @@ const FIXTURE: TaxonomyNode[] = [
   {
     id: 'section-a/index',
     kind: 'index',
-    label: { zh: '甲首页', en: 'Alpha home' },
-    path: { zh: '/a/', en: '/en/a/' },
+    label: '甲首页',
+    path: '/a/',
     order: 0,
     parentId: 'section-a',
   },
   {
     id: 'section-a/group-1',
     kind: 'group',
-    label: { zh: '组一', en: 'Group 1' },
-    path: { zh: '/a/g1/', en: '/en/a/g1/' },
+    label: '组一',
+    path: '/a/g1/',
     order: 1,
     parentId: 'section-a',
   },
   {
     id: 'section-a/display-group',
     kind: 'group',
-    label: { zh: '显示组', en: 'Display Group' },
-    path: { zh: null, en: null },
+    label: '显示组',
+    path: null,
     order: 2,
     parentId: 'section-a',
   },
   {
     id: 'section-a/page-1',
     kind: 'page',
-    label: { zh: '页一', en: 'Page 1' },
-    path: { zh: '/a/p1', en: '/en/a/p1' },
+    label: '页一',
+    path: '/a/p1',
     order: 3,
     parentId: 'section-a',
   },
@@ -67,8 +67,8 @@ const FIXTURE: TaxonomyNode[] = [
   {
     id: 'section-a/group-1/page-2',
     kind: 'page',
-    label: { zh: '页二', en: 'Page 2' },
-    path: { zh: '/a/g1/p2', en: '/en/a/g1/p2' },
+    label: '页二',
+    path: '/a/g1/p2',
     order: 0,
     parentId: 'section-a/group-1',
   },
@@ -77,29 +77,18 @@ const FIXTURE: TaxonomyNode[] = [
   {
     id: 'section-a/display-group/page-3',
     kind: 'page',
-    label: { zh: '页三', en: 'Page 3' },
-    path: { zh: '/a/dg/p3', en: '/en/a/dg/p3' },
+    label: '页三',
+    path: '/a/dg/p3',
     order: 0,
     parentId: 'section-a/display-group',
-  },
-
-  // zh-only page (locale-gated out of en)
-  {
-    id: 'section-a/zh-only',
-    kind: 'page',
-    label: { zh: '仅中文', en: 'Zh Only' },
-    path: { zh: '/a/zh-only', en: null },
-    locales: ['zh'],
-    order: 4,
-    parentId: 'section-a',
   },
 
   // external link
   {
     id: 'ext-github',
     kind: 'external-link',
-    label: { zh: 'GitHub', en: 'GitHub' },
-    path: { zh: null, en: null },
+    label: 'GitHub',
+    path: null,
     order: 0,
     parentId: null,
     meta: { href: 'https://github.com/example/repo' },
@@ -114,33 +103,26 @@ function engine() {
 
 describe('TaxonomyViewEngine', () => {
   describe('fromRoot + list', () => {
-    it('returns locale-filtered direct children sorted by order', () => {
-      const children = engine().fromRoot('section-a').withLocale('zh').list();
+    it('returns direct children sorted by order', () => {
+      const children = engine().fromRoot('section-a').list();
       expect(children.map((c) => c.node.id)).toEqual([
         'section-a/index',
         'section-a/group-1',
         'section-a/display-group',
         'section-a/page-1',
-        'section-a/zh-only',
       ]);
     });
 
-    it('hides locale-gated nodes from the en list', () => {
-      const children = engine().fromRoot('section-a').withLocale('en').list();
-      const ids = children.map((c) => c.node.id);
-      expect(ids).not.toContain('section-a/zh-only');
-    });
-
-    it('resolves locale-specific paths on ViewNode', () => {
-      const [first] = engine().fromRoot('section-a').withLocale('en').list();
-      expect(first!.path).toBe('/en/a/');
-      expect(first!.label).toBe('Alpha home');
+    it('resolves paths and labels on ViewNode', () => {
+      const [first] = engine().fromRoot('section-a').list();
+      expect(first!.path).toBe('/a/');
+      expect(first!.label).toBe('甲首页');
     });
   });
 
   describe('fromRoot(null)', () => {
     it('walks top-level nodes from the forest root', () => {
-      const top = engine().fromRoot(null).withLocale('zh').list();
+      const top = engine().fromRoot(null).list();
       // order 0 ties (ext-github, section-a) broken by id alphabetically
       expect(top.map((n) => n.node.id)).toEqual(['ext-github', 'section-a', 'section-b']);
     });
@@ -150,23 +132,22 @@ describe('TaxonomyViewEngine', () => {
     it('narrows list results', () => {
       const pages = engine()
         .fromRoot('section-a')
-        .withLocale('zh')
         .filter((vn) => vn.node.kind === 'page')
         .list();
-      expect(pages.map((p) => p.node.id)).toEqual(['section-a/page-1', 'section-a/zh-only']);
+      expect(pages.map((p) => p.node.id)).toEqual(['section-a/page-1']);
     });
 
     it('returns a new query without mutating the original', () => {
-      const base = engine().fromRoot('section-a').withLocale('zh');
+      const base = engine().fromRoot('section-a');
       const filtered = base.filter((vn) => vn.node.kind === 'page');
-      expect(base.list()).toHaveLength(5);
-      expect(filtered.list()).toHaveLength(2);
+      expect(base.list()).toHaveLength(4);
+      expect(filtered.list()).toHaveLength(1);
     });
   });
 
   describe('walk', () => {
     it('includes root followed by all descendants in depth-first order', () => {
-      const walked = engine().fromRoot('section-a').withLocale('zh').walk();
+      const walked = engine().fromRoot('section-a').walk();
       expect(walked.map((n) => n.node.id)).toEqual([
         'section-a',
         'section-a/index',
@@ -175,28 +156,21 @@ describe('TaxonomyViewEngine', () => {
         'section-a/display-group',
         'section-a/display-group/page-3',
         'section-a/page-1',
-        'section-a/zh-only',
       ]);
     });
 
     it('applies filters during walk but still recurses into filtered nodes', () => {
       const walked = engine()
         .fromRoot('section-a')
-        .withLocale('zh')
         .filter((vn) => vn.path !== null && vn.node.kind !== 'index')
         .walk();
       const ids = walked.map((n) => n.node.id);
       // Index nodes and pathless display-groups are excluded from results,
       // but the display-group's child (page-3) is still collected because
-      // walk recurses into all locale-visible children.
+      // walk recurses into all children.
       expect(ids).not.toContain('section-a/index');
       expect(ids).not.toContain('section-a/display-group');
       expect(ids).toContain('section-a/display-group/page-3');
-    });
-
-    it('respects locale gating during walk', () => {
-      const walked = engine().fromRoot('section-a').withLocale('en').walk();
-      expect(walked.map((n) => n.node.id)).not.toContain('section-a/zh-only');
     });
   });
 
@@ -209,7 +183,6 @@ describe('TaxonomyViewEngine', () => {
       }
       const tree = engine()
         .fromRoot('section-a')
-        .withLocale('zh')
         .buildTree<Item>((vn, children) => {
           if (vn.node.kind === 'index') return vn.path ? { text: vn.label } : null;
           if (vn.node.kind === 'group') {
@@ -222,9 +195,9 @@ describe('TaxonomyViewEngine', () => {
           return vn.path ? { text: vn.label, link: vn.path } : null;
         });
 
-      // All 5 children (index, group-1, display-group, page-1, zh-only)
+      // All 4 children (index, group-1, display-group, page-1)
       // produce non-null projector output.
-      expect(tree).toHaveLength(5);
+      expect(tree).toHaveLength(4);
       const group1 = tree.find((t) => t.text === '组一')!;
       expect(group1.children).toHaveLength(1);
       expect(group1.children![0]!.text).toBe('页二');
@@ -233,7 +206,6 @@ describe('TaxonomyViewEngine', () => {
     it('omits nodes when the projector returns null', () => {
       const tree = engine()
         .fromRoot('section-a')
-        .withLocale('zh')
         .buildTree((vn) => (vn.node.kind === 'index' ? null : { text: vn.label }));
       const texts = (tree as Array<{ text: string }>).map((t) => t.text);
       expect(texts).not.toContain('甲首页');
@@ -242,9 +214,9 @@ describe('TaxonomyViewEngine', () => {
 
   describe('root', () => {
     it('returns the root node as a ViewNode', () => {
-      const root = engine().fromRoot('section-a').withLocale('en').root();
-      expect(root?.label).toBe('Alpha');
-      expect(root?.path).toBe('/en/a/');
+      const root = engine().fromRoot('section-a').root();
+      expect(root?.label).toBe('甲');
+      expect(root?.path).toBe('/a/');
     });
 
     it('returns null for forest root', () => {
@@ -254,7 +226,7 @@ describe('TaxonomyViewEngine', () => {
 
   describe('external-link path resolution', () => {
     it('resolves meta.href for external-link nodes', () => {
-      const ext = engine().fromRoot('ext-github').withLocale('zh').root();
+      const ext = engine().fromRoot('ext-github').root();
       expect(ext?.path).toBe('https://github.com/example/repo');
     });
   });

@@ -1,4 +1,3 @@
-[English](0005-remove-space-news-module.md) | [简体中文](0005-remove-space-news-module.zh-CN.md)
 
 # ADR 0005: 删除 Space News 模块
 

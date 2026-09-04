@@ -54,7 +54,6 @@ export interface ChatAnswerEngine {
     paths: string[];
     history: Message[];
     siteIndex: HierarchicalSiteIndex;
-    locale: 'zh' | 'en';
     config: NormalizedConfig;
     callbacks: AnswerEngineCallbacks;
     signal: AbortSignal;
@@ -99,7 +98,6 @@ export function readMessage(data: unknown): { content?: string; reasoning_conten
 /** Build the system prompt and (optionally) load the context blob. */
 export async function buildSystemPromptForPaths(params: {
   paths: string[];
-  locale: 'zh' | 'en';
   siteIndex: HierarchicalSiteIndex;
   flatIndex: IndexRow[];
   config: NormalizedConfig;
@@ -107,46 +105,38 @@ export async function buildSystemPromptForPaths(params: {
   callbacks: AnswerEngineCallbacks;
   signal: AbortSignal;
 }): Promise<{ systemPrompt: string; usedTwoPhase: boolean }> {
-  const { paths, locale, siteIndex, flatIndex, config, contextManager, callbacks, signal } = params;
-  const categories = siteIndex[locale] || [];
-  const indexText = buildIndexText(categories);
-  const rules = buildAnswerRulesBlock(locale);
+  const { paths, siteIndex, config, contextManager, callbacks, signal } = params;
+  const indexText = buildIndexText(siteIndex);
+  const rules = buildAnswerRulesBlock();
 
   if (!paths.length) {
-    return { systemPrompt: buildSystemPrompt(rules, indexText, locale), usedTwoPhase: false };
+    return { systemPrompt: buildSystemPrompt(rules, indexText), usedTwoPhase: false };
   }
 
   const ctx = await contextManager.loadContext(signal);
   if (!ctx) {
     callbacks.onExcerptsLoaded(null);
-    return { systemPrompt: buildSystemPrompt(rules, indexText, locale), usedTwoPhase: false };
+    return { systemPrompt: buildSystemPrompt(rules, indexText), usedTwoPhase: false };
   }
 
-  const blob = buildContextBlob(
-    ctx,
-    locale,
-    paths,
-    config.twoPhaseContextCharBudget ?? 45000,
-    locale === 'en',
-  );
+  const blob = buildContextBlob(ctx, paths, config.twoPhaseContextCharBudget ?? 45000);
   callbacks.onExcerptsLoaded(blob);
 
   if (!blob) {
-    return { systemPrompt: buildSystemPrompt(rules, indexText, locale), usedTwoPhase: false };
+    return { systemPrompt: buildSystemPrompt(rules, indexText), usedTwoPhase: false };
   }
 
   return {
-    systemPrompt: buildAnswerSystemWithRetrieved(rules, blob, indexText, locale),
+    systemPrompt: buildAnswerSystemWithRetrieved(rules, blob, indexText),
     usedTwoPhase: true,
   };
 }
 
 export function createAnswerEngine(deps: AnswerEngineDeps): ChatAnswerEngine {
   return {
-    async buildAnswerPhase({ paths, history, siteIndex, locale, config, callbacks, signal }) {
+    async buildAnswerPhase({ paths, history, siteIndex, config, callbacks, signal }) {
       const { systemPrompt, usedTwoPhase } = await buildSystemPromptForPaths({
         paths,
-        locale,
         siteIndex,
         flatIndex: [],
         config,

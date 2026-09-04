@@ -21,13 +21,6 @@ import { contentBridge as content } from './content-bridge.ts';
 
 const execFileP = promisify(execFile);
 
-/** 中英镜像相对路径 */
-export function mirrorPath(rel) {
-  const norm = rel.replace(/\\/g, '/');
-  if (norm.startsWith('en/')) return norm.slice(3);
-  return 'en/' + norm;
-}
-
 /**
  * 展开删除范围：给定一个或多个 md 相对路径，返回
  * { md, figures, readmes, references }。
@@ -43,10 +36,6 @@ export function expandDeleteScope(paths) {
     assertOperable(rel);
     if (!rel.endsWith('.md')) throw new PathError(`删除仅支持 .md 文件: ${rel}`);
     mdSet.add(rel);
-    const mirror = mirrorPath(rel);
-    if (fs.existsSync(path.join(WEB_ROOT, mirror))) {
-      mdSet.add(mirror);
-    }
   }
 
   // 收集正文中引用到的 ./figures/... 相对图片
@@ -266,8 +255,7 @@ export function previewDelete(paths) {
  */
 /**
  * 执行删除：委托 content.deleteMany（回收站、README 索引清理、figures
- * 回收、索引刷新一体化）。paths 是前端预览后确认的完整集合（含用户
- * 勾选的镜像两侧），因此 withCounterpart 关闭、由调用方控制粒度。
+ * 回收、索引刷新一体化）。paths 是前端预览后确认的完整集合。
  */
 export async function executeDelete(paths, confirmed) {
   if (confirmed !== true) {
@@ -277,7 +265,7 @@ export async function executeDelete(paths, confirmed) {
   if (mdPaths.length === 0) {
     throw new PathError('没有可删除的文件');
   }
-  const report = content.deleteMany(mdPaths, { withCounterpart: false });
+  const report = content.deleteMany(mdPaths);
   // 用户勾选之外的 figures（如 md 之外单独勾选的图）按原路径逐个回收
   const extraFigures = paths.filter((p) => !p.endsWith('.md'));
   for (const fig of extraFigures) {

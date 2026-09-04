@@ -1,40 +1,39 @@
-[English](CONTEXT-MAP.md) | [简体中文](CONTEXT-MAP.zh-CN.md)
 
-# CONTEXT-MAP: Cislunar Space Beginner's Guide
+# CONTEXT-MAP：地月空间入门指南
 
-This file points at one `CONTEXT.md` per context. Read each one relevant to the topic.
+本文件指向各上下文各自的 `CONTEXT.md`。处理某个主题时，阅读与之相关的那个。
 
-## Contexts
+## 上下文
 
-| Context | Location | Description |
-|---------|----------|-------------|
-| Root | `CONTEXT.md` | Site-wide domain vocabulary, taxonomy, and bilingual conventions |
-| Web | `web/CONTEXT.md` | VuePress configuration, theme, plugins, and build tooling |
+| 上下文 | 位置 | 说明 |
+|--------|------|------|
+| 根 | `CONTEXT.md` | 站点级领域词汇表、分类法与内容模型约定 |
+| Web | `web/CONTEXT.md` | VuePress 配置、主题、插件与构建工具链 |
 
-## How to use
+## 如何使用
 
-1. **For domain vocabulary and taxonomy concepts**: Read `CONTEXT.md` at the repo root.
-2. **For VuePress configuration, theme, or build issues**: Read `web/CONTEXT.md`.
-3. **For architecture decisions**: Check `docs/adr/` for system-wide decisions, and `web/docs/adr/` for context-specific decisions (if they exist).
-4. **For content priorities, audience, and presentation decisions**: Read `docs/content-strategy.md`.
+1. **领域词汇与分类法概念**：读仓库根的 `CONTEXT.md`。
+2. **VuePress 配置、主题或构建问题**：读 `web/CONTEXT.md`。
+3. **架构决策**：系统级决策查 `docs/adr/`；上下文专属决策查 `web/docs/adr/`（如存在）。
+4. **内容优先级、受众与呈现决策**：读 `docs/content-strategy.md`。
 
-## File structure
+## 文件结构
 
 ```text
 /
 ├── CONTEXT-MAP.md
-├── CONTEXT.md                          ← site-wide domain vocabulary
-├── docs/adr/                          ← system-wide decisions
+├── CONTEXT.md                          ← 站点级领域词汇表
+├── docs/adr/                          ← 系统级决策
 │   ├── 0001-unified-taxonomy-module.md
 │   └── ...
 └── web/
-    ├── CONTEXT.md                     ← VuePress configuration context
-    └── docs/adr/                      ← context-specific decisions (if any)
+    ├── CONTEXT.md                     ← VuePress 配置上下文
+    └── docs/adr/                      ← 上下文专属决策（如有）
 ```
 
-## Notes
+## 备注
 
-- The root `CONTEXT.md` is the authoritative source for domain vocabulary.
-- The web context is primarily for build tooling and VuePress configuration.
-- When working on content (markdown files, glossary, space news), refer to the root `CONTEXT.md`.
-- When working on build tools, theme, or plugins, refer to `web/CONTEXT.md`.
+- 根 `CONTEXT.md` 是领域词汇的权威来源。
+- Web 上下文主要覆盖构建工具链与 VuePress 配置。
+- 处理内容（markdown 文件、术语词典、太空新闻）时，参阅根 `CONTEXT.md`。
+- 处理构建工具、主题或插件时，参阅 `web/CONTEXT.md`。

@@ -1,14 +1,14 @@
 /**
- * Sidebar sections adapter — derives the per-locale VueSidebarItem tree
+ * Sidebar sections adapter — derives the VueSidebarItem tree per section
  * from the unified taxonomy module via the TaxonomyViewEngine.
  *
- * The engine owns traversal, locale filtering, and path/label resolution.
- * This adapter is a declarative projector: a pure function that maps each
- * ViewNode (+ its already-built children) to a sidebar entry.
+ * The engine owns traversal and path/label resolution. This adapter is a
+ * declarative projector: a pure function that maps each ViewNode (+ its
+ * already-built children) to a sidebar entry.
  */
 import { engine as defaultEngine, createViewEngine } from '..';
-import type { Locale, NodeId, TaxonomyModule } from '../types';
-import type { TaxonomyViewEngine, ViewNode } from '../view-engine';
+import type { NodeId, TaxonomyModule } from '../types';
+import type { ViewNode } from '../view-engine';
 import type { VueSidebarItem } from '../../sidebar/types.ts';
 
 type SidebarEntry = string | VueSidebarItem;
@@ -57,16 +57,14 @@ function sidebarProjector(vn: ViewNode, children: SidebarEntry[]): SidebarEntry 
 }
 
 /**
- * Build the VueSidebarItem tree for one section (e.g. `cislunar-orbits`)
- * in one locale.
+ * Build the VueSidebarItem tree for one section (e.g. `cislunar-orbits`).
  */
 export function buildSectionSidebar(
   sectionId: NodeId,
-  locale: Locale,
   taxonomyModule?: TaxonomyModule,
 ): VueSidebarItem {
   const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine;
-  const query = viewEngine.fromRoot(sectionId).withLocale(locale);
+  const query = viewEngine.fromRoot(sectionId);
   const root = query.root();
 
   if (!root || !root.path) {
@@ -85,21 +83,18 @@ export function buildSectionSidebar(
 }
 
 /**
- * Build a map of section-id → per-locale VueSidebarItem for every
- * `kind: 'section'` node in the taxonomy.
+ * Build a map of section-id → VueSidebarItem for every `kind: 'section'`
+ * node in the taxonomy.
  */
 export function buildAllSectionSidebars(
   taxonomyModule?: TaxonomyModule,
-): Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> {
+): Record<string, VueSidebarItem> {
   const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine;
-  const result: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {};
-  const sections = viewEngine.fromRoot(null).withLocale('zh').list();
+  const result: Record<string, VueSidebarItem> = {};
+  const sections = viewEngine.fromRoot(null).list();
   for (const vn of sections) {
     if (vn.node.kind !== 'section') continue;
-    result[vn.node.id] = {
-      zh: buildSectionSidebar(vn.node.id, 'zh', taxonomyModule),
-      en: buildSectionSidebar(vn.node.id, 'en', taxonomyModule),
-    };
+    result[vn.node.id] = buildSectionSidebar(vn.node.id, taxonomyModule);
   }
   return result;
 }

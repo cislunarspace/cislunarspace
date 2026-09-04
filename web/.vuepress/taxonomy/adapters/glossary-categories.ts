@@ -2,16 +2,16 @@
  * Glossary categories adapter — derives the historical `glossaryCategories`
  * shape from the unified taxonomy module via the TaxonomyViewEngine.
  *
- * The engine provides locale-filtered, sorted children of the glossary root.
- * The projection extracts slug, bilingual labels, and sibling order.
+ * The engine provides sorted children of the glossary root. The projection
+ * extracts slug, labels, and sibling order.
  */
 import { engine as defaultEngine, GLOSSARY_ROOT_ID, createViewEngine } from '..';
-import type { Locale, TaxonomyModule, TaxonomyNode } from '../types';
+import type { TaxonomyModule, TaxonomyNode } from '../types';
 
 export interface GlossaryCategoryMeta {
   /** 路径形 slug：顶级分类为 'orbits'，子分类为 'orbits/halo' */
   slug: string;
-  label: { zh: string; en: string };
+  label: string;
   order: number;
   /** 子分类的父分类 slug；顶级分类为 null */
   parentSlug: string | null;
@@ -19,21 +19,19 @@ export interface GlossaryCategoryMeta {
 
 export class GlossaryCategoryRegistry {
   private bySlug: Map<string, GlossaryCategoryMeta>;
-  private byLabelZh: Map<string, GlossaryCategoryMeta>;
-  private byLabelEn: Map<string, GlossaryCategoryMeta>;
+  private byLabel: Map<string, GlossaryCategoryMeta>;
 
   constructor(categories: GlossaryCategoryMeta[]) {
     this.bySlug = new Map(categories.map((c) => [c.slug, c]));
-    this.byLabelZh = new Map(categories.map((c) => [c.label.zh, c]));
-    this.byLabelEn = new Map(categories.map((c) => [c.label.en, c]));
+    this.byLabel = new Map(categories.map((c) => [c.label, c]));
   }
 
   getBySlug(slug: string): GlossaryCategoryMeta | undefined {
     return this.bySlug.get(slug);
   }
 
-  getByLabel(label: string, locale: Locale = 'zh'): GlossaryCategoryMeta | undefined {
-    return locale === 'zh' ? this.byLabelZh.get(label) : this.byLabelEn.get(label);
+  getByLabel(label: string): GlossaryCategoryMeta | undefined {
+    return this.byLabel.get(label);
   }
 }
 
@@ -51,12 +49,11 @@ export function buildGlossaryCategories(taxonomyModule?: TaxonomyModule): Glossa
   const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine;
   return viewEngine
     .fromRoot(GLOSSARY_ROOT_ID)
-    .withLocale('zh')
     .filter((vn) => vn.node.kind === 'glossary-category')
     .walk()
     .map((vn) => ({
       slug: slugFor(vn.node),
-      label: { zh: vn.node.label.zh, en: vn.node.label.en },
+      label: vn.node.label,
       order: vn.node.order,
       parentSlug:
         vn.node.parentId && vn.node.parentId !== GLOSSARY_ROOT_ID

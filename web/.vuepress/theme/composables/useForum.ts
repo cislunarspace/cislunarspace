@@ -1,7 +1,5 @@
 import { computed, ref } from 'vue';
-import type { ForumLang } from '../utils/forumI18n';
 import { forumT } from '../utils/forumI18n';
-import { useIsEn } from './useIsEn';
 import { escapeHtml } from '../utils/html';
 
 const STORAGE_KEY_POSTS = 'cislunar-forum-posts';
@@ -56,9 +54,7 @@ export function useForum() {
   const currentUser = ref<ForumUser | null>(null);
   const posts = ref<ForumPost[]>([]);
   const likedPostIds = ref<string[]>([]);
-  const isEn = useIsEn();
-  const lang = computed<ForumLang>(() => (isEn.value ? 'en' : 'zh'));
-  const t = (key: string) => forumT(lang.value, key);
+  const t = (key: string) => forumT(key);
 
   function loadUser() {
     try {

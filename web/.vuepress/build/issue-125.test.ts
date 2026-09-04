@@ -1,12 +1,9 @@
 /**
  * Tests for issue #125: Fix broken glossary link paths.
  *
- * Validates that:
- *   1. /glossary/nrho/ references retargeted to /glossary/orbits/nrho/
- *   2. /research-frontiers/directions/orbital-game/ includes security-governance/
- *   3. /glossary/figures/ absolute image paths converted to relative paths
- *   4. Category mismatch links retargeted to correct paths
- *   5. lEO-navigation case corrected to LEO-navigation
+ * En-mirror cases and cases whose subject files were later reorganized
+ * were removed together with the English content tree; this file now
+ * covers the retargeted NRHO links that still exist.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -24,12 +21,7 @@ function readFile(relPath: string): string {
 // ── A: Path errors ────────────────────────────────────────────────────────────
 
 describe('issue #125 — nrho path correction', () => {
-  const files = [
-    'background/math/continuation.md',
-    'background/math/shooting-method.md',
-    'en/background/math/continuation.md',
-    'en/background/math/shooting-method.md',
-  ];
+  const files = ['background/math/continuation.md', 'background/math/shooting-method.md'];
 
   it.each(files)('%s does not reference /glossary/nrho/', (relPath) => {
     const content = readFile(relPath);
@@ -39,109 +31,5 @@ describe('issue #125 — nrho path correction', () => {
   it.each(files)('%s references /glossary/orbits/nrho/', (relPath) => {
     const content = readFile(relPath);
     expect(content).toContain('/glossary/orbits/nrho/');
-  });
-});
-
-describe('issue #125 — orbital-game path includes security-governance', () => {
-  const files = [
-    'en/glossary/organizations/anduril.md',
-    'en/glossary/organizations/gitai-usa.md',
-    'en/glossary/organizations/true-anomaly-company.md',
-    'en/glossary/organizations/turion-space.md',
-    'en/glossary/organizations/lockheed-martin.md',
-    'en/glossary/organizations/spacex.md',
-  ];
-
-  it.each(files)('%s uses full orbital-game path', (relPath) => {
-    const content = readFile(relPath);
-    expect(content).not.toContain('/directions/orbital-game/');
-    expect(content).toContain('/security-governance/orbital-game/');
-  });
-});
-
-// ── B: Image absolute paths → relative ────────────────────────────────────────
-
-// Absolute path pattern: ](/glossary/figures/ — the leading ]( ensures it's an absolute path ref, not ../../glossary/figures/
-const ABS_FIGURES = '](/glossary/figures/';
-
-describe('issue #125 — figures image paths converted to relative', () => {
-  it('glossary/orbits/dro.md uses relative figures path', () => {
-    const content = readFile('glossary/orbits/dro.md');
-    expect(content).not.toContain(ABS_FIGURES);
-    expect(content).toContain('../figures/dro/');
-  });
-
-  it('glossary/dynamics/cr3bp.md uses relative figures path', () => {
-    const content = readFile('glossary/dynamics/cr3bp.md');
-    expect(content).not.toContain(ABS_FIGURES);
-    expect(content).toContain('../figures/cr3bp/');
-  });
-
-  it('glossary/orbits/nrho.md uses relative figures path', () => {
-    const content = readFile('glossary/orbits/nrho.md');
-    expect(content).not.toContain(ABS_FIGURES);
-    expect(content).toContain('../figures/nrho/');
-  });
-
-  it('en/glossary/orbits/dro.md uses relative figures path', () => {
-    const content = readFile('en/glossary/orbits/dro.md');
-    expect(content).not.toContain(ABS_FIGURES);
-    expect(content).toContain('../../glossary/figures/dro/');
-  });
-
-  it('en/glossary/orbits/nrho.md uses relative figures path', () => {
-    const content = readFile('en/glossary/orbits/nrho.md');
-    expect(content).not.toContain(ABS_FIGURES);
-    expect(content).toContain('../../glossary/figures/nrho/');
-  });
-
-  it('en/cislunar-orbits/dro/family-classification.md uses relative figures path', () => {
-    const content = readFile('en/cislunar-orbits/dro/family-classification.md');
-    expect(content).not.toContain(ABS_FIGURES);
-    expect(content).toContain('../../glossary/figures/dro/');
-  });
-});
-
-// ── C1: Category mismatch retargeting ─────────────────────────────────────────
-
-describe('issue #125 — category mismatch retargeting', () => {
-  it('newton-euler-equations.md links to fundamentals/aerodynamic-coefficient', () => {
-    const content = readFile('en/glossary/dynamics/newton-euler-equations.md');
-    expect(content).not.toContain('/dynamics/aerodynamic-coefficient/');
-    expect(content).toContain('/fundamentals/aerodynamic-coefficient/');
-  });
-
-  it('liason-navigation.md links to dynamics/libration-point', () => {
-    const content = readFile('en/glossary/navigation/liason-navigation.md');
-    expect(content).not.toContain('/orbits/libration-point/');
-    expect(content).toContain('/dynamics/libration-point/');
-  });
-
-  it('vléo.md links to other/leo', () => {
-    const content = readFile('glossary/fundamentals/vleo.md');
-    expect(content).not.toContain('/fundamentals/leo/');
-    expect(content).toContain('/other/leo/');
-  });
-
-  it('orbit-insertion.md links to fundamentals/tsiolkovsky-equation', () => {
-    const content = readFile('en/glossary/other/orbit-insertion.md');
-    expect(content).not.toContain('/glossary/tsiolkovsky-equation/');
-    expect(content).toContain('/fundamentals/tsiolkovsky-equation/');
-  });
-});
-
-// ── D: Case fix ───────────────────────────────────────────────────────────────
-
-describe('issue #125 — LEO-navigation case fix', () => {
-  it('glossary/navigation/pnt.md uses correct LEO-navigation casing', () => {
-    const content = readFile('glossary/navigation/pnt.md');
-    expect(content).not.toContain('lEO-navigation');
-    expect(content).toContain('LEO-navigation');
-  });
-
-  it('en/glossary/navigation/pnt.md uses correct LEO-navigation casing', () => {
-    const content = readFile('en/glossary/navigation/pnt.md');
-    expect(content).not.toContain('lEO-navigation');
-    expect(content).toContain('LEO-navigation');
   });
 });

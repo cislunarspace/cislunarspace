@@ -8,7 +8,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import theme from './theme/index.js';
 import navbar from './navbar.ts';
-import navbarEn from './navbar-en.ts';
 import { buildSidebarConfigs } from './sidebar/config.ts';
 import ogMetaPlugin from './og-meta-plugin.ts';
 import { citePlugin, loadBibliography } from './cite-plugin.ts';
@@ -17,7 +16,7 @@ import { rawContentPlugin } from './raw-content-plugin.ts';
 import { headScripts } from './head-scripts.ts';
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url));
-const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs();
+const sidebar = buildSidebarConfigs();
 
 // web/.env、web/.env.local（后者覆盖，便于本机覆写而无需改 .env）
 dotenv.config({ path: path.resolve(__configDir, '../.env'), quiet: true });
@@ -38,20 +37,6 @@ export default defineUserConfig({
 
   // Exclude internal .vuepress/, helper files, and node_modules from site pages
   pagePatterns: ['**/*.md', '!**/_*.md', '!.vuepress/**/*.md', '!node_modules/**'],
-
-  locales: {
-    '/': {
-      lang: 'zh-CN',
-      title: '地月空间入门指南',
-      description: '系统掌握地月空间科学、技术与工程实践',
-    },
-    '/en/': {
-      lang: 'en-US',
-      title: "Cislunar Space Beginner's Guide",
-      description:
-        'Systematically master cislunar space science, technology, and engineering practice',
-    },
-  },
 
   head: [
     [
@@ -106,23 +91,8 @@ export default defineUserConfig({
     navbar,
     sidebar,
     sidebarDepth: 0,
-
-    locales: {
-      '/': {
-        selectLanguageName: '简体中文',
-        navbar,
-        sidebar,
-        lastUpdatedText: '最近更新',
-        editLinkText: '完善页面',
-      },
-      '/en/': {
-        selectLanguageName: 'English',
-        navbar: navbarEn,
-        sidebar: sidebarEn,
-        lastUpdatedText: 'Last Updated',
-        editLinkText: 'Improve this page',
-      },
-    },
+    lastUpdatedText: '最近更新',
+    editLinkText: '完善页面',
 
     repo: null,
     docsRepo: 'https://github.com/cislunarspace/cislunarspace',
@@ -151,16 +121,6 @@ export default defineUserConfig({
     katexPlugin,
     ogMetaPlugin,
     googleAnalyticsPlugin({ id: 'G-0PLJ56MK80' }),
-    sitemapPlugin({ hostname: domain }),
-    searchPlugin({
-      locales: {
-        '/': {
-          placeholder: '搜索文档',
-        },
-        '/en/': {
-          placeholder: 'Search docs',
-        },
-      },
-    }),
+    searchPlugin(),
   ],
 });

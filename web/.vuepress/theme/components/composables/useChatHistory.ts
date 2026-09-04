@@ -42,16 +42,16 @@ export function useChatHistory() {
   const chatHistory = ref<ChatHistoryEntry[]>(loadFromStorage());
   const activeChatIndex = ref(-1);
 
-  function getChatTitle(messages: Message[], isEn: boolean): string {
+  function getChatTitle(messages: Message[]): string {
     const first = messages.find((m) => m.role === 'user');
-    if (!first) return isEn ? 'New Chat' : '新对话';
+    if (!first) return '新对话';
     const text = first.content.slice(0, 30);
     return text.length < first.content.length ? text + '...' : text;
   }
 
-  function saveCurrentChat(messages: Message[], isEn: boolean): void {
+  function saveCurrentChat(messages: Message[]): void {
     if (messages.length === 0) return;
-    const title = getChatTitle(messages, isEn);
+    const title = getChatTitle(messages);
     const entry: ChatHistoryEntry = {
       title,
       messages: JSON.parse(JSON.stringify(messages)),
@@ -71,9 +71,9 @@ export function useChatHistory() {
     saveToStorage(chatHistory.value);
   }
 
-  function switchChat(idx: number, messages: Message[], isEn: boolean): Message[] | null {
+  function switchChat(idx: number, messages: Message[]): Message[] | null {
     if (idx < 0 || idx >= chatHistory.value.length) return null;
-    saveCurrentChat(messages, isEn);
+    saveCurrentChat(messages);
     activeChatIndex.value = idx;
     return JSON.parse(JSON.stringify(chatHistory.value[idx].messages));
   }
@@ -88,8 +88,8 @@ export function useChatHistory() {
     saveToStorage(chatHistory.value);
   }
 
-  function startNewChat(messages: Message[], isEn: boolean): void {
-    saveCurrentChat(messages, isEn);
+  function startNewChat(messages: Message[]): void {
+    saveCurrentChat(messages);
     activeChatIndex.value = -1;
   }
 

@@ -24,9 +24,7 @@
         </button>
       </div>
       <div class="sidebar-history">
-        <div v-if="surface.chatHistory.length === 0" class="sidebar-empty">
-          {{ surface.isEn ? 'No conversations yet' : '暂无对话记录' }}
-        </div>
+        <div v-if="surface.chatHistory.length === 0" class="sidebar-empty">暂无对话记录</div>
         <div
           v-for="(chat, idx) in surface.chatHistory.value"
           :key="idx"
@@ -50,13 +48,11 @@
           >
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
           </svg>
-          <span class="sidebar-item-title">{{
-            chat.title || (surface.isEn ? 'Chat' : '对话')
-          }}</span>
+          <span class="sidebar-item-title">{{ chat.title || '对话' }}</span>
           <button
             class="sidebar-item-delete"
             @click.stop="surface.actions.deleteChat(idx)"
-            :title="surface.isEn ? 'Delete' : '删除'"
+            :title="删除"
           >
             <svg
               width="14"
@@ -77,15 +73,7 @@
       <div class="sidebar-footer">
         <button
           class="sidebar-icon-btn"
-          :title="
-            surface.theme.isDark.value
-              ? surface.isEn
-                ? 'Light mode'
-                : '浅色模式'
-              : surface.isEn
-                ? 'Dark mode'
-                : '深色模式'
-          "
+          :title="surface.theme.isDark.value ? '浅色模式' : '深色模式'"
           @click="surface.theme.toggleTheme"
         >
           <svg
@@ -136,7 +124,7 @@
       <header class="chat-header">
         <button
           class="header-menu-btn"
-          :title="surface.isEn ? 'Menu' : '菜单'"
+          :title="菜单"
           @click="surface.ui.sidebarOpen.value = !surface.ui.sidebarOpen.value"
         >
           <svg
@@ -163,11 +151,7 @@
           <span v-else>{{ surface.t('toolbarTitle') }}</span>
         </h1>
         <div class="header-actions">
-          <button
-            class="header-icon-btn"
-            :title="surface.isEn ? 'Back to home' : '返回主页'"
-            @click="goHome"
-          >
+          <button class="header-icon-btn" :title="返回主页" @click="goHome">
             <svg
               width="18"
               height="18"
@@ -184,15 +168,7 @@
           </button>
           <button
             class="header-icon-btn"
-            :title="
-              surface.theme.isDark.value
-                ? surface.isEn
-                  ? 'Light mode'
-                  : '浅色模式'
-                : surface.isEn
-                  ? 'Dark mode'
-                  : '深色模式'
-            "
+            :title="surface.theme.isDark.value ? '浅色模式' : '深色模式'"
             @click="surface.theme.toggleTheme"
           >
             <svg
@@ -477,16 +453,8 @@
             </svg>
           </button>
         </div>
-        <p class="input-hint">
-          {{
-            surface.isEn
-              ? 'AI may produce inaccurate information. Press Enter to send.'
-              : 'AI 可能产生不准确的信息，按 Enter 发送'
-          }}
-        </p>
-        <p v-if="surface.inputTooLong.value" class="input-too-long">
-          {{ surface.isEn ? 'Message truncated to 2000 characters.' : '消息已截断至 2000 字符。' }}
-        </p>
+        <p class="input-hint">AI 可能产生不准确的信息，按 Enter 发送</p>
+        <p v-if="surface.inputTooLong.value" class="input-too-long">消息已截断至 2000 字符。</p>
       </div>
     </main>
   </div>
@@ -505,7 +473,7 @@ const surface = useChatSurface(inputRef, messagesContainer);
 const router = useRouter();
 
 function goHome() {
-  router.push(withBase(surface.isEn.value ? '/en/' : '/'));
+  router.push(withBase('/'));
 }
 </script>
 

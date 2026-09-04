@@ -13,7 +13,6 @@ import type { PageData } from './utils/types';
 import { normalizePageMetadata } from '../utils/page-metadata';
 import { updateOgMeta } from './composables/useOgMeta';
 import { useScrollReveal } from './composables/useScrollReveal';
-import { useLocalePersistence } from './composables/useLocalePersistence';
 
 export default defineClientConfig({
   layouts: {
@@ -31,7 +30,6 @@ export default defineClientConfig({
     const page = usePage();
 
     useScrollReveal();
-    useLocalePersistence();
 
     function setupShare() {
       if (typeof window === 'undefined') return;

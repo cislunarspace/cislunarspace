@@ -59,24 +59,17 @@ function listMdFiles(dir) {
 
 /** 解析相对路径的类别信息 */
 export function classify(rel) {
-  const m = rel.match(/^(en\/)?glossary\/((?:[^/]+\/)?[^/]+)\/([^/]+)\.md$/);
+  const m = rel.match(/^glossary\/((?:[^/]+\/)?[^/]+)\/([^/]+)\.md$/);
   if (m) {
     // cat 为完整路径形：顶级分类 'orbits'，子分类 'orbits/halo'
-    return { kind: 'glossary', cat: m[2], stem: m[3], lang: m[1] ? 'en' : 'zh' };
+    return { kind: 'glossary', cat: m[1], stem: m[2] };
   }
-  return { kind: 'kb', stem: path.posix.basename(rel, '.md'), lang: rel.startsWith('en/') ? 'en' : 'zh' };
-}
-
-function pairKeyOf(rel, cls) {
-  if (cls.kind === 'glossary') return `glossary:${cls.cat}/${cls.stem}`;
-  const stripped = rel.startsWith('en/') ? rel.slice(3) : rel;
-  return `kb:${stripped.replace(/\.md$/, '')}`;
+  return { kind: 'kb', stem: path.posix.basename(rel, '.md') };
 }
 
 function sectionOf(rel, cls) {
   if (cls.kind === 'glossary') return cls.cat;
-  const stripped = rel.startsWith('en/') ? rel.slice(3) : rel;
-  return stripped.split('/')[0] || '';
+  return rel.split('/')[0] || '';
 }
 
 /** 构建单个条目的展示信息 */
@@ -87,9 +80,7 @@ function buildItem(rel) {
   const stem = cls.stem;
   return {
     relPath: rel,
-    lang: cls.lang,
     kind: cls.kind,
-    pairKey: pairKeyOf(rel, cls),
     section: sectionOf(rel, cls),
     stem,
     title: typeof fm.title === 'string' && fm.title ? fm.title : stem,
@@ -108,7 +99,7 @@ function buildItem(rel) {
 
 function scanGlossary() {
   const out = [];
-  for (const base of ['glossary', 'en/glossary']) {
+  for (const base of ['glossary']) {
     const baseAbs = path.join(WEB_ROOT, base);
     if (!fs.existsSync(baseAbs)) continue;
     for (const cat of listDirs(baseAbs)) {
@@ -151,43 +142,30 @@ function scanKb() {
   const out = [];
   for (const section of KB_SECTIONS) {
     walkSection(section, out);
-    walkSection(`en/${section}`, out);
   }
   return out;
 }
 
 /**
- * 列出某类内容，按中英镜像分组。
+ * 列出某类内容。
  * opts: { q?: string 关键词; cat?: string 分类 }
- * 返回格式：[{ pairKey, kind, zh: item|null, en: item|null, total: 2|1 }]
+ * 返回格式：[item]
  */
 export function listContents(kind, opts = {}) {
   const q = typeof opts === 'string' ? opts : (opts.q || '');
   const cat = typeof opts === 'object' ? (opts.cat || '') : '';
   const items = kind === 'glossary' ? scanGlossary() : scanKb();
 
-  const map = new Map();
-  for (const it of items) {
+  const list = items.filter((it) => {
     if (q) {
       const needle = q.toLowerCase();
       const hay = `${it.title} ${it.relPath} ${it.stem} ${it.section} ${it.category.join(' ')}`.toLowerCase();
-      if (!hay.includes(needle)) continue;
+      if (!hay.includes(needle)) return false;
     }
-    if (cat) {
-      const hit = it.section === cat;
-      if (!hit) continue;
-    }
-    if (!map.has(it.pairKey)) {
-      map.set(it.pairKey, { pairKey: it.pairKey, kind: it.kind, zh: null, en: null });
-    }
-    map.get(it.pairKey)[it.lang] = it;
-  }
-  const list = [...map.values()];
-  list.sort((a, b) => {
-    const ta = (a.zh?.title ?? a.en?.title ?? '').toLowerCase();
-    const tb = (b.zh?.title ?? b.en?.title ?? '').toLowerCase();
-    return ta.localeCompare(tb, 'zh-Hans-CN');
+    if (cat && it.section !== cat) return false;
+    return true;
   });
+  list.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase(), 'zh-Hans-CN'));
   return list;
 }
 

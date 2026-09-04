@@ -14,16 +14,16 @@ const fixtureNodes: TaxonomyNode[] = [
   {
     id: 'glossary',
     kind: 'navbar-root',
-    label: { zh: '术语', en: 'Glossary' },
-    path: { zh: '/glossary/', en: '/en/glossary/' },
+    label: '术语',
+    path: '/glossary/',
     order: 0,
     parentId: null,
   },
   {
     id: 'glossary/fundamentals',
     kind: 'glossary-category',
-    label: { zh: '基础概念', en: 'Fundamentals' },
-    path: { zh: '/glossary/fundamentals/', en: '/en/glossary/fundamentals/' },
+    label: '基础概念',
+    path: null,
     order: 10,
     parentId: 'glossary',
     meta: { slug: 'fundamentals' },
@@ -31,8 +31,8 @@ const fixtureNodes: TaxonomyNode[] = [
   {
     id: 'glossary/dynamics',
     kind: 'glossary-category',
-    label: { zh: '动力学', en: 'Dynamics' },
-    path: { zh: '/glossary/dynamics/', en: '/en/glossary/dynamics/' },
+    label: '动力学',
+    path: null,
     order: 20,
     parentId: 'glossary',
     meta: { slug: 'dynamics' },
@@ -48,10 +48,10 @@ describe('buildGlossaryCategories', () => {
     expect(categories.map((c) => c.slug)).toEqual(['fundamentals', 'dynamics']);
   });
 
-  it('extracts bilingual labels and order', () => {
+  it('extracts labels and order', () => {
     const categories = buildGlossaryCategories(fixtureModule);
     const fundamentals = categories.find((c) => c.slug === 'fundamentals')!;
-    expect(fundamentals.label).toEqual({ zh: '基础概念', en: 'Fundamentals' });
+    expect(fundamentals.label).toBe('基础概念');
     expect(fundamentals.order).toBe(10);
   });
 
@@ -61,15 +61,15 @@ describe('buildGlossaryCategories', () => {
       {
         id: 'glossary/other',
         kind: 'glossary-category',
-        label: { zh: '其他', en: 'Other' },
-        path: { zh: '/glossary/other/', en: '/en/glossary/other/' },
+        label: '其他',
+        path: null,
         order: 30,
         parentId: 'glossary',
       },
     ];
     const mod = createTaxonomyModule(nodes);
     const categories = buildGlossaryCategories(mod);
-    const other = categories.find((c) => c.label.zh === '其他')!;
+    const other = categories.find((c) => c.label === '其他')!;
     expect(other.slug).toBe('other');
   });
 });
@@ -87,8 +87,8 @@ describe('buildGlossaryCategories with subcategories', () => {
     {
       id: 'glossary/orbits',
       kind: 'glossary-category',
-      label: { zh: '任务轨道', en: 'Mission orbits' },
-      path: { zh: '/glossary/orbits/', en: '/en/glossary/orbits/' },
+      label: '任务轨道',
+      path: null,
       order: 10,
       parentId: 'glossary',
       meta: { slug: 'orbits' },
@@ -96,8 +96,8 @@ describe('buildGlossaryCategories with subcategories', () => {
     {
       id: 'glossary/orbits/halo',
       kind: 'glossary-category',
-      label: { zh: 'Halo 轨道族', en: 'Halo family' },
-      path: { zh: '/glossary/orbits/halo/', en: '/en/glossary/orbits/halo/' },
+      label: 'Halo 轨道族',
+      path: null,
       order: 10,
       parentId: 'glossary/orbits',
       meta: { slug: 'orbits/halo' },
@@ -115,7 +115,7 @@ describe('buildGlossaryCategories with subcategories', () => {
     const registry = new GlossaryCategoryRegistry(
       buildGlossaryCategories(createTaxonomyModule(subFixture)),
     );
-    expect(registry.getBySlug('orbits/halo')!.label.zh).toBe('Halo 轨道族');
+    expect(registry.getBySlug('orbits/halo')!.label).toBe('Halo 轨道族');
   });
 });
 
@@ -124,7 +124,7 @@ describe('GlossaryCategoryRegistry', () => {
     const categories = buildGlossaryCategories(fixtureModule);
     const registry = new GlossaryCategoryRegistry(categories);
     expect(registry.getBySlug('fundamentals')).toBeDefined();
-    expect(registry.getBySlug('fundamentals')!.label.zh).toBe('基础概念');
+    expect(registry.getBySlug('fundamentals')!.label).toBe('基础概念');
   });
 
   it('returns undefined for unknown slug', () => {
@@ -133,10 +133,9 @@ describe('GlossaryCategoryRegistry', () => {
     expect(registry.getBySlug('nonexistent')).toBeUndefined();
   });
 
-  it('getByLabel works for both locales', () => {
+  it('getByLabel resolves a category by its label', () => {
     const categories = buildGlossaryCategories(fixtureModule);
     const registry = new GlossaryCategoryRegistry(categories);
-    expect(registry.getByLabel('基础概念', 'zh')?.slug).toBe('fundamentals');
-    expect(registry.getByLabel('Fundamentals', 'en')?.slug).toBe('fundamentals');
+    expect(registry.getByLabel('基础概念')?.slug).toBe('fundamentals');
   });
 });

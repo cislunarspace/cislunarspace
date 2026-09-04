@@ -34,7 +34,7 @@ export function createFetchContextManager(endpoint = '/ai-chat-context.json'): C
         })
         .catch((err) => {
           if (err instanceof Error && err.name === 'AbortError') throw err;
-          cached = { zh: {}, en: {} };
+          cached = {};
           return cached;
         })
         .finally(() => {

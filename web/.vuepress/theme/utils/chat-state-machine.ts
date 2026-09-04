@@ -22,20 +22,14 @@ import type {
 import { beginStep, completeStep, finalizeSteps } from '../chat/chat-process-steps';
 
 export interface SendMessageDeps {
-  /** Current locale for the session. */
-  locale: 'zh' | 'en';
   /** i18n lookup. */
   t: (key: string) => string;
   /** Called after each SSE chunk to drive scroll/refresh. */
   onChunk?: () => void;
   /** Called when the stream completes or errors. */
   onComplete?: () => void;
-  /** Factory that creates a ChatSession for the current config/locale/siteIndex. */
-  createSession: (
-    config: NormalizedConfig,
-    locale: 'zh' | 'en',
-    siteIndex: HierarchicalSiteIndex,
-  ) => ChatSession;
+  /** Factory that creates a ChatSession for the current config/siteIndex. */
+  createSession: (config: NormalizedConfig, siteIndex: HierarchicalSiteIndex) => ChatSession;
   /** Called after a message exchange finishes to persist history. */
   saveCurrentChat: (messages: Message[]) => void;
 }
@@ -61,7 +55,7 @@ export function createChatStateMachine(): ChatStateMachine {
   const isLoading = ref(false);
   const loadingPhase = ref('');
   const config = ref<NormalizedConfig | null>(null);
-  const siteIndex = ref<HierarchicalSiteIndex>({ zh: [], en: [] });
+  const siteIndex = ref<HierarchicalSiteIndex>([]);
   const abortController = ref<AbortController | null>(null);
 
   function abortRequest() {
@@ -93,7 +87,7 @@ export function createChatStateMachine(): ChatStateMachine {
 
   function loadConfigError(error: unknown, t: (key: string) => string) {
     config.value = null;
-    siteIndex.value = { zh: [], en: [] };
+    siteIndex.value = [];
     messages.value = [
       { role: 'assistant', content: `${t('configError')} ${(error as Error).message}` },
     ];
@@ -104,9 +98,9 @@ export function createChatStateMachine(): ChatStateMachine {
       config.value = await loadChatConfig();
       try {
         const idxRes = await fetch('/ai-chat-index.json', { cache: 'no-store' });
-        siteIndex.value = idxRes.ok ? await idxRes.json() : { zh: [], en: [] };
+        siteIndex.value = idxRes.ok ? await idxRes.json() : [];
       } catch {
-        siteIndex.value = { zh: [], en: [] };
+        siteIndex.value = [];
       }
     } catch (error) {
       loadConfigError(error, t);
@@ -117,7 +111,6 @@ export function createChatStateMachine(): ChatStateMachine {
     if (!text || isLoading.value || !config.value) return;
 
     const cfg = config.value;
-    const locale = deps.locale;
 
     messages.value = [...messages.value, { role: 'user', content: text }];
     loadingPhase.value = 'router';
@@ -133,7 +126,7 @@ export function createChatStateMachine(): ChatStateMachine {
     abortController.value = new AbortController();
 
     try {
-      const session = deps.createSession(cfg, locale, siteIndex.value);
+      const session = deps.createSession(cfg, siteIndex.value);
       await session.route(
         text,
         messages.value.slice(0, -1),

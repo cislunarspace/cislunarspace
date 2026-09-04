@@ -35,6 +35,8 @@ export default tseslint.config(
       'node_modules/**',
       'dist/**',
       '.vuepress/dist/**',
+      '.vuepress/.cache/**',
+      '.vuepress/.temp/**',
       '.vuepress/internal-docs/**',
       '*.auto.json',
     ],

@@ -20,14 +20,12 @@ const config: NormalizedConfig = {
   maxHistoryTurns: 1,
 };
 
-const siteIndex: HierarchicalSiteIndex = {
-  zh: [{ category: '轨道', entries: [{ path: '/cislunar-orbits/', title: '地月轨道' }] }],
-  en: [],
-};
+const siteIndex: HierarchicalSiteIndex = [
+  { category: '轨道', entries: [{ path: '/cislunar-orbits/', title: '地月轨道' }] },
+];
 
 const context: SiteContext = {
-  zh: { '/cislunar-orbits/': { title: '地月轨道', text: '轨道节选' } },
-  en: {},
+  '/cislunar-orbits/': { title: '地月轨道', text: '轨道节选' },
 };
 
 function createContextManager(ctx: SiteContext | null = context): ChatContextManager {
@@ -61,7 +59,6 @@ describe('chat-answer-engine', () => {
         paths: ['/cislunar-orbits/'],
         history,
         siteIndex,
-        locale: 'zh',
         config,
         callbacks: cb,
         signal: new AbortController().signal,
@@ -93,7 +90,6 @@ describe('chat-answer-engine', () => {
         paths: [],
         history: [],
         siteIndex,
-        locale: 'zh',
         config,
         callbacks: cb,
         signal: new AbortController().signal,
@@ -111,7 +107,6 @@ describe('chat-answer-engine', () => {
         paths: ['/cislunar-orbits/'],
         history: [],
         siteIndex,
-        locale: 'zh',
         config,
         callbacks: cb,
         signal: new AbortController().signal,
@@ -129,7 +124,6 @@ describe('chat-answer-engine', () => {
         paths: ['/cislunar-orbits/'],
         history: [],
         siteIndex,
-        locale: 'zh',
         config: { ...config, stream: true },
         callbacks: cb,
         signal: new AbortController().signal,
@@ -156,21 +150,21 @@ describe('chat-answer-engine', () => {
 // Sanity check: the helper exports we use internally exist and are wired together.
 describe('chat-prompts integration', () => {
   it('buildContextBlob produces a non-empty string when contexts match the paths', () => {
-    const blob = buildContextBlob(context, 'zh', ['/cislunar-orbits/'], 1000, false);
+    const blob = buildContextBlob(context, ['/cislunar-orbits/'], 1000);
     expect(blob).toContain('轨道节选');
   });
 
   it('buildAnswerSystemWithRetrieved embeds the blob into the system prompt', () => {
-    const rules = buildAnswerRulesBlock('zh');
+    const rules = buildAnswerRulesBlock();
     const indexText = '### 轨道\n- 地月轨道: /cislunar-orbits/';
-    const prompt = buildAnswerSystemWithRetrieved(rules, '## CONTEXT\n[节选]', indexText, 'zh');
+    const prompt = buildAnswerSystemWithRetrieved(rules, '## CONTEXT\n[节选]', indexText);
     expect(prompt).toContain('节选');
   });
 
   it('buildSystemPrompt produces a no-retrieval system prompt', () => {
-    const rules = buildAnswerRulesBlock('zh');
+    const rules = buildAnswerRulesBlock();
     const indexText = '### 轨道\n- 地月轨道: /cislunar-orbits/';
-    const prompt = buildSystemPrompt(rules, indexText, 'zh');
+    const prompt = buildSystemPrompt(rules, indexText);
     expect(prompt).toContain('地月轨道');
   });
 });

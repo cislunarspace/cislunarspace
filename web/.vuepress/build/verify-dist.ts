@@ -377,7 +377,6 @@ function verifyCurrent(distRoot: string): void {
   // VuePress's 404 template intentionally omits og-meta.)
   const metaSamples: string[] = [
     path.join(distRoot, 'index.html'),
-    path.join(distRoot, 'en', 'index.html'),
     path.join(distRoot, 'glossary', 'index.html'),
   ];
 
@@ -395,42 +394,6 @@ function verifyCurrent(distRoot: string): void {
     severity: metaIssues.length === 0 ? 'ok' : 'fail',
     summary: `${metaSamples.length} pages sampled, ${metaIssues.length} pages incomplete`,
     details: metaIssues,
-  });
-
-  // 4. Hreflang — cross-link zh and en homes
-  const enHome = path.join(distRoot, 'en', 'index.html');
-  const zhHome = path.join(distRoot, 'index.html');
-  const hreflangIssues: string[] = [];
-  if (exists(zhHome)) {
-    const html = readSafe(zhHome);
-    if (!/hreflang=["']zh-CN["']/.test(html)) {
-      hreflangIssues.push('index.html: missing hreflang="zh-CN" self');
-    }
-    if (!/hreflang=["']en-US["']/.test(html)) {
-      hreflangIssues.push('index.html: missing hreflang="en-US" alternate');
-    }
-  } else {
-    hreflangIssues.push('index.html missing');
-  }
-  if (exists(enHome)) {
-    const html = readSafe(enHome);
-    if (!/hreflang=["']en-US["']/.test(html)) {
-      hreflangIssues.push('en/index.html: missing hreflang="en-US" self');
-    }
-    if (!/hreflang=["']zh-CN["']/.test(html)) {
-      hreflangIssues.push('en/index.html: missing hreflang="zh-CN" alternate');
-    }
-  } else {
-    hreflangIssues.push('en/index.html missing');
-  }
-  record({
-    name: 'hreflang',
-    severity: hreflangIssues.length === 0 ? 'ok' : 'warn',
-    summary:
-      hreflangIssues.length === 0
-        ? 'zh and en homes cross-link via hreflang'
-        : 'hreflang wiring incomplete (SEO best-practice, not blocking)',
-    details: hreflangIssues,
   });
 
   // 5. Figures sync — every source figures/ file must exist in dist

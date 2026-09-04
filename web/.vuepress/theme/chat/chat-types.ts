@@ -21,25 +21,16 @@ export interface IndexRow {
   title: string;
 }
 
-export interface SiteIndex {
-  zh: IndexRow[];
-  en: IndexRow[];
-}
-
 export interface ChatIndexCategory {
   category: string;
   entries: IndexRow[];
 }
 
-export interface HierarchicalSiteIndex {
-  zh: ChatIndexCategory[];
-  en: ChatIndexCategory[];
-}
+/** 路由索引（ai-chat-index.json）：分区 → 条目列表。 */
+export type HierarchicalSiteIndex = ChatIndexCategory[];
 
-export interface SiteContext {
-  zh: Record<string, { title: string; text: string }>;
-  en: Record<string, { title: string; text: string }>;
-}
+/** 语料（ai-chat-context.json）：path → 页面正文。 */
+export type SiteContext = Record<string, { title: string; text: string }>;
 
 export interface Message {
   role: 'user' | 'assistant' | 'system';

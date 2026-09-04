@@ -1,4 +1,3 @@
-[English](0003-content-module.en.md) | [简体中文](0003-content-module.md)
 
 # ADR 0003: 内容操作模块（Content Module）
 

@@ -18,16 +18,6 @@ function toStringValue(value) {
   return typeof value === 'string' ? value : '';
 }
 
-/** @param {string} path @returns {'zh-CN' | 'en-US'} */
-function resolveLocale(path) {
-  return path.startsWith('/en/') ? 'en-US' : 'zh-CN';
-}
-
-/** @param {'zh-CN' | 'en-US'} locale */
-function resolveSiteName(locale) {
-  return locale === 'en-US' ? "Cislunar Space Beginner's Guide" : '地月空间入门指南';
-}
-
 /** @param {string} path */
 function resolvePageDirectory(path) {
   return path.replace(/[^/]+\/?$/, '');
@@ -59,7 +49,6 @@ function resolveImageUrl(image, path, siteBaseUrl) {
  */
 export function normalizePageMetadata(input) {
   const siteBaseUrl = input.siteBaseUrl ?? DEFAULT_SITE_BASE_URL;
-  const locale = resolveLocale(input.path);
   const title =
     toStringValue(input.frontmatter.wechatShare?.title) ||
     toStringValue(input.frontmatter.title) ||
@@ -82,8 +71,7 @@ export function normalizePageMetadata(input) {
     title,
     description,
     image,
-    locale,
-    siteName: resolveSiteName(locale),
+    siteName: '地月空间入门指南',
     url,
     type,
     share: { title, description, image, url },

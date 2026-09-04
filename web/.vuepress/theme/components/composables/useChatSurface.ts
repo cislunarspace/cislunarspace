@@ -6,7 +6,6 @@ import { createChatUIManager } from '../../utils/chat-ui-manager';
 import { createChatActions } from './useChatActions';
 import { useChatHistory } from './useChatHistory';
 import { useChatI18n } from './useChatI18n';
-import { useIsEn } from '../../composables/useIsEn';
 import type { HierarchicalSiteIndex, NormalizedConfig } from '../../chat/chat-types';
 
 const MAX_INPUT_LENGTH = 2000;
@@ -14,16 +13,15 @@ const MAX_INPUT_LENGTH = 2000;
 /**
  * useChatSurface — composable that owns AI Chat surface state.
  *
- * Bundles locale detection, i18n, chat history, theme, UI state, the chat
- * state machine, and session construction so AiChat.vue focuses on rendering
- * and event wiring.
+ * Bundles i18n, chat history, theme, UI state, the chat state machine,
+ * and session construction so AiChat.vue focuses on rendering and event
+ * wiring.
  */
 export function useChatSurface(
   inputRef: Ref<HTMLTextAreaElement | null>,
   messagesContainer: Ref<HTMLDivElement | null>,
 ) {
-  const isEn = useIsEn();
-  const { t } = useChatI18n(() => isEn.value);
+  const { t } = useChatI18n();
 
   const state = createChatStateMachine();
   const theme = createChatThemeController(ref(false));
@@ -46,13 +44,12 @@ export function useChatSurface(
     startNewChat: startNewChatRaw,
     activeChatIndex,
   };
-  const actions = createChatActions(state, ui, historyApi, isEn);
+  const actions = createChatActions(state, ui, historyApi);
 
   const sendDeps = computed(() => ({
-    locale: isEn.value ? 'en' : 'zh',
     t,
-    createSession: (cfg: NormalizedConfig, locale: 'zh' | 'en', siteIndex: HierarchicalSiteIndex) =>
-      new ChatSession(cfg, locale, siteIndex),
+    createSession: (cfg: NormalizedConfig, siteIndex: HierarchicalSiteIndex) =>
+      new ChatSession(cfg, siteIndex),
     onChunk: () => ui.scrollToBottom(messagesContainer.value, 'auto'),
     onComplete: () => {
       actions.saveCurrentChat();
@@ -87,7 +84,7 @@ export function useChatSurface(
 
   onMounted(async () => {
     theme.loadTheme();
-    ui.updateSuggestedQuestions(isEn.value);
+    ui.updateSuggestedQuestions();
     await state.loadConfig(t);
     onEscapeHandler = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && ui.sidebarOpen.value) ui.sidebarOpen.value = false;
@@ -95,7 +92,6 @@ export function useChatSurface(
     window.addEventListener('keydown', onEscapeHandler);
   });
 
-  watch(isEn, () => ui.updateSuggestedQuestions(isEn.value));
   watch(theme.isDark, theme.applyTheme);
 
   onBeforeUnmount(() => {
@@ -107,7 +103,6 @@ export function useChatSurface(
   });
 
   return {
-    isEn,
     t,
     state,
     theme,
