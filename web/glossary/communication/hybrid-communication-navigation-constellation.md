@@ -24,7 +24,7 @@ permalink: /glossary/communication/hybrid-communication-navigation-constellation
 
 ## 相关概念
 
-- [天基自主定轨](/glossary/navigation/autonomous-orbit-determination/)
+- [天基自主定轨](/glossary/navigation/aod/)
 - [星间通视](/glossary/communication/inter-satellite-visibility/)
 - [异构中继星座](/glossary/communication/heterogeneous-relay-constellation/)
 

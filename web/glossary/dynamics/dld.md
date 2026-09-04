@@ -24,9 +24,9 @@ permalink: /glossary/dynamics/dld/
 
 ## 相关概念
 
-- [远距离逆行轨道](/glossary/orbits/dro/)
+- [远距离逆行轨道](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [Lyapunov轨道](/glossary/orbits/lyapunov-orbit/)
-- [轨道机动](/glossary/dynamics/orbital-maneuver/)
+- 轨道机动
 
 ## 参考文献
 

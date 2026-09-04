@@ -25,7 +25,7 @@ permalink: /glossary/communication/heterogeneous-relay-constellation/
 ## 相关概念
 
 - [混合通信导航星座](/glossary/communication/hybrid-communication-navigation-constellation/)
-- [远距离逆行轨道](/glossary/orbits/dro/)
+- [远距离逆行轨道](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [近直线晕轨道](/glossary/orbits/nrho/)
 
 ## 参考文献

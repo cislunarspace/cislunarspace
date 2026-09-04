@@ -30,4 +30,4 @@ twitter:
 
 已经整理的内容：
 
-- [地月空间轨道博弈](/research-frontiers/directions/orbital-game/orbital-game-inspection)
+- [地月空间轨道博弈](/research-frontiers/directions/security-governance/orbital-game/orbital-game-inspection/)
