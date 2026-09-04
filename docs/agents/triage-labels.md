@@ -1,4 +1,3 @@
-[简体中文](triage-labels.md) | [English](triage-labels.en.md)
 
 # Triage Labels
 
@@ -10,7 +9,7 @@
 | `needs-info`      | `needs-info`         | 等待报告者补充更多信息        |
 | `ready-for-agent` | `ready-for-agent`    | 规格完整，agent 可直接认领    |
 | `ready-for-human` | `ready-for-human`    | 需要人工实现                  |
-| `wontfix`         | `wontfix`            | 不予处理                      |
+| `wontfix`         | （无标签）           | 不予处理（由面板终态 No action 承担，见 CONTRIBUTING.md） |
 
 当技能提到某个角色时（如"打上 agent 就绪的分诊标签"），使用本表中对应的标签字符串。
 

@@ -1,4 +1,3 @@
-[简体中文](issue-tracker.md) | [English](issue-tracker.en.md)
 
 # Issue tracker: GitHub
 
@@ -12,6 +11,8 @@
 - **评论 issue**：`gh issue comment <number> --body "..."`
 - **添加 / 移除标签**：`gh issue edit <number> --add-label "..."` / `--remove-label "..."`
 - **关闭**：`gh issue close <number> --comment "..."`
+
+- **手动入板**：`gh project item-add 1 --owner cislunarspace --url <issue 的 URL>`（个人账号项目无按仓库自动入板，普通 issue 建成后须手动加入共用面板；入板后状态自动置为 Inbox）。
 
 从 `git remote -v` 推导仓库，`gh` 在 clone 内运行时自动识别。
 
