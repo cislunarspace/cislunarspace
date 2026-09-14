@@ -1,0 +1,10 @@
+# 派生数据：全部由 generate.ts 在构建时产出，不进 git（ADR-0004 资产分层）
+.vuepress/*.auto.json
+.vuepress/public/space-news-articles-*.json
+.vuepress/public/space-news-sidebar-data.json
+.vuepress/public/ai-chat-index.json
+.vuepress/public/ai-chat-context.json
+.vuepress/public/bibliography.json
+# 内容删除回收站（content.delete，可整体恢复）
+.trash/
+.vuepress/public/glossary-dictionary.json

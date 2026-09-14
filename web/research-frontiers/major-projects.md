@@ -1,0 +1,47 @@
+---
+title: 国内外任务与技术验证
+description: 盘点国内外地月空间重大工程项目、技术验证任务、科学探测计划及其关键技术成果
+keywords: 地月空间项目, 重大工程, 技术验证, 探测任务, 国内外项目, 关键技术
+author: 天疆说
+date: 2026-03-07
+lastUpdated: 2026-03-07
+permalink: /research-frontiers/major-projects/
+wechatShare:
+  title: 地月空间重大工程项目
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: 地月空间重大工程项目盘点 | 国内外任务与技术验证
+  description: 盘点国内外地月空间重大工程项目、技术验证任务、科学探测计划及其关键技术成果
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 地月空间重大工程项目盘点 | 国内外任务与技术验证
+  description: 盘点国内外地月空间重大工程项目、技术验证任务、科学探测计划及其关键技术成果
+  image: /logo.png
+---
+
+> 本文作者：天疆说
+>
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+# 引言
+
+这个页面介绍了一些国内外的重大工程项目。
+
+## LONEStar实验
+
+LONEStar（Lunar Optical Navigation Experiment Star）实验是一项旨在验证自主光学导航在深空环境中应用的技术演示任务。该实验专注于开发和应用基于视觉的导航算法，使航天器能够在不依赖地面测控的情况下，通过观测天体（如地球、月球、恒星）实现自主定位和轨道确定。
+
+## GRAIL/SMART-1任务
+
+GRAIL（Gravity Recovery and Interior Laboratory）和SMART-1（Small Missions for Advanced Research in Technology-1）是两个具有代表性的地月空间任务，分别展示了低能量转移轨道的实际应用与燃料优化技术。GRAIL任务通过精确测量月球重力场揭示了月球内部结构，而SMART-1任务则验证了电推进技术在深空探测中的应用。
+
+## CAPSTONE任务
+
+CAPSTONE（Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment）是美国NASA阿耳忒弥斯计划的前导任务，旨在验证近直线晕轨道（NRHO）的动力学特性，并测试自主导航技术。该任务于2022年发射，为后续的月球门户空间站和载人登月任务提供关键技术验证。
+
+## 阿耳忒弥斯计划
+
+阿耳忒弥斯计划（Artemis Program）是美国NASA主导的新一代月球探索计划，旨在实现可持续的月球探索，并为未来的火星任务奠定基础。该计划以希腊神话中的月亮女神阿耳忒弥斯命名，象征着新的月球探索时代。

@@ -1,0 +1,23 @@
+{
+  "name": "cislunarspace-admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "地月空间入门指南 - 本地 GUI 网页内容管理器",
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.js",
+    "build": "vite build --config web/vite.config.js",
+    "dev": "tsx server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "express": "^4.21.2",
+    "naive-ui": "^2.44.1",
+    "vite": "^6.3.5",
+    "vue": "^3.5.13",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}

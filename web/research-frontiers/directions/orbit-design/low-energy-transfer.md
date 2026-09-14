@@ -1,0 +1,79 @@
+---
+title: 地月空间低能转移轨道研究
+description: 汇总地月空间低能转移轨道设计与应用方向的代表性文献，为轨道设计研究提供索引
+keywords: 地月空间低能转移轨道, 低能转移, Halo轨道, Lissajous轨道, 轨道设计
+author: 天疆说
+date: 2026-03-07
+lastUpdated: '2026-04-28'
+permalink: /research-frontiers/directions/orbit-design/low-energy-transfer/
+wechatShare:
+  title: 地月空间低能转移轨道研究
+  desc: 快速了解地月空间低能转移轨道设计方向的代表性文献。
+  image: /logo.png
+og:
+  title: 地月空间低能转移轨道研究
+  description: 汇总地月空间低能转移轨道设计与应用方向的代表性文献，为轨道设计研究提供索引
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 地月空间低能转移轨道研究
+  description: 汇总地月空间低能转移轨道设计与应用方向的代表性文献，为轨道设计研究提供索引
+  image: /logo.png
+---
+
+> 本文作者：天疆说
+>
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+## 研究背景
+
+低能转移轨道是地月空间任务的关键使能技术之一。传统的Hohmann转移需要较大的速度增量（Δv约3.2 km/s），而利用三体动力学中的不变流形结构，可以实现显著的燃料节省。
+
+低能转移的核心思想是利用平动点附近的动力学特性：在CRTBP框架下，平动点（尤其是L1和L2）周围存在一族周期/准周期轨道（如Halo轨道、Lissajous轨道），这些轨道的稳定/不稳定流形构成了相空间中的管道，可以自然连接不同的区域。
+
+## 关键技术
+
+### 不变流形与转移轨道设计
+
+- **稳定流形**：沿稳定流形运动的轨道会自然趋近目标轨道
+- **不稳定流形**：沿不稳定流形运动的轨道会自然离开当前轨道
+- **流形拼接**：通过拼接出发轨道的不稳定流形和到达轨道的稳定流形，可以设计低能转移轨道
+
+### Lissajous中转站方案
+
+利用Lissajous轨道作为中转站，可以实现更灵活的轨道设计：
+
+- Lissajous轨道是准周期轨道，相比Halo轨道具有更大的振幅范围
+- 通过Lissajous轨道的流形网络，可以覆盖更广的转移需求
+- 适用于地月L1/L2点的空间站、通信中继等任务场景
+
+### 轨道优化方法
+
+低能转移轨道的设计通常涉及多目标优化问题：
+
+- 最小化总速度增量（Δv）
+- 最小化转移时间
+- 满足发射窗口约束
+- 考虑轨道保持需求
+
+常用方法包括打靶法、微分进化算法、多目标遗传算法等。
+
+# 地月空间低能转移轨道
+
+相关文献：
+
+[1] 乔琛远, 杨乐平. 地月L1点低能转移轨道设计与优化[J]. 系统工程与电子技术, 2024, 46(10): 3519-3527.
+
+[2] 余会昌, 代洪华, 张继烨, 等. 基于Lissajous中转站的低能转移轨道设计与应用[J]. 西北工业大学学报, 2025, 43(2): 212-221.
+
+[3] 朱彦伟, 蒋昕玙, 陈昱桔, 等. 星历模型下基于多重打靶拼接的长期近直线晕轨道设计方法[J]. 中国空间科学技术（中英文）, 2026: 1-11.
+
+[4] Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. Acta Astronautica, 2026, 244: 445-455.
+
+---
+
+**相关链接**
+
+- ↑ [轨道设计与优化](./README.md)：返回方向首页
+- ↔ [轨道参数表征](./orbit-characterization.md)：相关子方向

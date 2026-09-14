@@ -1,0 +1,192 @@
+// ============================================
+// 地月空间入门指南 — 全局配色变量
+// 支持浅色/深色双主题切换
+// ============================================
+
+/* ============================================
+   浅色主题（默认 :root）
+   风格：清新明亮，科技蓝为主调
+   ============================================ */
+:root {
+  /* ---- 强调色：科技蓝 ---- */
+  --vp-c-accent: #2563eb;
+  --vp-c-accent-bg: #1d4ed8;
+  --vp-c-accent-hover: #3b82f6;
+  --vp-c-accent-text: #ffffff;
+  --vp-c-accent-soft: rgba(37, 99, 235, 0.08);
+
+  /* ---- 背景：柔和明亮 ---- */
+  --vp-c-bg: #f8fafc;
+  --vp-c-bg-alt: #ffffff;
+  --vp-c-bg-elv: #f1f5f9;
+  --vp-sidebar-c-bg: #f8fafc;
+
+  /* ---- 文字：清晰易读（正文柔化为 slate-900，避免纯黑发硬）---- */
+  --vp-c-text: #0f172a;
+  --vp-c-text-mute: #475569;
+  --vp-c-text-subtle: #94a3b8;
+
+  /* ---- 边框：极淡 ---- */
+  --vp-c-divider: rgba(0, 0, 0, 0.06);
+  --vp-c-border: rgba(0, 0, 0, 0.08);
+  --vp-c-border-hard: rgba(0, 0, 0, 0.12);
+
+  /* ---- 阴影 ---- */
+  --vp-c-shadow: rgb(0 0 0 / 8%);
+
+  /* ---- 控件色 ---- */
+  --vp-c-control: rgba(37, 99, 235, 0.06);
+  --vp-c-control-hover: rgba(37, 99, 235, 0.1);
+  --vp-c-control-disabled: #e2e8f0;
+
+  /* ---- VuePress 2 过渡 ---- */
+  --vp-t-color: 0.3s ease;
+  --vp-t-transform: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* ---- 自定义品牌变量（科技蓝）---- */
+  --c-brand: #2563eb;
+  --c-brand-light: #3b82f6;
+  --c-brand-dark: #1d4ed8;
+  --c-brand-rgb: 37, 99, 235;
+
+  /* ---- 文字 ---- */
+  --c-text: #0f172a;
+  --c-text-light: #475569;
+  --c-text-lighter: #64748b;
+  --c-text-quote: #94a3b8;
+
+  /* ---- 背景 ---- */
+  --c-bg: #f8fafc;
+  --c-bg-light: #ffffff;
+  --c-bg-lighter: #f1f5f9;
+  --c-bg-navbar: rgba(248, 250, 252, 0.92);
+
+  /* ---- 边框 ---- */
+  --c-border: rgba(0, 0, 0, 0.06);
+  --c-border-dark: rgba(0, 0, 0, 0.1);
+
+  /* ---- 强调色 ---- */
+  --c-accent: #2563eb;
+  --c-accent-soft: rgba(37, 99, 235, 0.08);
+  --c-accent-medium: rgba(37, 99, 235, 0.12);
+
+  /* ---- 阴影系统（柔和弥散）---- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 4px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 24px rgba(37, 99, 235, 0.2);
+
+  /* ---- 缓动函数 ---- */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---- 导航栏 ---- */
+  --navbar-height: 3.6rem;
+  --navbar-bg: var(--c-bg-navbar);
+
+  /* ---- Markdown 正文宽度（--content-width 在 index.scss 按断点覆盖 VuePress 默认 740px）---- */
+  --content-reading-max: 56rem;
+  --content-reading-max-expanded: 58rem;
+  --content-page-gutter: 2.75rem;
+  --content-toc-reserve: 16rem;
+
+  /* Space News：自定义侧栏与正文 margin/padding 联动（与 SpaceNewsSidebar 位移同拍） */
+  --sn-sidebar-sync-duration: 0.42s;
+
+  /* ---- 滚动条 ---- */
+  --scrollbar-thumb: #cbd5e1;
+  --scrollbar-thumb-hover: #94a3b8;
+
+  /* ---- 圆角系统（圆润优雅）---- */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 9999px;
+
+  /* ---- 字体 ---- */
+  --font-family:
+    system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC',
+    sans-serif;
+
+  /* ---- Space News 深空表面（深浅主题共用，恒为深色）---- */
+  --sn-space-gradient: linear-gradient(155deg, #0f172a 0%, #17203a 55%, #1e3a8a 130%);
+  --sn-on-space-accent: #93c5fd;
+}
+
+/* ============================================
+   深色主题
+   风格：深空冷调，同一蓝色相提亮呈现
+   ============================================ */
+[data-theme='dark'] {
+  /* ---- 强调色：品牌蓝提亮（与浅色同一色相，保证深色下对比度）---- */
+  --vp-c-accent: #60a5fa;
+  --vp-c-accent-bg: #3b82f6;
+  --vp-c-accent-hover: #93c5fd;
+  --vp-c-accent-text: #ffffff;
+  --vp-c-accent-soft: rgba(96, 165, 250, 0.14);
+
+  /* ---- 背景：深空冷灰（非死黑）---- */
+  --vp-c-bg: #0d1117;
+  --vp-c-bg-alt: #151b23;
+  --vp-c-bg-elv: #1c2330;
+  --vp-sidebar-c-bg: #0d1117;
+
+  /* ---- 文字：柔和灰白 ---- */
+  --vp-c-text: #e2e8f0;
+  --vp-c-text-mute: #94a3b8;
+  --vp-c-text-subtle: #64748b;
+
+  /* ---- 边框：极淡冷白 ---- */
+  --vp-c-divider: rgba(255, 255, 255, 0.05);
+  --vp-c-border: rgba(255, 255, 255, 0.08);
+  --vp-c-border-hard: rgba(255, 255, 255, 0.14);
+
+  /* ---- 阴影 ---- */
+  --vp-c-shadow: rgb(0 0 0 / 40%);
+
+  /* ---- 控件色 ---- */
+  --vp-c-control: rgba(96, 165, 250, 0.08);
+  --vp-c-control-hover: rgba(96, 165, 250, 0.12);
+  --vp-c-control-disabled: #2a2d35;
+
+  /* ---- 品牌变量（提亮蓝）---- */
+  --c-brand: #60a5fa;
+  --c-brand-light: #93c5fd;
+  --c-brand-dark: #3b82f6;
+  --c-brand-rgb: 96, 165, 250;
+
+  /* ---- 文字 ---- */
+  --c-text: #e2e8f0;
+  --c-text-light: #b0b8c1;
+  --c-text-lighter: #94a3b8;
+  --c-text-quote: #64748b;
+
+  /* ---- 背景 ---- */
+  --c-bg: #0d1117;
+  --c-bg-light: #151b23;
+  --c-bg-lighter: #1c2330;
+  --c-bg-navbar: rgba(13, 17, 23, 0.92);
+
+  /* ---- 边框 ---- */
+  --c-border: rgba(255, 255, 255, 0.06);
+  --c-border-dark: rgba(255, 255, 255, 0.1);
+
+  /* ---- 强调色 ---- */
+  --c-accent: #60a5fa;
+  --c-accent-soft: rgba(96, 165, 250, 0.12);
+  --c-accent-medium: rgba(96, 165, 250, 0.16);
+
+  /* ---- 阴影系统（柔和弥散）---- */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.45), 0 8px 20px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 24px rgba(96, 165, 250, 0.22);
+
+  /* ---- 滚动条 ---- */
+  --scrollbar-thumb: #30363d;
+  --scrollbar-thumb-hover: #484f58;
+}

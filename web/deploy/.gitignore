@@ -1,0 +1,13 @@
+# gitignore for web/deploy/
+#
+# cislunarspace-site.conf is the LIVE site config that includes
+# the deepseek env-var reference. It is environment-specific and
+# not safe to template in a public repo, so we exclude it.
+# A template version (without the api key) lives in this directory
+# when needed; deploys scp the real conf from a private location.
+#
+# If you re-introduce a templated version of cislunarspace-site.conf
+# later, do NOT add it here. Instead, generate it at deploy time
+# from cislunarspace-site.conf.template and never commit secrets.
+
+cislunarspace-site.conf

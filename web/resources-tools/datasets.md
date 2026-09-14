@@ -1,0 +1,473 @@
+---
+title: 星历、轨道、环境数据下载
+description: 整理地月空间研究所需的核心数据集资源，包括JPL星历、轨道数据、环境模型、月球地形数据等，提供下载链接和使用指南
+keywords: 地月空间数据集, JPL星历, 轨道数据, 月球地形数据, 空间环境数据, 研究资源下载, DRO卫星
+author: 天疆说
+date: 2026-03-07
+lastUpdated: 2026-04-26
+wechatShare:
+  title: 地月空间数据集资源
+  desc: JPL星历、月球重力场模型、空间环境参数等核心数据集下载与使用指南。
+  image: /logo.png
+og:
+  title: 地月空间研究数据集资源大全 | 星历、轨道、环境数据下载
+  description: 整理地月空间研究所需的核心数据集资源，包括JPL星历、轨道数据、环境模型、月球地形数据等，提供下载链接和使用指南
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 地月空间研究数据集资源大全 | 星历、轨道、环境数据下载
+  description: 整理地月空间研究所需的核心数据集资源，包括JPL星历、轨道数据、环境模型、月球地形数据等，提供下载链接和使用指南
+  image: /logo.png
+permalink: /resources-tools/datasets/
+---
+
+# 数据集下载
+
+> 本文作者：天疆说
+>
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+## JPL星历
+
+### DE系列星历简介
+
+JPL星历（Development Ephemerides）是美国喷气推进实验室发布的高精度行星和月球位置数据，广泛应用于深空探测任务。
+
+### 可用版本
+
+#### DE405（适用于一般地月任务）
+
+- **覆盖时间**：1600年-2200年
+- **精度**：月球位置精度约2-5米
+- **适用场景**：大多数地月空间任务分析
+- **下载链接**：
+
+  ```bash
+  # 官方FTP下载
+  ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de405/
+  
+  # 备用镜像
+  https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/
+  ```
+
+#### DE421
+
+- **覆盖时间**：1900年-2050年
+- **精度**：月球位置精度约1米
+- **特点**：包含更多小行星数据
+- **下载链接**：
+
+  ```bash
+  ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de421/
+  ```
+
+#### DE430
+
+- **覆盖时间**：1550年-2650年
+- **精度**：月球位置精度约0.5米
+- **特点**：包含月球天平动数据
+- **下载链接**：
+
+  ```bash
+  ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de430/
+  ```
+
+#### DE440（推荐用于高精度任务）
+
+- **覆盖时间**：1550年-2650年
+- **精度**：月球位置精度约0.1米
+- **特点**：基于更长的观测弧段和改进的月球星历拟合，适合高精度地月空间任务
+- **参考文献**：Park et al., 2021
+- **下载链接**：
+
+  ```bash
+  ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de440/
+  ```
+
+#### DE441
+
+- **覆盖时间**：约前13200年-约后17191年
+- **精度**：与 DE440 相当，但时间跨度极长
+- **特点**：适用于历史回溯和长期轨道演化研究
+- **下载链接**：
+
+  ```bash
+  ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de441/
+  ```
+
+### 数据格式说明
+
+#### ASCII格式
+
+```plaintext
+# DE405头部信息示例
+*******************************************************************************
+*    Copyright (C) 1991-2005 California Institute of Technology, Pasadena, CA *
+*    All rights reserved.                                                     *
+*******************************************************************************
+*  Start Epoch: JD 2305424.50 (1599 DEC 09)                                  *
+*  Final Epoch: JD 2525008.50 (2201 FEB 20)                                  *
+*  Interval   : 4.0 days                                                     *
+*******************************************************************************
+```
+
+#### 二进制SPK格式
+
+```bash
+# SPK文件下载
+https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de405.bsp
+```
+
+### 使用示例
+
+#### Python读取DE星历
+
+```python
+import numpy as np
+from astropy.time import Time
+import jplephem
+
+# 加载DE405星历
+eph = jplephem.Ephemeris('de405.bsp')
+
+# 计算地月位置
+jd = Time('2025-01-01').jd  # 儒略日
+
+# 地球位置（相对于太阳系质心）
+earth_pos = eph.position('earth', jd)
+
+# 月球位置（相对于地球）
+moon_pos = eph.position('moon', jd)
+
+print(f"地球位置: {earth_pos} km")
+print(f"月球位置: {moon_pos} km")
+```
+
+#### MATLAB读取DE星历
+
+```matlab
+% 使用MATLAB Aerospace Toolbox
+jd = juliandate(datetime(2025,1,1));
+
+% 读取行星位置
+[earth_pos, earth_vel] = planetEphemeris(jd, 'Sun', 'Earth', '405');
+[moon_pos, moon_vel] = planetEphemeris(jd, 'Earth', 'Moon', '405');
+
+disp(['地球位置: ', num2str(earth_pos), ' km']);
+disp(['月球位置: ', num2str(moon_pos), ' km']);
+```
+
+## 月球重力场模型
+
+### 模型概述
+
+月球重力场模型用于精确计算月球引力势，对月球轨道设计和维持至关重要。
+
+### 主要模型
+
+#### GRGM系列（GRAIL任务）
+
+- **GRGM900C**：900阶次，空间分辨率约5.6km
+- **GRGM1200A**：1200阶次，空间分辨率约4.2km
+- **GRGM660PRIM**：660阶次，针对极区优化
+
+#### GL系列（历史模型）
+
+- **GL0660B**：660阶次，基于历史数据
+- **GL0900D**：900阶次，结合多种数据源
+
+#### SGM系列（日本模型）
+
+- **SGM100i**：100阶次，基于Kaguya数据
+- **SGM150i**：150阶次，更高精度版本
+
+### 下载链接
+
+#### NASA PDS存档
+
+```bash
+# GRAIL重力场模型
+https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-gravity-v1/
+
+# 最新模型
+https://pgda.gsfc.nasa.gov/products/71
+```
+
+#### ISDC数据门户
+
+```bash
+# 欧洲数据存档
+https://ssedata.gsfc.nasa.gov/archive/grail/
+```
+
+### 数据格式
+
+#### 球谐系数文件
+
+```plaintext
+# GRGM900C头部示例
+Product_id           = "GRGM900C"
+Model_name           = "GRGM900C"
+Maximum_degree       = 900
+Maximum_order        = 900
+Reference_radius     = 1738000.0
+Gm                   = 4902.80007
+Background_model     = "LP165P"
+Data_span_start      = 2012-03-01
+Data_span_end        = 2012-12-31
+
+# 系数数据
+degree order C_nm S_nm sigma_C sigma_S
+2      0     -0.000909927 0.0 1.2e-10 0.0
+2      1     0.000209148 0.000199979 2.3e-10 2.3e-10
+2      2     0.000227744 -0.000259674 1.8e-10 1.8e-10
+```
+
+### 使用示例
+
+#### Python计算月球引力
+
+```python
+import numpy as np
+import pyshtools
+
+# 加载重力场模型
+clm, slm = pyshtools.shio.read_shcoeffs('GRGM900C.gfc')
+
+# 计算某点的重力加速度
+lat = 0.0    # 纬度 (度)
+lon = 0.0    # 经度 (度)
+r = 1738.0   # 半径 (km)
+
+# 计算引力势
+potential = pyshtools.expand.MakeGridPoint(clm, slm, lat, lon, r)
+
+# 计算重力加速度
+g_lat, g_lon, g_r = pyshtools.expand.MakeGradientGridPoint(clm, slm, lat, lon, r)
+
+print(f"引力势: {potential} m²/s²")
+print(f"重力加速度: [{g_lat}, {g_lon}, {g_r}] m/s²")
+```
+
+## 空间环境参数
+
+### 太阳辐射数据
+
+#### 太阳常数
+
+- **平均值**：1361 W/m²
+- **变化范围**：±0.1%
+- **数据源**：SORCE/TIM, TSIS-1
+
+#### 下载链接
+
+```bash
+# NASA太阳辐射数据
+https://lasp.colorado.edu/lisird/data/
+
+# 历史数据
+https://www.ncei.noaa.gov/products/climate-data-records/solar-irradiance
+```
+
+### 地磁场模型
+
+#### IGRF模型
+
+- **国际地磁参考场**：每5年更新
+- **阶次**：13阶（1900-2020）
+- **精度**：约50nT
+
+#### WMM模型
+
+- **世界磁场模型**：每5年更新
+- **适用区域**：全球
+- **精度**：优于100nT
+
+#### 下载链接
+
+```bash
+# IGRF模型
+https://www.ngdc.noaa.gov/IAGA/vmod/igrf.html
+
+# WMM模型
+https://www.ncei.noaa.gov/products/world-magnetic-model
+```
+
+### 高层大气模型
+
+#### NRLMSISE-00
+
+- **覆盖高度**：0-1000km
+- **参数**：温度、密度、成分
+- **适用性**：地球轨道任务
+
+#### JB2008
+
+- **改进版本**：包含太阳活动影响
+- **精度**：优于15%
+- **适用性**：长期轨道衰减预测
+
+#### 下载链接
+
+```bash
+# CelesTrak大气模型
+https://celestrak.org/SpaceData/
+
+# NASA空间天气数据
+https://omniweb.gsfc.nasa.gov/
+```
+
+### 使用示例
+
+#### 计算大气密度
+
+```python
+import numpy as np
+from spaceweather import sw_download
+import msise00
+
+# 下载空间天气数据
+sw_download.download_sw()
+
+# 设置参数
+alt = 400  # 高度 (km)
+lat = 30   # 纬度 (度)
+lon = 120  # 经度 (度)
+year = 2025
+doy = 1    # 年积日
+sec = 0    # 秒
+
+# 计算大气密度
+density = msise00.run(year, doy, sec, alt, lat, lon, 0, 0, 
+                      f107=150, f107a=150, ap=4)
+
+print(f"大气密度: {density['Total']} kg/m³")
+```
+
+## 数据使用指南
+
+### 数据预处理
+
+#### 格式转换
+
+```python
+# 将ASCII星历转换为二进制
+from jplephem import ascii2bin
+
+ascii2bin.convert('de405.asc', 'de405.bsp')
+```
+
+#### 数据验证
+
+```python
+# 检查数据完整性
+import hashlib
+
+def verify_file(filepath, expected_md5):
+    with open(filepath, 'rb') as f:
+        file_hash = hashlib.md5(f.read()).hexdigest()
+    
+    if file_hash == expected_md5:
+        print("文件验证通过")
+        return True
+    else:
+        print(f"文件验证失败: {file_hash} != {expected_md5}")
+        return False
+```
+
+### 最佳实践
+
+#### 数据管理
+
+1. **版本控制**：记录使用的数据版本
+2. **备份策略**：重要数据多重备份
+3. **元数据记录**：记录数据来源和处理过程
+
+#### 性能优化
+
+```python
+# 使用内存映射提高大文件读取性能
+import numpy as np
+
+# 内存映射读取
+data = np.memmap('large_data.bin', dtype='float64', mode='r')
+```
+
+### 常见问题
+
+#### 数据缺失处理
+
+```python
+def handle_missing_data(data, method='interpolate'):
+    """
+    处理缺失数据
+    """
+    if method == 'interpolate':
+        # 线性插值
+        return np.interp(
+            np.arange(len(data)),
+            np.where(~np.isnan(data))[0],
+            data[~np.isnan(data)]
+        )
+    elif method == 'forward_fill':
+        # 前向填充
+        mask = np.isnan(data)
+        idx = np.where(~mask, np.arange(len(data)), 0)
+        np.maximum.accumulate(idx, out=idx)
+        return data[idx]
+```
+
+#### 数据更新策略
+
+```bash
+# 自动更新脚本示例
+#!/bin/bash
+# 每周更新空间天气数据
+wget -q -O f107.txt https://omniweb.gsfc.nasa.gov/cgi/nx1.cgi
+# 处理并存储数据
+python process_spaceweather.py f107.txt
+```
+
+### 资源链接
+
+#### 官方数据门户
+
+- [NASA行星数据系统](https://pds.nasa.gov/)
+- [ESA科学数据中心](https://www.cosmos.esa.int/)
+- [JAXA数据存档](https://data.darts.isas.jaxa.jp/)
+
+#### 社区资源
+
+- [空间数据共享平台](https://spacedata.org/)
+- [天体动力学数据交换](https://astrodynamics.org/data/)
+- [开源科学数据仓库](https://zenodo.org/)
+
+#### 工具软件
+
+- [SPICE工具包](https://naif.jpl.nasa.gov/naif/toolkit.html)
+- [HORIZONS系统](https://ssd.jpl.nasa.gov/horizons/)
+- [GMAT数据接口](https://github.com/NASA-AMMOS/GMAT/wiki/Data-Interfaces)
+
+---
+
+## 地月空间 DRO 卫星星座实测数据
+
+2025 年 4 月，中国科学院 A 类战略性先导专项"地月空间 DRO 探索研究"取得重大突破：DRO-A/B 两颗卫星成功入轨并与 DRO-L 卫星建立星间链路，标志着国际首个基于 DRO 的地月空间三星星座正式建成。任务三颗试验卫星在轨运行两年间，已完成多项国际首次技术验证：
+
+- **国际首次 DRO 低能入轨**：验证了航天器在 DRO 的稳定驻留能力
+- **低能耗机动转移**：天基测量定轨导航新原理验证
+- **117 万公里 K 频段星间链路**：建立跨度达 117 万公里的稳定星间通信
+- **全拉格朗日点巡访**：成为国际首个一次性完成地月空间全部拉格朗日点巡访的航天器
+
+相关实测轨道数据、星历和工程参数可参考中科院空间应用工程与技术中心发布的技术报告。
+
+### 数据来源
+
+- 中科院空间应用工程与技术中心：[https://www.csu.cas.cn/](https://www.csu.cas.cn/)
+- 中国探月工程数据：[http://www.clep.org.cn/](http://www.clep.org.cn/)
+- NASA JPL 地月空间任务数据：[https://ssd.jpl.nasa.gov/](https://ssd.jpl.nasa.gov/)
+
+---
+
+*更多数据集和更新信息请关注本站最新动态...*

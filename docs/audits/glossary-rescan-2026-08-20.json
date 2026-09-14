@@ -1,0 +1,5714 @@
+[
+ {
+  "rel": "glossary/communication/dual-relay.md",
+  "cat": "communication",
+  "len": 259,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/ehm.md",
+  "cat": "communication",
+  "len": 423,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/far-side-communication.md",
+  "cat": "communication",
+  "len": 383,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/heterogeneous-relay-constellation.md",
+  "cat": "communication",
+  "len": 336,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/hybrid-communication-navigation-constellation.md",
+  "cat": "communication",
+  "len": 321,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/inter-satellite-visibility.md",
+  "cat": "communication",
+  "len": 543,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/l2-point-relay-communication.md",
+  "cat": "communication",
+  "len": 477,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/lunar-communications-relay.md",
+  "cat": "communication",
+  "len": 583,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/lunar-relay-communication-satellite-architecture.md",
+  "cat": "communication",
+  "len": 436,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/communication/relay-communication.md",
+  "cat": "communication",
+  "len": 437,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/3-1-3-euler-angle-sequence.md",
+  "cat": "dynamics",
+  "len": 701,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a-small-velocity-increment-adjustment-to-the-natura.md",
+  "cat": "dynamics",
+  "len": 907,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/act.md",
+  "cat": "dynamics",
+  "len": 454,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/adams-cowell-integrator.md",
+  "cat": "dynamics",
+  "len": 3865,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/adjoint-control-transformation.md",
+  "cat": "dynamics",
+  "len": 486,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/adjoint-method.md",
+  "cat": "dynamics",
+  "len": 621,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/allowable-control-set.md",
+  "cat": "dynamics",
+  "len": 482,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/allowed-region.md",
+  "cat": "dynamics",
+  "len": 543,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/amplitude-condition.md",
+  "cat": "dynamics",
+  "len": 3863,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/an-iterative-method-that-maps-terminal-constraint-residuals-back-to-initial-velocity-corrections-via.md",
+  "cat": "dynamics",
+  "len": 1035,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/angle-distance-section-method.md",
+  "cat": "dynamics",
+  "len": 535,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/apce.md",
+  "cat": "dynamics",
+  "len": 456,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/arnold-diffusion.md",
+  "cat": "dynamics",
+  "len": 591,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/arnold-tori.md",
+  "cat": "dynamics",
+  "len": 528,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/arrival-deflection-angle.md",
+  "cat": "dynamics",
+  "len": 442,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/artificial-libration-point.md",
+  "cat": "dynamics",
+  "len": 539,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/asymmetry.md",
+  "cat": "dynamics",
+  "len": 439,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/asymptotic-tracking.md",
+  "cat": "dynamics",
+  "len": 785,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/atd.md",
+  "cat": "dynamics",
+  "len": 369,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/atmospheric-drag.md",
+  "cat": "dynamics",
+  "len": 3285,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/augmented-lagrangian-method.md",
+  "cat": "dynamics",
+  "len": 712,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/averaging-method.md",
+  "cat": "dynamics",
+  "len": 538,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/axis-ratio.md",
+  "cat": "dynamics",
+  "len": 399,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/backward-integration-method.md",
+  "cat": "dynamics",
+  "len": 556,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/ballistic-capture.md",
+  "cat": "dynamics",
+  "len": 4962,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/bang-bang-control.md",
+  "cat": "dynamics",
+  "len": 5823,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/battin-giorgi-method.md",
+  "cat": "dynamics",
+  "len": 3197,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/bc.md",
+  "cat": "dynamics",
+  "len": 519,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/bcr4bp.md",
+  "cat": "dynamics",
+  "len": 2923,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/beluga.md",
+  "cat": "dynamics",
+  "len": 619,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/bilinear-tangent-law.md",
+  "cat": "dynamics",
+  "len": 580,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/birkhoff-equations.md",
+  "cat": "dynamics",
+  "len": 611,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/box-covering.md",
+  "cat": "dynamics",
+  "len": 574,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/c-m.md",
+  "cat": "dynamics",
+  "len": 569,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/cannon-ball-model.md",
+  "cat": "dynamics",
+  "len": 554,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/canonical-variables.md",
+  "cat": "dynamics",
+  "len": 2886,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/cauchy-green-tensor-method.md",
+  "cat": "dynamics",
+  "len": 3695,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/cell-estimation-technique.md",
+  "cat": "dynamics",
+  "len": 596,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/center-manifold.md",
+  "cat": "dynamics",
+  "len": 1988,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/center-subspace.md",
+  "cat": "dynamics",
+  "len": 664,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/central-configuration.md",
+  "cat": "dynamics",
+  "len": 504,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/chaotic-sea.md",
+  "cat": "dynamics",
+  "len": 785,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/characteristic-curve.md",
+  "cat": "dynamics",
+  "len": 793,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/characteristic-multiplier.md",
+  "cat": "dynamics",
+  "len": 730,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/characteristic-parameter.md",
+  "cat": "dynamics",
+  "len": 592,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/cislunar-transfer-design-elements.md",
+  "cat": "dynamics",
+  "len": 5057,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/cmdp.md",
+  "cat": "dynamics",
+  "len": 503,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/cnerm.md",
+  "cat": "dynamics",
+  "len": 485,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/co-state-variables.md",
+  "cat": "dynamics",
+  "len": 4401,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/collinear-libration-points.md",
+  "cat": "dynamics",
+  "len": 458,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/collinear-singularity.md",
+  "cat": "dynamics",
+  "len": 592,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/collision-belt.md",
+  "cat": "dynamics",
+  "len": 502,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/collision-curve.md",
+  "cat": "dynamics",
+  "len": 604,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/colt.md",
+  "cat": "dynamics",
+  "len": 493,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/conic-approximation-of-transfer-segment.md",
+  "cat": "dynamics",
+  "len": 490,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/conley-mcgehee-tube.md",
+  "cat": "dynamics",
+  "len": 679,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/connection.md",
+  "cat": "dynamics",
+  "len": 533,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/conservative-system.md",
+  "cat": "dynamics",
+  "len": 469,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/constrained-functional.md",
+  "cat": "dynamics",
+  "len": 463,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/constrained-nonlinear-optimization.md",
+  "cat": "dynamics",
+  "len": 467,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/constrained-x-axis-crossing-velocity.md",
+  "cat": "dynamics",
+  "len": 802,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/continuation.md",
+  "cat": "dynamics",
+  "len": 6108,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/control-curve-ui.md",
+  "cat": "dynamics",
+  "len": 442,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/control-parametrization.md",
+  "cat": "dynamics",
+  "len": 3977,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/controllability.md",
+  "cat": "dynamics",
+  "len": 527,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/convex-cone.md",
+  "cat": "dynamics",
+  "len": 447,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/coriolis-theorem.md",
+  "cat": "dynamics",
+  "len": 3634,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/coupling-maneuver.md",
+  "cat": "dynamics",
+  "len": 546,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/cpso.md",
+  "cat": "dynamics",
+  "len": 449,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/cr3bp.md",
+  "cat": "dynamics",
+  "len": 5440,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/cross-product-control.md",
+  "cat": "dynamics",
+  "len": 508,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/cylindrical-isomorphic-mapping.md",
+  "cat": "dynamics",
+  "len": 608,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/de.md",
+  "cat": "dynamics",
+  "len": 414,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/debris-cloud-evolution.md",
+  "cat": "dynamics",
+  "len": 636,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/departure-velocity.md",
+  "cat": "dynamics",
+  "len": 650,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/deviation.md",
+  "cat": "dynamics",
+  "len": 451,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/differential-correction.md",
+  "cat": "dynamics",
+  "len": 6311,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/direct-collocation.md",
+  "cat": "dynamics",
+  "len": 4263,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/direct-methods.md",
+  "cat": "dynamics",
+  "len": 5465,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/direction-cosine.md",
+  "cat": "dynamics",
+  "len": 591,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/discrete-mechanics-and-optimal-control.md",
+  "cat": "dynamics",
+  "len": 3970,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/discrete-node.md",
+  "cat": "dynamics",
+  "len": 465,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/dissipative-system.md",
+  "cat": "dynamics",
+  "len": 558,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/divergent-solution.md",
+  "cat": "dynamics",
+  "len": 598,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/dld.md",
+  "cat": "dynamics",
+  "len": 380,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/dlqr.md",
+  "cat": "dynamics",
+  "len": 563,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/double-pseudo-range-method.md",
+  "cat": "dynamics",
+  "len": 605,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/dual-actor-network.md",
+  "cat": "dynamics",
+  "len": 436,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/dual-layer-iterative-algorithm.md",
+  "cat": "dynamics",
+  "len": 622,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/edelbaums-equation.md",
+  "cat": "dynamics",
+  "len": 699,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/eigenmotion-method.md",
+  "cat": "dynamics",
+  "len": 586,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/elliptic-linearized-equations-of-relative-motion.md",
+  "cat": "dynamics",
+  "len": 453,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/elliptic-region.md",
+  "cat": "dynamics",
+  "len": 450,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/endpoint-mapping.md",
+  "cat": "dynamics",
+  "len": 485,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/energy-level.md",
+  "cat": "dynamics",
+  "len": 470,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/energy-range.md",
+  "cat": "dynamics",
+  "len": 466,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/ephemeris-based-n-body-model.md",
+  "cat": "dynamics",
+  "len": 498,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/equilateral-triangle-libration-point.md",
+  "cat": "dynamics",
+  "len": 539,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/equivalent-control.md",
+  "cat": "dynamics",
+  "len": 667,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/equivalent-libration-point.md",
+  "cat": "dynamics",
+  "len": 624,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/er3bp.md",
+  "cat": "dynamics",
+  "len": 2790,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/error-dynamics.md",
+  "cat": "dynamics",
+  "len": 704,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/error-propagation-pattern.md",
+  "cat": "dynamics",
+  "len": 571,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/euler-quintic-equation.md",
+  "cat": "dynamics",
+  "len": 557,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/event-map.md",
+  "cat": "dynamics",
+  "len": 739,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/exosystem.md",
+  "cat": "dynamics",
+  "len": 647,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/explicit-guidance-law.md",
+  "cat": "dynamics",
+  "len": 588,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/extreme-terrain-mobility.md",
+  "cat": "dynamics",
+  "len": 685,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/feedback-linearization.md",
+  "cat": "dynamics",
+  "len": 607,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/flight-path-angle.md",
+  "cat": "dynamics",
+  "len": 570,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/floquet-modal-method.md",
+  "cat": "dynamics",
+  "len": 3738,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/flow-function-construction-method.md",
+  "cat": "dynamics",
+  "len": 444,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/flow-tube.md",
+  "cat": "dynamics",
+  "len": 539,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/focal-distance.md",
+  "cat": "dynamics",
+  "len": 594,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/forbidden-region.md",
+  "cat": "dynamics",
+  "len": 432,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/force-function.md",
+  "cat": "dynamics",
+  "len": 452,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/forward-pass-and-backward-sweep.md",
+  "cat": "dynamics",
+  "len": 610,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/francis-byrnes-isidori-equations.md",
+  "cat": "dynamics",
+  "len": 645,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/fuel-optimal.md",
+  "cat": "dynamics",
+  "len": 5635,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/full-force-model.md",
+  "cat": "dynamics",
+  "len": 633,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/fundamental-solution-set.md",
+  "cat": "dynamics",
+  "len": 538,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/gauss-planetary-equations.md",
+  "cat": "dynamics",
+  "len": 575,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/goodings-method.md",
+  "cat": "dynamics",
+  "len": 4836,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/gravitational-asymmetry.md",
+  "cat": "dynamics",
+  "len": 528,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/halo-orbit-computation.md",
+  "cat": "dynamics",
+  "len": 445,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/hamiltonian-normal-form.md",
+  "cat": "dynamics",
+  "len": 3789,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/hamiltonian.md",
+  "cat": "dynamics",
+  "len": 3650,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/hddp.md",
+  "cat": "dynamics",
+  "len": 5483,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/hermite-simpson-method.md",
+  "cat": "dynamics",
+  "len": 4359,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/heteroclinic-orbit-transfer.md",
+  "cat": "dynamics",
+  "len": 2201,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/heterospace-system.md",
+  "cat": "dynamics",
+  "len": 518,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/high-fidelity-dynamics.md",
+  "cat": "dynamics",
+  "len": 539,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/high-fidelity-model.md",
+  "cat": "dynamics",
+  "len": 523,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/hill-region-and-hill-problem.md",
+  "cat": "dynamics",
+  "len": 2537,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/hills-problem.md",
+  "cat": "dynamics",
+  "len": 5054,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/hnon-f-family-orbits.md",
+  "cat": "dynamics",
+  "len": 631,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/hoi.md",
+  "cat": "dynamics",
+  "len": 411,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/homotopy-method.md",
+  "cat": "dynamics",
+  "len": 7626,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/horseshoe-map.md",
+  "cat": "dynamics",
+  "len": 411,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/hyperbolic-character-of-collinear-points.md",
+  "cat": "dynamics",
+  "len": 644,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/hyperelliptic-curve.md",
+  "cat": "dynamics",
+  "len": 564,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/im.md",
+  "cat": "dynamics",
+  "len": 417,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/indirect-gravitational-perturbation.md",
+  "cat": "dynamics",
+  "len": 527,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/indirect-methods.md",
+  "cat": "dynamics",
+  "len": 7583,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/indirect-phasing.md",
+  "cat": "dynamics",
+  "len": 489,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/initial-condition-sensitivity.md",
+  "cat": "dynamics",
+  "len": 646,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/initial-guess-scheme.md",
+  "cat": "dynamics",
+  "len": 562,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/initial-guess.md",
+  "cat": "dynamics",
+  "len": 582,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/inner-frequencies.md",
+  "cat": "dynamics",
+  "len": 498,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/integral-invariant.md",
+  "cat": "dynamics",
+  "len": 582,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/interior-interval.md",
+  "cat": "dynamics",
+  "len": 386,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/intermediate-circular-orbit.md",
+  "cat": "dynamics",
+  "len": 595,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/intermediate-equations.md",
+  "cat": "dynamics",
+  "len": 444,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/invariant-manifold.md",
+  "cat": "dynamics",
+  "len": 3775,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/inverse-polynomial-shape-function.md",
+  "cat": "dynamics",
+  "len": 2583,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/jacobi-decomposition.md",
+  "cat": "dynamics",
+  "len": 390,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/jacobi-integral.md",
+  "cat": "dynamics",
+  "len": 5161,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/kam-theory.md",
+  "cat": "dynamics",
+  "len": 3910,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/kozai-method.md",
+  "cat": "dynamics",
+  "len": 451,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/ks-transformation.md",
+  "cat": "dynamics",
+  "len": 567,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/l4-l5.md",
+  "cat": "dynamics",
+  "len": 554,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/l4.md",
+  "cat": "dynamics",
+  "len": 466,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/l5.md",
+  "cat": "dynamics",
+  "len": 583,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lagrange-coefficients.md",
+  "cat": "dynamics",
+  "len": 4112,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/lagrange-dalembert-principle.md",
+  "cat": "dynamics",
+  "len": 519,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lagrange-jacobi-identity.md",
+  "cat": "dynamics",
+  "len": 575,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lagrange-relaxation.md",
+  "cat": "dynamics",
+  "len": 336,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lagrange-stability.md",
+  "cat": "dynamics",
+  "len": 484,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lambert-guidance-routine.md",
+  "cat": "dynamics",
+  "len": 2978,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/launch-velocity-error.md",
+  "cat": "dynamics",
+  "len": 583,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lawdens-necessary-conditions.md",
+  "cat": "dynamics",
+  "len": 635,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/levi-civita-transformation.md",
+  "cat": "dynamics",
+  "len": 515,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/libration-point.md",
+  "cat": "dynamics",
+  "len": 1532,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/lie-transformation.md",
+  "cat": "dynamics",
+  "len": 578,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/linear-quadratic-optimal-control.md",
+  "cat": "dynamics",
+  "len": 5579,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/lm.md",
+  "cat": "dynamics",
+  "len": 322,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lnc.md",
+  "cat": "dynamics",
+  "len": 502,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lobe-dynamics.md",
+  "cat": "dynamics",
+  "len": 844,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/long-period-motion.md",
+  "cat": "dynamics",
+  "len": 2399,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/loss-function.md",
+  "cat": "dynamics",
+  "len": 499,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/low-energy-transfer.md",
+  "cat": "dynamics",
+  "len": 4828,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/lsr.md",
+  "cat": "dynamics",
+  "len": 2842,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/lunar-flyby-plane-change.md",
+  "cat": "dynamics",
+  "len": 1865,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/lunar-flyby.md",
+  "cat": "dynamics",
+  "len": 4264,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/lunar-proximity.md",
+  "cat": "dynamics",
+  "len": 615,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/lunar-solid-tide.md",
+  "cat": "dynamics",
+  "len": 454,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/maneuvering-flyby.md",
+  "cat": "dynamics",
+  "len": 522,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/manifold-segment.md",
+  "cat": "dynamics",
+  "len": 706,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/mass-consumption-rate.md",
+  "cat": "dynamics",
+  "len": 517,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/mass-leak-technique.md",
+  "cat": "dynamics",
+  "len": 689,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/mass-leak.md",
+  "cat": "dynamics",
+  "len": 583,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/massive-exploration.md",
+  "cat": "dynamics",
+  "len": 591,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/matching-conditions.md",
+  "cat": "dynamics",
+  "len": 363,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/mcts.md",
+  "cat": "dynamics",
+  "len": 435,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/mddp.md",
+  "cat": "dynamics",
+  "len": 571,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/measurement-jacobian.md",
+  "cat": "dynamics",
+  "len": 669,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/microgravity-mobility.md",
+  "cat": "dynamics",
+  "len": 491,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/minimum-euclidean-norm.md",
+  "cat": "dynamics",
+  "len": 462,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/misg.md",
+  "cat": "dynamics",
+  "len": 505,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/mixed-method-hybrid-method.md",
+  "cat": "dynamics",
+  "len": 561,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/monodromy-matrix.md",
+  "cat": "dynamics",
+  "len": 5098,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/monte-carlo-trajectory-shooting.md",
+  "cat": "dynamics",
+  "len": 640,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/moving-point-strategy.md",
+  "cat": "dynamics",
+  "len": 754,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/multi-arc-optimal-control.md",
+  "cat": "dynamics",
+  "len": 4320,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/multi-arc-trajectory-optimization.md",
+  "cat": "dynamics",
+  "len": 594,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/multicollinearity.md",
+  "cat": "dynamics",
+  "len": 590,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/n-body-dynamics.md",
+  "cat": "dynamics",
+  "len": 491,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/natural-surrounding-fly.md",
+  "cat": "dynamics",
+  "len": 442,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/near-resonance-theorem.md",
+  "cat": "dynamics",
+  "len": 545,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/neck-opening-condition.md",
+  "cat": "dynamics",
+  "len": 540,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/neck-region.md",
+  "cat": "dynamics",
+  "len": 555,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/nekhorosev-estimates.md",
+  "cat": "dynamics",
+  "len": 487,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/newton-raphson-method.md",
+  "cat": "dynamics",
+  "len": 494,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/node.md",
+  "cat": "dynamics",
+  "len": 399,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/non-gaussian-distribution.md",
+  "cat": "dynamics",
+  "len": 422,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/non-spherical-gravity-perturbation.md",
+  "cat": "dynamics",
+  "len": 3835,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/non-tangential-injection.md",
+  "cat": "dynamics",
+  "len": 635,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/nonlinear-tuning.md",
+  "cat": "dynamics",
+  "len": 575,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/nrhoi.md",
+  "cat": "dynamics",
+  "len": 576,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/nsga-ii.md",
+  "cat": "dynamics",
+  "len": 1324,
+  "math": true,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/null-space-vector.md",
+  "cat": "dynamics",
+  "len": 459,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/null-vector.md",
+  "cat": "dynamics",
+  "len": 527,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/numerical-integration-orbit-propagation.md",
+  "cat": "dynamics",
+  "len": 590,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/objective-function.md",
+  "cat": "dynamics",
+  "len": 635,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/obliquity-of-lunar-orbit-to-equatorial-plane.md",
+  "cat": "dynamics",
+  "len": 510,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/ocs.md",
+  "cat": "dynamics",
+  "len": 507,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/offset.md",
+  "cat": "dynamics",
+  "len": 646,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/opt-mi.md",
+  "cat": "dynamics",
+  "len": 486,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/optimal-maneuver-beyond-perilune.md",
+  "cat": "dynamics",
+  "len": 623,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/orbital-aerobraking-return.md",
+  "cat": "dynamics",
+  "len": 618,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/orbital-coordinate-frames.md",
+  "cat": "dynamics",
+  "len": 2680,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/orbital-element-drift.md",
+  "cat": "dynamics",
+  "len": 2144,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/orbital-insertion-direction.md",
+  "cat": "dynamics",
+  "len": 576,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/orbital-resonance.md",
+  "cat": "dynamics",
+  "len": 2665,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/osmc.md",
+  "cat": "dynamics",
+  "len": 3942,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/parabolic-region.md",
+  "cat": "dynamics",
+  "len": 541,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/parameter-vector.md",
+  "cat": "dynamics",
+  "len": 568,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/patch-point.md",
+  "cat": "dynamics",
+  "len": 2740,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/penalty-coefficient.md",
+  "cat": "dynamics",
+  "len": 578,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/perilune-database.md",
+  "cat": "dynamics",
+  "len": 625,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/periodic-orbit-family-at-triangular-libration-point.md",
+  "cat": "dynamics",
+  "len": 488,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/perturbed-gravity-assist-model.md",
+  "cat": "dynamics",
+  "len": 550,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/phase-deviation.md",
+  "cat": "dynamics",
+  "len": 2511,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/phase-flow-structure.md",
+  "cat": "dynamics",
+  "len": 478,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/phase-space.md",
+  "cat": "dynamics",
+  "len": 2152,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/phasing-flyby.md",
+  "cat": "dynamics",
+  "len": 526,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/poincare-map.md",
+  "cat": "dynamics",
+  "len": 3833,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/poincare-section.md",
+  "cat": "dynamics",
+  "len": 4315,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/polyhedral-representation.md",
+  "cat": "dynamics",
+  "len": 580,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/pontryagins-maximum-principle.md",
+  "cat": "dynamics",
+  "len": 3402,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/position-offset-compensation.md",
+  "cat": "dynamics",
+  "len": 487,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/potential-function.md",
+  "cat": "dynamics",
+  "len": 548,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/power-limited-engine.md",
+  "cat": "dynamics",
+  "len": 485,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/primaries.md",
+  "cat": "dynamics",
+  "len": 553,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/primer-vector.md",
+  "cat": "dynamics",
+  "len": 6073,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/principal-stretching-direction.md",
+  "cat": "dynamics",
+  "len": 578,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/projection-functional.md",
+  "cat": "dynamics",
+  "len": 577,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/ps-plane.md",
+  "cat": "dynamics",
+  "len": 654,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/ps-section.md",
+  "cat": "dynamics",
+  "len": 551,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/pseudo-inverse-newton-update.md",
+  "cat": "dynamics",
+  "len": 469,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/pseudospectral-convex-optimization.md",
+  "cat": "dynamics",
+  "len": 553,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/pseudospectral-method.md",
+  "cat": "dynamics",
+  "len": 5567,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/qualitative-analysis-method.md",
+  "cat": "dynamics",
+  "len": 598,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/quasi-random-process-for-periodic-orbit-generation.md",
+  "cat": "dynamics",
+  "len": 445,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/r-section-method.md",
+  "cat": "dynamics",
+  "len": 526,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/real-force-model.md",
+  "cat": "dynamics",
+  "len": 545,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/region-of-prevalence.md",
+  "cat": "dynamics",
+  "len": 647,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/relative-motion.md",
+  "cat": "dynamics",
+  "len": 4263,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/relaxation-method.md",
+  "cat": "dynamics",
+  "len": 605,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/reparameterized-bounded-solution.md",
+  "cat": "dynamics",
+  "len": 489,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/resonance-transition.md",
+  "cat": "dynamics",
+  "len": 2435,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/restricted-region.md",
+  "cat": "dynamics",
+  "len": 588,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/rht.md",
+  "cat": "dynamics",
+  "len": 575,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/richardson-third-order-analytical-solution.md",
+  "cat": "dynamics",
+  "len": 642,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/richardsons-method.md",
+  "cat": "dynamics",
+  "len": 636,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/sampling-based-reachable-set-approximation-algorithm.md",
+  "cat": "dynamics",
+  "len": 383,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/scp.md",
+  "cat": "dynamics",
+  "len": 4865,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/separatrix.md",
+  "cat": "dynamics",
+  "len": 675,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/shape-based-method.md",
+  "cat": "dynamics",
+  "len": 3974,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/single-revolution-xz-plane-crossing-control.md",
+  "cat": "dynamics",
+  "len": 568,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/single-step-prediction-method.md",
+  "cat": "dynamics",
+  "len": 657,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/slack-factor.md",
+  "cat": "dynamics",
+  "len": 677,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/sliding-rule.md",
+  "cat": "dynamics",
+  "len": 689,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/soi.md",
+  "cat": "dynamics",
+  "len": 600,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/solar-gravity.md",
+  "cat": "dynamics",
+  "len": 600,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/solar-perturbation-lga.md",
+  "cat": "dynamics",
+  "len": 2237,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/solar-phase.md",
+  "cat": "dynamics",
+  "len": 557,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/solar-sail-artificial-libration-point-orbit.md",
+  "cat": "dynamics",
+  "len": 707,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/solar-sail-propulsion.md",
+  "cat": "dynamics",
+  "len": 562,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/spacecraft-formation-flying.md",
+  "cat": "dynamics",
+  "len": 4812,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/spatial-distribution-uniqueness.md",
+  "cat": "dynamics",
+  "len": 667,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/spherical-harmonic-gravity.md",
+  "cat": "dynamics",
+  "len": 527,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/spherical-harmonic-model.md",
+  "cat": "dynamics",
+  "len": 510,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/spherical-harmonics.md",
+  "cat": "dynamics",
+  "len": 507,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/spherical-pendulum.md",
+  "cat": "dynamics",
+  "len": 351,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/spiral-mode.md",
+  "cat": "dynamics",
+  "len": 524,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/spiral-region.md",
+  "cat": "dynamics",
+  "len": 557,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/srp.md",
+  "cat": "dynamics",
+  "len": 3863,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/state-jacobian-matrix.md",
+  "cat": "dynamics",
+  "len": 541,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/station-keeping.md",
+  "cat": "dynamics",
+  "len": 6731,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/stationarity-condition.md",
+  "cat": "dynamics",
+  "len": 521,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/sticky-region.md",
+  "cat": "dynamics",
+  "len": 419,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/stream-function-method.md",
+  "cat": "dynamics",
+  "len": 393,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/stt.md",
+  "cat": "dynamics",
+  "len": 631,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/subarc.md",
+  "cat": "dynamics",
+  "len": 475,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/successive-convex-optimization.md",
+  "cat": "dynamics",
+  "len": 547,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/surface-to-mass-ratio.md",
+  "cat": "dynamics",
+  "len": 539,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/survival-map.md",
+  "cat": "dynamics",
+  "len": 684,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/symbolic-manipulator.md",
+  "cat": "dynamics",
+  "len": 562,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/system-translation.md",
+  "cat": "dynamics",
+  "len": 490,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tangent-circle.md",
+  "cat": "dynamics",
+  "len": 546,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tangential-impulsive-maneuver.md",
+  "cat": "dynamics",
+  "len": 580,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tangential-thrust-control.md",
+  "cat": "dynamics",
+  "len": 3753,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/target-mode.md",
+  "cat": "dynamics",
+  "len": 534,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/target-point-strategy.md",
+  "cat": "dynamics",
+  "len": 496,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/targeting-threshold.md",
+  "cat": "dynamics",
+  "len": 446,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-and-the-local-horizontal-plane-a-flight-path-angle-.md",
+  "cat": "dynamics",
+  "len": 887,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/theorem-of-image-trajectories.md",
+  "cat": "dynamics",
+  "len": 775,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/theoretical-minimum-velocity-increment-delta-v-min.md",
+  "cat": "dynamics",
+  "len": 605,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/third-body-perturbation.md",
+  "cat": "dynamics",
+  "len": 477,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/third-order-richardson-expansion.md",
+  "cat": "dynamics",
+  "len": 571,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/three-body-lambert-problem.md",
+  "cat": "dynamics",
+  "len": 2798,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/tidal-capture.md",
+  "cat": "dynamics",
+  "len": 417,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tof.md",
+  "cat": "dynamics",
+  "len": 3582,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/tosocs.md",
+  "cat": "dynamics",
+  "len": 556,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tpbvp.md",
+  "cat": "dynamics",
+  "len": 3893,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/tph.md",
+  "cat": "dynamics",
+  "len": 312,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tpha-target-phase-approach.md",
+  "cat": "dynamics",
+  "len": 332,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/trajectory-constraints.md",
+  "cat": "dynamics",
+  "len": 5601,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/trajectory-splicing-database.md",
+  "cat": "dynamics",
+  "len": 636,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/transportation-tube-wall.md",
+  "cat": "dynamics",
+  "len": 563,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/triangular-libration-point.md",
+  "cat": "dynamics",
+  "len": 489,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tube-structure.md",
+  "cat": "dynamics",
+  "len": 578,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/tube-topology.md",
+  "cat": "dynamics",
+  "len": 490,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/turning-point.md",
+  "cat": "dynamics",
+  "len": 629,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/two-impulse-rendezvous.md",
+  "cat": "dynamics",
+  "len": 4529,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/two-layer-guidance-and-control.md",
+  "cat": "dynamics",
+  "len": 606,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/ukf.md",
+  "cat": "dynamics",
+  "len": 516,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/universal-variable-algorithm.md",
+  "cat": "dynamics",
+  "len": 383,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/universal-variable-method.md",
+  "cat": "dynamics",
+  "len": 504,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/unmodelled-acceleration.md",
+  "cat": "dynamics",
+  "len": 476,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/unperturbed-problem.md",
+  "cat": "dynamics",
+  "len": 557,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/v-infinity-matching.md",
+  "cat": "dynamics",
+  "len": 573,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/v-tof-pareto-front.md",
+  "cat": "dynamics",
+  "len": 560,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/variational-equations.md",
+  "cat": "dynamics",
+  "len": 491,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/velocity-maximum.md",
+  "cat": "dynamics",
+  "len": 474,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/velocity-minimum.md",
+  "cat": "dynamics",
+  "len": 507,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/velocity-wedge.md",
+  "cat": "dynamics",
+  "len": 526,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/vertical-lyapunov-orbit.md",
+  "cat": "dynamics",
+  "len": 531,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/vsi.md",
+  "cat": "dynamics",
+  "len": 437,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/w.md",
+  "cat": "dynamics",
+  "len": 518,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/weierstrass-erdmann-corner-conditions.md",
+  "cat": "dynamics",
+  "len": 497,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/wsb.md",
+  "cat": "dynamics",
+  "len": 4162,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/dynamics/x-z-plane-crossing-target.md",
+  "cat": "dynamics",
+  "len": 553,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/xac.md",
+  "cat": "dynamics",
+  "len": 495,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/zero-radial-velocity-condition.md",
+  "cat": "dynamics",
+  "len": 431,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/dynamics/zero-velocity-surface.md",
+  "cat": "dynamics",
+  "len": 3555,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/dynamics/zonal-harmonic.md",
+  "cat": "dynamics",
+  "len": 468,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/adaptive-grid-subdivision.md",
+  "cat": "fundamentals",
+  "len": 502,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/amplitude-parameter.md",
+  "cat": "fundamentals",
+  "len": 1501,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/fundamentals/augmented-earth-moon-model.md",
+  "cat": "fundamentals",
+  "len": 660,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/augmented-state-vector.md",
+  "cat": "fundamentals",
+  "len": 556,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/chebyshev-polynomial.md",
+  "cat": "fundamentals",
+  "len": 2274,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/coast-arc.md",
+  "cat": "fundamentals",
+  "len": 569,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/collinear-lagrange-point.md",
+  "cat": "fundamentals",
+  "len": 627,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/conjugate-point.md",
+  "cat": "fundamentals",
+  "len": 2862,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/control-regularization.md",
+  "cat": "fundamentals",
+  "len": 471,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/declination-deviation.md",
+  "cat": "fundamentals",
+  "len": 582,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/delta-v-budget.md",
+  "cat": "fundamentals",
+  "len": 607,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/delta-v.md",
+  "cat": "fundamentals",
+  "len": 420,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/dimensionality-reduction.md",
+  "cat": "fundamentals",
+  "len": 504,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/dynamic-reference-catalog.md",
+  "cat": "fundamentals",
+  "len": 619,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/energy-minimization.md",
+  "cat": "fundamentals",
+  "len": 659,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/entrywise-leading-order-interpolation.md",
+  "cat": "fundamentals",
+  "len": 588,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/eom.md",
+  "cat": "fundamentals",
+  "len": 2439,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/ep.md",
+  "cat": "fundamentals",
+  "len": 5144,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/gaio.md",
+  "cat": "fundamentals",
+  "len": 578,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/gamma.md",
+  "cat": "fundamentals",
+  "len": 460,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/gauss-legendre-collocation-method.md",
+  "cat": "fundamentals",
+  "len": 554,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/global-search.md",
+  "cat": "fundamentals",
+  "len": 587,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/gravitational-asymmetry-at-libration-points.md",
+  "cat": "fundamentals",
+  "len": 622,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/gravitational-light-deflection.md",
+  "cat": "fundamentals",
+  "len": 404,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/gravitational-potential.md",
+  "cat": "fundamentals",
+  "len": 3263,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/gravity-field-model.md",
+  "cat": "fundamentals",
+  "len": 3159,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/gravity-gradient-matrix.md",
+  "cat": "fundamentals",
+  "len": 2987,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/grid-search-method.md",
+  "cat": "fundamentals",
+  "len": 341,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/grid-search.md",
+  "cat": "fundamentals",
+  "len": 582,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/heterogeneous-constellation.md",
+  "cat": "fundamentals",
+  "len": 737,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/hidden-genes-genetic-algorithm.md",
+  "cat": "fundamentals",
+  "len": 507,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/high-fidelity-simulation.md",
+  "cat": "fundamentals",
+  "len": 591,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/ill-conditioned-state-transition-matrix.md",
+  "cat": "fundamentals",
+  "len": 661,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/inertial-reference-frames.md",
+  "cat": "fundamentals",
+  "len": 3788,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/fundamentals/invariant-torus.md",
+  "cat": "fundamentals",
+  "len": 1778,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/fundamentals/jacobi-field.md",
+  "cat": "fundamentals",
+  "len": 667,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/jacobian-matrix.md",
+  "cat": "fundamentals",
+  "len": 540,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/l3-point.md",
+  "cat": "fundamentals",
+  "len": 451,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/l4-point.md",
+  "cat": "fundamentals",
+  "len": 608,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/l5-point.md",
+  "cat": "fundamentals",
+  "len": 549,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/lamberts-problem.md",
+  "cat": "fundamentals",
+  "len": 5063,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/libration-point.md",
+  "cat": "fundamentals",
+  "len": 529,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/lindstedt-poincare-method.md",
+  "cat": "fundamentals",
+  "len": 3639,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/line-of-nodes-of-the-lunar-orbit.md",
+  "cat": "fundamentals",
+  "len": 652,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/linearization.md",
+  "cat": "fundamentals",
+  "len": 533,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/lorentz-contraction.md",
+  "cat": "fundamentals",
+  "len": 452,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/ltp.md",
+  "cat": "fundamentals",
+  "len": 566,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/lunar-equatorial-plane.md",
+  "cat": "fundamentals",
+  "len": 625,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/lunar-orbit-eccentricity.md",
+  "cat": "fundamentals",
+  "len": 1686,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/fundamentals/lunar-sub-satellite-track.md",
+  "cat": "fundamentals",
+  "len": 438,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/mact.md",
+  "cat": "fundamentals",
+  "len": 435,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/method-of-variation-of-constants.md",
+  "cat": "fundamentals",
+  "len": 653,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/multi-body-dynamical-environment.md",
+  "cat": "fundamentals",
+  "len": 630,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/multi-conic-method.md",
+  "cat": "fundamentals",
+  "len": 544,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/nondimensionalization.md",
+  "cat": "fundamentals",
+  "len": 1789,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/fundamentals/nsga-ii.md",
+  "cat": "fundamentals",
+  "len": 556,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/numerical-ephemeris.md",
+  "cat": "fundamentals",
+  "len": 3030,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/orbital-axis-slewing.md",
+  "cat": "fundamentals",
+  "len": 561,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/orbital-perturbations.md",
+  "cat": "fundamentals",
+  "len": 5472,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/orthogonal-coordinate-system.md",
+  "cat": "fundamentals",
+  "len": 312,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/osculating-orbital-elements.md",
+  "cat": "fundamentals",
+  "len": 2292,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/out-of-plane-difference.md",
+  "cat": "fundamentals",
+  "len": 560,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/pdf-transformation-rule.md",
+  "cat": "fundamentals",
+  "len": 432,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/position-angle.md",
+  "cat": "fundamentals",
+  "len": 519,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/precession-nutation-matrix.md",
+  "cat": "fundamentals",
+  "len": 540,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/precomputed-variational-data.md",
+  "cat": "fundamentals",
+  "len": 532,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/reconstructed-harmonic-balance-method.md",
+  "cat": "fundamentals",
+  "len": 539,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/richardson-third-order-analytical-approximation.md",
+  "cat": "fundamentals",
+  "len": 697,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/richardson-third-order-analytical-solution.md",
+  "cat": "fundamentals",
+  "len": 595,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/richardson-third-order-expansion.md",
+  "cat": "fundamentals",
+  "len": 733,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/right-ascension-deviation.md",
+  "cat": "fundamentals",
+  "len": 458,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/rk.md",
+  "cat": "fundamentals",
+  "len": 3277,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/shape-parameter.md",
+  "cat": "fundamentals",
+  "len": 2300,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/slack-variable.md",
+  "cat": "fundamentals",
+  "len": 509,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/small-denominator.md",
+  "cat": "fundamentals",
+  "len": 662,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/staggered-optimization.md",
+  "cat": "fundamentals",
+  "len": 440,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/stm.md",
+  "cat": "fundamentals",
+  "len": 997,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/sun-earth-moon-system.md",
+  "cat": "fundamentals",
+  "len": 553,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/synodic-frame.md",
+  "cat": "fundamentals",
+  "len": 2152,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/fundamentals/synodic-period.md",
+  "cat": "fundamentals",
+  "len": 2047,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/fundamentals/terminal-performance-index.md",
+  "cat": "fundamentals",
+  "len": 625,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/truncation-strategy.md",
+  "cat": "fundamentals",
+  "len": 470,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/ukf.md",
+  "cat": "fundamentals",
+  "len": 359,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/uncertainty-propagation.md",
+  "cat": "fundamentals",
+  "len": 635,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/variational-equation.md",
+  "cat": "fundamentals",
+  "len": 630,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/fundamentals/vsi.md",
+  "cat": "fundamentals",
+  "len": 574,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/absolute-navigation.md",
+  "cat": "navigation",
+  "len": 320,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/aod.md",
+  "cat": "navigation",
+  "len": 594,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/b-plane-parameters.md",
+  "cat": "navigation",
+  "len": 577,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/barycentric-inertial-frame.md",
+  "cat": "navigation",
+  "len": 628,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/barycentric-rotating-frame.md",
+  "cat": "navigation",
+  "len": 522,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/batch-least-squares-differential-correction.md",
+  "cat": "navigation",
+  "len": 493,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/bidirectional-inter-satellite-ranging.md",
+  "cat": "navigation",
+  "len": 670,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/caod.md",
+  "cat": "navigation",
+  "len": 399,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/cislunar-space-satellite-navigation-system.md",
+  "cat": "navigation",
+  "len": 582,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/close-range-rendezvous.md",
+  "cat": "navigation",
+  "len": 609,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/coverage-blind-spot.md",
+  "cat": "navigation",
+  "len": 557,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/deep-space-navigation-constellation.md",
+  "cat": "navigation",
+  "len": 508,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/deficient-rank.md",
+  "cat": "navigation",
+  "len": 588,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/differential-correction.md",
+  "cat": "navigation",
+  "len": 521,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/dro-gnss-shadowing-by-moon.md",
+  "cat": "navigation",
+  "len": 542,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/dual-layer-isl.md",
+  "cat": "navigation",
+  "len": 500,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/dual-navigation-satellite-scheme.md",
+  "cat": "navigation",
+  "len": 516,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/earth-moon-barycenter-rotating-frame.md",
+  "cat": "navigation",
+  "len": 429,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/ekf.md",
+  "cat": "navigation",
+  "len": 597,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/engine-limitation.md",
+  "cat": "navigation",
+  "len": 648,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/extended-constellation.md",
+  "cat": "navigation",
+  "len": 455,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/gnss-sidelobe-signal-navigation.md",
+  "cat": "navigation",
+  "len": 643,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/grid-division-method.md",
+  "cat": "navigation",
+  "len": 611,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/halo-orbit-rendezvous.md",
+  "cat": "navigation",
+  "len": 650,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/high-precision-cislunar-space-time-benchmark.md",
+  "cat": "navigation",
+  "len": 606,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/identifiability-information-matrix.md",
+  "cat": "navigation",
+  "len": 482,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/inter-satellite-ranging.md",
+  "cat": "navigation",
+  "len": 672,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/iterative-guidance.md",
+  "cat": "navigation",
+  "len": 351,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/laod.md",
+  "cat": "navigation",
+  "len": 448,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/lgnss.md",
+  "cat": "navigation",
+  "len": 470,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/lgps.md",
+  "cat": "navigation",
+  "len": 487,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/liaison-navigation.md",
+  "cat": "navigation",
+  "len": 621,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/libration-point-navigation-constellation.md",
+  "cat": "navigation",
+  "len": 513,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/libration-point-navigation.md",
+  "cat": "navigation",
+  "len": 399,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/linearization-method.md",
+  "cat": "navigation",
+  "len": 513,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/lnss-a.md",
+  "cat": "navigation",
+  "len": 572,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/lpo-constellation.md",
+  "cat": "navigation",
+  "len": 498,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/lunar-global-positioning-satellite-constellation.md",
+  "cat": "navigation",
+  "len": 594,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/lunar-high-latitude-region.md",
+  "cat": "navigation",
+  "len": 516,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/lyapunov-optimal-feedback-guidance.md",
+  "cat": "navigation",
+  "len": 498,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/multiple-solutions-phenomenon.md",
+  "cat": "navigation",
+  "len": 492,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/navigation-constellation.md",
+  "cat": "navigation",
+  "len": 543,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/navigation-update-interval.md",
+  "cat": "navigation",
+  "len": 771,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/normal-matrix.md",
+  "cat": "navigation",
+  "len": 550,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/northern-and-southern-nrho-families.md",
+  "cat": "navigation",
+  "len": 496,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/nrho-rendezvous-and-docking.md",
+  "cat": "navigation",
+  "len": 596,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/ocbe.md",
+  "cat": "navigation",
+  "len": 466,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/orbital-amplitude.md",
+  "cat": "navigation",
+  "len": 583,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/orbital-rendezvous.md",
+  "cat": "navigation",
+  "len": 574,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/phase-based-deployment-strategy.md",
+  "cat": "navigation",
+  "len": 645,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/phasing-maneuver.md",
+  "cat": "navigation",
+  "len": 805,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/primary-celestial-body.md",
+  "cat": "navigation",
+  "len": 573,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/propulsion-error.md",
+  "cat": "navigation",
+  "len": 712,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/rank-deficiency-problem.md",
+  "cat": "navigation",
+  "len": 458,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/reference-orbit.md",
+  "cat": "navigation",
+  "len": 554,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/relative-trajectory-following.md",
+  "cat": "navigation",
+  "len": 585,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/sofc.md",
+  "cat": "navigation",
+  "len": 686,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/starlight-angle.md",
+  "cat": "navigation",
+  "len": 559,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/time-synchronization-accuracy.md",
+  "cat": "navigation",
+  "len": 665,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/transfer-cost-heat-map.md",
+  "cat": "navigation",
+  "len": 411,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/two-step-optimization-algorithm.md",
+  "cat": "navigation",
+  "len": 488,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/u-ocbe.md",
+  "cat": "navigation",
+  "len": 434,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/ut.md",
+  "cat": "navigation",
+  "len": 438,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/virtual-trajectory.md",
+  "cat": "navigation",
+  "len": 533,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/navigation/wt.md",
+  "cat": "navigation",
+  "len": 377,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/access-time.md",
+  "cat": "observation",
+  "len": 519,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/ca.md",
+  "cat": "observation",
+  "len": 566,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/cda.md",
+  "cat": "observation",
+  "len": 550,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/cislunar-libration-point-constellation.md",
+  "cat": "observation",
+  "len": 630,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/cislunar-navigation-constellation.md",
+  "cat": "observation",
+  "len": 476,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/dro-capture-projection-surface.md",
+  "cat": "observation",
+  "len": 464,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/dynamic-demand.md",
+  "cat": "observation",
+  "len": 399,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/dynamics-based-statistical-orbit-determination.md",
+  "cat": "observation",
+  "len": 475,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/earth-atmosphere-off-axis-angle.md",
+  "cat": "observation",
+  "len": 507,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/gravitational-delay.md",
+  "cat": "observation",
+  "len": 343,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/grgm1200a.md",
+  "cat": "observation",
+  "len": 476,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/grgm660prim.md",
+  "cat": "observation",
+  "len": 471,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/kordylewski-cloud.md",
+  "cat": "observation",
+  "len": 463,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/kordylewski-clouds.md",
+  "cat": "observation",
+  "len": 484,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/lea.md",
+  "cat": "observation",
+  "len": 510,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/lunar-impact.md",
+  "cat": "observation",
+  "len": 663,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/lunar-occultation-avoidance.md",
+  "cat": "observation",
+  "len": 637,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/lunar-surface-coverage-assessment.md",
+  "cat": "observation",
+  "len": 487,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/observation-constellation.md",
+  "cat": "observation",
+  "len": 662,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/relay-observation.md",
+  "cat": "observation",
+  "len": 413,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/solar-suppression-angle.md",
+  "cat": "observation",
+  "len": 485,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/tsun.md",
+  "cat": "observation",
+  "len": 592,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/valuable-region.md",
+  "cat": "observation",
+  "len": 669,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/observation/w.md",
+  "cat": "observation",
+  "len": 525,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/approach-phase.md",
+  "cat": "orbits",
+  "len": 556,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/aro.md",
+  "cat": "orbits",
+  "len": 424,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/ax.md",
+  "cat": "orbits",
+  "len": 596,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/axial-orbit.md",
+  "cat": "orbits",
+  "len": 1933,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/az.md",
+  "cat": "orbits",
+  "len": 567,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/ballistic-capture.md",
+  "cat": "orbits",
+  "len": 3061,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/baseline-trajectory.md",
+  "cat": "orbits",
+  "len": 392,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/butterfly-orbit.md",
+  "cat": "orbits",
+  "len": 1196,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/central-elliptical-arc.md",
+  "cat": "orbits",
+  "len": 517,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/circular-orbit-boundary-conditions.md",
+  "cat": "orbits",
+  "len": 532,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/cislunar-periodic-orbit.md",
+  "cat": "orbits",
+  "len": 487,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/classical-exponential-sinusoid.md",
+  "cat": "orbits",
+  "len": 724,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/collision-orbit.md",
+  "cat": "orbits",
+  "len": 432,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/connection-arc.md",
+  "cat": "orbits",
+  "len": 563,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/control-acceleration.md",
+  "cat": "orbits",
+  "len": 672,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/cycler.md",
+  "cat": "orbits",
+  "len": 1629,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/departure-time.md",
+  "cat": "orbits",
+  "len": 446,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/direct-transfer-trajectory.md",
+  "cat": "orbits",
+  "len": 673,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/direct-transfer.md",
+  "cat": "orbits",
+  "len": 568,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/distant-retrograde-orbit-dro.md",
+  "cat": "orbits",
+  "len": 4318,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/drift-trajectory.md",
+  "cat": "orbits",
+  "len": 459,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/earth-escape-spiral.md",
+  "cat": "orbits",
+  "len": 589,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/earth-moon-triangular-libration-point-transfer-network.md",
+  "cat": "orbits",
+  "len": 484,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/eclipse-avoidance.md",
+  "cat": "orbits",
+  "len": 601,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/effective-time-of-flight.md",
+  "cat": "orbits",
+  "len": 573,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/el1-orbit.md",
+  "cat": "orbits",
+  "len": 427,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/energy-optimal-spiral.md",
+  "cat": "orbits",
+  "len": 515,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/energy-to-fuel-homotopy-continuation.md",
+  "cat": "orbits",
+  "len": 606,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/eprm.md",
+  "cat": "orbits",
+  "len": 566,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/ero.md",
+  "cat": "orbits",
+  "len": 458,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/family-curve-of-transfers.md",
+  "cat": "orbits",
+  "len": 443,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/far-rendezvous.md",
+  "cat": "orbits",
+  "len": 317,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/fast-transfer-trajectory.md",
+  "cat": "orbits",
+  "len": 428,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/fixed-point.md",
+  "cat": "orbits",
+  "len": 633,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/fmr-2.md",
+  "cat": "orbits",
+  "len": 545,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/formation-flight.md",
+  "cat": "orbits",
+  "len": 2316,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/geocentric-arc.md",
+  "cat": "orbits",
+  "len": 379,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/geocentric-segment.md",
+  "cat": "orbits",
+  "len": 596,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/gravity-assist-swingby.md",
+  "cat": "orbits",
+  "len": 416,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/grouping-of-transfers.md",
+  "cat": "orbits",
+  "len": 405,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/halo-orbit.md",
+  "cat": "orbits",
+  "len": 5522,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/heliocentric-graveyard-orbit.md",
+  "cat": "orbits",
+  "len": 606,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/heterogeneous-orbits.md",
+  "cat": "orbits",
+  "len": 432,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/heterospace-system-manifold-connection.md",
+  "cat": "orbits",
+  "len": 549,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/hoi.md",
+  "cat": "orbits",
+  "len": 546,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/horseshoe-orbit.md",
+  "cat": "orbits",
+  "len": 744,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/hybrid-multi-conic-method.md",
+  "cat": "orbits",
+  "len": 624,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/inclination-change.md",
+  "cat": "orbits",
+  "len": 578,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/insertion-phase-angle.md",
+  "cat": "orbits",
+  "len": 523,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/interior-transfer.md",
+  "cat": "orbits",
+  "len": 666,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/ipo.md",
+  "cat": "orbits",
+  "len": 473,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/isp.md",
+  "cat": "orbits",
+  "len": 472,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/lagrangian-point.md",
+  "cat": "orbits",
+  "len": 2665,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/lambert-patching-method.md",
+  "cat": "orbits",
+  "len": 586,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/lambert-problem.md",
+  "cat": "orbits",
+  "len": 388,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/lfb.md",
+  "cat": "orbits",
+  "len": 646,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/lgawsb.md",
+  "cat": "orbits",
+  "len": 514,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/libration-point-periodic-orbit.md",
+  "cat": "orbits",
+  "len": 1761,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/linear-periodic-control.md",
+  "cat": "orbits",
+  "len": 693,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/lissajous-orbit.md",
+  "cat": "orbits",
+  "len": 2707,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/loewe.md",
+  "cat": "orbits",
+  "len": 626,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/long-path-transfer-orbit.md",
+  "cat": "orbits",
+  "len": 591,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/long-way-and-short-way-solutions.md",
+  "cat": "orbits",
+  "len": 542,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/low-energy-transfer.md",
+  "cat": "orbits",
+  "len": 3775,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/low-thrust-orbit-transfer.md",
+  "cat": "orbits",
+  "len": 531,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/low-thrust-trajectory.md",
+  "cat": "orbits",
+  "len": 457,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/lsr.md",
+  "cat": "orbits",
+  "len": 350,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/lyapunov-orbit.md",
+  "cat": "orbits",
+  "len": 3477,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/maneuver-frequency-optimization.md",
+  "cat": "orbits",
+  "len": 588,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/manifold-connection.md",
+  "cat": "orbits",
+  "len": 437,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/mildly-unstable.md",
+  "cat": "orbits",
+  "len": 642,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/minimum-energy-cislunar-transfer.md",
+  "cat": "orbits",
+  "len": 475,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/minimum-energy-trans-lunar-transfer.md",
+  "cat": "orbits",
+  "len": 697,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/moi.md",
+  "cat": "orbits",
+  "len": 533,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/moon-centered-orbit.md",
+  "cat": "orbits",
+  "len": 2017,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/mpo.md",
+  "cat": "orbits",
+  "len": 486,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/multi-body-constellation.md",
+  "cat": "orbits",
+  "len": 1933,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/nominal-orbit.md",
+  "cat": "orbits",
+  "len": 496,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/nominal-transfer.md",
+  "cat": "orbits",
+  "len": 284,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/non-keplerian-orbit.md",
+  "cat": "orbits",
+  "len": 515,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/non-transit-orbit.md",
+  "cat": "orbits",
+  "len": 590,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/north-south-control.md",
+  "cat": "orbits",
+  "len": 488,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/nrho.md",
+  "cat": "orbits",
+  "len": 3745,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/open-point-scenario.md",
+  "cat": "orbits",
+  "len": 759,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/operational-orbit-library.md",
+  "cat": "orbits",
+  "len": 583,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/orbit-chain.md",
+  "cat": "orbits",
+  "len": 576,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/orbit-chaining.md",
+  "cat": "orbits",
+  "len": 537,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/orbit-maintenance-cost.md",
+  "cat": "orbits",
+  "len": 419,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/orbital-stability-index.md",
+  "cat": "orbits",
+  "len": 648,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/orthogonal-plane-crossing-condition.md",
+  "cat": "orbits",
+  "len": 615,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/p2ho2.md",
+  "cat": "orbits",
+  "len": 523,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/patched-conic.md",
+  "cat": "orbits",
+  "len": 642,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/perigee-geocentric-distance.md",
+  "cat": "orbits",
+  "len": 536,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/perigee-point-scenario.md",
+  "cat": "orbits",
+  "len": 647,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/perilune-distance.md",
+  "cat": "orbits",
+  "len": 433,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/periodic-orbit-family.md",
+  "cat": "orbits",
+  "len": 623,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/periodic-solution.md",
+  "cat": "orbits",
+  "len": 579,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/phasing-loop-transfer.md",
+  "cat": "orbits",
+  "len": 367,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/pole-sitter.md",
+  "cat": "orbits",
+  "len": 497,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/position-keeping.md",
+  "cat": "orbits",
+  "len": 522,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/prograde-in-perigee-and-retrograde-in-perilune.md",
+  "cat": "orbits",
+  "len": 478,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/pseudo-equinoctial-orbital-elements.md",
+  "cat": "orbits",
+  "len": 627,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/qpo.md",
+  "cat": "orbits",
+  "len": 455,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/qso-quasi-satellite-orbit.md",
+  "cat": "orbits",
+  "len": 1083,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/res.md",
+  "cat": "orbits",
+  "len": 398,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/rescue-orbit.md",
+  "cat": "orbits",
+  "len": 635,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/resonant-orbit-family.md",
+  "cat": "orbits",
+  "len": 4738,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/ro.md",
+  "cat": "orbits",
+  "len": 687,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/rp.md",
+  "cat": "orbits",
+  "len": 394,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/selenocentric-segment.md",
+  "cat": "orbits",
+  "len": 538,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/semiminor-axis.md",
+  "cat": "orbits",
+  "len": 606,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/sgto.md",
+  "cat": "orbits",
+  "len": 492,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/short-path-transfer-orbit.md",
+  "cat": "orbits",
+  "len": 756,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/short-reach-arrival.md",
+  "cat": "orbits",
+  "len": 388,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/slpo.md",
+  "cat": "orbits",
+  "len": 508,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/smart-like-transfer.md",
+  "cat": "orbits",
+  "len": 592,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/smoothed-trajectory.md",
+  "cat": "orbits",
+  "len": 542,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/ssdc.md",
+  "cat": "orbits",
+  "len": 631,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/storage-orbit.md",
+  "cat": "orbits",
+  "len": 560,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/tadpole-orbit.md",
+  "cat": "orbits",
+  "len": 2183,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/tangential-insertion.md",
+  "cat": "orbits",
+  "len": 729,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/tangential-intersection.md",
+  "cat": "orbits",
+  "len": 570,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/tangential.md",
+  "cat": "orbits",
+  "len": 424,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/tau.md",
+  "cat": "orbits",
+  "len": 573,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/tcpo.md",
+  "cat": "orbits",
+  "len": 570,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo.md",
+  "cat": "orbits",
+  "len": 959,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/the-location-on-a-halo-orbit-where-the-spacecraft-transitions-from-the-transfer-trajectory-onto-the-.md",
+  "cat": "orbits",
+  "len": 810,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/three-body-periodic-orbit.md",
+  "cat": "orbits",
+  "len": 415,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/thrust-magnitude-continuation.md",
+  "cat": "orbits",
+  "len": 515,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/tmin.md",
+  "cat": "orbits",
+  "len": 481,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/trajectory-section-width.md",
+  "cat": "orbits",
+  "len": 488,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/transfer-family.md",
+  "cat": "orbits",
+  "len": 603,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/two-maneuver-transfer-design.md",
+  "cat": "orbits",
+  "len": 525,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/two-phase-transfer.md",
+  "cat": "orbits",
+  "len": 714,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/unpowered-lunar-gravity-assist-unpowered-lga.md",
+  "cat": "orbits",
+  "len": 455,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/v.md",
+  "cat": "orbits",
+  "len": 423,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/vertical-orbit.md",
+  "cat": "orbits",
+  "len": 2506,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/vmi.md",
+  "cat": "orbits",
+  "len": 924,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/weak-stability-boundary-transfer-trajectory.md",
+  "cat": "orbits",
+  "len": 3236,
+  "math": false,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/orbits/wsrt.md",
+  "cat": "orbits",
+  "len": 462,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/x-value.md",
+  "cat": "orbits",
+  "len": 716,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/zero-cost-transfer-trajectory.md",
+  "cat": "orbits",
+  "len": 649,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/orbits/zm.md",
+  "cat": "orbits",
+  "len": 535,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/a-search-strategy-that-automatically-halves-the-velocity-correction-and-backtracks-when-differential.md",
+  "cat": "other",
+  "len": 1013,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/atd.md",
+  "cat": "other",
+  "len": 319,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/cislunar-space-constellation.md",
+  "cat": "other",
+  "len": 511,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/floquet-mode.md",
+  "cat": "other",
+  "len": 1226,
+  "math": true,
+  "refs": 0,
+  "deep": 1
+ },
+ {
+  "rel": "glossary/other/geo-deorbiting-strategy.md",
+  "cat": "other",
+  "len": 585,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/geo-deorbiting.md",
+  "cat": "other",
+  "len": 463,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/gmat.md",
+  "cat": "other",
+  "len": 312,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/leo.md",
+  "cat": "other",
+  "len": 1672,
+  "math": true,
+  "refs": 0,
+  "deep": 2
+ },
+ {
+  "rel": "glossary/other/monte-carlo-shooting-simulation.md",
+  "cat": "other",
+  "len": 505,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/other/stk.md",
+  "cat": "other",
+  "len": 307,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/change-4.md",
+  "cat": "programs",
+  "len": 441,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/cislunar-space-station.md",
+  "cat": "programs",
+  "len": 495,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/constellation-phase-deployment.md",
+  "cat": "programs",
+  "len": 498,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/dro.md",
+  "cat": "programs",
+  "len": 505,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/electrospray-propulsion.md",
+  "cat": "programs",
+  "len": 616,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/l1-point-space-station.md",
+  "cat": "programs",
+  "len": 497,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/l2-halo-orbit-space-station.md",
+  "cat": "programs",
+  "len": 508,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/leo.md",
+  "cat": "programs",
+  "len": 484,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/lop-g.md",
+  "cat": "programs",
+  "len": 437,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/lunar-ascent-element.md",
+  "cat": "programs",
+  "len": 301,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/lunar-gateway.md",
+  "cat": "programs",
+  "len": 613,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/lunar-landing-window.md",
+  "cat": "programs",
+  "len": 541,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/lunar-orbital-platform-gateway.md",
+  "cat": "programs",
+  "len": 507,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/lunar-orbital-space-station.md",
+  "cat": "programs",
+  "len": 449,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/lunar-segment-constellation.md",
+  "cat": "programs",
+  "len": 538,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/multi-moon-orbiter.md",
+  "cat": "programs",
+  "len": 656,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/orbit-selection-evaluation.md",
+  "cat": "programs",
+  "len": 534,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ },
+ {
+  "rel": "glossary/programs/terrestrial-segment-constellation.md",
+  "cat": "programs",
+  "len": 682,
+  "math": false,
+  "refs": 0,
+  "deep": 0
+ }
+]
