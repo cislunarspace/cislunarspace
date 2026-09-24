@@ -30,7 +30,7 @@ wechatShare:
 
 | 工具 | 说明 |
 | ------ | ------ |
-| [e2m2e](/resources-tools/e2m2e/)（[GitHub](https://github.com/cislunarspace/e2m2e)） | 地月空间轨道设计库，覆盖三体动力学、N体历表动力学、八类典型轨道族生成与系统工程建模 |
+| [e2m2e](/resources-tools/e2m2e/)（[GitHub](https://github.com/cislunarspace/CODE-core)） | 地月空间算法工具集，Python 接口 + Rust 计算内核，覆盖任务轨道设计、转移设计、轨道保持、轨道预报与时空坐标转换 |
 | [r2s2](https://github.com/r2s2-astro/r2s2) | 地月空间时空坐标转换库，支持惯性系、旋转系与月面固连系之间的高精度历表转换 |
 | [Orekit](https://github.com/CS-SI/Orekit) | 欧洲空间局开源飞行动力学底层算法库，基于Java实现，支持高保真数值积分 |
 | [pykep](https://github.com/esa/pykep) | 欧洲空间局行星际与深空轨迹优化库，提供转移轨道全局搜索算法 |
