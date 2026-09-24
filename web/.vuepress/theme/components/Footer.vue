@@ -77,6 +77,7 @@
         <div class="friend-links">
           <span class="friend-links-label">友情链接:</span>
           <a
+            v-for="(link, idx) in friendLinks"
             :key="idx"
             :href="link.href"
             target="_blank"
