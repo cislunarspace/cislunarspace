@@ -33,3 +33,40 @@ GitHub 的 issue 和 PR 共享编号空间，所以 `#42` 可能是其中任一�
 ## 当技能说"获取相关 ticket"时
 
 运行 `gh issue view <number> --comments`。
+
+## GitHub Project
+
+**使用 Project：是。** `/github-project`、`/triage`、`/open-pr`、`/merge-pr` 读取本节；缺字段或选项 ID 时停止，叫用户重跑 `/setup-ouyangjiahong-skills`。
+
+| 项 | 值 |
+| --- | --- |
+| Owner | `cislunarspace` |
+| Project 编号 | `4` |
+| Project 标题 | cislunarspace Issue Management |
+| Project ID | `PVT_kwDOE3ZAg84BkgBr` |
+| Status 字段 ID | `PVTSSF_lADOE3ZAg84BkgBrzhjQaF8` |
+| Priority 字段 ID | `PVTSSF_lADOE3ZAg84BkgBrzhjQaGs` |
+| Start Date 字段 ID | `PVTF_lADOE3ZAg84BkgBrzhjQaGw`（DATE 类型，无选项） |
+
+Status 选项 ID：
+
+| 选项 | 选项 ID |
+| --- | --- |
+| `Inbox` | `f75ad846` |
+| `Backlog` | `c63ae0e5` |
+| `Ready` | `871e53fc` |
+| `In progress` | `47fc9ee4` |
+| `In review` | `7b94b6f5` |
+| `Done` | `98236657` |
+| `No action` | `58b611df` |
+
+Priority 选项 ID：
+
+| 选项 | 选项 ID |
+| --- | --- |
+| `P0` | `bff420ad` |
+| `P1` | `4679013b` |
+| `P2` | `380c4288` |
+| `P3` | `826b89d3` |
+
+面板与 e2m2e、transfer-orbit-design 共用，`Repository` 字段区分来源（系统字段，技能不写）。状态与 Issue 开合的对应语义见 [CONTRIBUTING.md](../../CONTRIBUTING.md) 的 Project 流水线一节。

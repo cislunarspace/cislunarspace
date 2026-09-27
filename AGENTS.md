@@ -36,7 +36,7 @@
 - 创建走 GitHub 的五类模板（Bug / Feature / Idea / Research / Task），标题前缀与 type 标签由模板预填。
 - 面板唯一自动入板规则是子 issue，普通 issue 建成后不自动入板，须手动加入：
 
-      gh project item-add 1 --owner cislunarspace --url <issue 的 URL>
+      gh project item-add 4 --owner cislunarspace --url <issue 的 URL>
 
   入板后状态自动置为 Inbox，不用手设；Inbox 之后的推进与 Priority、Start Date 由维护者手动维护（面板结构、状态语义与自动联动的完整说明见 CONTRIBUTING.md 的 Project 流水线一节）。
 
@@ -72,3 +72,11 @@
 - **验证行为**：按影响范围运行相关检查；测试可观察行为、边界和错误路径，不测试实现细节。无法测试时说明原因并做可行的烟雾验证。
 - **审慎依赖**：优先现有依赖和标准库；新增依赖前确认必要性、维护状态和成本，并说明理由。
 - **清楚沟通**：说明做了什么、为什么、验证结果和已知风险；对不确定性给出具体事实，提交信息描述实际改动。
+
+## Agent skills
+
+工程技能的仓库级配置存放在 `docs/agents/`，共三份；对应技能启动时先读对应文件，文件缺失时按其提示补跑 `/setup-ouyangjiahong-skills`。
+
+- `docs/agents/issue-tracker.md`：GitHub Issues（`gh` CLI）的全部约定，外部 PR 也作为分诊入口，末尾的「GitHub Project」节登记推进面板（org Project 4「cislunarspace Issue Management」）的字段与选项 ID。消费者：`/code-review`、`/github-project`、`/open-pr`、`/merge-pr`、`/triage`。
+- `docs/agents/triage-labels.md`：五个分诊角色（needs-triage / needs-info / ready-for-agent / ready-for-human / wontfix）到本仓标签字符串的映射。消费者：`/triage`。wontfix 不落标签，由关闭为 Not planned 加面板终态 No action 承担。
+- `docs/agents/domain.md`：工程技能探索前先读根 `CONTEXT.md`（或按 `CONTEXT-MAP.md` 选上下文）与 `docs/adr/`，输出按术语表用词、与 ADR 冲突须标注。消费者：`/domain-modeling`、`/grill-with-docs`、`/tdd`、`/diagnosing-bugs`、`/triage`。
