@@ -71,6 +71,11 @@ export function sanitizeClientConfig(raw: unknown): NormalizedConfig {
   if (next.stream === undefined) {
     next.stream = true;
   }
+  if (typeof next.reasoningEffort === 'string' && next.reasoningEffort.trim()) {
+    next.reasoningEffort = next.reasoningEffort.trim();
+  } else {
+    delete next.reasoningEffort;
+  }
   if (!next.routerModel) {
     next.routerModel = next.model as string;
   }

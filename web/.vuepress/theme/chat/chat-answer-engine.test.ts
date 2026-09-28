@@ -82,6 +82,30 @@ describe('chat-answer-engine', () => {
       expect(payload.stream).toBe(false);
     });
 
+    it('passes reasoning_effort in the payload when configured, omits it otherwise', async () => {
+      const engine = createAnswerEngine({ contextManager: createContextManager() });
+
+      const withEffort = await engine.buildAnswerPhase({
+        paths: [],
+        history: [],
+        siteIndex,
+        config: { ...config, reasoningEffort: 'low' },
+        callbacks: createCallbacks(),
+        signal: new AbortController().signal,
+      });
+      expect(withEffort.payload).toMatchObject({ reasoning_effort: 'low' });
+
+      const withoutEffort = await engine.buildAnswerPhase({
+        paths: [],
+        history: [],
+        siteIndex,
+        config,
+        callbacks: createCallbacks(),
+        signal: new AbortController().signal,
+      });
+      expect(withoutEffort.payload).not.toHaveProperty('reasoning_effort');
+    });
+
     it('falls back to the no-retrieval system prompt when paths is empty', async () => {
       const engine = createAnswerEngine({ contextManager: createContextManager() });
       const cb = createCallbacks();

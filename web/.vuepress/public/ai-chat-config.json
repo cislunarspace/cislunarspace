@@ -1,3 +1,4 @@
 {
-  "model": "deepseek-v4-flash"
+  "model": "deepseek-flash",
+  "reasoningEffort": "low"
 }

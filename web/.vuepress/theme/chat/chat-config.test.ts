@@ -62,6 +62,18 @@ describe('sanitizeClientConfig', () => {
     const result = sanitizeClientConfig({ apiEndpoint: 'custom/api' });
     expect(result.apiEndpoint).toBe('/custom/api');
   });
+
+  it('trims reasoningEffort and drops empty or non-string values', () => {
+    expect(sanitizeClientConfig({ model: 'm', reasoningEffort: ' low ' }).reasoningEffort).toBe(
+      'low',
+    );
+    expect(sanitizeClientConfig({ model: 'm', reasoningEffort: '' })).not.toHaveProperty(
+      'reasoningEffort',
+    );
+    expect(sanitizeClientConfig({ model: 'm', reasoningEffort: 3 })).not.toHaveProperty(
+      'reasoningEffort',
+    );
+  });
 });
 
 describe('loadChatConfig retry', () => {

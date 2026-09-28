@@ -149,6 +149,7 @@ export function createAnswerEngine(deps: AnswerEngineDeps): ChatAnswerEngine {
       const useStream = config.stream !== false;
       const payload = {
         model: config.model,
+        ...(config.reasoningEffort ? { reasoning_effort: config.reasoningEffort } : {}),
         messages: [{ role: 'system' as const, content: systemPrompt }, ...trimmedHistory],
         temperature: config.temperature ?? 0.7,
         stream: useStream,

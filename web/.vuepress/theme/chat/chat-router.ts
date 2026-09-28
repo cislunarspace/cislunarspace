@@ -88,6 +88,7 @@ export function createLLMRouter(deps: LLMRouterDeps): ChatRouter {
           config.apiEndpoint,
           {
             model: config.routerModel || config.model,
+            ...(config.reasoningEffort ? { reasoning_effort: config.reasoningEffort } : {}),
             max_tokens: 800,
             temperature: config.routerTemperature ?? 0.2,
             messages: [

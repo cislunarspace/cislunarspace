@@ -73,6 +73,26 @@ describe('chat-router', () => {
       expect(cb.onProcessStep).toHaveBeenCalledWith('stepExcerpt');
     });
 
+    it('sends reasoning_effort when configured', async () => {
+      const transport = createTransport({
+        choices: [{ message: { content: '{"paths": ["/cislunar-orbits/"]}' } }],
+      });
+      const router = createLLMRouter({ transport });
+
+      await router.route({
+        ...routerParams,
+        config: { ...config, reasoningEffort: 'low' },
+        callbacks: createCallbacks(),
+        signal: new AbortController().signal,
+      });
+
+      expect(transport.completeJson).toHaveBeenCalledWith(
+        '/api/ai',
+        expect.objectContaining({ reasoning_effort: 'low' }),
+        expect.anything(),
+      );
+    });
+
     it('falls back to keyword matching when the LLM returns no valid paths', async () => {
       const transport = createTransport({
         choices: [{ message: { content: '/no-such-path/' } }],

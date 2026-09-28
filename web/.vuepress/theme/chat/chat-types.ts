@@ -6,8 +6,8 @@ export interface NormalizedConfig {
   apiEndpoint: string;
   apiKey?: string;
   model: string;
-  routerModel: string;
-  temperature: number;
+  /** 思考层级（OpenAI/DeepSeek reasoning_effort），不设则由后端默认。 */
+  reasoningEffort?: string;
   routerTemperature: number;
   twoPhaseRetrieval: boolean;
   twoPhaseContextCharBudget: number;
