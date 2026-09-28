@@ -11,6 +11,7 @@
 - **评论 issue**：`gh issue comment <number> --body "..."`
 - **添加 / 移除标签**：`gh issue edit <number> --add-label "..."` / `--remove-label "..."`
 - **关闭**：`gh issue close <number> --comment "..."`
+- **正文写作风格**：PR 与 Issue 正文、AI 生成的评论和 commit body 的写作约定（完整叙述回答固定问题集、平实句子、少特殊符号、细节不进折叠区）见 `CONTRIBUTING.md` 的「正文写作约定」一节；开单模板已内联问题集引导。
 
 - **手动入板**：`gh project item-add 4 --owner cislunarspace --url <issue 的 URL>`（组织共用项目 `cislunarspace Issue Management`；普通 issue 建成后须手动加入，入板后状态自动置为 Inbox）。
 
