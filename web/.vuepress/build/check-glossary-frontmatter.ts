@@ -1,5 +1,5 @@
 // web/.vuepress/build/check-glossary-frontmatter.ts
-// Glossary 词条 frontmatter 质量门：校验知识库字段 aliases / related。
+// Glossary 词条 frontmatter 质量门：校验词条标题与知识库字段 title / aliases / related。
 //
 // Usage:
 //   tsx .vuepress/build/check-glossary-frontmatter.ts
@@ -9,6 +9,7 @@
 //   related[].ref     词条 slug 路径（如 orbits/halo-orbit），
 //                     指向的词条文件必须存在
 //   related[].relation ∈ {broader, transfer, related}（开放枚举）
+//   title             ≤66 字符：标题应为中国名（可选短英文术语括注），不得携带定义句
 //
 // Exit codes:
 //   0  no findings
@@ -70,6 +71,11 @@ export function scanGlossaryFrontmatter(
     if (!fm) continue;
     const fail = (message: string) => findings.push({ file: file.relPath, message });
 
+    if (typeof fm.title === 'string' && fm.title.trim().length > 66) {
+      fail(
+        `title 超长（${fm.title.trim().length} 字符）：标题应为中国名（可选短英文术语括注），不得携带定义句`,
+      );
+    }
     if (fm.aliases !== undefined) {
       const aliases: unknown = fm.aliases;
       if (
@@ -126,8 +132,8 @@ const isMain =
 if (isMain) {
   runChecker({
     name: 'check-glossary-frontmatter',
-    description: 'Glossary entry frontmatter validator (aliases / related).',
-    scanMessage: 'glossary entry frontmatter (aliases / related)',
+    description: 'Glossary entry frontmatter validator (title / aliases / related).',
+    scanMessage: 'glossary entry frontmatter (title / aliases / related)',
     usageExamples: ['npx tsx .vuepress/build/check-glossary-frontmatter.ts'],
     defaultSeverity: 'error',
     supportedSeverities: ['error'],

@@ -1,5 +1,5 @@
 ---
-title: 序列凸规划（Sequential Convex Programming, SCP / Successive Convexification）
+title: 序列凸规划
 description: 把非凸最优控制问题在参考解处逐次线性化、配合信赖域与无损凸化，转化为一系列二阶锥规划（SOCP）子问题迭代求解的方法。具有内点法多项式时间复杂度、确定性收敛判据、可在线实时求解等特点；广泛用于动力下降制导、低推力转移、再入轨迹优化。
 keywords: 序列凸规划, Sequential Convex Programming, SCP, Successive Convexification, 凸优化, Convex Optimization, 二阶锥规划, SOCP, 信赖域, Trust Region, 损失无损凸化, Lossless Convexification, 虚拟控制, Virtual Control, 内点法, 动力下降制导, Powered Descent
 author: 天疆说

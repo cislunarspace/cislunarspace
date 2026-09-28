@@ -1,12 +1,12 @@
 ---
-title: 地月三角平动点转移网络（Earth-Moon Triangular Libration Point Transfer Network）
+title: 地月三角平动点转移网络
 description: 以月球为中枢，连接地球、近地轨道与三角平动点（L4/L5）区域的转移轨道网络。
 keywords: 地月三角平动点转移网络, Earth-Moon Triangular Libration Point Transfer Network, 轨道设计, 轨道力学, 平动点
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 地月三角平动点转移网络（Earth-Moon Triangular Libration Point Transfer Network）
+  title: 地月三角平动点转移网络
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/orbits/earth-moon-triangular-libration-point-transfer-network/
 ---
 
-# 地月三角平动点转移网络（Earth-Moon Triangular Libration Point Transfer Network）
+# 地月三角平动点转移网络
 
 > 本文作者：天疆说
 >

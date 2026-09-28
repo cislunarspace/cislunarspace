@@ -1,5 +1,5 @@
 ---
-title: 共轭点、极值曲线与二阶最优性条件（Conjugate Point, Extremal, and Second-Order Optimality）
+title: 共轭点、极值曲线与二阶最优性条件
 description: 最优控制的二阶必要与充分条件：正规/异常极值曲线、极值流、Jacobi 场与共轭点、Legendre-Clebsch 与强化 Legendre-Clebsch 条件、几何最优控制视角，以及 CR3BP 的次黎曼结构。
 keywords: 共轭点, Jacobi场, 异常极值曲线, 正规极值曲线, 极值流, Legendre-Clebsch条件, 强化Legendre-Clebsch条件, 几何最优控制, 次黎曼结构, 二阶最优性
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/fundamentals/conjugate-point/
 ---
 
-# 共轭点、极值曲线与二阶最优性条件（Conjugate Point, Extremal, and Second-Order Optimality）
+# 共轭点、极值曲线与二阶最优性条件
 
 > 本文作者：天疆说
 >

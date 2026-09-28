@@ -1,12 +1,12 @@
 ---
-title: 联合自主定轨（Linked Autonomous Orbit Determination, LAOD）
+title: 联合自主定轨
 description: 多颗卫星仅依靠星间测量数据，不依赖地面测控网，联合解算各自轨道的导航定位方法。区别于单星自主定轨，联合自主定轨通过卫星间的测量耦合，利用非对称引力场中导航星轨道方位的唯一性，消除绝对位置的秩亏问题，实现多星同时定轨。
 keywords: 联合自主定轨, Linked Autonomous Orbit Determination, LAOD, LAOD, navigation
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 联合自主定轨（Linked Autonomous Orbit Determination, LAOD）
+  title: 联合自主定轨
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/navigation/laod/
 ---
 
-# 联合自主定轨（Linked Autonomous Orbit Determination, LAOD）
+# 联合自主定轨
 
 > 本文作者：天疆说
 >

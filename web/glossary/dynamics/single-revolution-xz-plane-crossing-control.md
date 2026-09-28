@@ -1,12 +1,12 @@
 ---
-title: 单圈xz平面穿越控制（Single-Revolution xz-Plane Crossing Control）
+title: 单圈xz平面穿越控制
 description: 平动点绕飞轨道的一种维持控制策略：以航天器每穿越会合坐标系xz平面为控制时机，施加单次脉冲，调整x、z向速度趋零以保持轨道形状，同时调整y向速度以维持绕飞。该策略具有参数少、实现简单的特点，已被ARTEMIS等任务实际验证。
 keywords: 单圈xz平面穿越控制, Single-Revolution xz-Plane Crossing Control, 轨道动力学, 姿态控制, 最优控制
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 单圈xz平面穿越控制（Single-Revolution xz-Plane Crossing Control）
+  title: 单圈xz平面穿越控制
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/single-revolution-xz-plane-crossing-control/
 ---
 
-# 单圈xz平面穿越控制（Single-Revolution xz-Plane Crossing Control）
+# 单圈xz平面穿越控制
 
 > 本文作者：天疆说
 >

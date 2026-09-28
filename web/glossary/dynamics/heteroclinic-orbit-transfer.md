@@ -1,5 +1,5 @@
 ---
-title: 异宿轨道转移（Heteroclinic Orbit Transfer / Homoclinic Connections）
+title: 异宿轨道转移
 description: 限制性三体问题中的异宿连接、同宿连接及其组合循环：定义、庞加莱截面求交法、调相策略，以及星际高速公路在任务设计中的典型应用。
 keywords: 异宿轨道, 同宿轨道, Heteroclinic, Homoclinic, 异宿连接, 同宿连接, 调相, 星际高速公路, 低能转移
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/heteroclinic-orbit-transfer/
 ---
 
-# 异宿轨道转移（Heteroclinic Orbit Transfer / Homoclinic Connections）
+# 异宿轨道转移
 
 > 本文作者：天疆说
 >

@@ -1,5 +1,5 @@
 ---
-title: 椭圆限制性三体问题（Elliptic Restricted Three-Body Problem, ER3BP）
+title: 椭圆限制性三体问题
 description: CR3BP 的椭圆轨道推广：两主天体绕公共质心沿椭圆轨道运动，两体间距周期性变化，系统失去自治性和雅可比积分。覆盖时变会合系、脉动归一化、利用 Floquet 理论分析周期轨道稳定性的方法，以及与 CR3BP 在 $e \to 0$ 极限下的关系。
 keywords: 椭圆限制性三体问题, ER3BP, 椭圆轨道的三体问题, Elliptic Restricted Three-Body Problem, 椭圆型限制性三体问题, Floquet理论, 非自治系统, 周期轨道
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/er3bp/
 ---
 
-# 椭圆限制性三体问题（Elliptic Restricted Three-Body Problem, ER3BP）
+# 椭圆限制性三体问题
 
 > 本文作者：天疆说
 >

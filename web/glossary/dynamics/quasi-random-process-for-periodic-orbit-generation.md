@@ -1,12 +1,12 @@
 ---
-title: 周期轨道生成拟随机法（Quasi-random Process for Periodic Orbit Generation）
+title: 周期轨道生成拟随机法
 description: 一种通过在旋转坐标系x轴上选取任意初始位置、调节y方向速度直到轨迹闭合的周期轨道发现方法。
 keywords: 周期轨道生成拟随机法, Quasi-random Process for Periodic Orbit Generation, 轨道力学, 最优控制, 非线性动力学
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 周期轨道生成拟随机法（Quasi-random Process for Periodic Orbit Generation）
+  title: 周期轨道生成拟随机法
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/quasi-random-process-for-periodic-orbit-generation/
 ---
 
-# 周期轨道生成拟随机法（Quasi-random Process for Periodic Orbit Generation）
+# 周期轨道生成拟随机法
 
 > 本文作者：天疆说
 >

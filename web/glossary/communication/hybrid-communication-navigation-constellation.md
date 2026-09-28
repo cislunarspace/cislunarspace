@@ -1,5 +1,5 @@
 ---
-title: 混合通信导航星座（Hybrid Communication/Navigation Constellation）
+title: 混合通信导航星座
 description: 同时集成精密授时定位与高速数据中继功能的月球综合空间基础设施星座。
 keywords: 混合通信导航星座, 通导一体化, 空间星座, 星间链路
 author: 天疆说
@@ -12,7 +12,7 @@ wechatShare:
 permalink: /glossary/communication/hybrid-communication-navigation-constellation/
 ---
 
-# 混合通信导航星座（Hybrid Communication/Navigation Constellation）
+# 混合通信导航星座
 
 ## 定义
 

@@ -1,12 +1,12 @@
 ---
-title: 月球全球定位卫星星座（Lunar Global Positioning Satellite Constellation）
+title: 月球全球定位卫星星座
 description: 运行在环月轨道上的卫星组成的星座系统，为月面用户提供实时定位和授时服务，功能类似于地球上的GPS或北斗系统。可基于近月轨道、椭圆冻结轨道、平动点轨道或DRO等不同轨道类型构建。
 keywords: 月球全球定位卫星星座, Lunar Global Positioning Satellite Constellation, 导航, 定轨, 制导, 滤波器
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 月球全球定位卫星星座（Lunar Global Positioning Satellite Constellation）
+  title: 月球全球定位卫星星座
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/navigation/lunar-global-positioning-satellite-constellation/
 ---
 
-# 月球全球定位卫星星座（Lunar Global Positioning Satellite Constellation）
+# 月球全球定位卫星星座
 
 > 本文作者：天疆说
 >

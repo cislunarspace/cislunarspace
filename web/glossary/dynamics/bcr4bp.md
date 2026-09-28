@@ -1,5 +1,5 @@
 ---
-title: 双圆限制性四体问题（Bicircular Restricted Four-Body Problem, BCR4BP）
+title: 双圆限制性四体问题
 description: 在 CR3BP 框架上叠加第四个天体（如太阳）摄动的近似四体模型。覆盖双圆问题（BCP）的自洽性缺陷与 BCR4BP 的连贯模型、平面与空间变体、改进双圆模型、全历表限制性四体问题（FER4BP），以及在弱稳定边界转移、行星际高速公路和地月转移中的应用。
 keywords: 双圆限制性四体问题, BCR4BP, 双圆问题, Bicircular Problem, BCP, 四体问题, 限制性四体问题, 行星际高速公路, 弱稳定边界, 地月转移
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/bcr4bp/
 ---
 
-# 双圆限制性四体问题（Bicircular Restricted Four-Body Problem, BCR4BP）
+# 双圆限制性四体问题
 
 > 本文作者：天疆说
 >

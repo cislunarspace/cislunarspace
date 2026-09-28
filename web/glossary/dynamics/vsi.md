@@ -1,12 +1,12 @@
 ---
-title: 变比冲发动机（Variable Specific Impulse Engine, VSI Engine）
+title: 变比冲发动机
 description: 比冲可随推力调节而变化的电推进发动机，通过改变喷嘴排气速度来优化燃料消耗。
 keywords: 变比冲发动机, Variable Specific Impulse Engine, VSI Engine, VSI, 地月空间, cislunar
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 变比冲发动机（Variable Specific Impulse Engine, VSI Engine）
+  title: 变比冲发动机
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/vsi/
 ---
 
-# 变比冲发动机（Variable Specific Impulse Engine, VSI Engine）
+# 变比冲发动机
 
 > 本文作者：天疆说
 >

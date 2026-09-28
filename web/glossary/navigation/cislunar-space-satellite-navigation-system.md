@@ -1,12 +1,12 @@
 ---
-title: 地月空间卫星导航系统（Cislunar Space Satellite Navigation System）
+title: 地月空间卫星导航系统
 description: 部署在地月空间的导航基础设施，为月球探测提供时空基准。典型构型是在平动点（L1、L3、L4、L5）和远距离逆行轨道上布设导航卫星，通过星间链路实现自主定轨，摆脱对地基测控的依赖。
 keywords: 地月空间卫星导航系统, Cislunar Space Satellite Navigation System, 导航, 定轨, 星间链路
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 地月空间卫星导航系统（Cislunar Space Satellite Navigation System）
+  title: 地月空间卫星导航系统
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/navigation/cislunar-space-satellite-navigation-system/
 ---
 
-# 地月空间卫星导航系统（Cislunar Space Satellite Navigation System）
+# 地月空间卫星导航系统
 
 > 本文作者：天疆说
 >

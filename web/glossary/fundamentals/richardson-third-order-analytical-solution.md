@@ -1,12 +1,12 @@
 ---
-title: Richardson三阶近似解析解（Richardson Third-Order Analytical Solution）
+title: Richardson三阶近似解析解
 description: Richardson（1980）利用Lindstedt-Poincaré方法得到的圆型限制性三体问题中Halo轨道三阶近似展开式。以面内振幅Ax、面外振幅Az和角频率ω为参数，逐阶修正线性化解的非线性项。精度远高于一阶线性解，同时避免数值积分的高计算代价，是平动点轨道解析分析和编队设计的基础工具。
 keywords: Richardson三阶近似解析解, Richardson Third-Order Analytical Solution, 轨道力学, 航天动力学, 数值方法
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Richardson三阶近似解析解（Richardson Third-Order Analytical Solution）
+  title: Richardson三阶近似解析解
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/fundamentals/richardson-third-order-analytical-solution/
 ---
 
-# Richardson三阶近似解析解（Richardson Third-Order Analytical Solution）
+# Richardson三阶近似解析解
 
 > 本文作者：天疆说
 >

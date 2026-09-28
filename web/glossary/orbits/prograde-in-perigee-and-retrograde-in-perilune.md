@@ -1,12 +1,12 @@
 ---
-title: 地心顺行月心逆行（Prograde in Perigee and Retrograde in Perilune）
+title: 地心顺行月心逆行
 description: 地月转移轨道按运行方向的分类之一，指航天器在地心段沿地球自转方向运动（顺行），到达月球附近后沿与月球公转相反方向运动（逆行）。载人月球探测任务的自由返回轨道通常采用此类轨道。
 keywords: 地心顺行月心逆行, Prograde in Perigee and Retrograde in Perilune, 轨道设计, 周期轨道, 转移轨道
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 地心顺行月心逆行（Prograde in Perigee and Retrograde in Perilune）
+  title: 地心顺行月心逆行
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/orbits/prograde-in-perigee-and-retrograde-in-perilune/
 ---
 
-# 地心顺行月心逆行（Prograde in Perigee and Retrograde in Perilune）
+# 地心顺行月心逆行
 
 > 本文作者：天疆说
 >

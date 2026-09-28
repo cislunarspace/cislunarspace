@@ -48,6 +48,25 @@ related:
     expect(findings[0]!.message).toContain('relation 非法');
   });
 
+  it('flags glossary titles longer than 66 characters', () => {
+    const files = [
+      entry('glossary/fundamentals/stm.md', `title: 状态转移矩阵（${'A'.repeat(60)}）`),
+    ];
+    const findings = scanGlossaryFrontmatter(files);
+    expect(findings).toHaveLength(1);
+    expect(findings[0]!.message).toContain('不得携带定义句');
+  });
+
+  it('passes bilingual full names within 66 characters', () => {
+    const files = [
+      entry(
+        'glossary/dynamics/weierstrass.md',
+        'title: Weierstrass-Erdmann角点条件（Weierstrass-Erdmann Corner Conditions）',
+      ),
+    ];
+    expect(scanGlossaryFrontmatter(files)).toEqual([]);
+  });
+
   it('flags malformed ref paths and duplicate aliases', () => {
     const files = [
       entry(

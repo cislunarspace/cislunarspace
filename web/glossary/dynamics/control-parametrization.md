@@ -1,5 +1,5 @@
 ---
-title: 控制参数化与节流因子（Control Parametrization, B-Spline, Spherical Variables and Throttle）
+title: 控制参数化与节流因子
 description: 控制参数化把无限维的连续推力控制信号表达为有限个参数（多项式/Fourier 系数、B 样条控制点、球面（T,α,β）等），从而把最优控制问题转化为非线性规划。本词条系统介绍控制参数化的基本思想、B 样条基函数的连续阶与节点重复规则、球面控制变量在 CR3BP 小推力优化（HDDP）中的应用与坐标退化时的笛卡尔切换、节流因子（throttle factor）作为无量纲推力幅值变量在能量/燃料/时间最优控制中的不同取值（恒 1、由切换函数决定、bang-bang），以及多模式推进的油门函数。
 keywords: 控制参数化, B样条, 球面控制变量, 节流因子, 油门函数, 多项式基, Fourier基, 推力幅值, 低推力控制
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/control-parametrization/
 ---
 
-# 控制参数化与节流因子（Control Parametrization, B-Spline, Spherical Variables and Throttle）
+# 控制参数化与节流因子
 
 > 本文作者：天疆说
 >

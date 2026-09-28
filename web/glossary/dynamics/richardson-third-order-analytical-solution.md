@@ -1,12 +1,12 @@
 ---
-title: Richardson三阶解析解（Richardson Third-Order Analytical Solution）
+title: Richardson三阶解析解
 description: Richardson于1980年发展的平动点附近周期轨道近似方法。将运动方程在平动点处展开至三阶，用Lindstedt-Poincare摄动法消除长期项，得到Halo轨道在面内和面外分量的三阶解析解，为后续数值微分修正提供初值。
 keywords: Richardson三阶解析解, Richardson Third-Order Analytical Solution
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Richardson三阶解析解（Richardson Third-Order Analytical Solution）
+  title: Richardson三阶解析解
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/richardson-third-order-analytical-solution/
 ---
 
-# Richardson三阶解析解（Richardson Third-Order Analytical Solution）
+# Richardson三阶解析解
 
 > 本文作者：天疆说
 >

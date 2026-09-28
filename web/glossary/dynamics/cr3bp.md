@@ -1,5 +1,5 @@
 ---
-title: 圆形限制性三体问题（Circular Restricted Three-Body Problem, CR3BP）
+title: 圆形限制性三体问题
 description: 地月空间轨道动力学的基础数学模型：在会合坐标系中，质量可忽略的航天器受地球和月球两个主天体引力作用，主天体绕公共质心作圆轨道运动。覆盖模型假设、无量纲化（DU/TU/MU）、运动方程、质量参数 μ、雅可比常数、零速度曲面、周期轨道与数值方法，以及椭圆型、摄动四体、小推力、太阳帆等扩展变体。
 keywords: 圆形限制性三体问题, CR3BP, CRTBP, 限制性三体问题, R3BP, 会合坐标系, 雅可比常数, 零速度曲面, 质量参数, 无量纲化, 平动点, 周期轨道, 地月空间动力学
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/cr3bp/
 ---
 
-# 圆形限制性三体问题（Circular Restricted Three-Body Problem, CR3BP）
+# 圆形限制性三体问题
 
 > 本文作者：天疆说
 >

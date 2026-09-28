@@ -1,12 +1,12 @@
 ---
-title: Richardson 三阶近似解析解（Richardson Third-Order Analytical Approximation）
+title: Richardson 三阶近似解析解
 description: Richardson 在 1980 年提出的 Halo 轨道三阶近似解析解。将共线平动点附近的非线性运动方程作三阶展开，得到 Halo 轨道的解析表达式，可快速获得 Halo 轨道的初始估计。再结合微分修正法，即可得到高精度数值解。这是计算 Halo 轨道的标准方法。
 keywords: Richardson 三阶近似解析解, Richardson Third-Order Analytical Approximation, 基础, 理论, 方程
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Richardson 三阶近似解析解（Richardson Third-Order Analytical Approximation）
+  title: Richardson 三阶近似解析解
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/fundamentals/richardson-third-order-analytical-approximation/
 ---
 
-# Richardson 三阶近似解析解（Richardson Third-Order Analytical Approximation）
+# Richardson 三阶近似解析解
 
 > 本文作者：天疆说
 >

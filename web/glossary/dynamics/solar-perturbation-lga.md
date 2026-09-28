@@ -1,5 +1,5 @@
 ---
-title: 太阳摄动月球引力辅助（前向/后向月球借力，Solar-Perturbation Lunar Gravity Assist）
+title: 太阳摄动月球引力辅助
 description: 在双圆限制性四体问题（BCR4BP）中，地月会合系按月球位置分为四个象限：太阳引力摄动使第二、四象限飞行的航天器地月雅可比能量与机械能升高（前向月球借力），第一、三象限则反之（后向月球借力）。是 WSB 低能 DRO 入轨能否实现的能量判据。
 keywords: 前向月球借力, 后向月球借力, 太阳摄动月球引力辅助, forward lunar gravity assist, backward lunar gravity assist, BCR4BP, 雅可比能量, 机械能, 象限, 低能转移, WSB
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/solar-perturbation-lga/
 ---
 
-# 太阳摄动月球引力辅助（前向/后向月球借力，Solar-Perturbation Lunar Gravity Assist）
+# 太阳摄动月球引力辅助
 
 > 本文作者：天疆说
 >

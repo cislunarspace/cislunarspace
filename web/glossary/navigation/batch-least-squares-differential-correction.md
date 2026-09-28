@@ -1,12 +1,12 @@
 ---
-title: 批最小二乘微分修正（Batch Least-Squares Differential Correction）
+title: 批最小二乘微分修正
 description: 利用加权最小二乘法将位置观测与轨道初轨相结合，通过迭代求解轨道状态估值的微分修正方法。
 keywords: 批最小二乘微分修正, Batch Least-Squares Differential Correction, 导航, 定轨, 制导, 滤波器
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 批最小二乘微分修正（Batch Least-Squares Differential Correction）
+  title: 批最小二乘微分修正
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/navigation/batch-least-squares-differential-correction/
 ---
 
-# 批最小二乘微分修正（Batch Least-Squares Differential Correction）
+# 批最小二乘微分修正
 
 > 本文作者：天疆说
 >

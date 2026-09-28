@@ -1,12 +1,12 @@
 ---
-title: 弱稳定边界转移轨道（Weak Stability Boundary Transfer Trajectory）
+title: 弱稳定边界转移轨道
 description: 利用弱稳定边界（WSB）：稳定绕行的最远距离集合：构造的低能转移轨道；航天器经月球借力飞抵地球 WSB，以近零机动衔接月球 WSB 上的弹道捕获轨道，比 Hohmann 省约 18%，1991 年由 Hiten 任务首次验证。
 keywords: 弱稳定边界, WSB, Weak Stability Boundary, 弹道捕获, 低能转移, Belbruno
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-07
 wechatShare:
-  title: 弱稳定边界转移轨道（Weak Stability Boundary Transfer Trajectory）
+  title: 弱稳定边界转移轨道
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/orbits/weak-stability-boundary-transfer-trajectory/
 ---
 
-# 弱稳定边界转移轨道（Weak Stability Boundary Transfer Trajectory）
+# 弱稳定边界转移轨道
 
 > 本文作者：天疆说
 >

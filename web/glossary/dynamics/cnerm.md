@@ -1,12 +1,12 @@
 ---
-title: 圆型非线性相对运动方程（Circular Non-linear Equations of Relative Motion, CNERM）
+title: 圆型非线性相对运动方程
 description: 基于CR3BP假设的相对运动非线性方程组，忽略主天体的离心率效应。在远月点附近精度较好，误差在厘米级，可满足近程交会制导需求。
 keywords: 圆型非线性相对运动方程, Circular Non-linear Equations of Relative Motion, CNERM, CNERM, 地月空间, cislunar
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 圆型非线性相对运动方程（Circular Non-linear Equations of Relative Motion, CNERM）
+  title: 圆型非线性相对运动方程
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/cnerm/
 ---
 
-# 圆型非线性相对运动方程（Circular Non-linear Equations of Relative Motion, CNERM）
+# 圆型非线性相对运动方程
 
 > 本文作者：天疆说
 >

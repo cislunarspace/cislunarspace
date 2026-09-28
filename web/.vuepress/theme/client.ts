@@ -14,6 +14,18 @@ import { normalizePageMetadata } from '../utils/page-metadata';
 import { updateOgMeta } from './composables/useOgMeta';
 import { useScrollReveal } from './composables/useScrollReveal';
 
+import { resolvers } from '@vuepress/client';
+
+// 覆写 @vuepress/client unstable resolvers（rc.30）：标签页标题统一
+// 「页面名 - 地月空间入门指南」；页面名与站点名相同时（首页）只显示站点名。
+const SITE_TITLE = '地月空间入门指南';
+resolvers.resolvePageHeadTitle = (page, siteLocale) => {
+  const pageTitle = typeof page.title === 'string' ? page.title.trim() : '';
+  const siteTitle = (typeof siteLocale.title === 'string' && siteLocale.title.trim()) || SITE_TITLE;
+  if (!pageTitle || pageTitle === siteTitle) return siteTitle;
+  return `${pageTitle} - ${siteTitle}`;
+};
+
 export default defineClientConfig({
   layouts: {
     Layout,

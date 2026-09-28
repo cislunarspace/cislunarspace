@@ -1,8 +1,8 @@
 ---
-title: References
+title: 参考文献
 permalink: /references/
 ---
 
-# References
+# 参考文献
 
 <ReferencesList />

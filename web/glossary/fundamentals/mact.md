@@ -1,18 +1,18 @@
 ---
-title: 映射伴随控制变换（Mapped Adjoint Control Transformation, MACT）
+title: 映射伴随控制变换
 description: 将小推力轨道优化中的协态变量非线性映射至几何物理控制参数空间的间接法初值拓扑正则化技术。
 keywords: 映射伴随控制变换, MACT, 最优控制, 间接法, 小推力转移
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 映射伴随控制变换（Mapped Adjoint Control Transformation, MACT）
+  title: 映射伴随控制变换
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 permalink: /glossary/fundamentals/mact/
 ---
 
-# 映射伴随控制变换（Mapped Adjoint Control Transformation, MACT）
+# 映射伴随控制变换
 
 > 本文作者：天疆说
 >
