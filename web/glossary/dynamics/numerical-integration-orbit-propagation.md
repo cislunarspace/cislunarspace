@@ -1,12 +1,12 @@
 ---
-title: 数值积分（轨道）（Numerical integration (orbit propagation)）
+title: 数值积分（轨道）
 description: 用数值方法逐步推进求解航天器运动微分方程，得到离散时刻的状态矢量。常用方法包括Runge-Kutta法和Gauss-Jackson法。
 keywords: 数值积分（轨道）, Numerical integration (orbit propagation), 轨道动力学, 轨道优化, 非线性动力学
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 数值积分（轨道）（Numerical integration (orbit propagation)）
+  title: 数值积分（轨道）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/numerical-integration-orbit-propagation/
 ---
 
-# 数值积分（轨道）（Numerical integration (orbit propagation)）
+# 数值积分（轨道）
 
 > 本文作者：天疆说
 >

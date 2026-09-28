@@ -1,12 +1,12 @@
 ---
-title: 多重打靶差分动态规划（Multiple-Shooting Differential Dynamic Programming, MDDP）
+title: 多重打靶差分动态规划
 description: 将多相轨迹分解为多个独立相段、各自运行 HDDP 迭代的优化框架。与多相 HDDP 中全轨迹导数耦合不同，MDDP 在每次迭代中先独立优化各相段，再通过外层信赖域步骤更新各相段的初始状态和目标状态，从而将引力辅助等敏感段的影响限制在本相段内。各相段可并行计算，适合含多个引力辅助或复杂机动的长周期轨迹。
 keywords: 多重打靶差分动态规划, Multiple-Shooting Differential Dynamic Programming, MDDP, MDDP, dynamics
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 多重打靶差分动态规划（Multiple-Shooting Differential Dynamic Programming, MDDP）
+  title: 多重打靶差分动态规划
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/mddp/
 ---
 
-# 多重打靶差分动态规划（Multiple-Shooting Differential Dynamic Programming, MDDP）
+# 多重打靶差分动态规划
 
 > 本文作者：天疆说
 >

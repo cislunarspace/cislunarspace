@@ -1,12 +1,12 @@
 ---
-title: 高精度地月时空基准（High-Precision Cislunar Space-Time Benchmark）
+title: 高精度地月时空基准
 description: 为地月空间高精度导航定位提供统一时间和空间参考的基础框架。论文指出，构建和维持这一基准需要采用BCRS参考系，基于地月平动点的天基时空基准构建、溯源及传递是其实现路径。
 keywords: 高精度地月时空基准, High-Precision Cislunar Space-Time Benchmark, 导航, 定位, 测控
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 高精度地月时空基准（High-Precision Cislunar Space-Time Benchmark）
+  title: 高精度地月时空基准
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/navigation/high-precision-cislunar-space-time-benchmark/
 ---
 
-# 高精度地月时空基准（High-Precision Cislunar Space-Time Benchmark）
+# 高精度地月时空基准
 
 > 本文作者：天疆说
 >

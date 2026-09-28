@@ -1,12 +1,12 @@
 ---
-title: 太阳帆人工平动点轨道（Solar Sail Artificial Libration Point Orbit）
+title: 太阳帆人工平动点轨道
 description: 利用太阳光压产生的持续推力，在非共线平动点位置或原平动点附近构造的准平衡轨道。太阳帆提供的光压力可以抵消部分引力不平衡，使航天器在传统平动点不存在的位置也能实现准周期运动。朱敏研究了其动力学特性和自抗扰保持控制。
 keywords: 太阳帆人工平动点轨道, Solar Sail Artificial Libration Point Orbit, , 动力学, 非线性, 稳定性, 流形, 控制
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 太阳帆人工平动点轨道（Solar Sail Artificial Libration Point Orbit）
+  title: 太阳帆人工平动点轨道
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/solar-sail-artificial-libration-point-orbit/
 ---
 
-# 太阳帆人工平动点轨道（Solar Sail Artificial Libration Point Orbit）
+# 太阳帆人工平动点轨道
 
 > 本文作者：天疆说
 >

@@ -1,5 +1,5 @@
 ---
-title: Lagrange 系数（Lagrange Coefficients / f and g Functions）
+title: Lagrange 系数
 description: 二体问题中将两时刻位置与速度线性关联的系数对 $(f,g,\dot f,\dot g)$：$\vec r=f\vec r_0+g\vec v_0$、$\vec v=\dot f\vec r_0+\dot g\vec v_0$。本文覆盖恒等式 $f\dot g-\dot f g\equiv 1$、按真近点角差/偏近点角差/抛物/双曲/通用变量等不同自变量的封闭形式、按 Taylor 级数的展开式（用于初轨确定）、以及在二体传播、兰伯特问题、初轨确定中的角色。
 keywords: Lagrange 系数, Lagrange Coefficients, f and g 函数, f 和 g 函数, 二体传播, 通用变量, 初轨确定, 兰伯特问题
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/lagrange-coefficients/
 ---
 
-# Lagrange 系数（Lagrange Coefficients / f and g Functions）
+# Lagrange 系数
 
 > 本文作者：天疆说
 >

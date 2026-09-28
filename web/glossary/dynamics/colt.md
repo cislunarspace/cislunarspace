@@ -1,12 +1,12 @@
 ---
-title: 低推力配点优化工具（Collocation with Optimization for Low-Thrust）
+title: 低推力配点优化工具
 description: 基于直接配点法的低推力轨道设计与优化工具，集成了IPOPT优化器、网格细化策略和多种约束条件，用于求解连续最优控制问题。
 keywords: 低推力配点优化工具, Collocation with Optimization for Low-Thrust, COLT, dynamics
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 低推力配点优化工具（Collocation with Optimization for Low-Thrust）
+  title: 低推力配点优化工具
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/colt/
 ---
 
-# 低推力配点优化工具（Collocation with Optimization for Low-Thrust）
+# 低推力配点优化工具
 
 > 本文作者：天疆说
 >

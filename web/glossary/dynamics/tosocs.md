@@ -1,12 +1,12 @@
 ---
-title: 稀疏最优控制轨迹优化软件（Trajectory Optimization with Sparse Optimal Control Software, TOSOCS）
+title: 稀疏最优控制轨迹优化软件
 description: Lockheed Martin公司开发的三自由度开放轨迹设计与优化工具，基于商业优化引擎SOCS构建，用于高保真全历表模型下的DRO转移轨道优化设计。
 keywords: 稀疏最优控制轨迹优化软件, Trajectory Optimization with Sparse Optimal Control Software, TOSOCS, TOSOCS, 轨道优化, 粒子群, 遗传算法, 控制理论
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 稀疏最优控制轨迹优化软件（Trajectory Optimization with Sparse Optimal Control Software, TOSOCS）
+  title: 稀疏最优控制轨迹优化软件
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/tosocs/
 ---
 
-# 稀疏最优控制轨迹优化软件（Trajectory Optimization with Sparse Optimal Control Software, TOSOCS）
+# 稀疏最优控制轨迹优化软件
 
 > 本文作者：天疆说
 >

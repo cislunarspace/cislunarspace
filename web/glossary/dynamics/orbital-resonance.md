@@ -1,12 +1,12 @@
 ---
-title: 轨道共振（Orbital Resonance / Mean Motion Resonance）
+title: 轨道共振
 description: 轨道共振（平均运动共振）：两个绕共同中心天体运行的天体轨道周期呈简单整数比的力学状态。覆盖 p:q 定义、二体与 CR3BP 模型差异、内/外共振分类、1:1 与三角平动点、太阳系与地月空间实例，及其在低能转移与长期稳定性分析中的应用。
 keywords: 轨道共振, 平均运动共振, orbital resonance, mean motion resonance, p:q 共振, 内共振, 外共振, 三角平动点, 特洛伊天体, CR3BP, 地月空间, 共振轨道
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
-  title: 轨道共振（Orbital Resonance / Mean Motion Resonance）
+  title: 轨道共振
   desc: 平均运动共振的 p:q 定义、分类、CR3BP 周期轨道与地月空间应用。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/orbital-resonance/
 ---
 
-# 轨道共振（Orbital Resonance / Mean Motion Resonance）
+# 轨道共振
 
 > 本文作者：天疆说
 >

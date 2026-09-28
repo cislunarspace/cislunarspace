@@ -1,5 +1,5 @@
 ---
-title: 形状基方法与速度 Hodograph（Shape-Based Method and Velocity Hodograph）
+title: 形状基方法与速度 Hodograph
 description: 形状基方法（shape-based method）用预设的解析形状函数（指数正弦、逆多项式、Fourier 级数等）逼近小推力轨迹的几何形状，由形状反求推力剖面，把无限维最优控制问题降为有限维参数优化。本词条系统介绍 Petropoulos 指数正弦曲线及其多圈 Lambert 类比（Izzo 2006）、Wall-Conway 逆多项式、速度 hodograph 形状法、CR3BP 修正指数正弦（Vellutini & Avanzini 2014）、平动点周期轨道的振幅-相位形状函数，给出可行性条件 |k1·k2²|<1 的来源、切向推力假设的代价，以及在全局搜索和为直接/间接方法提供初值时的工程定位。
 keywords: 形状基方法, 形状法, 指数正弦, 逆多项式, 速度hodograph, Petropoulos, Wall-Conway, Vellutini, 小推力轨迹设计, 低推力转移, 平动点轨道
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/shape-based-method/
 ---
 
-# 形状基方法与速度 Hodograph（Shape-Based Method and Velocity Hodograph）
+# 形状基方法与速度 Hodograph
 
 > 本文作者：天疆说
 >

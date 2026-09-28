@@ -36,6 +36,10 @@
 ### 词条 frontmatter 关系字段（aliases / related）
 词条 frontmatter 中的知识库数据字段：`aliases` 为非空不重复的别名数组；`related` 为 `{ ref, relation }` 数组，`ref` 是词条 slug 路径（如 `orbits/halo-orbit`），必须解析到存在的词条文件 `glossary/<ref>.md`；`relation` 属于开放枚举 `{broader, transfer, related}`。由 `check-glossary-frontmatter` 在 `npm run check` 中强制校验。正文"相关概念"列表是该数据的人工视图。
 
+### 页面标签页标题（tab title）
+
+浏览器标签页与 `<title>` 标签的页面标题，格式「页面名 - 地月空间入门指南」，由 `web/.vuepress/theme/client.ts` 对 `@vuepress/client` resolvers 的覆写统一拼装（SSR 静态 HTML 与客户端路由切换同步生效）；页面名与站点名相同时（首页）只显示站点名。页面名数据源是页面 frontmatter title——词条还同时喂搜索索引、AI 路由索引与侧边栏，故改页面名必须改 frontmatter 而非渲染层。词条标题长度由 `check-glossary-frontmatter` 的 ≤66 字符规则约束。
+
 ### 引用键（\cite 键）
 
 正文中 `\cite{key}` 引用的 key，指向 `web/.vuepress/ref.bib` 的 BibTeX 条目。渲染为指向 `/references#key` 的编号链接；`check-links` 对其做存在性校验。手写参考文献表已废弃：正文引用即数据，编号与题录由 bibliography 生成器从 ref.bib 派生。

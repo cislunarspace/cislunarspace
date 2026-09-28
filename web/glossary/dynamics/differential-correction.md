@@ -1,12 +1,12 @@
 ---
-title: 微分修正与打靶法（Differential Correction & Shooting Method）
+title: 微分修正与打靶法
 description: 轨道力学中求解边值问题的核心数值方法：以状态转移矩阵为线性化算子，通过 Newton-Raphson 迭代修正自由变量使终端约束收敛到零。覆盖自由变量/约束方程、定步/变步打靶、多重打靶与 Howell-Pernicka 两级修正、直接/间接公式，以及 CR3BP 周期轨道与星历模型转移轨道设计中的工程要点。
 keywords: 微分修正, 打靶法, differential correction, shooting method, 状态转移矩阵, 多重打靶, 两级微分修正, Newton-Raphson, 边值问题, 拼接点
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
-  title: 微分修正与打靶法（Differential Correction & Shooting Method）
+  title: 微分修正与打靶法
   desc: 用状态转移矩阵把轨道边值问题线性化，再以 Newton 迭代打到目标：周期轨道与转移轨道设计的核心算法。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/differential-correction/
 ---
 
-# 微分修正与打靶法（Differential Correction & Shooting Method）
+# 微分修正与打靶法
 
 > 本文作者：天疆说
 >

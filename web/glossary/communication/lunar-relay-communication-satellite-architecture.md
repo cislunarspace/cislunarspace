@@ -1,12 +1,12 @@
 ---
-title: 月球中继通信卫星架构（Lunar Relay Communication Satellite Architecture）
+title: 月球中继通信卫星架构
 description: 由多颗运行在地月平动点轨道上的卫星组成的通信网络，旨在为月球南极提供持续通信覆盖。
 keywords: 月球中继通信卫星架构, Lunar Relay Communication Satellite Architecture, 通信, 信号, 链路
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 月球中继通信卫星架构（Lunar Relay Communication Satellite Architecture）
+  title: 月球中继通信卫星架构
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/communication/lunar-relay-communication-satellite-architecture/
 ---
 
-# 月球中继通信卫星架构（Lunar Relay Communication Satellite Architecture）
+# 月球中继通信卫星架构
 
 > 本文作者：天疆说
 >

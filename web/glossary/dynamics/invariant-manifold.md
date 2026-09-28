@@ -1,5 +1,5 @@
 ---
-title: 不变流形（Invariant Manifold / Stable & Unstable Manifolds）
+title: 不变流形
 description: 圆型限制性三体问题中平动点周期轨道的稳定与不稳定不变流形：定义、单值矩阵计算、流形管与分支、参数化、伪流形/扰动流形等工程近似，以及地月/日地系统实例与跨系统拼接。
 keywords: 不变流形, Invariant Manifold, 稳定流形, 不稳定流形, Stable Manifold, Unstable Manifold, 流形管, 单值矩阵, 低能转移, 平动点轨道
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/invariant-manifold/
 ---
 
-# 不变流形（Invariant Manifold / Stable & Unstable Manifolds）
+# 不变流形
 
 > 本文作者：天疆说
 >

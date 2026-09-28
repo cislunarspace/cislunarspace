@@ -1,12 +1,12 @@
 ---
-title: 直接法（Direct Methods for Trajectory Optimization）
+title: 直接法
 description: 轨迹优化的一大类数值方法。把无限维最优控制问题中的状态与控制量同时离散化，转录为有限维非线性规划（NLP）求解，与间接法相对。涵盖直接打靶、多重打靶、直接配点、伪谱法、序列凸规划、DMOC 等分支及其工程取舍，并解释 NLP 的 KKT 乘子与连续协态的对应关系。
 keywords: 直接法, Direct Method, 直接转录, Direct Transcription, 非线性规划, NLP, 轨迹优化, 最优控制, SQP, 内点法, Ipopt, SNOPT, 卡罗需-库恩-塔克, KKT, 协态映射
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
-  title: 直接法（Direct Methods for Trajectory Optimization）
+  title: 直接法
   desc: 把最优控制问题转录为非线性规划求解：分支、数学细节、工程取舍。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/direct-methods/
 ---
 
-# 直接法（Direct Methods for Trajectory Optimization）
+# 直接法
 
 > 本文作者：天疆说
 >

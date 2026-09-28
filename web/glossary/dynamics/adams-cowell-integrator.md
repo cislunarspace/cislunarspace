@@ -1,11 +1,11 @@
 ---
 permalink: /glossary/dynamics/adams-cowell-integrator/
-title: 多步积分器（Adams-Bashforth-Moulton / Cowell / Gauss-Jackson / KSG）
+title: 多步积分器
 description: 利用函数历史回值进行预测-校正的高精度轨道数值积分方法族。覆盖Adams-Bashforth（预测）+ Adams-Moulton（校正）一阶系统积分、Cowell / Störmer-Cowell / Gauss-Jackson直接积分二阶运动方程、以及Krogh-Shampine-Gordon（KSG）变步长divided-difference路线。
 keywords: 多步积分器, Adams-Bashforth, Adams-Moulton, Gauss-Jackson, Störmer-Cowell, KSG积分器, Krogh-Shampine-Gordon, 预测校正法, 二阶积分, 轨道传播, 数值积分, 航天动力学
 ---
 
-# 多步积分器（Adams-Bashforth-Moulton / Cowell / Gauss-Jackson / KSG）
+# 多步积分器
 
 > 本文作者：天疆说
 >

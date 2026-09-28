@@ -1,5 +1,5 @@
 ---
-title: 伪谱法（Pseudospectral Method / Spectral Collocation）
+title: 伪谱法
 description: 直接法的重要分支：用单一高阶全局 Lagrange 多项式逼近状态与控制，配点取 Legendre-Gauss（LG）/Legendre-Gauss-Radau（LGR）/Legendre-Gauss-Lobatto（LGL）正交节点。具有谱收敛性，且配点处的 KKT 条件与连续 OCP 的极大值原理一一对应（covector mapping）。覆盖 GPM、RPM（flipped Radau）、LPM、Chebyshev 变体及 GPOPS-II 等工具。
 keywords: 伪谱法, Pseudospectral Method, GPM, Gauss Pseudospectral Method, RPM, Radau Pseudospectral Method, LPM, Lobatto Pseudospectral Method, Chebyshev, Lagrange 插值, Legendre-Gauss, 谱收敛, hp 自适应, GPOPS-II, DIDO, covector mapping
 author: 天疆说

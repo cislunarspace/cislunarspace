@@ -1,5 +1,5 @@
 ---
-title: 离散力学与最优控制（Discrete Mechanics and Optimal Control, DMOC）
+title: 离散力学与最优控制
 description: 基于 Lagrange-d'Alembert 原理直接离散化的结构保持型最优控制方法。不离散 ODE，而是离散变分原理，把 forced 离散 Euler-Lagrange 方程作为约束、离散作用量作为代价，求解有限维 NLP。保辛、保动量，对低能地月转移等高非线性问题在大步长下仍能给出能量行为良好的解。
 keywords: 离散力学与最优控制, DMOC, Discrete Mechanics and Optimal Control, 变分积分器, Variational Integrator, 保辛, Symplectic, 离散 Euler-Lagrange, Discrete Euler-Lagrange, Lagrange-d'Alembert, Junge-Marsden-Ober-Blöbaum
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/discrete-mechanics-and-optimal-control/
 ---
 
-# 离散力学与最优控制（Discrete Mechanics and Optimal Control, DMOC）
+# 离散力学与最优控制
 
 > 本文作者：天疆说
 >

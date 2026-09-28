@@ -1,18 +1,18 @@
 ---
-title: 三角平动点周期轨道族（Periodic Orbit Family at Triangular Libration Point）
+title: 三角平动点周期轨道族
 description: 限制性三体问题中围绕拉格朗日三角平衡点L4和L5分岔演化的长短周期对称封闭轨道集合。
 keywords: 三角平动点周期轨道族, Periodic Orbit Family at Triangular Libration Point, 动力学, 平动点, 周期轨道族
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 三角平动点周期轨道族（Periodic Orbit Family at Triangular Libration Point）
+  title: 三角平动点周期轨道族
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 permalink: /glossary/dynamics/periodic-orbit-family-at-triangular-libration-point/
 ---
 
-# 三角平动点周期轨道族（Periodic Orbit Family at Triangular Libration Point）
+# 三角平动点周期轨道族
 
 > 本文作者：天疆说
 >

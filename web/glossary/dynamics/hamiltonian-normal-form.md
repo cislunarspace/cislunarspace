@@ -1,5 +1,5 @@
 ---
-title: 辛结构与哈密顿正规形（Symplectic Structure and Hamiltonian Normal Form）
+title: 辛结构与哈密顿正规形
 description: 哈密顿力学的辛结构框架，及其在平衡点与周期轨道邻域化简动力学中的应用。覆盖辛矩阵与辛变换、泊松括号、生成函数、Birkhoff 与 Birkhoff-Gustavson 正规形、同调方程与小除数、李级数方法（Hori/Deprit/Meyer）、Moser 定理，以及共线平动点处常用的偏正规形。
 keywords: 辛矩阵, 辛变换, 辛几何, 泊松括号, 生成函数, Birkhoff 正规形, Birkhoff-Gustavson 正规形, Hamilton 正规形, 同调方程, 小除数, Hori 方法, Moser 定理, 偏正规形
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/hamiltonian-normal-form/
 ---
 
-# 辛结构与哈密顿正规形（Symplectic Structure and Hamiltonian Normal Form）
+# 辛结构与哈密顿正规形
 
 > 本文作者：天疆说
 >

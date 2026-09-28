@@ -1,5 +1,5 @@
 ---
-title: Gooding 方法与轨道边值问题数值求解器（Gooding's Method, Lambert Solvers and BVP Iterative Methods）
+title: Gooding 方法与轨道边值问题数值求解器
 description: 本词条合并讲解地月空间任务常用的几类两点边值问题（BVP）数值求解器：Gooding（1990）Lambert 算法与 Gooding（1996）三视线初轨确定方案、求解飞行时间方程的高阶迭代（Householder 三阶、Powell 混合、割线/双点法）、解非线性 TPBVP 的拟线性化方法（含延拓法框架），以及平动点轨道保持专用的阻尼二分修正法。给出 Gooding 算法在现代 Lambert 求解器中的定位、飞行时间方程根迭代的算法取舍、拟线性化相比微分修正的二阶收敛优势，以及阻尼二分在 Halo 强非线性相空间中的鲁棒性。
 keywords: Gooding方法, Gooding方案, Lambert求解器, Householder方法, Powell混合算法, 双点迭代法, 割线法, 拟线性化, 阻尼二分修正, 两点边值问题, 初轨确定
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/goodings-method/
 ---
 
-# Gooding 方法与轨道边值问题数值求解器（Gooding's Method, Lambert Solvers and BVP Iterative Methods）
+# Gooding 方法与轨道边值问题数值求解器
 
 > 本文作者：天疆说
 >

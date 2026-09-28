@@ -1,18 +1,18 @@
 ---
-title: 组合自主定轨（Combined Autonomous Orbit Determination, CAOD）
+title: 组合自主定轨
 description: 结合环月低轨卫星群与特殊大尺度轨道探测器星间链路联合解算以破除整体几何旋转秩亏的自主定轨架构。
 keywords: 组合自主定轨, CAOD, 自主导航, 星间链路, 秩亏消除
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 组合自主定轨（Combined Autonomous Orbit Determination, CAOD）
+  title: 组合自主定轨
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 permalink: /glossary/navigation/caod/
 ---
 
-# 组合自主定轨（Combined Autonomous Orbit Determination, CAOD）
+# 组合自主定轨
 
 > 本文作者：天疆说
 >

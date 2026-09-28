@@ -1,5 +1,5 @@
 ---
-title: 惯性参考系（Inertial Reference Frames：ECI / EME2000 / GCRF / MCI / LME2000）
+title: 惯性参考系
 description: 天体力学与轨道动力学中各类惯性参考系的定义与谱系：地心 ECI/EME2000/GCRF、地固 ITRF/ECEF/WGS84、月心 MCI/LME2000 与月固系、地月质心系，覆盖 J2000 历元约定、ICRS/ICRF 背景与工程选系原则。
 keywords: 惯性参考系, ECI, EME2000, GCRF, MCI, LME2000, ITRF, ECEF, 地固坐标系, 月心惯性系, 白道面, 质心坐标系, inertial reference frame, geocentric, selenocentric
 author: 天疆说
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/fundamentals/inertial-reference-frames/
 ---
 
-# 惯性参考系（Inertial Reference Frames：ECI / EME2000 / GCRF / MCI / LME2000）
+# 惯性参考系
 
 > 本文作者：天疆说
 >

@@ -1,12 +1,12 @@
 ---
-title: 理论最小速度增量（Theoretical Minimum Velocity Increment, delta-V min）
+title: 理论最小速度增量
 description: 根据两条轨道之间的雅可比常数差计算的速度增量下限。用两轨道在近月点的速度和雅可比常数差表示，给出任意转移所需的能量下界。论文中PRM的总速度增量（365 m/s）比LFM（459.6 m/s）更接近理论最小值（279.2 m/s）。
 keywords: 理论最小速度增量, Theoretical Minimum Velocity Increment, delta-V min
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 理论最小速度增量（Theoretical Minimum Velocity Increment, delta-V min）
+  title: 理论最小速度增量
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
@@ -22,7 +22,7 @@ twitter:
 permalink: /glossary/dynamics/theoretical-minimum-velocity-increment-delta-v-min/
 ---
 
-# 理论最小速度增量（Theoretical Minimum Velocity Increment, delta-V min）
+# 理论最小速度增量
 
 > 本文作者：天疆说
 >
