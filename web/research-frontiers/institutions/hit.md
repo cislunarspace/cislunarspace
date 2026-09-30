@@ -4,7 +4,7 @@ description: 盘点国内外地月空间研究的主要机构、重点实验室�
 keywords: 地月空间研究机构, 重点实验室, 研究团队, 国内外机构, 合作交流, 研究方向
 author: 天疆说
 date: 2026-03-15
-lastUpdated: 2026-03-15
+lastUpdated: 2026-09-30
 permalink: /research-frontiers/institutions/hit/
 wechatShare:
   title: 地月空间研究机构与团队盘点 | 哈尔滨工业大学
@@ -36,7 +36,7 @@ twitter:
 
 ### 航天学院与卫星研制链条
 
-哈工大航天学院是学校开展地月空间相关研究的核心依托。围绕航天学院、卫星技术研究所和工大卫星，学校形成了从总体设计、分系统研制、载荷开发、地面测控到在轨应用验证的完整链条，具备从论文走向型号的实际转化条件。
+哈工大航天学院是学校开展地月空间相关研究的核心依托。围绕航天学院、卫星技术研究所和工大卫星，学校形成了从总体设计、分系统研制、载荷开发、地面测控到在轨应用验证的完整链条，具备从论文走向型号的实际转化条件。在轨道设计与自主导航等基础方向，张汉清等提出了地月三体问题下 L1-地球低能转移轨道设计方法，以降低轨道角动量为目标揭示了转移的动力学机理 \cite{ZhangHanQingDiYueSanTiWenTiXiaL1DiQiuDiNengZhuanYiGuiDaoSheJi2011}；刘玥等给出了一种用于月球低能返回轨道设计的混合自适应遗传算法，所需速度脉冲仅为传统双曲拼接法的约 75% \cite{LiuYueYueQiuDiNengFanHuiGuiDaoSheJiDeHunHeZiGuaYingYiChuanSuanFa2016}；钱霙婧等研究了多航天器部署问题中的自主导航方法 \cite{QianYingJingDuoHangTianQiBuShuWenTiZhongDeZiZhuDaoHangFangFaYanJiu2010}。在系统与工程层面，王月明针对天基运输平台研究了高精度制导与控制方法 \cite{WangYueMingTianJiYunShuPingTaiGaoJingDuZhiDaoYuKongZhiFangFaYanJiu2015}，田百义系统研究了小推力借力转移轨道设计与优化 \cite{TianBaiYiXiaoTuiLiJieLiZhuanYiGuiDaoSheJiYuYouHuaFangFaYanJiu2012}，陈国庆则面向地月机会式网络设计了数据流编码传输方案 \cite{ChenGuoQingMianXiangDiYueJiHuiShiWangLuoDeShuJuLiuBianMaChuanShuFangAnYanJiu2021}。
 
 ### 月球轨道任务验证能力
 
