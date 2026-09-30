@@ -4,7 +4,7 @@ description: 盘点国内外地月空间研究的主要机构、重点实验室�
 keywords: 地月空间研究机构, 重点实验室, 研究团队, 国内外机构, 合作交流, 研究方向
 author: 天疆说
 date: 2026-03-07
-lastUpdated: 2026-03-07
+lastUpdated: 2026-09-30
 permalink: /research-frontiers/institutions/npu/
 wechatShare:
   title: 地月空间研究机构与团队盘点 | 西北工业大学
@@ -49,13 +49,7 @@ og:
 
 #### 地月空间非合作航天器轨道巡检的博弈论机动策略
 
-文献信息：Han H, Dang Z. Game-theoretic maneuvering strategies for orbital inspection of non-cooperative spacecraft in cislunar space[J]. Chinese Journal of Aeronautics, 2025, 39: 103574.
-
-标题翻译：地月空间非合作航天器轨道巡检的博弈论机动策略
-
-Abstract: The problem of maneuvering for a servicing spacecraft (inspector) to inspect a noncooperative spacecraft (evader) in cislunar space is investigated in this paper. The evader, which may be a malfunctioning or uncontrolled satellite, introduces uncertainties due to its potential maneuvering capabilities. To address this challenge, the scenario is modeled as a special orbital game, incorporating the unique complexities of the cislunar environment. A variable-duration, turn-based inspection and anti-inspection game model is designed. The model defines both players rules, constraints, and victory conditions, providing a framework for non-cooperative inspection. Strategies for both players are developed and validated based on their dynamical properties. The inspectors strategy integrates two-body Lambert transfers with shooting methods, while the evaders strategy aims to maximize the inspectors fuel consumption. Simulation results show that the evaders optimal strategy involves deliberate fluctuations in its lunar periapsis altitude, with the inspectors required DV up to eight times greater than the evaders. The impact of game constraints is evaluated, and the effectiveness of deploying the inspector in low lunar orbit is compared with the inspecto the Earth-Moon Lagrange point L1. The strengths and weaknesses of both are shown. These findings provide valuable insights for future orbital servicing and orbital games.
-
-摘要翻译：本文研究了在近月空间内，服务航天器（检查者）对非合作航天器（规避者）进行抵近侦察的机动问题。规避者可能是一颗故障或失控的卫星，其潜在的机动能力引入了不确定性。为应对这一挑战，该场景被建模为一种特殊的轨道博弈，并考虑了近月空间特有的复杂动力学环境。本文设计了一种可变时长、回合制的检查与反检查博弈模型。该模型定义了双方的行动规则、约束条件与胜利条件，为非合作式抵近侦察提供了分析框架。基于双方动力学特性，本文开发并验证了各自的博弈策略。检查者策略融合了二体兰伯特转移与打靶法，而规避者策略旨在最大化检查者的燃料消耗。仿真结果表明，规避者的最优策略包含对其月球近拱点高度的主动调控，此时检查者所需的速度增量可达规避者的八倍之多。研究评估了博弈约束条件的影响，并对比了检查者部署于低月球轨道与地月拉格朗日L1点两种方案的有效性，揭示了各自的优势与局限。这些发现为未来在轨服务与轨道博弈研究提供了重要参考。
+党朝辉、韩鸿宇将地月空间中服务航天器对非合作航天器（可能是故障或失控卫星）的抵近巡检，建模为一类可变时长、回合制的检查-反检查轨道博弈，显式纳入了地月环境特有动力学与规避者机动能力带来的不确定性，为非合作目标的在轨巡查任务提供了系统的博弈建模框架，双方策略均基于各自动力学特性开发并通过仿真验证 \cite{hanGameTheoreticManeuveringStrategies2026}。
 
 ## 韩鸿宇
 
@@ -63,10 +57,8 @@ Abstract: The problem of maneuvering for a servicing spacecraft (inspector) to i
 
 #### 地月空间非合作航天器轨道巡检的博弈论机动策略
 
-文献信息：Han H, Dang Z. Game-theoretic maneuvering strategies for orbital inspection of non-cooperative spacecraft in cislunar space[J]. Chinese Journal of Aeronautics, 2025, 39: 103574.
+从博弈解的角度看，这项工作表明规避者的最优策略是对其月球近拱点高度进行主动调控，可使检查者所需速度增量达到规避者的八倍之多；研究还对比了检查者部署于低月轨道与地月 L1 点两种方案的有效性与局限，为巡检轨道方案选择给出了量化依据 \cite{hanGameTheoreticManeuveringStrategies2026}。
 
-标题翻译：地月空间非合作航天器轨道巡检的博弈论机动策略
+## 其他代表性研究
 
-Abstract: The problem of maneuvering for a servicing spacecraft (inspector) to inspect a noncooperative spacecraft (evader) in cislunar space is investigated in this paper. The evader, which may be a malfunctioning or uncontrolled satellite, introduces uncertainties due to its potential maneuvering capabilities. To address this challenge, the scenario is modeled as a special orbital game, incorporating the unique complexities of the cislunar environment. A variable-duration, turn-based inspection and anti-inspection game model is designed. The model defines both players rules, constraints, and victory conditions, providing a framework for non-cooperative inspection. Strategies for both players are developed and validated based on their dynamical properties. The inspectors strategy integrates two-body Lambert transfers with shooting methods, while the evaders strategy aims to maximize the inspectors fuel consumption. Simulation results show that the evaders optimal strategy involves deliberate fluctuations in its lunar periapsis altitude, with the inspectors required DV up to eight times greater than the evaders. The impact of game constraints is evaluated, and the effectiveness of deploying the inspector in low lunar orbit is compared with the inspecto the Earth-Moon Lagrange point L1. The strengths and weaknesses of both are shown. These findings provide valuable insights for future orbital servicing and orbital games.
-
-摘要翻译：本文研究了在近月空间内，服务航天器（检查者）对非合作航天器（规避者）进行抵近侦察的机动问题。规避者可能是一颗故障或失控的卫星，其潜在的机动能力引入了不确定性。为应对这一挑战，该场景被建模为一种特殊的轨道博弈，并考虑了近月空间特有的复杂动力学环境。本文设计了一种可变时长、回合制的检查与反检查博弈模型。该模型定义了双方的行动规则、约束条件与胜利条件，为非合作式抵近侦察提供了分析框架。基于双方动力学特性，本文开发并验证了各自的博弈策略。检查者策略融合了二体兰伯特转移与打靶法，而规避者策略旨在最大化检查者的燃料消耗。仿真结果表明，规避者的最优策略包含对其月球近拱点高度的主动调控，此时检查者所需的速度增量可达规避者的八倍之多。研究评估了博弈约束条件的影响，并对比了检查者部署于低月球轨道与地月拉格朗日L1点两种方案的有效性，揭示了各自的优势与局限。这些发现为未来在轨服务与轨道博弈研究提供了重要参考。
+在轨道设计与动力学方面，西工大团队围绕低能转移与 DRO 动力学有一批代表性成果：余会昌等提出结合流形拼接与月球借力的三脉冲低能转移设计方法，支撑基于 Lissajous 中转站的地月航班化运输网络构建 \cite{YuHuiChangJiYuLissajousZhongZhuanZhanDeDiNengZhuanYiGuiDaoSheJiYuYingYong2025}；王鑫等研究了太阳引力与太阳光压力对地月共振 DRO 动力学和几何结构的影响，揭示了光压致稳与轨道三维化等特性 \cite{WangXinTaiYangYinLiHeTaiYangGuangYaLiDuiDiYueYuanJuChiNiXingGuiDaoDeYingXiangTeXingYanJiu2025}；郑越等将混沌多步控制引入地月轨道转移以降低燃料消耗 \cite{ZhengYueHunDunDuoBuKongZhiZaiDiYueGuiDaoZhuanYiZhongDeYingYong2018}，并在其学位论文中系统研究了地月三体系统低能转移轨道的设计与控制 \cite{ZhengYueDiYueSanTiXiTongDiNengZhuanYiGuiDaoSheJiYuKongZhi2019}；郑丹丹研究了地月平动点转移轨道设计与交会控制方法 \cite{ZhengDanDanDiYuePingDongDianZhuanYiGuiDaoSheJiYuJiaoHuiKongZhiFangFaYanJiu2020}；张科等研究了圆型限制性三体问题中双脉冲地月转移轨道设计 \cite{ZhangKeYuanXingXianZhiXingSanTiWenTiZhongShuangMaiChongDiYueZhuanYiGuiDaoSheJiYanJiu2015}；高琛则系统研究了连续小推力航天器共线平动点轨道的动力学与控制 \cite{GaoChenLianXuXiaoTuiLiHangTianQiGongXianPingDongDianGuiDaoDongLiXueYuKongZhiYanJiu2022}。
