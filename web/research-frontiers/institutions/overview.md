@@ -43,12 +43,13 @@ twitter:
 - **[航天东方红卫星有限公司](/research-frontiers/institutions/dfhscl/)**：将小卫星研制能力与地月空间感知任务结合，参与了地月共线平动点轨道参数表征与目标编目、地月空间感知仿真系统研制等工作 \cite{qiaoOrbitalParameterCharacterization2025,HuJiaXinMianXiangDiYueKongJianGanZhiRenWuSheJiYuFenXiDeZhiNengFangZhenXiTongJiaGouYuShiXian2025}。
 - **[国防科技大学](https://www.nudt.edu.cn/)**：地月空间轨道动力学与任务规划方向活跃，地月 L1 点低能转移轨道设计与优化是其代表性方向之一 \cite{QiaoChenYuanDiYueL1DianDiNengZhuanYiGuiDaoSheJiYuYouHua2024}。
 - **[北京理工大学](https://www.bit.edu.cn/)**：深空探测轨道设计方向持续投入，低能量逃逸与捕获轨道设计研究是其代表性成果 \cite{WangYaMinShenKongTanCeDiNengLiangTaoYiYuBuHuoGuiDaoSheJiYanJiu2015}。
+- **[北京航空航天大学](https://www.buaa.edu.cn/)**：深空轨道设计方向成果扎实，月地转移轨道快速设计方法为其代表性工作之一 \cite{ZhengAiWuYueDiZhuanYiGuiDaoKuaiSuSheJiFangFa2014}。
 
 ### 院所与集团
 
-- **中国科学院**：国家天文台承担探月工程地面应用系统，上海天文台以 VLBI 测定轨见长，国家空间科学中心牵头空间科学系列任务，是月球与深空科学产出的重要来源。
-- **中国航天科技集团**：探月工程的工程总体与主要研制力量，第五研究院、第八研究院分别承担月球探测器平台与配套系统研制，覆盖从地月转移到月面采样的完整工程链条。
-- **深空探测实验室**：又称天都实验室，2022 年成立于合肥，面向国际月球科研站论证与先导试验，天都一号、天都二号试验星是其地月通导技术验证的载体。
+- **中国科学院**：国家天文台承担探月工程地面应用系统，上海天文台以 VLBI 测定轨见长，发展了用于地月空间的加权全频谱信号合成技术 \cite{LiZhiHuiYongYuDiYueKongJianVLBIDeJiaQuanQuanPinPuXinHaoHeChengJiShu2023}；国家空间科学中心牵头空间科学系列任务，是月球与深空科学产出的重要来源。
+- **中国航天科技集团**：探月工程的工程总体与主要研制力量，第五研究院、第八研究院分别承担月球探测器平台与配套系统研制，嫦娥五号任务的月地转移轨道设计与实践是该链条的代表成果 \cite{MengZhanFengChangEWuHaoRenWuYueDiZhuanYiGuiDaoSheJiYuShiJian2021}，覆盖从地月转移到月面采样的完整工程链条。
+- **深空探测实验室**：又称天都实验室，2022 年成立于合肥，面向国际月球科研站论证与先导试验，天都一号、天都二号试验星是其地月通导技术验证的载体，地月空间导航的技术现状与发展脉络也已有系统梳理 \cite{ShangGuanYongDiYueKongJianDaoHangXianZhuangYuJiShuFaZhanYanJiu2026}。
 
 ## 国外组织
 
