@@ -28,7 +28,7 @@ twitter:
 
 # 清华大学
 
-清华大学（Tsinghua University）是中国著名高等学府，坐落于北京西北郊风景秀丽的清华园，是中国高层次人才培养和科学技术研究的重要基地。
+清华大学是中国著名高等学府，坐落于北京西北郊风景秀丽的清华园，是中国高层次人才培养和科学技术研究的重要基地。
 
 清华大学的前身清华学堂始建于1911年，1912年更名为清华学校。1928年更名为国立清华大学。1937年抗日战争全面爆发后南迁长沙，与北京大学、南开大学组建国立长沙临时大学，1938年迁至昆明改名为国立西南联合大学。1946年迁回清华园，设有文、法、理、工、农等5个学院、26个系。
 
@@ -50,7 +50,7 @@ twitter:
 
 #### 地月空间DRO航班化往返转移多脉冲轨迹优化
 
-该工作针对航班化模式带来的转移时长受限与时间窗口需求广泛等挑战，仿真论证了存在晚出发反而更早抵达 DRO 服务站的特定时间窗口，配合停泊窗口序列的局部优化可使任务整体燃料节省约 2.5% \cite{BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。在空间安全相关方向，清华航天动力学团队（李俊峰、蒋方华等）还针对近距离航天器碰撞概率线性模型适用范围有限的问题提出了解析修正方法，拓展了模型适用范围并提高了精度 \cite{JiangWeiJinJuChiHangTianQiJianPengZhuangGaiLuXianXingMoXingDeJieXiXiuZheng2019}。
+该工作针对航班化模式带来的转移时长受限与时间窗口需求广泛等挑战，仿真论证了存在晚出发反而更早抵达 DRO 服务站的特定时间窗口，配合停泊窗口序列的局部优化可使任务整体燃料节省约 2.5% \cite{BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。在空间安全相关方向，清华航天动力学的李俊峰、蒋方华等还针对近距离航天器碰撞概率线性模型适用范围有限的问题提出了解析修正方法，拓展了模型适用范围并提高了精度 \cite{JiangWeiJinJuChiHangTianQiJianPengZhuangGaiLuXianXingMoXingDeJieXiXiuZheng2019}。
 
 ## 武迪
 
