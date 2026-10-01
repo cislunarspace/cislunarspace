@@ -4,7 +4,7 @@ description: 汇总地月空间平动点轨道参数表征、目标编目与动�
 keywords: 地月空间轨道参数表征, 平动点轨道, 目标编目, 动力学替代模型, 哈密顿分析
 author: 天疆说
 date: 2026-03-07
-lastUpdated: 2026-04-27
+lastUpdated: 2026-10-01
 permalink: /research-frontiers/directions/orbit-design/orbit-characterization/
 wechatShare:
   title: 地月空间轨道参数表征研究方向
@@ -30,9 +30,9 @@ twitter:
 
 ## 研究背景
 
-地月空间平动点轨道的参数表征是空间态势感知和轨道编目的基础性问题。与近地轨道不同，平动点轨道受三体动力学支配，传统的开普勒轨道根数不再适用，需要发展新的参数化方法。
+地月空间平动点轨道的参数表征是空间态势感知和轨道编目的基础性问题\cite{ChenYanLingDiYueKongJianBianMuXiTongGuanCeTiZhiYanJiu2025,YangLeiKongJianMuBiaoBianMuDingGuiLiLunYuJiShuJinZhan2023}。与近地轨道不同，平动点轨道受三体动力学支配，传统的开普勒轨道根数不再适用，需要发展新的参数化方法\cite{qiaoOrbitalParameterCharacterization2025}。
 
-现有研究面临两个核心挑战：一是如何在圆型限制性三体问题（CRTBP）框架下建立轨道的标准化描述；二是如何将CRTBP的结果推广到真实历表模型（如DE430），以支持实际观测数据的处理。
+现有研究面临两个核心挑战：一是如何在圆型限制性三体问题即 CRTBP 框架下建立轨道的标准化描述；二是如何将 CRTBP 的结果推广到 DE430 一类的真实历表模型以支持实际观测数据的处理，其中地月历表误差对共线平动点周期轨道的影响不可回避\cite{FangLiuDiYueLiBiaoWuChaiDuiGongXianPingDongDianZhouQiGuiDaoDeWuChaiYingXiangFenXi2024}。
 
 ## 关键技术
 
@@ -44,7 +44,7 @@ twitter:
 - $(I_2, \theta_2)$ 描述平面内的准周期运动
 - $(I_3, \theta_3)$ 描述垂直方向的准周期运动
 
-这6个特征参数构成了轨道的指纹，可以唯一标识一类轨道族。通过构建庞加莱截面分布图，可以直观展示不同轨道族在参数空间中的分布规律，为目标编目提供依据。
+这6个特征参数构成了轨道的指纹，可以唯一标识一类轨道族。通过构建庞加莱截面分布图，可以直观展示不同轨道族在参数空间中的分布规律，为目标编目提供依据\cite{qiaoOrbitalParameterCharacterization2025,YangLePingYiZhongDiYueGongXianPingDongDianGuiDaoCanShuBiaoZhengFangFa}。
 
 ### 动力学替代模型
 
@@ -56,7 +56,7 @@ twitter:
 2. **正则变换分离**：通过正则变换将运动分解为受迫运动（由太阳等大天体引起）和自由运动（轨道本身的固有运动）
 3. **频率分析迭代**：采用迭代频率分析方法提取系统的特征频率，构建解析表达式
 
-该方法已成功应用于全部5个平动点的动力学替代计算，覆盖360年的时间跨度，为长期轨道预报和编目维护提供了高效的计算工具。
+该方法已成功应用于全部5个平动点的动力学替代计算，覆盖360年的时间跨度，为长期轨道预报和编目维护提供了高效的计算工具\cite{qiaoCalculationDynamicalSubstitute2025}。
 
 ### 轨道编目与识别
 
@@ -64,7 +64,7 @@ twitter:
 
 1. **分布图构建**：在庞加莱截面上绘制不同轨道族的特征参数分布，形成轨道地图
 2. **轨道识别**：给定观测数据，通过贝叶斯优化方法在参数空间中搜索最匹配的轨道族
-3. **鲁棒性验证**：敏感性分析表明，该方法对初始位置误差（~100km）和速度误差（~1m/s）具有良好的鲁棒性
+3. **鲁棒性验证**：敏感性分析表明，该方法对约 100 km 的初始位置误差和约 1 m/s 的速度误差具有良好的鲁棒性\cite{qiaoOrbitalParameterCharacterization2025}。
 
 ## 主要贡献
 
@@ -75,11 +75,7 @@ twitter:
 
 ## 相关文献
 
-[1] Qiao C, Long X, Yang L, et al. Calculation of a dynamical substitute for the real earth–moon system based on hamiltonian analysis[J]. Astrophysical Journal, 2025, 991(1): 46-59.
-
-[2] Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025: 103869-103896.
-
-[3] 杨乐平, 乔琛远, 龙洗, 等. 一种地月共线平动点轨道参数表征方法[P].
+上述参数表征与动力学替代方法体系的原始文献见\cite{qiaoCalculationDynamicalSubstitute2025,qiaoOrbitalParameterCharacterization2025}，相应的地月共线平动点轨道参数表征方法已形成专利\cite{YangLePingYiZhongDiYueGongXianPingDongDianGuiDaoCanShuBiaoZhengFangFa}。
 
 ---
 

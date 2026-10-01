@@ -8,7 +8,7 @@ wechatShare:
 keywords: DRO应用, 应急返回, 中继通信, 编队飞行, CAPSTONE, Artemis
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-08-27
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/dro/applications/
 ---
 
@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/dro/applications/
 
 ## 应急返回轨道
 
-DRO 的一个独特应用是作为**应急返回轨道**（Contingency Return Orbit）。在地月空间任务中，若航天器出现故障需要紧急返回地球，DRO 提供了一条低 ΔV 的返回走廊。
+DRO 的一个独特应用是作为**应急返回轨道** Contingency Return Orbit。在地月空间任务中，若航天器出现故障需要紧急返回地球，DRO 提供了一条低 ΔV 的返回走廊 \cite{zhangTransfersDistantRetrograde2020,BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。
 
 从 L1 DRO 到再入大气层的典型 ΔV 预算约为 400-600 m/s，低于从 NRHO 返回所需的 600-900 m/s。这是因为 DRO 本身距离地球较近（相对于 L1 NRHO），且其轨道几何使得返回转移更为直接。
 
@@ -30,7 +30,7 @@ DRO 的一个独特应用是作为**应急返回轨道**（Contingency Return Or
 
 DRO 对某些特定任务具有中继通信优势：
 
-- **大视场覆盖**：DRO 的高轨道位置使其能够同时看到较大范围的地球和月球区域
+- **大视场覆盖**：DRO 的高轨道位置使其能够同时看到较大范围的地球和月球区域 \cite{kechichianSolarSurveillanceZone2005}
 - **持续可见性**：对于某些特定几何配置，DRO 可提供对极地区域的持续可见性
 - **低干扰环境**：相比 LEO，DRO 受到地球阴影的影响较小
 
@@ -40,11 +40,11 @@ DRO 对某些特定任务具有中继通信优势：
 
 多航天器协同是 DRO 的另一个应用方向。在 DRO 上运行的多个航天器可以：
 
-- 利用 DRO 的固有稳定性减少编队维持所需的 ΔV
+- 利用 DRO 的固有稳定性减少编队维持所需的 ΔV \cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023}。
 - 实现编队飞行任务（如合成孔径雷达、引力波探测等）
-- 形成"星座"结构，提高覆盖范围或冗余度
+- 形成星座结构，提高覆盖范围或冗余度 \cite{JiaoRongChangJiYuDROLEOXingZuoDeBeiDouWeiXingZiZhuDingGuiYuShouShi2026}。
 
-中科院先导专项的 DRO-A/B 双星即采用该思路：2024 年 3 月发射入轨后，双星于同年 8 月分离编队，验证地月 DRO 上的编队与测量技术。
+中科院先导专项的 DRO-A/B 双星即采用该思路：2024 年 3 月发射入轨后，双星于同年 8 月分离编队，验证地月 DRO 上的编队与测量技术 \cite{ZhangRuYueDiYueKongJianDROJinJuChiBianDuiXingJianCeLiangXiangDuiDingGui2025}。
 
 ## 典型任务案例
 
@@ -54,8 +54,8 @@ NASA 的阿尔忒尼斯 1 号（Artemis I，2022 年）是 DRO 工程应用最�
 
 ### 中科院 DRO-A/B 双星
 
-中国科学院先导专项的 DRO-A/B 双星于 2024 年 3 月发射。发射过程中上面级故障，卫星经地面救援变轨后进入预定轨道，同年 8 月双星分离编队，目前仍在轨运行。这是我国地月 DRO 轨道首批在轨验证任务。
+中国科学院先导专项的 DRO-A/B 双星于 2024 年 3 月发射。发射过程中上面级故障，卫星经地面救援变轨后进入预定轨道，同年 8 月双星分离编队，目前仍在轨运行。这是我国地月 DRO 轨道首批在轨验证任务 \cite{fengDetectorPerformanceGammaray2024}。
 
 ## 与 NRHO 方案的取舍
 
-Gateway 规划阶段曾比较 DRO 与 NRHO 两种方案。DRO 胜在固有稳定性与更低的维持代价；NRHO 则以极区可达性取胜——近月点低、每个周期大部分时间悬于月球南极上空，适合载人登月中转。最终 NASA 为 Gateway 选定 NRHO；而 Artemis 1 号绕月使用 DRO 类轨道，两者各有分工而非简单替代。
+Gateway 规划阶段曾比较 DRO 与 NRHO 两种方案 \cite{PengQiBoYueQiuKongJianZhanTingBoGuiDaoXuanZeFenXi2022}。DRO 胜在固有稳定性与更低的维持代价；NRHO 则以极区可达性取胜，其近月点低、每个周期大部分时间悬于月球南极上空，适合载人登月中转。最终 NASA 为 Gateway 选定 NRHO；而 Artemis 1 号绕月使用 DRO 类轨道，两者各有分工而非简单替代。

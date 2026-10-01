@@ -8,7 +8,7 @@ wechatShare:
 keywords: DRO动力学, 逆行几何, 雅可比常数, CR3BP稳定性, Coriolis效应
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/dro/mechanics/
 ---
 
@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/dro/mechanics/
 
 ## 逆行几何
 
-DRO 在地月旋转坐标系中的最显著特征是其**逆行运动**（Retrograde）：航天器的轨道运动方向与地月连线的旋转方向相反。在旋转坐标系中，轨道角速度 $\dot{\theta} < 0$，即航天器从旋转坐标系看是在倒退运行。
+DRO 在地月旋转坐标系中的最显著特征是其**逆行运动**，即 Retrograde 运动：航天器的轨道运动方向与地月连线的旋转方向相反。在旋转坐标系中，轨道角速度 $\dot{\theta} < 0$，即航天器从旋转坐标系看是在倒退运行 \cite{perozziDistantRetrogradeOrbits2017}。
 
 这一几何特性可以用会合坐标系的角动量来解释。设航天器在惯性空间中的角动量为 $h$，则其在旋转坐标系中的有效角动量为：
 
@@ -48,7 +48,7 @@ $$C_J = x^2 + y^2 + \frac{2(1-\mu)}{r_1} + \frac{2\mu}{r_2} - \dot{x}^2 - \dot{y
 
 ## 稳定性来源
 
-DRO 在 CR3BP 中的较高固有稳定性源于逆行运动与 Coriolis 效应的特殊相互作用。
+DRO 在 CR3BP 中的较高固有稳定性源于逆行运动与 Coriolis 效应的特殊相互作用 \cite{perozziDistantRetrogradeOrbits2017}。
 
 ### Coriolis 效应的角色
 
@@ -56,7 +56,7 @@ DRO 在 CR3BP 中的较高固有稳定性源于逆行运动与 Coriolis 效应�
 
 ### 与 Lyapunov 轨道的联系
 
-DRO 与 L1/L2 附近的 Lyapunov 周期轨道存在**同源分支**（Bifurcation）关系。随着雅可比常数 $C_J$ 的减小（能量增加），Lyapunov 轨道会通过分叉（bifurcation）转变为 DRO。这种分支关系说明 DRO 并非孤立的轨道族，而是 CR3BP 周期轨道族的一部分。
+DRO 与 L1/L2 附近的 Lyapunov 周期轨道存在**同源分支**关系，即随能量参数变化的分岔联系。随着雅可比常数 $C_J$ 减小而能量增加，Lyapunov 轨道会通过分岔转变为 DRO。这种分支关系说明 DRO 并非孤立的轨道族，而是 CR3BP 周期轨道族的一部分 \cite{ChenGuanHuaDiYueKongJianDeYuanJuChiNiXingGuiDaoZuJiQiFenChaYanJiu2022}。
 
 ## 速度分量与轨道形态
 
@@ -64,4 +64,4 @@ DRO 与 L1/L2 附近的 Lyapunov 周期轨道存在**同源分支**（Bifurcatio
 
 $$v_x^2 + v_y^2 + v_z^2 = 2\Omega - C_J$$
 
-逆行特性意味着 $v_y < 0$（假设旋转方向为正 y），但这不意味着整个轨道都在倒转，而是指净角动量为负。DRO 的 $v_x$ 分量在轨道的不同相位可能为正或为负，形成近似椭圆形的轨道形态。
+逆行特性意味着在旋转方向取正 y 的约定下 $v_y < 0$，但这不意味着整个轨道都在倒转，而是指净角动量为负。DRO 的 $v_x$ 分量在轨道的不同相位可能为正或为负，形成近似椭圆形的轨道形态 \cite{kimuraAnalyticalExpressionDistant2019}，三维情形下各方向振幅比与角速度比之间存在解析约束，单值矩阵特征值可给出稳定性判据 \cite{nishimuraAnalysisDistantRetrograde2020}。

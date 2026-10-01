@@ -8,7 +8,7 @@ wechatShare:
 keywords: NRHO稳定性, 轨道维持, station-keeping, ΔV预算, Lyapunov指数
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-08-27
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/nrho/stability-maintenance/
 ---
 
@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/nrho/stability-maintenance/
 
 ## 初值敏感性与发散时标
 
-NRHO 是弱双曲不稳定轨道：线性化分析表明它沿部分方向存在模大于 1 的 Floquet 乘子，初值误差会逐圈放大。以工程常用的 9:2 共振成员为例，单值矩阵的不稳定乘子约为 −2.18（弱双曲区间内约在 2.2 至 3.1 之间），对应每个周期（6.56 天）误差约放大至 2 倍量级——发散速度远低于大尺度晕轨道动辄数百倍的乘子。折算成连续时间增长率约为 0.1 d⁻¹ 量级，e 折叠时间为天量级而非月量级。
+NRHO 是弱双曲不稳定轨道：线性化分析表明它沿部分方向存在模大于 1 的 Floquet 乘子，初值误差会逐圈放大。以工程常用的 9:2 共振成员为例，单值矩阵的不稳定乘子约为 −2.18（弱双曲区间内约在 2.2 至 3.1 之间），对应每个周期（6.56 天）误差约放大至 2 倍量级——发散速度远低于大尺度晕轨道动辄数百倍的乘子\cite{muralidharanLeveragingStretchingDirections2022,muralidharanStationkeepingEarthmoonRectilinear2021}。折算成连续时间增长率约为 0.1 d⁻¹ 量级，e 折叠时间为天量级而非月量级。
 
 正因放大慢、可控，NRHO 才能以极低的维持代价长期运行；但同样意味着测定轨误差与机动执行误差必须每圈监控并压制，不能放任累积。
 
@@ -36,27 +36,27 @@ NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典
 
 典型数值：
 
-- L1/L2 NRHO：年维持 $\Delta V$ 为数米/秒量级；采用 Cauchy–Green 最大伸展方向引导的靶向机动或全状态目标模型预测控制等现代方法，可降至 2 m/s/年以内（NASA Gateway 任务基线亦在此量级）
+- L1/L2 NRHO：年维持 $\Delta V$ 为数米/秒量级；采用 Cauchy–Green 最大伸展方向引导的靶向机动或全状态目标模型预测控制等现代方法，可降至 2 m/s/年以内，NASA Gateway 任务基线亦在此量级\cite{muralidharanLeveragingStretchingDirections2022,shimaneRevolutionspacedOutputfeedbackModel2025}
 
 ## 维持策略
 
 ### 脉冲式维持（Impulsive Station-Keeping）
 
-利用小推力发动机（如肼推进器）进行周期性脉冲修正。每次修正的 $\Delta V$ 约为 1-5 m/s，修正时机通常选在轨道的远地点或近地点（速度最低点），以最大化修正效果。
+利用小推力发动机（如肼推进器）进行周期性脉冲修正。每次修正的 $\Delta V$ 约为 1-5 m/s，修正时机通常选在轨道的远地点或近地点（速度最低点），以最大化修正效果。基于轨道周期性设计的线性周期控制是这一思路的经典代表\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
 
 ### 连续推力维持（Continuous Thrust Station-Keeping）
 
-对于电推进系统，可采用连续小推力修正，通过调节推力方向来补偿摄动。这需要更复杂的姿轨耦合控制，但能获得更精确的轨道保持精度。
+对于电推进系统，可采用连续小推力修正，通过调节推力方向来补偿摄动\cite{gaoLowthrustStationkeepingControl2023}。这需要更复杂的姿轨耦合控制，但能获得更精确的轨道保持精度。
 
 ### 维持时机优化
 
-最优维持策略需在修正频率与修正精度之间权衡。数值研究（Muralidharan & Howell, 2022）表明：将机动置于远月点偏离区（真近点角约 160°–200°），即 Cauchy–Green 应变张量最大伸展方向最能发挥作用的位置，可用理论最小能量抑制发散；配合全状态目标 MPC 还可消除沿轨相位漂移。过低的修正频率会导致偏差累积增加单次代价，过高则增加调度复杂度。
+最优维持策略需在修正频率与修正精度之间权衡。数值研究表明\cite{muralidharanLeveragingStretchingDirections2022}：将机动置于远月点偏离区，即真近点角约 160 至 200 度、Cauchy–Green 应变张量最大伸展方向最能发挥作用的位置，可用理论最小能量抑制发散；配合全状态目标 MPC 还可消除沿轨相位漂移\cite{shimaneStationkeepingNearrectilinearHalo2025}。过低的修正频率会导致偏差累积增加单次代价，过高则增加调度复杂度。
 
 ## 外部摄动的影响
 
 ### 太阳引力摄动
 
-太阳引力是 NRHO 轨道维持的主要外部干扰源。在 L2 NRHO 附近，太阳引力摄动的影响尤为显著，因为 L2 点方向的引力梯度更弱。
+太阳引力是 NRHO 轨道维持的主要外部干扰源。在 L2 NRHO 附近，太阳引力摄动的影响尤为显著，因为 L2 点方向的引力梯度更弱\cite{boudadDisposalTrajectoriesRectilinear2018}。
 
 ### 月球非球形摄动
 

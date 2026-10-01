@@ -8,7 +8,7 @@ wechatShare:
 keywords: L2 NRHO, L2 halo orbit, 地月L2点, 月球背面通信
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-08-27
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/nrho/l2-nrho/
 ---
 
@@ -24,7 +24,7 @@ permalink: /cislunar-orbits/nrho/l2-nrho/
 
 地月 L2 平动点位于地月连线上、地月质心向外延伸方向，距地球约 115% 地月距离（约 448,800 km）。与 L1 点相同，L2 点同样是地球与月球引力平衡点，但位于月球外侧。
 
-L2 NRHO 的几何形态与 L1 NRHO 相似：航天器在会合坐标系中沿近直线轨迹在 L2 点附近往复振荡。与 L1 NRHO 的主要区别在于其所处的引力环境：L2 位于月球背侧，更远离地球而更接近深空，这对其通信、测控和辐射环境有直接影响。
+L2 NRHO 的几何形态与 L1 NRHO 相似：航天器在会合坐标系中沿近直线轨迹在 L2 点附近往复振荡。与 L1 NRHO 的主要区别在于其所处的引力环境：L2 位于月球背侧，更远离地球而更接近深空，这对其通信、测控和辐射环境有直接影响\cite{zimovanCharacteristicsDesignStrategies2017}。
 
 ## 与 L1 NRHO 的对比
 
@@ -40,7 +40,7 @@ L2 NRHO 的几何形态与 L1 NRHO 相似：航天器在会合坐标系中沿近
 
 L2 NRHO 的动力学约束与 L1 NRHO 基本相同：由 CR3BP 的雅可比常数 $C_J$ 守恒约束轨道族的存在范围。然而，由于 L2 点的引力势垒更弱（距离月球更远），L2 NRHO 对摄动的敏感性通常略高于 L1 NRHO，尤其是对太阳引力摄动的响应更为显著。
 
-L2 NRHO 同样具有近极几何带来的极区覆盖优势，其稳定性分析需结合真实星历模型（JPL DE440 或更高精度）进行数值验证。
+L2 NRHO 同样具有近极几何带来的极区覆盖优势，其稳定性分析需结合真实星历模型如 JPL DE440 或更高精度进行数值验证\cite{ZhuYanWeiXingLiMoXingXiaJiYuDuoChongDaBaPinJieDeChangQiJinZhiXianYunGuiDaoSheJiFangFa2026}。
 
 ## 设计约束
 
@@ -55,5 +55,5 @@ L2 NRHO 的设计约束与 L1 NRHO 类似，但需额外考虑：
 L2 南族 NRHO 最主要的应用价值在于其为月球南极与背面任务提供通信支持的能力。航天器每个周期的大部分时间悬于月球南极上空，可以：
 
 - 长时间看到月球南极着陆区与部分月背区域
-- 为嫦娥四号/六号等月球着陆任务提供中继思路参考（鹊桥一号实际采用地月 L2 大振幅晕轨道，是同类几何最著名的工程应用）
+- 为嫦娥四号/六号等月球着陆任务提供中继思路参考，鹊桥一号实际采用地月 L2 大振幅晕轨道，是同类几何最著名的工程应用，其定轨需依赖深空网与 VLBI 长弧段联合跟踪\cite{CaoJianFengShuangZhanGenZongMoShiXiaChangE4HaoZhongJiXingDingGuiFangZhenFenXi2019}
 - 支持月面资源的持续观测与通信中继

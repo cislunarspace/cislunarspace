@@ -8,7 +8,7 @@ wechatShare:
 keywords: DRO设计, 初始条件搜索, Floquet分析, 星历提升, 轨道维持
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/dro/design-method/
 ---
 
@@ -32,7 +32,7 @@ DRO 的初始条件搜索是轨道设计的第一步。在 CR3BP 模型中，DRO
 2. 对每个网格点，数值积分一个周期 $T$
 3. 检验周期性条件：$\mathbf{X}(T) - \mathbf{X}(0) \approx \mathbf{0}$
 
-该方法的计算量较大，但对于 DRO 这类具有清晰几何特征的轨道，可以利用先验知识缩小搜索范围。
+该方法的计算量较大，但对于 DRO 这类具有清晰几何特征的轨道，可以将近椭圆解析近似作为先验知识缩小搜索范围 \cite{kimuraAnalyticalExpressionDistant2019}。
 
 ### 延续法
 
@@ -42,7 +42,7 @@ DRO 的初始条件搜索是轨道设计的第一步。在 CR3BP 模型中，DRO
 2. 逐步改变 $C_J$ 或振幅参数
 3. 在每步中使用打靶法修正周期性条件
 
-由于 DRO 与 Lyapunov 轨道存在同源分支关系，可以从 L1/L2 Lyapunov 轨道族逐步延续到 DRO 族。
+由于 DRO 与 Lyapunov 轨道存在同源分支关系，可以从 L1/L2 Lyapunov 轨道族逐步延续到 DRO 族 \cite{ChenGuanHuaDiYueKongJianDeYuanJuChiNiXingGuiDaoZuJiQiFenChaYanJiu2022}。
 
 ## Floquet 模态分析
 
@@ -50,7 +50,7 @@ DRO 的初始条件搜索是轨道设计的第一步。在 CR3BP 模型中，DRO
 
 $$\mathbf{M}(T)\mathbf{v} = \lambda \mathbf{v}$$
 
-DRO 的特征在于其 Floquet 乘数位于单位圆附近且呈共轭对分布，这表明 DRO 在 CR3BP 模型中具有边缘稳定性（neutral stability）。
+DRO 的特征在于其 Floquet 乘数位于单位圆附近且呈共轭对分布，这表明 DRO 在 CR3BP 模型中具有边缘稳定性，即中性稳定 \cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023}。
 
 不稳定乘数 $|\lambda| > 1$ 的存在表明该 DRO 族在摄动下会逐渐发散，需要轨道维持。
 
@@ -63,7 +63,7 @@ DRO 的特征在于其 Floquet 乘数位于单位圆附近且呈共轭对分布�
 3. **数值验证**：在真实星历模型中验证轨道的准周期性
 4. **偏差修正**：若轨道在真实星历中不满足周期性，进行迭代修正
 
-典型的星历提升偏差量级为：轨道位置偏差 ~1-10 km，周期偏差 ~minutes/周期。
+典型的星历提升偏差量级为轨道位置偏差约 1 至 10 km、周期偏差约分钟每周期，可通过自适应两级微分校正等算法在星历模型中迭代修正 \cite{chenCalculatingQuasiperiodicDistant2024}。
 
 ## 轨道维持设计
 
@@ -71,7 +71,7 @@ DRO 的 station-keeping 设计需考虑以下因素：
 
 ### 维持策略
 
-DRO 的低维持 ΔV 预算（约 5-20 m/s/年）使得简单的脉冲式维持即可满足要求：
+DRO 的低维持 ΔV 预算约为每年 5 至 20 m/s，基于敏感性分析的简单脉冲式维持即可满足要求 \cite{AoHaiYueYuanJuChiNiXingGuiDaoDeJinJuChiBianDuiGuiDaoBaoChiCeLue2024}：
 
 - **维持频率**：通常每 1-2 周进行一次小修正（$\Delta V \approx 0.5-2$ m/s）
 - **修正方向**：沿轨道不稳定的 Floquet 模态方向进行修正
@@ -85,3 +85,5 @@ DRO 的低维持 ΔV 预算（约 5-20 m/s/年）使得简单的脉冲式维持�
 | 月球非球形 | 1-3 m/s/年 |
 | 太阳辐射压力 | 0.5-2 m/s/年 |
 | 其他 | < 1 m/s/年 |
+
+表中太阳引力与太阳光压两类摄动源的贡献随轨道构型与航天器面质比变化，系统研究给出了两类摄动源的影响特性 \cite{WangXinTaiYangYinLiHeTaiYangGuangYaLiDuiDiYueYuanJuChiNiXingGuiDaoDeYingXiangTeXingYanJiu2025}。

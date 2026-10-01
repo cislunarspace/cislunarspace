@@ -8,7 +8,7 @@ wechatShare:
 keywords: 发射窗口, 窗口频率, C3变化, ΔV惩罚, GMAT, STK
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/transfer/launch-windows/
 ---
 
@@ -32,7 +32,7 @@ permalink: /cislunar-orbits/transfer/launch-windows/
 
 ### 发射窗口形成的物理机制
 
-当发射方向（地球自转确定）与月球公转方向和位置达到特定几何关系时，从 LEO 出发的航天器可以最省燃料地到达月球。满足这一几何关系的时机即为 TLI 发射窗口。
+当由地球自转确定的发射方向与月球公转方向和位置达到特定几何关系时，从 LEO 出发的航天器可以最省燃料地到达月球。满足这一几何关系的时机即为 TLI 发射窗口 \cite{BaiYuZhuRuanZhaoYueRenWuChuangKouYuGuiDaoSheJiFangFaYanJiu2009}。
 
 ## 窗口频率
 
@@ -42,7 +42,7 @@ permalink: /cislunar-orbits/transfer/launch-windows/
 - **次优窗口**：在两次最佳窗口之间也存在次优机会，但能量较高
 - **错过窗口**：若错过发射窗口，通常需等待下一个 14-15 天周期
 
-对于需要精确到达月球某点（如月球背面特定经纬度）的任务，窗口可能进一步收窄至每 28-30 天一次。
+对于需要精确到达月球某处如月球背面特定经纬度的任务，窗口可能进一步收窄至每 28-30 天一次，自由返回等典型约束下的窗口存在性还可由快速判据预先论证 \cite{HeBoYongDianXingYueShuDeZaiRenDengYueZiYouFanHuiGuiDaoChuangKouCunZaiXingPanJu2022}。转移方式不同窗口结构也随之变化，月球低能返回轨道一类任务需要专门的窗口搜索策略 \cite{ZhangChenYiZhongYueQiuDiNengFanHuiGuiDaoRenWuChuangKouSouSuoCeLue2026}。
 
 ## 偏离最佳窗口的代价
 
@@ -63,9 +63,7 @@ $C_3$ 增加直接导致 TLI 机动所需 $\Delta V$ 增加：
 
 ### 转移时间变化
 
-偏离最佳窗口还可能导致转移时间延长或缩短，以及到达月球时的几何位置不利。
-
-## 发射窗口规划工具
+偏离最佳窗口还可能导致转移时间延长或缩短，以及到达月球时的几何位置不利。工程上也可通过轨道设计放宽窗口约束，例如双星协同的低能转移优化能够在兼顾两类目标轨道的同时扩大可发射时段 \cite{WangYangXinYiJianShuangXingXieTongGuiDaoYouHuaDROLLODiNengZhuanYiSheJi2025}。
 
 ### GMAT
 

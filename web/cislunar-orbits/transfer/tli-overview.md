@@ -8,7 +8,7 @@ wechatShare:
 keywords: TLI, 地月转移轨道插入, 发射窗口, C3, 双曲面超速, Apollo, 嫦娥
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-08-27
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/transfer/tli-overview/
 ---
 
@@ -24,7 +24,7 @@ permalink: /cislunar-orbits/transfer/tli-overview/
 
 TLI（Trans-Lunar Injection，地月转移轨道插入）是地月转移任务的第一次大机动，将航天器从近地停泊轨道送入地月转移轨道。TLI 机动通常在地球停泊轨道（LEO 或高椭圆轨道）上执行，利用火箭上面级或航天器主发动机提供所需的 $\Delta V$。
 
-历史上，执行过 TLI 机动的任务包括：Apollo 月球载人任务、嫦娥系列月球探测器、SLIM 月球着陆器、以及多项深空探测任务。
+历史上，执行过 TLI 机动的任务包括：Apollo 月球载人任务、嫦娥系列月球探测器、SLIM 月球着陆器、以及多项深空探测任务 \cite{genovaTransfersTLILunar2024,MengZhanFengChangEWuHaoRenWuYueDiZhuanYiGuiDaoSheJiYuShiJian2021}。
 
 ## 发射窗口
 
@@ -36,7 +36,7 @@ TLI 的发射窗口由地月几何决定，主要考虑因素包括：
 
 ### 发射机会频率
 
-由于地月系统的轨道周期关系，合适的 TLI 发射窗口约每 14-15 天出现一次（半个朔望月）。这是因为每次发射后需等待月球运行到合适位置才能以最优能量到达。
+由于地月系统的轨道周期关系，合适的 TLI 发射窗口约每 14-15 天出现一次，即半个朔望月。这是因为每次发射后需等待月球运行到合适位置才能以最优能量到达 \cite{ChenTianJiKaoLuHuanYueJiaoHuiYueShuDeDiYueZhuanYiGuiDaoSheJi2023}。
 
 ### 窗口偏离的代价
 
@@ -52,7 +52,7 @@ TLI 的能量需求用双曲面超速 $C_3$ 表征：
 
 $$C_3 = v^2 - \frac{2\mu_E}{r}$$
 
-从 LEO（185 km 圆轨道，$v \approx 7.8$ km/s）进入地月转移轨道，需在近地点将速度提高约 3.1 km/s，对应 $C_3$ 约 $-2.0$ 至 $-1.0$ km$^2$/s$^2$。注意转移轨道并未达到逃逸速度——其远地点仍留在地月空间内，这正是 TLI 与逃逸机动的本质区别：
+从 185 km 高度的 LEO 圆轨道出发，其中 $v \approx 7.8$ km/s，进入地月转移轨道需在近地点将速度提高约 3.1 km/s，对应 $C_3$ 约 $-2.0$ 至 $-1.0$ km$^2$/s$^2$ \cite{PengQiBoZaiRenDengYueDiYueZhuanYiGuiDaoFangAnZongShu2016}。注意转移轨道并未达到逃逸速度，其远地点仍留在地月空间内，这正是 TLI 与逃逸机动的本质区别：
 
 $$\Delta V_{TLI} \approx 3.1 \text{ km/s}$$
 
@@ -70,7 +70,7 @@ $$\Delta V_{TLI} \approx 3.1 \text{ km/s}$$
 2. **检查与等待**：在 LEO 执行系统检查，等待合适的发射窗口
 3. **TLI 机动**：上面级或主发动机点火，提供 $\Delta V \approx 3.1$ km/s
 4. **上面级分离**：转移级与航天器分离
-5. **中途修正**（可选）：进行 1-2 次轨迹修正（$\Delta V \sim 1-50$ m/s）
+5. **中途修正**：视误差传播情况可进行 1-2 次轨迹修正，每次 $\Delta V$ 约 1 至 50 m/s \cite{LiHaiYangZaiRenDengYueZhuanYiGuiDaoPianChaiChuanBoFenXiYuZhongTuXiuZhengFangFaGaiShu2017,ZhaoYuHuiDiYueZhuanYiGuiDaoWuChaiFenXiHeZhongTuXiuZheng2011}。
 6. **月球到达**：到达月球影响球（约 64,000 km），准备轨道插入
 
 ## 发射窗口规划工具
