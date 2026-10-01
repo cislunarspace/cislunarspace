@@ -4,7 +4,7 @@ description: 形状基方法（shape-based method）中定义轨迹几何的一�
 keywords: 形状参数, Shape Parameter, 指数正弦曲线, exponential sinusoid, 形状基方法, shape-based method, 小推力轨迹, 多圈 Lambert 问题, Petropoulos, Izzo
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-01
 wechatShare:
   title: 形状参数（Shape Parameter）
   desc: 指数正弦曲线的形状参数：多圈小推力 Lambert 问题的核心决策变量。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/shape-parameter/
 
 ## 定义
 
-在轨迹设计的**形状基方法**（shape-based method）中，形状参数是定义轨迹几何曲线的自由参数。不对应于特定的物理量，而是通过假设轨迹具有某种解析形状（如指数正弦曲线、多项式曲线等）来参数化航天器的运动路径；推力剖面、飞行时间和各段燃料消耗由形状参数通过逆动力学反推得到（Petropoulos 2002；Izzo 2006）。
+在轨迹设计的**形状基方法**（shape-based method）中，形状参数是定义轨迹几何曲线的自由参数。不对应于特定的物理量，而是通过假设轨迹具有某种解析形状（如指数正弦曲线、多项式曲线等）来参数化航天器的运动路径；推力剖面、飞行时间和各段燃料消耗由形状参数通过逆动力学反推得到 \cite{izzoLambertsProblemExponential2006}。
 
 最知名的形状参数体系是 Petropoulos (2002) 提出的**指数正弦曲线**（exponential sinusoid），由四个参数定义：
 
@@ -83,7 +83,5 @@ $$
 ## 参考文献
 
 - Petropoulos, 2002, Ph.D. dissertation, Purdue University（指数正弦曲线形状基方法的原始提出）
-
-- Izzo, 2006, Lambert's problem for exponential sinusoids, JGCD（多圈指数正弦 Lambert 问题的系统化求解，形状参数 $k_2$ 的角色与最优值的确定）
 
 - Vasile, Schütze et al., 2007（用更多自由参数的形状基方法扩展指数正弦方法，权衡曲线保真度与搜索维度）

@@ -4,7 +4,7 @@ description: 通过中继卫星转发信号，实现两个无法直接通信的�
 keywords: Relay Communication, 中继, 中继通信, 深空, 通信
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 中继通信（Relay Communication）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/communication/relay-communication/
 
 ## 定义
 
-通过中继卫星转发信号，实现两个无法直接通信的节点之间的信息传递。在月球背面任务中，由于月球遮挡，背面探测器无法与地球直接通信，必须借助部署在地月L2点附近的中继卫星进行信号转发，实现对着陆器和巡视器的遥控指令上传和科学数据下传。嫦娥4号中继星采用再生转发模式，对地采用S频段统一载波体制，对月前向链路采用X频段统一载波体制，返向链路采用S频段BPSK抑制载波体制。
+通过中继卫星转发信号，实现两个无法直接通信的节点之间的信息传递。在月球背面任务中，由于月球遮挡，背面探测器无法与地球直接通信，必须借助部署在地月L2点附近的中继卫星进行信号转发，实现对着陆器和巡视器的遥控指令上传和科学数据下传。嫦娥4号中继星采用再生转发模式，对地采用S频段统一载波体制，对月前向链路采用X频段统一载波体制，返向链路采用S频段BPSK抑制载波体制\cite{WuWeiRenChangE4HaoYueQiuBeiMianRuanZhaoLuRenWuSheJi2017}。
 
 ## 应用价值
 
@@ -39,7 +39,3 @@ permalink: /glossary/communication/relay-communication/
 ## 相关概念
 
 - 鹊桥一号中继星（Queqiao-1 Relay Satellite）
-
-## 参考文献
-
-- 吴伟仁 等 - 2017 - 嫦娥4号月球背面软着陆任务设计

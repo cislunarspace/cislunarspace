@@ -4,7 +4,7 @@ description: GCRS与BCRS坐标转换中由两个参考系对时间的不同定�
 keywords: Lorentz Contraction, 坐标系, 洛伦兹收缩, 航天器, 轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 洛伦兹收缩（Lorentz Contraction）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/lorentz-contraction/
 
 ## 定义
 
-GCRS与BCRS坐标转换中由两个参考系对时间的不同定义引起的相对论效应，使得坐标矢量在地球公转速度沿迹方向减小。对于地月平动点目标，该效应约为数米量级。
+GCRS与BCRS坐标转换中由两个参考系对时间的不同定义引起的相对论效应，使得坐标矢量在地球公转速度沿迹方向减小。对于地月平动点目标，该效应约为数米量级 \cite{CaoJianFengShiKongCanKaoXiDuiDiYueGuanCeJianMoYuYingYongDeYingXiang2025a}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ GCRS与BCRS坐标转换中由两个参考系对时间的不同定义引起的相
 - [相对运动最优控制（Optimal Relative Motion Control）](/glossary/dynamics/fuel-optimal/)
 - 火箭分级（Rocket Staging）
 - 叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）
-
-## 参考文献
-
-- 时空参考系对地月观测建模与应用的影响

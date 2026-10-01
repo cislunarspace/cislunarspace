@@ -4,7 +4,7 @@ description: 在高维轨道初始参数空间中进行系统化离散离散采�
 keywords: 网格搜索法, Grid Search Method, 轨道搜索, 初始参数空间, 轨迹数据库
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 网格搜索法（Grid Search Method）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -28,7 +28,7 @@ permalink: /glossary/fundamentals/grid-search-method/
 
 在典型的地月轨道转移与周期轨道生成设计中，算法通常将雅可比能量常数 $C_j$、初始穿越坐标 $y_0$ 以及平面速度入射角 $\theta$ 等关键自变量离散化为高维参数网格。例如设置能量步长 $\Delta C = 0.01$、速度角步长 $\Delta \theta = 0.005^\circ$、位置步长 $\Delta y_0 = 0.01$，生成数十万至数百万个离散初值节点进行并行数值传播。
 
-网格搜索法能全面揭示稳定流形、共振轨道及弹道捕获通道在参数空间中的连通域，为深空探测转移轨迹优化提供无遗漏的全局拓扑结构初值。
+网格搜索法能全面揭示稳定流形、共振轨道及弹道捕获通道在参数空间中的连通域，为深空探测转移轨迹优化提供无遗漏的全局拓扑结构初值\cite{parker2014low}。
 
 ## 相关概念
 
@@ -40,4 +40,3 @@ permalink: /glossary/fundamentals/grid-search-method/
 ## 参考文献
 
 - Liang, Y., Qi, R., & Baoyin, H. Global search for low-thrust transfers in the Earth-Moon system. Astrophysics and Space Science, 2016, 361(12): 390.
-- Parker, J. S., & Anderson, R. L. Low-Energy Lunar Trajectory Design. John Wiley & Sons, 2014.

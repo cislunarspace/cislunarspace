@@ -35,7 +35,7 @@ $$
 
 ## JPL 星历存储
 
-切比雪夫多项式在航天动力学中的实际重要性来自 JPL 的行星和月球历表（DE/LE 系列）。JPL 在数值积分太阳系运动方程（变步长 Adams 型积分器）后，将行星位置和速度数据分时间段用切比雪夫多项式拟合，仅存储系数（Standish 1990; Vallado 2022, Sec. 5.4）。
+切比雪夫多项式在航天动力学中的实际重要性来自 JPL 的行星和月球历表（DE/LE 系列）。JPL 在数值积分太阳系运动方程（变步长 Adams 型积分器）后，将行星位置和速度数据分时间段用切比雪夫多项式拟合，仅存储系数\cite{valladoFundamentalsAstrodynamicsApplications2022}。
 
 对 DE-245 和 DE-405，跨度安排为：
 
@@ -51,7 +51,7 @@ $$
 
 ## 轨道逼近与边界约束
 
-在轨迹设计中，切比雪夫多项式用于将参考轨道（如停泊在 LEO 或 DRO 上的轨道）的位置和速度分量表示为以时间为变量的光滑可微函数。这样，转移弧的边界条件成为有限个切比雪夫系数的代数约束，相比逐点约束强制，优化问题规模大为缩小（Gomez et al. 2001, Vol. III, Sec. 4.3）。
+在轨迹设计中，切比雪夫多项式用于将参考轨道（如停泊在 LEO 或 DRO 上的轨道）的位置和速度分量表示为以时间为变量的光滑可微函数。这样，转移弧的边界条件成为有限个切比雪夫系数的代数约束，相比逐点约束强制，优化问题规模大为缩小\cite{gomez2001dynamics}。
 
 同样的方法用于拟合拟周期不变环面：环面是由角度参数化的光滑曲面，将嵌入函数的切比雪夫展开随着项数指数收敛，使高维动力学结构可以有效存储和求值。
 
@@ -76,10 +76,6 @@ $$
 
 - Abramowitz and Stegun, 1964, *Handbook of Mathematical Functions*, Ch. 22（切比雪夫多项式：递推、正交性、minimax 性质）
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, Sec. 5.4（JPL 星历的切比雪夫表示；DE-245/DE-405 各天体跨度长度；月球与太阳精度）
-
 - Standish, 1990, *The Observational Basis for JPL's DE 200, the Planetary Ephemerides of the Astronomical Almanac*, Astron. Astrophys. 233:252–271（JPL 星历的切比雪夫系数拟合流程）
-
-- Gomez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. III, Sec. 4.3（CR3BP 数值模拟中对 JPL 星历的切比雪夫表示使用）
 
 - Press et al., 1992, *Numerical Recipes in C*, Sec. 5.8（切比雪夫求值的 Clenshaw 递推）

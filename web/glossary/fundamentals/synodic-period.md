@@ -4,7 +4,7 @@ description: 两个运动天体相对于第三点回到相同相对几何构型�
 keywords: 会合周期, 会合频率, 月球会合周期, 太阳会合频率, 恒星周期, 月相, synodic period, 相位循环, 地月旋转系
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-01
 wechatShare:
   title: 会合周期（Synodic Period）与会合频率
   desc: 两个天体回到相同相对构型的时间；月球会合周期 29.53 天，是月相循环的时长。
@@ -46,7 +46,7 @@ $$
 \frac{1}{S_\text{月}} = \frac{1}{27.3217} - \frac{1}{365.256} \;\Longrightarrow\; S_\text{月} \approx 29.5306\ \text{天}.
 $$
 
-这是任何受日-地-月夹角驱动的现象的自然节拍：潮汐、月相照明、传感器覆盖中的太阳回避窗口、以及共振 DRO 的设计。例如 2:1 共振 DRO 的轨道周期即 $S_\text{月}/2 \approx 14.77$ 天（Welch et al. 2015）。地月空间态势感知仿真通常覆盖整数个会合周期，以保证太阳回避窗口的统计具有代表性（Vendl & Holzinger 2021）。
+这是任何受日-地-月夹角驱动的现象的自然节拍：潮汐、月相照明、传感器覆盖中的太阳回避窗口、以及共振 DRO 的设计。例如 2:1 共振 DRO 的轨道周期即 $S_\text{月}/2 \approx 14.77$ 天 \cite{welchMissionConsiderationsTransfers2015a}。地月空间态势感知仿真通常覆盖整数个会合周期，以保证太阳回避窗口的统计具有代表性 \cite{vendlCislunarPeriodicOrbit2021}。
 
 ## 地月旋转系中的太阳会合频率
 
@@ -60,7 +60,7 @@ $$
 \tau_\text{wait} = \frac{\vartheta - \vartheta_i + 2\pi k}{\omega_\text{int} - \omega_\text{tgt}},
 $$
 
-其中 $\vartheta$ 是所要求的相位角分离，$k$ 为圈数（Vallado 2022, §6.5）。两卫星轨道越接近，会合周期越长；轨道差距越大，反而越快相位，这是发射窗口设计中的反直觉规律。
+其中 $\vartheta$ 是所要求的相位角分离，$k$ 为圈数 \cite{valladoFundamentalsAstrodynamicsApplications2022}。两卫星轨道越接近，会合周期越长；轨道差距越大，反而越快相位，这是发射窗口设计中的反直觉规律。
 
 ## 相关概念
 
@@ -72,14 +72,8 @@ $$
 
 ## 参考文献
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §6.5 与 §3.4：卫星交会中的会合周期；质心时间系统。
+- Gómez, Jorba, Llibre, Masdemont, Simó, 2001, *Dynamics and Mission Design near Libration Points*, vol. II：双圆模型中的太阳会合摄动。
 
 - Szebehely, 1967, *Theory of Orbits*, §1.5：无量纲会合系与角速度 $n$ 的定义。
 
-- Gómez, Jorba, Llibre, Masdemont, Simó, 2001, *Dynamics and Mission Design near Libration Points*, vol. II：双圆模型中的太阳会合摄动。
-
-- Welch, Barden, Howell, 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit：2:1 共振 DRO 与半个月球会合周期。
-
-- Vendl & Holzinger, 2021, "Cislunar periodic orbit analysis for persistent space object detection capability"：会合周期作为传感器覆盖仿真节拍。
-
-- Thornton et al., 2022：覆盖完整会合周期的仿真基线。
+- Thornton, D., Little, B., & Steward, B., 2022, Dim cislunar target tracking with GEO- and HEO-based optical sensors：覆盖完整会合周期的仿真基线 \cite{darrenthorntonDimCislunarTarget2022}。

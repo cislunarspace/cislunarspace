@@ -4,7 +4,7 @@ description: 将地球和月球合并为单一第二主天体的圆型限制性�
 keywords: 增强地月模型, Augmented Earth-Moon Model, 基础概念, 运动方程, 参考系, 参数
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 增强地月模型（Augmented Earth-Moon Model）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/augmented-earth-moon-model/
 
 ## 定义
 
-将地球和月球合并为单一第二主天体的圆型限制性三体问题简化模型。合并后质量比约为3.04×10⁻⁶，停泊轨道半径相应增大以匹配圆轨道速度。由于质量比很小，该近似在转移持续时间内提供了准确结果。
+将地球和月球合并为单一第二主天体的圆型限制性三体问题简化模型。合并后质量比约为3.04×10⁻⁶，停泊轨道半径相应增大以匹配圆轨道速度。由于质量比很小，该近似在转移持续时间内提供了准确结果\cite{ocampoTransferTrajectoriesDistant1993}。
 
 ## 应用价值
 
@@ -45,4 +45,4 @@ permalink: /glossary/fundamentals/augmented-earth-moon-model/
 
 ## 参考文献
 
-- Ocampo and Rosborough, 1993; Scott and Spencer, 2010, JGCD, DOI:10.2514/1.47791
+- Scott and Spencer, 2010, JGCD, DOI:10.2514/1.47791

@@ -4,7 +4,7 @@ description: 将不连续的最优控制（如 bang-off-bang）替换为光滑�
 keywords: 控制正则化, Control Regularization
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 控制正则化（Control Regularization）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/control-regularization/
 
 ## 定义
 
-将不连续的最优控制（如 bang-off-bang）替换为光滑的参数化函数，消除控制的间断性，使优化问题可微可解。是平滑技术的另一种说法。
+将不连续的最优控制（如 bang-off-bang）替换为光滑的参数化函数，消除控制的间断性，使优化问题可微可解。是平滑技术的另一种说法\cite{zhangSmoothingTechniqueIndirect2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/control-regularization/
 - SPICE 星历工具包（SPICE, SpiceyPy）
 - 抛物线轨道（Parabolic Orbit）
 - 地外行星（Exterior Planet）
-
-## 参考文献
-
-- Zhang et al. - 2025 - Smoothing technique for indirect low-thrust trajectory optimization in cislunar space

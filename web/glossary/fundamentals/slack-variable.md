@@ -4,7 +4,7 @@ description: 在非线性规划中引入的辅助变量，用于将不等式约�
 keywords: 松弛变量, Slack Variable, 基础, 坐标系, 参考系
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 松弛变量（Slack Variable）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,9 @@ permalink: /glossary/fundamentals/slack-variable/
 
 ## 定义
 
-在非线性规划中引入的辅助变量，用于将不等式约束转化为等式约束。在多步打靶中，引入松弛变量将飞行时间的正性约束T>0转化为等式T-β²=0。
+在非线性规划中引入的辅助变量，用于将不等式约束转化为等式约束。在多步打靶中，引入松弛变量将飞行时间的正性约束T>0转化为等式T-β²=0 \cite{ZhangChenJiYuYueQiuJieLiDeDiNengDRORuGuiCeLue2022}。
+
+不等式约束松弛处理也是动力下降制导凸优化建模的基本手段 \cite{Acikmes2007}。
 
 ## 应用价值
 
@@ -42,8 +44,3 @@ permalink: /glossary/fundamentals/slack-variable/
 - 功率谱密度（Power Spectral Density）
 - [控制参数化（Control Parametrization）](/glossary/dynamics/control-parametrization/)
 - 轨道面共面约束（Coplanar Orbital Plane Constraint）
-
-## 参考文献
-
-- 张晨和张皓 - 2022 - 基于月球借力的低能DRO入轨策略
-- Acikse和Ploen - 2007

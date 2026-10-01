@@ -4,7 +4,7 @@ description: 地月系统中与地球相反侧的平动点，位于月球轨道�
 keywords: L3点, L3 Point, 天体力学, 坐标系统, 轨道要素
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: L3点（L3 Point）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/l3-point/
 
 ## 定义
 
-地月系统中与地球相反侧的平动点，位于月球轨道之外。
+地月系统中与地球相反侧的平动点，位于月球轨道之外 \cite{haapalaTrajectorySelectionStrategy2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/l3-point/
 - [共态方程（Costate Equations）](/glossary/dynamics/co-state-variables/)
 - [速度增量（Delta-v, Δv）](/glossary/fundamentals/delta-v/)
 - 连分式（Continued Fraction）
-
-## 参考文献
-
-- Trajectory selection strategy for tours in the Earth-moon system

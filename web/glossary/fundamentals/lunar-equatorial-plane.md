@@ -4,7 +4,7 @@ description: "过月球中心且垂直于月球自转轴的平面，作为月固
 keywords: 月球赤道面, Lunar Equatorial Plane, 基础概念, 轨道力学, 坐标系统
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球赤道面（Lunar Equatorial Plane）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/lunar-equatorial-plane/
 
 ## 定义
 
-过月球中心且垂直于月球自转轴的平面，作为月固坐标系和月心惯性坐标系的共同参考平面。月球赤道面相对于黄道面的夹角约为1°32'，倾角很小，因此太阳在月面的星下点纬度变化范围有限。论文中轨道坐标系到惯性坐标系的转换、惯性坐标系到月固坐标系的转换，均以月球赤道面为基准面。
+过月球中心且垂直于月球自转轴的平面，作为月固坐标系和月心惯性坐标系的共同参考平面。月球赤道面相对于黄道面的夹角约为1°32'，倾角很小，因此太阳在月面的星下点纬度变化范围有限。论文中轨道坐标系到惯性坐标系的转换、惯性坐标系到月固坐标系的转换，均以月球赤道面为基准面 \cite{ZhouJingYangYueQiuTanCeQiRuanZhaoLuJingQueJianMoJiZuiYouGuiDaoSheJi2007}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/fundamentals/lunar-equatorial-plane/
 - [Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）](/glossary/dynamics/bang-bang-control/)
 - 春分点（Vernal Equinox）
 - [L2-L1同伦法（L2-L1 Homotopy）](/glossary/dynamics/continuation/)
-
-## 参考文献
-
-- 周净扬和周荻 - 2007 - 月球探测器软着陆精确建模及最优轨道设计

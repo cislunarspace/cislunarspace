@@ -4,7 +4,7 @@ description: 限制性三体问题中三个与两个天体共线的平动点。�
 keywords: 共线拉格朗日点, Collinear Lagrange Point, 基础概念, 坐标系, 轨道根数, 物理量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 共线拉格朗日点（Collinear Lagrange Point）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/collinear-lagrange-point/
 
 ## 定义
 
-限制性三体问题中三个与两个天体共线的平动点。在这三个点处，有效势的Hessian矩阵不定，对应鞍点型平衡：沿连线方向为排斥，垂直连线方向为吸引。共线点的雅可比常数恰好使Hill区域在该点处出现颈，从而允许轨道从一个天体穿越到另一个。Conley在本文中首次系统分析了共线点附近的轨道拓扑结构。
+限制性三体问题中三个与两个天体共线的平动点。在这三个点处，有效势的Hessian矩阵不定，对应鞍点型平衡：沿连线方向为排斥，垂直连线方向为吸引。共线点的雅可比常数恰好使Hill区域在该点处出现颈，从而允许轨道从一个天体穿越到另一个。Conley首次系统分析了共线点附近的轨道拓扑结构\cite{conleyLowEnergyTransit1968}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/fundamentals/collinear-lagrange-point/
 - 低月球轨道（Low Lunar Orbit, LLO）
 - 复合周期轨道（Complex Periodic Orbit）
 - 轨道转移级（Orbital Transfer Stage）
-
-## 参考文献
-
-- Conley - 1968 - Low energy transit orbits in restricted 3-body problem

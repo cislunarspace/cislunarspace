@@ -4,7 +4,7 @@ description: Richardson（1980）利用Lindstedt-Poincaré方法得到的圆型�
 keywords: Richardson三阶近似解析解, Richardson Third-Order Analytical Solution, 轨道力学, 航天动力学, 数值方法
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: Richardson三阶近似解析解
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/richardson-third-order-analytical-solution/
 
 ## 定义
 
-Richardson（1980）利用Lindstedt-Poincaré方法得到的圆型限制性三体问题中Halo轨道三阶近似展开式。以面内振幅Ax、面外振幅Az和角频率ω为参数，逐阶修正线性化解的非线性项。精度远高于一阶线性解，同时避免数值积分的高计算代价，是平动点轨道解析分析和编队设计的基础工具。
+Richardson（1980）利用Lindstedt-Poincaré方法得到的圆型限制性三体问题中Halo轨道三阶近似展开式。以面内振幅Ax、面外振幅Az和角频率ω为参数，逐阶修正线性化解的非线性项。精度远高于一阶线性解，同时避免数值积分的高计算代价，是平动点轨道解析分析和编队设计的基础工具 \cite{ZhangYunYanHaloGuiDaoDeHangTianQiBianDuiGouXingSheJi2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Richardson（1980）利用Lindstedt-Poincaré方法得到的圆型限制性三�
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
 - 惯性坐标系
 - [哈密顿量](/glossary/dynamics/hamiltonian/)
-
-## 参考文献
-
-- Halo轨道的航天器编队构型设计

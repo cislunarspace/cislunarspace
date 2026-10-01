@@ -4,7 +4,7 @@ description: 基于无迹变换确定性采样捕捉状态均值与协方差非�
 keywords: 无迹卡尔曼滤波, UKF, 滤波算法, 自主导航, 非线性估计
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 无迹卡尔曼滤波（Unscented Kalman Filter, UKF）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ UKF 算法在此类强非线性环境中的力学与工程优势体现在：
 2. **无需计算解析雅可比矩阵**：避免了在复杂摄动（高阶月球重力场、太阳光压）下计算繁复且容易产生奇异的动力学和观测雅可比偏导矩阵；
 3. **收敛鲁棒性高**：在地月转移初轨确定、近月制动捕获以及自主光学与星间测距融合滤波中，对较大初始定轨误差具有更宽的滤波收敛容限。
 
-该算法已成为地月空间航天器星载高精度自主定轨与姿轨联合估计的核心基准算法之一。
+该算法已成为地月空间航天器星载高精度自主定轨与姿轨联合估计的核心基准算法之一 \cite{YuDengYunRenGongZhiNengFuNengDiYueKongJianGanZhiJiShuXianZhuangJiZhanWang2025a}。
 
 ## 相关概念
 
@@ -44,4 +44,3 @@ UKF 算法在此类强非线性环境中的力学与工程优势体现在：
 ## 参考文献
 
 - Julier, S. J., & Uhlmann, J. K. Unscented filtering and nonlinear estimation. Proceedings of the IEEE, 2004, 92(3): 401-422.
-- 于登云, 董捷, 肖东东, 等. 人工智能赋能地月空间感知技术现状及展望. 宇航学报, 2025, 46(1): 1-15.

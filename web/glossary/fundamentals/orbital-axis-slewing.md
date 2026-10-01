@@ -4,7 +4,7 @@ description: 仅改变椭圆轨道长轴方向、不改变轨道形状和大小�
 keywords: 脉冲转向, Orbital Axis Slewing, 轨道力学, 引力场, 坐标系统, 优化理论
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 脉冲转向（Orbital Axis Slewing）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/orbital-axis-slewing/
 
 ## 定义
 
-仅改变椭圆轨道长轴方向、不改变轨道形状和大小的双脉冲机动。Lawden 证明，最优脉冲转向的转移椭圆与始末轨道在拱点处相切，且脉冲垂直于径向施加。推进剂消耗随转向角增大而增加，在 180 度时达到最大。
+仅改变椭圆轨道长轴方向、不改变轨道形状和大小的双脉冲机动。Lawden 证明，最优脉冲转向的转移椭圆与始末轨道在拱点处相切，且脉冲垂直于径向施加 \cite{ImpulsiveTransferElliptical1962}。推进剂消耗随转向角增大而增加，在 180 度时达到最大。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/orbital-axis-slewing/
 - 帕累托解（Pareto Solution）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Lawden, D. F. (1962). Impulsive Transfer between Elliptical Orbits. In Optimization Techniques, Ch. 11.

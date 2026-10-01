@@ -4,7 +4,7 @@ description: 由多种轨道类型的卫星协同组成的导航星座。在地�
 keywords: 坐标系, 轨道, 物理, 天文
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 异构星座（Heterogeneous Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/heterogeneous-constellation/
 
 ## 定义
 
-由多种轨道类型的卫星协同组成的导航星座。在地月空间中，典型异构架构融合近月轨道（提供高精度月表定位）、类GNSS中高轨道（覆盖全月面及环月空间）和平动点轨道（补全月背盲区及地月转移段），以单一轨道类型无法实现的方式达成全域无缝覆盖。相较于同构星座，异构设计在覆盖范围、定位精度和全生命周期成本之间取得更优平衡，但对轨道相位匹配、跨频段星间链路互操作和系统运维管理提出更高要求。
+由多种轨道类型的卫星协同组成的导航星座。在地月空间中，典型异构架构融合近月轨道（提供高精度月表定位）、类GNSS中高轨道（覆盖全月面及环月空间）和平动点轨道（补全月背盲区及地月转移段），以单一轨道类型无法实现的方式达成全域无缝覆盖\cite{ChenXiaoDiYueKongJianDaoHangXingZuoSheJiJiaGouTeZhengZhiBiaoGouJianYuJiShuYanJin2025}。相较于同构星座，异构设计在覆盖范围、定位精度和全生命周期成本之间取得更优平衡，但对轨道相位匹配、跨频段星间链路互操作和系统运维管理提出更高要求。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/heterogeneous-constellation/
 - NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）
 - [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodic-frame/)
 - [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/ltp/)
-
-## 参考文献
-
-- 地月空间导航星座设计：架构特征、指标构建与技术演进

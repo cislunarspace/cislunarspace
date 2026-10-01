@@ -4,7 +4,7 @@ description: Visonneau 等人开发的多目标优化算法，用于地月态势
 keywords: 隐藏基因遗传算法, Hidden-Genes Genetic Algorithm, 参考系, 坐标变换, 基本概念
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 隐藏基因遗传算法（Hidden-Genes Genetic Algorithm）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/hidden-genes-genetic-algorithm/
 
 ## 定义
 
-Visonneau 等人开发的多目标优化算法，用于地月态势感知系统架构设计。通过在染色体中引入隐藏基因机制，允许轨道族多样性（如 Halo、L1/L2 轨道）和相位协同，生成帕累托最优解，极限视星等降幅超 50%。
+Visonneau 等人开发的多目标优化算法，用于地月态势感知系统架构设计 \cite{visonneau2023optimizing,SunCongDiYueKongJianTaiShiGanZhiJiShuYanJiuXianZhuangYuFaZhan2025a}。通过在染色体中引入隐藏基因机制，允许轨道族多样性（如 Halo、L1/L2 轨道）和相位协同，生成帕累托最优解，极限视星等降幅超 50% \cite{visonneau2023optimizing}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Visonneau 等人开发的多目标优化算法，用于地月态势感知系统�
 - [连续小推力（Continuous Low Thrust）](/glossary/fundamentals/ep/)
 - 双向链路（Two-Way Link）
 - 惯性坐标系（Inertial Coordinate System）
-
-## 参考文献
-
-- 地月空间态势感知技术研究现状与发展

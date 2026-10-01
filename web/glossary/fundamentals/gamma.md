@@ -4,7 +4,7 @@ description: 后牛顿近似中表征空间弯曲程度的无量纲参数，广�
 keywords: 后牛顿参数, Post-Newtonian Parameter, gamma, gamma, fundamentals
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 后牛顿参数（Post-Newtonian Parameter, gamma）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/gamma/
 
 ## 定义
 
-后牛顿近似中表征空间弯曲程度的无量纲参数，广义相对论预测其值为1。出现在GCRS与BCRS坐标转换公式中，是确定引力场对坐标变换影响的关键参数。
+后牛顿近似中表征空间弯曲程度的无量纲参数，广义相对论预测其值为1。出现在GCRS与BCRS坐标转换公式中，是确定引力场对坐标变换影响的关键参数\cite{CaoJianFengShiKongCanKaoXiDuiDiYueGuanCeJianMoYuYingYongDeYingXiang2025a}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/fundamentals/gamma/
 - 变结构滑模控制（Variable Structure Sliding Mode Control）
 - [庞特里亚金最小值原理（Pontryagin Minimum Principle）](/glossary/dynamics/pontryagins-maximum-principle/)
 - 误差函数（Error Function）
-
-## 参考文献
-
-- 时空参考系对地月观测建模与应用的影响。

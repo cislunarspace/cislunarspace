@@ -4,7 +4,7 @@ description: 限制性三体问题中的不变环面、准周期不变环面 QPT
 keywords: 不变环面, Invariant Torus, 准周期不变环面, QPT, 双圆四体问题, 编队飞行, 轨道保持
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-01
 wechatShare:
   title: 不变环面与准周期轨道（Invariant Torus & QPT）
   desc: 三体问题中的不变环面、准周期轨道及其任务应用。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/invariant-torus/
 
 ## 定义
 
-**不变环面**（invariant torus）是相空间中由两个以上独立频率运动张成的闭合高维曲面。若环面上轨道在两个角坐标方向的频率之比为无理数，则轨道永不闭合，称为**准周期轨道**；轨道密布整个环面。在 CR3BP 中，不变环面常环绕某条参考周期轨道，是理解拟周期 Lissajous 与准周期 Halo 轨道族的几何基础（Gómez et al. 2001；Meyer & Offin 2017）。
+**不变环面**（invariant torus）是相空间中由两个以上独立频率运动张成的闭合高维曲面。若环面上轨道在两个角坐标方向的频率之比为无理数，则轨道永不闭合，称为**准周期轨道**；轨道密布整个环面。在 CR3BP 中，不变环面常环绕某条参考周期轨道，是理解拟周期 Lissajous 与准周期 Halo 轨道族的几何基础（Gómez et al. 2001；Meyer & Offin 2017）\cite{gomez2001dynamics,meyerIntroductionHamiltonianDynamical2017}。
 
 ## 二维不变环面与 Lissajous / Halo 轨道
 
@@ -38,7 +38,7 @@ permalink: /glossary/fundamentals/invariant-torus/
 
 ## 准周期不变环面（QPT）
 
-**QPT**（Quasi-Periodic Invariant Tori）是 CRTBP 中由拟周期非共振轨道覆盖的有界闭曲面。与严格周期 Halo 轨道相比，QPT 上的轨道不重复，可在参考周期轨道附近自然漂移，具有天然的包围结构。由于环面上运动有界，QPT 可用于设计长期稳定的编队飞行相对轨迹：各航天器位于同一族环面的不同截面上，相对运动自然有界（Capannolo et al. 2023）。
+**QPT**（Quasi-Periodic Invariant Tori）是 CRTBP 中由拟周期非共振轨道覆盖的有界闭曲面。与严格周期 Halo 轨道相比，QPT 上的轨道不重复，可在参考周期轨道附近自然漂移，具有天然的包围结构。由于环面上运动有界，QPT 可用于设计长期稳定的编队飞行相对轨迹：各航天器位于同一族环面的不同截面上，相对运动自然有界（Capannolo et al. 2023）\cite{capannoloModelPredictiveControl2023}。
 
 ## 双圆四体问题中的不变环面流形
 
@@ -69,11 +69,5 @@ permalink: /glossary/fundamentals/invariant-torus/
 - [弱稳定边界（WSB）](/glossary/dynamics/wsb/)
 
 ## 参考文献
-
-- Gómez, G., et al. (2001). Dynamics and Mission Design Near Libration Points, Vol. I/II.
-
-- Meyer, K. R., & Offin, D. C. (2017). Introduction to Hamiltonian Dynamical Systems and the N-Body Problem.
-
-- Capannolo, L., et al. (2023). Model predictive control for formation reconfiguration exploiting quasi-periodic tori in the cislunar environment.
 
 - Ren, Y., et al. (2012). Manifolds of quasi-periodic orbits in the bicircular restricted four-body problem. *Celestial Mechanics and Dynamical Astronomy*.

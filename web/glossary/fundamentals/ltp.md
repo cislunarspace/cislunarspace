@@ -4,7 +4,7 @@ description: 系数矩阵随时间周期性变化的线性系统，满足 A(t+T)
 keywords: 线性周期系统, Linear Time-Periodic System, LTP, fundamentals
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 线性周期系统（Linear Time-Periodic System）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/ltp/
 
 ## 定义
 
-系数矩阵随时间周期性变化的线性系统，满足 A(t+T)=A(t)、B(t+T)=B(t)。它是时变系统中最简单也最重要的一类，航空航天中许多时变系统可近似为线性周期系统（如椭圆轨道上的动力学、自旋刚体的姿态运动）。Halo轨道跟踪的误差动力学，经一阶线性化后恰好具有此结构：动力学方程沿名义轨道求偏导得到的状态矩阵 A(t) 是周期函数。
+系数矩阵随时间周期性变化的线性系统，满足 A(t+T)=A(t)、B(t+T)=B(t)。它是时变系统中最简单也最重要的一类，航空航天中许多时变系统可近似为线性周期系统（如椭圆轨道上的动力学、自旋刚体的姿态运动）。Halo轨道跟踪的误差动力学，经一阶线性化后恰好具有此结构：动力学方程沿名义轨道求偏导得到的状态矩阵 A(t) 是周期函数 \cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/fundamentals/ltp/
 - 变结构滑模控制（Variable Structure Sliding Mode Control）
 - [庞特里亚金最小值原理（Pontryagin Minimum Principle）](/glossary/dynamics/pontryagins-maximum-principle/)
 - 误差函数（Error Function）
-
-## 参考文献
-
-- 徐明和徐世杰 - 2008 - Halo轨道维持的线性周期控制策略。

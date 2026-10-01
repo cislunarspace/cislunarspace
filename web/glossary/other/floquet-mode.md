@@ -4,7 +4,7 @@ description: 详细解析Floquet模态法的定义、基本原理、在平动点
 keywords: Floquet模态法, Floquet Mode, 轨道保持, 不稳定模态, 平动点轨道, 地月空间
 author: 天疆说
 date: 2026-04-29
-lastUpdated: 2026-04-29
+lastUpdated: 2026-10-01
 wechatShare:
   title: Floquet 模态法
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/other/floquet-mode/
 
 ## 定义
 
-Floquet 模态法（Floquet Mode Method）是基于平动点附近特殊动力学特性的轨道保持策略，由 Gomez 等提出。该方法通过消除与参考轨道相关的不稳定 Floquet 模态来达到轨道保持的目的。
+Floquet 模态法（Floquet Mode Method）是基于平动点附近特殊动力学特性的轨道保持策略，由 Gomez 等提出\cite{gomezDynamicsMissionDesign2001}。该方法通过消除与参考轨道相关的不稳定 Floquet 模态来达到轨道保持的目的。
 
 ## 核心要素
 
@@ -74,7 +74,3 @@ Floquet 模态法在平动点轨道保持中具有重要应用价值。相比靶
 - 轨道保持
 - 稳定性指数
 - [平动点](/glossary/dynamics/libration-point/)
-
-## 参考文献
-
-- Gomez G, et al. Dynamics and mission design near libration point orbits[M]. World Scientific, 2001.

@@ -4,7 +4,7 @@ description: 包含太阳、地球和月球引力的完整力学模型。与地�
 keywords: 日地月系统, Sun-Earth-Moon System
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 日地月系统（Sun-Earth-Moon System）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,9 @@ permalink: /glossary/fundamentals/sun-earth-moon-system/
 
 ## 定义
 
-包含太阳、地球和月球引力的完整力学模型。与地月CRTBP相比，日地月系统引入太阳作为第四体摄动源，产生大量仅靠地月引力无法实现的新转移轨迹。这些轨迹利用日地平动点动力学或太阳引力辅助，可在较低速度增量下完成地月转移。
+包含太阳、地球和月球引力的完整力学模型。与地月CRTBP相比，日地月系统引入太阳作为第四体摄动源，产生大量仅靠地月引力无法实现的新转移轨迹。这些轨迹利用日地平动点动力学或太阳引力辅助，可在较低速度增量下完成地月转移 \cite{andersonSurveyBallisticTransfers2012}。
+
+在日地月系统模型下进行地月空间小推力轨迹优化时，太阳引力摄动是影响转移方案与燃耗的重要建模因素 \cite{ulhaqAutonomousLowthrustTrajectory2026}。
 
 ## 应用价值
 
@@ -41,8 +43,3 @@ permalink: /glossary/fundamentals/sun-earth-moon-system/
 - [雅可比矩阵（Jacobian Matrix）](/glossary/fundamentals/jacobian-matrix/)
 - [伪势函数（Pseudo-Potential Function）](/glossary/dynamics/jacobi-integral/)
 - 处理器在回路测试（Processor-in-the-Loop）
-
-## 参考文献
-
-- Anderson and Parker, 2012, J. Guidance, Control, and Dynamics
-- Ul Haq 等 - 2026

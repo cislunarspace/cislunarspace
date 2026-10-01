@@ -4,7 +4,7 @@ description: 详细解析低地球轨道的定义、高度范围、动力学特�
 keywords: 低地球轨道, LEO, Low Earth Orbit, 停泊轨道, 近地轨道, 地月转移, 航天发射
 author: 天疆说
 date: 2026-04-29
-lastUpdated: 2026-04-29
+lastUpdated: 2026-10-01
 wechatShare:
   title: 低地球轨道（LEO）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/other/leo/
 
 低地球轨道（Low Earth Orbit, LEO）是指轨道高度在地球表面以上 200 km 至 2000 km 之间的绕地球轨道。LEO 是人类航天活动中最常用的轨道类型，绝大多数载人航天器、对地观测卫星和空间站都运行在 LEO 上。
 
-LEO 的轨道周期约为 90–120 分钟，取决于具体轨道高度。以国际空间站（ISS）为例，其运行在约 400 km 高度的近圆轨道上，轨道周期约 92 分钟。LEO 轨道速度约为 $v \approx 7.7 \text{ km/s}$（400 km 高度）。
+LEO 的轨道周期约为 90–120 分钟，取决于具体轨道高度\cite{Vallado2013}。以国际空间站（ISS）为例，其运行在约 400 km 高度的近圆轨道上，轨道周期约 92 分钟。LEO 轨道速度约为 $v \approx 7.7 \text{ km/s}$（400 km 高度）。
 
 ## 核心要素
 
@@ -56,7 +56,7 @@ $$v = \sqrt{\frac{\mu_E}{r}}$$
 
 ### 地月转移中的 LEO 离轨脉冲
 
-从 LEO 出发的地月转移通常需要施加一个离轨脉冲（De-orbit Impulse）$\Delta v_1$。对于直接转移至月球附近的方案，该脉冲大小取决于转移轨道的设计。在有动力月球借力（PLF）转移方案中，LEO 离轨脉冲是三脉冲转移的第一个脉冲，其大小直接影响后续转移轨道的形状和到达月球附近时的状态。
+从 LEO 出发的地月转移通常需要施加一个离轨脉冲（De-orbit Impulse）$\Delta v_1$。对于直接转移至月球附近的方案，该脉冲大小取决于转移轨道的设计。在有动力月球借力（PLF）转移方案中，LEO 离轨脉冲是三脉冲转移的第一个脉冲，其大小直接影响后续转移轨道的形状和到达月球附近时的状态\cite{WeiZanDiYueYuanJuChiNiXingGuiDaoZuYueQiuJieLiZhuanYiRuGuiYanJiu2026}。
 
 典型数值上，从 200 km 高度的 LEO 直接转移至月球附近所需的 $\Delta v_1$ 约为 3.1–3.2 km/s，略低于霍曼转移所需的理论值。通过优化转移轨道设计（如选择合适的 C3 能量），可以在 $\Delta v_1$ 和后续脉冲之间进行权衡。
 
@@ -81,6 +81,4 @@ LEO 不仅是航天活动的起点，更是地月空间基础设施的关键节�
 
 ## 参考文献
 
-- 魏赞等, 地月远距离逆行轨道族月球借力转移入轨研究, 2026.
-- Vallado D A, Fundamentals of Astrodynamics and Applications, 4th ed., Microcosm Press, 2013.
 - Wertz J R, Everett D F, Puschell J J, Space Mission Engineering: The New SMAD, Microcosm Press, 2011.

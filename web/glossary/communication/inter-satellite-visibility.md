@@ -4,7 +4,7 @@ description: 评估两颗空间飞行器之间不受天体遮挡且满足天线�
 keywords: 星间通视, Inter-Satellite Visibility, 视线几何, 星间链路, 遮挡分析
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 星间通视几何分析
   desc: 地月空间多体运动下的卫星视线通视与链路窗口。

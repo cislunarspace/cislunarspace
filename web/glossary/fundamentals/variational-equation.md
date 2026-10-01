@@ -4,7 +4,7 @@ description: 沿参考极值曲线将哈密顿系统线性化后得到的微分�
 keywords: 变分方程, Variational Equation, , 数学, 物理, 基础理论, 方法, 模型
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 变分方程（Variational Equation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/variational-equation/
 
 ## 定义
 
-沿参考极值曲线将哈密顿系统线性化后得到的微分方程，描述状态-协态扰动的传播规律。其解即为雅可比场，用于计算共轭点和验证二阶最优性条件。变分方程的系数矩阵即为哈密顿系统的Jacobian矩阵在参考轨迹上的取值。
+沿参考极值曲线将哈密顿系统线性化后得到的微分方程，描述状态-协态扰动的传播规律。其解即为雅可比场，用于计算共轭点和验证二阶最优性条件。变分方程的系数矩阵即为哈密顿系统的Jacobian矩阵在参考轨迹上的取值 \cite{caillauMinimumFuelControl2012}。
 
 ## 应用价值
 
@@ -45,5 +45,4 @@ permalink: /glossary/fundamentals/variational-equation/
 
 ## 参考文献
 
-- Caillau et al. 2012 - Minimum fuel control of the planar circular restricted three-body problem
 - Gómez et al. 2001, Ch.1,3

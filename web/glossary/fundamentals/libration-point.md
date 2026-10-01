@@ -4,7 +4,7 @@ description: 限制性三体问题中，两个大天体引力与旋转坐标系�
 keywords: 天平动点, Libration Point
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 天平动点（Libration Point）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/libration-point/
 
 ## 定义
 
-限制性三体问题中，两个大天体引力与旋转坐标系离心力恰好平衡的五个点。L1、L2、L3 位于两天体连线上（共线型），L4、L5 构成等边三角形（三角型）。L1 点附近的流形管是低能地月转移的关键通道。
+限制性三体问题中，两个大天体引力与旋转坐标系离心力恰好平衡的五个点。L1、L2、L3 位于两天体连线上（共线型），L4、L5 构成等边三角形（三角型）。L1 点附近的流形管是低能地月转移的关键通道 \cite{oshimaGlobalSearchLowthrust2017}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/fundamentals/libration-point/
 - [雅可比矩阵（Jacobian Matrix）](/glossary/fundamentals/jacobian-matrix/)
 - [伪势函数（Pseudo-Potential Function）](/glossary/dynamics/jacobi-integral/)
 - [日地月系统（Sun-Earth-Moon System）](/glossary/fundamentals/sun-earth-moon-system/)
-
-## 参考文献
-
-- Oshima et al. 2017

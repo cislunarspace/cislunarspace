@@ -4,7 +4,7 @@ description: 一种高效的多目标进化算法，通过快速非支配排序�
 keywords: 非劣排序遗传算法II, Non-Dominated Sorting Genetic Algorithm II, NSGA-II, 轨道力学, 重力场, 三体问题, 测控, 电推进
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 非劣排序遗传算法II
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/nsga-ii/
 
 ## 定义
 
-一种高效的多目标进化算法，通过快速非支配排序将种群分为多层，用拥挤距离度量解的多样性并采用精英保留策略。在小推力轨迹多目标优化中用于在速度增量和飞行时间两个竞争目标之间生成帕累托前沿。
+一种高效的多目标进化算法，通过快速非支配排序将种群分为多层，用拥挤距离度量解的多样性并采用精英保留策略。在小推力轨迹多目标优化中用于在速度增量和飞行时间两个竞争目标之间生成帕累托前沿 \cite{vellutiniShapebasedDesignLowthrust2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/nsga-ii/
 - [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/dynamics/poincare-section/)
 - 中途修正（Mid-course Correction）
 - 近月制动（Lunar Orbit Insertion, LOI）
-
-## 参考文献
-
-- Vellutini & Avanzini, 2014, Shape-based design of low-thrust trajectories to cislunar lagrangian point

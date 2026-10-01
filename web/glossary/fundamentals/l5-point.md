@@ -4,7 +4,7 @@ description: 地月系统中与地球、月球构成等边三角形后方的平�
 keywords: 坐标系, 轨道, 物理, 天文
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: L5点（L5 Point）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/l5-point/
 
 ## 定义
 
-地月系统中与地球、月球构成等边三角形后方的平动点（三角平动点之一）。
+地月系统中与地球、月球构成等边三角形后方的平动点（三角平动点之一）\cite{haapalaTrajectorySelectionStrategy2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/l5-point/
 - NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）
 - [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodic-frame/)
 - [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/ltp/)
-
-## 参考文献
-
-- Trajectory selection strategy for tours in the Earth-moon system

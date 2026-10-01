@@ -4,7 +4,7 @@ description: 航天器与目标天体在地心赤道惯性坐标系中赤经之�
 keywords: 赤经偏差, Right Ascension Deviation, , 基础理论, 轨道力学, 摄动
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 赤经偏差（Right Ascension Deviation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/right-ascension-deviation/
 
 ## 定义
 
-航天器与目标天体在地心赤道惯性坐标系中赤经之差。分层搜索第一层用赤经偏差和赤纬偏差接近零作为相遇条件，确保地月转移轨道瞄准月球方向。
+航天器与目标天体在地心赤道惯性坐标系中赤经之差。分层搜索第一层用赤经偏差和赤纬偏差接近零作为相遇条件，确保地月转移轨道瞄准月球方向 \cite{GaoYuDongDiYueKongJianFeiXingGuiDaoFenCengSouSuoSheJi2006}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/right-ascension-deviation/
 - 拉瓦尔喷管（Laval Nozzle）
 - [拉格朗日点（Lagrange Point）](/glossary/fundamentals/libration-point/)
 - 轨道根数（Orbital Elements）
-
-## 参考文献
-
-- 高玉东 等 - 2006 - 地月空间飞行轨道分层搜索设计

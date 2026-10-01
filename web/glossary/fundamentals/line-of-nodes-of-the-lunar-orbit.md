@@ -4,7 +4,7 @@ description: 月球轨道平面与黄道面的交线，分为升交点和降交�
 keywords: 月球轨道交线, Line of Nodes of the Lunar Orbit, 基础概念, 运动方程, 参考系, 参数
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球轨道交线（Line of Nodes of the Lunar Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/line-of-nodes-of-the-lunar-orbit/
 
 ## 定义
 
-月球轨道平面与黄道面的交线，分为升交点和降交点。在倾斜面拼接三体方法中，拼接点通常取在交线上，以确保地月段和日地段轨道在空间中可行接。交线方向由角度 γ表示，相对惯性系有 18.6 年的进动周期。
+月球轨道平面与黄道面的交线，分为升交点和降交点。在倾斜面拼接三体方法中，拼接点通常取在交线上，以确保地月段和日地段轨道在空间中可行接。交线方向由角度 γ表示，相对惯性系有 18.6 年的进动周期 \cite{sousa-silvaFastEarthMoon2018}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/line-of-nodes-of-the-lunar-orbit/
 - 质量参数（Mass Parameter）
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-integral/)
 - [归一化单位（Normalized Units）](/glossary/fundamentals/nondimensionalization/)
-
-## 参考文献
-
-- Sousa-Silva et al. (2018) Fast earth–moon transfers with ballistic capture

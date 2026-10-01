@@ -4,7 +4,7 @@ description: 描述地球自转轴因岁差和章动导致的方向变化的旋�
 keywords: 岁差章动矩阵, Precession-Nutation Matrix, 基础概念, 推进, 轨道力学, 导航
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 岁差章动矩阵（Precession-Nutation Matrix）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/precession-nutation-matrix/
 
 ## 定义
 
-描述地球自转轴因岁差和章动导致的方向变化的旋转矩阵 M(t)，用于地心天球坐标系与地固坐标系之间的转换。在计算地球 J₂ 项摄动时，该矩阵是坐标转换的关键环节。在力模型简化中，由于地球 J₂ 项摄动较小，可忽略此矩阵以节省计算时间。
+描述地球自转轴因岁差和章动导致的方向变化的旋转矩阵 M(t)，用于地心天球坐标系与地固坐标系之间的转换。在计算地球 J₂ 项摄动时，该矩阵是坐标转换的关键环节。在力模型简化中，由于地球 J₂ 项摄动较小，可忽略此矩阵以节省计算时间 \cite{DengHuiDiYueXiGongXianPingDongDianTanCeQiDeXingShangGuiDaoYuBaoWenTi2017}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/fundamentals/precession-nutation-matrix/
 - 定时定点着陆（Scheduled and Pinpoint Landing）
 - [截面（Surface of Section, SOS）](/glossary/dynamics/poincare-section/)
 - [截断策略（Truncation Strategy）](/glossary/fundamentals/truncation-strategy/)
-
-## 参考文献
-
-- 邓辉 等 - 2017 - 地月系共线平动点探测器的星上轨道预报问题

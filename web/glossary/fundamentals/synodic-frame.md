@@ -4,7 +4,7 @@ description: 圆型限制性三体问题的标准参考系：原点在两主天�
 keywords: 会合坐标系, 旋转坐标系, synodic frame, rotating frame, 会合参考系, CR3BP, 地月旋转系, 日地旋转系, 平动点, 质心旋转坐标系
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-01
 wechatShare:
   title: 会合坐标系（Synodic Frame / Rotating Frame）
   desc: CR3BP 的标准参考系：原点在质心、随主天体连线同步旋转。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/synodic-frame/
 
 ## 定义
 
-会合坐标系（synodic frame，又称旋转坐标系 rotating frame、会合参考系）是圆型限制性三体问题（CR3BP）的标准参考系。原点取在两个主天体的公共质心（barycenter），x 轴沿两主天体连线，z 轴沿系统角动量方向（垂直于主天体轨道面），三者构成右手系，整个坐标系以两主天体的公转角速度（即次天体绕主天体的平均运动 $n$）同步旋转（Vallado 2022；Szebehely 1967）。
+会合坐标系（synodic frame，又称旋转坐标系 rotating frame、会合参考系）是圆型限制性三体问题（CR3BP）的标准参考系。原点取在两个主天体的公共质心（barycenter），x 轴沿两主天体连线，z 轴沿系统角动量方向（垂直于主天体轨道面），三者构成右手系，整个坐标系以两主天体的公转角速度（即次天体绕主天体的平均运动 $n$）同步旋转 \cite{valladoFundamentalsAstrodynamicsApplications2022} \cite{szebehelyTheoryOrbitRestricted1967}。
 
 旋转的代价是运动方程中多出科氏力项与离心力项；换回的好处是：两个主天体在此系中固定在 x 轴上不动，方程不再显含时间而成为自治系统，这是雅可比常数得以作为守恒量存在的几何根源，五个平动点也成为定常平衡点。平动点位置、零速度曲面、周期与拟周期轨道族、不变流形、庞加莱截面等 CR3BP 的一切动力学结构，都在会合系中表达和可视化。
 
@@ -40,7 +40,7 @@ permalink: /glossary/fundamentals/synodic-frame/
 
 x 轴方向在不同文献里**并不统一**，读图、读方程前应先确认该文采用哪一种：
 
-- **主流约定**（Szebehely 1967、Gómez 2001 及多数 CR3BP 文献）：x 轴从较大主天体指向较小主天体。地月系即地球→月球，日地系即太阳→地球。
+- **主流约定**（Szebehely 1967、Gómez 2001 及多数 CR3BP 文献）：x 轴从较大主天体指向较小主天体 \cite{szebehelyTheoryOrbitRestricted1967}。地月系即地球→月球，日地系即太阳→地球。
 - **反向约定**（部分文献）：x 轴从小天体指向大天体。例如某些日地系研究取 x 轴由地球指向太阳，并在文中明确声明此约定与标准限制性三体问题相反。
 
 约定不同会反转 $L_1$、$L_2$、$L_3$ 在 x 轴上的相对位置和 halo、Lyapunov 等轨道族的朝向，但物理不变。读一篇陌生论文时，最快的判别法是看该文给出的 $P_1$、$P_2$ 坐标正负号。
@@ -67,6 +67,4 @@ x 轴方向在不同文献里**并不统一**，读图、读方程前应先确�
 
 ## 参考文献
 
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications（Synodic Coordinate Systems 节，地月会合系基本平面与主方向定义）
-- Szebehely, 1967, Theory of Orbits: The Restricted Problem of Three Bodies（CR3BP 会合系与无量纲化的经典出处）
 - Gómez et al., 2001, Dynamics and Mission Design near Libration Points: vol. II（平动点邻域动力学，x 轴大→小天体约定的采用与说明）
