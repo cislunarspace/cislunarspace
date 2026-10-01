@@ -8,7 +8,7 @@ wechatShare:
 keywords: NRHO设计, 设计参数, 伪弧长延续法, 初始条件, CRTBP
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-08-27
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/nrho/design-parameters/
 ---
 
@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/nrho/design-parameters/
 
 ## 典型参数表
 
-L1/L2 NRHO 的典型设计参数如下：
+L1/L2 NRHO 的典型设计参数如下\cite{zimovanCharacteristicsDesignStrategies2017}：
 
 | 参数 | L1 NRHO | L2 NRHO |
 | ------ | ---------- | ---------- |
@@ -46,7 +46,7 @@ $$\mathbf{X}_0 = [x_0, y_0, z_0, \dot{x}_0, \dot{y}_0, \dot{z}_0]$$
 - $x \approx 0.825$（无量纲，距离 L1）
 - $z \approx A_z$，$\dot{x} \approx 0$，$\dot{y} \approx \dot{y}_{halo}$
 
-初始条件的精确选取需要通过数值延续法（numerical continuation）从已知的 Halo 轨道族逐步演化得到。
+初始条件的精确选取需要通过数值延续法（numerical continuation）从已知的 Halo 轨道族逐步演化得到\cite{luDesignAnalysisDirect2021}。
 
 ## 周期轨道计算
 
@@ -71,7 +71,7 @@ $$\mathbf{M}(T) \mathbf{v} = \lambda \mathbf{v}$$
 
 其中 $\mathbf{M}(T)$ 为单周期状态转移矩阵，$\lambda$ 为 Floquet 乘数。稳定轨道的 Floquet 乘数位于单位圆上（$|\lambda| = 1$），不稳定轨道则存在 $|\lambda| > 1$ 的乘数。
 
-上述方法适用于 CR3BP 模型下的单圈周期轨道计算。对于真实星历模型（如 JPL DE430）下的多圈 NRHO 计算，需采用多次打靶法并配合特殊的连接点选取策略，详见 [多圈 NRHO 星历模型计算](/cislunar-orbits/nrho/ephemeris-computation/)。
+上述方法适用于 CR3BP 模型下的单圈周期轨道计算。对于真实星历模型如 JPL DE430 下的多圈 NRHO 计算，需采用多次打靶法并配合特殊的连接点选取策略，长期拟周期成员还可通过不变环面延拓高效构造\cite{liuNoteComputationMultirevolution2025,QinLiMinChangQiNiZhouQiJinZhiXianYunGuiDaoGaoXiaoSheJiFangFa2024}，详见 [多圈 NRHO 星历模型计算](/cislunar-orbits/nrho/ephemeris-computation/)。
 
 ## 敏感性分析
 
@@ -85,4 +85,4 @@ $$\frac{\Delta T}{T} \approx 0.1 \frac{\Delta \mu}{\mu}$$
 
 ### 初始位置偏差的影响
 
-NRHO 对初始位置偏差的敏感性可用单值矩阵的不稳定 Floquet 模态评估。以 9:2 成员为例，误差沿不稳定方向每圈放大约 2 至 3 倍（见[稳定性与轨道维持](/cislunar-orbits/nrho/stability-maintenance/)），长期任务必须配合逐圈监控与靶向修正。
+NRHO 对初始位置偏差的敏感性可用单值矩阵的不稳定 Floquet 模态评估。以 9:2 成员为例，误差沿不稳定方向每圈放大约 2 至 3 倍（见[稳定性与轨道维持](/cislunar-orbits/nrho/stability-maintenance/)），长期任务必须配合逐圈监控与靶向修正\cite{muralidharanLeveragingStretchingDirections2022}。

@@ -8,7 +8,7 @@ wechatShare:
 keywords: NRHO, 多次打靶法, 星历模型, 连接点选取, 状态转移矩阵, DE430
 author: 天疆说
 date: 2026-05-10
-lastUpdated: 2026-05-10
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/nrho/ephemeris-computation/
 ---
 
@@ -24,11 +24,11 @@ permalink: /cislunar-orbits/nrho/ephemeris-computation/
 
 在 CR3BP 模型中，单圈 NRHO 可通过延续法或微分修正直接计算（参见 [设计参数](/cislunar-orbits/nrho/design-parameters/)）。但在真实星历模型（如 JPL DE430）下计算多圈 NRHO 时，直接对整条轨道进行微分修正往往会失败：线性化误差随飞行时间累积，尤其是低近月点半径的 NRHO 在近月点附近状态变化剧烈，导致修正过程发散。
 
-现有方法（如 Williams 等人的前向/后向打靶、Davis 等人的两级修正）虽能生成高保真多圈 NRHO，但依赖 SNOPT 或 NASA Copernicus 等专用优化软件，可复现性受限。
+现有方法如 Williams 等人的前向与后向打靶、Davis 等人的两级修正虽能生成高保真多圈 NRHO，但依赖 SNOPT 或 NASA Copernicus 等专用优化软件，可复现性受限\cite{williams2017targeting}。
 
 ## 多次打靶法
 
-多次打靶法（Multiple Shooting）是解决长弧段轨道计算收敛困难的标准方法，核心步骤为：
+多次打靶法（Multiple Shooting）是解决长弧段轨道计算收敛困难的标准方法，在地月平动点长期轨道设计中已有系统应用\cite{ZhuYanWeiXingLiMoXingXiaJiYuDuoChongDaBaPinJieDeChangQiJinZhiXianYunGuiDaoSheJiFangFa2026,deitosAdvantagesExploitingHierarchical2017}，核心步骤为：
 
 1. 将 CR3BP 模型下的初始轨道按时间分为 $n-1$ 段（segments）
 2. 在星历模型下对每段分别前向积分
@@ -43,7 +43,7 @@ $$F(\mathbf{X}) = \begin{bmatrix} X_1(t_2) \\ X_2(t_3) \\ \vdots \\ X_{n-1}(t_n)
 
 ## 连接点选取策略
 
-Liu & Liu (2025) 的核心贡献在于揭示了**连接点位置对计算成败的关键影响**，并提出了系统性的选取策略。
+Liu 与 Liu 在 2025 年提出的选取策略揭示了**连接点位置对计算成败的关键影响**\cite{liuNoteComputationMultirevolution2025}，并给出了系统性的选取方法。
 
 ### 条件数分析
 
@@ -61,7 +61,7 @@ $$s = \begin{cases} \dfrac{x_R - x_1}{x_R - x_L}, & \text{L1 情形} \\[6pt] \df
 
 - 当 $N = 2$ 时，$s$ 应大于 0.4
 - 当 $N \geq 4$ 时，$s$ 可降低至 0.2 以下
-- 段数越多，连接点可越靠近月球；近月点半径较大的 NRHO 需更大的 $s$ 值
+- 段数越多，连接点可越靠近月球；近月点半径较大的 NRHO 需更大的 $s$ 值\cite{liuNoteComputationMultirevolution2025}
 
 ## 计算结果
 
@@ -72,7 +72,7 @@ $$s = \begin{cases} \dfrac{x_R - x_1}{x_R - x_L}, & \text{L1 情形} \\[6pt] \df
 | L1 NRHO | 近月点半径 < 12,000 km | 2（推荐 4） | 30+ |
 | L2 NRHO | 周期 < 8.8 天 | 2（推荐 4） | 30+ |
 
-L1 NRHO 的有效周期范围约为 7.88–10 天，L2 NRHO 的对应近月点半径为 1,850–11,000 km。近月点半径较大的 L1 NRHO（> 12,000 km）或周期较长的 L2 NRHO（> 8.8 天）仅能计算 10–20 圈，轨道在会合坐标系中呈现松散的漂移模式。对于 30 圈可达的情况，圈数可进一步扩展至 100 甚至 500 圈。
+L1 NRHO 的有效周期范围约为 7.88–10 天，L2 NRHO 的对应近月点半径为 1,850–11,000 km。近月点半径较大的 L1 NRHO（> 12,000 km）或周期较长的 L2 NRHO（> 8.8 天）仅能计算 10–20 圈，轨道在会合坐标系中呈现松散的漂移模式。对于 30 圈可达的情况，圈数可进一步扩展至 100 甚至 500 圈\cite{liuNoteComputationMultirevolution2025}。
 
 ## 方法特点
 
@@ -80,6 +80,3 @@ L1 NRHO 的有效周期范围约为 7.88–10 天，L2 NRHO 的对应近月点�
 - 实现门槛低，便于一般用户复现
 - 对低近月点半径的 NRHO（Gateway 等任务关注的范围）效果最为显著
 
-## 参考文献
-
-[1] Liu L, Liu Y. A note on the computation of multi-revolution NRHO under the ephemeris model[J]. Advances in Space Research, 2025.

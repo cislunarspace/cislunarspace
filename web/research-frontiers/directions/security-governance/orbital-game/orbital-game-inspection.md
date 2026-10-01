@@ -4,7 +4,7 @@ description: 深度解读Han和Dang发表于Chinese Journal of Aeronautics的论
 keywords: 地月空间, 轨道博弈, 非合作目标, 轨道检查, 博弈论, LLO检查器
 author: Matrix Agent
 date: 2026-03-11
-lastUpdated: 2026-03-11
+lastUpdated: 2026-10-01
 permalink: /research-frontiers/directions/security-governance/orbital-game/orbital-game-inspection/
 wechatShare:
   title: 地月空间非合作飞行器轨道博弈研究
@@ -30,9 +30,9 @@ twitter:
 
 ## 研究背景与问题提出
 
-随着航天技术的飞速发展，越来越多的航天器被部署到地月空间执行各类任务。与此同时，空间碎片、故障卫星的数量也在持续增长。**如何有效地对非合作目标进行轨道检查和监视**，已成为地月空间安全管理中亟待解决的核心问题之一。
+随着航天技术的飞速发展，越来越多的航天器被部署到地月空间执行各类任务。与此同时，空间碎片、故障卫星的数量也在持续增长。**如何有效地对非合作目标进行轨道检查和监视**，已成为地月空间安全管理中亟待解决的核心问题之一\cite{maestriniGuidanceStrategyAutonomous2022,jiaoParametricDesignMethod2023}。
 
-与传统的轨道追逃博弈（Orbital Pursuit-Evasion Games, OPEGs）不同，地月空间非合作航天器检查任务的本质并非简单的逃脱追捕。Han和Dang在研究中指出，目标航天器的目标应该是**在规避检查者的同时，继续执行特定任务（如利用月球引力辅助获得能量优势）**。这一独特的任务背景，使得检查者扮演着blocker（阻断者）的角色，其核心目标不仅是接近目标，更是要阻止目标使用最优的物理天地通信线路（Physical CLOCs）。
+与传统的轨道追逃博弈即 Orbital Pursuit-Evasion Games 不同，地月空间非合作航天器检查任务的本质并非简单的逃脱追捕\cite{ZhaoLiRanKongJianGuiDaoBoYiGaiNianYuanLiYuFangFa2021a}。Han和Dang在研究中指出，目标航天器的目标应该是**在规避检查者的同时继续执行特定任务，例如利用月球引力辅助获得能量优势**。这一独特的任务背景，使得检查者扮演着blocker即阻断者的角色，其核心目标不仅是接近目标，更是要阻止目标使用最优的物理天地通信线路 Physical CLOCs\cite{hanGameTheoreticManeuveringStrategies2026}。
 
 ### LLO作为检查阵地的独特优势
 
@@ -40,7 +40,7 @@ twitter:
 
 1. **战略位置优势**：LLO轨道周期较短（约2小时），可作为地月转移的咽喉要道
 2. **任务能力率高**：检查器在LLO不会因轨道相位调整而受限于任务能力率（Mission-Capable Rate, MCR）
-3. **不可绕过性**：与部署在拉格朗日点L1的检查器不同，位于LLO的检查器无法被目标轻易绕过
+3. **不可绕过性**：与部署在拉格朗日点L1的检查器不同，位于LLO的检查器无法被目标轻易绕过\cite{hanGameTheoreticManeuveringStrategies2026}
 
 ## 研究方法与模型构建
 
@@ -51,6 +51,8 @@ twitter:
 - **参与者规则**：定义了检查者（Inspector）和规避者（Evader）的行为约束
 - **胜利条件**：明确博弈的终止条件和各方目标
 - **信息假设**：假设参与者获取的信息是完美的，不存在观测误差
+
+更一般的轨道检查博弈建模与求解框架也已有研究，给出了 epsilon-nash 均衡解的求解方法\cite{liOrbitalInspectionGame2024}。
 
 ### 轨道动力学模型
 
@@ -127,7 +129,7 @@ twitter:
 
 ## 结论
 
-Han和Dang的这项研究为地月空间非合作目标检查任务提供了重要的理论框架和实践指导。通过构建精细的博弈模型和系统的仿真分析，研究揭示了检查者在应对规避机动时的战略劣势，为未来轨道服务任务的设计提供了宝贵的参考依据。
+Han和Dang的这项研究为地月空间非合作目标检查任务提供了重要的理论框架和实践指导。通过构建精细的博弈模型和系统的仿真分析，研究揭示了检查者在应对规避机动时的战略劣势，为未来轨道服务任务的设计提供了宝贵的参考依据\cite{hanGameTheoreticManeuveringStrategies2026}。
 
 ---
 

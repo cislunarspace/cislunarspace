@@ -8,7 +8,7 @@ wechatShare:
 keywords: 转移走廊, Pork-chop图, 多目标优化, 低能转移, 高能转移
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/transfer/corridor-design/
 ---
 
@@ -24,7 +24,7 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 
 地月转移走廊（Transfer Corridor）是地月空间中一系列可达轨道的集合，航天器沿这些轨道可以在给定能量约束下从起点到达目标轨道。
 
-在 CR3BP 模型中，转移走廊对应于相空间中连接 LEO 附近和目标轨道（如 NRHO）的稳定流形管（Invariant Manifold Tubes）。这些管状结构在状态空间中形成"通道"，沿通道内的轨迹只需很小的修正即可到达目标。
+在 CR3BP 模型中，转移走廊对应于相空间中连接 LEO 附近和目标轨道如 NRHO 的稳定流形管 Invariant Manifold Tubes \cite{TanMingHuJiYuDaFuZhiLyapunovGuiDaoDeDiYueZhuanYiGuiDaoSheJiYanJiu2014,ZhengYueJiYuDaFuZhiLyapunovGuiDaoWenDingLiuXingDeDiYueZhuanYiFangFa2023}。这些管状结构在状态空间中形成通道，沿通道内的轨迹只需很小的修正即可到达目标。
 
 ## 低能走廊 vs 高能走廊
 
@@ -42,7 +42,7 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 - 转移时间长（2-4 周）
 - $\Delta V$ 走廊宽度较宽（约 $\pm 200-300$ m/s）
 
-两种走廊的 $\Delta V$ 差异约为 200-300 m/s，对推进剂预算影响显著。
+两种走廊的 $\Delta V$ 差异约为 200-300 m/s，对推进剂预算影响显著，弱稳定边界类低能走廊与月球借力类低能入轨策略的系统研究均给出了量化的速度增量权衡 \cite{pengLowenergyTransfersLunar2024,LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024,ZhangChenJiYuYueQiuJieLiDeDiNengDRORuGuiCeLue2022}。
 
 ## Pork-Chop 图
 
@@ -68,7 +68,7 @@ Pork-Chop 图是 TLI 发射窗口分析的标准工具，以等高线图的形�
 | 最小化时间 | 高能走廊 | $\Delta V$ 增加 |
 | 最大化窗口宽度 | 折中方案 | 两种目标均非最优 |
 
-Pareto 前沿表示在时间-燃料权衡中无法同时改进两者的最优解集。任务规划时需根据航天器能力和任务需求选择合适的运行点。
+Pareto 前沿表示在时间-燃料权衡中无法同时改进两者的最优解集 \cite{wangMechanismCharacteristicsAnalysis2025,PengChaoDiYueKongJianDiNengZhuanYiGuiDaoQuanJuSheJiYuBingXingJiSuan2021}。任务规划时需根据航天器能力和任务需求选择合适的运行点。
 
 ## NRHO 插入时机
 
@@ -77,3 +77,5 @@ Pareto 前沿表示在时间-燃料权衡中无法同时改进两者的最优解
 - 插入时机决定于到达时的月球相位和轨道几何
 - 最佳插入窗口宽度通常为 $\pm 1-2$ 小时
 - 插入 $\Delta V$ 约为 200-400 m/s
+
+插入方式与时机存在多种权衡，例如介于直接转移与弱稳定边界转移之间的扩展近月点交会方案能够以较短的过渡期实现低速度增量的 NRHO 入轨 \cite{kikuchiExtendedPeriluneRendezvous2024}。

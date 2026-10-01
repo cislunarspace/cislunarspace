@@ -8,7 +8,7 @@ wechatShare:
 keywords: Gateway, Artemis, 月球门户, NRHO应用, 国际合作
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-08-27
+lastUpdated: 2026-10-01
 permalink: /cislunar-orbits/nrho/gateway-cases/
 ---
 
@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/nrho/gateway-cases/
 
 ## 月球门户（Gateway）概述
 
-NASA 的**月球门户**（Lunar Gateway）是 Artemis 计划的核心基础设施，是一个计划在地月空间运行的小型空间站。与国际空间站（ISS）不同，Gateway 并非常驻轨道，而是运行在 L2 南族 9:2 会合共振 NRHO 上，每约 6.56 天绕月一圈，支持深空任务与极区着陆。
+NASA 的**月球门户**（Lunar Gateway）是 Artemis 计划的核心基础设施，是一个计划在地月空间运行的小型空间站\cite{smithArtemisProgramOverview2020}。与国际空间站（ISS）不同，Gateway 并非常驻轨道，而是运行在 L2 南族 9:2 会合共振 NRHO 上，每约 6.56 天绕月一圈，支持深空任务与极区着陆\cite{crusanDeepSpaceGateway2018}。
 
 Gateway 选择 NRHO 作为其运行轨道，主要基于以下考量：
 
@@ -31,7 +31,7 @@ Gateway 选择 NRHO 作为其运行轨道，主要基于以下考量：
 3. **通信覆盖**：每个周期的大部分时间悬于月球南极上空，对极区着陆区可见性好
 4. **深空中转**：NRHO 可作为地月往返与深空任务的中间站
 
-Gateway 的目标 NRHO 参数：近月点高度约 1500-3000 公里（掠过月球北极上空），远月点距月心约 7 万公里（伸向月球南极外侧），周期约 6.56 天。
+Gateway 的目标 NRHO 参数为近月点高度约 1500 至 3000 公里，掠过月球北极上空，远月点距月心约 7 万公里，伸向月球南极外侧，周期约 6.56 天，连续 15 年的参考轨迹已经公布\cite{leeWhitePaperGateway2019}。
 
 ## 国际合作模式
 
@@ -44,14 +44,14 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 | JAXA（日本） | I-HAB（国际居住舱） | 人员居住、科学实验 |
 | CSA（加拿大） | robotic arm (Canadarm3) | 舱外机器人操作 |
 
-各舱段均设计为可在 Gateway NRHO 上独立或协同运行，体现了模块化、多国合作的设计思想。
+各舱段均设计为可在 Gateway NRHO 上独立或协同运行，体现了模块化、多国合作的设计思想\cite{crusanDeepSpaceGateway2018,nasaGatewayCislunarSpringboard2023}。
 
 ## 地月转移设计
 
 从地球到 Gateway NRHO 的转移通常分为两个阶段：
 
 1. **地月转移轨道（TLI）**：从 LEO 或直接发射进入地月转移轨道
-2. **NRHO 插入**：到达月球附近后沿稳定流形接入目标轨道并实施插入机动
+2. **NRHO 插入**：到达月球附近后沿稳定流形接入目标轨道并实施插入机动\cite{williams2017targeting}
 
 典型的 TLI 能量预算约为 $\Delta V \approx 3.1-3.3$ km/s（相对于 LEO），到达月球影响球后的 NRHO 插入机动约为 200-400 m/s。
 
@@ -65,6 +65,6 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 | 维持 ΔV | 年均数米/秒（现代方法可低于 2 m/s/年） | 几乎免控（CR3BP 下线性稳定） |
 | 地球通信 | 好 | 较好 |
 | 月球南极覆盖 | 好（南族成员大部分周期悬于南极上空） | 中等 |
-| 工程成熟度 | 较低（Gateway 是首个大规模应用，CAPSTONE 已先行验证同类轨道） | 阿尔忒尼斯 1 号任务已实际采用远距离逆行轨道绕月 |
+| 工程成熟度 | 较低，Gateway 是首个大规模应用，CAPSTONE 已先行验证同类轨道\cite{agasid2025cislunar} | 阿尔忒尼斯 1 号任务已实际采用远距离逆行轨道绕月 |
 
 最终 NASA 选择 NRHO 作为 Gateway 的运行轨道，主要是考虑到其对月球表面（尤其是南极 landing zone）的可达性优势。
