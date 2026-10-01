@@ -4,7 +4,7 @@ description: 周期轨道在轨道平面法向上的最大偏移量，记作Az�
 keywords: 轨道振幅, Orbital Amplitude, 导航, 定轨, 星间链路
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 轨道振幅（Orbital Amplitude）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/orbital-amplitude/
 
 ## 定义
 
-周期轨道在轨道平面法向上的最大偏移量，记作Az。NRHO和Halo轨道的振幅决定其离月远近及对高纬度区域的覆盖能力。振幅越大，极区可见性越好。
+周期轨道在轨道平面法向上的最大偏移量，记作Az。NRHO和Halo轨道的振幅决定其离月远近及对高纬度区域的覆盖能力。振幅越大，极区可见性越好\cite{JinShouCongJiYuNRHODeYueQiuQuanQiuDingWeiXiTongXingZuoYanJiu2025}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/orbital-amplitude/
 - 星地联合定轨（Ground-Space Joint Orbit Determination）
 - [地月空间卫星导航系统（Cislunar Space Satellite Navigation System）](/glossary/navigation/cislunar-space-satellite-navigation-system/)
 - 链路数量（Link Quantity）
-
-## 参考文献
-
-- 晋守聪等, 2025, 空间科学学报, 45(2): 317-327

@@ -4,7 +4,7 @@ description: 针对特定观测目标设计的星座，如用于地球极区或�
 keywords: 观测星座, Observation Constellation, 天文观测, 射电天文, 光学导航
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 观测星座（Observation Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/observation-constellation/
 
 ## 定义
 
-针对特定观测目标设计的星座，如用于地球极区或月球南极观测的星座，利用靠近观测目标的轨道（如苜蓿叶形轨道、L2垂直Lyapunov轨道）实现持续覆盖。
+针对特定观测目标设计的星座，如用于地球极区或月球南极观测的星座，利用靠近观测目标的轨道（如苜蓿叶形轨道、L2垂直Lyapunov轨道）实现持续覆盖 \cite{heReviewCislunarConstellation2026}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/observation-constellation/
 - [Kordylewski云（Kordylewski Clouds）](/glossary/observation/kordylewski-clouds/)
 - 视场角（Field of View）
 - 观测精度（Observation Accuracy）
-
-## 参考文献
-
-- He 等 - 2026 - A review of cislunar constellation design and optimization

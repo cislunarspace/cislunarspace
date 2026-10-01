@@ -4,7 +4,7 @@ description: 用于计算非线性函数作用下随机变量均值与协方差�
 keywords: 无迹变换, Unscented Transformation, UT, navigation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 无迹变换（Unscented Transformation, UT）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -28,7 +28,7 @@ permalink: /glossary/navigation/ut/
 
 1. 高阶精度逼近：传统扩展卡尔曼滤波（EKF）采用一阶泰勒展开截断非线性项，在强非线性地月多体引力场中容易因截断误差产生滤波发散；无迹变换无需忽略高阶项，其计算出的后验均值和协方差在泰勒级数展开下至少可精确至三阶精度（对于高斯先验输入）。
 2. 免求雅可比矩阵：无迹变换直接基于确定性样本点的真实非线性函数映射，完全免去了对复杂多体引力模型、高阶球谐系数及太阳光压等动力学项解析或数值求偏导（雅可比矩阵）的过程，大幅降低了算法推导难度与计算奇异风险。
-3. 广泛工程应用：无迹变换作为无迹卡尔曼滤波（UKF）与高斯混合滤波（GMF）的核心算子，广泛应用于地月空间非合作目标搜索跟踪、月球软着陆自主导航、多星交会对接相对状态估计及可达域不确定性传播等关键工程领域。
+3. 广泛工程应用：无迹变换作为无迹卡尔曼滤波（UKF）与高斯混合滤波（GMF）的核心算子，广泛应用于地月空间非合作目标搜索跟踪、月球软着陆自主导航、多星交会对接相对状态估计及可达域不确定性传播等关键工程领域\cite{liEfficientReachableDomain2025}。
 
 ## 相关概念
 
@@ -40,4 +40,3 @@ permalink: /glossary/navigation/ut/
 ## 参考文献
 
 - Julier S J, Uhlmann J K. Unscented filtering and nonlinear estimation. *Proceedings of the IEEE*, 2004, 92(3): 401-422.
-- Li X, Zhang C, Baoyin H. Efficient reachable domain search-tracking for cislunar non-cooperative targets via designed quadrature. *Astrodynamics*, 2025, 9(1): 85-102.

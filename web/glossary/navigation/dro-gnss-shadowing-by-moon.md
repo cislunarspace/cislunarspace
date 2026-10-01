@@ -4,7 +4,7 @@ description: 远距逆行轨道运行过程中，月球遮挡地球方向 GNSS �
 keywords: 定位, 导航, 轨道确定, 星座
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 远距逆行轨道阴影遮挡（DRO GNSS Shadowing by Moon）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/dro-gnss-shadowing-by-moon/
 
 ## 定义
 
-远距逆行轨道运行过程中，月球遮挡地球方向 GNSS 信号源的现象。轨道周期越短的 DRO，被遮挡时间占轨道周期的比例越大，导致 GNSS 信号中断时段增加，定轨误差方差显著增大。是制约纯 GNSS 在该类轨道上定轨性能的关键因素。
+远距逆行轨道运行过程中，月球遮挡地球方向 GNSS 信号源的现象。轨道周期越短的 DRO，被遮挡时间占轨道周期的比例越大，导致 GNSS 信号中断时段增加，定轨误差方差显著增大。是制约纯 GNSS 在该类轨道上定轨性能的关键因素\cite{qiAnalysisAutonomousOrbit2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/dro-gnss-shadowing-by-moon/
 - 甚长基线干涉测量（Very Long Baseline Interferometry）
 - 轨道预报（Orbit Prediction）
 - 初值点（Initial Epoch Point）
-
-## 参考文献
-
-- Analysis of Autonomous Orbit Determination in Various Near-Moon Periodic Orbits (Qi & Oguri, 2023)

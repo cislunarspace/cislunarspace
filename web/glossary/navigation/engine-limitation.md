@@ -4,7 +4,7 @@ description: 推力器物理性能对控制指令的限制，包括最小推力�
 keywords: 发动机约束, Engine Limitation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 发动机约束（Engine Limitation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/engine-limitation/
 
 ## 定义
 
-推力器物理性能对控制指令的限制，包括最小推力（推力器点火阈值）和最大推力（推力器输出上限）。当指令推力低于最小推力时，实际控制输入为零；当指令推力超过最大推力时，实际控制输入被截断为最大值。在地月空间轨道保持中，典型取值为最小推力加速度10的负七次方米每二次方秒、最大推力加速度5乘以10的负四次方米每二次方秒。
+推力器物理性能对控制指令的限制，包括最小推力（推力器点火阈值）和最大推力（推力器输出上限）。当指令推力低于最小推力时，实际控制输入为零；当指令推力超过最大推力时，实际控制输入被截断为最大值。在地月空间轨道保持中，典型取值为最小推力加速度10的负七次方米每二次方秒、最大推力加速度5乘以10的负四次方米每二次方秒\cite{zhangContinuousthrustStationkeepingCislunar2022}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/navigation/engine-limitation/
 - 月面接收机（Lunar Surface Receiver）
 - 几何精度因子（Geometric Dilution of Precision, GDOP）
 - [星间测距（Satellite-to-Satellite Tracking, SST）](/glossary/navigation/inter-satellite-ranging/)
-
-## 参考文献
-
-- Zhang and Wang 2022 Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints

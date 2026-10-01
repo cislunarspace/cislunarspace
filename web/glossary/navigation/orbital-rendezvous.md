@@ -4,7 +4,7 @@ description: 两个或多个航天器在特定引力场中通过轨道机动消�
 keywords: 轨道交会, Orbital Rendezvous, 轨道机动, 相对导航, 空间交会对接
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 轨道交会（Orbital Rendezvous）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -20,7 +20,7 @@ permalink: /glossary/navigation/orbital-rendezvous/
 
 ## 定义
 
-轨道交会（Orbital Rendezvous）是指追踪航天器通过实施一系列自主或地面导引的轨道机动，改变自身轨道几何参数与沿轨相位，最终在预定时刻与目标航天器汇合于同一空间轨道位置并消除两者相对运动速度矢量的完整受控动力学飞行过程。
+轨道交会（Orbital Rendezvous）是指追踪航天器通过实施一系列自主或地面导引的轨道机动，改变自身轨道几何参数与沿轨相位，最终在预定时刻与目标航天器汇合于同一空间轨道位置并消除两者相对运动速度矢量的完整受控动力学飞行过程\cite{fehseAutomatedRendezvousDocking2003}。
 
 ## 物理机制与工程价值
 
@@ -41,5 +41,4 @@ permalink: /glossary/navigation/orbital-rendezvous/
 
 ## 参考文献
 
-- Fehse, W. Automated Rendezvous and Docking of Spacecraft. Cambridge University Press, 2003.
 - Luo, Y. Z., Zhang, J., & Li, H. Y. Survey on orbital rendezvous and proximity operations for space missions. Chinese Journal of Aeronautics, 2014, 27(1): 1-11.

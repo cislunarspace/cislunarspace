@@ -4,7 +4,7 @@ description: 部署在地月L3、L4、L5三个三角平动点轨道上的卫星�
 keywords: 地月平动点星座, Cislunar Libration Point Constellation, 天文观测, 射电天文, 光学导航
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地月平动点星座（Cislunar Libration Point Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/cislunar-libration-point-constellation/
 
 ## 定义
 
-部署在地月L3、L4、L5三个三角平动点轨道上的卫星星座。三颗卫星在白道面上呈120°均匀分布，构成控守近地空间高轨区域的制高点。论文设计的星座中，L3点采用幅值小、稳定性好的Lyapunov轨道，L4和L5点采用拟周期轨道以实现长期低代价驻留。
+部署在地月L3、L4、L5三个三角平动点轨道上的卫星星座。三颗卫星在白道面上呈120°均匀分布，构成控守近地空间高轨区域的制高点。论文设计的星座中，L3点采用幅值小、稳定性好的Lyapunov轨道，L4和L5点采用拟周期轨道以实现长期低代价驻留 \cite{ZhangJingPengDiYuePingDongDianGaoGuiGuanCeXiTongSheJiJiXiaoNengFenXi2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/cislunar-libration-point-constellation/
 - [Kordylewski云（Kordylewski Clouds）](/glossary/observation/kordylewski-clouds/)
 - 视场角（Field of View）
 - [观测星座（Observation Constellation）](/glossary/observation/observation-constellation/)
-
-## 参考文献
-
-- 张靖鹏 等 - 2025 - 地月平动点高轨观测系统设计及效能分析

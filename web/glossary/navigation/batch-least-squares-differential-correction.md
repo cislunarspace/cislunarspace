@@ -4,7 +4,7 @@ description: 利用加权最小二乘法将位置观测与轨道初轨相结合�
 keywords: 批最小二乘微分修正, Batch Least-Squares Differential Correction, 导航, 定轨, 制导, 滤波器
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 批最小二乘微分修正
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/batch-least-squares-differential-correction/
 
 ## 定义
 
-利用加权最小二乘法将位置观测与轨道初轨相结合，通过迭代求解轨道状态估值的微分修正方法。
+利用加权最小二乘法将位置观测与轨道初轨相结合，通过迭代求解轨道状态估值的微分修正方法\cite{schumacherUncertainLambertProblem2015}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/batch-least-squares-differential-correction/
 - 复合周期轨道（Complex Periodic Orbit）
 - 轨道转移级（Orbital Transfer Stage）
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
-
-## 参考文献
-
-- Uncertain Lambert Problem

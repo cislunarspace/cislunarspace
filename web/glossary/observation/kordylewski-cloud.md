@@ -4,7 +4,7 @@ description: 聚集于地月系统三角平动点（L4、L5）附近的尘埃云
 keywords: 科迪莱夫斯基云, Kordylewski Cloud, 天文观测, 空间态势感知, 目标跟踪, 可见性分析
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 科迪莱夫斯基云（Kordylewski Cloud）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/kordylewski-cloud/
 
 ## 定义
 
-聚集于地月系统三角平动点（L4、L5）附近的尘埃云团，由波兰天文学家科迪莱夫斯基于 1961 年报告发现。这些云团受引力平衡作用形成低密度结构，属于地月空间自然碎片环境的重要组成部分。
+聚集于地月系统三角平动点（L4、L5）附近的尘埃云团，由波兰天文学家科迪莱夫斯基于 1961 年报告发现。这些云团受引力平衡作用形成低密度结构，属于地月空间自然碎片环境的重要组成部分 \cite{SunCongDiYueKongJianTaiShiGanZhiJiShuYanJiuXianZhuangYuFaZhan2025a}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/kordylewski-cloud/
 - [流形传播（Manifold Propagation）](/glossary/dynamics/invariant-manifold/)
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
 - 碰撞预警（Collision Warning）
-
-## 参考文献
-
-- 地月空间态势感知技术研究现状与发展

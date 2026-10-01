@@ -4,7 +4,7 @@ description: 月球全球导航与通信星座中覆盖月面的部分。该段�
 keywords: 月球段星座, Lunar Segment Constellation, 任务, 航天器, 系统, 应用
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球段星座（Lunar Segment Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/lunar-segment-constellation/
 
 ## 定义
 
-月球全球导航与通信星座中覆盖月面的部分。该段部署在L1和L2稳定Halo轨道上，卫星经优化分布后使月面任意位置至少可见四颗星，GDOP不超过25。论文设计的20星方案可对约98%月面用户提供连续定位服务。
+月球全球导航与通信星座中覆盖月面的部分。该段部署在L1和L2稳定Halo轨道上，卫星经优化分布后使月面任意位置至少可见四颗星，GDOP不超过25。论文设计的20星方案可对约98%月面用户提供连续定位服务 \cite{contiDesignHaloOrbit2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/programs/lunar-segment-constellation/
 - 在轨服务（On-Orbit Servicing）
 - 追踪器（Chaser）
 - 搭乘部署（Ride-share）
-
-## 参考文献
-
-- Conti and Circi, 2025, Design of halo orbit constellation for lunar global positioning and communication services

@@ -4,7 +4,7 @@ description: 1961年Kordylewski报告的在L5点附近发现的暗淡云状卫�
 keywords: Kordylewski云, Kordylewski Clouds, 天文观测, 射电天文, 光学导航
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: Kordylewski云（Kordylewski Clouds）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/kordylewski-clouds/
 
 ## 定义
 
-1961年Kordylewski报告的在L5点附近发现的暗淡云状卫星，后续地面观测未能确认。
+1961年Kordylewski报告的在L5点附近发现的暗淡云状卫星，后续地面观测未能确认 \cite{gomezDynamicsMissionDesign2001}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/kordylewski-clouds/
 - 视场角（Field of View）
 - [观测星座（Observation Constellation）](/glossary/observation/observation-constellation/)
 - 观测精度（Observation Accuracy）
-
-## 参考文献
-
-- Gómez et al. 2001, Chapter 1

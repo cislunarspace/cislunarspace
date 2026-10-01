@@ -4,7 +4,7 @@ description: 论文为Gateway空间站定义的一种保护区域概念。以CR3
 keywords: 有价值区域, Valuable Region, 目标检测, 雷达, 光学观测
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 有价值区域（Valuable Region）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/valuable-region/
 
 ## 定义
 
-论文为Gateway空间站定义的一种保护区域概念。以CR3BP周期解为参考，在旋转坐标系中沿轨道构建一个伪环面包络，半径由近月点向远月点按二次律从1000 km增加到5000 km，用于评估碎片对 Gateway 的威胁程度。
+论文为Gateway空间站定义的一种保护区域概念。以CR3BP周期解为参考，在旋转坐标系中沿轨道构建一个伪环面包络，半径由近月点向远月点按二次律从1000 km增加到5000 km，用于评估碎片对 Gateway 的威胁程度 \cite{aAnalysisAccidentalSpacecraft2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/valuable-region/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
-
-## 参考文献
-
-- Guardabasso 等 - 2023 - Analysis of accidental spacecraft break-up events in cislunar space

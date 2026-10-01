@@ -4,7 +4,7 @@ description: 在平衡点附近将动力学方程展开为线性近似的分析�
 keywords: 定位, 导航, 轨道确定, 星座
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 线性化方法（Linearization Method）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/linearization-method/
 
 ## 定义
 
-在平衡点附近将动力学方程展开为线性近似的分析方法。Conley将限制性三体问题在共线拉格朗日点处线性化，得到具有一个实特征值对和一个虚特征值对的哈密顿系统。通过Moser对Lyapunov定理的推广，线性方程描述的九类轨道行为（穿越、非穿越、渐近各三种）完整保留到非线性情形。
+在平衡点附近将动力学方程展开为线性近似的分析方法。Conley将限制性三体问题在共线拉格朗日点处线性化，得到具有一个实特征值对和一个虚特征值对的哈密顿系统。通过Moser对Lyapunov定理的推广，线性方程描述的九类轨道行为（穿越、非穿越、渐近各三种）完整保留到非线性情形\cite{conleyLowEnergyTransit1968}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/linearization-method/
 - 甚长基线干涉测量（Very Long Baseline Interferometry）
 - 轨道预报（Orbit Prediction）
 - 初值点（Initial Epoch Point）
-
-## 参考文献
-
-- Conley - 1968 - Low energy transit orbits in restricted 3-body problem

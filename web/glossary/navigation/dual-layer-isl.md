@@ -4,7 +4,7 @@ description: 混合星座中建立的二层星间网络：第一层连接NRHO与
 keywords: 双层星间链路, Dual-Layer Inter-Satellite Link, Dual-layer ISL, 导航, 定轨, GNSS, 卡尔曼滤波
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 双层星间链路（Dual-Layer Inter-Satellite Link）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/dual-layer-isl/
 
 ## 定义
 
-混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航；第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性。
+混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航；第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性\cite{chenAutonomousNavigationMethods2026}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/dual-layer-isl/
 - [月球全球定位系统（Lunar Global Positioning System, LGPS）](/glossary/navigation/lgps/)
 - 精度因子（Dilution of Precision, DOP）
 - 方向余弦矩阵（Direction Cosine Matrix）
-
-## 参考文献
-
-- Chen 等 - 2026

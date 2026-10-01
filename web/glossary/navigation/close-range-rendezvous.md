@@ -4,7 +4,7 @@ description: 交会对接的第二个阶段，追踪航天器与目标距离从1
 keywords: 近距离逼近, Close-Range Rendezvous, 导航, 定轨, 星间链路
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 近距离逼近（Close-Range Rendezvous）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/close-range-rendezvous/
 
 ## 定义
 
-交会对接的第二个阶段，追踪航天器与目标距离从100公里接近到1公里，采用相对位置控制，可使用脉冲或连续推力。
+交会对接的第二个阶段，追踪航天器与目标距离从100公里接近到1公里，采用相对位置控制，可使用脉冲或连续推力\cite{colagrossiGuidanceNavigationControl2021}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/close-range-rendezvous/
 - [轨道振幅（Orbital Amplitude）](/glossary/navigation/orbital-amplitude/)
 - 星地联合定轨（Ground-Space Joint Orbit Determination）
 - [地月空间卫星导航系统（Cislunar Space Satellite Navigation System）](/glossary/navigation/cislunar-space-satellite-navigation-system/)
-
-## 参考文献
-
-- Colagrossi 等 - 2021

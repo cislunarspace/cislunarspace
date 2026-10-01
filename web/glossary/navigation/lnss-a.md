@@ -4,7 +4,7 @@ description: 论文设计的第一阶段月球导航星座方案。由3颗椭圆
 keywords: 月球导航卫星系统A, LNSS-A, LNSS-A
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球导航卫星系统A（LNSS-A）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。

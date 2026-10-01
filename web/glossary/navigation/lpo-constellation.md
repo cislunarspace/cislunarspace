@@ -4,7 +4,7 @@ description: 以地月平动点轨道（LPO）为基础卫星轨道，通过优�
 keywords: 地月平动点轨道星座, LPO Constellation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地月平动点轨道星座（LPO Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/lpo-constellation/
 
 ## 定义
 
-以地月平动点轨道（LPO）为基础卫星轨道，通过优化配置多颗卫星实现地月空间通信与导航服务的星座系统。相比传统卫星轨道，平动点轨道提供更多样化的轨道选项和更灵活的空间布局。
+以地月平动点轨道（LPO）为基础卫星轨道，通过优化配置多颗卫星实现地月空间通信与导航服务的星座系统。相比传统卫星轨道，平动点轨道提供更多样化的轨道选项和更灵活的空间布局\cite{tengAutonomousOrbitDetermination2025}。
 
 ## 应用价值
 

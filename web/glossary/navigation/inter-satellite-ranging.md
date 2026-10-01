@@ -4,7 +4,7 @@ description: 航天器之间通过双向无线电信号交换直接测量距离�
 keywords: 星间测距, Inter-Satellite Ranging, 自主导航, 轨道确定, 测距
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 星间测距（Inter-Satellite Ranging）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/inter-satellite-ranging/
 
 ## 定义
 
-航天器之间通过双向无线电信号交换直接测量距离的技术，已在GNSS星间链路中得到充分应用，测量精度高且易于实现。论文指出，由于引力的对称性，仅通过星间测距不能完成地月空间卫星的自主定轨，航天器在引力非对称性强的区域（如DRO轨道、平动点附近）运行是保证轨道唯一性的前提。通过地月空间航天器间的双向对发星间测距数据，结合相对论效应修正，在1毫米测距误差条件下，平动点位置定轨精度优于地基测距方法。
+航天器之间通过双向无线电信号交换直接测量距离的技术，已在GNSS星间链路中得到充分应用，测量精度高且易于实现。论文指出，由于引力的对称性，仅通过星间测距不能完成地月空间卫星的自主定轨，航天器在引力非对称性强的区域（如DRO轨道、平动点附近）运行是保证轨道唯一性的前提。通过地月空间航天器间的双向对发星间测距数据，结合相对论效应修正，在1毫米测距误差条件下，平动点位置定轨精度优于地基测距方法\cite{CongDianWeiDiYueKongJianHangTianQiZiZhuDaoHangJiShuJiYanJiuJinZhan2025}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/navigation/inter-satellite-ranging/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
-- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
-
-## 参考文献
-
-- 丛佃伟 等 - 2025 - 地月空间航天器自主导航技术及研究进展

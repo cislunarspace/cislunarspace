@@ -4,7 +4,7 @@ description: 通过动态链接测量更新与最优控制估计来处理未建�
 keywords: 最优控制估计器, Optimal Control Based Estimator, OCBE, OCBE, 导航, 交会对接, 制导
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 最优控制估计器（Optimal Control Based Estimator, OCBE）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/ocbe/
 
 ## 定义
 
-通过动态链接测量更新与最优控制估计来处理未建模动力学和机动检测的滤波器，能够在单一线性滤波器内重建未建模事件。
+通过动态链接测量更新与最优控制估计来处理未建模动力学和机动检测的滤波器，能够在单一线性滤波器内重建未建模事件\cite{greavesAutonomousOpticalonlySpacecrafttospacecraft2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/ocbe/
 - 安全球（Keep-Out Sphere）
 - 最终接近球（Final Approach Sphere）
 - 碰撞规避机动（Collision Avoidance Maneuver）
-
-## 参考文献
-
-- Autonomous Optical-Only Spacecraft-to-Spacecraft Absolute Tracking and Maneuver Classification in Cislunar Space。

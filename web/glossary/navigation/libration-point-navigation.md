@@ -4,7 +4,7 @@ description: 利用地月系统L1和L2平动点附近的引力不对称性，通
 keywords: 地月拉格朗日点导航, Libration Point Navigation, 导航, 定轨, GNSS
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地月拉格朗日点导航（Libration Point Navigation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/navigation/libration-point-navigation/
 
 ## 定义
 
-利用地月系统L1和L2平动点附近的引力不对称性，通过星间链路实现绝对定位的导航体制。
+利用地月系统L1和L2平动点附近的引力不对称性，通过星间链路实现绝对定位的导航体制\cite{tengAutonomousOrbitDetermination2025}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/libration-point-navigation/
 - 芯片级原子钟（Chip Scale Atomic Clock）
 - 粒子滤波（Particle Filter）
 - 测轨误差（Orbit Determination Error）
-
-## 参考文献
-
-- Teng 等 - 2025

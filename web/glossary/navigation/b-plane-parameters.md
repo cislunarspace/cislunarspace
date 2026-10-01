@@ -4,7 +4,7 @@ description: 深空轨道设计中的瞄准参数。B平面是过目标天体中
 keywords: B平面参数, B-Plane Parameters, 导航, 轨道确定, 测距
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: B平面参数（B-Plane Parameters）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/navigation/b-plane-parameters/
 
 ## 定义
 
-深空轨道设计中的瞄准参数。B平面是过目标天体中心且垂直于航天器接近双曲线渐近线的平面，B矢量为渐近线在该平面上的投影，其方向和长度确定航天器飞越天体的几何条件。实际应用中，将近月点高度、轨道倾角等约束转化为B平面参数，通过微分修正迭代求解转移轨道。
+深空轨道设计中的瞄准参数。B平面是过目标天体中心且垂直于航天器接近双曲线渐近线的平面，B矢量为渐近线在该平面上的投影，其方向和长度确定航天器飞越天体的几何条件。实际应用中，将近月点高度、轨道倾角等约束转化为B平面参数，通过微分修正迭代求解转移轨道\cite{GaoYuDongDiYueKongJianFeiXingGuiDaoFenCengSouSuoSheJi2006}\cite{CaoPengFeiChangEWuHaoTanCeQiDuoQuanDiaoXiangDiYueZhuanYiYingJiGuiDaoSheJiYuFenXi2022}。
 
 ## 应用价值
 
@@ -43,8 +43,3 @@ permalink: /glossary/navigation/b-plane-parameters/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- 高玉东 等 - 2006 - 地月空间飞行轨道分层搜索设计
-- 曹鹏飞 等 - 2022 - 嫦娥五号探测器多圈调相地月转移应急轨道设计与分析

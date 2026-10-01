@@ -4,7 +4,7 @@ description: 能依次访问多颗卫星的探测器概念，利用低能通道�
 keywords: 多卫星轨道器, Multi-Moon Orbiter, 低能通道, 多星访问, 木星卫星系统
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 多卫星轨道器（Multi-Moon Orbiter）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/multi-moon-orbiter/
 
 ## 定义
 
-能依次访问多颗卫星的探测器概念，利用低能通道在多颗卫星之间转移，仅需很少的推进剂。
+能依次访问多颗卫星的探测器概念，利用低能通道在多颗卫星之间转移，仅需很少的推进剂 \cite{rossDynamicalSystemsThreebody2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/programs/multi-moon-orbiter/
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - 共振通道（Resonance Channel）
 - 多目标探测（Multi-Target Mission）
-
-## 参考文献
-
-- Ross 等 - 2022 - Dynamical systems, the three-body problem, and space mission design

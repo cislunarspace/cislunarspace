@@ -4,7 +4,7 @@ description: 将圆型限制性三体等低阶简化模型轨道通过多节点�
 keywords: 微分校正, Differential Correction, 多重打靶, 星历模型, 连续性约束
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 微分校正（Differential Correction）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/differential-correction/
 2. **构建边界残差方程**：对内部无机动节点建立位置与速度双重连续性约束 $\mathbf{x}(t_{k+1}^-) - \mathbf{x}_{k+1} = \mathbf{0}$；对施加点火控制的机动节点仅施加位置连续性约束，允许速度矢量发生脉冲跳变；
 3. **雅可比矩阵迭代求解**：联立高精度星历变分方程计算各轨道弧段的状态转移矩阵，构建超定或欠定雅可比残差矩阵，利用摩尔彭罗斯伪逆或高斯牛顿法迭代修正各节点状态与点火历元。
 
-该方法消除了星历非自治摄动引起的流形漂移，确保了地月空间理论轨道向实际飞行工程轨道的高精度保真转化。
+该方法消除了星历非自治摄动引起的流形漂移，确保了地月空间理论轨道向实际飞行工程轨道的高精度保真转化\cite{pavlakTrajectoryDesignOrbit2013}。
 
 ## 相关概念
 

@@ -4,7 +4,7 @@ description: 由Hill和Born提出的平动点轨道卫星自主导航方法，�
 keywords: 联络导航, Liaison Navigation, 自主导航, 轨道确定, 星间测距
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 联络导航（Liaison Navigation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/liaison-navigation/
 
 ## 定义
 
-由Hill和Born提出的平动点轨道卫星自主导航方法，通过卫星间的星间测距数据在无需地面支持的情况下自主确定轨道。2005年提出后被广泛应用于Halo轨道卫星的自主导航研究。该方法的核心是利用平动点附近非旋转对称的力场环境克服传统卫星导航中的秩亏问题。
+由Hill和Born提出的平动点轨道卫星自主导航方法，通过卫星间的星间测距数据在无需地面支持的情况下自主确定轨道。2005年提出后被广泛应用于Halo轨道卫星的自主导航研究。该方法的核心是利用平动点附近非旋转对称的力场环境克服传统卫星导航中的秩亏问题\cite{liuNovelAutonomousNavigation2024}。
 
 ## 应用价值
 
@@ -45,5 +45,4 @@ permalink: /glossary/navigation/liaison-navigation/
 
 ## 参考文献
 
-- Liu et al. 2024, A novel autonomous navigation constellation in the Earth–Moon system
 - Hill and Born 2008

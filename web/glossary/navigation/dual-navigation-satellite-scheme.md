@@ -4,7 +4,7 @@ description: 在同一 halo 轨道上布设两颗导航星、初始相位相差 
 keywords: 双导航星方案, Dual Navigation Satellite Scheme, 导航, 轨道确定, 测量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 双导航星方案（Dual Navigation Satellite Scheme）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/dual-navigation-satellite-scheme/
 
 ## 定义
 
-在同一 halo 轨道上布设两颗导航星、初始相位相差 180 度的星座配置方案。针对单颗 halo 导航星对地月转移轨道定轨精度不足的问题，双导航星方案通过增加观测量，将地月转移轨道的定轨精度提高至少 2 倍，同时可观测度也显著改善。
+在同一 halo 轨道上布设两颗导航星、初始相位相差 180 度的星座配置方案。针对单颗 halo 导航星对地月转移轨道定轨精度不足的问题，双导航星方案通过增加观测量，将地月转移轨道的定轨精度提高至少 2 倍，同时可观测度也显著改善\cite{LiuLeiLiYonghaloDaoHangXingDeDiYueKongJianLianHeZiZhuGuiDaoQueDing2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/dual-navigation-satellite-scheme/
 - 视直径（Apparent Diameter）
 - 核心航天器（Core Spacecraft）
 - 码伪距（Code Pseudo-range）
-
-## 参考文献
-
-- 宇航学报 2023, 44(8): 1151-1159

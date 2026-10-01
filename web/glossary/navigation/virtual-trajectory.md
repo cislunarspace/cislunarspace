@@ -4,7 +4,7 @@ description: 容许域分割后各子域中心处的轨迹，作为后续精化�
 keywords: 虚拟轨迹, Virtual Trajectory, 导航, 轨道确定, 测距
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 虚拟轨迹（Virtual Trajectory）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/navigation/virtual-trajectory/
 
 ## 定义
 
-容许域分割后各子域中心处的轨迹，作为后续精化的初猜。
+容许域分割后各子域中心处的轨迹，作为后续精化的初猜\cite{liuMultipleSolutionsInitial2025}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/navigation/virtual-trajectory/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- Liu 等 - 2025 - Multiple solutions of initial orbit determination in cislunar space

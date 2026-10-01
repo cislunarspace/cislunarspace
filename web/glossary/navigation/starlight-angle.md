@@ -4,7 +4,7 @@ description: 从探测器测量近天体（如地球或太阳）与远天体（�
 keywords: 星光角距, Starlight Angle, 导航, 定轨, 测量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 星光角距（Starlight Angle）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/starlight-angle/
 
 ## 定义
 
-从探测器测量近天体（如地球或太阳）与远天体（导航恒星）之间的夹角，作为天文导航的观测量。星光角距将探测器的位置信息编码到几何角度中：探测器位置变化会引起角距变化，通过滤波算法即可反推位置。与二体问题下的天文导航不同，平动点附近探测器可选择两个主天体（太阳和地球），从而获得更丰富的观测信息。论文发现主天体为地球时，因探测器距地球仅约150万公里，角距张角远大于以太阳为主天体的模式，导航精度高一个量级。
+从探测器测量近天体（如地球或太阳）与远天体（导航恒星）之间的夹角，作为天文导航的观测量。星光角距将探测器的位置信息编码到几何角度中：探测器位置变化会引起角距变化，通过滤波算法即可反推位置。与二体问题下的天文导航不同，平动点附近探测器可选择两个主天体（太阳和地球），从而获得更丰富的观测信息。论文发现主天体为地球时，因探测器距地球仅约150万公里，角距张角远大于以太阳为主天体的模式，导航精度高一个量级\cite{zhaoAutonomousCelestialNavigation2013}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/navigation/starlight-angle/
 - 悬停控制（Hovering Control）
 - 先验约束（Prior constraint）
 - [绝对导航（Absolute Navigation）](/glossary/navigation/absolute-navigation/)
-
-## 参考文献
-
-- 赵书阁 等 - 2013 - 日地系统L2点Halo轨道自主天文导航及精度分析

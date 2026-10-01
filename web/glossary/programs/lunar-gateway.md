@@ -4,7 +4,7 @@ description: NASA主导的月球轨道空间站，计划部署在近直线晕轨
 keywords: 月球门户, Lunar Gateway, 任务, 航天器, 系统
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球门户（Lunar Gateway）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/lunar-gateway/
 
 ## 定义
 
-NASA主导的月球轨道空间站，计划部署在近直线晕轨道上，作为深空探测的中转枢纽。Gateway为载人登月任务提供轨道中继、通信导航支持和物资补给节点，是阿尔忒弥斯计划的核心基础设施。其对地月转移走廊导航服务的需求，是推动异构导航星座发展的重要牵引。
+NASA主导的月球轨道空间站，计划部署在近直线晕轨道上，作为深空探测的中转枢纽 \cite{kikuchiComparisonTransferTrajectory2024}。Gateway为载人登月任务提供轨道中继、通信导航支持和物资补给节点，是阿尔忒弥斯计划的核心基础设施 \cite{colagrossiEnhancingTechnologiesOperations2021,spreenTrajectoryDesignTargeting2021}。其对地月转移走廊导航服务的需求，是推动异构导航星座发展的重要牵引 \cite{ChenXiaoDiYueKongJianDaoHangXingZuoSheJiJiaGouTeZhengZhiBiaoGouJianYuJiShuYanJin2025}。
 
 ## 应用价值
 
@@ -41,10 +41,3 @@ NASA主导的月球轨道空间站，计划部署在近直线晕轨道上，作�
 - 推进舱模块（Propulsion Module）
 - 月球轨道平台-门户（Lunar Orbital Platform-Gateway, LOP-G）
 - 在轨服务（In-orbit Servicing）
-
-## 参考文献
-
-- 地月空间导航星座设计：架构特征、指标构建与技术演进
-- Kikuchi et al. - 2024 - Comparison of transfer trajectory to NRHO and operation plan for logistics resupply mission to gateway
-- Colagrossi 等 - 2021
-- Spreen 2021

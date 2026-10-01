@@ -4,7 +4,7 @@ description: 在飞行过程中迭代求解最优控制问题的制导方法，�
 keywords: 迭代制导, Iterative Guidance, 导航, 制导, 定轨
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 迭代制导（Iterative Guidance）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/iterative-guidance/
 
 ## 定义
 
-在飞行过程中迭代求解最优控制问题的制导方法，通过不断更新协态变量估计来逼近最优解。
+在飞行过程中迭代求解最优控制问题的制导方法，通过不断更新协态变量估计来逼近最优解\cite{ZhangHongBoHangTianQiGuiDaoLiXueLiLunYuFangFa2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/iterative-guidance/
 - GNSS超快星历（GNSS Ultra-rapid ephemerides）
 - 自由空间传播损耗（Free Space Propagation Loss）
 - 月球导航卫星系统B（LNSS-B）
-
-## 参考文献
-
-- 张洪波 - 2015 - 航天器轨道力学理论与方法

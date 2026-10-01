@@ -4,7 +4,7 @@ description: 两颗航天器通过同时相互发射与接收测距信号并解�
 keywords: 双向对发星间测距, Bidirectional Inter-Satellite Ranging, 自主导航, 星间链路, 钟差消除
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 双向对发星间测距（Bidirectional Inter-Satellite Ranging）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/navigation/bidirectional-inter-satellite-ranging/
 2. **高精度相对论修正**：结合地月引力势引起的引力红移（Gravitational Redshift）与二阶多普勒效应相对论修正，在毫米级测距误差（如 Ka/激光测距）下即可直接解算轨道动力学曲率；
 3. **摆脱地基测控依赖**：在地月 $L_1/L_2$ 平动点星群、月球中继星与环月星座之间构建双向链路网，能够实现厘米级几何距离测量与亚米级星载全自主协同定轨。
 
-该技术是地月空间自主时空基准建立与多星分布式协同导航的关键支撑。
+该技术是地月空间自主时空基准建立与多星分布式协同导航的关键支撑\cite{CongDianWeiDiYueKongJianHangTianQiZiZhuDaoHangJiShuJiYanJiuJinZhan2025}。
 
 ## 相关概念
 

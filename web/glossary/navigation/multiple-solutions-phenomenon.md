@@ -4,7 +4,7 @@ description: 在地月空间初轨确定中，基于三次光学观测和圆型�
 keywords: 多解现象, Multiple Solutions Phenomenon, 自主导航, 星间测距, 轨道确定
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 多解现象（Multiple Solutions Phenomenon）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/multiple-solutions-phenomenon/
 
 ## 定义
 
-在地月空间初轨确定中，基于三次光学观测和圆型限制性三体问题动力学，初始轨道确定问题最多可获得四个解，而非二体问题中的三个。
+在地月空间初轨确定中，基于三次光学观测和圆型限制性三体问题动力学，初始轨道确定问题最多可获得四个解，而非二体问题中的三个\cite{liuMultipleSolutionsInitial2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/multiple-solutions-phenomenon/
 - 自由空间损耗（Free Space Loss）
 - 绕飞段（Flyby Phase）
 - 求和线性组合（Sum Linear Combination）
-
-## 参考文献
-
-- Liu 等 - 2025 - Multiple solutions of initial orbit determination in cislunar space

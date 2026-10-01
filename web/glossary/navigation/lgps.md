@@ -4,7 +4,7 @@ description: 部署于地月空间平动点轨道或月球周围轨道的导航�
 keywords: 月球全球定位系统, Lunar Global Positioning System, LGPS, LGPS, 导航, 定轨, GNSS, 卡尔曼滤波
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球全球定位系统（Lunar Global Positioning System, LGPS）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/lgps/
 
 ## 定义
 
-部署于地月空间平动点轨道或月球周围轨道的导航卫星星座，为月面用户提供测距和定位信息，目标是实现月球全球尤其是极区和背面的持续覆盖。类比地球GPS，服务于未来月球探测与开发任务。
+部署于地月空间平动点轨道或月球周围轨道的导航卫星星座，为月面用户提供测距和定位信息，目标是实现月球全球尤其是极区和背面的持续覆盖。类比地球GPS，服务于未来月球探测与开发任务\cite{JinShouCongJiYuNRHODeYueQiuQuanQiuDingWeiXiTongXingZuoYanJiu2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/lgps/
 - 精度因子（Dilution of Precision, DOP）
 - 方向余弦矩阵（Direction Cosine Matrix）
 - 精密定轨（Precision Orbit Determination）
-
-## 参考文献
-
-- 晋守聪等, 2025, 空间科学学报, 45(2): 317-327

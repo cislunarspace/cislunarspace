@@ -4,7 +4,7 @@ description: 高轨及地月空间航天器跨越高空地球遮挡边缘接收�
 keywords: GNSS旁瓣信号导航, GNSS Sidelobe Signal Navigation, 自主导航, 旁瓣信号, 地月空间PNT
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: GNSS旁瓣信号导航（GNSS Sidelobe Signal Navigation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -24,7 +24,7 @@ GNSS旁瓣信号导航（GNSS Sidelobe Signal Navigation）是指运行在地球
 
 ## 物理机制与工程价值
 
-常规 GNSS 卫星的天线主瓣主要指向地球表面及低地球轨道（高度小于 3000-6000 km），其半主瓣角一般在 20 度以内。当航天器运行至地球同步轨道乃至地月空间（距地球数万至数十万公里）时，地球遮挡了大部分对侧主瓣信号。
+常规 GNSS 卫星的天线主瓣主要指向地球表面及低地球轨道（高度小于 3000-6000 km），其半主瓣角一般在 20 度以内。当航天器运行至地球同步轨道乃至地月空间（距地球数万至数十万公里）时，地球遮挡了大部分对侧主瓣信号\cite{CuiZhiYingJiYuHEOXingZuoZengQiangDeDiYueKongJianBeiDouGNSSDingWeiXingNengFenXi2025}。
 
 GNSS旁瓣信号导航的物理特征与工程价值包括：
 

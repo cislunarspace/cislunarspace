@@ -4,7 +4,7 @@ description: 布设在地月系平动点附近轨道上的卫星星座，为深�
 keywords: 深空导航星座, deep space navigation constellation, 导航, 轨道确定, 测量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 深空导航星座（deep space navigation constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/deep-space-navigation-constellation/
 
 ## 定义
 
-布设在地月系平动点附近轨道上的卫星星座，为深空探测器提供导航支持。星座利用平动点的空间唯一性和动力学特性，通过星间测距实现自主定轨，弥补地球近地导航系统（如GPS）无法覆盖月球及更远空间的不足。
+布设在地月系平动点附近轨道上的卫星星座，为深空探测器提供导航支持。星座利用平动点的空间唯一性和动力学特性，通过星间测距实现自主定轨，弥补地球近地导航系统（如GPS）无法覆盖月球及更远空间的不足\cite{LiuBinJiYuDiYueSanJiaoPingDongDianDeWeiXingZiZhuDingGui2017}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/deep-space-navigation-constellation/
 - 视直径（Apparent Diameter）
 - 核心航天器（Core Spacecraft）
 - 码伪距（Code Pseudo-range）
-
-## 参考文献
-
-- 刘斌 等 - 2017 - 基于地月三角平动点的卫星自主定轨

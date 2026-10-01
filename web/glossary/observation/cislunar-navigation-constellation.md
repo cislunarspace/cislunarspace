@@ -4,7 +4,7 @@ description: 部署在DRO和NRHO等地月空间典型轨道上的卫星星座，
 keywords: 地月空间导航星座, Cislunar Navigation Constellation, 观测, 测角, 相机
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地月空间导航星座（Cislunar Navigation Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/observation/cislunar-navigation-constellation/
 
 ## 定义
 
-部署在DRO和NRHO等地月空间典型轨道上的卫星星座，兼具导航定位和天基测站双重功能。论文中采用2颗DRO和2颗NRHO卫星组成四星星座作为编目定轨的天基测站。
+部署在DRO和NRHO等地月空间典型轨道上的卫星星座，兼具导航定位和天基测站双重功能。论文中采用2颗DRO和2颗NRHO卫星组成四星星座作为编目定轨的天基测站 \cite{ChenYanLingDiYueKongJianBianMuXiTongGuanCeTiZhiYanJiu2025}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/observation/cislunar-navigation-constellation/
 - 宽角相机（Wide Angle Camera）
 - 角锥棱镜（Corner Cube Reflector）
 - 可见性判定（Visibility Check）
-
-## 参考文献
-
-- 陈艳玲等2025-地月空间编目系统观测体制研究

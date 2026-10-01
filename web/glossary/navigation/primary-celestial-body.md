@@ -4,7 +4,7 @@ description: 天文导航中用作观测参考的最近大天体。近地轨道�
 keywords: 主天体, Primary Celestial Body, 导航, 轨道确定, 测量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 主天体（Primary Celestial Body）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/primary-celestial-body/
 
 ## 定义
 
-天文导航中用作观测参考的最近大天体。近地轨道导航的主天体默认为地球，而平动点附近的探测器因独特的空间位置，可在两个大天体（太阳和地球）中选择。论文发现主天体的选择对导航精度影响显著：L2点距地球约150万公里，距太阳约1.5亿公里，以地球为主天体时星光角距张角远大于太阳，导航精度高一个量级。结论是应选择距探测器较近的大天体作为主天体。
+天文导航中用作观测参考的最近大天体。近地轨道导航的主天体默认为地球，而平动点附近的探测器因独特的空间位置，可在两个大天体（太阳和地球）中选择。论文发现主天体的选择对导航精度影响显著：L2点距地球约150万公里，距太阳约1.5亿公里，以地球为主天体时星光角距张角远大于太阳，导航精度高一个量级。结论是应选择距探测器较近的大天体作为主天体\cite{zhaoAutonomousCelestialNavigation2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/primary-celestial-body/
 - 视直径（Apparent Diameter）
 - 核心航天器（Core Spacecraft）
 - 码伪距（Code Pseudo-range）
-
-## 参考文献
-
-- 赵书阁 等 - 2013 - 日地系统L2点Halo轨道自主天文导航及精度分析

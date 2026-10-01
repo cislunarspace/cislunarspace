@@ -4,7 +4,7 @@ description: 设计平动点轨道时，避免航天器被月球遮挡而与地�
 keywords: 月掩规避, Lunar Occultation Avoidance, 观测, 传感器, 可见性
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月掩规避（Lunar Occultation Avoidance）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/lunar-occultation-avoidance/
 
 ## 定义
 
-设计平动点轨道时，避免航天器被月球遮挡而与地球失去通信可视性的约束条件。在地月系L2点附近选取halo或Lissajous轨道时，需确保全弧段不发生月球对地通信链路的遮挡，这直接影响轨道幅值和构型的选择。
+设计平动点轨道时，避免航天器被月球遮挡而与地球失去通信可视性的约束条件。在地月系L2点附近选取halo或Lissajous轨道时，需确保全弧段不发生月球对地通信链路的遮挡，这直接影响轨道幅值和构型的选择 \cite{GaoShanDiYueLaGeLangRiL2DianZhongJiXingGuiDaoFenXiYuSheJi2017}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/lunar-occultation-avoidance/
 - 目标覆盖时间占比（Target Coverage Time Ratio）
 - [月掩规避（Lunar Occultation Avoidance）](/glossary/observation/lunar-occultation-avoidance/)
 - [月球排除角（Lunar Exclusion Angle）](/glossary/observation/lea/)
-
-## 参考文献
-
-- 梁伟光 等, 2017, 深空探测学报, 4(2): 166-170

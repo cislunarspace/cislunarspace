@@ -4,7 +4,7 @@ description: 一种小推力制导方法，以轨道根数（半长轴、偏心�
 keywords: Lyapunov最优反馈制导, Lyapunov Optimal Feedback Guidance, 地月空间导航, PNT服务, 轨道确定
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: Lyapunov最优反馈制导（Lyapunov Optimal Feedback Guidance）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。

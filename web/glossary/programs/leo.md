@@ -4,7 +4,7 @@ description: 建在近地轨道上的在轨燃料补给与飞行器周转设施�
 keywords: 近地轨道服务站, Low Earth Orbit Service Station, LEO服务站, programs
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 近地轨道服务站（Low Earth Orbit Service Station）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/leo/
 
 ## 定义
 
-建在近地轨道上的在轨燃料补给与飞行器周转设施，是航班化地月往返运输的起点和终点。本文设定LEO服务站运行在倾角35°、高度350 km的圆轨道上，受地球中心引力和J2摄动影响，停泊时长3天。运输飞行器在此补充燃料后飞往DRO服务站，返回后在此回收复用。
+建在近地轨道上的在轨燃料补给与飞行器周转设施，是航班化地月往返运输的起点和终点。本文设定LEO服务站运行在倾角35°、高度350 km的圆轨道上，受地球中心引力和J2摄动影响，停泊时长3天。运输飞行器在此补充燃料后飞往DRO服务站，返回后在此回收复用 \cite{BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。
 
 ## 应用价值
 
@@ -40,7 +40,3 @@ permalink: /glossary/programs/leo/
 
 - [远距离逆行轨道服务站（Distant Retrograde Orbit Service Station）](/glossary/programs/dro/)
 - 小行星重定向任务（Asteroid Redirect Mission, ARM）
-
-## 参考文献
-
-- 宝音贺西 等 - 2025 - 地月空间DRO航班化往返转移多脉冲轨迹优化。

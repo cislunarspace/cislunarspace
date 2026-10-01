@@ -4,7 +4,7 @@ description: 一种分阶段平动点轨道星座优化方法：第一步以轨�
 keywords: 两步优化算法, Two-Step Optimization Algorithm, , 导航, 定轨, 测控
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 两步优化算法（Two-Step Optimization Algorithm）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。

@@ -4,7 +4,7 @@ description: NASA联合多国航天机构在地月L2点近直线晕轨道上规�
 keywords: 月球门户空间站, Lunar Orbital Platform-Gateway, LOP-G, 航天计划, 任务设计, 系统, 应用, 方案
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球门户空间站（Lunar Orbital Platform-Gateway）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/lunar-orbital-platform-gateway/
 
 ## 定义
 
-NASA联合多国航天机构在地月L2点近直线晕轨道上规划建设的空间站，采用9:2共振轨道，周期约7天，距月球最远约7万公里。是阿尔忒弥斯计划的核心组成部分，承担地月中转站和月球探测前哨站功能。
+NASA联合多国航天机构在地月L2点近直线晕轨道上规划建设的空间站，采用9:2共振轨道，周期约7天，距月球最远约7万公里。是阿尔忒弥斯计划的核心组成部分，承担地月中转站和月球探测前哨站功能 \cite{bucchioniFullySafeRendezvous2022}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ NASA联合多国航天机构在地月L2点近直线晕轨道上规划建设的�
 - 鹊桥二号中继星（Queqiao-2 Relay Satellite）
 - 服务周期（Servicing Schedule / Scheduling）
 - 下一代太空体系架构（Next Generation Space Architecture）
-
-## 参考文献
-
-- Bucchioni et al., 2022
