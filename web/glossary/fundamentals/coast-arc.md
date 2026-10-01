@@ -4,7 +4,7 @@ description: 轨迹中发动机关闭的自由飞行区段。小推力最优轨�
 keywords: 滑行弧, Coast Arc, 基础概念, 轨道力学, 坐标系统
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 滑行弧（Coast Arc）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/coast-arc/
 
 ## 定义
 
-轨迹中发动机关闭的自由飞行区段。小推力最优轨迹通常由推力弧和滑行弧交替组成。
+轨迹中发动机关闭的自由飞行区段。小推力最优轨迹通常由推力弧和滑行弧交替组成\cite{zhangSmoothingTechniqueIndirect2025}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/fundamentals/coast-arc/
 - [Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）](/glossary/dynamics/bang-bang-control/)
 - 春分点（Vernal Equinox）
 - [L2-L1同伦法（L2-L1 Homotopy）](/glossary/dynamics/continuation/)
-
-## 参考文献
-
-- Zhang et al. - 2025 - Smoothing technique for indirect low-thrust trajectory optimization in cislunar space

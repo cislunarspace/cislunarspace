@@ -4,7 +4,7 @@ description: 沿参考极值曲线的变分方程（线性化哈密顿系统）�
 keywords: 雅可比场, Jacobi Field, 基础, 理论, 方程
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 雅可比场（Jacobi Field）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/jacobi-field/
 
 ## 定义
 
-沿参考极值曲线的变分方程（线性化哈密顿系统）的非平凡解。当雅可比场在某个时刻的状态分量为零时，该时刻称为垂直时刻。若在初始时刻和某正时刻均为垂直，则该正时刻为共轭时间。通过计算四组雅可比场的秩来数值判断共轭时间，是验证局部最优性的标准算法。
+沿参考极值曲线的变分方程（线性化哈密顿系统）的非平凡解。当雅可比场在某个时刻的状态分量为零时，该时刻称为垂直时刻。若在初始时刻和某正时刻均为垂直，则该正时刻为共轭时间。通过计算四组雅可比场的秩来数值判断共轭时间，是验证局部最优性的标准算法 \cite{caillauMinimumFuelControl2012}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/fundamentals/jacobi-field/
 - 利普希茨条件（Lipschitz Condition）
 - [变时间瞄准（Variable-Time Targeting）](/glossary/dynamics/differential-correction/)
 - 返回走廊（Return Corridor）
-
-## 参考文献
-
-- Caillau et al. 2012 - Minimum fuel control of the planar circular restricted three-body problem

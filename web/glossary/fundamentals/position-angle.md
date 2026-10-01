@@ -4,7 +4,7 @@ description: 在会合坐标系中，航天器相对两大天体连线的角位�
 keywords: 位置角, Position Angle, 基础, 坐标系, 参考系
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 位置角（Position Angle）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/position-angle/
 
 ## 定义
 
-在会合坐标系中，航天器相对两大天体连线的角位置。三角平动点L₄的位置角为60°（λ = 60°），探测器偏离三角平动点的角度差记为Δλ。文中用位置角偏离量表征探测器的漂移程度。
+在会合坐标系中，航天器相对两大天体连线的角位置。三角平动点L₄的位置角为60°（λ = 60°），探测器偏离三角平动点的角度差记为Δλ。文中用位置角偏离量表征探测器的漂移程度 \cite{LiuLinDiYueXiZhongTanCeQiDingDianZaiSanJiaoPingDongDianFuJinDeWeiZhiPiaoYiJiQiKongZhiWenTi2008}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/position-angle/
 - 功率谱密度（Power Spectral Density）
 - [控制参数化（Control Parametrization）](/glossary/dynamics/control-parametrization/)
 - 轨道面共面约束（Coplanar Orbital Plane Constraint）
-
-## 参考文献
-
-- 刘林和刘慧根 - 2008 - 地月系中探测器定点在三角平动点附近的位置漂移及其控制问题

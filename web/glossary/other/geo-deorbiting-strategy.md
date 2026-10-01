@@ -4,7 +4,7 @@ description: 利用低能量地月转移轨道将地球同步轨道寿命末期�
 keywords: GEO离轨策略, GEO Deorbiting Strategy, 策略, 方法, 技术
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: GEO离轨策略（GEO Deorbiting Strategy）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/other/geo-deorbiting-strategy/
 
 ## 定义
 
-利用低能量地月转移轨道将地球同步轨道寿命末期卫星送入月球区域永久存置的方案。总轨迹包括三段：GEO到转移轨道的小推力段、自由飞行的低能量转移段、进入月球区域直至颈部关闭的小推力段。替代传统坟墓轨道，缓解GEO空间碎片问题。
+利用低能量地月转移轨道将地球同步轨道寿命末期卫星送入月球区域永久存置的方案。总轨迹包括三段：GEO到转移轨道的小推力段、自由飞行的低能量转移段、进入月球区域直至颈部关闭的小推力段。替代传统坟墓轨道，缓解GEO空间碎片问题\cite{liangClassificationCislunarTrajectories2016}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/other/geo-deorbiting-strategy/
 - 通导遥一体化（Integrated Communication, Navigation and Remote Sensing）
 - [同步旋转坐标系（Synodic Rotating Frame）](/glossary/fundamentals/synodic-frame/)
 - [网格搜索（Grid Search）](/glossary/fundamentals/grid-search/)
-
-## 参考文献
-
-- Liang et al. 2016

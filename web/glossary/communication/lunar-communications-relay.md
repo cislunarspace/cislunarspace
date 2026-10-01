@@ -4,7 +4,7 @@ description: 利用平动点轨道卫星在月面设施与地球之间转发通�
 keywords: 月球通信中继, Lunar Communications Relay, 通信, 中继, 星座
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球通信中继（Lunar Communications Relay）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/communication/lunar-communications-relay/
 
 ## 定义
 
-利用平动点轨道卫星在月面设施与地球之间转发通信信号的架构。Farquhar在1967年首先提出此概念，用于解决月球背面无法直接与地球通信的问题。本文将此概念扩展到月球南极：两颗卫星之间也建立星间链路，当一颗卫星与月面站通视但被月球遮挡无法直连地球时，可通过另一颗卫星中继。
+利用平动点轨道卫星在月面设施与地球之间转发通信信号的架构。Farquhar在1967年首先提出此概念，用于解决月球背面无法直接与地球通信的问题。本文将此概念扩展到月球南极：两颗卫星之间也建立星间链路，当一颗卫星与月面站通视但被月球遮挡无法直连地球时，可通过另一颗卫星中继\cite{grebowMultibodyOrbitArchitectures2008}。
 
 ## 应用价值
 
@@ -47,5 +47,4 @@ permalink: /glossary/communication/lunar-communications-relay/
 
 ## 参考文献
 
-- Grebow et al. 2008
 - Farquhar 1967

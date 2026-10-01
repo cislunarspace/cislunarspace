@@ -4,7 +4,7 @@ description: 地月系统中与地球、月球构成等边三角形前方的平�
 keywords: L4点, L4 Point, 坐标系, 引力场, 摄动
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: L4点（L4 Point）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/fundamentals/l4-point/
 
 ## 定义
 
-地月系统中与地球、月球构成等边三角形前方的平动点（三角平动点之一）。
+地月系统中与地球、月球构成等边三角形前方的平动点（三角平动点之一）\cite{haapalaTrajectorySelectionStrategy2013}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/fundamentals/l4-point/
 - 虚拟共面起飞（Virtual Coplanar Takeoff）
 - [月球重力场不规则性（Lunar Gravity Field Irregularity）](/glossary/fundamentals/gravity-field-model/)
 - [LP100K模型（LP100K Model）](/glossary/fundamentals/gravity-field-model/)
-
-## 参考文献
-
-- Trajectory selection strategy for tours in the Earth-moon system

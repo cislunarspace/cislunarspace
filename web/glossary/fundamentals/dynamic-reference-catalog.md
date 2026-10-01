@@ -4,7 +4,7 @@ description: 一种交互式地月系统轨道设计工具。与静态数据库�
 keywords: 动态参考目录, Dynamic Reference Catalog, 轨道力学, 坐标系统, 引力
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 动态参考目录（Dynamic Reference Catalog）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/dynamic-reference-catalog/
 
 ## 定义
 
-一种交互式地月系统轨道设计工具。与静态数据库不同，它按需实时计算周期轨道族的特征参数（尺寸、周期、雅可比常数、稳定性指数、转移成本、飞行时间、维持成本等），允许用户筛选、比较和导出候选轨道，为初步任务设计提供快速决策框架。
+一种交互式地月系统轨道设计工具。与静态数据库不同，它按需实时计算周期轨道族的特征参数（尺寸、周期、雅可比常数、稳定性指数、转移成本、飞行时间、维持成本等），允许用户筛选、比较和导出候选轨道，为初步任务设计提供快速决策框架\cite{foltaEarthMoonSystem2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/dynamic-reference-catalog/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
-
-## 参考文献
-
-- Folta et al., 2015

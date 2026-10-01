@@ -4,7 +4,7 @@ description: 以控制量的L2范数（即控制能量）为代价函数的最�
 keywords: 能量最小化, Energy Minimization, 基础, 理论, 方程
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 能量最小化（Energy Minimization）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/energy-minimization/
 
 ## 定义
 
-以控制量的L2范数（即控制能量）为代价函数的最优控制问题。相比最小燃料问题（L1范数），能量最小化问题的哈密顿量严格凹且光滑，控制律连续，射方程易求解。因此常作为同伦延拓的起点，逐步过渡到最小燃料问题。
+以控制量的L2范数（即控制能量）为代价函数的最优控制问题。相比最小燃料问题（L1范数），能量最小化问题的哈密顿量严格凹且光滑，控制律连续，射方程易求解。因此常作为同伦延拓的起点，逐步过渡到最小燃料问题\cite{caillauMinimumFuelControl2012}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/fundamentals/energy-minimization/
 - 利普希茨条件（Lipschitz Condition）
 - [变时间瞄准（Variable-Time Targeting）](/glossary/dynamics/differential-correction/)
 - 返回走廊（Return Corridor）
-
-## 参考文献
-
-- Caillau et al. 2012 - Minimum fuel control of the planar circular restricted three-body problem

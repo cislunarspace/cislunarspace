@@ -4,7 +4,7 @@ description: 围绕参考轨道预先积分变分方程并存储状态转移矩�
 keywords: Precomputed Variational Data, 坐标系, 航天器, 轨道, 预计算变分数据
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 预计算变分数据（Precomputed Variational Data）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/precomputed-variational-data/
 
 ## 定义
 
-围绕参考轨道预先积分变分方程并存储状态转移矩阵和张量的策略。将参考轨道的时间区间按 2^m 等分，在每个子区间上积分一阶和二阶变分方程，存储对应的 STM 和 STT。在线阶段通过 cocycle 性质拼接预计算数据，避免每次求解最优控制问题时都进行数值积分。
+围绕参考轨道预先积分变分方程并存储状态转移矩阵和张量的策略。将参考轨道的时间区间按 2^m 等分，在每个子区间上积分一阶和二阶变分方程，存储对应的 STM 和 STT。在线阶段通过 cocycle 性质拼接预计算数据，避免每次求解最优控制问题时都进行数值积分 \cite{jacksonkulikStateTransitionTensors2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/precomputed-variational-data/
 - [相对运动最优控制（Optimal Relative Motion Control）](/glossary/dynamics/fuel-optimal/)
 - 火箭分级（Rocket Staging）
 - 叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）
-
-## 参考文献
-
-- Kulik et al., 2023, JGCD, doi:10.2514/1.G007311

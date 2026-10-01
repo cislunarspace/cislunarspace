@@ -4,7 +4,7 @@ description: 同时受多个天体引力场显著影响的航天器运动空间�
 keywords: 多体动力学环境, Multi-Body Dynamical Environment, , 基础理论, 轨道力学, 摄动
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 多体动力学环境（Multi-Body Dynamical Environment）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/multi-body-dynamical-environment/
 
 ## 定义
 
-同时受多个天体引力场显著影响的航天器运动空间，区别于二体问题和限制性三体问题。在地月空间中，地球、月球和太阳的引力共同决定轨道演化，尤其在地月平动点附近和日地弱稳定边界区域，多体耦合效应使轨道结构远比二体情形复杂，但也提供了低能转移的通道。
+同时受多个天体引力场显著影响的航天器运动空间，区别于二体问题和限制性三体问题。在地月空间中，地球、月球和太阳的引力共同决定轨道演化，尤其在地月平动点附近和日地弱稳定边界区域，多体耦合效应使轨道结构远比二体情形复杂，但也提供了低能转移的通道 \cite{foltaApplicationsMultibodyDynamical2012}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/multi-body-dynamical-environment/
 - 拉瓦尔喷管（Laval Nozzle）
 - [拉格朗日点（Lagrange Point）](/glossary/fundamentals/libration-point/)
 - 轨道根数（Orbital Elements）
-
-## 参考文献
-
-- Folta 等 - 2012 - Applications of multi-body dynamical environments the ARTEMIS transfer trajectory design

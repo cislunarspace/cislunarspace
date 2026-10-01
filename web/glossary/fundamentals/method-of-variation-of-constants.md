@@ -4,7 +4,7 @@ description: 一种将微分方程中常数参数替换为待定函数的求解�
 keywords: 常数变易法, Method of Variation of Constants, 平动点, 周期轨道, 多项式拟合, Gauss伪谱法
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 常数变易法（Method of Variation of Constants）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/method-of-variation-of-constants/
 
 ## 定义
 
-一种将微分方程中常数参数替换为待定函数的求解技术。在本文中，将平动点附近周期轨道一阶近似解的振幅和相位视为时变函数，通过多项式拟合转移轨道的螺旋特性，由此构造适用于Gauss伪谱法的形状函数。
+一种将微分方程中常数参数替换为待定函数的求解技术。在本文中，将平动点附近周期轨道一阶近似解的振幅和相位视为时变函数，通过多项式拟合转移轨道的螺旋特性，由此构造适用于Gauss伪谱法的形状函数 \cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/method-of-variation-of-constants/
 - 周期轨道（Periodic Orbit）
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - 形状函数（Shape Function）
-
-## 参考文献
-
-- 平动点周期轨道间小推力转移的Gauss伪谱法

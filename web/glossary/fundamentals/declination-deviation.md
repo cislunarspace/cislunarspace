@@ -4,7 +4,7 @@ description: 航天器与目标天体在地心赤道惯性坐标系中赤纬之�
 keywords: 坐标系, 轨道, 物理, 天文
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 赤纬偏差（Declination Deviation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/declination-deviation/
 
 ## 定义
 
-航天器与目标天体在地心赤道惯性坐标系中赤纬之差。与赤经偏差配合使用，构成分层搜索第一层的两个终端约束条件。
+航天器与目标天体在地心赤道惯性坐标系中赤纬之差。与赤经偏差配合使用，构成分层搜索第一层的两个终端约束条件\cite{GaoYuDongDiYueKongJianFeiXingGuiDaoFenCengSouSuoSheJi2006}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/declination-deviation/
 - NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）
 - [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodic-frame/)
 - [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/ltp/)
-
-## 参考文献
-
-- 高玉东 等 - 2006 - 地月空间飞行轨道分层搜索设计

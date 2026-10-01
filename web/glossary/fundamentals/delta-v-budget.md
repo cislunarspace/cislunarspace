@@ -4,7 +4,7 @@ description: 任务各飞行阶段所需速度增量的汇总表，用于评估�
 keywords: 速度增量预算, Delta-V Budget, 基础概念, 运动方程, 参考系, 参数
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 速度增量预算（Delta-V Budget）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/delta-v-budget/
 
 ## 定义
 
-任务各飞行阶段所需速度增量的汇总表，用于评估任务的燃料需求和可行性。本文中NRHO登月模式全程速度增量约5289 m/s，Halo约5267 m/s，DRO约5244 m/s，三者地月往返总燃耗相当，主要差异在环月段转移时间。
+任务各飞行阶段所需速度增量的汇总表，用于评估任务的燃料需求和可行性。本文中NRHO登月模式全程速度增量约5289 m/s，Halo约5267 m/s，DRO约5244 m/s，三者地月往返总燃耗相当，主要差异在环月段转移时间\cite{CengHaoMianXiangZaiRenYueQiuTanCeDeSanTiZhouQiGuiDaoYingYongFangAnFenXi2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/delta-v-budget/
 - 质量参数（Mass Parameter）
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-integral/)
 - [归一化单位（Normalized Units）](/glossary/fundamentals/nondimensionalization/)
-
-## 参考文献
-
-- 曾豪等, 2022, 面向载人月球探测的三体周期轨道应用方案分析

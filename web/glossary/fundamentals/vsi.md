@@ -4,7 +4,7 @@ description: 亦称功率受限发动机。推力和排气速度均可调的电�
 keywords: 变比冲发动机, Variable-specific-impulse engine, VSI, 轨道力学, 重力场, 三体问题, 测控, 电推进
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 变比冲发动机（Variable-specific-impulse engine）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/vsi/
 
 ## 定义
 
-亦称功率受限发动机。推力和排气速度均可调的电推进发动机，功率源（如太阳能电池板）与发动机分离，功率有上限。最优推力加速度向量恰好等于引燃矢量：Γ(t) = p(t)，这一性质将运动方程与引燃矢量方程耦合为关于位置的四阶微分方程。
+亦称功率受限发动机。推力和排气速度均可调的电推进发动机，功率源（如太阳能电池板）与发动机分离，功率有上限。最优推力加速度向量恰好等于引燃矢量：Γ(t) = p(t)，这一性质将运动方程与引燃矢量方程耦合为关于位置的四阶微分方程 \cite{prussingPrimerVectorTheory2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/vsi/
 - 离子推进（Ion Propulsion）
 - [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/dynamics/poincare-section/)
 - 中途修正（Mid-course Correction）
-
-## 参考文献
-
-- Prussing - 2010 - Primer vector theory and applications

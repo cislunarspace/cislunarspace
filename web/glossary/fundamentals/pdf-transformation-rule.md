@@ -4,7 +4,7 @@ description: 已知随机向量间的连续一对一变换时，通过雅可比�
 keywords: 概率密度函数变换法则, PDF Transformation Rule
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 概率密度函数变换法则（PDF Transformation Rule）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/pdf-transformation-rule/
 
 ## 定义
 
-已知随机向量间的连续一对一变换时，通过雅可比行列式将一个变量的概率密度函数变换为另一个变量概率密度函数的规则。
+已知随机向量间的连续一对一变换时，通过雅可比行列式将一个变量的概率密度函数变换为另一个变量概率密度函数的规则，这一法则是求解不确定 Lambert 问题等概率轨道分析问题的基础 \cite{hallHigherorderSensitivityMatrix2020}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/pdf-transformation-rule/
 - Cholesky因子分解（Cholesky Factorization）
 - SPICE 星历工具包（SPICE, SpiceyPy）
 - 抛物线轨道（Parabolic Orbit）
-
-## 参考文献
-
-- Uncertain Lambert Problem

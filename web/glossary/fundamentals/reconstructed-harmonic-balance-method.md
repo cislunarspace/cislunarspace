@@ -4,7 +4,7 @@ description: 一种求解非线性动力系统周期轨道的数值方法，通�
 keywords: 重构谐波平衡法, Reconstructed Harmonic Balance Method
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 重构谐波平衡法（Reconstructed Harmonic Balance Method）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/reconstructed-harmonic-balance-method/
 
 ## 定义
 
-一种求解非线性动力系统周期轨道的数值方法，通过谐波展开和重构技术获得高精度周期解，能够生成比传统微分修正法更丰富的DRO轨道族。
+一种求解非线性动力系统周期轨道的数值方法，通过谐波展开和重构技术获得高精度周期解，能够生成比传统微分修正法更丰富的DRO轨道族 \cite{zhouDesignCircumlunarGlobal2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/reconstructed-harmonic-balance-method/
 - Cholesky因子分解（Cholesky Factorization）
 - SPICE 星历工具包（SPICE, SpiceyPy）
 - 抛物线轨道（Parabolic Orbit）
-
-## 参考文献
-
-- Zhou et al. 2024 - Design of circumlunar global positioning satellite constellation on DRO in the cislunar space

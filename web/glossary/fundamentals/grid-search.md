@@ -4,7 +4,7 @@ description: 在参数空间上均匀布点、逐一计算并评估的全局优�
 keywords: 网格搜索, Grid Search, 轨道力学, 数值方法, 优化算法
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 网格搜索（Grid Search）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/grid-search/
 
 ## 定义
 
-在参数空间上均匀布点、逐一计算并评估的全局优化方法。本文对初始共态变量的三维搜索空间进行粗细两轮网格搜索，每轮包含数百万条轨迹积分。简单直接但计算量大，适用于维度不高且函数求值快速的场景。
+在参数空间上均匀布点、逐一计算并评估的全局优化方法。本文对初始共态变量的三维搜索空间进行粗细两轮网格搜索，每轮包含数百万条轨迹积分\cite{oshimaGlobalSearchLowthrust2017}。简单直接但计算量大，适用于维度不高且函数求值快速的场景。
 
 ## 应用价值
 
@@ -45,5 +45,4 @@ permalink: /glossary/fundamentals/grid-search/
 
 ## 参考文献
 
-- Oshima et al. 2017
 - Campana 等 - 2024 - Low-energy earth–moon transfers via theory of functional connections and homotopy

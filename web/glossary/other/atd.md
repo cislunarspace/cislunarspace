@@ -4,7 +4,7 @@ description: 普渡大学开发的面向地月空间与深空复杂多体引力�
 keywords: 自适应轨迹设计, Adaptive Trajectory Design, ATD, other
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 自适应轨迹设计（Adaptive Trajectory Design, ATD）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -28,7 +28,7 @@ permalink: /glossary/other/atd/
 
 1. 理论模型向高保真星历的平滑延拓：ATD允许轨道设计师在交互式界面中调用低能动力学目录（如NRHO、Halo轨道及流形管），通过施加多节点变量约束与自适应网格细分，利用阻尼牛顿多重打靶法快速消除位置与速度间断点，使理论轨迹无缝收敛于包含日月摄动、行星引力及非球形引力的真实星历积分模型。
 2. 模块化轨迹拼接与优化：支持低推力电推进弧段与多脉冲推进弧段的混合拼接，自动解算最优切换点，并能直接输出标准化轨道文件以对接高精度任务验证软件（如GMAT和STK）。
-3. 空间任务方案论证加速：ATD在地月空间门户空间站Gateway轨道维持、ARTEMIS地月平动点探测及CAPSTONE立方星低能地月转移方案论证中发挥了关键支撑作用。
+3. 空间任务方案论证加速：ATD在地月空间门户空间站Gateway轨道维持、ARTEMIS地月平动点探测及CAPSTONE立方星低能地月转移方案论证中发挥了关键支撑作用\cite{foltaEarthMoonLibration2014}。
 
 ## 相关概念
 
@@ -39,5 +39,4 @@ permalink: /glossary/other/atd/
 
 ## 参考文献
 
-- Folta D C, Pavlak T A, Howell K C, et al. Earth-Moon libration point orbit stationkeeping: theory, modeling, and operations. *Acta Astronautica*, 2014, 94(1): 421-433.
 - Howell K C, Pavlak T A, Woodard M. Trajectory design and targeting in the Earth-Moon system using Adaptive Trajectory Design. *AAS/AIAA Space Flight Mechanics Meeting*, Charleston, SC, 2012: AAS 12-164.

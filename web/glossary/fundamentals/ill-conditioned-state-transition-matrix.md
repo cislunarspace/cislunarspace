@@ -4,7 +4,7 @@ description: 三体 Lambert 问题求解中，状态转移矩阵的逆阵条件�
 keywords: 状态转移矩阵病态, Ill-Conditioned State Transition Matrix, 基础概念, 运动方程, 参考系, 参数
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 状态转移矩阵病态（Ill-Conditioned State Transition Matrix）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/ill-conditioned-state-transition-matrix/
 
 ## 定义
 
-三体 Lambert 问题求解中，状态转移矩阵的逆阵条件数过大导致数值迭代发散的现象。当长期积分或参考轨道接近不稳定结构时，状态转移矩阵的逆运算会放大误差，使 Newton-Raphson 迭代发散。本文提出的改进方法是用遗传算法预搜索参考轨道，缩短参考轨道与目标轨道的距离，再用同伦方法平滑过渡。
+三体 Lambert 问题求解中，状态转移矩阵的逆阵条件数过大导致数值迭代发散的现象。当长期积分或参考轨道接近不稳定结构时，状态转移矩阵的逆运算会放大误差，使 Newton-Raphson 迭代发散。本文提出的改进方法是用遗传算法预搜索参考轨道，缩短参考轨道与目标轨道的距离，再用同伦方法平滑过渡 \cite{SunYuJiYuSanTiLambertSuanFaDePingDongDianJiaoHuiGuiDaoSheJi2017}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/fundamentals/ill-conditioned-state-transition-matrix/
 - 质量参数（Mass Parameter）
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-integral/)
 - [归一化单位（Normalized Units）](/glossary/fundamentals/nondimensionalization/)
-
-## 参考文献
-
-- 基于三体Lambert算法的平动点交会轨道设计
