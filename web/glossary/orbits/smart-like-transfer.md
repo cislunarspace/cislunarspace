@@ -4,7 +4,7 @@ description: 以欧空局SMART-1任务为代表的一类低能量地月转移轨
 keywords: SMART-1类转移, SMART-like Transfer, 轨道, 周期轨道, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: SMART-1类转移（SMART-like Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/smart-like-transfer/
 
 ## 定义
 
-以欧空局SMART-1任务为代表的一类低能量地月转移轨道。航天器的雅可比能量略低于L₁值，颈部区域刚好开启，通过在月球附近多次共振跳转逐次改变近共振状态，最终进入月球引力范围。属于地月转移（区别于地月外转移）。
+以欧空局SMART-1任务为代表的一类低能量地月转移轨道。航天器的雅可比能量略低于L₁值，颈部区域刚好开启，通过在月球附近多次共振跳转逐次改变近共振状态，最终进入月球引力范围 \cite{liangClassificationCislunarTrajectories2016}。属于地月转移（区别于地月外转移）。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/smart-like-transfer/
 - [晕轨道族（Halo Orbit Family）](/glossary/orbits/halo-orbit/)
 - 转移-停泊-交会一体化轨道设计（Integrated Transfer-Parking-Rendezvous Orbit Design）
 - [EL1-Lyapunov轨道（EL1 Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-
-## 参考文献
-
-- Liang et al. 2016

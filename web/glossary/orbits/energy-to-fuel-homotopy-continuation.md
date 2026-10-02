@@ -4,7 +4,7 @@ description: 解决低推力燃料最优问题的数值策略。先求解较容�
 keywords: 能量-燃料同伦延拓法, Energy-to-Fuel Homotopy Continuation, 周期轨道, 轨道转移, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 能量-燃料同伦延拓法（Energy-to-Fuel Homotopy Continuation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/energy-to-fuel-homotopy-continuation/
 
 ## 定义
 
-解决低推力燃料最优问题的数值策略。先求解较容易收敛的最小能量问题（ε=1），再通过同伦参数ε逐步减小到0，将解光滑过渡到燃料最优问题。同伦参数ε的作用是在目标函数中引入正则化项εu(1-u)，使油门因子从连续取值逐步收缩为bang-bang的0或1。
+解决低推力燃料最优问题的数值策略。先求解较容易收敛的最小能量问题（ε=1），再通过同伦参数ε逐步减小到0，将解光滑过渡到燃料最优问题 \cite{zhangLowthrustMinimumfuelOptimization2015,jiangPracticalTechniquesLowThrust2012a}。同伦参数ε的作用是在目标函数中引入正则化项εu(1-u)，使油门因子从连续取值逐步收缩为bang-bang的0或1 \cite{jiangPracticalTechniquesLowThrust2012a}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/energy-to-fuel-homotopy-continuation/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
-- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
-
-## 参考文献
-
-- Zhang et al. 2015, JGCD, doi:10.2514/1.G001080; Jiang et al. 2012, JGCD

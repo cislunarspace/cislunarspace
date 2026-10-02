@@ -4,7 +4,7 @@ description: 线性化相对运动基础解集中对应单值矩阵中性实数�
 keywords: 周期解, Periodic Solution, 轨道设计, 周期轨道, 轨道转移
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 周期解（Periodic Solution）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,11 +32,11 @@ permalink: /glossary/orbits/periodic-solution/
 
 ## 定义
 
-线性化相对运动基础解集中对应单值矩阵中性实数特征值 λ=1 的有界解。周期解在非线性动力学上对应同一条 DRO 上相位略有不同的前后伴飞编队，副星与主星保持固定的相对位置关系，既无碰撞风险又不会超出编队合作距离，是 DRO 近距离自然伴飞编队的力学基础。
+线性化相对运动基础解集中对应单值矩阵中性实数特征值 λ=1 的有界解。周期解在非线性动力学上对应同一条 DRO 上相位略有不同的前后伴飞编队，副星与主星保持固定的相对位置关系，既无碰撞风险又不会超出编队合作距离，是 DRO 近距离自然伴飞编队的力学基础 \cite{yangCloseRelativeMotion2023,meyerIntroductionHamiltonianDynamical2017}。
 
 ## 应用价值
 
-周期解对应同一条 DRO 上相位略有不同的伴飞编队，副星与主星保持固定相对位置关系，是 DRO 近距离自然伴飞编队的力学基础。
+周期解对应同一条 DRO 上相位略有不同的伴飞编队，副星与主星保持固定相对位置关系，是 DRO 近距离自然伴飞编队的力学基础 \cite{yangNaturalNonnaturalClose2023}。
 
 ## 相关概念
 
@@ -44,9 +44,3 @@ permalink: /glossary/orbits/periodic-solution/
 - [近直线晕轨道（Near Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
 - 周期轨道（Periodic Orbit）
 - 轨道转移（Orbital Transfer）
-
-## 参考文献
-
-- Yang et al. 2023
-- Yang, Fu & Zhang 2023
-- Meyer和Offin - 2017

@@ -4,7 +4,7 @@ description: 将地月低推力转移任务分为两个阶段的设计策略。�
 keywords: 两段式转移, Two-Phase Transfer, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 两段式转移（Two-Phase Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/two-phase-transfer/
 
 ## 定义
 
-将地月低推力转移任务分为两个阶段的设计策略。第一阶段从近地轨道抬升至地球静止轨道高度，该区域第三体效应较弱，用经典形状函数即可；第二阶段从地球静止轨道转移至 L1 点，该区域双天体引力相当，需用修正形状函数。两段在连接点处满足位置和航迹角连续性约束。
+将地月低推力转移任务分为两个阶段的设计策略 \cite{vellutiniShapebasedDesignLowthrust2014}。第一阶段从近地轨道抬升至地球静止轨道高度，该区域第三体效应较弱，用经典形状函数即可；第二阶段从地球静止轨道转移至 L1 点，该区域双天体引力相当，需用修正形状函数。两段在连接点处满足位置和航迹角连续性约束。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/two-phase-transfer/
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-
-## 参考文献
-
-- Vellutini & Avanzini, 2014, Shape-based design of low-thrust trajectories to cislunar lagrangian point

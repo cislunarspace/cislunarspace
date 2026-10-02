@@ -4,7 +4,7 @@ description: 复合地月转移轨迹中以地球为主导中心引力源的飞�
 keywords: 地心弧段, Geocentric Arc, 轨道设计, 轨道力学, 转移轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地心弧段（Geocentric Arc）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。

@@ -4,7 +4,7 @@ description: Halo轨道在旋转坐标系中沿x轴（大天体到小天体连�
 keywords: 径向振幅, Radial Amplitude, A_x, 轨道, Halo轨道, DRO, 共振轨道, 平动点
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 径向振幅（Radial Amplitude）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/ax/
 
 ## 定义
 
-Halo轨道在旋转坐标系中沿x轴（大天体到小天体连线方向）的最大偏移量。与面外振幅 A_z 和平面振幅 A_y 不同，A_x 反映轨道在两个主天体连线方向上的伸展范围。Richardson三阶近似解析解中，A_x 由 A_z 唯一确定，三者之间的约束关系是Halo轨道设计的基本约束。
+Halo轨道在旋转坐标系中沿x轴（大天体到小天体连线方向）的最大偏移量。与面外振幅 A_z 和平面振幅 A_y 不同，A_x 反映轨道在两个主天体连线方向上的伸展范围。Richardson三阶近似解析解中，A_x 由 A_z 唯一确定，三者之间的约束关系是Halo轨道设计的基本约束 \cite{howellApplicationDynamicalSystems1997}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ Halo轨道在旋转坐标系中沿x轴（大天体到小天体连线方向）的
 - [初始周期轨道（Initial Periodic Orbit）](/glossary/orbits/ipo/)
 - 低推力转移（Low-Thrust Transfer）
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-- [共振轨道（Resonant Orbit）](/glossary/orbits/ro/)
-
-## 参考文献
-
-- Howell et al. 1997, Application of Dynamical Systems Theory to Trajectory Design for a Libration Point Mission

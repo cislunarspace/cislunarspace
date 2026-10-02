@@ -4,7 +4,7 @@ description: 指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k
 keywords: 经典指数正弦曲线, Classical Exponential Sinusoid, 轨道, 周期轨道, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 经典指数正弦曲线（Classical Exponential Sinusoid）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,19 +30,14 @@ permalink: /glossary/orbits/classical-exponential-sinusoid/
 
 ## 定义
 
-指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受；但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不足。
+指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受；但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不足 \cite{vellutiniShapebasedDesignLowthrust2014}。
 
 ## 应用价值
 
-形状法利用解析函数近似轨迹几何形状，为高精度的最优控制求解器提供良好的初始猜测，是小推力转移轨道设计的重要工具。
+形状法利用解析函数近似轨迹几何形状，为高精度的最优控制求解器提供良好的初始猜测，是小推力转移轨道设计的重要工具 \cite{vellutiniShapebasedDesignLowthrust2014}。
 
 ## 相关概念
 
 - [异系统Halo轨道（Heterospace-system Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [晕轨道族（Halo Orbit Family）](/glossary/orbits/halo-orbit/)
 - 转移-停泊-交会一体化轨道设计（Integrated Transfer-Parking-Rendezvous Orbit Design）
-- [EL1-Lyapunov轨道（EL1 Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-
-## 参考文献
-
-- Vellutini & Avanzini, 2014, Shape-based design of low-thrust trajectories to cislunar lagrangian point

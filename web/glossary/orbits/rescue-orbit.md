@@ -1,23 +1,23 @@
 ---
 title: 救援轨道（Rescue Orbit）
-description: 利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发。
+description: 利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发 \cite{alessiLowenergyTransfersEarth2011}。
 keywords: 救援轨道, Rescue Orbit, 轨道设计, 轨道力学, 平动点
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 救援轨道（Rescue Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 救援轨道详解 | 术语定义
-  description: 利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发。
+  description: 利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发 \cite{alessiLowenergyTransfersEarth2011}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 救援轨道详解 | 术语定义
-  description: 利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发。
+  description: 利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发 \cite{alessiLowenergyTransfersEarth2011}。
   image: /logo.png
 permalink: /glossary/orbits/rescue-orbit/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/rescue-orbit/
 
 ## 定义
 
-利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发。
+利用平动点轨道（Halo或Lissajous轨道）的稳定不变流形，从月面发射点到达该轨道的低能转移路径。出发速度近似月球逃逸速度（约2.4 km/s），直接转移约需10天。月面上的可用出发区随流形相位分布不均，绕月圈数增加后覆盖面积扩大：允许至少3次绕月即可从月面任意点出发 \cite{alessiLowenergyTransfersEarth2011}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/rescue-orbit/
 - [利萨如轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - 高地球轨道（High Earth Orbit, HEO）
 - [外部相位（Exterior Phase）](/glossary/orbits/low-energy-transfer/)
-
-## 参考文献
-
-- Low-Energy Transfers in the Earth–Moon System (Alessi et al., 2011)

@@ -4,7 +4,7 @@ description: 远地点远超地球同步高度（通常在地球同步轨道半�
 keywords: 超地球同步转移轨道, Super-Geostationary Transfer Orbit, sGTO, sGTO, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 超地球同步转移轨道（Super-Geostationary Transfer Orbit, sGTO）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/sgto/
 
 ## 定义
 
-远地点远超地球同步高度（通常在地球同步轨道半径数倍以上）的大椭圆转移轨道。在地月空间任务中，sGTO常作为低推力转移的出发轨道，其远地点接近或超出地球引力主导区边界，便于利用不变流形实现低能耗的地月转移。
+远地点远超地球同步高度（通常在地球同步轨道半径数倍以上）的大椭圆转移轨道。在地月空间任务中，sGTO常作为低推力转移的出发轨道，其远地点接近或超出地球引力主导区边界，便于利用不变流形实现低能耗的地月转移 \cite{singhLowthrustTransfersSouthern2021}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/sgto/
 - [最小停泊轨道（Minimum Parking Orbit, MPO）](/glossary/orbits/mpo/)
 - 部署轨迹（Deployment Trajectory）
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
-
-## 参考文献
-
-- Singh et al., 2021

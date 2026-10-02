@@ -4,7 +4,7 @@ description: 地月转移轨道飞行时间小于转移轨道地心轨道半个�
 keywords: 短程到达, Short-Reach Arrival, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 短程到达（Short-Reach Arrival）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/short-reach-arrival/
 
 ## 定义
 
-地月转移轨道飞行时间小于转移轨道地心轨道半个周期的到达方式，即到达月球时真近点角 f 小于等于 pi。短程到达在能量和时间上均优于长程到达，是载人登月霍曼转移的首选到达方式。
+地月转移轨道飞行时间小于转移轨道地心轨道半个周期的到达方式，即到达月球时真近点角 f 小于等于 pi \cite{PengQiBoZaiRenDengYueDiYueZhuanYiGuiDaoFangAnZongShu2016}。短程到达在能量和时间上均优于长程到达，是载人登月霍曼转移的首选到达方式。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/orbits/short-reach-arrival/
 - 周期轨道（Periodic Orbit）
 - 平动点轨道（Libration Point Orbit）
 - 轨道转移（Orbit Transfer）
-
-## 参考文献
-
-- 彭祺擘和张海联 - 2016 - 载人登月地月转移轨道方案综述

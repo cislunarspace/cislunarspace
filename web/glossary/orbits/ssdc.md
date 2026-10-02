@@ -4,7 +4,7 @@ description: 通过调整初始速度使轨迹在指定平面内垂直相交来�
 keywords: 单次打靶微分修正器, Single-shooting Differential Corrector, SSDC, 轨道, 转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 单次打靶微分修正器（Single-shooting Differential Corrector）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/ssdc/
 
 ## 定义
 
-通过调整初始速度使轨迹在指定平面内垂直相交来生成周期轨道的打靶法，常用于在全星历模型中生成准周期DRO轨道。
+通过调整初始速度使轨迹在指定平面内垂直相交来生成周期轨道的打靶法，常用于在全星历模型中生成准周期DRO轨道 \cite{wangJointNavigationPerformance2019}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/ssdc/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 - 平面月球轨道（Planar Lunar Orbit, PLO）
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
-
-## 参考文献
-
-- Wang 等 - 2019 - Joint navigation performance of distant retrograde orbits and cislunar orbits via LiAISON。

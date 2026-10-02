@@ -4,7 +4,7 @@ description: 地月转移轨道中从地球轨道出发、在EML1平动点与月
 keywords: 地心段, Geocentric Segment, 转移轨道, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地心段（Geocentric Segment）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/geocentric-segment/
 
 ## 定义
 
-地月转移轨道中从地球轨道出发、在EML1平动点与月心段衔接的地心动力学飞行段。
+地月转移轨道中从地球轨道出发、在EML1平动点与月心段衔接的地心动力学飞行段 \cite{yoonMinimumfuelLowthrustTrajectories2023}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/geocentric-segment/
 - [内外侧转移（Inner and Outer Transfer）](/glossary/orbits/low-energy-transfer/)
 - 调相轨迹（Phasing Trajectory）
 - 近火卫点距离（Periapsis Distance）
-
-## 参考文献
-
-- Minimum-fuel low-thrust trajectories to the moon (Yoon和Petukhov, 2023)

@@ -4,7 +4,7 @@ description: 用于长期停放天基基础设施（如推进剂仓库、长期�
 keywords: 存储轨道, Storage Orbit, 轨道设计, 轨道力学, 平动点
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 存储轨道（Storage Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/storage-orbit/
 
 ## 定义
 
-用于长期停放天基基础设施（如推进剂仓库、长期驻留舱）的周期轨道。选择标准包括：年维持速度增量小、从地球或平动点轨道可达、轨道周期和几何构型不严重限制发射窗口。DRO 因兼具低维持成本和良好几何构型，是典型候选。
+用于长期停放天基基础设施（如推进剂仓库、长期驻留舱）的周期轨道。选择标准包括：年维持速度增量小、从地球或平动点轨道可达、轨道周期和几何构型不严重限制发射窗口 \cite{foltaEarthMoonSystem2015}。DRO 因兼具低维持成本和良好几何构型，是典型候选。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/storage-orbit/
 - [利萨如轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - 高地球轨道（High Earth Orbit, HEO）
 - [外部相位（Exterior Phase）](/glossary/orbits/low-energy-transfer/)
-
-## 参考文献
-
-- Folta et al., 2015

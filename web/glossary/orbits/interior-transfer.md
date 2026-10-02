@@ -4,7 +4,7 @@ description: 从近地轨道出发，经地月L1点Lyapunov轨道的渐近轨道
 keywords: 内部转移, Interior Transfer, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 内部转移（Interior Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/interior-transfer/
 
 ## 定义
 
-从近地轨道出发，经地月L1点Lyapunov轨道的渐近轨道进入月球远距离逆行轨道的转移方式。转移路径处于地月系统内部，速度快但可用的发射窗口较窄。
+从近地轨道出发，经地月L1点Lyapunov轨道的渐近轨道进入月球远距离逆行轨道的转移方式 \cite{minghuTransferLongTerm2014,topputoOptimalTwoimpulseEarth2013a,kakoiAccessMarsEarth2014}。转移路径处于地月系统内部，速度快但可用的发射窗口较窄。
 
 ## 应用价值
 
@@ -44,9 +44,3 @@ permalink: /glossary/orbits/interior-transfer/
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-
-## 参考文献
-
-- Tan Minghu et al., 2014, Transfer to long term distant retrograde orbits around the Moon
-- Kakoi 等 - 2014
-- Topputo 2013

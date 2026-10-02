@@ -4,7 +4,7 @@ description: 从地球静止转移轨道（GTO）远地点出发的螺旋轨道�
 keywords: 能量最优螺旋, Energy-Optimal Spiral, 转移轨道, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 能量最优螺旋（Energy-Optimal Spiral）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/energy-optimal-spiral/
 
 ## 定义
 
-从地球静止转移轨道（GTO）远地点出发的螺旋轨道，推力方向与速度矢量对齐以最大化自然哈密顿量随时间的增长率。
+从地球静止转移轨道（GTO）远地点出发的螺旋轨道，推力方向与速度矢量对齐以最大化自然哈密顿量随时间的增长率 \cite{coxTransitCapturePlanar2021}。
 
 ## 应用价值
 
@@ -43,8 +43,3 @@ permalink: /glossary/orbits/energy-optimal-spiral/
 - [低能月球转移轨道（Low-Energy Lunar Transfer）](/glossary/orbits/low-energy-transfer/)
 - [内外侧转移（Inner and Outer Transfer）](/glossary/orbits/low-energy-transfer/)
 - 调相轨迹（Phasing Trajectory）
-- 近火卫点距离（Periapsis Distance）
-
-## 参考文献
-
-- Cox 等 - 2021

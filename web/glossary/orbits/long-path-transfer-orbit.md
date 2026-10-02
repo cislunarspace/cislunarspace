@@ -4,7 +4,7 @@ description: Lambert问题中两类解之一。沿该轨道从起点到终点所
 keywords: 长路径转移轨道, Long-Path Transfer Orbit, 轨道设计, 周期轨道, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 长路径转移轨道（Long-Path Transfer Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/long-path-transfer-orbit/
 
 ## 定义
 
-Lambert问题中两类解之一。沿该轨道从起点到终点所经过的角度超过180度，因此两个焦点分别位于弦的两侧。同一半长轴下，长路径轨道的飞行时间比短路径轨道长，且速度增量消耗通常更大。多圈转移中，长路径和短路径解分别构成t_f-a图的上分支和下分支（θ≤180度时）。
+Lambert问题中两类解之一。沿该轨道从起点到终点所经过的角度超过180度，因此两个焦点分别位于弦的两侧。同一半长轴下，长路径轨道的飞行时间比短路径轨道长，且速度增量消耗通常更大。多圈转移中，长路径和短路径解分别构成t_f-a图的上分支和下分支（θ≤180度时）\cite{shenOptimalTwoimpulseRendezvous2003}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Lambert问题中两类解之一。沿该轨道从起点到终点所经过的角�
 - [z振幅（Z-amplitude）](/glossary/orbits/halo-orbit/)
 - [标称轨道（Nominal Orbit）](/glossary/orbits/nominal-orbit/)
 - 平面窗口（Plane Window）
-
-## 参考文献
-
-- Shen和Tsiotras - 2003 - Optimal two-impulse rendezvous using multiple-revolution lambert solutions

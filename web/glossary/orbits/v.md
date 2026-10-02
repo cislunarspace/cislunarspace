@@ -4,7 +4,7 @@ description: 转移轨道末端进入月球DRO时所需的速度增量，是LEO�
 keywords: 月球DRO插入速度增量, Lunar DRO Insertion Delta-V, ΔV₂, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球DRO插入速度增量（Lunar DRO Insertion Delta-V）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/v/
 
 ## 定义
 
-转移轨道末端进入月球DRO时所需的速度增量，是LEO到DRO转移的主要燃料消耗。
+转移轨道末端进入月球DRO时所需的速度增量，是LEO到DRO转移的主要燃料消耗 \cite{capdevilaTransferNetworkLinking2018}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/v/
 - [slpo](/glossary/orbits/slpo/)
 - [em-halo](/glossary/orbits/halo-orbit/)
 - [rro](/glossary/orbits/resonant-orbit-family/)
-
-## 参考文献
-
-- Capdevila和Howell - 2018

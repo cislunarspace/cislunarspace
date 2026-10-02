@@ -4,7 +4,7 @@ description: 稳定性指数的模略大于1的周期轨道特性。这类轨道
 keywords: 弱不稳定, Mildly Unstable, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 弱不稳定（Mildly Unstable）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/mildly-unstable/
 
 ## 定义
 
-稳定性指数的模略大于1的周期轨道特性。这类轨道虽不严格稳定，但发散速率极慢，其不变流形需要较长时间才能离开轨道附近。地月L2点的NRHO通常呈现弱不稳定性，这使得它们在实际任务中可以较长时间维持准周期运动，同时产生的不变流形可用于轨迹设计。
+稳定性指数的模略大于1的周期轨道特性。这类轨道虽不严格稳定，但发散速率极慢，其不变流形需要较长时间才能离开轨道附近。地月L2点的NRHO通常呈现弱不稳定性，这使得它们在实际任务中可以较长时间维持准周期运动，同时产生的不变流形可用于轨迹设计 \cite{singhLowthrustTransfersSouthern2021,spreenTrajectoryDesignTargeting2021}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/mildly-unstable/
 - 最大偏离距离（Maximum Excursion Distance）
 - [短路径转移轨道（Short-Path Transfer Orbit）](/glossary/orbits/short-path-transfer-orbit/)
 - 圆锥曲线轨道（Conic Orbit）
-
-## 参考文献
-
-- Singh et al., 2021

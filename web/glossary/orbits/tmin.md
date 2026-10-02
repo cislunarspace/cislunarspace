@@ -4,7 +4,7 @@ description: 给定角距离和边界条件下，使推力值最小化的轨道�
 keywords: 最小推力轨道, Minimum-Thrust Trajectory, T_min, 地月空间, cislunar
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 最小推力轨道（Minimum-Thrust Trajectory）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/tmin/
 
 ## 定义
 
-给定角距离和边界条件下，使推力值最小化的轨道。用于验证解的存在性并修正地心和月心段的角距离分配。
+给定角距离和边界条件下，使推力值最小化的轨道。用于验证解的存在性并修正地心和月心段的角距离分配 \cite{yoonMinimumfuelLowthrustTrajectories2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/tmin/
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-Minimum-fuel low-thrust trajectories to the moon (Yoon和Petukhov, 2023)

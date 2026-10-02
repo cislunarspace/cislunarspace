@@ -4,7 +4,7 @@ description: 利用弱稳定区特性设计的低能量地月转移轨道，利�
 keywords: 弱稳定区转移, Weak Stability Region Transfer, WSRT, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 弱稳定区转移（Weak Stability Region Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/wsrt/
 
 ## 定义
 
-利用弱稳定区特性设计的低能量地月转移轨道，利用该区域航天器仅需很小速度增量即可远距离移动的特点。
+利用弱稳定区特性设计的低能量地月转移轨道，利用该区域航天器仅需很小速度增量即可远距离移动的特点 \cite{LiYanJunLiYongLaGeLangRiDianDeShenKongTanCeJiShu2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/wsrt/
 - 弹道月球转移（Ballistic Lunar Transfer）
 - [弱稳定区（Weak Stability Region）](/glossary/dynamics/wsb/)
 - [准周期轨道（Quasi-Periodic Orbit）](/glossary/orbits/qpo/)
-
-## 参考文献
-
-- 利用拉格朗日点的深空探测技术。

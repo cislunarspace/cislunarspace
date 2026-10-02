@@ -4,7 +4,7 @@ description: 将 Lambert 转移段与主拉伸方向的逆向积分轨迹拼接�
 keywords: Lambert 拼接法, Lambert patching method, 轨道, 周期轨道, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: Lambert 拼接法（Lambert patching method）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/lambert-patching-method/
 
 ## 定义
 
-将 Lambert 转移段与主拉伸方向的逆向积分轨迹拼接，构成低能转移的混合策略。拼接点处施加脉冲完成两段轨迹的衔接，可通过调节两段时长的占比来平衡转移时间与燃料消耗。
+将 Lambert 转移段与主拉伸方向的逆向积分轨迹拼接，构成低能转移的混合策略。拼接点处施加脉冲完成两段轨迹的衔接，可通过调节两段时长的占比来平衡转移时间与燃料消耗 \cite{PengLeiJiYuSanTiWenTiDeDiYueKongJianZhongZhuanZhanGuiDaoSheJi2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/lambert-patching-method/
 - [晕轨道族（Halo Orbit Family）](/glossary/orbits/halo-orbit/)
 - 转移-停泊-交会一体化轨道设计（Integrated Transfer-Parking-Rendezvous Orbit Design）
 - [EL1-Lyapunov轨道（EL1 Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-
-## 参考文献
-
-- 彭蕾等, 基于三体问题的地月空间中转站轨道设计, 飞行力学学报, 2024

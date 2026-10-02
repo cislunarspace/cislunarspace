@@ -4,7 +4,7 @@ description: 三维共振轨道的一种，关于x轴对称，类似平动点轨
 keywords: 轴向共振轨道, Axial Resonant Orbit, ARO, ARO, 地月空间, cislunar
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 轴向共振轨道（Axial Resonant Orbit, ARO）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/aro/
 
 ## 定义
 
-三维共振轨道的一种，关于x轴对称，类似平动点轨道中的轴向轨道，通过分岔理论从平面共振轨道产生。
+三维共振轨道的一种，关于x轴对称，类似平动点轨道中的轴向轨道，通过分岔理论从平面共振轨道产生 \cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 应用价值
 

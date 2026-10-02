@@ -4,7 +4,7 @@ description: 一种介于间接转移（IDT）和弱稳定边界（WSB）之间�
 keywords: 扩展近月交会法, Extended Perilune Rendezvous Method, EPRM, EPRM, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 扩展近月交会法
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/eprm/
 
 ## 定义
 
-一种介于间接转移（IDT）和弱稳定边界（WSB）之间的地月转移方法。飞船经地月转移注入（TLI）和动力月球借力飞行（PLSB）后，进入长半轴较大的椭圆月球轨道，通过多次小推力机动逐步调整轨道面角和近月点高度，最终在近月点以小速度增量注入近直线晕轨道（NRHO）。该方法用较长的转移时间（19至37天）换取显著的速度增量节省（从IDT的390 m/s降至最低260 m/s），适用于货运补给等对时效要求不高的任务。论文提出四种子类型，通过逐步增加机动次数和调整机动时机来优化速度增量。
+一种介于间接转移（IDT）和弱稳定边界（WSB）之间的地月转移方法。飞船经地月转移注入（TLI）和动力月球借力飞行（PLSB）后，进入长半轴较大的椭圆月球轨道，通过多次小推力机动逐步调整轨道面角和近月点高度，最终在近月点以小速度增量注入近直线晕轨道（NRHO）\cite{kikuchiExtendedPeriluneRendezvous2024}。该方法用较长的转移时间（19至37天）换取显著的速度增量节省（从IDT的390 m/s降至最低260 m/s），适用于货运补给等对时效要求不高的任务 \cite{kikuchiExtendedPeriluneRendezvous2024}。论文提出四种子类型，通过逐步增加机动次数和调整机动时机来优化速度增量 \cite{kikuchiExtendedPeriluneRendezvous2024}。
 
 ## 应用价值
 
@@ -40,8 +40,3 @@ permalink: /glossary/orbits/eprm/
 
 - 地月转移窗口（Earth-Moon Transfer Window）
 - 近月轨道（Lunar Orbit）
-- 椭圆月球冻结轨道（Elliptical Lunar Frozen Orbit）
-
-## 参考文献
-
-- Kikuchi et al., 2024。

@@ -4,7 +4,7 @@ description: 将日地系统和地月系统的不变流形在庞加莱截面上�
 keywords: 异系统流形拼接, Heterospace-system Manifold Connection, 周期轨道, 轨道转移, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 异系统流形拼接（Heterospace-system Manifold Connection）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/heterospace-system-manifold-connection/
 
 ## 定义
 
-将日地系统和地月系统的不变流形在庞加莱截面上拼接，实现跨三体系统的低能轨道转移。
+将日地系统和地月系统的不变流形在庞加莱截面上拼接，实现跨三体系统的低能轨道转移 \cite{LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/heterospace-system-manifold-connection/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
-
-## 参考文献
-
-- 李宸硕 等 - 2024 - 基于弱稳定边界理论的低能地月转移轨道设计

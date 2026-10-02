@@ -4,7 +4,7 @@ description: 地月三体系统中的周期轨道统称，涵盖两类：围绕�
 keywords: 三体周期轨道, Three-Body Periodic Orbit, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-27
+lastUpdated: 2026-10-01
 wechatShare:
   title: 三体周期轨道（Three-Body Periodic Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/three-body-periodic-orbit/
 
 ## 定义
 
-地月三体系统中的周期轨道统称，涵盖两类：围绕共线平动点的平动点轨道族（NRHO、Halo等），以及以月球为中心的月心周期轨道族（DRO等）。与开普勒轨道不同，三体周期轨道的形状和稳定性由两个主天体的引力共同决定，可为月球探测任务提供停泊、中继和深空转移节点。
+地月三体系统中的周期轨道统称，涵盖两类：围绕共线平动点的平动点轨道族（NRHO、Halo等），以及以月球为中心的月心周期轨道族（DRO等） \cite{CengHaoMianXiangZaiRenYueQiuTanCeDeSanTiZhouQiGuiDaoYingYongFangAnFenXi2022}。与开普勒轨道不同，三体周期轨道的形状和稳定性由两个主天体的引力共同决定，可为月球探测任务提供停泊、中继和深空转移节点。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/orbits/three-body-periodic-orbit/
 - 周期轨道（Periodic Orbit）
 - 平动点轨道（Libration Point Orbit）
 - 轨道转移（Orbit Transfer）
-
-## 参考文献
-
-- 曾豪等, 2022, 面向载人月球探测的三体周期轨道应用方案分析

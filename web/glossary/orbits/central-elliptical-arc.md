@@ -4,7 +4,7 @@ description: 地月自由返回轨道接近段中位于伪球内、中心椭圆�
 keywords: 中心椭圆弧, central elliptical arc, 轨道设计, 轨道力学, 平动点
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 中心椭圆弧（central elliptical arc）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/central-elliptical-arc/
 
 ## 定义
 
-地月自由返回轨道接近段中位于伪球内、中心椭圆上的飞行弧段。该弧段由兰伯特问题求解得到速度，是连接接近段主椭圆弧与伪状态回归段的关键过渡。
+地月自由返回轨道接近段中位于伪球内、中心椭圆上的飞行弧段。该弧段由兰伯特问题求解得到速度，是连接接近段主椭圆弧与伪状态回归段的关键过渡 \cite{DingBaiHuiZaiRenYueQiuTanCeRenWuZhuanYiGuiDaoJiYueMianZhaoLuQuPingGuFenXi2023}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/central-elliptical-arc/
 - 轨道面共面约束（Coplanar Orbital Plane Constraint）
 - [利萨如轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - 高地球轨道（High Earth Orbit, HEO）
-- [外部相位（Exterior Phase）](/glossary/orbits/low-energy-transfer/)
-
-## 参考文献
-
-- 丁百慧 等 - 2023 - 载人月球探测任务转移轨道及月面着陆区评估分析

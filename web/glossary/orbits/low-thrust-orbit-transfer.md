@@ -4,7 +4,7 @@ description: 利用连续小推力发动机实现的轨道机动，与化学脉�
 keywords: 低推力轨道转移, Low-thrust Orbit Transfer, 轨道, 转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 低推力轨道转移（Low-thrust Orbit Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/low-thrust-orbit-transfer/
 
 ## 定义
 
-利用连续小推力发动机实现的轨道机动，与化学脉冲推力相比所需推进剂更少但飞行时间更长。
+利用连续小推力发动机实现的轨道机动，与化学脉冲推力相比所需推进剂更少但飞行时间更长 \cite{pozziOptimalLowthrustOrbit2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/low-thrust-orbit-transfer/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 - 平面月球轨道（Planar Lunar Orbit, PLO）
 - [单次打靶微分修正器（Single-shooting Differential Corrector）](/glossary/orbits/ssdc/)
-
-## 参考文献
-
-- Pozzi 等 - 2025。

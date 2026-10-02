@@ -1,23 +1,23 @@
 ---
 title: 准周期轨道（Quasi-Periodic Orbit, QPO）
-description: 具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道。
+description: 具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道 \cite{gomezDynamicsMissionDesign2001b}。
 keywords: 准周期轨道, Quasi-Periodic Orbit, QPO, QPO, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 准周期轨道（Quasi-Periodic Orbit, QPO）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 准周期轨道详解 | 术语定义
-  description: 具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道。
+  description: 具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道 \cite{gomezDynamicsMissionDesign2001b}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 准周期轨道详解 | 术语定义
-  description: 具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道。
+  description: 具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道 \cite{gomezDynamicsMissionDesign2001b}。
   image: /logo.png
 permalink: /glossary/orbits/qpo/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/qpo/
 
 ## 定义
 
-具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道。
+具有多个不可约频率的周期轨道，在准周期模型中替代三角平动点作为航天器的名义轨道 \cite{gomezDynamicsMissionDesign2001b}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/qpo/
 - 弹道月球转移（Ballistic Lunar Transfer）
 - [弱稳定区（Weak Stability Region）](/glossary/dynamics/wsb/)
 - [三角平动点（Triangular Libration Points）](/glossary/dynamics/l4-l5/)
-
-## 参考文献
-
-- Gómez 等 - 2001。

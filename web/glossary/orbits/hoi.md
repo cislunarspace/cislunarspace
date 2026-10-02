@@ -4,7 +4,7 @@ description: 航天器在Halo轨道附近执行最后一次机动、直接进入
 keywords: Halo轨道插入, Halo Orbit Insertion, HOI, HOI, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: Halo轨道插入（Halo Orbit Insertion, HOI）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/hoi/
 
 ## 定义
 
-航天器在Halo轨道附近执行最后一次机动、直接进入Halo轨道的入轨方式。在Genesis任务中，航天器沿转移轨道飞抵平动点区域后，通过一次速度增量脉冲与Halo轨道在预定位置和时刻匹配。与稳定流形插入相比，HOI的目标是轨道本身（一条曲线），参数空间较小，优化收敛性更好。
+航天器在Halo轨道附近执行最后一次机动、直接进入Halo轨道的入轨方式。在Genesis任务中，航天器沿转移轨道飞抵平动点区域后，通过一次速度增量脉冲与Halo轨道在预定位置和时刻匹配 \cite{serbanHaloOrbitMission2002}。与稳定流形插入相比，HOI的目标是轨道本身（一条曲线），参数空间较小，优化收敛性更好 \cite{serbanHaloOrbitMission2002}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/hoi/
 - [最小停泊轨道（Minimum Parking Orbit, MPO）](/glossary/orbits/mpo/)
 - [超地球同步转移轨道（Super-Geostationary Transfer Orbit, sGTO）](/glossary/orbits/sgto/)
 - 部署轨迹（Deployment Trajectory）
-
-## 参考文献
-
-- Serban et al., 2002, Acta Astronautica

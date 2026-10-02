@@ -1,23 +1,23 @@
 ---
 title: 运行轨道库（Operational Orbit Library）
-description: 在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池。
+description: 在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池 \cite{heDesignCislunarNavigation2025}。
 keywords: 运行轨道库, Operational Orbit Library, 周期轨道, 轨道转移, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 运行轨道库（Operational Orbit Library）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 运行轨道库详解 | 术语定义
-  description: 在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池。
+  description: 在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池 \cite{heDesignCislunarNavigation2025}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 运行轨道库详解 | 术语定义
-  description: 在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池。
+  description: 在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池 \cite{heDesignCislunarNavigation2025}。
   image: /logo.png
 permalink: /glossary/orbits/operational-orbit-library/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/operational-orbit-library/
 
 ## 定义
 
-在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池。
+在圆型限制性三体问题框架下系统生成并分类存储的周期轨道数据库，涵盖 DRO、Lyapunov 轨道、Halo 轨道、垂直轨道、L4/L5 平面和垂直轨道共 17 个轨道族，为星座设计提供候选轨道池 \cite{heDesignCislunarNavigation2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/operational-orbit-library/
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
-
-## 参考文献
-
-- He et al., 2025

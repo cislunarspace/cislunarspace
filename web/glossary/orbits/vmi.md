@@ -4,7 +4,7 @@ description: 直接晕轨道转移中的第二次脉冲机动，在流形段上�
 keywords: 流形插入, Manifold Insertion, ΔV_MI, 轨道, 转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 流形插入（Manifold Insertion）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/vmi/
 
 ## 定义
 
-直接晕轨道转移中的第二次脉冲机动，在流形段上某点执行切向脉冲，使航天器进入流形段并沿稳定流形渐近飞向目标晕轨道。该机动量级通常为500-1000米/秒。
+直接晕轨道转移中的第二次脉冲机动，在流形段上某点执行切向脉冲，使航天器进入流形段并沿稳定流形渐近飞向目标晕轨道 \cite{parkerDirectLunarHalo2008,gordon2008transfers}。该机动量级通常为500-1000米/秒。
 
 ## 应用价值
 
@@ -42,8 +42,3 @@ permalink: /glossary/orbits/vmi/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 - 平面月球轨道（Planar Lunar Orbit, PLO）
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
-
-## 参考文献
-
-- Parker和Born - 2008 - Direct lunar halo orbit transfers。
-- Gordon - 2008 - Transfers to Earth-moon L2 halo orbits using lunar proximity and invariant manifolds。

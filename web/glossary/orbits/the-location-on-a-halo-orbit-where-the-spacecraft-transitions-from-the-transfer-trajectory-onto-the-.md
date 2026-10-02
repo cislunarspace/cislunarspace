@@ -4,7 +4,7 @@ description: Halo轨道上航天器从转移轨道进入周期轨道的位置。
 keywords: 入轨点, The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point., , orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 入轨点
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/the-location-on-a-halo-orbit-where-the-spacecraft-tr
 
 ## 定义
 
-Halo轨道上航天器从转移轨道进入周期轨道的位置。入轨点的相位角决定了所需的入轨速度增量大小。零消耗转移轨道的入轨点处速度增量为零，而受摄转移轨道的入轨点通常需要小速度增量（论文中为0到8 m/s）。文中将Halo轨道按时间等分为360个节点，每个节点都可作为潜在入轨点。
+Halo轨道上航天器从转移轨道进入周期轨道的位置。入轨点的相位角决定了所需的入轨速度增量大小 \cite{PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016}。零消耗转移轨道的入轨点处速度增量为零，而受摄转移轨道的入轨点通常需要小速度增量（论文中为0到8 m/s）。文中将Halo轨道按时间等分为360个节点，每个节点都可作为潜在入轨点。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ Halo轨道上航天器从转移轨道进入周期轨道的位置。入轨点的�
 - 地月转移窗口（Earth-Moon Transfer Window）
 - 近月轨道（Lunar Orbit）
 - 椭圆月球冻结轨道（Elliptical Lunar Frozen Orbit）
-
-## 参考文献
-
-- 彭坤 等 - 2016 - 基于不变流形的地月L2点Halo轨道转移轨道设计。

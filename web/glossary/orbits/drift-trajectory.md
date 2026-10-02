@@ -4,7 +4,7 @@ description: 利用Cauchy-Green张量中接近1的奇异值对应的方向构造
 keywords: 漂移轨迹, Drift Trajectory, 轨道设计, 周期轨道, 转移轨道, 平动点
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 漂移轨迹（Drift Trajectory）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/drift-trajectory/
 
 ## 定义
 
-利用Cauchy-Green张量中接近1的奇异值对应的方向构造的轨道，使飞行器在目标晕轨道附近保持受控漂移而不发散。
+利用Cauchy-Green张量中接近1的奇异值对应的方向构造的轨道，使飞行器在目标晕轨道附近保持受控漂移而不发散 \cite{liuRendezvousDockingOperations2025}。
 
 ## 应用价值
 
@@ -39,8 +39,3 @@ permalink: /glossary/orbits/drift-trajectory/
 ## 相关概念
 
 - [Halo轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
-- [弱稳定区转移（Weak Stability Region Transfer）](/glossary/orbits/wsrt/)
-
-## 参考文献
-
-- Liu 等 - 2025 - Rendezvous and docking operations in near rectilinear halo orbits

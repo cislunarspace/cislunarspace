@@ -4,7 +4,7 @@ description: 利用不变流形实现的轨道之间的自然转移路径。
 keywords: 流形连接, Manifold Connection, 轨道设计, 转移轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 流形连接（Manifold Connection）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/manifold-connection/
 
 ## 定义
 
-利用不变流形实现的轨道之间的自然转移路径。
+利用不变流形实现的轨道之间的自然转移路径 \cite{spreenTrajectoryDesignTargeting2021}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/manifold-connection/
 - [转移窗口（Transfer Window）](/glossary/orbits/transfer-family/)
 - [近直线晕轨道（Near Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
 - [标称Halo轨道（Nominal Halo Orbit）](/glossary/orbits/halo-orbit/)
-
-## 参考文献
-
-- Spreen 2021

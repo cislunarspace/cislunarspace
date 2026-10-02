@@ -4,7 +4,7 @@ description: 两条轨道在交汇点处速度方向相切且大小相近的状�
 keywords: 切向交汇, Tangential Intersection, 周期轨道, 轨道转移, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 切向交汇（Tangential Intersection）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/tangential-intersection/
 
 ## 定义
 
-两条轨道在交汇点处速度方向相切且大小相近的状态。Lyapunov轨道与DRO在y=0、ẋ=0处存在切向交汇点，使在交汇点处的速度插入误差最小。
+两条轨道在交汇点处速度方向相切且大小相近的状态。Lyapunov轨道与DRO在y=0、ẋ=0处存在切向交汇点，使在交汇点处的速度插入误差最小 \cite{oshimaUseVerticalInstability2019}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/tangential-intersection/
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
 - 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
-
-## 参考文献
-
-- Oshima, 2019, Celestial Mechanics and Dynamical Astronomy

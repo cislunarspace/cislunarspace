@@ -4,7 +4,7 @@ description: 转移轨迹到达目标轨道时速度方向与目标轨道相切�
 keywords: 切向进入, Tangential Insertion, 转移轨道, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 切向进入（Tangential Insertion）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/tangential-insertion/
 
 ## 定义
 
-转移轨迹到达目标轨道时速度方向与目标轨道相切，即到达点处除沿轨道方向的速度分量外，其余分量为零。本文中当转移轨迹在x轴穿越点恰好与DRO切向相交时（x_dot和z_dot均为零），插入代价最低。非切向进入则需额外机动消除残余分量，增加第四次脉冲的Delta-V。
+转移轨迹到达目标轨道时速度方向与目标轨道相切，即到达点处除沿轨道方向的速度分量外，其余分量为零。本文中当转移轨迹在x轴穿越点恰好与DRO切向相交时（x_dot和z_dot均为零），插入代价最低 \cite{parsayTransferDistantRetrograde2022}。非切向进入则需额外机动消除残余分量，增加第四次脉冲的Delta-V。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/tangential-insertion/
 - [内外侧转移（Inner and Outer Transfer）](/glossary/orbits/low-energy-transfer/)
 - 调相轨迹（Phasing Trajectory）
 - 近火卫点距离（Periapsis Distance）
-
-## 参考文献
-
-- Parsay和Folta - 2022 - Transfer to distant retrograde orbits via rideshare to sun-earth L1 point

@@ -4,7 +4,7 @@ description: 利用太阳系各拉格朗日点的不变流形作为转移轨道�
 keywords: 星际高速公路, Interplanetary Superhighway, ISP, ISP, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 星际高速公路（Interplanetary Superhighway, ISP）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/isp/
 
 ## 定义
 
-利用太阳系各拉格朗日点的不变流形作为转移轨道，形成连接太阳系各行星的节能航路，航天器在其中几乎不需要能源动力。
+利用太阳系各拉格朗日点的不变流形作为转移轨道，形成连接太阳系各行星的节能航路，航天器在其中几乎不需要能源动力 \cite{LiYanJunLiYongLaGeLangRiDianDeShenKongTanCeJiShu2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/isp/
 - 弹道月球转移（Ballistic Lunar Transfer）
 - [弱稳定区（Weak Stability Region）](/glossary/dynamics/wsb/)
 - [准周期轨道（Quasi-Periodic Orbit）](/glossary/orbits/qpo/)
-
-## 参考文献
-
-- 利用拉格朗日点的深空探测技术。

@@ -28,7 +28,7 @@ permalink: /glossary/orbits/tangential/
 
 1. 轨道能量极值与奥伯特效应：根据航天动力学变分原理，沿速度矢量方向施加切向推力能够实现单位脉冲下机械能变化率的最大化（$dE/dt = \mathbf{v} \cdot \mathbf{a_T}$），是消除横向非有效分量、实现最优能量跃迁的标准形式。
 2. 周期轨道族切触与转移桥梁：在限制性三体问题中，远距离逆行轨道（DRO）族在特定雅可比常数下与围绕共线拉格朗日点的平面Lyapunov轨道族存在严格的相切几何关系。利用该相切点，航天器仅需施加一次单脉冲甚至零脉冲切向微扰，即可实现从平动点流形向DRO长期稳定轨道的平滑切入。
-3. 庞加莱截面相空间切触：相切点在庞加莱截面映射中表现为庞加莱曲线的切触分岔点，为多体引力场全局轨迹分支的连通性分析提供了确定的动力学边界条件。
+3. 庞加莱截面相空间切触：相切点在庞加莱截面映射中表现为庞加莱曲线的切触分岔点，为多体引力场全局轨迹分支的连通性分析提供了确定的动力学边界条件 \cite{XuMingDiYueDiNengZhuanYiDeFaShengTiaoJianJiGuiJiGouZao2010}。
 
 ## 相关概念
 
@@ -39,5 +39,4 @@ permalink: /glossary/orbits/tangential/
 
 ## 参考文献
 
-- 徐明, 徐世杰. 地月低能转移的发生条件及轨迹构造. *中国科学: 物理学 力学 天文学*, 2010, 40(6): 783-793.
 - Mingotti G, Topputo F, Bernelli-Zazzera F. Low-energy transfers to distant retrograde orbits. *Celestial Mechanics and Dynamical Astronomy*, 2012, 114(1): 169-186.

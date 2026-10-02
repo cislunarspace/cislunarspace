@@ -4,7 +4,7 @@ description: 以稳定性界定的晕轨道族子集：近月点低、面外振�
 keywords: 近直线晕轨道, NRHO, Near-Rectilinear Halo Orbit, Gateway, CAPSTONE, 晕轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-07
+lastUpdated: 2026-10-01
 wechatShare:
   title: 近直线晕轨道（Near-Rectilinear Halo Orbit, NRHO）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。

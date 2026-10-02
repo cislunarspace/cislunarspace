@@ -4,7 +4,7 @@ description: 平动点轨道任务中为避免日、地、月遮挡而进行的�
 keywords: 凌日回避, Eclipse Avoidance, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 凌日回避（Eclipse Avoidance）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/eclipse-avoidance/
 
 ## 定义
 
-平动点轨道任务中为避免日、地、月遮挡而进行的轨道机动。Lissajous轨道比Halo轨道更适合长任务周期的凌日回避。
+平动点轨道任务中为避免日、地、月遮挡而进行的轨道机动 \cite{perozziSpaceManifoldDynamics2010,zimovan-spreenEclipseAvoidanceDynamical2021}。Lissajous轨道比Halo轨道更适合长任务周期的凌日回避 \cite{perozziSpaceManifoldDynamics2010}。
 
 ## 应用价值
 
@@ -43,8 +43,3 @@ permalink: /glossary/orbits/eclipse-avoidance/
 
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
-- [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-
-## 参考文献
-
-- Perozzi和Ferraz-Mello - 2010 - Space manifold dynamics

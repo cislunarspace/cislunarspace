@@ -4,7 +4,7 @@ description: 以圆形轨道位置和速度作为边值问题起点和终点的�
 keywords: 圆形轨道边界条件, Circular Orbit Boundary Conditions, 轨道, 周期轨道, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 圆形轨道边界条件（Circular Orbit Boundary Conditions）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/circular-orbit-boundary-conditions/
 
 ## 定义
 
-以圆形轨道位置和速度作为边值问题起点和终点的条件设置，是连续推力转移分析的基本假设。
+以圆形轨道位置和速度作为边值问题起点和终点的条件设置，是连续推力转移分析的基本假设 \cite{thorneOptimalContinuousthrustOrbit1996}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/circular-orbit-boundary-conditions/
 - [异系统Halo轨道（Heterospace-system Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [晕轨道族（Halo Orbit Family）](/glossary/orbits/halo-orbit/)
 - 转移-停泊-交会一体化轨道设计（Integrated Transfer-Parking-Rendezvous Orbit Design）
-- [EL1-Lyapunov轨道（EL1 Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-
-## 参考文献
-
-- Thorne 1996

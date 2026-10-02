@@ -4,7 +4,7 @@ description: 一类穿越地月系统广阔空间的定期轨道，能够周期�
 keywords: touring地月定期轨道, Touring Cislunar Periodic Orbit, TCPO, TCPO, 轨道, 转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: touring地月定期轨道（Touring Cislunar Periodic Orbit, TCPO）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/tcpo/
 
 ## 定义
 
-一类穿越地月系统广阔空间的定期轨道，能够周期性访问地球、月球和多个拉格朗日点，适合需要覆盖大范围地月空间的物流任务。
+一类穿越地月系统广阔空间的定期轨道，能够周期性访问地球、月球和多个拉格朗日点，适合需要覆盖大范围地月空间的物流任务 \cite{wilmerPreliminaryInvestigationProposal2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/tcpo/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 - 平面月球轨道（Planar Lunar Orbit, PLO）
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
-
-## 参考文献
-
-- Wilmer 等 - 2025。

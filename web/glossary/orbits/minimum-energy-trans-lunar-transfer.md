@@ -4,7 +4,7 @@ description: 以最低能量消耗实现从地球到月球的越月转移，通�
 keywords: 最小能量地月转移, Minimum Energy Trans-lunar Transfer, 转移轨道, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 最小能量地月转移（Minimum Energy Trans-lunar Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/minimum-energy-trans-lunar-transfer/
 
 ## 定义
 
-以最低能量消耗实现从地球到月球的越月转移，通过LL2点或晕轨道实现。
+以最低能量消耗实现从地球到月球的越月转移，通过LL2点或晕轨道实现 \cite{xuConstructionLowenergyCislunar2013}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/minimum-energy-trans-lunar-transfer/
 - [内外侧转移（Inner and Outer Transfer）](/glossary/orbits/low-energy-transfer/)
 - 调相轨迹（Phasing Trajectory）
 - 近火卫点距离（Periapsis Distance）
-
-## 参考文献
-
-- Xu 等 - 2013 - On the construction of low-energy cislunar and trans-lunar transfers based on the libration points

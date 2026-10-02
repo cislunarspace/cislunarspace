@@ -26,7 +26,7 @@ permalink: /glossary/orbits/the-distance-from-the-moons-center-to-the-closest-po
 
 近月点月心距是地月转移、月球借力以及环月捕获轨道设计的核心约束参数：
 
-1. 零消耗转移与脉冲入轨判据：在基于不变流形的低能地月转移设计中，流形轨迹的最小近月点月心距是否能够与目标环月轨道（如100公里圆轨道，对应月心距1837.4公里）几何重合，是判断能否实现无动力自然弹道捕获（Ballistic Capture）或需要施加双曲线减速脉冲的关键依据。
+1. 零消耗转移与脉冲入轨判据：在基于不变流形的低能地月转移设计中，流形轨迹的最小近月点月心距是否能够与目标环月轨道（如100公里圆轨道，对应月心距1837.4公里）几何重合，是判断能否实现无动力自然弹道捕获（Ballistic Capture）或需要施加双曲线减速脉冲的关键依据 \cite{PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016}。
 2. 借力转向角与引力梯度：在月球借力飞行中，近月点月心距越小，航天器感受到的月球引力场强越强，轨道双曲线渐近转向角越大；但必须设置安全高度下限（通常不低于50至100公里），以规避月表复杂地形碰撞与超高阶非球形引力摄动发散。
 3. 轨道倾角与面外构型耦合：近月点月心距与近月点纬度、飞行速度方向共同决定了进入环月轨道后的轨道面交点演化规律。
 
@@ -39,5 +39,4 @@ permalink: /glossary/orbits/the-distance-from-the-moons-center-to-the-closest-po
 
 ## 参考文献
 
-- 彭坤, 沈红新, 李海阳. 基于不变流形的地月L2点Halo轨道转移轨道设计. *宇航学报*, 2016, 37(4): 397-404.
 - Topputo F. On the mechanics of low-energy transit orbits in the Earth-Moon system. *Communications in Nonlinear Science and Numerical Simulation*, 2016, 32: 247-264.

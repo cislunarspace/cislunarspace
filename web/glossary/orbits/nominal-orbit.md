@@ -1,23 +1,23 @@
 ---
 title: 标称轨道（Nominal Orbit）
-description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准。
+description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
 keywords: 标称轨道, Nominal Orbit, 轨道设计, 周期轨道, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 标称轨道（Nominal Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 标称轨道详解 | 术语定义
-  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准。
+  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 标称轨道详解 | 术语定义
-  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准。
+  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
   image: /logo.png
 permalink: /glossary/orbits/nominal-orbit/
 ---
@@ -30,11 +30,11 @@ permalink: /glossary/orbits/nominal-orbit/
 
 ## 定义
 
-设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准。
+设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
 
 ## 应用价值
 
-在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗。该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。利用流形结构可设计低能量转移轨道，减少对推进剂的依赖。
+在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗 \cite{LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024}。该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。利用流形结构可设计低能量转移轨道，减少对推进剂的依赖 \cite{spreenTrajectoryDesignTargeting2021}。
 
 ## 相关概念
 
@@ -42,9 +42,3 @@ permalink: /glossary/orbits/nominal-orbit/
 - [z振幅（Z-amplitude）](/glossary/orbits/halo-orbit/)
 - 平面窗口（Plane Window）
 - [长路径转移轨道（Long-Path Transfer Orbit）](/glossary/orbits/long-path-transfer-orbit/)
-
-## 参考文献
-
-- 李宸硕 等 - 2024 - 基于弱稳定边界理论的低能地月转移轨道设计
-- Spreen 2021
-- Gómez 等 - 2001

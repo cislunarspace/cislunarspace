@@ -4,7 +4,7 @@ description: 由非线性最优控制器生成的最优参考轨道，作为追�
 keywords: 基准轨道, Baseline Trajectory, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 基准轨道（Baseline Trajectory）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/baseline-trajectory/
 
 ## 定义
 
-由非线性最优控制器生成的最优参考轨道，作为追踪航天器的预定飞行路线
+由非线性最优控制器生成的最优参考轨道，作为追踪航天器的预定飞行路线 \cite{bucchioniRendezvousCislunarHalo2023}。
 
 ## 应用价值
 
@@ -40,8 +40,3 @@ permalink: /glossary/orbits/baseline-trajectory/
 
 - 周期轨道（Periodic Orbit）
 - 平动点轨道（Libration Point Orbit）
-- 轨道转移（Orbit Transfer）
-
-## 参考文献
-
-- Rendezvous in cislunar halo orbits: Hardware-in-the-loop simulation with coupled orbit and attitude dynamics
