@@ -4,7 +4,7 @@ description: 一种 DRO 编队轨道保持算法的思路：基于目标点法�
 keywords: 相对轨迹跟踪, Relative Trajectory Following, , 导航, 定位, 轨道确定, 滤波, 测控
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 相对轨迹跟踪（Relative Trajectory Following）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/relative-trajectory-following/
 
 ## 定义
 
-一种 DRO 编队轨道保持算法的思路：基于目标点法思想，在近月点处施加修正脉冲，利用状态转移矩阵预测下一目标点处的相对位置偏差，通过求解线性方程组计算速度增量，使副星在下一目标点处严格回归参考轨迹。该方法不依赖主星实时状态信息，使用方便，在参考轨迹跟踪精度方面略有优势。
+一种 DRO 编队轨道保持算法的思路：基于目标点法思想，在近月点处施加修正脉冲，利用状态转移矩阵预测下一目标点处的相对位置偏差，通过求解线性方程组计算速度增量，使副星在下一目标点处严格回归参考轨迹。该方法不依赖主星实时状态信息，使用方便，在参考轨迹跟踪精度方面略有优势\cite{AoHaiYueYuanJuChiNiXingGuiDaoDeJinJuChiBianDuiGuiDaoBaoChiCeLue2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/relative-trajectory-following/
 - 状态估计（State Estimation）
 - 地月空间PNT服务（Positioning, Navigation and Timing Service in Cislunar Space, PNT）
 - 历表参数压缩（Ephemeris Parameter Compression）
-
-## 参考文献
-
-- 敖海跃等 2024

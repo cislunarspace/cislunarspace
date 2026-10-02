@@ -4,7 +4,7 @@ description: 月球纬度绝对值较大的区域（通常指极区附近），�
 keywords: 月球高纬度区域, Lunar High-Latitude Region, 自主导航, 轨道确定, 星间测距
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球高纬度区域（Lunar High-Latitude Region）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/lunar-high-latitude-region/
 
 ## 定义
 
-月球纬度绝对值较大的区域（通常指极区附近），是传统近月圆轨道覆盖最薄弱、定位精度最差的地带。NRHO因其大z方向振幅，对该区域的覆盖能力优于Halo轨道和近月圆轨道。
+月球纬度绝对值较大的区域（通常指极区附近），是传统近月圆轨道覆盖最薄弱、定位精度最差的地带。NRHO因其大z方向振幅，对该区域的覆盖能力优于Halo轨道和近月圆轨道\cite{JinShouCongJiYuNRHODeYueQiuQuanQiuDingWeiXiTongXingZuoYanJiu2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/lunar-high-latitude-region/
 - [秩亏（Deficient Rank）](/glossary/navigation/deficient-rank/)
 - 多普勒测速（Doppler velocity measurement）
 - 天文测角量（Astronometric Angle Measurement）
-
-## 参考文献
-
-- 晋守聪等, 2025, 空间科学学报, 45(2): 317-327

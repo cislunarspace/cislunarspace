@@ -4,7 +4,7 @@ description: 以日地系统质心为原点的惯性参考系。将初始时刻�
 keywords: 质心惯性坐标系, Barycentric Inertial Frame, 导航, 定位, 测控
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 质心惯性坐标系（Barycentric Inertial Frame）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/barycentric-inertial-frame/
 
 ## 定义
 
-以日地系统质心为原点的惯性参考系。将初始时刻的质心旋转坐标系固化形成：z轴沿黄道面法线，x轴由太阳指向地球的方向，y轴由右手定则确定。在此坐标系中，航天器的位置量级约为10^8 km，变化范围远大于质心旋转系，导致导航滤波精度较低。
+以日地系统质心为原点的惯性参考系。将初始时刻的质心旋转坐标系固化形成：z轴沿黄道面法线，x轴由太阳指向地球的方向，y轴由右手定则确定。在此坐标系中，航天器的位置量级约为10^8 km，变化范围远大于质心旋转系，导致导航滤波精度较低\cite{ZhaoShuGeRiDiXiTongL2DianHaloGuiDaoZiZhuTianWenDaoHangJiJingDuFenXi2013}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/barycentric-inertial-frame/
 - 延迟量测融合（Delayed Measurement Fusion）
 - 近程导航（Proximity Navigation）
 - 速度增益制导（Velocity-to-be-Gained Guidance）
-
-## 参考文献
-
-- 赵书阁 等 - 2013 - 日地系统L2点Halo轨道自主天文导航及精度分析

@@ -4,7 +4,7 @@ description: 卫星间通过测距信号实现的时间对齐精度，本文研�
 keywords: 时间同步精度, Time Synchronization Accuracy, 自主导航, 轨道确定, 测距
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 时间同步精度（Time Synchronization Accuracy）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/time-synchronization-accuracy/
 
 ## 定义
 
-卫星间通过测距信号实现的时间对齐精度，本文研究表明基于DRO卫星的LiAISON系统可达到优于100纳秒的时间同步精度。
+卫星间通过测距信号实现的时间对齐精度，本文研究表明基于DRO卫星的LiAISON系统可达到优于100纳秒的时间同步精度\cite{wangJointNavigationPerformance2019}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/time-synchronization-accuracy/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
 - 姿态确定与控制系统（Attitude Determination and Control System）
-
-## 参考文献
-
-- Wang 等 - 2019 - Joint navigation performance of distant retrograde orbits and cislunar orbits via LiAISON

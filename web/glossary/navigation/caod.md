@@ -4,7 +4,7 @@ description: 结合环月低轨卫星群与特殊大尺度轨道探测器星间�
 keywords: 组合自主定轨, CAOD, 自主导航, 星间链路, 秩亏消除
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 组合自主定轨
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -20,7 +20,7 @@ permalink: /glossary/navigation/caod/
 
 ## 定义
 
-组合自主定轨（Combined Autonomous Orbit Determination, CAOD）是指在脱离地面测控站直接支持的条件下，通过将环月低轨卫星星座（如环月导航通信网）与处于特殊动力学大尺度轨道上的探测器（如地月平动点 Halo 轨道、近直线晕轨道 NRHO 或远距离逆行轨道 DRO 航天器）建立星间测距与测速链路，进行多源联合状态估计以确定全网各航天器绝对轨道参数的自主定轨体制。
+组合自主定轨（Combined Autonomous Orbit Determination, CAOD）是指在脱离地面测控站直接支持的条件下，通过将环月低轨卫星星座（如环月导航通信网）与处于特殊动力学大尺度轨道上的探测器（如地月平动点 Halo 轨道、近直线晕轨道 NRHO 或远距离逆行轨道 DRO 航天器）建立星间测距与测速链路，进行多源联合状态估计以确定全网各航天器绝对轨道参数的自主定轨体制\cite{liuApplicationTwoSpecial2014}。
 
 ## 物理机制与工程价值
 
@@ -43,5 +43,4 @@ CAOD 架构的物理机制与工程价值在于：
 
 ## 参考文献
 
-- Liu, L., Xu, T., Yang, Y., et al. Application of two special orbits in the orbit determination of lunar satellites. Advances in Space Research, 2014, 54(10): 2153-2162.
 - 丛佃伟, 郑晋生, 高为广, 等. 地月空间航天器自主导航技术及研究进展. 宇航学报, 2025, 46(1): 16-30.

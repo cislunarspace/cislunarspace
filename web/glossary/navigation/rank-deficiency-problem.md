@@ -4,7 +4,7 @@ description: 星间测距自主定轨中，传统二体轨道星座的状态转�
 keywords: 秩亏问题, Rank Deficiency Problem, 导航, 制导, 定轨
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 秩亏问题（Rank Deficiency Problem）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/rank-deficiency-problem/
 
 ## 定义
 
-星间测距自主定轨中，传统二体轨道星座的状态转移矩阵导致扩展系数矩阵H列向量存在复共线性，使法矩阵不满秩。表现为星座整体旋转的绝对定向参数无法由观测量单独确定。
+星间测距自主定轨中，传统二体轨道星座的状态转移矩阵导致扩展系数矩阵H列向量存在复共线性，使法矩阵不满秩。表现为星座整体旋转的绝对定向参数无法由观测量单独确定\cite{DuLanYuanXingXianZhiXingSanTiWenTiXiaHaloRaoYueGuiDaoDeXingJianCeJuDingGui2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/rank-deficiency-problem/
 - GNSS超快星历（GNSS Ultra-rapid ephemerides）
 - 自由空间传播损耗（Free Space Propagation Loss）
 - 月球导航卫星系统B（LNSS-B）
-
-## 参考文献
-
-- 测绘学报, 2013, 42(2): 184-190

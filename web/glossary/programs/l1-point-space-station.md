@@ -4,7 +4,7 @@ description: 运行在地月L1平动点附近的载人空间设施。L1点处于
 keywords: L1 Point Space Station, L1点空间站, 中继星, 空间站, 航天任务
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: L1点空间站（L1 Point Space Station）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/l1-point-space-station/
 
 ## 定义
 
-运行在地月L1平动点附近的载人空间设施。L1点处于地月连线之间，在旋转系中相对月球位置固定，随时具备登月窗口。地面深空站和中继卫星可保持不间断测控通信。到LLO速度增量需求小（约875 m/s），但LEO到L1转移速度增量较大（约4 046 m/s）。
+运行在地月L1平动点附近的载人空间设施。L1点处于地月连线之间，在旋转系中相对月球位置固定，随时具备登月窗口。地面深空站和中继卫星可保持不间断测控通信。到LLO速度增量需求小（约875 m/s），但LEO到L1转移速度增量较大（约4 046 m/s） \cite{PengKunLiYongDiYueJianKongJianZhanDeZaiRenDengYueFeiXingMoShiFenXi2018}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/programs/l1-point-space-station/
 - 最小速度偏差点（Minimum Velocity Deviation Point）
 - 空间章动速率（Space Nutation Rate）
 - sigma点卡尔曼滤波器（Sigma Point Kalman Filter）
-
-## 参考文献
-
-- 彭坤, 杨雷. 利用地月间空间站的载人登月飞行模式分析[J]. 宇航学报, 2018, 39(5): 471-481

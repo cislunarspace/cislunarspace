@@ -4,7 +4,7 @@ description: 以月球为中心、半径设为月球SOI半径5倍的投影面。
 keywords: DRO捕获投影面, DRO Capture Projection Surface, 观测, 传感器, 态势感知
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: DRO捕获投影面（DRO Capture Projection Surface）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/dro-capture-projection-surface/
 
 ## 定义
 
-以月球为中心、半径设为月球SOI半径5倍的投影面。用于记录DRO捕获轨迹与转移轨迹的交点，以实现轨道拼接。
+以月球为中心、半径设为月球SOI半径5倍的投影面。用于记录DRO捕获轨迹与转移轨迹的交点，以实现轨道拼接 \cite{wangMechanismAnalysisDRO2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/dro-capture-projection-surface/
 - 多源信息融合（Multi-Source Information Fusion）
 - 视线测量（Line-of-Sight Measurement）
 - 精度标校（Precision Calibration）
-
-## 参考文献
-
-- Wang 等 - 2025 - Mechanism analysis of the DRO low-energy transfer problem An energy perspective

@@ -4,7 +4,7 @@ description: 卫星围绕单一天体运动且仅使用星间测距数据定轨�
 keywords: 秩亏, Deficient Rank, 自主导航, 轨道确定, 星间测距
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 秩亏（Deficient Rank）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/deficient-rank/
 
 ## 定义
 
-卫星围绕单一天体运动且仅使用星间测距数据定轨时，中心天体引力场的旋转对称性导致观测信息矩阵秩不足，无法唯一确定全部轨道参数。在三体问题中，第三体的强引力摄动打破了旋转对称性，使信息矩阵恢复满秩，从而可实现自主定轨。
+卫星围绕单一天体运动且仅使用星间测距数据定轨时，中心天体引力场的旋转对称性导致观测信息矩阵秩不足，无法唯一确定全部轨道参数。在三体问题中，第三体的强引力摄动打破了旋转对称性，使信息矩阵恢复满秩，从而可实现自主定轨\cite{liuNovelAutonomousNavigation2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/deficient-rank/
 - 多普勒测速（Doppler velocity measurement）
 - 天文测角量（Astronometric Angle Measurement）
 - 交会对接互操作标准（International Rendezvous System Interoperability Standard, IRSIS）
-
-## 参考文献
-
-- Liu et al. 2024, A novel autonomous navigation constellation in the Earth–Moon system

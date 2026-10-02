@@ -4,7 +4,7 @@ description: 多颗卫星仅依靠星间测量数据，不依赖地面测控网�
 keywords: 联合自主定轨, Linked Autonomous Orbit Determination, LAOD, LAOD, navigation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 联合自主定轨
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/laod/
 
 ## 定义
 
-多颗卫星仅依靠星间测量数据，不依赖地面测控网，联合解算各自轨道的导航定位方法。区别于单星自主定轨，联合自主定轨通过卫星间的测量耦合，利用非对称引力场中导航星轨道方位的唯一性，消除绝对位置的秩亏问题，实现多星同时定轨。
+多颗卫星仅依靠星间测量数据，不依赖地面测控网，联合解算各自轨道的导航定位方法。区别于单星自主定轨，联合自主定轨通过卫星间的测量耦合，利用非对称引力场中导航星轨道方位的唯一性，消除绝对位置的秩亏问题，实现多星同时定轨\cite{LiuLeiLiYonghaloDaoHangXingDeDiYueKongJianLianHeZiZhuGuiDaoQueDing2023}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/navigation/laod/
 - 几何精度衰减因子（Geometric Dilution of Precision）
 - 甚长基线干涉测量（Very Long Baseline Interferometry）
 - 深空网络（Deep Space Network）
-
-## 参考文献
-
-- 宇航学报 2023, 44(8): 1151-1159。

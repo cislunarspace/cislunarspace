@@ -4,7 +4,7 @@ description: 将多颗导航卫星部署在地月平动点轨道（如L3、L4、
 keywords: 平动点导航星座, Libration Point Navigation Constellation, 自主导航, 星间测距, 轨道确定
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 平动点导航星座（Libration Point Navigation Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/libration-point-navigation-constellation/
 
 ## 定义
 
-将多颗导航卫星部署在地月平动点轨道（如L3、L4、L5的Lyapunov或Vertical轨道）和DRO上，利用星间链路测距和引力不对称性实现自主定轨，以少量卫星覆盖整个地月空间的导航系统。
+将多颗导航卫星部署在地月平动点轨道（如L3、L4、L5的Lyapunov或Vertical轨道）和DRO上，利用星间链路测距和引力不对称性实现自主定轨，以少量卫星覆盖整个地月空间的导航系统\cite{liuNovelAutonomousNavigation2024}。
 
 ## 应用价值
 

@@ -4,7 +4,7 @@ description: 以地月系统质心为原点且随地月主天体公转同步旋�
 keywords: 地月质心旋转坐标系, Earth-Moon Barycenter Rotating Frame, 坐标系, CR3BP, 会合坐标系
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地月质心旋转坐标系（Earth-Moon Barycenter Rotating Frame）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -20,7 +20,7 @@ permalink: /glossary/navigation/earth-moon-barycenter-rotating-frame/
 
 ## 定义
 
-地月质心旋转坐标系（Earth-Moon Barycenter Rotating Frame，亦称地月会合坐标系 Synodic Frame）是指以地球与月球两主天体的系统质心（Barycenter）为坐标原点，随着地月质心连线公转同步旋转的非惯性随动参考坐标系。其基本定义为：$X$ 轴由地球质心指向月球质心；$Z$ 轴平行于地月相对轨道角动量矢量方向；$Y$ 轴位于地月公转轨道平面内且与 $X$ 轴和 $Z$ 轴构成右手直角笛卡尔坐标系。
+地月质心旋转坐标系（Earth-Moon Barycenter Rotating Frame，亦称地月会合坐标系 Synodic Frame）是指以地球与月球两主天体的系统质心（Barycenter）为坐标原点，随着地月质心连线公转同步旋转的非惯性随动参考坐标系。其基本定义为：$X$ 轴由地球质心指向月球质心；$Z$ 轴平行于地月相对轨道角动量矢量方向；$Y$ 轴位于地月公转轨道平面内且与 $X$ 轴和 $Z$ 轴构成右手直角笛卡尔坐标系\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 物理机制与工程价值
 
@@ -41,5 +41,4 @@ permalink: /glossary/navigation/earth-moon-barycenter-rotating-frame/
 
 ## 参考文献
 
-- Szebehely, V. Theory of Orbits: The Restricted Problem of Three Bodies. Academic Press, 1967.
 - Roy, A. E. Orbital Motion (4th Edition). Institute of Physics Publishing, 2005.

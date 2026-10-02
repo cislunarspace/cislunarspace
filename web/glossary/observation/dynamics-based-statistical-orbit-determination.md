@@ -4,7 +4,7 @@ description: 将非线性观测方程在参考状态处线性化，通过迭代�
 keywords: 动力学统计定轨, Dynamics-Based Statistical Orbit Determination, 观测, 定轨, 传感器
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 动力学统计定轨
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/dynamics-based-statistical-orbit-determination/
 
 ## 定义
 
-将非线性观测方程在参考状态处线性化，通过迭代求解待估状态量改正值的定轨方法。以完备的动力学模型（N体摄动、非球形引力、太阳辐射压等）为基础，是地月空间精密定轨的标准算法。
+将非线性观测方程在参考状态处线性化，通过迭代求解待估状态量改正值的定轨方法。以完备的动力学模型（N体摄动、非球形引力、太阳辐射压等）为基础，是地月空间精密定轨的标准算法 \cite{ChenYanLingDiYueKongJianBianMuXiTongGuanCeTiZhiYanJiu2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/dynamics-based-statistical-orbit-determination/
 - [地月空间域感知（Cislunar Domain Awareness）](/glossary/observation/cda/)
 - 星下点（Subsatellite Point）
 - 轨道预报精度（Orbit Prediction Accuracy）
-
-## 参考文献
-
-- 陈艳玲等2025-地月空间编目系统观测体制研究

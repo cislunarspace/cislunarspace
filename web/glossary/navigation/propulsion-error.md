@@ -4,7 +4,7 @@ description: 实际推力输出相对于指令推力的偏差。产生原因包�
 keywords: 推进误差, Propulsion Error, 导航, 定位, 测控
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 推进误差（Propulsion Error）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/propulsion-error/
 
 ## 定义
 
-实际推力输出相对于指令推力的偏差。产生原因包括推力器制造公差、喷管磨损、推进剂供应波动等。在轨道保持蒙特卡洛仿真中，推进误差通常按正态分布建模，幅值取指令推力的百分之二。推进误差与导航误差、发动机约束共同构成轨道保持的实际约束，对近直线晕轨道的保持成功率影响显著。
+实际推力输出相对于指令推力的偏差。产生原因包括推力器制造公差、喷管磨损、推进剂供应波动等。在轨道保持蒙特卡洛仿真中，推进误差通常按正态分布建模，幅值取指令推力的百分之二。推进误差与导航误差、发动机约束共同构成轨道保持的实际约束，对近直线晕轨道的保持成功率影响显著\cite{zhangContinuousthrustStationkeepingCislunar2022}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/propulsion-error/
 - 延迟量测融合（Delayed Measurement Fusion）
 - 近程导航（Proximity Navigation）
 - 速度增益制导（Velocity-to-be-Gained Guidance）
-
-## 参考文献
-
-- Zhang and Wang 2022 Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints

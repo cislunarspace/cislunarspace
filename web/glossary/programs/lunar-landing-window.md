@@ -4,7 +4,7 @@ description: 允许执行登月任务的时间窗口，由地面发射窗口、�
 keywords: 登月窗口, Lunar Landing Window, 任务设计, 载人航天, 系统方案
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 登月窗口（Lunar Landing Window）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/lunar-landing-window/
 
 ## 定义
 
-允许执行登月任务的时间窗口，由地面发射窗口、转移轨道设计约束和环月交会条件共同确定。对于部署在三体周期轨道上的空间站，由于会合坐标系下空间站位置固定且三体系统为自治系统，基于月球借力的转移地面发射窗口具有任意性。
+允许执行登月任务的时间窗口，由地面发射窗口、转移轨道设计约束和环月交会条件共同确定。对于部署在三体周期轨道上的空间站，由于会合坐标系下空间站位置固定且三体系统为自治系统，基于月球借力的转移地面发射窗口具有任意性 \cite{CengHaoMianXiangZaiRenYueQiuTanCeDeSanTiZhouQiGuiDaoYingYongFangAnFenXi2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/programs/lunar-landing-window/
 - 载人登月飞行模式（Human Lunar Exploration Flight Mode）
 - 月球照明计划（Moonlight Initiative）
 - 归一化处理（normalization）
-
-## 参考文献
-
-- 曾豪等, 2022, 面向载人月球探测的三体周期轨道应用方案分析

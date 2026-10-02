@@ -4,7 +4,7 @@ description: 以雅可比常数为坐标轴，展示两轨道间估计速度增�
 keywords: 转移成本热图, Transfer Cost Heat Map, 导航, 轨道确定, GNSS
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 转移成本热图（Transfer Cost Heat Map）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/transfer-cost-heat-map/
 
 ## 定义
 
-以雅可比常数为坐标轴，展示两轨道间估计速度增量的可视化工具。
+以雅可比常数为坐标轴，展示两轨道间估计速度增量的可视化工具\cite{waldeckerOnorbitServicingNetworks2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/transfer-cost-heat-map/
 - 长方体空间网格（Cuboidal Spatial Grid）
 - 偏转角（Deflection Angle）
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
-
-## 参考文献
-
-- Waldecker & Howell 2025

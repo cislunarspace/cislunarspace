@@ -4,7 +4,7 @@ description: 地月空间交会任务中，在地月转移段结束与近距操�
 keywords: 调相机动, Phasing Maneuver, 导航, 定轨, 制导, 滤波器
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 调相机动（Phasing Maneuver）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/phasing-maneuver/
 
 ## 定义
 
-地月空间交会任务中，在地月转移段结束与近距操作段开始之间执行的轨道机动。目标飞行器运行在NRHO等周期轨道上，追踪器到达月球附近时可能与其存在相位差。调相机动的作用就是消除这个相位差，使追踪器能进入目标飞行器的邻近区域。论文提出两种实现路径：利用Halo轨道自然动力学的二脉冲方案，和利用不变流形的三脉冲低能方案。
+地月空间交会任务中，在地月转移段结束与近距操作段开始之间执行的轨道机动。目标飞行器运行在NRHO等周期轨道上，追踪器到达月球附近时可能与其存在相位差。调相机动的作用就是消除这个相位差，使追踪器能进入目标飞行器的邻近区域。论文提出两种实现路径：利用Halo轨道自然动力学的二脉冲方案，和利用不变流形的三脉冲低能方案\cite{fossaTwoThreeImpulses2022,bucchioniPhasingManeuverAnalysis2021}。
 
 ## 应用价值
 
@@ -48,6 +48,4 @@ permalink: /glossary/navigation/phasing-maneuver/
 
 ## 参考文献
 
-- Fossà 等 - 2022 - Two and three impulses phasing strategy with a spacecraft orbiting on an Earth–Moon NRHO
-- Bucchioni和Innocenti 2021
 - 轨道力学 第6章

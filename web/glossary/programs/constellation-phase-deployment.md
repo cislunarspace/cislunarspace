@@ -4,7 +4,7 @@ description: 将多颗卫星从同一释放点分布到同一轨道不同相位�
 keywords: 星座相位部署, Constellation Phase Deployment
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 星座相位部署（Constellation Phase Deployment）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/constellation-phase-deployment/
 
 ## 定义
 
-将多颗卫星从同一释放点分布到同一轨道不同相位角位置的过程。在本文的CubeSat月球背面定位任务中，母航天器在Halo轨道稳定流形上一次释放四颗立方星，立方星随后依靠自身推进系统沿Halo轨道机动到各自目标相位。Sat-3的部署最紧急，需在50天内获得101 m/s的速度增量。
+将多颗卫星从同一释放点分布到同一轨道不同相位角位置的过程。在本文的CubeSat月球背面定位任务中，母航天器在Halo轨道稳定流形上一次释放四颗立方星，立方星随后依靠自身推进系统沿Halo轨道机动到各自目标相位。Sat-3的部署最紧急，需在50天内获得101 m/s的速度增量 \cite{chenLunarFarSide2019}。
 
 ## 应用价值
 
@@ -43,4 +43,4 @@ permalink: /glossary/programs/constellation-phase-deployment/
 
 ## 参考文献
 
-- Chen and Ma, 2017; Chen et al., 2019
+- Chen and Ma, 2017

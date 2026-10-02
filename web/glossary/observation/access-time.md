@@ -4,7 +4,7 @@ description: 地面站或月面设施与航天器之间保持通视（无遮挡�
 keywords: 接入时间, Access Time, 天文观测, 目标检测, 图像分割, 测控站
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 接入时间（Access Time）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/access-time/
 
 ## 定义
 
-地面站或月面设施与航天器之间保持通视（无遮挡的直线可视）的时间段。在星座覆盖分析中，接入时间百分比是衡量通信保障能力的核心指标。本文对Shackleton陨石坑月面站的分析表明，双航天器12天L1 Halo轨道方案可实现100%的月面接入覆盖。
+地面站或月面设施与航天器之间保持通视（无遮挡的直线可视）的时间段。在星座覆盖分析中，接入时间百分比是衡量通信保障能力的核心指标。本文对Shackleton陨石坑月面站的分析表明，双航天器12天L1 Halo轨道方案可实现100%的月面接入覆盖 \cite{grebowMultibodyOrbitArchitectures2008}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/access-time/
 - 观测需求满足率（Fraction of Observation Demand Met）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Grebow et al. 2008

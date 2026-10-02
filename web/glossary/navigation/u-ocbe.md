@@ -4,7 +4,7 @@ description: 将无迹卡尔曼滤波与最优控制估计相结合的处理非�
 keywords: 无迹最优控制估计器, Unscented OCBE, U-OCBE, U-OCBE, 导航, 交会对接, 制导
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 无迹最优控制估计器（Unscented OCBE, U-OCBE）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/u-ocbe/
 
 ## 定义
 
-将无迹卡尔曼滤波与最优控制估计相结合的处理非线性非平稳机动的滤波器。
+将无迹卡尔曼滤波与最优控制估计相结合的处理非线性非平稳机动的滤波器\cite{greavesAutonomousOpticalonlySpacecrafttospacecraft2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/u-ocbe/
 - 安全球（Keep-Out Sphere）
 - 最终接近球（Final Approach Sphere）
 - 碰撞规避机动（Collision Avoidance Maneuver）
-
-## 参考文献
-
-- Autonomous Optical-Only Spacecraft-to-Spacecraft Absolute Tracking and Maneuver Classification in Cislunar Space。

@@ -4,7 +4,7 @@ description: 建在月球远距离逆行轨道（DRO）上的在轨燃料补给�
 keywords: 远距离逆行轨道服务站, Distant Retrograde Orbit Service Station, DRO服务站, programs
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 远距离逆行轨道服务站（Distant Retrograde Orbit Service Station）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/dro/
 
 ## 定义
 
-建在月球远距离逆行轨道（DRO）上的在轨燃料补给设施，接收从近地轨道（LEO）服务站飞来的运输飞行器并为其补充燃料。本文设定DRO服务站运行在轨道周期为月球公转周期1/2的DRO轨道上，停泊时长2天。在航班化地月运输体系中，DRO服务站是地月物资补给链的关键节点，支撑月球基地建设和深空任务。
+建在月球远距离逆行轨道（DRO）上的在轨燃料补给设施，接收从近地轨道（LEO）服务站飞来的运输飞行器并为其补充燃料。本文设定DRO服务站运行在轨道周期为月球公转周期1/2的DRO轨道上，停泊时长2天。在航班化地月运输体系中，DRO服务站是地月物资补给链的关键节点，支撑月球基地建设和深空任务 \cite{BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。
 
 ## 应用价值
 
@@ -40,7 +40,3 @@ permalink: /glossary/programs/dro/
 
 - [近地轨道服务站（Low Earth Orbit Service Station）](/glossary/programs/leo/)
 - 小行星重定向任务（Asteroid Redirect Mission, ARM）
-
-## 参考文献
-
-- 宝音贺西 等 - 2025 - 地月空间DRO航班化往返转移多脉冲轨迹优化。

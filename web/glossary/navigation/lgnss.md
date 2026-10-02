@@ -4,7 +4,7 @@ description: 为月球表面及近月空间用户提供全域定位、导航与�
 keywords: 月球全球导航卫星系统, Lunar Global Navigation Satellite System, LGNSS, navigation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球全球导航卫星系统（Lunar Global Navigation Satellite System）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/lgnss/
 
 ## 定义
 
-为月球表面及近月空间用户提供全域定位、导航与授时服务的卫星星座系统。设计思路承袭地球GNSS星座架构，通过在月球轨道部署导航卫星实现全月面覆盖。典型方案融合远距离逆行轨道、L1和L2点Halo轨道卫星，兼顾月球极区与赤道覆盖，且轨道稳定、维持成本较低。
+为月球表面及近月空间用户提供全域定位、导航与授时服务的卫星星座系统。设计思路承袭地球GNSS星座架构，通过在月球轨道部署导航卫星实现全月面覆盖。典型方案融合远距离逆行轨道、L1和L2点Halo轨道卫星，兼顾月球极区与赤道覆盖，且轨道稳定、维持成本较低\cite{ChenXiaoDiYueKongJianDaoHangXingZuoSheJiJiaGouTeZhengZhiBiaoGouJianYuJiShuYanJin2025}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/navigation/lgnss/
 - 几何精度衰减因子（Geometric Dilution of Precision）
 - 甚长基线干涉测量（Very Long Baseline Interferometry）
 - 深空网络（Deep Space Network）
-
-## 参考文献
-
-- 地月空间导航星座设计：架构特征、指标构建与技术演进。

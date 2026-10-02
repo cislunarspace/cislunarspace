@@ -4,7 +4,7 @@ description: 运行在环月轨道上的卫星组成的星座系统，为月面�
 keywords: 月球全球定位卫星星座, Lunar Global Positioning Satellite Constellation, 导航, 定轨, 制导, 滤波器
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球全球定位卫星星座
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/lunar-global-positioning-satellite-constellation
 
 ## 定义
 
-运行在环月轨道上的卫星组成的星座系统，为月面用户提供实时定位和授时服务，功能类似于地球上的GPS或北斗系统。可基于近月轨道、椭圆冻结轨道、平动点轨道或DRO等不同轨道类型构建。
+运行在环月轨道上的卫星组成的星座系统，为月面用户提供实时定位和授时服务，功能类似于地球上的GPS或北斗系统。可基于近月轨道、椭圆冻结轨道、平动点轨道或DRO等不同轨道类型构建\cite{zhouDesignCircumlunarGlobal2024}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/navigation/lunar-global-positioning-satellite-constellation
 - 低月球轨道（Low Lunar Orbit, LLO）
 - 复合周期轨道（Complex Periodic Orbit）
 - 轨道转移级（Orbital Transfer Stage）
-
-## 参考文献
-
-- Zhou et al. 2024 - Design of circumlunar global positioning satellite constellation on DRO in the cislunar space

@@ -4,7 +4,7 @@ description: 从地球轨道或其他位置出发，与运行在近直线晕轨�
 keywords: 近直线晕轨道交会对接, NRHO Rendezvous and Docking, 导航, 定轨, 制导, 滤波器
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 近直线晕轨道交会对接（NRHO Rendezvous and Docking）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/nrho-rendezvous-and-docking/
 
 ## 定义
 
-从地球轨道或其他位置出发，与运行在近直线晕轨道上的地月空间站完成交会对接的全过程。与近地交会不同，目标轨道是三体系统中的周期轨道，具有非自然稳定性特征，需要专门的制导方案。
+从地球轨道或其他位置出发，与运行在近直线晕轨道上的地月空间站完成交会对接的全过程。与近地交会不同，目标轨道是三体系统中的周期轨道，具有非自然稳定性特征，需要专门的制导方案\cite{yongchunGuidanceStrategyRendezvous2024}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/nrho-rendezvous-and-docking/
 - 复合周期轨道（Complex Periodic Orbit）
 - 轨道转移级（Orbital Transfer Stage）
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
-
-## 参考文献
-
-- Xie et al., A guidance strategy for rendezvous and docking to the space station in the Earth-moon NRHO orbit, 2024

@@ -4,7 +4,7 @@ description: 信号在引力场中传播时因引力势差异而产生的时间�
 keywords: Gravitational Delay, 引力时延, 测量, 跟踪, 雷达
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 引力时延（Gravitational Delay）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/gravitational-delay/
 
 ## 定义
 
-信号在引力场中传播时因引力势差异而产生的时间延迟，是星间测距模型改正项之一。
+信号在引力场中传播时因引力势差异而产生的时间延迟，是星间测距模型改正项之一 \cite{HuangYongDiYueKongJianTanCeQiXingJianCeJuZiZhuDingGui2023a}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/gravitational-delay/
 - 像素偏斜（Pixel Skewing）
 - 地面跟踪（Ground Tracking）
 - 状态监测（State Monitoring）
-
-## 参考文献
-
-- 黄勇 等 - 2023 - 地月空间探测器星间测距自主定轨

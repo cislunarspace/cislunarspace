@@ -4,7 +4,7 @@ description: 由多颗导航卫星按特定轨道构型组成的系统，为用�
 keywords: 定位, 轨道确定, 滤波器
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 导航星座（Navigation Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/navigation-constellation/
 
 ## 定义
 
-由多颗导航卫星按特定轨道构型组成的系统，为用户航天器提供定位、导航和授时服务。与近地GNSS星座不同，地月空间导航星座部署在平动点轨道和远距离逆行轨道等特殊轨道上，可在无地面支持条件下长期自主运行。
+由多颗导航卫星按特定轨道构型组成的系统，为用户航天器提供定位、导航和授时服务。与近地GNSS星座不同，地月空间导航星座部署在平动点轨道和远距离逆行轨道等特殊轨道上，可在无地面支持条件下长期自主运行\cite{liuNovelAutonomousNavigation2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/navigation-constellation/
 - 甚长基线干涉测量（Very Long Baseline Interferometry）
 - 轨道预报（Orbit Prediction）
 - 初值点（Initial Epoch Point）
-
-## 参考文献
-
-- Liu et al. 2024, A novel autonomous navigation constellation in the Earth–Moon system

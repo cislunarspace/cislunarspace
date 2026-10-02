@@ -4,7 +4,7 @@ description: 最小二乘定轨估计中，由扩展系数矩阵H转置乘以H�
 keywords: 法矩阵, Normal Matrix, 地月空间导航, PNT服务, 轨道确定
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 法矩阵（Normal Matrix）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/navigation/normal-matrix/
 
 ## 定义
 
-最小二乘定轨估计中，由扩展系数矩阵H转置乘以H构成的矩阵。法矩阵的正定性是参数估计有唯一解的必要条件。传统二体星座SST定轨中，法矩阵因列向量复共线性而病态或不满秩。
+最小二乘定轨估计中，由扩展系数矩阵H转置乘以H构成的矩阵。法矩阵的正定性是参数估计有唯一解的必要条件。传统二体星座SST定轨中，法矩阵因列向量复共线性而病态或不满秩\cite{DuLanYuanXingXianZhiXingSanTiWenTiXiaHaloRaoYueGuiDaoDeXingJianCeJuDingGui2013}。
 
 ## 应用价值
 
@@ -43,8 +43,3 @@ permalink: /glossary/navigation/normal-matrix/
 - 地月空间导航系统（Cislunar Space Navigation System）
 - [Lyapunov最优反馈制导（Lyapunov Optimal Feedback Guidance）](/glossary/navigation/lyapunov-optimal-feedback-guidance/)
 - 距离可观测性（Range Observability）
-- 六分仪（Sextant）
-
-## 参考文献
-
-- 测绘学报, 2013, 42(2): 184-190

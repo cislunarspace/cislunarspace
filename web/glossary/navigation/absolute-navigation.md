@@ -4,7 +4,7 @@ description: 利用GPS或雷达等确定航天器在惯性坐标系中绝对位�
 keywords: 绝对导航, Absolute Navigation, 导航, 定轨, 测量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 绝对导航（Absolute Navigation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -41,7 +41,3 @@ permalink: /glossary/navigation/absolute-navigation/
 - 悬停控制（Hovering Control）
 - 先验约束（Prior constraint）
 - 设备硬件延迟（Device Hardware Delay）
-
-## 参考文献
-
-- （暂无参考文献）

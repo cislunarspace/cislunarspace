@@ -4,7 +4,7 @@ description: 在导航状态估计中，由观测函数对初值的雅可比矩�
 keywords: Identifiability Information Matrix, 可辨识信息矩阵, 定轨, 导航, 滤波
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 可辨识信息矩阵（Identifiability Information Matrix）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/identifiability-information-matrix/
 
 ## 定义
 
-在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识；其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低。
+在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识；其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低\cite{QianYingJingDiYuePingDongDianNiZhouQiGuiDaoTanCeQiZiZhuDaoHangFangFaYanJiu2013}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/navigation/identifiability-information-matrix/
 - 远距离交会段（Far-Range Guidance Section）
 - 叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）
 - 组合协方差矩阵（Combined Covariance Matrix）
-- 力模型简化（Force Model Simplification）
-
-## 参考文献
-
-- 钱霙婧等, 2013, 宇航学报

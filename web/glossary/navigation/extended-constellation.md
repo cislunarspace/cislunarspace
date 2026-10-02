@@ -4,7 +4,7 @@ description: 在传统二体轨道星座基础上引入限制性三体问题平�
 keywords: 定位, 导航, 轨道确定, 滤波器
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 扩展星座（Extended Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/extended-constellation/
 
 ## 定义
 
-在传统二体轨道星座基础上引入限制性三体问题平动点周期轨道飞行器组成的星座。不同力模型的轨道特性差异能够打破星座系统相关性，解决SST自主定轨中星座整体旋转导致的绝对定向不确定问题。
+在传统二体轨道星座基础上引入限制性三体问题平动点周期轨道飞行器组成的星座。不同力模型的轨道特性差异能够打破星座系统相关性，解决SST自主定轨中星座整体旋转导致的绝对定向不确定问题\cite{DuLanYuanXingXianZhiXingSanTiWenTiXiaHaloRaoYueGuiDaoDeXingJianCeJuDingGui2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/extended-constellation/
 - 甚长基线干涉测量（Very Long Baseline Interferometry）
 - 轨道预报（Orbit Prediction）
 - 初值点（Initial Epoch Point）
-
-## 参考文献
-
-- 测绘学报, 2013, 42(2): 184-190

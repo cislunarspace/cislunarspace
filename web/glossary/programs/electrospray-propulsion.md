@@ -4,7 +4,7 @@ description: 利用强电场将液体推进剂拉伸并喷射成带电液滴或�
 keywords: 电喷雾推进, Electrospray Propulsion, 微推进, CubeSat, 比冲, 电推进
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 电喷雾推进（Electrospray Propulsion）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/electrospray-propulsion/
 
 ## 定义
 
-利用强电场将液体推进剂拉伸并喷射成带电液滴或离子束的微推进技术。比冲可达800秒量级，推力在亚毫牛级别（如Busek Bet-1mN的0.7 mN），适合质量与功率受限的CubeSat。本文研究表明，0.7 mN的电喷雾推力足以完成Halo轨道上的星座部署任务。
+利用强电场将液体推进剂拉伸并喷射成带电液滴或离子束的微推进技术。比冲可达800秒量级，推力在亚毫牛级别（如Busek Bet-1mN的0.7 mN），适合质量与功率受限的CubeSat。本文研究表明，0.7 mN的电喷雾推力足以完成Halo轨道上的星座部署任务 \cite{chenLunarFarSide2019}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/programs/electrospray-propulsion/
 - 比冲（Specific Impulse）
 - 微推进（Micropropulsion）
 - CubeSat
-
-## 参考文献
-
-- Chen et al., 2019

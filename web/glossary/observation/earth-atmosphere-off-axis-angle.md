@@ -4,7 +4,7 @@ description: 相机视轴与卫星中心到地心切线之间的夹角。当地�
 keywords: 地气光离轴角, Earth-Atmosphere Off-Axis Angle, 目标检测, 雷达, 光学观测
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地气光离轴角（Earth-Atmosphere Off-Axis Angle）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/earth-atmosphere-off-axis-angle/
 
 ## 定义
 
-相机视轴与卫星中心到地心切线之间的夹角。当地气光离轴角大于相机设计值时，成像不受地气光杂散光影响。双临边观测模式正是通过增大离轴角来消除地气光。文中计算得出，在地月平动点最远观测距离处，离轴角最小需求为3.5°。
+相机视轴与卫星中心到地心切线之间的夹角。当地气光离轴角大于相机设计值时，成像不受地气光杂散光影响。双临边观测模式正是通过增大离轴角来消除地气光。文中计算得出，在地月平动点最远观测距离处，离轴角最小需求为3.5° \cite{ZhangJingPengDiYuePingDongDianGaoGuiGuanCeXiTongSheJiJiXiaoNengFenXi2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/observation/earth-atmosphere-off-axis-angle/
 - 帧叠加（Frame Stacking）
 - 体积去相干（Volume Decorrelation）
 - 观测相位角（Observation Phase Angle）
-
-## 参考文献
-
-- 张靖鹏 等 - 2025 - 地月平动点高轨观测系统设计及效能分析

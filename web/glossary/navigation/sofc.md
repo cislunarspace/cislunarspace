@@ -4,7 +4,7 @@ description: 一种用于多圈小推力转移的近最优控制策略。基于�
 keywords: 次优反馈控制, Sub-Optimal Feedback Control, SOFC, 导航, 定轨, GNSS, 卡尔曼滤波
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 次优反馈控制（Sub-Optimal Feedback Control）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/sofc/
 
 ## 定义
 
-一种用于多圈小推力转移的近最优控制策略。基于中心引力场中非共面椭圆轨道与圆轨道之间最小时间转移问题的大量数值解，将最优推力方向角（俯仰角和偏航角）表示为瞬时轨道根数（近地点半径、远地点半径、倾角）的查表插值函数。在无摄动条件下接近平均最优解，对摄动加速度和控制误差具有鲁棒性。本文将其扩展应用于地月平动点和 Halo 轨道的小推力转移，将轨迹计算问题简化为单参数边值问题（指定初始质量时）或柯西问题（指定末质量时）。
+一种用于多圈小推力转移的近最优控制策略。基于中心引力场中非共面椭圆轨道与圆轨道之间最小时间转移问题的大量数值解，将最优推力方向角（俯仰角和偏航角）表示为瞬时轨道根数（近地点半径、远地点半径、倾角）的查表插值函数。在无摄动条件下接近平均最优解，对摄动加速度和控制误差具有鲁棒性。本文将其扩展应用于地月平动点和 Halo 轨道的小推力转移，将轨迹计算问题简化为单参数边值问题（指定初始质量时）或柯西问题（指定末质量时）\cite{ivanyukhinLowenergySuboptimalLowthrust2019}。
 
 ## 应用价值
 
@@ -46,4 +46,3 @@ permalink: /glossary/navigation/sofc/
 ## 参考文献
 
 - Petukhov, 2011, Cosmic Res., 49(2), 121-130
-- Ivanyukhin and Petukhov, 2019, Cosmic Res., 57(5)

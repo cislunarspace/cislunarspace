@@ -4,7 +4,7 @@ description: 部署在地月空间的导航基础设施，为月球探测提供�
 keywords: 地月空间卫星导航系统, Cislunar Space Satellite Navigation System, 导航, 定轨, 星间链路
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地月空间卫星导航系统
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/cislunar-space-satellite-navigation-system/
 
 ## 定义
 
-部署在地月空间的导航基础设施，为月球探测提供时空基准。典型构型是在平动点（L1、L3、L4、L5）和远距离逆行轨道上布设导航卫星，通过星间链路实现自主定轨，摆脱对地基测控的依赖。
+部署在地月空间的导航基础设施，为月球探测提供时空基准。典型构型是在平动点（L1、L3、L4、L5）和远距离逆行轨道上布设导航卫星，通过星间链路实现自主定轨，摆脱对地基测控的依赖\cite{lvPreciseOrbitDetermination2025}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/navigation/cislunar-space-satellite-navigation-system/
 - [轨道振幅（Orbital Amplitude）](/glossary/navigation/orbital-amplitude/)
 - 星地联合定轨（Ground-Space Joint Orbit Determination）
 - 链路数量（Link Quantity）
-
-## 参考文献
-
-- Lv et al., 2025

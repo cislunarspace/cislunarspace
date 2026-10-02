@@ -4,7 +4,7 @@ description: 观测起始时刻太阳与地月旋转坐标系 x 轴之间的夹�
 keywords: 初始太阳相位角, Initial Solar Phase Angle, w₀, 观测, 可见性, 覆盖
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 初始太阳相位角（Initial Solar Phase Angle）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/observation/w/
 
 ## 定义
 
-观测起始时刻太阳与地月旋转坐标系 x 轴之间的夹角。该角度决定了太阳排除锥在轨道周期内的时空分布，进而显著影响单周期观测性能：w₀ = 180° 时可观测区域最大，w₀ ≈ 360° 时可观测区域最小（低于 65%）。对于不与太阳会合周期共振的轨道，此角度随时间漂移；与太阳会合周期共振的轨道可将其锁定在最优值。
+观测起始时刻太阳与地月旋转坐标系 x 轴之间的夹角。该角度决定了太阳排除锥在轨道周期内的时空分布，进而显著影响单周期观测性能：w₀ = 180° 时可观测区域最大，w₀ ≈ 360° 时可观测区域最小（低于 65%）。对于不与太阳会合周期共振的轨道，此角度随时间漂移；与太阳会合周期共振的轨道可将其锁定在最优值 \cite{dingCislunarSpaceSituational2025}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/observation/w/
 - 太阳相位角（Solar Phase Angle）
 - 太阳排除锥（Solar Exclusion Cone）
 - 观测窗口（Observation Window）
-
-## 参考文献
-
-- Ding et al., 2025. Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits

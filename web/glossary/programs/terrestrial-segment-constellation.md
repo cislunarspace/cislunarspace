@@ -4,7 +4,7 @@ description: 地月通信星座中覆盖地球表面的部分。该段部署在L
 keywords: 地球段星座, Terrestrial Segment Constellation, 航天任务, 在轨服务, 模块更换
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地球段星座（Terrestrial Segment Constellation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/programs/terrestrial-segment-constellation/
 
 ## 定义
 
-地月通信星座中覆盖地球表面的部分。该段部署在L3不稳定Halo轨道上，为地月之间提供视线中继，使地球表面看不见月球的区域也能与月球保持连续通信。论文设计的6星方案可对约97%地球用户提供100%通信可用性。
+地月通信星座中覆盖地球表面的部分。该段部署在L3不稳定Halo轨道上，为地月之间提供视线中继，使地球表面看不见月球的区域也能与月球保持连续通信。论文设计的6星方案可对约97%地球用户提供100%通信可用性 \cite{contiDesignHaloOrbit2025}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/programs/terrestrial-segment-constellation/
 - 在轨清理（On-orbit Debris Removal）
 - 部署策略（Deployment Strategy）
 - 在轨重组（On-orbit Reconfiguration）
-
-## 参考文献
-
-- Conti and Circi, 2025, Design of halo orbit constellation for lunar global positioning and communication services

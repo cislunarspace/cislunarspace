@@ -4,7 +4,7 @@ description: 以日地系统质心为原点、随日地连线旋转的参考系�
 keywords: Barycentric Rotating Frame, 定轨, 导航, 滤波, 质心旋转坐标系
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 质心旋转坐标系（Barycentric Rotating Frame）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/barycentric-rotating-frame/
 
 ## 定义
 
-以日地系统质心为原点、随日地连线旋转的参考系。x轴始终由太阳指向地球，z轴沿黄道面法线，y轴由右手定则确定。在此坐标系中，Halo轨道探测器的位置量级约为10^6 km，比质心惯性系低两个量级，导航滤波精度显著优于惯性系。论文建议平动点轨道导航应选择质心旋转系，这与轨道设计的坐标系选择一致。
+以日地系统质心为原点、随日地连线旋转的参考系。x轴始终由太阳指向地球，z轴沿黄道面法线，y轴由右手定则确定。在此坐标系中，Halo轨道探测器的位置量级约为10^6 km，比质心惯性系低两个量级，导航滤波精度显著优于惯性系。论文建议平动点轨道导航应选择质心旋转系，这与轨道设计的坐标系选择一致\cite{ZhaoShuGeRiDiXiTongL2DianHaloGuiDaoZiZhuTianWenDaoHangJiJingDuFenXi2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/navigation/barycentric-rotating-frame/
 - 力模型简化（Force Model Simplification）
 - 自主检查与服务（Autonomous Inspection and Servicing, AIS）
 - 星上轨道预报（Onboard Orbit Prediction）
-
-## 参考文献
-
-- 赵书阁 等 - 2013 - 日地系统L2点Halo轨道自主天文导航及精度分析
