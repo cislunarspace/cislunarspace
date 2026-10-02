@@ -1,23 +1,23 @@
 ---
 title: 开放点场景（Open-Point Scenario）
-description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月。
+description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月 \cite{parkerDirectLunarHalo2008}。
 keywords: 开放点场景, Open-Point Scenario, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 开放点场景（Open-Point Scenario）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 开放点场景详解 | 术语定义
-  description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月。
+  description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月 \cite{parkerDirectLunarHalo2008}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 开放点场景详解 | 术语定义
-  description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月。
+  description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月 \cite{parkerDirectLunarHalo2008}。
   image: /logo.png
 permalink: /glossary/orbits/open-point-scenario/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/open-point-scenario/
 
 ## 定义
 
-晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月。
+晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月 \cite{parkerDirectLunarHalo2008}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/open-point-scenario/
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-
-## 参考文献
-
-- Parker和Born - 2008 - Direct lunar halo orbit transfers

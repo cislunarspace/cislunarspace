@@ -4,7 +4,7 @@ description: 航天器从出发轨道（如LEO）施加出发脉冲的时刻。�
 keywords: 发射时间, Departure Time, 轨道设计, 转移轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 发射时间（Departure Time）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/departure-time/
 
 ## 定义
 
-航天器从出发轨道（如LEO）施加出发脉冲的时刻。发射时间是影响转移轨道解的存在性和入轨脉冲大小的关键参数，在伪弧长延拓中常被固定或作为延拓参数。
+航天器从出发轨道（如LEO）施加出发脉冲的时刻。发射时间是影响转移轨道解的存在性和入轨脉冲大小的关键参数，在伪弧长延拓中常被固定或作为延拓参数 \cite{ZhangChenJiYuShuZhiYanTuoDeRiYueZongHeJieLiDRORuGuiCeLue2024}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/departure-time/
 - 接近操作（Proximity Operations）
 - [Lyapunov周期轨道（Lyapunov Periodic Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 偏转角（Deflection Angle）
-- 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
-
-## 参考文献
-
-- 张晨, 2024, 北京航空航天大学学报

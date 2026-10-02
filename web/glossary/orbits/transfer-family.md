@@ -20,7 +20,7 @@ permalink: /glossary/orbits/transfer-family/
 
 ## 定义
 
-转移族（Transfer Family）指在限制性三体问题动力学框架下，起点属于某一类特定初始轨道构型（如近地停泊轨道或拉格朗日点轨道）、终点切入目标周期轨道（如远距离逆行轨道DRO或Halo轨道），具有相同空间拓扑对称性与多脉冲机动特征，并通过数值微分延拓算法在能量常数、飞行时间或轨道几何参数连续变化下生成的一整族转移轨迹解集。
+转移族（Transfer Family）指在限制性三体问题动力学框架下，起点属于某一类特定初始轨道构型（如近地停泊轨道或拉格朗日点轨道）、终点切入目标周期轨道（如远距离逆行轨道DRO或Halo轨道），具有相同空间拓扑对称性与多脉冲机动特征，并通过数值微分延拓算法在能量常数、飞行时间或轨道几何参数连续变化下生成的一整族转移轨迹解集 \cite{scottCalculatingTransferFamilies2010,renFamiliesTransfersMoon2020}。
 
 ## 物理机制与工程价值
 
@@ -39,5 +39,4 @@ permalink: /glossary/orbits/transfer-family/
 
 ## 参考文献
 
-- Scott C, Spencer D B. Optimal transfers to distant retrograde orbits using invariant manifolds. *Journal of Guidance, Control, and Dynamics*, 2010, 33(5): 1599-1607.
 - Ren Y, Shan J. Low-thrust trajectory optimization between Earth-Moon halo orbits and distant retrograde orbits. *Astrodynamics*, 2020, 4(3): 223-238.

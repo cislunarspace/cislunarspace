@@ -4,7 +4,7 @@ description: 在 L1 点转移轨道中，连接近地停泊轨道与 L1 点稳�
 keywords: 连接弧段, Connection Arc, 轨道设计, 周期轨道, 轨道转移
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 连接弧段（Connection Arc）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/connection-arc/
 
 ## 定义
 
-在 L1 点转移轨道中，连接近地停泊轨道与 L1 点稳定流形的过渡轨道。由于 L1 点稳定流形与地球最近距离约 0.1 个地月平均距离，不能直接与低高度停泊轨道相交，需从停泊轨道 P 点施加速度增量，飞行至与稳定流形的交点 Q。通过变动稳定流形能量和 P、Q 点位置可找到能量较省的方案。
+在 L1 点转移轨道中，连接近地停泊轨道与 L1 点稳定流形的过渡轨道。由于 L1 点稳定流形与地球最近距离约 0.1 个地月平均距离，不能直接与低高度停泊轨道相交，需从停泊轨道 P 点施加速度增量，飞行至与稳定流形的交点 Q。通过变动稳定流形能量和 P、Q 点位置可找到能量较省的方案 \cite{PengQiBoZaiRenDengYueDiYueZhuanYiGuiDaoFangAnZongShu2016}。
 
 ## 应用价值
 
@@ -43,8 +43,3 @@ permalink: /glossary/orbits/connection-arc/
 - [远距离逆行轨道（Distant Retrograde Orbit）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [近直线晕轨道（Near Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
 - 周期轨道（Periodic Orbit）
-- 轨道转移（Orbital Transfer）
-
-## 参考文献
-
-- 彭祺擘和张海联 - 2016 - 载人登月地月转移轨道方案综述

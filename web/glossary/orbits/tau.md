@@ -4,7 +4,7 @@ description: 用0到1之间的参数描述航天器在一条周期轨道上的�
 keywords: 轨道相位, Orbit Phase, tau, 轨道设计, 地月轨道, 周期轨道, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 轨道相位（Orbit Phase）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/tau/
 
 ## 定义
 
-用0到1之间的参数描述航天器在一条周期轨道上的位置，0和1对应同一状态。给定雅可比常数和轨道族后，轨道相位与x轴穿越点的状态一一对应。轨道相位是转移代价图的核心参数。
+用0到1之间的参数描述航天器在一条周期轨道上的位置，0和1对应同一状态。给定雅可比常数和轨道族后，轨道相位与x轴穿越点的状态一一对应 \cite{parkerChainingPeriodicThreebody2010}。轨道相位是转移代价图的核心参数。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/tau/
 - [超地球同步转移轨道（Super-Geostationary Transfer Orbit, sGTO）](/glossary/orbits/sgto/)
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
 - 低月球轨道（Low Lunar Orbit, LLO）
-
-## 参考文献
-
-- Parker et al. (2010) Chaining periodic three-body orbits in the Earth-Moon system。

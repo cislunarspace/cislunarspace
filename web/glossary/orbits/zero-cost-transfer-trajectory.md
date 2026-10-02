@@ -4,7 +4,7 @@ description: 不变流形的最小月心距恰好等于目标环月轨道月心�
 keywords: 零消耗转移轨道, Zero-Cost Transfer Trajectory, 轨道设计, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 零消耗转移轨道（Zero-Cost Transfer Trajectory）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/zero-cost-transfer-trajectory/
 
 ## 定义
 
-不变流形的最小月心距恰好等于目标环月轨道月心距时，入轨点处无需施加速度增量即可从环月轨道直接进入平动点Halo轨道的转移轨道。整圈Halo轨道上一般最多有2个相位点存在零消耗转移轨道，它们是两脉冲转移轨道的极限情况（脉冲为零）。实际任务中，大部分相位点需要小速度增量的受摄流形才能满足近月点约束。
+不变流形的最小月心距恰好等于目标环月轨道月心距时，入轨点处无需施加速度增量即可从环月轨道直接进入平动点Halo轨道的转移轨道 \cite{PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016}。整圈Halo轨道上一般最多有2个相位点存在零消耗转移轨道，它们是两脉冲转移轨道的极限情况（脉冲为零）。实际任务中，大部分相位点需要小速度增量的受摄流形才能满足近月点约束。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/zero-cost-transfer-trajectory/
 - [晕轨道幅值（Halo Orbit Amplitude）](/glossary/orbits/halo-orbit/)
 - [低能量相位对准（Low-Energy Phase Alignment）](/glossary/orbits/nrho/)
 - [近直线晕轨道（Near-Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
-
-## 参考文献
-
-- 彭坤 等 - 2016 - 基于不变流形的地月L2点Halo轨道转移轨道设计

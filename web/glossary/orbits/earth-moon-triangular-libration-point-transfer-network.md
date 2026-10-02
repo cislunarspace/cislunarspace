@@ -4,7 +4,7 @@ description: 以月球为中枢，连接地球、近地轨道与三角平动点�
 keywords: 地月三角平动点转移网络, Earth-Moon Triangular Libration Point Transfer Network, 轨道设计, 轨道力学, 平动点
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地月三角平动点转移网络
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/earth-moon-triangular-libration-point-transfer-netwo
 
 ## 定义
 
-以月球为中枢，连接地球、近地轨道与三角平动点（L4/L5）区域的转移轨道网络。
+以月球为中枢，连接地球、近地轨道与三角平动点（L4/L5）区域的转移轨道网络 \cite{capdevilaTransferNetworkLinking2018}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/earth-moon-triangular-libration-point-transfer-netwo
 - 轨道面共面约束（Coplanar Orbital Plane Constraint）
 - [利萨如轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - 高地球轨道（High Earth Orbit, HEO）
-- [外部相位（Exterior Phase）](/glossary/orbits/low-energy-transfer/)
-
-## 参考文献
-
-- Capdevila和Howell - 2018

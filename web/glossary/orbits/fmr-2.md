@@ -4,7 +4,7 @@ description: 在月心旋转坐标系第二象限内，航天器初始近月点�
 keywords: 月球前侧逆行飞越, Forward-Moon-Retrograde Flyby in Quadrant II, FMR-2, 轨道, 转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月球前侧逆行飞越
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/fmr-2/
 
 ## 定义
 
-在月心旋转坐标系第二象限内，航天器初始近月点位于此区域并绕月做逆行运动的DRO捕获方式。
+在月心旋转坐标系第二象限内，航天器初始近月点位于此区域并绕月做逆行运动的DRO捕获方式 \cite{wangMechanismAnalysisDRO2025,wangMechanismCharacteristicsAnalysis2025}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/fmr-2/
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 - 平面月球轨道（Planar Lunar Orbit, PLO）
-- [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
-
-## 参考文献
-
-- Wang 等 - 2025。

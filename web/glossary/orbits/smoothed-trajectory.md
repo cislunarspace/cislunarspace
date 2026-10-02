@@ -4,7 +4,7 @@ description: 在星历模型中，通过多段打靶法对圆型限制性三体�
 keywords: 平滑轨迹, Smoothed Trajectory, 轨道设计, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 平滑轨迹（Smoothed Trajectory）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/smoothed-trajectory/
 
 ## 定义
 
-在星历模型中，通过多段打靶法对圆型限制性三体问题中求得的最优轨迹进行修正后得到的满足高精度动力学的连续轨道。
+在星历模型中，通过多段打靶法对圆型限制性三体问题中求得的最优轨迹进行修正后得到的满足高精度动力学的连续轨道 \cite{yukikayamaLowthrustTrajectoryDesign2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/smoothed-trajectory/
 - [晕轨道幅值（Halo Orbit Amplitude）](/glossary/orbits/halo-orbit/)
 - [近直线晕轨道（Near-Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
 - [轨道稳定度（Orbital Stability Index）](/glossary/orbits/orbital-stability-index/)
-
-## 参考文献
-
-- Kayama 等 - 2022

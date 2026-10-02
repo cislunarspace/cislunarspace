@@ -1,23 +1,23 @@
 ---
 title: P2HO2 轨道（P2HO2 Orbit）
-description: 一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关。
+description: 一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关 \cite{waldeckerOnorbitServicingNetworks2025}。
 keywords: P2HO2 轨道, P2HO2 Orbit, P2HO2, 轨道, 转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: P2HO2 轨道（P2HO2 Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: P2HO2 轨道详解 | 术语定义
-  description: 一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关。
+  description: 一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关 \cite{waldeckerOnorbitServicingNetworks2025}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: P2HO2 轨道详解 | 术语定义
-  description: 一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关。
+  description: 一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关 \cite{waldeckerOnorbitServicingNetworks2025}。
   image: /logo.png
 permalink: /glossary/orbits/p2ho2/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/p2ho2/
 
 ## 定义
 
-一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关。
+一种周期轨道家族，用于作为服务 hub，具体特性与蝴蝶轨道族相关 \cite{waldeckerOnorbitServicingNetworks2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/p2ho2/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 - 平面月球轨道（Planar Lunar Orbit, PLO）
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
-
-## 参考文献
-
-- Waldecker & Howell 2025。

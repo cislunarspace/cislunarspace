@@ -4,7 +4,7 @@ description: Hénon在Hill修改的三体问题中发现的一类不稳定周期
 keywords: 地球返回轨道, Earth-Return Orbit, ERO, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 地球返回轨道（Earth-Return Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/ero/
 
 ## 定义
 
-Hénon在Hill修改的三体问题中发现的一类不稳定周期轨道族（a族）。航天器沿ERO周期性地接近并远离地球，当轨道继续延伸至L1点附近时，退化为简单的准椭圆HLO。ERO的半程路径可作为从LEO到DRO转移轨道的一部分，是Ocampo经典转移方法的基础。
+Hénon在Hill修改的三体问题中发现的一类不稳定周期轨道族（a族）。航天器沿ERO周期性地接近并远离地球，当轨道继续延伸至L1点附近时，退化为简单的准椭圆HLO。ERO的半程路径可作为从LEO到DRO转移轨道的一部分，是Ocampo经典转移方法的基础 \cite{demeyerTransferDistantRetrograde2007}。
 
 ## 应用价值
 
@@ -40,8 +40,3 @@ Hénon在Hill修改的三体问题中发现的一类不稳定周期轨道族（a
 
 - 地月转移窗口（Earth-Moon Transfer Window）
 - 近月轨道（Lunar Orbit）
-- 椭圆月球冻结轨道（Elliptical Lunar Frozen Orbit）
-
-## 参考文献
-
-- Transfer to Distant Retrograde Orbits Using Manifold Theory。

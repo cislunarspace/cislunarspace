@@ -4,7 +4,7 @@ description: 日地系L1点附近的周期轨道。在四体问题框架下，EL
 keywords: EL1轨道, EL1 Orbit, 轨道设计, 转移轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: EL1轨道（EL1 Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/el1-orbit/
 
 ## 定义
 
-日地系L1点附近的周期轨道。在四体问题框架下，EL1轨道与LL2轨道的不变流形相交，为构造弱稳定边界转移提供了动力学通道。
+日地系L1点附近的周期轨道。在四体问题框架下，EL1轨道与LL2轨道的不变流形相交，为构造弱稳定边界转移提供了动力学通道 \cite{XuMingDiYueDiNengZhuanYiDeFaShengTiaoJianJiGuiJiGouZao2010}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/el1-orbit/
 - [异宿轨道转移（Heteroclinic Transfer）](/glossary/dynamics/heteroclinic-orbit-transfer/)
 - 月球借力（Lunar Flyby）
 - 地球同步轨道（Geosynchronous Orbit, GEO）
-- 部署轨迹（Deployment Trajectory）
-
-## 参考文献
-
-- 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造

@@ -4,7 +4,7 @@ description: Lissajous Orbit Ever Without Eclipse的缩写，利用单次脉冲�
 keywords: 无食轨道策略, LOEWE, LOEWE, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 无食轨道策略（LOEWE）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/loewe/
 
 ## 定义
 
-Lissajous Orbit Ever Without Eclipse的缩写，利用单次脉冲改变有效相位以规避日月食的策略。
+Lissajous Orbit Ever Without Eclipse的缩写，利用单次脉冲改变有效相位以规避日月食的策略 \cite{belloInvariantManifoldsLagrangian2010}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ Lissajous Orbit Ever Without Eclipse的缩写，利用单次脉冲改变有效�
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-
-## 参考文献
-
-- Belló 等 - 2010 - Invariant manifolds, Lagrangian trajectories and space mission design

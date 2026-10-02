@@ -1,23 +1,23 @@
 ---
 title: 月心段（Selenocentric Segment）
-description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段。
+description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段 \cite{yoonMinimumfuelLowthrustTrajectories2023}。
 keywords: 月心段, Selenocentric Segment, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 月心段（Selenocentric Segment）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 月心段详解 | 术语定义
-  description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段。
+  description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段 \cite{yoonMinimumfuelLowthrustTrajectories2023}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 月心段详解 | 术语定义
-  description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段。
+  description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段 \cite{yoonMinimumfuelLowthrustTrajectories2023}。
   image: /logo.png
 permalink: /glossary/orbits/selenocentric-segment/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/selenocentric-segment/
 
 ## 定义
 
-地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段。
+地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段 \cite{yoonMinimumfuelLowthrustTrajectories2023}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/selenocentric-segment/
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
 - 锥角（Cone Angle）
-
-## 参考文献
-
-- Minimum-fuel low-thrust trajectories to the moon (Yoon和Petukhov, 2023)

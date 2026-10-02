@@ -4,7 +4,7 @@ description: 伪弧长延拓得到的完整转移解族，描述转移轨道随�
 keywords: 转移族曲线, Family Curve of Transfers, 轨道设计, 转移轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 转移族曲线（Family Curve of Transfers）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/family-curve-of-transfers/
 
 ## 定义
 
-伪弧长延拓得到的完整转移解族，描述转移轨道随能量（雅克比常数）变化的整体特征，呈现局部最小值、局部最大值和拐点。
+伪弧长延拓得到的完整转移解族，描述转移轨道随能量（雅克比常数）变化的整体特征，呈现局部最小值、局部最大值和拐点 \cite{capdevilaTransferNetworkLinking2018}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/family-curve-of-transfers/
 - 接近操作（Proximity Operations）
 - [Lyapunov周期轨道（Lyapunov Periodic Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 偏转角（Deflection Angle）
-- 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
-
-## 参考文献
-
-- Capdevila和Howell - 2018

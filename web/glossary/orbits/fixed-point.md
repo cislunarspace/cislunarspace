@@ -4,7 +4,7 @@ description: 将连续的Halo轨道离散化后得到的等价描述。把Halo�
 keywords: 不动点, Fixed Point, 轨道设计, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 不动点（Fixed Point）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/fixed-point/
 
 ## 定义
 
-将连续的Halo轨道离散化后得到的等价描述。把Halo轨道视为庞加莱截面上的一个点，轨道每运行一个周期回到该截面时状态完全重合，故称不动点。对不动点处的单值矩阵求特征值和特征向量，即可确定该轨道的稳定性和衍生不变流形的方向与初始扰动幅值。论文取扰动量d在30至70 km范围以满足线性近似条件。
+将连续的Halo轨道离散化后得到的等价描述。把Halo轨道视为庞加莱截面上的一个点，轨道每运行一个周期回到该截面时状态完全重合，故称不动点。对不动点处的单值矩阵求特征值和特征向量，即可确定该轨道的稳定性和衍生不变流形的方向与初始扰动幅值。论文取扰动量d在30至70 km范围以满足线性近似条件 \cite{CaoPengFeiDiYueL2DianHaloGuiDaoZhiChiDeDengYueGuiDaoYouHuaSheJi2017}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/fixed-point/
 - 真近点角（True Anomaly）
 - 多圈螺旋转移（Multi-Revolution Spiral Transfer）
 - [正交穿平面条件（Orthogonal Plane-Crossing Condition）](/glossary/orbits/orthogonal-plane-crossing-condition/)
-- 三角平动点垂直轨道（Vertical Orbit at Triangular Libration Point）
-
-## 参考文献
-
-- 曹鹏飞 等 - 2017 - 地月L2点Halo轨道支持的登月轨道优化设计

@@ -4,7 +4,7 @@ description: 航天器从近直线Halo轨道直接转移至低月轨道的飞行
 keywords: 直连转移轨迹, Direct Transfer Trajectory, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 直连转移轨迹（Direct Transfer Trajectory）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/direct-transfer-trajectory/
 
 ## 定义
 
-航天器从近直线Halo轨道直接转移至低月轨道的飞行路径。转移过程需两次脉冲机动：第一次在NRHO出发点施加，使航天器脱离NRHO进入转移轨道；第二次在转移轨道的近月点施加，使航天器被月球捕获进入LLO。与多段式转移不同，直连转移轨迹只有一个转移弧段，飞行时间短，适合载人月球探测任务。
+航天器从近直线Halo轨道直接转移至低月轨道的飞行路径。转移过程需两次脉冲机动：第一次在NRHO出发点施加，使航天器脱离NRHO进入转移轨道；第二次在转移轨道的近月点施加，使航天器被月球捕获进入LLO。与多段式转移不同，直连转移轨迹只有一个转移弧段，飞行时间短，适合载人月球探测任务 \cite{luDesignAnalysisDirect2021}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/direct-transfer-trajectory/
 - [DRO到地球轨道转移（DRO-to-Earth-Orbit Transfer）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - 最大偏离距离（Maximum Excursion Distance）
 - [短路径转移轨道（Short-Path Transfer Orbit）](/glossary/orbits/short-path-transfer-orbit/)
-- 圆锥曲线轨道（Conic Orbit）
-
-## 参考文献
-
-- Lu et al., 2021

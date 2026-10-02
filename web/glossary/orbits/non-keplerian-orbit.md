@@ -1,23 +1,23 @@
 ---
 title: 非开普勒轨道（Non-Keplerian Orbit）
-description: 不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述。
+description: 不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述 \cite{SunCongDiYueKongJianTaiShiGanZhiJiShuYanJiuXianZhuangYuFaZhan2025a}。
 keywords: 非开普勒轨道, Non-Keplerian Orbit, 轨道设计, 轨道力学, 平动点, 轨道转移
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 非开普勒轨道（Non-Keplerian Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 非开普勒轨道详解 | 术语定义
-  description: 不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述。
+  description: 不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述 \cite{SunCongDiYueKongJianTaiShiGanZhiJiShuYanJiuXianZhuangYuFaZhan2025a}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 非开普勒轨道详解 | 术语定义
-  description: 不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述。
+  description: 不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述 \cite{SunCongDiYueKongJianTaiShiGanZhiJiShuYanJiuXianZhuangYuFaZhan2025a}。
   image: /logo.png
 permalink: /glossary/orbits/non-keplerian-orbit/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/non-keplerian-orbit/
 
 ## 定义
 
-不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述。
+不遵循二体开普勒定律的轨道，在地月空间中普遍存在。区别于近地空间的圆形或椭圆平面轨道，地月空间轨迹多为非圆锥曲线，无固定轨道平面，CR3BP 中仅存在雅可比常数，无法用传统轨道根数描述 \cite{SunCongDiYueKongJianTaiShiGanZhiJiShuYanJiuXianZhuangYuFaZhan2025a}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/non-keplerian-orbit/
 - 复合周期轨道（Complex Periodic Orbit）
 - 轨道转移级（Orbital Transfer Stage）
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
-
-## 参考文献
-
-- 地月空间态势感知技术研究现状与发展

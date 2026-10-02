@@ -4,7 +4,7 @@ description: 利用不變流形的自然动力学，将追踪器从停泊轨道�
 keywords: 远距离交会, Far Rendezvous, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 远距离交会（Far Rendezvous）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/far-rendezvous/
 
 ## 定义
 
-利用不變流形的自然动力学，将追踪器从停泊轨道转移至目标轨道的交会阶段。
+利用不變流形的自然动力学，将追踪器从停泊轨道转移至目标轨道的交会阶段 \cite{lizy-destrezRendezvousStrategiesVicinity2019}。
 
 ## 应用价值
 
@@ -40,8 +40,3 @@ permalink: /glossary/orbits/far-rendezvous/
 
 - 周期轨道（Periodic Orbit）
 - 平动点轨道（Libration Point Orbit）
-- 轨道转移（Orbit Transfer）
-
-## 参考文献
-
-- Lizy-Destrez et al. 2019

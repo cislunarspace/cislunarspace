@@ -4,7 +4,7 @@ description: 从近地停泊轨道出发，仅执行两次机动（出发变轨�
 keywords: 直接转移, Direct Transfer, , 轨道设计, 轨道力学, 地月转移, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 直接转移（Direct Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/direct-transfer/
 
 ## 定义
 
-从近地停泊轨道出发，仅执行两次机动（出发变轨和DRO倾入）即可到达远距逆行轨道的转移方式。操作简单，飞行时间可控（5至9天），但速度增量代价通常高于动力月球飞越。对180度附近倾入角效率最高。
+从近地停泊轨道出发，仅执行两次机动（出发变轨和DRO倾入）即可到达远距逆行轨道的转移方式。操作简单，飞行时间可控（5至9天），但速度增量代价通常高于动力月球飞越。对180度附近倾入角效率最高 \cite{welchMissionConsiderationsTransfers2015a}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/direct-transfer/
 - 入轨点条件（Orbit Insertion Point Condition）
 - 混合引力辅助转移（Hybrid Gravity Assist Transfer）
 - 近月点相位角（Phase Angle of Perilune）
-- 相对周期轨道（Relative Periodic Orbit）
-
-## 参考文献
-
-- Welch et al., 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit

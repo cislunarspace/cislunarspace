@@ -4,7 +4,7 @@ description: 一种LEO至平动点轨道的低能转移策略，仅用两次脉�
 keywords: 轨道, 平动点, 轨道设计, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 两次机动转移设计（Two-maneuver transfer design）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/two-maneuver-transfer-design/
 
 ## 定义
 
-一种LEO至平动点轨道的低能转移策略，仅用两次脉冲机动：第一次使飞行器脱离LEO，第二次插入目标Lissajous轨道或其稳定不变流形。总速度增量由LEO高度、目标轨道几何、流形插入点及插入角决定。
+一种LEO至平动点轨道的低能转移策略，仅用两次脉冲机动：第一次使飞行器脱离LEO，第二次插入目标Lissajous轨道或其稳定不变流形 \cite{alessiTwomanoeuvresTransfersLEOs2010a}。总速度增量由LEO高度、目标轨道几何、流形插入点及插入角决定。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/two-maneuver-transfer-design/
 - 螺旋转移（Spiral Transfer）
 - [Halo轨道类别（Halo Orbit Classification）](/glossary/orbits/halo-orbit/)
 - [L4（L4）](/glossary/dynamics/l4/)
-
-## 参考文献
-
-- Alessi et al., 2010

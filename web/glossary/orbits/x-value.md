@@ -4,7 +4,7 @@ description: 标识晕轨道的重要参数，定义为晕轨道与正z平面交
 keywords: x₀值, x₀ Value, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: x₀值（x₀ Value）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/x-value/
 
 ## 定义
 
-标识晕轨道的重要参数，定义为晕轨道与正z平面交点处的x坐标（在地月会聚坐标系中）。同一族晕轨道中每个晕轨道可由唯一的x₀值确定，x₀值与晕轨道的z轴振幅存在对应关系。
+标识晕轨道的重要参数，定义为晕轨道与正z平面交点处的x坐标（在地月会聚坐标系中） \cite{parkerDirectLunarHalo2008}。同一族晕轨道中每个晕轨道可由唯一的x₀值确定，x₀值与晕轨道的z轴振幅存在对应关系。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ x₀值为月球探测任务提供了多样化的轨道选择方案，有助于�
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-
-## 参考文献
-
-- Parker和Born - 2008 - Direct lunar halo orbit transfers

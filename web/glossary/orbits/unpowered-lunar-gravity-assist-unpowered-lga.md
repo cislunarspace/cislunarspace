@@ -4,7 +4,7 @@ description: 航天器仅依靠月球引力场改变轨道参数的飞越方式�
 keywords: 无动力月球引力辅助, Unpowered Lunar Gravity Assist, Unpowered LGA, 轨道设计, 轨道力学, 转移轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 无动力月球引力辅助
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/unpowered-lunar-gravity-assist-unpowered-lga/
 
 ## 定义
 
-航天器仅依靠月球引力场改变轨道参数的飞越方式，飞越期间不施加推力。可实现速度大小和方向的改变，包括大幅轨道面重定向，且不消耗推进剂。
+航天器仅依靠月球引力场改变轨道参数的飞越方式，飞越期间不施加推力。可实现速度大小和方向的改变，包括大幅轨道面重定向，且不消耗推进剂 \cite{zhangLunargravityassistedLowenergyTransfer2023}。
 
 ## 应用价值
 

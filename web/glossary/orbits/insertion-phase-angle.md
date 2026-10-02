@@ -4,7 +4,7 @@ description: 在旋转坐标系中，从y轴正方向到目标DRO位置向量的
 keywords: 入轨相位角, Insertion Phase Angle, 轨道设计, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 入轨相位角（Insertion Phase Angle）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/insertion-phase-angle/
 
 ## 定义
 
-在旋转坐标系中，从y轴正方向到目标DRO位置向量的夹角，用于确定入轨点在DRO上的具体位置。
+在旋转坐标系中，从y轴正方向到目标DRO位置向量的夹角，用于确定入轨点在DRO上的具体位置 \cite{renFamiliesTransfersMoon2020}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/insertion-phase-angle/
 - 多圈螺旋转移（Multi-Revolution Spiral Transfer）
 - [正交穿平面条件（Orthogonal Plane-Crossing Condition）](/glossary/orbits/orthogonal-plane-crossing-condition/)
 - 三角平动点垂直轨道（Vertical Orbit at Triangular Libration Point）
-
-## 参考文献
-
-- Ren 等 - 2020

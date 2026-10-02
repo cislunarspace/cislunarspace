@@ -1,23 +1,23 @@
 ---
 title: 分段环转移（Phasing Loop Transfer）
-description: 将地月转移分为多次小推力燃烧以减少引力损失的控制策略。
+description: 将地月转移分为多次小推力燃烧以减少引力损失的控制策略 \cite{CaoPengFeiChangEWuHaoTanCeQiDuoQuanDiaoXiangDiYueZhuanYiYingJiGuiDaoSheJiYuFenXi2022}。
 keywords: 分段环转移, Phasing Loop Transfer, 轨道, 周期轨道, 转移
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 分段环转移（Phasing Loop Transfer）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 分段环转移详解 | 术语定义
-  description: 将地月转移分为多次小推力燃烧以减少引力损失的控制策略。
+  description: 将地月转移分为多次小推力燃烧以减少引力损失的控制策略 \cite{CaoPengFeiChangEWuHaoTanCeQiDuoQuanDiaoXiangDiYueZhuanYiYingJiGuiDaoSheJiYuFenXi2022}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 分段环转移详解 | 术语定义
-  description: 将地月转移分为多次小推力燃烧以减少引力损失的控制策略。
+  description: 将地月转移分为多次小推力燃烧以减少引力损失的控制策略 \cite{CaoPengFeiChangEWuHaoTanCeQiDuoQuanDiaoXiangDiYueZhuanYiYingJiGuiDaoSheJiYuFenXi2022}。
   image: /logo.png
 permalink: /glossary/orbits/phasing-loop-transfer/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/phasing-loop-transfer/
 
 ## 定义
 
-将地月转移分为多次小推力燃烧以减少引力损失的控制策略。
+将地月转移分为多次小推力燃烧以减少引力损失的控制策略 \cite{CaoPengFeiChangEWuHaoTanCeQiDuoQuanDiaoXiangDiYueZhuanYiYingJiGuiDaoSheJiYuFenXi2022}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/orbits/phasing-loop-transfer/
 - 平面远距逆行轨道（Planar Distant Retrograde Orbit）
 - 近月点（Periselene）
 - [轴向共振轨道（Axial Resonant Orbit）](/glossary/orbits/axial-orbit/)
-
-## 参考文献
-
-- （暂无参考文献）

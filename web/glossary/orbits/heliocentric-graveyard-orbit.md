@@ -4,7 +4,7 @@ description: 平动点任务末期的一种处置方式：将航天器机动进�
 keywords: 日心坟墓轨道, Heliocentric Graveyard Orbit, 轨道设计, 周期轨道, 转移轨道, 平动点
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 日心坟墓轨道（Heliocentric Graveyard Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/heliocentric-graveyard-orbit/
 
 ## 定义
 
-平动点任务末期的一种处置方式：将航天器机动进入远离地球的日心轨道，使其在数百年内不会返回地球附近，从而消除对地球卫星安全和地面人员的威胁。ESA的Herschel探测器于2013年5月以此方式完成末期处置，设计结果表明至少300年不会返回。
+平动点任务末期的一种处置方式：将航天器机动进入远离地球的日心轨道，使其在数百年内不会返回地球附近，从而消除对地球卫星安全和地面人员的威胁 \cite{bolisComparativeAssessmentHeliocentric2026,DisposalStrategiesSpacecraft2014}。ESA的Herschel探测器于2013年5月以此方式完成末期处置，设计结果表明至少300年不会返回。
 
 ## 应用价值
 

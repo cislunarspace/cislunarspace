@@ -1,23 +1,23 @@
 ---
 title: 伪春分点轨道根数（Pseudo-Equinoctial Orbital Elements）
-description: 一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题。
+description: 一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题 \cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020}。
 keywords: 伪春分点轨道根数, Pseudo-Equinoctial Orbital Elements, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 伪春分点轨道根数（Pseudo-Equinoctial Orbital Elements）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 伪春分点轨道根数详解 | 术语定义
-  description: 一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题。
+  description: 一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题 \cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 伪春分点轨道根数详解 | 术语定义
-  description: 一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题。
+  description: 一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题 \cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020}。
   image: /logo.png
 permalink: /glossary/orbits/pseudo-equinoctial-orbital-elements/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/pseudo-equinoctial-orbital-elements/
 
 ## 定义
 
-一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题。
+一组用于轨道设计的拟轨道元素。基于春分点轨道根数的变体，在小推力三维轨道转移设计中提供解析表达框架，避免经典轨道根数在小偏心率或小倾角时的奇异性问题 \cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/pseudo-equinoctial-orbital-elements/
 - 最大偏离距离（Maximum Excursion Distance）
 - [短路径转移轨道（Short-Path Transfer Orbit）](/glossary/orbits/short-path-transfer-orbit/)
 - 圆锥曲线轨道（Conic Orbit）
-
-## 参考文献
-
-- 平动点周期轨道间小推力转移的Gauss伪谱法

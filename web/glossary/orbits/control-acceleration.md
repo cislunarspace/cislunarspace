@@ -4,7 +4,7 @@ description: 连续推力作用下单位质量所产生的加速度，作为轨�
 keywords: 控制加速度, Control Acceleration, 轨道设计, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 控制加速度（Control Acceleration）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/control-acceleration/
 
 ## 定义
 
-连续推力作用下单位质量所产生的加速度，作为轨道维持的控制输入量。论文中控制输入向量 U=[U_x, U_y, U_z]^T 的物理意义即为三轴控制加速度，通过输入矩阵 B=[0_{3x3}; I_{3x3}]^T 叠加到动力学方程的速度分量上。仿真结果显示控制加速度最大值出现在初始时刻，三轴分别约为 10^{-7} m/s^2 量级，收敛后趋于零。
+连续推力作用下单位质量所产生的加速度，作为轨道维持的控制输入量。论文中控制输入向量 U=[U_x, U_y, U_z]^T 的物理意义即为三轴控制加速度，通过输入矩阵 B=[0_{3x3}; I_{3x3}]^T 叠加到动力学方程的速度分量上。仿真结果显示控制加速度最大值出现在初始时刻，三轴分别约为 10^{-7} m/s^2 量级，收敛后趋于零 \cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/control-acceleration/
 - [共谐共振周期轨道（Synodic Resonant Periodic Orbit）](/glossary/orbits/resonant-orbit-family/)
 - [晕轨道幅值（Halo Orbit Amplitude）](/glossary/orbits/halo-orbit/)
 - [近直线晕轨道（Near-Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
-- [轨道稳定度（Orbital Stability Index）](/glossary/orbits/orbital-stability-index/)
-
-## 参考文献
-
-- 徐明和徐世杰 - 2008 - Halo轨道维持的线性周期控制策略

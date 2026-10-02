@@ -4,7 +4,7 @@ description: 基于平动点不变流形拼接形成的三体动力学轨道，�
 keywords: 特殊长周期轨道, Special Long-Period Orbit, SLPO, SLPO, 地月空间, cislunar
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 特殊长周期轨道（Special Long-Period Orbit, SLPO）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/slpo/
 
 ## 定义
 
-基于平动点不变流形拼接形成的三体动力学轨道，由两条L1点Halo轨道及其低能转移轨道拼接而成，周期约79天，覆盖整个地月空间。
+基于平动点不变流形拼接形成的三体动力学轨道，由两条L1点Halo轨道及其低能转移轨道拼接而成，周期约79天，覆盖整个地月空间 \cite{tengAutonomousOrbitDetermination2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/slpo/
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
 - [圆型非线性相对运动方程（Circular Non-linear Equations of Relative Motion）](/glossary/dynamics/cnerm/)
-
-## 参考文献
-
-Teng 等 - 2025

@@ -4,7 +4,7 @@ description: 从近地停泊轨道出发，小推力持续作用使航天器沿�
 keywords: 逃逸螺旋, Earth-Escape Spiral, 轨道设计, 周期轨道, 晕轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 逃逸螺旋（Earth-Escape Spiral）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/earth-escape-spiral/
 
 ## 定义
 
-从近地停泊轨道出发，小推力持续作用使航天器沿逐渐增大的螺旋轨道脱离地球引力束缚的飞行阶段。在旋转坐标系中表现为绕地球多圈的向外螺旋。以初始推重比3x10^-3的电推进为例，约需2.2天完成12圈螺旋逃逸。
+从近地停泊轨道出发，小推力持续作用使航天器沿逐渐增大的螺旋轨道脱离地球引力束缚的飞行阶段。在旋转坐标系中表现为绕地球多圈的向外螺旋。以初始推重比3x10^-3的电推进为例，约需2.2天完成12圈螺旋逃逸 \cite{klueverOptimalLowthrustThreedimensional1995}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ permalink: /glossary/orbits/earth-escape-spiral/
 - 真近点角（True Anomaly）
 - 多圈螺旋转移（Multi-Revolution Spiral Transfer）
 - [正交穿平面条件（Orthogonal Plane-Crossing Condition）](/glossary/orbits/orthogonal-plane-crossing-condition/)
-- 三角平动点垂直轨道（Vertical Orbit at Triangular Libration Point）
-
-## 参考文献
-
-- Kluever and Pierson, 1995

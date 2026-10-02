@@ -1,23 +1,23 @@
 ---
 title: 拼接圆锥（Patched Conic）
-description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法。
+description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法 \cite{campanaLowenergyEarthMoon2024}。
 keywords: 拼接圆锥, Patched Conic, 轨道, 轨道设计, 转移轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 拼接圆锥（Patched Conic）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
   title: 拼接圆锥详解 | 术语定义
-  description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法。
+  description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法 \cite{campanaLowenergyEarthMoon2024}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 拼接圆锥详解 | 术语定义
-  description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法。
+  description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法 \cite{campanaLowenergyEarthMoon2024}。
   image: /logo.png
 permalink: /glossary/orbits/patched-conic/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/patched-conic/
 
 ## 定义
 
-将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法。
+将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法 \cite{campanaLowenergyEarthMoon2024}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/orbits/patched-conic/
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
-
-## 参考文献
-
-- Campana 等 - 2024 - Low-energy earth–moon transfers via theory of functional connections and homotopy

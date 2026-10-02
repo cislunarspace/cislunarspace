@@ -4,7 +4,7 @@ description: 从较大推力幅值出发，利用当前解作为下一次求解�
 keywords: 推力幅值延拓法, Thrust-Magnitude Continuation, 轨道设计, 转移轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 推力幅值延拓法（Thrust-Magnitude Continuation）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/thrust-magnitude-continuation/
 
 ## 定义
 
-从较大推力幅值出发，利用当前解作为下一次求解的初值猜测，逐步减小推力至目标值。大推力问题收敛容易、解的结构较简单，延拓法借此逐步逼近难以直接收敛的低推力解。
+从较大推力幅值出发，利用当前解作为下一次求解的初值猜测，逐步减小推力至目标值 \cite{zhangLowthrustMinimumfuelOptimization2015}。大推力问题收敛容易、解的结构较简单，延拓法借此逐步逼近难以直接收敛的低推力解 \cite{zhangLowthrustMinimumfuelOptimization2015,caillauMinimumFuelControl2012}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/orbits/thrust-magnitude-continuation/
 - [Lyapunov周期轨道（Lyapunov Periodic Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 偏转角（Deflection Angle）
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
-
-## 参考文献
-
-- Zhang et al. 2015, JGCD, doi:10.2514/1.G001080; Caillau et al. 2012, CMDA

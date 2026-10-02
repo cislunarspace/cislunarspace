@@ -4,7 +4,7 @@ description: 终止于或起源于某天体表面的轨道。在限制性三体�
 keywords: 碰撞轨道, Collision Orbit, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 碰撞轨道（Collision Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/collision-orbit/
 
 ## 定义
 
-终止于或起源于某天体表面的轨道。在限制性三体问题中，碰撞轨道的计算是分析月面着陆轨迹的基础。通过正向或反向积分，可系统枚举从月面出发或到达月面的所有弹道轨迹，并按来源分类为地球转移、月球本体或长期轨道游荡。
+终止于或起源于某天体表面的轨道。在限制性三体问题中，碰撞轨道的计算是分析月面着陆轨迹的基础。通过正向或反向积分，可系统枚举从月面出发或到达月面的所有弹道轨迹，并按来源分类为地球转移、月球本体或长期轨道游荡 \cite{andersonSurveyBallisticTransfers2012}。
 
 ## 应用价值
 
@@ -40,8 +40,3 @@ permalink: /glossary/orbits/collision-orbit/
 
 - 周期轨道（Periodic Orbit）
 - 平动点轨道（Libration Point Orbit）
-- 轨道转移（Orbit Transfer）
-
-## 参考文献
-
-- Anderson and Parker, 2012, J. Guidance, Control, and Dynamics

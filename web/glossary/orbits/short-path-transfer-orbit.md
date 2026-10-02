@@ -4,7 +4,7 @@ description: Lambert问题中两类解之一。沿该轨道从起点到终点所
 keywords: 短路径转移轨道, Short-Path Transfer Orbit, 轨道设计, 轨道转移, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-01
 wechatShare:
   title: 短路径转移轨道（Short-Path Transfer Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/short-path-transfer-orbit/
 
 ## 定义
 
-Lambert问题中两类解之一。沿该轨道从起点到终点所经过的角度小于180度，两个焦点位于弦的同一侧。同一半长轴下，短路径轨道飞行时间较短。在辅助转移问题中，使速度增量最小的半长轴对应的最优轨道始终是短路径轨道。在定时定端点转移中，短路径解通常是更优的候选。
+Lambert问题中两类解之一。沿该轨道从起点到终点所经过的角度小于180度，两个焦点位于弦的同一侧。同一半长轴下，短路径轨道飞行时间较短。在辅助转移问题中，使速度增量最小的半长轴对应的最优轨道始终是短路径轨道 \cite{shenOptimalTwoimpulseRendezvous2003}。在定时定端点转移中，短路径解通常是更优的候选。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Lambert问题中两类解之一。沿该轨道从起点到终点所经过的角�
 - 最大偏离距离（Maximum Excursion Distance）
 - [伪春分点轨道根数（Pseudo-Equinoctial Orbital Elements）](/glossary/orbits/pseudo-equinoctial-orbital-elements/)
 - 圆锥曲线轨道（Conic Orbit）
-
-## 参考文献
-
-- Shen和Tsiotras - 2003 - Optimal two-impulse rendezvous using multiple-revolution lambert solutions
