@@ -56,7 +56,7 @@ Fu 2024 的语境是火星-火卫一（Phobos）三体系统的站保方法验�
 
 ### 2.3 词条核对
 
-qso 与 qso-quasi-satellite-orbit 两条**标题、定义、参考文献完全相同**（Fu 2024），确认为重复词条，合并无争议。定义三要素核对：线性稳定✓（§4.1、§4.3）；距离副天体很近✓（close proximity to the secondary body，可到极低高度）；适用于小行星探测等近距离操作任务：原文是 candidate science orbits for multiple deep-space missions with close operations to celestial bodies，举例 DePhine（火卫二）与 JIMO（木卫），MMX 目标是火卫一。任务对象全是**天然卫星**而非小行星，小行星探测措辞偏窄，建议改为小天体（卫星等）近距离探测任务。限制性三体问题中的一类周期轨道✓（CRTBP 中生成的周期轨道族）。
+qso 与 qso-quasi-satellite-orbit 两条**标题、定义、参考文献完全相同**（Fu 2024），确认为重复词条，合并无争议。定义三要素核对：线性稳定（符合，§4.1、§4.3）；距离副天体很近（符合，close proximity to the secondary body，可到极低高度）；适用于小行星探测等近距离操作任务：原文是 candidate science orbits for multiple deep-space missions with close operations to celestial bodies，举例 DePhine（火卫二）与 JIMO（木卫），MMX 目标是火卫一。任务对象全是**天然卫星**而非小行星，小行星探测措辞偏窄，建议改为小天体（卫星等）近距离探测任务。限制性三体问题中的一类周期轨道（符合，CRTBP 中生成的周期轨道族）。
 
 ## 3. rro 考证结论
 
