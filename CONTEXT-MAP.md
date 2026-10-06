@@ -12,9 +12,9 @@
 
 ## 如何使用
 
-1. **领域词汇与分类法概念**：读仓库根的 `CONTEXT.md`。
-2. **VuePress 配置、主题或构建问题**：读 `web/CONTEXT.md`。
-3. **架构决策**：查 `docs/adr/`。
+1. 领域词汇与分类法概念：读仓库根的 `CONTEXT.md`。
+2. VuePress 配置、主题或构建问题：读 `web/CONTEXT.md`。
+3. 架构决策：查 `docs/adr/`。
 
 ## 文件结构
 

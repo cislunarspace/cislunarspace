@@ -6,17 +6,17 @@ labels: [type/idea]
 assignees: ''
 ---
 
-<!-- 标题以 [IDEA] 开头（已预填），AI 生成的前面加 [AI Generated]；说清对象和目的，不写方案。 -->
+<!-- 标题以 [IDEA] 开头（已预填），AI 生成的前面加 [AI Generated]。说清对象和目的，不写方案。 -->
 
-**Problem**
+Problem
 
 价值假设：给谁解决什么问题，为什么值得做：
 
-**Proposal**
+Proposal
 
 需要验证什么才能从想法变成承诺：
 
-**上下文**
+上下文
 
 - 可能的后续工作：
 - 相关 issue / PR / ADR：
