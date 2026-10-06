@@ -118,7 +118,7 @@ for (const f of allMd(root)) {
     const prefix = g[1],
       cat = g[2],
       slug = g[3];
-    // 有 slug 且现存 → 保留；分类索引页（无 slug，或 slug 不存在）→ 当断链处理
+    // 有 slug 且现存的保留。分类索引页（无 slug，或 slug 不存在）按断链处理
     if (slug && existingKeys.has(`${cat}/${slug}`)) continue;
     // 断链：尝试恢复
     let target = null;

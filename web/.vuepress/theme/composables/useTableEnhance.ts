@@ -1,4 +1,4 @@
-/** 与 VPPage 结构一致；若未来主题调整类名，可再追加 fallback */
+/** 与 VPPage 结构一致。若未来主题调整类名，可再追加 fallback */
 const PAGE_CONTENT_QUERIES = [
   '.vp-theme-container .vp-page [vp-content]',
   '.vp-page [vp-content]',

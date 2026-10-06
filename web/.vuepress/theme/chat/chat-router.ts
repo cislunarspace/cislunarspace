@@ -5,7 +5,7 @@
  * paths in two steps:
  *   1. build a compact "site map" text (path<TAB>title per line) and ask
  *      the LLM to pick paths from it,
- *   2. validate the LLM's answer against the flat index — anything not
+ *   2. validate the LLM's answer against the flat index: anything not
  *      present is dropped; an empty result falls back to keyword matching.
  */
 import { buildRouterSystemPrompt, buildRouterUserMessage } from './chat-prompts';
@@ -54,7 +54,7 @@ export interface LLMRouterDeps {
   transport: ChatTransport;
 }
 
-/** Pure-keyword router — no LLM call. Used as a default and as the
+/** Pure-keyword router: no LLM call. Used as a default and as the
  *  fallback when the LLM router fails or returns no usable paths. */
 export function createKeywordRouter(): ChatRouter {
   return {
@@ -145,7 +145,7 @@ export function createLLMRouter(deps: LLMRouterDeps): ChatRouter {
   };
 }
 
-/** Helper used by ChatSession — flatten the hierarchical site index. */
+/** Helper used by ChatSession: flatten the hierarchical site index. */
 export function flatIndexFor(siteIndex: HierarchicalSiteIndex): IndexRow[] {
   return flattenCategories(siteIndex);
 }

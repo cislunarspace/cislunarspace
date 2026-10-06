@@ -65,7 +65,7 @@ describe('chat-answer-engine', () => {
       });
 
       expect(phase.usedTwoPhase).toBe(true);
-      expect(phase.history.length).toBe(2); // maxHistoryTurns=2 → 4 messages
+      expect(phase.history.length).toBe(2); // maxHistoryTurns=2 gives 4 messages
       expect(cb.onExcerptsLoaded).toHaveBeenCalledWith(expect.stringContaining('轨道节选'));
 
       const payload = phase.payload as {

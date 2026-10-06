@@ -52,7 +52,7 @@ function parseArgs(argv: string[]): CliArgs {
 }
 
 function printHelp(): void {
-  console.log(`verify-dist — read-only VuePress dist/ verification
+  console.log(`verify-dist: read-only VuePress dist/ verification
 
 Usage:
   tsx .vuepress/build/verify-dist.ts [options]
@@ -127,7 +127,7 @@ function tag(s: Severity): string {
 }
 
 function printCheck(c: CheckResult): void {
-  console.log(`${tag(c.severity)} ${C.bold}${c.name}${C.reset} — ${c.summary}`);
+  console.log(`${tag(c.severity)} ${C.bold}${c.name}${C.reset}: ${c.summary}`);
   for (const d of c.details.slice(0, 10)) {
     console.log(`        ${C.dim}${d}${C.reset}`);
   }
@@ -359,7 +359,7 @@ function verifyCurrent(distRoot: string): void {
     });
   }
 
-  // 2. HTML shape — scan every html except opaque non-VuePress files
+  // 2. HTML shape: scan every html except opaque non-VuePress files
   const allHtml = listFiles(distRoot, ['.html']);
   const htmlFiles = allHtml.filter((f) => !isOpaqueDistFile(path.relative(distRoot, f)));
   const shapeIssues: string[] = [];
@@ -373,7 +373,7 @@ function verifyCurrent(distRoot: string): void {
     details: shapeIssues,
   });
 
-  // 3. Metadata — sample a handful of representative pages (404 is exempt:
+  // 3. Metadata: sample a handful of representative pages (404 is exempt:
   // VuePress's 404 template intentionally omits og-meta.)
   const metaSamples: string[] = [
     path.join(distRoot, 'index.html'),
@@ -396,7 +396,7 @@ function verifyCurrent(distRoot: string): void {
     details: metaIssues,
   });
 
-  // 5. Figures sync — every source figures/ file must exist in dist
+  // 5. Figures sync: every source figures/ file must exist in dist
   const sourceSpaces = [{ src: path.join(webDir, 'glossary'), mirror: 'glossary' }];
   const figureMisses: string[] = [];
   let totalFigures = 0;
@@ -442,7 +442,7 @@ function verifyCurrent(distRoot: string): void {
     details: figureMisses,
   });
 
-  // 6. Key pages — user-facing entry points
+  // 6. Key pages: user-facing entry points
   // Glossary pages are deliberately excluded from the build (config.ts
   // pagePatterns); no glossary entries here (ADR-0004).
   const keyPages = [
@@ -464,7 +464,7 @@ function verifyCurrent(distRoot: string): void {
     details: missingKeys.map((rel) => `missing: ${rel}`),
   });
 
-  // 6b. Key page content — guard against route-content mismatch
+  // 6b. Key page content: guard against route-content mismatch
   // (e.g. a parallel-render bug that writes the wrong HTML to the right path).
   // For each key page, the title must CONTAIN at least one expected keyword and
   // must NOT contain any banned keyword.
@@ -527,7 +527,7 @@ function verifyCurrent(distRoot: string): void {
     details: contentIssues,
   });
 
-  // 7. Asset sanity — homepage + 2 articles
+  // 7. Asset sanity: homepage + 2 articles
   const assetSamples: string[] = [
     path.join(distRoot, 'index.html'),
     path.join(distRoot, 'en', 'index.html'),
@@ -545,7 +545,7 @@ function verifyCurrent(distRoot: string): void {
     details: assetIssues,
   });
 
-  // 8. JSON endpoints — runtime configs the AI chat loads
+  // 8. JSON endpoints: runtime configs the AI chat loads
   const jsonEndpoints = ['ai-chat-config.json', 'ai-chat-context.json', 'ai-chat-index.json'];
   const jsonIssues: string[] = [];
   for (const rel of jsonEndpoints) {

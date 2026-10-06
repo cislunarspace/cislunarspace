@@ -46,7 +46,7 @@ export function createFetchContextManager(endpoint = '/ai-chat-context.json'): C
   };
 }
 
-/** In-memory manager — always returns the injected context, no fetch.
+/** In-memory manager: always returns the injected context, no fetch.
  *  Use in tests and in non-browser environments. */
 export function createInMemoryContextManager(context: SiteContext | null): ChatContextManager {
   return {

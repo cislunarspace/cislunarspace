@@ -135,7 +135,7 @@ describe('renderTableHtml', () => {
 
   it('truncates excess cells', () => {
     const html = renderTableHtml('| A |', ['| 1 | 2 | 3 |'], []);
-    // Header | A | → 1 <th>; body | 1 | 2 | 3 | truncated to 1 column → 1 <td>
+    // Header | A | yields 1 <th>; body | 1 | 2 | 3 | truncated to 1 column yields 1 <td>
     const tds = html.match(/<td>/g);
     expect(tds?.length).toBe(1); // only 1 body cell after truncation
   });

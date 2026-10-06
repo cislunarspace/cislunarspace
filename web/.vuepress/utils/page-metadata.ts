@@ -1,4 +1,4 @@
-// @ts-expect-error — .mjs sibling provides the runtime implementation; this file owns the types.
+// @ts-expect-error: .mjs sibling provides the runtime implementation; this file owns the types.
 import { normalizePageMetadata as normalizePageMetadataImpl } from './page-metadata-core.mjs';
 
 export interface PageMetadataFrontmatter {

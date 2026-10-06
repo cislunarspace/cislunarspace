@@ -11,7 +11,7 @@ import type { HierarchicalSiteIndex, NormalizedConfig } from '../../chat/chat-ty
 const MAX_INPUT_LENGTH = 2000;
 
 /**
- * useChatSurface — composable that owns AI Chat surface state.
+ * useChatSurface: composable that owns AI Chat surface state.
  *
  * Bundles i18n, chat history, theme, UI state, the chat state machine,
  * and session construction so AiChat.vue focuses on rendering and event

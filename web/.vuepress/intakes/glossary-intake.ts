@@ -1,5 +1,5 @@
 /**
- * GlossaryIntake — pure transform from MarkdownFile[] to GlossaryScan.
+ * GlossaryIntake: pure transform from MarkdownFile[] to GlossaryScan.
  */
 import path from 'path';
 import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.js';

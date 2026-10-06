@@ -1,5 +1,5 @@
 /**
- * Public taxonomy module — validated, ready to consume by adapters.
+ * Public taxonomy module: validated, ready to consume by adapters.
  *
  * Importing this file runs `validateTaxonomy(nodes)` once at module load.
  * Authoring errors throw `TaxonomyValidationError`.

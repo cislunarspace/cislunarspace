@@ -1,5 +1,5 @@
 /**
- * ChatThemeController — manages dark/light theme for the AI chat surface.
+ * ChatThemeController: manages dark/light theme for the AI chat surface.
  *
  * Pure module (no Vue runtime dependency). The controller reads/writes
  * localStorage and updates the document root attribute. Callers pass a

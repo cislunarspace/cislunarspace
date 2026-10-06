@@ -170,7 +170,7 @@ describe('content / delete', () => {
     expect(fs.existsSync(trashed)).toBe(true);
     expect(fs.readFileSync(trashed, 'utf-8')).toContain('内容段落');
     expect(fs.existsSync(path.join(webRoot, AD_ZH))).toBe(false);
-    // README：计数 2→1，索引行消失，另一节不动
+    // README：计数由 2 减为 1，索引行消失，另一节不动
     const readme = fs.readFileSync(path.join(webRoot, 'glossary/README.md'), 'utf-8');
     expect(readme).toContain('### 基础概念（fundamentals，1 条）');
     expect(readme).not.toContain('(/glossary/fundamentals/ad/)');

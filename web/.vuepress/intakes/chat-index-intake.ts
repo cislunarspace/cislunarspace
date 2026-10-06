@@ -1,5 +1,5 @@
 /**
- * ChatIndexIntake — builds the hierarchical AI chat index from GlossaryScan.
+ * ChatIndexIntake: builds the hierarchical AI chat index from GlossaryScan.
  */
 import { glossaryCategories } from '../taxonomy/adapters/glossary-categories.js';
 import type { GlossaryScan, ChatIndexCategory, ChatIndexEntry } from '../sidebar/types.ts';

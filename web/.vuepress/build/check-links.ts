@@ -41,13 +41,13 @@ export interface ResolvedLink {
 // ── Route table ───────────────────────────────────────────────────────────────
 
 /**
- * Build a map of VuePress route → relative source file path.
+ * Build a map of VuePress route to relative source file path.
  *
  * Resolution priority:
  *   1. frontmatter `permalink` (explicit route)
  *   2. VuePress filesystem convention:
- *      - README.md / index.md → /directory/
- *      - foo.md → /directory/foo (no .md suffix)
+ *      - README.md / index.md maps to /directory/
+ *      - foo.md maps to /directory/foo (no .md suffix)
  */
 export function buildRouteTable(files: MarkdownFile[]): Map<string, string> {
   const table = new Map<string, string>();
@@ -83,9 +83,9 @@ export function extractFrontmatterField(content: string, field: string): string 
 /**
  * Convert a relative file path to its VuePress route (no permalink case).
  *
- * - glossary/orbits/dro.md   → /glossary/orbits/dro
- * - glossary/README.md       → /glossary/
- * - glossary/index.md        → /glossary/
+ * - glossary/orbits/dro.md   maps to /glossary/orbits/dro
+ * - glossary/README.md       maps to /glossary/
+ * - glossary/index.md        maps to /glossary/
  */
 export function filePathToRoute(relPath: string): string | null {
   const parsed = path.parse(relPath);
@@ -93,11 +93,11 @@ export function filePathToRoute(relPath: string): string | null {
   const name = parsed.name; // e.g. "dro" or "README"
 
   if (name === 'README' || name === 'index') {
-    // Directory index → route is the directory with trailing slash
+    // Directory index route is the directory with trailing slash
     return '/' + (dir ? dir + '/' : '');
   }
 
-  // Regular file → route is dir/name (no extension, no trailing slash)
+  // Regular file route is dir/name (no extension, no trailing slash)
   return '/' + (dir ? dir + '/' : '') + name;
 }
 
@@ -126,7 +126,7 @@ export function extractLinks(body: string): ExtractedLink[] {
     while ((m = imgRe.exec(line)) !== null) {
       results.push({ line: i + 1, text: m[1]!, target: m[2]!, kind: 'image' });
     }
-    // Links (but not images — skip if preceded by `!`)
+    // Links (but not images: skip if preceded by `!`)
     const linkRe = /(?<!!)\[([^\]]*)\]\(([^)]+)\)/g;
     while ((m = linkRe.exec(line)) !== null) {
       results.push({ line: i + 1, text: m[1]!, target: m[2]!, kind: 'link' });
@@ -211,7 +211,7 @@ export function resolveLinks(files: MarkdownFile[], rootDir: string | null = nul
       const resolved = resolveOneLink(fmImage, file.relPath, routeTable, 'image', rootDir);
       results.push({
         file: file.relPath,
-        line: 0, // frontmatter — line 0 signals "not in body"
+        line: 0, // frontmatter: line 0 signals "not in body"
         kind: 'image',
         original: fmImage,
         ...resolved,
@@ -350,7 +350,7 @@ function resolveOneLink(
       }
     }
 
-    // Strategy 1: direct file path match (e.g., ./dro.md → sibling file)
+    // Strategy 1: direct file path match (e.g., ./dro.md matches a sibling file)
     const found = Array.from(routeTable.values()).includes(resolvedPath);
     if (found) {
       return {
@@ -364,7 +364,7 @@ function resolveOneLink(
     const sourceRoute = reverseLookup(routeTable, sourceRelPath);
     if (sourceRoute) {
       // For directory indexes (README.md / index.md), the route IS the
-      // directory — use it directly as parent.  For other files the route
+      // directory: use it directly as parent.  For other files the route
       // is a leaf, so go up one level to get the parent directory.
       const isDirIndex = /(?:^|\/)(?:README|index)\.md$/.test(sourceRelPath);
       const parentDir = isDirIndex ? sourceRoute : path.posix.dirname(sourceRoute) + '/';
@@ -384,7 +384,7 @@ function resolveOneLink(
     return { resolved: null, status: 'broken', error: 'file-not-found' };
   }
 
-  // Absolute link — try direct lookup
+  // Absolute link: try direct lookup
   const cleanPath = pathPart.endsWith('.md') ? pathPart.replace(/\.md$/, '') : pathPart;
 
   // Try exact match first, then with/without trailing slash

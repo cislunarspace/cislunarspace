@@ -1,5 +1,5 @@
 /**
- * Glossary categories adapter — derives the historical `glossaryCategories`
+ * Glossary categories adapter: derives the historical `glossaryCategories`
  * shape from the unified taxonomy module via the TaxonomyViewEngine.
  *
  * The engine provides sorted children of the glossary root. The projection
@@ -13,7 +13,7 @@ export interface GlossaryCategoryMeta {
   slug: string;
   label: string;
   order: number;
-  /** 子分类的父分类 slug；顶级分类为 null */
+  /** 子分类的父分类 slug。顶级分类为 null */
   parentSlug: string | null;
 }
 

@@ -20,7 +20,7 @@ function readFile(relPath: string): string {
 
 // ── A: Path errors ────────────────────────────────────────────────────────────
 
-describe('issue #125 — nrho path correction', () => {
+describe('issue #125: nrho path correction', () => {
   const files = ['background/math/continuation.md', 'background/math/shooting-method.md'];
 
   it.each(files)('%s does not reference /glossary/nrho/', (relPath) => {

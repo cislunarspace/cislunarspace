@@ -84,7 +84,7 @@ function initDoc(data) {
   dirty.value = false;
 }
 
-/** 表单字段变更 → 合并进对象 → 重新序列化 YAML */
+/** 表单字段变更后合并进对象，再重新序列化为 YAML */
 function patchForm(side, field) {
   if (side.rawTouched) return;
   const changed = { ...side.changed };

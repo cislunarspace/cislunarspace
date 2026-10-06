@@ -7,7 +7,7 @@
  * - glossary：文件系统目录（如 dynamics/orbits/navigation），
  *            删除分类 = 删目录但条目移到指定目标分类（保条目），或删除目录下全部条目（连删）。
  *
- * 安全约定：与删除模块一致，只操作 web/ 内的 .md 与目录；不碰 git；
+ * 安全约定：与删除模块一致，只操作 web/ 内的 .md 与目录。不碰 git。
  *           全部写操作记日志。
  */
 import fs from 'node:fs';
@@ -93,9 +93,9 @@ function registerGlossaryTaxonomyNode(fullSlug, labelZh) {
 
 /**
  * 添加 glossary 分类：
- * - 顶级：创建 web/glossary/<name>/；
+ * - 顶级：创建 web/glossary/<name>/。
  * - 子分类（opts.parent 指定父分类 slug）：创建 <parent>/<name>/ 目录。
- * 创建后幂等注册 taxonomy 节点；opts.labelZh 为节点的中文名（缺省用 name）。
+ * 创建后幂等注册 taxonomy 节点。opts.labelZh 为节点的中文名（缺省用 name）。
  */
 export function addGlossaryCategory(name, { parent = '', labelZh = '' } = {}) {
   const slug = String(name).trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
@@ -129,7 +129,7 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
   if (!norm || !listGlossaryCategories().includes(norm)) {
     throw new PathError(`分类不存在: ${norm}`);
   }
-  // 含子分类的目录不允许直接删，避免层级混乱；先删除或移走子分类
+  // 含子分类的目录不允许直接删，避免层级混乱。先删除或移走子分类
   if (listGlossaryCategories().some((c) => c.startsWith(`${norm}/`))) {
     throw new PathError(`分类 ${norm} 含有子分类，请先删除或移走其子分类`);
   }
@@ -204,9 +204,9 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
 
 /**
  * 在 frontmatter YAML 文本中设置 category。
- * mode=replace：替换为目标（单值按仓库惯例写标量）；mode=append：追加（已有则不动）。
- * 用 parseDocument 保留原文其余字段的格式；多值写成内联数组 `[a, b]`，与仓库惯例一致。
- * 返回 { raw, changed }；YAML 无法解析时抛错（由调用方跳过该文件，避免写坏）。
+ * mode=replace：替换为目标（单值按仓库惯例写标量）。mode=append：追加（已有则不动）。
+ * 用 parseDocument 保留原文其余字段的格式。多值写成内联数组 `[a, b]`，与仓库惯例一致。
+ * 返回 { raw, changed }。YAML 无法解析时抛错（由调用方跳过该文件，避免写坏）。
  */
 function setCategoryYaml(raw, target, mode) {
   const doc = YAML.parseDocument(raw ?? '');
@@ -233,7 +233,7 @@ function setCategoryYaml(raw, target, mode) {
     seq.flow = true;
     doc.set('category', seq);
   }
-  // lineWidth: 0 避免长行被重新折行；flow 序列输出 `[ a, b ]` 带内层空格，归一化为 `[a, b]`
+  // lineWidth: 0 避免长行被重新折行。flow 序列输出 `[ a, b ]` 带内层空格，归一化为 `[a, b]`
   const text = doc
     .toString({ lineWidth: 0 })
     .replace(/^(category:\s*)\[ (.*) \]$/m, '$1[$2]');

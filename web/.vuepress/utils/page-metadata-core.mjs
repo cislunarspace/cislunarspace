@@ -92,7 +92,7 @@ export function clipDescription(value, max = DESCRIPTION_CLIP_MAX) {
 
 /**
  * Resolve the WeChat share triple (title / desc / image) from raw frontmatter
- * using the same rules as normalizePageMetadata — but without an HTTP context,
+ * using the same rules as normalizePageMetadata: but without an HTTP context,
  * so the image stays a site-relative path (e.g. `/logo.png`) rather than an
  * absolute URL. Used by the audit + inject CLI which writes back into YAML.
  *

@@ -2,7 +2,7 @@
  * 整站预览模块
  *
  * 预览依赖 web/ 下的 VuePress dev server（npm run dev，默认 8080 端口）。
- * 本模块负责：探测 dev server 是否在跑、一键拉起、md 路径 → 站点路由映射。
+ * 本模块负责：探测 dev server 是否在跑、一键拉起、md 路径与站点路由的映射。
  * dev server 作为 admin 的子进程运行，admin 退出时随之结束。
  */
 import fs from 'node:fs';
@@ -85,8 +85,8 @@ function logTail(lines = 20) {
 }
 
 /**
- * md 相对路径 → 站点路由。
- * 页面 frontmatter 里带目录式 permalink（news/glossary 均有），优先用；
+ * md 相对路径换算为站点路由。
+ * 页面 frontmatter 里带目录式 permalink（news/glossary 均有），优先用。
  * 否则退化为「去 .md + 尾部 /」的目录式路由（与 dist 产物形状一致）。
  */
 export function pathToRoute(relPath) {

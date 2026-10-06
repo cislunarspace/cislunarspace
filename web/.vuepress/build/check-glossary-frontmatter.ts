@@ -35,7 +35,7 @@ export interface GlossaryFrontmatterFinding {
   message: string;
 }
 
-/** 提取并解析 YAML frontmatter；缺失或解析失败返回 null。 */
+/** 提取并解析 YAML frontmatter。缺失或解析失败返回 null。 */
 function extractFrontmatter(content: string): Record<string, unknown> | null {
   if (!content.startsWith('---\n')) return null;
   const end = content.indexOf('\n---', 4);

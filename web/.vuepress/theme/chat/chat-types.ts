@@ -26,10 +26,10 @@ export interface ChatIndexCategory {
   entries: IndexRow[];
 }
 
-/** 路由索引（ai-chat-index.json）：分区 → 条目列表。 */
+/** 路由索引（ai-chat-index.json）：每个分区对应一个条目列表。 */
 export type HierarchicalSiteIndex = ChatIndexCategory[];
 
-/** 语料（ai-chat-context.json）：path → 页面正文。 */
+/** 语料（ai-chat-context.json）：每个 path 对应一篇页面正文。 */
 export type SiteContext = Record<string, { title: string; text: string }>;
 
 export interface Message {

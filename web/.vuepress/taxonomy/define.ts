@@ -1,5 +1,5 @@
 /**
- * defineTaxonomy — flattens a mix of flat TaxonomyNodes and nested
+ * defineTaxonomy: flattens a mix of flat TaxonomyNodes and nested
  * SidebarSection literals into a single TaxonomyNode[] array, runs the
  * validator, and returns a ready-to-use TaxonomyModule.
  *
@@ -19,7 +19,7 @@
  *   - Top-level entries are `kind: 'section'`. id = section slug.
  *   - Group entries (with `children`) become `kind: 'group'`. id = parent.id + '/' + slug.
  *   - Leaf entries become `kind: 'page'`. id = parent.id + '/' + slug.
- *   - Entries with `slug === ''` become `kind: 'index'` — id = parent.id + '/_index'.
+ *   - Entries with `slug === ''` become `kind: 'index'` (id is parent.id + '/_index').
  *   - Entries with `slug === undefined` (display-only group) become
  *     `kind: 'group'`; id MUST be supplied by the author via `entry.id`
  *     (the previous `syntheticCounter` fallback has been retired).

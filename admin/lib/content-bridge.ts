@@ -1,7 +1,7 @@
 /**
  * content 模块桥接（ADR-0003 follow-up 3b）。
  *
- * admin 后端经此访问 web/.vuepress/content——路径约定、删除回收站
+ * admin 后端经此访问 web/.vuepress/content。路径约定、删除回收站
  * （web/.trash）、索引刷新的真理都在 content 模块。
  * 保存后的索引刷新为异步后台执行（gen-sidebar 全量约数秒），
  * 不阻塞编辑器返回。

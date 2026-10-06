@@ -56,7 +56,7 @@ async function copyPage() {
       isCopied.value = false;
     }, 2000);
   } catch (e) {
-    // Copy failed silently — user can manually select text
+    // Copy failed silently: user can manually select text
   }
 }
 

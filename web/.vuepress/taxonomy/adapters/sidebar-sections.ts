@@ -1,5 +1,5 @@
 /**
- * Sidebar sections adapter — derives the VueSidebarItem tree per section
+ * Sidebar sections adapter: derives the VueSidebarItem tree per section
  * from the unified taxonomy module via the TaxonomyViewEngine.
  *
  * The engine owns traversal and path/label resolution. This adapter is a
@@ -20,11 +20,11 @@ function pickCollapsible(vn: ViewNode): boolean | undefined {
 
 /**
  * Projector for `engine.buildTree`. Maps a ViewNode to a sidebar entry:
- *   - index nodes     → plain string path (the parent's index URL)
- *   - group, no path  → display-only header with children
- *   - group, with link → collapsible group with link + children
- *   - page, with link → plain string path
- *   - anything else   → null (omitted)
+ *   - index nodes     become a plain string path (the parent's index URL)
+ *   - group, no path  becomes a display-only header with children
+ *   - group, with link becomes a collapsible group with link + children
+ *   - page, with link becomes a plain string path
+ *   - anything else   becomes null (omitted)
  *
  * The `children` argument is the recursively built subtree; for groups
  * this replaces the previous `hasSourceChildren` + manual recursion.
@@ -83,7 +83,7 @@ export function buildSectionSidebar(
 }
 
 /**
- * Build a map of section-id → VueSidebarItem for every `kind: 'section'`
+ * Build a map of section-id to VueSidebarItem for every `kind: 'section'`
  * node in the taxonomy.
  */
 export function buildAllSectionSidebars(

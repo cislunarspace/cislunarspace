@@ -2,7 +2,7 @@
  * 操作日志模块
  *
  * 每次增删改都追加记录到 admin/logs/manager.log。
- * 行格式：[ISO 时间] 操作 :: 路径1 | 路径2 | ...
+ * 行格式：[ISO 时间] 操作：: 路径1 | 路径2 | ...
  */
 import fs from 'node:fs';
 import path from 'node:path';

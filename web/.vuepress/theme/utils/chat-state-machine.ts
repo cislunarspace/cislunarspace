@@ -1,5 +1,5 @@
 /**
- * ChatStateMachine — finite state machine for the AI chat flow.
+ * ChatStateMachine: finite state machine for the AI chat flow.
  *
  * Pure module (no Vue runtime dependency). Owns messages, loading state,
  * abort controller, config, and site index. Provides action methods that

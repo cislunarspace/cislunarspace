@@ -85,7 +85,7 @@ function sanitizeLabel(s: string): string {
 }
 
 function printHelp(): void {
-  console.log(`measure-build — run build with per-phase timing
+  console.log(`measure-build: run build with per-phase timing
 
 Usage:
   tsx .vuepress/build/measure-build.ts [options]

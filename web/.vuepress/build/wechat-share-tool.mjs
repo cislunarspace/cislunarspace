@@ -1,5 +1,5 @@
 /**
- * Unified WeChat share tool — single source of truth for audit and inject.
+ * Unified WeChat share tool: single source of truth for audit and inject.
  *
  * Consumes the shared page-metadata-core normalizer (same as og-meta-plugin
  * and the client share composable) for title/desc/image resolution, so the
@@ -47,7 +47,7 @@ function extractFrontmatter(content) {
 }
 
 /**
- * Light YAML scalar reader — handles top-level `key: value` with optional quoting.
+ * Light YAML scalar reader: handles top-level `key: value` with optional quoting.
  * Sufficient for the small set of frontmatter keys we care about (title /
  * description / image). Returns `null` when the key is absent, `''` for an
  * empty value.

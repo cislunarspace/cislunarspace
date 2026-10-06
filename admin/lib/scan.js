@@ -176,7 +176,7 @@ export function countByKind(kind) {
 
 /**
  * 列出某类内容的全部分类及条目数（用于分类筛选下拉）。
- * glossary → 目录；kb → 顶层章节。
+ * glossary 映射到目录，kb 映射到顶层章节。
  * 返回 [{ name, count }]，按数量降序。
  */
 export function listCategories(kind) {

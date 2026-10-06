@@ -284,7 +284,7 @@ describe('resolveLinks > images', () => {
         content: '---\npermalink: /page/\n---\n![logo](/logo.png)\n',
       },
     ];
-    // Image /logo.png is not a route — should be broken
+    // Image /logo.png is not a route: should be broken
     const results = resolveLinks(imgFiles);
     expect(results[0]!.kind).toBe('image');
     expect(results[0]!.status).toBe('broken');
@@ -298,7 +298,7 @@ describe('resolveLinks > images', () => {
         content: '---\npermalink: /space-news/2026/05/article/\n---\n![hero](./figures/hero.jpg)\n',
       },
     ];
-    // ./figures/hero.jpg relative to space-news/2026/05/ → not a route
+    // ./figures/hero.jpg relative to space-news/2026/05/ is not a route
     const results = resolveLinks(imgFiles);
     expect(results[0]!.kind).toBe('image');
     // Should be broken because there's no matching file in the route table
