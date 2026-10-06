@@ -1,5 +1,5 @@
 /**
- * Taxonomy Module — interface shapes.
+ * Taxonomy Module: interface shapes.
  *
  * See ADR-0001 (docs/adr/0001-unified-taxonomy-module.md) for rules:
  *   - Stable `id`
@@ -16,7 +16,7 @@
 export type NodeId = string;
 
 /**
- * Open enum — new kinds may be added without an ADR amendment.
+ * Open enum: new kinds may be added without an ADR amendment.
  * Adapters filter by the kinds they know; unknown kinds are ignored.
  */
 export type NodeKind =
@@ -30,7 +30,7 @@ export type NodeKind =
   | 'external-link';
 
 export interface TaxonomyNode {
-  /** Stable identity. Never reused after rename — renames mean new id + redirect. */
+  /** Stable identity. Never reused after rename: renames mean new id + redirect. */
   id: NodeId;
   kind: NodeKind;
   label: string;

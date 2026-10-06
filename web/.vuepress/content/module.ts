@@ -23,7 +23,7 @@ export interface ContentDeps {
   webRoot: string;
   /** kb-section 的顶层目录名列表。 */
   sectionDirs: readonly string[];
-  /** 写操作成功后的索引刷新回调；缺省为 no-op。 */
+  /** 写操作成功后的索引刷新回调。缺省为 no-op。 */
   refreshIndex?: () => void;
 }
 
@@ -45,7 +45,7 @@ export function createContentModule(deps: ContentDeps): ContentModule {
   const refresh = deps.refreshIndex ?? (() => {});
 
   function absOf(relPath: string): string {
-    // router.resolve 已拒绝绝对路径与穿越；resolve 归一化防止拼接异常
+    // router.resolve 已拒绝绝对路径与穿越。resolve 归一化防止拼接异常
     return path.resolve(deps.webRoot, relPath);
   }
 
@@ -176,7 +176,7 @@ export function createContentModule(deps: ContentDeps): ContentModule {
         if (outLines.length > 0) outLines.push('');
         sectionHeaderIdx = -1;
       } else {
-        // 节标题形如「### 基础概念（fundamentals，218 条）」——重算计数
+        // 节标题形如「### 基础概念（fundamentals，218 条）」。重算计数
         outLines[sectionHeaderIdx] = outLines[sectionHeaderIdx].replace(
           /^(### .*?[（(][^,，]+[,，]\s*)\d+(\s*条[)）])/,
           `$1${sectionCount}$2`,

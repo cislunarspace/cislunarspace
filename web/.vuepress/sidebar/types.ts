@@ -1,5 +1,5 @@
 /**
- * Sidebar types — the single type surface for the sidebar module.
+ * Sidebar types: the single type surface for the sidebar module.
  *
  * Build-time intake shapes (produced by `web/.vuepress/intakes/`) and
  * runtime generated artifact shapes (produced by

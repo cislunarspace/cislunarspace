@@ -5,8 +5,8 @@
  * 文件/文件夹读写删除。删除统一进回收站（web/.trash，ADR-0003
  * content 模块管理），全部操作写日志。
  *
- * 数据操作走 web/.vuepress/content 模块（ADR-0003）——路径约定、
- * 双语配对、删除回收、索引刷新的真理在 content；本服务只做
+ * 数据操作走 web/.vuepress/content 模块（ADR-0003）。路径约定、
+ * 双语配对、删除回收、索引刷新的真理在 content。本服务只做
  * HTTP 形状适配。
  *
  * 启动：cd admin && npm install && npm start（tsx 运行，可 import TS）
@@ -84,7 +84,7 @@ function readContent(relPath) {
   };
 }
 
-/** 保存一个 md 文件：frontmatterRaw 必须是合法 YAML；保存后后台刷新派生索引 */
+/** 保存一个 md 文件：frontmatterRaw 必须是合法 YAML。保存后后台刷新派生索引 */
 function saveMdFile({ path: rel, frontmatterRaw, body }) {
   const r = String(rel).replace(/\\/g, '/').replace(/^\/+/, '');
   assertEditableMd(r);
@@ -334,7 +334,7 @@ app.post('/api/preview/start', async (_req, res) => {
   }
 });
 
-/** md 路径 → 站点路由：GET /api/preview/route?path=<相对路径> */
+/** md 路径换算为站点路由：GET /api/preview/route?path=<相对路径> */
 app.get('/api/preview/route', (req, res) => {
   try {
     const rel = String(req.query.path || '');

@@ -37,7 +37,7 @@ function getAuthorSurname(entry: any): string {
 function formatAuthor(author: any): string {
   const family = author.family || '';
   const given = author.given || '';
-  // Extract initials from given name: "David A." → "DA"
+  // Extract initials from given name: "David A." gives "DA"
   const initials = given
     .split(/[\s.]+/)
     .filter((s: string) => s.length > 0)
@@ -71,7 +71,7 @@ function formatEntryGb7714(entry: any): string {
   const volume = entry.volume || '';
   const issue = entry.issue || '';
   let page = entry.page || '';
-  // Normalize page range: "1-11" or "1--11" → "1-11"
+  // Normalize page range: "1-11" or "1--11" gives "1-11"
   if (page) {
     page = page.replace(/--/g, '-');
   }

@@ -11,7 +11,7 @@ wechatShare:
   image: /logo.png
 og:
   title: 相位偏差（Phase Deviation）详解 | 术语定义
-  description: 周期轨道的相位漂移：X 轴穿越控制因不约束时间分量导致相位偏离累积；PC-SCoP 将相位约束作为 SOCP 中的显式约束。覆盖成因、后果与精确定义。
+  description: 周期轨道的相位漂移：X 轴穿越控制因不约束时间分量导致相位偏离累积。PC-SCoP 将相位约束作为 SOCP 中的显式约束。覆盖成因、后果与精确定义。
   image: /logo.png
   type: article
 twitter:
@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/phase-deviation/
 
 ## 定义与成因
 
-**相位偏差**（phase deviation）指航天器在周期轨道（平动点轨道、NRHO 等）上沿轨道飞行方向相对基准轨迹的位置偏移，即沿轨道运动方向超前或滞后（Shimane et al. 2025）。与状态分量偏差（位置和速度偏离）不同，相位偏差是沿标称轨道的切向累积，它不影响轨道几何形状的维持但影响**航天器出现在轨道上哪个位置**。
+相位偏差（phase deviation）指航天器在周期轨道（平动点轨道、NRHO 等）上沿轨道飞行方向相对基准轨迹的位置偏移，即沿轨道运动方向超前或滞后（Shimane et al. 2025）。与状态分量偏差（位置和速度偏离）不同，相位偏差是沿标称轨道的切向累积，它不影响轨道几何形状的维持但影响航天器出现在轨道上哪个位置。
 
-相位偏差的根本成因在于事件驱动的保持策略，最典型的是 **X 轴穿越控制**（x-axis crossing control）（Folta et al. 2014；Shimane et al. 2025）。该策略在航天器预测轨迹穿越会合坐标系 xz 平面（近月点附近）的事件时刻，通过微分修正或优化使预测状态与标称基线的部分状态分量匹配（通常只匹配速度分量 $v_x, v_z$ 等）。关键问题在于：一次机动最多控制六个状态分量中的三个，而**穿越时刻 $t_f$（即相位）没有被约束**。结果是每次控制后的实际穿越时刻可以在数值上偏离标称穿越时刻，经过多个周期累积后形成持续增长的相位偏差，即 **相位漂移**（phase drift）（Shimane et al. 2025；Davis et al. 2022）。
+相位偏差的根本成因在于事件驱动的保持策略，最典型的是 X 轴穿越控制（x-axis crossing control）（Folta et al. 2014；Shimane et al. 2025）。该策略在航天器预测轨迹穿越会合坐标系 xz 平面（近月点附近）的事件时刻，通过微分修正或优化使预测状态与标称基线的部分状态分量匹配（通常只匹配速度分量 $v_x, v_z$ 等）。关键问题在于：一次机动最多控制六个状态分量中的三个，而穿越时刻 $t_f$（即相位）没有被约束。结果是每次控制后的实际穿越时刻可以在数值上偏离标称穿越时刻，经过多个周期累积后形成持续增长的相位偏差，即 相位漂移（phase drift）（Shimane et al. 2025；Davis et al. 2022）。
 
 以 Gateway 的 NRHO 为例：X 轴穿越控制（无相位约束）在 5 年（约 300 圈）的 Monte Carlo 仿真中，相位偏差（以近月点时刻衡量）可累积至约 2.1 小时（Shimane et al. 2025 图 4）。
 
@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/phase-deviation/
 
 较早期的相位约束方案通过两阶段微分修正（DC）：残差向量中包含目标状态分量（如 $v_x, v_z$）与穿越时刻偏差 $t_f - t_{f,\text{ref}}$，引入一个无物理意义的缩放权重 $W_{t_f}$ 调整时间偏差在残差向量中的权重（Davis et al. 2022）。权重调节过程不够直观：$W_{t_f}$ 需要手动试错找到数值稳定且保持性能满意的值。
 
-**PC-SCoP**（Phase-Constrained Sequential Cone Program）是 Shimane et al. (2025) 提出的替代方案：将带相位约束的 X 轴穿越控制表述为非线性规划问题（NLP），目标函数为速度增量（$\Delta V$）的 $\ell_2$ 范数，约束分别为状态分量偏差（$\varepsilon_{\vartheta,\text{targ}}$）和穿越时刻偏差（$\varepsilon_{t_f,\text{targ}}$），用序列线性化将非线性的动力学约束转化为逐次求解的二阶锥规划（SOCP）子问题。直观的物理参数（实际是对位置/速度和时间的容差阈值）替代了 DC 方案中无物理意义的权重 $W_{t_f}$（Shimane et al. 2025）。
+PC-SCoP（Phase-Constrained Sequential Cone Program）是 Shimane et al. (2025) 提出的替代方案：将带相位约束的 X 轴穿越控制表述为非线性规划问题（NLP），目标函数为速度增量（$\Delta V$）的 $\ell_2$ 范数，约束分别为状态分量偏差（$\varepsilon_{\vartheta,\text{targ}}$）和穿越时刻偏差（$\varepsilon_{t_f,\text{targ}}$），用序列线性化将非线性的动力学约束转化为逐次求解的二阶锥规划（SOCP）子问题。直观的物理参数（实际是对位置/速度和时间的容差阈值）替代了 DC 方案中无物理意义的权重 $W_{t_f}$（Shimane et al. 2025）。
 
 ### PC-SCoP 数学形式
 

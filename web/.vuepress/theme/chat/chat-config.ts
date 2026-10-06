@@ -6,7 +6,7 @@
  */
 import type { NormalizedConfig } from './chat-types';
 
-/** Cached config promise — avoids duplicate fetches across Dialectic and Chat. */
+/** Cached config promise: avoids duplicate fetches across Dialectic and Chat. */
 let cachedConfigPromise: Promise<NormalizedConfig> | null = null;
 
 /**

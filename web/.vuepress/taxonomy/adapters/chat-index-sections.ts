@@ -1,5 +1,5 @@
 /**
- * AI chat section-index adapter — derives non-glossary chat index entries
+ * AI chat section-index adapter: derives non-glossary chat index entries
  * from the unified taxonomy module via the TaxonomyViewEngine.
  *
  * Each section contributes its own index page first, then all descendant

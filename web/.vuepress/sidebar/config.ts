@@ -27,7 +27,7 @@ function buildGlossarySidebar(scan: GlossaryScan): VueSidebarItem {
   for (const catMeta of glossaryCategories) {
     if (catMeta.parentSlug) continue; // 子分类随父分类组内嵌套处理
     const catEntries = byCategory.get(catMeta.slug) || [];
-    // 根级条目直接列为链接；每个非空子分类再嵌套一个折叠组
+    // 根级条目直接列为链接。每个非空子分类再嵌套一个折叠组
     const children: Array<string | VueSidebarItem> = catEntries.map((e) => e.path);
     for (const sub of glossaryCategories.filter((c) => c.parentSlug === catMeta.slug)) {
       const subEntries = byCategory.get(sub.slug) || [];
@@ -64,7 +64,7 @@ export function buildSidebarConfigs(scan?: GlossaryScan): Record<string, any> {
 
   // Section sidebars are derived from the taxonomy: every `kind: 'section'`
   // node contributes its route prefix (section.path) and the matching
-  // section sidebar tree. No per-section hand-entry — adding a section in
+  // section sidebar tree. No per-section hand-entry: adding a section in
   // the taxonomy automatically wires its sidebar here.
   for (const section of taxonomy.byKind('section', null)) {
     const sb = sectionSidebars[section.id];

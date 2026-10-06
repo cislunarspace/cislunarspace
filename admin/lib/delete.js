@@ -1,13 +1,13 @@
 /**
  * 删除流程模块
  *
- * 负责：预览删除范围；执行侧走 content 模块（ADR-0003）——回收站、
+ * 负责：预览删除范围。执行侧走 content 模块（ADR-0003）。回收站、
  * README 索引清理、figures 回收、索引刷新的真理都在 content。
  *
  * 安全约定：
- * - 只删除 web/ 内的 .md 与 figures/ 下的图片；
- * - 中英镜像（同 slug）一并纳入范围；
- * - 被删文件移动到 web/.trash/<时间戳>/ 下保留原相对路径；
+ * - 只删除 web/ 内的 .md 与 figures/ 下的图片。
+ * - 中英镜像（同 slug）一并纳入范围。
+ * - 被删文件移动到 web/.trash/<时间戳>/ 下保留原相对路径。
  * - README 索引中的引用行被移除（content 模块维护），其余页面引用仅提示。
  */
 import fs from 'node:fs';
@@ -248,9 +248,9 @@ export function previewDelete(paths) {
 
 /**
  * 执行删除：
- * 1. 移动 md + figures 到回收站；
- * 2. 更新结构化 README 索引；
- * 3. 重跑 npm run gen-sidebar；
+ * 1. 移动 md + figures 到回收站。
+ * 2. 更新结构化 README 索引。
+ * 3. 重跑 npm run gen-sidebar。
  * 4. 全部写操作日志。
  */
 /**
@@ -377,7 +377,7 @@ export function restoreFile(relPath, stamp) {
   return { rel, stamp: path.basename(stampDir) };
 }
 
-/** 从底向上清理回收站内变空的目录；若整个时间戳目录都空了则一并删除。 */
+/** 从底向上清理回收站内变空的目录。若整个时间戳目录都空了则一并删除。 */
 function cleanupEmptyDirs(stampDir) {
   try {
     const dirs = [];

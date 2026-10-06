@@ -1,5 +1,5 @@
 /**
- * Navbar adapter — derives VuePress NavbarConfig from the taxonomy module
+ * Navbar adapter: derives VuePress NavbarConfig from the taxonomy module
  * via the TaxonomyViewEngine.
  *
  * The engine handles external-link path resolution and recursive tree

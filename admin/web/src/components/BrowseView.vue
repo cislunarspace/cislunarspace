@@ -74,7 +74,7 @@ function switchType(t) {
   reloadAll();
 }
 
-// ---------- 搜索防抖：输入停止 300ms 后自动过滤 ----------
+// ---------- 搜索防抖：输入停止 300 ms 后自动过滤 ----------
 let searchTimer = null;
 watch(q, () => {
   clearTimeout(searchTimer);
@@ -154,7 +154,7 @@ function rowProps(item) {
   return {
     draggable: true,
     onDragstart: (e) => {
-      // 拖已选中的行 → 拖动整个选中集；否则只拖这一行
+      // 拖已选中的行则拖动整个选中集，否则只拖这一行
       dragKeys.value = checkedRowKeys.value.includes(item.relPath)
         ? [...checkedRowKeys.value]
         : [item.relPath];
@@ -275,7 +275,7 @@ function imageFor(item) {
   // 取 image frontmatter 字段，转成可访问的相对路径
   const s = item.image;
   if (!s) return null;
-  // ./figures/... 相对当前 md 目录 → 转成 web/ 内相对路径，交给 /api/image 读取
+  // ./figures/... 相对当前 md 目录，转成 web/ 内相对路径后交给 /api/image 读取
   const mdDir = item.relPath.replace(/\/[^/]+$/, '');
   let rel = s.startsWith('./') ? `${mdDir}/${s.slice(2)}` : s;
   rel = rel.replace(/\.\.\//g, '');
@@ -345,7 +345,7 @@ const columns = computed(() => [
     filter: (value, item) => displayCats(item).includes(value),
     render(item) {
       const cats = displayCats(item);
-      if (!cats.length) return h('span', { class: 'muted' }, '—');
+      if (!cats.length) return h('span', { class: 'muted' }, '无');
       return h(
         'div',
         { style: 'display: flex; gap: 4px; flex-wrap: wrap' },
@@ -358,7 +358,7 @@ const columns = computed(() => [
     key: 'date',
     width: 120,
     sorter: (a, b) => String(a.date || '').localeCompare(String(b.date || '')),
-    render: (item) => item.date || '—',
+    render: (item) => item.date || '无',
   },
   {
     title: '状态',
@@ -562,7 +562,7 @@ const columns = computed(() => [
             </h4>
             <ul class="scope-list" style="max-height: 140px">
               <li v-for="r in preview.references" :key="r.path">
-                <code>{{ r.path }}</code> — {{ r.lines[0]?.number }}
+                <code>{{ r.path }}</code>：{{ r.lines[0]?.number }}
               </li>
             </ul>
           </div>

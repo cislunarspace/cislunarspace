@@ -1,6 +1,6 @@
 ---
 title: 轨道优化中的约束（Trajectory Constraints）
-description: 航天器轨道优化问题中约束的统一框架：终端/边界约束、路径约束、状态约束、事件/相位约束：的数学结构、在地月空间任务中的典型形式（日食规避、多圈 Lambert 边界、Howell-Kakoi 系统间转移相位约束），以及约束松弛、平滑化等数值处理技术。状态约束在间接法中触发协态跳跃；直接法中通过缺陷约束与活动集处理。
+description: 航天器轨道优化问题中约束的统一框架：终端/边界约束、路径约束、状态约束、事件/相位约束：的数学结构、在地月空间任务中的典型形式（日食规避、多圈 Lambert 边界、Howell-Kakoi 系统间转移相位约束），以及约束松弛、平滑化等数值处理技术。状态约束在间接法中触发协态跳跃。直接法中通过缺陷约束与活动集处理。
 keywords: 轨道优化约束, trajectory constraints, 终端约束, 边界约束, 路径约束, 状态约束, 事件约束, 日食规避, 约束松弛, 多圈Lambert, 最优控制, 地月转移
 author: 天疆说
 date: 2026-07-31
@@ -30,16 +30,16 @@ permalink: /glossary/dynamics/trajectory-constraints/
 
 ## 定义
 
-**轨道优化中的约束**（trajectory constraints）是航天器轨道优化问题里，除动力学方程本身之外、轨迹必须满足的所有附加限制。它们把抽象的工程要求翻译成数学条件：航天器何时必须到达何处、沿途必须避开什么、哪些状态或控制量的边界不可逾越。一条同时满足动力学与全部约束的轨迹称为*可行解*；优化算法的任务是在可行解集合中最小化性能指标（Betts 1998；Conway 2010）。
+轨道优化中的约束（trajectory constraints）是航天器轨道优化问题里，除动力学方程本身之外、轨迹必须满足的所有附加限制。它们把抽象的工程要求翻译成数学条件：航天器何时必须到达何处、沿途必须避开什么、哪些状态或控制量的边界不可逾越。一条同时满足动力学与全部约束的轨迹称为*可行解*。优化算法的任务是在可行解集合中最小化性能指标（Betts 1998；Conway 2010）。
 
 按作用的位置与方式，约束可分四类：
 
-- **终端/边界约束**（terminal / boundary）：作用在某段的初始或终端时刻，例如交会、入轨、拦截条件。
-- **路径约束**（path）：在某段全程每一时刻都必须成立的不等式，例如日食规避、热流密度、推力幅值上界。
-- **状态约束**（state）：仅含状态量、不含控制量的路径约束，例如近地高度下界、最大飞行距离；它们在间接法中触发协态跳跃。
-- **事件/相位约束**（event / phase）：作用在段内特定时刻或跨段联立变量上，例如系统间转移界面处的相位角匹配。
+- 终端/边界约束（terminal / boundary）：作用在某段的初始或终端时刻，例如交会、入轨、拦截条件。
+- 路径约束（path）：在某段全程每一时刻都必须成立的不等式，例如日食规避、热流密度、推力幅值上界。
+- 状态约束（state）：仅含状态量、不含控制量的路径约束，例如近地高度下界、最大飞行距离。它们在间接法中触发协态跳跃。
+- 事件/相位约束（event / phase）：作用在段内特定时刻或跨段联立变量上，例如系统间转移界面处的相位角匹配。
 
-拼接点处的弧间连续性条件，在直接配点法里常被表达为*缺陷约束*，见 [缺陷约束](/glossary/dynamics/direct-collocation/)；弧间匹配的理论框架见 [多弧段最优控制](/glossary/dynamics/multi-arc-optimal-control/)。
+拼接点处的弧间连续性条件，在直接配点法里常被表达为*缺陷约束*，见 [缺陷约束](/glossary/dynamics/direct-collocation/)。弧间匹配的理论框架见 [多弧段最优控制](/glossary/dynamics/multi-arc-optimal-control/)。
 
 ## 数学结构
 
@@ -67,13 +67,13 @@ $$\boldsymbol{x}_l \leq \boldsymbol{x}(t) \leq \boldsymbol{x}_u \quad \text{（�
 
 $$\boldsymbol{\lambda}(t_i^{+}) = \boldsymbol{\lambda}(t_i^{-}) - \eta(t_i)\,\nabla S[\boldsymbol{x}(t_i)].$$
 
-对 $p$ 阶状态约束（即 $S$ 对时间求 $p$ 阶导后才显含 $\boldsymbol{u}$），跳跃出现在 $\boldsymbol{\lambda}^{(p-1)}$ 而非 $\boldsymbol{\lambda}$ 本身。这种非光滑性是间接法处理活动状态约束困难的根源；直接法通过 NLP 活动集机制隐式吸收，对算法影响小得多（You & Dai 2022）。
+对 $p$ 阶状态约束（即 $S$ 对时间求 $p$ 阶导后才显含 $\boldsymbol{u}$），跳跃出现在 $\boldsymbol{\lambda}^{(p-1)}$ 而非 $\boldsymbol{\lambda}$ 本身。这种非光滑性是间接法处理活动状态约束困难的根源。直接法通过 NLP 活动集机制隐式吸收，对算法影响小得多（You & Dai 2022）。
 
 ## 地月空间中的典型实例
 
 ### 终端：多圈 Lambert 边界
 
-多圈 Lambert 问题在固定 $\boldsymbol{r}_0$、$\boldsymbol{r}_f$、飞行时间 $T$ 之外，多了一个圈数 $N$。Duan 等（2025）证明，**轨道动力学边界约束**会重塑允许解流形随 $N$ 的分布：随着 $N$ 增大，越来越多的 $(\boldsymbol{r}_0,\boldsymbol{r}_f,T)$ 采样在该圈数下没有可行解，单圈可行解占比随 $N$ 单调下降。原因是几何的：在固定转移角下，绕行更多圈把半长轴压进越来越窄的区间。这一现象在为 [打靶法](/glossary/dynamics/differential-correction/) 选初值或为不确定 Lambert 问题建代理模型时必须显式建模。
+多圈 Lambert 问题在固定 $\boldsymbol{r}_0$、$\boldsymbol{r}_f$、飞行时间 $T$ 之外，多了一个圈数 $N$。Duan 等（2025）证明，轨道动力学边界约束会重塑允许解流形随 $N$ 的分布：随着 $N$ 增大，越来越多的 $(\boldsymbol{r}_0,\boldsymbol{r}_f,T)$ 采样在该圈数下没有可行解，单圈可行解占比随 $N$ 单调下降。原因是几何的：在固定转移角下，绕行更多圈把半长轴压进越来越窄的区间。这一现象在为 [打靶法](/glossary/dynamics/differential-correction/) 选初值或为不确定 Lambert 问题建代理模型时必须显式建模。
 
 ### 路径：日食规避
 
@@ -89,17 +89,17 @@ $$\boldsymbol{\Delta}_{\text{prop}} = \frac{T_{\max}}{m}\,\delta\,\bar{\delta}_e
 
 ## 数值处理技术
 
-- **直接转录** 把每条约束翻成 NLP 行：每个配点处的缺陷方程（见 [缺陷约束](/glossary/dynamics/direct-collocation/)），加上节点/中点的路径约束估值。利用稀疏性的 SQP/IP 求解器（SNOPT、IPOPT）可处理 $10^4$–$10^6$ 量级的约束（Betts 1998）。
+- 直接转录 把每条约束翻成 NLP 行：每个配点处的缺陷方程（见 [缺陷约束](/glossary/dynamics/direct-collocation/)），加上节点/中点的路径约束估值。利用稀疏性的 SQP/IP 求解器（SNOPT、IPOPT）可处理 $10^4$–$10^6$ 量级的约束（Betts 1998）。
 
-- **软约束 / 松弛** 把硬等式 $\boldsymbol{X}_P = \boldsymbol{X}_Q$（例如扰动流形与目标轨道庞加莱截面在 4 维空间精确相交）替换为最近点搜索 $\min\|\boldsymbol{X}_P - \boldsymbol{X}_Q\|$ + Lambert 弧段接补。乔琛远与杨乐平（2024）把此法用于地月 $L_1$ Halo-to-GEO 转移：截面相交在 4 维中是*过约束*，优化器无解；松弛为优化目标里的 Lambert $\Delta V$ 项后，问题变为参数化的连续搜索。松弛保留可行性（每条 Lambert 桥都是合法转移），代价是让 $\Delta V$ 吸收几何失配。
+- 软约束 / 松弛 把硬等式 $\boldsymbol{X}_P = \boldsymbol{X}_Q$（例如扰动流形与目标轨道庞加莱截面在 4 维空间精确相交）替换为最近点搜索 $\min\|\boldsymbol{X}_P - \boldsymbol{X}_Q\|$ + Lambert 弧段接补。乔琛远与杨乐平（2024）把此法用于地月 $L_1$ Halo-to-GEO 转移：截面相交在 4 维中是*过约束*，优化器无解。松弛为优化目标里的 Lambert $\Delta V$ 项后，问题变为参数化的连续搜索。松弛保留可行性（每条 Lambert 桥都是合法转移），代价是让 $\Delta V$ 吸收几何失配。
 
-- **平滑化（双曲正切 / CSC）** 把分段定义的约束（日食开关、bang-bang 控制）正则化，使间接积分器与 NLP 雅可比保持光滑；与庞特里亚金极值原理并用时常见 [复合光滑控制](/glossary/dynamics/pontryagins-maximum-principle/)。
+- 平滑化（双曲正切 / CSC） 把分段定义的约束（日食开关、bang-bang 控制）正则化，使间接积分器与 NLP 雅可比保持光滑。与庞特里亚金极值原理并用时常见 [复合光滑控制](/glossary/dynamics/pontryagins-maximum-principle/)。
 
-- **增广拉格朗日 / 罚函数** 把活动不等式约束移入目标函数，见 [增广拉格朗日法](/glossary/dynamics/augmented-lagrangian-method/)。
+- 增广拉格朗日 / 罚函数 把活动不等式约束移入目标函数，见 [增广拉格朗日法](/glossary/dynamics/augmented-lagrangian-method/)。
 
 ## 应用要点
 
-- 终端约束主导 [打靶法](/glossary/dynamics/differential-correction/) 雅可比的结构；终端盒越紧，收敛域越窄。
+- 终端约束主导 [打靶法](/glossary/dynamics/differential-correction/) 雅可比的结构。终端盒越紧，收敛域越窄。
 - 路径约束活动状态频繁切换（如低推力螺旋上的日食）是伪谱法网格加密的主要驱动。
 - 多体问题中的段间联立约束，是把读者引向 [多弧段最优控制](/glossary/dynamics/multi-arc-optimal-control/) 理论的桥梁。
 

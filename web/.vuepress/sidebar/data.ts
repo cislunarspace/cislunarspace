@@ -1,5 +1,5 @@
 /**
- * Non-glossary sidebar section definitions — single source of truth.
+ * Non-glossary sidebar section definitions: single source of truth.
  * Glossary sections are auto-generated from the filesystem by `intakes/glossary-intake.ts`.
  */
 
@@ -11,7 +11,7 @@ export interface SidebarEntry {
   collapsible?: boolean;
   /**
    * Explicit, stable id for this entry. Required when `slug === undefined`
-   * (display-only group); optional otherwise — the default id is
+   * (display-only group); optional otherwise: the default id is
    * `${parent.id}/${slug}` and the section default is `slug`.
    *
    * Per ADR-0001, ids are stable across renames: changing a slug is a new

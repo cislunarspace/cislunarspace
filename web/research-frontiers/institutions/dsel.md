@@ -34,7 +34,7 @@ twitter:
 
 上官勇等系统梳理了地月空间导航的现状与技术发展脉络，基于对美国 LuGRE 任务、阿尔忒弥斯计划、欧洲月光计划以及我国 DRO 三星星座与天都一号等导航技术现状的分析，提出了地球 GNSS 弱信号导航、月球专用导航、混合导航与星间链路导航等实现途径 \cite{ShangGuanYongDiYueKongJianDaoHangXianZhuangYuJiShuFaZhanYanJiu2026}。
 
-该研究指出地月空间导航正从地基系统向多星座协同组网演进并向多源融合体系发展，其中天都一号已于 2025 年 4 月在白天强光干扰条件下完成地月空间激光测距试验，对新一代地月空间激光角反射器实现精准测距；研究还展望了通过构建多源融合的高精度自主导航体系，实现近月空间亚米级定位与地月转移轨道十米级定位的前景 \cite{ShangGuanYongDiYueKongJianDaoHangXianZhuangYuJiShuFaZhanYanJiu2026}。
+该研究指出地月空间导航正从地基系统向多星座协同组网演进并向多源融合体系发展，其中天都一号已于 2025 年 4 月在白天强光干扰条件下完成地月空间激光测距试验，对新一代地月空间激光角反射器实现精准测距。研究还展望了通过构建多源融合的高精度自主导航体系，实现近月空间亚米级定位与地月转移轨道十米级定位的前景 \cite{ShangGuanYongDiYueKongJianDaoHangXianZhuangYuJiShuFaZhanYanJiu2026}。
 
 ## 相关页面
 

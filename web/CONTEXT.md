@@ -43,9 +43,9 @@
 
 两类内容：
 
-1. **知识库章节**：`web/what-is-cislunarspace/`、`web/cislunar-orbits/` 等
-2. **词典**：`web/glossary/`
-3. **特殊表面**：`web/ai-chat.md`
+1. 知识库章节：`web/what-is-cislunarspace/`、`web/cislunar-orbits/` 等
+2. 词典：`web/glossary/`
+3. 特殊表面：`web/ai-chat.md`
 
 ### Build Pipeline
 

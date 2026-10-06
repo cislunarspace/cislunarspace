@@ -1,5 +1,5 @@
 /**
- * TaxonomyViewEngine — declarative query layer over TaxonomyModule.
+ * TaxonomyViewEngine: declarative query layer over TaxonomyModule.
  *
  * Centralises the traversal logic that view adapters previously duplicated:
  * child lookup, path and label resolution, and recursive tree building.
@@ -9,10 +9,10 @@
  *   engine
  *     .fromRoot(id)             // anchor at a node (null = forest root)
  *     .filter(predicate)       // narrow flat results (list / walk)
- *     .list()                  //   → direct children as ViewNode[]
- *     .walk()                  //   → root + all descendants, depth-first
- *     .root()                  //   → root node as ViewNode, or null
- *     .buildTree(projector)    //   → recursive tree; projector returns null to skip
+ *     .list()                  //   returns direct children as ViewNode[]
+ *     .walk()                  //   returns root + all descendants, depth-first
+ *     .root()                  //   returns root node as ViewNode, or null
+ *     .buildTree(projector)    //   returns recursive tree; projector returns null to skip
  *
  * ViewNode pre-resolves the path (including external-link href) and label
  * so projectors never touch raw TaxonomyNode fields.
@@ -38,7 +38,7 @@ export interface ViewQuery {
   /**
    * Recursively build a tree. The projector receives the ViewNode and its
    * already-built children; returning null omits the node from the output.
-   * Filters do NOT apply to buildTree — the projector is the sole filter.
+   * Filters do NOT apply to buildTree: the projector is the sole filter.
    */
   buildTree<T>(projector: (vn: ViewNode, children: T[]) => T | null): T[];
 }

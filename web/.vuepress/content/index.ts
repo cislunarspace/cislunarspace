@@ -1,7 +1,7 @@
 /**
  * Content Module 生产实例（ADR-0003）。
  *
- * section 目录列表从 taxonomy 的 section 节点派生 —— 新增章节时
+ * section 目录列表从 taxonomy 的 section 节点派生 。 新增章节时
  * content 模块的管辖范围随之扩展，无需在此维护第二份清单。
  * 写操作后自动重跑生成管线（runGenerationCli 已幂等）。
  */

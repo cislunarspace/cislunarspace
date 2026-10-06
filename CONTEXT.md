@@ -14,39 +14,39 @@
 
 ### 身份（NodeId）
 
-`TaxonomyNode` 的稳定字符串 id（如 `research-frontiers/directions/orbit-design`）。由规范 zh slug 链派生。重命名 slug 会产生新 id 并附带一条重定向（id 永不无声复用）。重命名 **label** 不改变 id。
+`TaxonomyNode` 的稳定字符串 id（如 `research-frontiers/directions/orbit-design`）。由规范 zh slug 链派生。重命名 slug 会产生新 id 并附带一条重定向（id 永不无声复用）。重命名 label 不改变 id。
 
 ### NodeKind
 
-`TaxonomyNode` 上的判别字段。**开放枚举**：可以新增 kind 而无需修订 ADR-0001，前提是 `TaxonomyNode` 接口形状、身份规则与路径约定规则不变。Adapter 以忽略未知 kind 的方式保持容忍。
+`TaxonomyNode` 上的判别字段。开放枚举：可以新增 kind 而无需修订 ADR-0001，前提是 `TaxonomyNode` 接口形状、身份规则与路径约定规则不变。Adapter 以忽略未知 kind 的方式保持容忍。
 
 ### Section / group / page / index
 
 侧边栏树中的四个结构 kind。
 
-- **Section**：侧边栏顶层条目（如 `cislunar-orbits`、`research-frontiers`）。
-- **Group**：section 内可折叠的簇（如 `nrho`、`dro`）。
-- **Page**：叶子内容页。
-- **Index**：section/group 根上的 README；与其父节点共用路径（现 `sidebar/data.ts` 中 `slug === ''`）。
+- Section：侧边栏顶层条目（如 `cislunar-orbits`、`research-frontiers`）。
+- Group：section 内可折叠的簇（如 `nrho`、`dro`）。
+- Page：叶子内容页。
+- Index：section/group 根上的 README。与其父节点共用路径（现 `sidebar/data.ts` 中 `slug === ''`）。
 
 ### Sidebar source of truth（侧边栏事实来源）
 
 `web/.vuepress/taxonomy/data.ts`（目标态）。今天这一职责分散在 `sidebar/data.ts`、`navbar.ts`、`glossary-meta.ts`、`category-meta.json` 以及 `wayfinding-intake.ts` 的内联数组里。迁移计划见 ADR-0001。
 
 ### 词条 frontmatter 关系字段（aliases / related）
-词条 frontmatter 中的知识库数据字段：`aliases` 为非空不重复的别名数组；`related` 为 `{ ref, relation }` 数组，`ref` 是词条 slug 路径（如 `orbits/halo-orbit`），必须解析到存在的词条文件 `glossary/<ref>.md`；`relation` 属于开放枚举 `{broader, transfer, related}`。由 `check-glossary-frontmatter` 在 `npm run check` 中强制校验。正文"相关概念"列表是该数据的人工视图。
+词条 frontmatter 中的知识库数据字段：`aliases` 为非空不重复的别名数组。`related` 为 `{ ref, relation }` 数组，`ref` 是词条 slug 路径（如 `orbits/halo-orbit`），必须解析到存在的词条文件 `glossary/<ref>.md`。`relation` 属于开放枚举 `{broader, transfer, related}`。由 `check-glossary-frontmatter` 在 `npm run check` 中强制校验。正文“相关概念”列表是该数据的人工视图。
 
 ### 页面标签页标题（tab title）
 
-浏览器标签页与 `<title>` 标签的页面标题，格式「页面名 - 地月空间入门指南」，由 `web/.vuepress/theme/client.ts` 对 `@vuepress/client` resolvers 的覆写统一拼装（SSR 静态 HTML 与客户端路由切换同步生效）；页面名与站点名相同时（首页）只显示站点名。页面名数据源是页面 frontmatter title——词条还同时喂搜索索引、AI 路由索引与侧边栏，故改页面名必须改 frontmatter 而非渲染层。词条标题长度由 `check-glossary-frontmatter` 的 ≤66 字符规则约束。
+浏览器标签页与 `<title>` 标签的页面标题，格式「页面名 - 地月空间入门指南」，由 `web/.vuepress/theme/client.ts` 对 `@vuepress/client` resolvers 的覆写统一拼装（SSR 静态 HTML 与客户端路由切换同步生效）。页面名与站点名相同时（首页）只显示站点名。页面名数据源是页面 frontmatter title（词条还同时喂搜索索引、AI 路由索引与侧边栏），故改页面名必须改 frontmatter 而非渲染层。词条标题长度由 `check-glossary-frontmatter` 的 ≤66 字符规则约束。
 
 ### 引用键（\cite 键）
 
-正文中 `\cite{key}` 引用的 key，指向 `web/.vuepress/ref.bib` 的 BibTeX 条目。渲染为指向 `/references#key` 的编号链接；`check-links` 对其做存在性校验。手写参考文献表已废弃：正文引用即数据，编号与题录由 bibliography 生成器从 ref.bib 派生。
+正文中 `\cite{key}` 引用的 key，指向 `web/.vuepress/ref.bib` 的 BibTeX 条目。渲染为指向 `/references#key` 的编号链接。`check-links` 对其做存在性校验。手写参考文献表已废弃：正文引用即数据，编号与题录由 bibliography 生成器从 ref.bib 派生。
 
 ### AI route index（AI 路由索引）
 
-以 `/ai-chat-index.json` 伺服的生成型 AI 问答路线规划工件。按 `ChatIndexCategory` 分组；每个 `ChatIndexCategory` 含一个分组键加若干 `IndexRow`；每个 `IndexRow` 携带一条 AI 检索路径和标题。AI 路由索引只用于路线选择与有效链接约束（它不是完整答案语料，也不是侧边栏树的 **Index** kind）。
+以 `/ai-chat-index.json` 伺服的生成型 AI 问答路线规划工件。按 `ChatIndexCategory` 分组。每个 `ChatIndexCategory` 含一个分组键加若干 `IndexRow`。每个 `IndexRow` 携带一条 AI 检索路径和标题。AI 路由索引只用于路线选择与有效链接约束（它不是完整答案语料，也不是侧边栏树的 Index kind）。
 
 ### AI context corpus（AI 上下文语料）
 
@@ -66,7 +66,7 @@ AI 问答流程：先对 AI 路由索引跑 Router 阶段，再用按 AI 检索�
 
 ### Layout（布局）
 
-由页面 frontmatter 或 VuePress 路由配置选择的 VuePress 页面外壳（例如 `AiChatLayout`）。布局控制页面镶边与渲染结构；它不是页面的领域身份，不是 `TaxonomyNode.kind`，不是路由身份，也不是功能或表面本身。
+由页面 frontmatter 或 VuePress 路由配置选择的 VuePress 页面外壳（例如 `AiChatLayout`）。布局控制页面镶边与渲染结构。它不是页面的领域身份，不是 `TaxonomyNode.kind`，不是路由身份，也不是功能或表面本身。
 
 ### LayoutTypes
 
@@ -82,7 +82,7 @@ AI 问答流程：先对 AI 路由索引跑 Router 阶段，再用按 AI 检索�
 
 ### VuePress sidebar config（VuePress 侧边栏配置）
 
-供 VuePress 默认主题消费的原生主题侧边栏路由前缀映射，用于左侧导航。它是从分类法与构建输入派生的 adapter 输出；不是分类法的事实来源。
+供 VuePress 默认主题消费的原生主题侧边栏路由前缀映射，用于左侧导航。它是从分类法与构建输入派生的 adapter 输出。不是分类法的事实来源。
 
 ### Section sidebar（章节侧边栏）
 
@@ -94,11 +94,11 @@ AI 问答流程：先对 AI 路由索引跑 Router 阶段，再用按 AI 检索�
 
 ### Glossary category（词条类别）
 
-kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` 中 `glossaryCategories` 的条目)。定义 `/glossary/` 下的桶（fundamentals、dynamics、orbits……）。类别可嵌套**一级子类别**：子类别节点挂在所属类别节点下（如 `glossary/orbits`），其 `meta.slug` 为完整路径形式（`orbits/halo`），词条存放在 `glossary/<cat>/<sub>/<slug>.md`。词条也可以直接放在类别根下（未归类）。
+kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` 中 `glossaryCategories` 的条目)。定义 `/glossary/` 下的桶（fundamentals、dynamics、orbits……）。类别可嵌套一级子类别：子类别节点挂在所属类别节点下（如 `glossary/orbits`），其 `meta.slug` 为完整路径形式（`orbits/halo`），词条存放在 `glossary/<cat>/<sub>/<slug>.md`。词条也可以直接放在类别根下（未归类）。
 
 ### Content module（内容模块）
 
-`web/.vuepress/content/` 处的模块（见 ADR-0003；骨架已于 2026-08-19 落地：list/read/write/refreshIndex，create/delete/categories 待续），用一个领域接口承接所有内容操作。内容写入方（admin GUI、agent/人类）都经由它。内容模块之于内容操作，如分类法模块之于结构数据；它不是数据库，不是服务进程，不属于构建流水线。其 frontmatter 往返使用 `yaml` 包（`parseMarkdownDoc`/`renderMarkdown`），而非 `utils/frontmatter-parser.ts`——后者的简化解析无法往返嵌套 frontmatter。
+`web/.vuepress/content/` 处的模块（见 ADR-0003。骨架已于 2026-08-19 落地：list/read/write/refreshIndex，create/delete/categories 待续），用一个领域接口承接所有内容操作。内容写入方（admin GUI、agent/人类）都经由它。内容模块之于内容操作，如分类法模块之于结构数据。它不是数据库，不是服务进程，不属于构建流水线。其 frontmatter 往返使用 `yaml` 包（`parseMarkdownDoc`/`renderMarkdown`），而非 `utils/frontmatter-parser.ts`（后者的简化解析无法往返嵌套 frontmatter）。
 
 ### Content family（内容族）
 
@@ -108,29 +108,29 @@ kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` �
 
 仓库的三个资产层（见 ADR-0004）：
 
-- **Content source（内容源）**：markdown、`taxonomy/`、`sidebar/data.ts`、图片、`ref.bib`、手工维护的 public 资产。纳入 git。
-- **Derived artifact（派生工件）**：`generate.ts` 产出的一切（`*.auto.json`、AI-chat/bibliography JSON）。只写入 `.vuepress/public/`，绝不纳入 git。**Derived artifact** 指称这个层；既有术语 generated artifact 继续指称单个 JSON 文件。
-- **Build output（构建输出）**：`dist/`。永不纳入 git。
+- Content source（内容源）：markdown、`taxonomy/`、`sidebar/data.ts`、图片、`ref.bib`、手工维护的 public 资产。纳入 git。
+- Derived artifact（派生工件）：`generate.ts` 产出的一切（`*.auto.json`、AI-chat/bibliography JSON）。只写入 `.vuepress/public/`，绝不纳入 git。Derived artifact 指称这个层。既有术语 generated artifact 继续指称单个 JSON 文件。
+- Build output（构建输出）：`dist/`。永不纳入 git。
 
-规则：派生工件任何时候都能从内容源重建（任何消费方都不得依赖它在 git 里的存在）；sync-figures 是把图片放进构建输出的唯一通道。
+规则：派生工件任何时候都能从内容源重建（任何消费方都不得依赖它在 git 里的存在）。sync-figures 是把图片放进构建输出的唯一通道。
 
 ## 应避免的术语
 
-- 用 **Sidebar config** 作 taxonomy 的同义词：taxonomy 是**概念**，侧边栏配置只是其中一种 **adapter 输出**。
-- 把 **Layout** 当 AI 问答或任何非文章自定义体验的统称：**Layout** 只指 VuePress 页面外壳；面向用户的体验请用 **special surface** 或 **interactive surface**。
-- 不加限定地说 **Sidebar**：要说 **VuePress sidebar config**、**section sidebar** 或 **wayfinding disclosure**。
-- 把 **Wayfinding** 叫成 index 或侧边栏：导引是全局站点地图披露，既不是侧边栏树的 **Index** kind，也不是 AI 路由索引。
-- 在需要精确的场合不加限定地说 **Surface**：要说 **special surface**、**interactive surface**、content page 或 site-surface-specific adapter output。
-- 用 **i18n key** 指 `NodeId`：id 不是 i18n key，它们是稳定身份。
-- 不加限定词的 **Category**：要说 **glossary-category**。（`news-category` kind 已随太空新闻模块移除，见 ADR-0005。）
-- 不区分 **hero/card image**、**figure set**、**source figure path**、**built dist asset path**、**share image**，笼统说 **Image** 或 **image path**。
-- 指代完整文件名时说 **Slug**：`YYYY-MM-DD-` 之后的标识符叫 **article slug**，`YYYY-MM-DD-slug.md` 整体叫 **article filename**。
-- 用 **AI index** 或光秃秃的 **index** 指 `/ai-chat-index.json`：要说 **AI route index**。**Index** 已经表示侧边栏树中 section/group 根上的 README。
-- 用 **Context index**、**AI context index**、**site index** 指 `/ai-chat-context.json`：要说 **AI context corpus**。
-- 讨论 AI 检索时不加限定地说 **Path**：指 Router 选出、用于连接路由行与上下文记录的键时，要说 **AI retrieval path**。
-- 把 **ChatIndexCategory** 当普通 category：它是 AI 专用分组键，不是 **glossary-category**、编辑标签或文章属性。
-- 把 AI 生成工件描述为 **Adapters** 或 **Intakes**：adapter 从分类法派生站点表面输出；intake 采集构建期数据。`/ai-chat-index.json` 与 `/ai-chat-context.json` 是生成的 AI 问答工件。
-- 用 **hand-written reference list**（手写参考文献表）指词条尾部的文献列表：该形态已由**引用键**取代，题录一律由 ref.bib 派生。
+- 用 Sidebar config 作 taxonomy 的同义词：taxonomy 是概念，侧边栏配置只是其中一种 adapter 输出。
+- 把 Layout 当 AI 问答或任何非文章自定义体验的统称：Layout 只指 VuePress 页面外壳。面向用户的体验请用 special surface 或 interactive surface。
+- 不加限定地说 Sidebar：要说 VuePress sidebar config、section sidebar 或 wayfinding disclosure。
+- 把 Wayfinding 叫成 index 或侧边栏：导引是全局站点地图披露，既不是侧边栏树的 Index kind，也不是 AI 路由索引。
+- 在需要精确的场合不加限定地说 Surface：要说 special surface、interactive surface、content page 或 site-surface-specific adapter output。
+- 用 i18n key 指 `NodeId`：id 不是 i18n key，它们是稳定身份。
+- 不加限定词的 Category：要说 glossary-category。（ 0  kind 已随太空新闻模块移除，见 ADR-0005。）
+- 不区分 hero/card image、figure set、source figure path、built dist asset path、share image，笼统说 Image 或 image path。
+- 指代完整文件名时说 Slug：`YYYY-MM-DD-` 之后的标识符叫 article slug，`YYYY-MM-DD-slug.md` 整体叫 article filename。
+- 用 AI index 或光秃秃的 index 指 `/ai-chat-index.json`：要说 AI route index。Index 已经表示侧边栏树中 section/group 根上的 README。
+- 用 Context index、AI context index、site index 指 `/ai-chat-context.json`：要说 AI context corpus。
+- 讨论 AI 检索时不加限定地说 Path：指 Router 选出、用于连接路由行与上下文记录的键时，要说 AI retrieval path。
+- 把 ChatIndexCategory 当普通 category：它是 AI 专用分组键，不是 glossary-category、编辑标签或文章属性。
+- 把 AI 生成工件描述为 Adapters 或 Intakes：adapter 从分类法派生站点表面输出。intake 采集构建期数据。`/ai-chat-index.json` 与 `/ai-chat-context.json` 是生成的 AI 问答工件。
+- 用 hand-written reference list（手写参考文献表）指词条尾部的文献列表：该形态已由引用键取代，题录一律由 ref.bib 派生。
 
 - [ADR-0001：统一分类法模块](docs/adr/0001-unified-taxonomy-module.md)
 - [ADR-0003：内容模块](docs/adr/0003-content-module.md)

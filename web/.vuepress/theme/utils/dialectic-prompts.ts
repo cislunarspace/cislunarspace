@@ -2,7 +2,7 @@
  * Prompt data for the Dialectic surface.
  *
  * System prompts, step prompts, step definitions, and templates.
- * Pure data — no Vue, no network calls, no side effects.
+ * Pure data: no Vue, no network calls, no side effects.
  */
 
 export const GLOBAL_SYSTEM_PROMPT = `# Role

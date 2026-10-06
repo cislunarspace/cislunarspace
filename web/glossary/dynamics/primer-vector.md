@@ -1,6 +1,6 @@
 ---
 title: 先驱向量（Primer Vector）
-description: Lawden 1963 提出的最优推力向量 p(t)=-λ_v(t)，是连续推力与脉冲推力两类最优转移一阶必要条件的统一表达：连续推力下决定最优推力方向与节流开关；脉冲转移下规定脉冲时刻、方向与是否需要追加脉冲。涵盖先驱向量方程、脉冲必要条件（Lion-Handelsman 1968）、协态-控制变换、推力幅值切换，以及地月空间的应用要点。
+description: Lawden 1963 提出的最优推力向量 p(t)=-λ_v(t)，是连续推力与脉冲推力两类最优转移一阶必要条件的统一表达：连续推力下决定最优推力方向与节流开关。脉冲转移下规定脉冲时刻、方向与是否需要追加脉冲。涵盖先驱向量方程、脉冲必要条件（Lion-Handelsman 1968）、协态-控制变换、推力幅值切换，以及地月空间的应用要点。
 keywords: 先驱向量, Primer Vector, 引燃向量, Lawden, 协态速度, 切换函数, 最优推力方向, 脉冲转移最优性, Lion-Handelsman, Jezewski-Rozendaal, 间接法
 author: 天疆说
 date: 2026-07-31
@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/primer-vector/
 
 ## 定义
 
-**先驱向量**（primer vector）是 Lawden（1963）在其奠基著作《Optimal Trajectories for Space Navigation》中引入的术语，定义为速度协态变量的负值：
+先驱向量（primer vector）是 Lawden（1963）在其奠基著作《Optimal Trajectories for Space Navigation》中引入的术语，定义为速度协态变量的负值：
 
 $$
 \mathbf{p}(t)\equiv-\boldsymbol{\lambda}_v(t).
@@ -60,13 +60,13 @@ $$
 \boldsymbol{\alpha}^{*}=\frac{\mathbf{p}(t)}{\|\mathbf{p}(t)\|},\qquad \mathbf{p}(t)\equiv-\boldsymbol{\lambda}_v(t),
 $$
 
-即**最优推力方向与先驱向量同向**。代入哈密顿函数，控制相关项化为
+即最优推力方向与先驱向量同向。代入哈密顿函数，控制相关项化为
 
 $$
 H_c=u\,T_{\max}\!\left(-\frac{\|\mathbf{p}\|}{m}-\frac{\lambda_m}{c}\right)=u\,\Phi(t),
 $$
 
-其中 $\Phi(t)$ 即**切换函数**（switching function）。由极小值原理得 $u^{*}=0$ 当 $\Phi>0$（关机），$u^{*}=1$ 当 $\Phi<0$（满推），这是 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/) 的来源。
+其中 $\Phi(t)$ 即切换函数（switching function）。由极小值原理得 $u^{*}=0$ 当 $\Phi>0$（关机），$u^{*}=1$ 当 $\Phi<0$（满推），这是 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/) 的来源。
 
 ## 先驱向量方程
 
@@ -82,9 +82,9 @@ $$
 
 定常比冲（CSI）最优控制问题中，先驱向量满足（Lawden 1963；Conway 2010, Ch. 2）：
 
-1. $\mathbf{p}(t)$ 及 $\dot{\mathbf{p}}(t)$ 处处连续；
-2. 最优推力方向 $\boldsymbol{\alpha}^{*}=\mathbf{p}/\|\mathbf{p}\|$；
-3. 切换函数 $\Phi=-T_{\max}(\|\mathbf{p}\|/m+\lambda_m/c)$ 的符号决定节流开关；
+1. $\mathbf{p}(t)$ 及 $\dot{\mathbf{p}}(t)$ 处处连续。
+2. 最优推力方向 $\boldsymbol{\alpha}^{*}=\mathbf{p}/\|\mathbf{p}\|$。
+3. 切换函数 $\Phi=-T_{\max}(\|\mathbf{p}\|/m+\lambda_m/c)$ 的符号决定节流开关。
 4. 切换时刻处 $\Phi=0$，即 $\|\mathbf{p}\|=-m\lambda_m/c$。
 
 Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧（NT）、中间推力弧（IT，即 [奇异弧](/glossary/dynamics/bang-bang-control/)）。详见 [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/)。
@@ -93,9 +93,9 @@ Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧�
 
 高推力近似下，MT 弧收缩为瞬时脉冲。Lawden（1963）首次写出脉冲最优性的一阶必要条件，Lion 与 Handelsman（1968）将其整理为工程可用形式：
 
-1. $\mathbf{p}(t)$ 与 $\dot{\mathbf{p}}(t)$ 处处连续；
-2. $\|\mathbf{p}(t)\|\le 1$ 在所有时刻成立，脉冲只能在 $\|\mathbf{p}\|=1$ 的时刻施加；
-3. 在脉冲时刻，$\mathbf{p}$ 是单位向量，方向即最优脉冲方向；
+1. $\mathbf{p}(t)$ 与 $\dot{\mathbf{p}}(t)$ 处处连续。
+2. $\|\mathbf{p}(t)\|\le 1$ 在所有时刻成立，脉冲只能在 $\|\mathbf{p}\|=1$ 的时刻施加。
+3. 在脉冲时刻，$\mathbf{p}$ 是单位向量，方向即最优脉冲方向。
 4. 在中间脉冲（非初始/终端）处 $\dot{\mathbf{p}}=\dot{\mathbf{p}}^{\mathrm{T}}\mathbf{p}/\|\mathbf{p}\|=0$。
 
 对线性系统上述条件同时是充分条件，且给出最优脉冲数的上界（Prussing 1993）。
@@ -104,22 +104,22 @@ Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧�
 
 实践中给定一组边界条件与转移时间，常先得到一个非最优的 $N$ 脉冲解（如双脉冲 Lambert 解）。Lion 与 Handelsman（1968）导出性能指标关于三种修正操作的梯度：
 
-- **末端滑行**（terminal coast）：推迟或提前首/末脉冲施加时刻，梯度为 $\partial J/\partial t_i=\pm\|\dot{\mathbf{p}}(t_i)\|$；
-- **追加中段脉冲**（midcourse impulse）：在 $\|\mathbf{p}\|>1$ 的子弧上加入新脉冲，梯度为 $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$；
-- **脉冲位置迭代**：通过 $\dot{\mathbf{p}}$ 在脉冲点不为零的量调整脉冲时刻。
+- 末端滑行（terminal coast）：推迟或提前首/末脉冲施加时刻，梯度为 $\partial J/\partial t_i=\pm\|\dot{\mathbf{p}}(t_i)\|$。
+- 追加中段脉冲（midcourse impulse）：在 $\|\mathbf{p}\|>1$ 的子弧上加入新脉冲，梯度为 $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$。
+- 脉冲位置迭代：通过 $\dot{\mathbf{p}}$ 在脉冲点不为零的量调整脉冲时刻。
 
 Jezewski 与 Rozendaal（1968）将上述梯度嵌入 非线性规划（多重打靶，参见 [间接法](/glossary/dynamics/indirect-methods/)） 框架，得到自动判定何时追加脉冲、何时启用滑行的 $N$ 脉冲迭代算法，至今仍是脉冲转移最优性检验与改进的标准工具。
 
 ## 与协态-控制变换的关系
 
-由 $\mathbf{p}=-\boldsymbol{\lambda}_v$ 与节流条件 $u^{*}=\mathrm{sign}(-\Phi)$ 可见，最优控制可完全由先驱向量与质量协态 $\lambda_m$ 表达。这一观察是 [协态-控制变换](/glossary/dynamics/adjoint-control-transformation/) 与协态归一化的出发点：将打靶变量从完整协态向量换成 $(\mathbf{p},\lambda_m)$ 或进一步约束在单位球面上，可显著缩减间接法搜索维度（Taheri 等 2016；详见 [协态变量](/glossary/dynamics/co-state-variables/)）。
+由 $\mathbf{p}=-\boldsymbol{\lambda}_v$ 与节流条件 $u^{*}=\mathrm{sign}(-\Phi)$ 可见，最优控制可完全由先驱向量与质量协态 $\lambda_m$ 表达。这一观察是 [协态-控制变换](/glossary/dynamics/adjoint-control-transformation/) 与协态归一化的出发点：将打靶变量从完整协态向量换成 $(\mathbf{p},\lambda_m)$ 或进一步约束在单位球面上，可显著缩减间接法搜索维度（Taheri 等 2016；详见  5 ）。
 
 ## 应用要点
 
-- **脉冲转移的最优性检验**：双脉冲 Lambert 解的 $\|\mathbf{p}(t)\|$ 时间 histories 若超过 1，说明需要追加脉冲或调整滑行段；这是地月三脉冲转移设计自动化的常用判据。
-- **连续推力方向指令**：在固定方向的简化小推力制导律失效时，把推力方向取为 $\mathbf{p}/\|\mathbf{p}\|$ 即获得一阶最优方向；剩余的自由度只有节流时刻，使间接法参数维度大减。
-- **多体环境扩展**：CR3BP 中 $G(\mathbf{r})$ 取会合系旋转雅可比，先驱向量方程仍成立，因此 primer vector 工具可直接用于地月 $L_1$/$L_2$ 转移的脉冲分析与连续推力方向初始化。
-- **同伦法初值**：能量最优解（连续推力）可解析给出 $\mathbf{p}(t)$ 的近似，作为 [同伦法](/glossary/dynamics/homotopy-method/) 逐步过渡到燃料最优 bang-bang 解的起点。
+- 脉冲转移的最优性检验：双脉冲 Lambert 解的 $\|\mathbf{p}(t)\|$ 时间 histories 若超过 1，说明需要追加脉冲或调整滑行段。这是地月三脉冲转移设计自动化的常用判据。
+- 连续推力方向指令：在固定方向的简化小推力制导律失效时，把推力方向取为 $\mathbf{p}/\|\mathbf{p}\|$ 即获得一阶最优方向。剩余的自由度只有节流时刻，使间接法参数维度大减。
+- 多体环境扩展：CR3BP 中 $G(\mathbf{r})$ 取会合系旋转雅可比，先驱向量方程仍成立，因此 primer vector 工具可直接用于地月 $L_1$/$L_2$ 转移的脉冲分析与连续推力方向初始化。
+- 同伦法初值：能量最优解（连续推力）可解析给出 $\mathbf{p}(t)$ 的近似，作为 [同伦法](/glossary/dynamics/homotopy-method/) 逐步过渡到燃料最优 bang-bang 解的起点。
 
 ## 相关概念
 

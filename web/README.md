@@ -38,7 +38,7 @@ wechatShare:
 
 <div style="text-align: center; margin: 15px 0;">
   <a href="/what-is-cislunarspace/" class="start-learning-btn">
-    从第一篇开始阅读 →
+    从第一篇开始阅读
   </a>
 </div>
 

@@ -32,7 +32,7 @@ twitter:
 
 地月空间平动点轨道的参数表征是空间态势感知和轨道编目的基础性问题\cite{ChenYanLingDiYueKongJianBianMuXiTongGuanCeTiZhiYanJiu2025,YangLeiKongJianMuBiaoBianMuDingGuiLiLunYuJiShuJinZhan2023}。与近地轨道不同，平动点轨道受三体动力学支配，传统的开普勒轨道根数不再适用，需要发展新的参数化方法\cite{qiaoOrbitalParameterCharacterization2025}。
 
-现有研究面临两个核心挑战：一是如何在圆型限制性三体问题即 CRTBP 框架下建立轨道的标准化描述；二是如何将 CRTBP 的结果推广到 DE430 一类的真实历表模型以支持实际观测数据的处理，其中地月历表误差对共线平动点周期轨道的影响不可回避\cite{FangLiuDiYueLiBiaoWuChaiDuiGongXianPingDongDianZhouQiGuiDaoDeWuChaiYingXiangFenXi2024}。
+现有研究面临两个核心挑战：一是如何在圆型限制性三体问题即 CRTBP 框架下建立轨道的标准化描述。二是如何将 CRTBP 的结果推广到 DE430 一类的真实历表模型以支持实际观测数据的处理，其中地月历表误差对共线平动点周期轨道的影响不可回避\cite{FangLiuDiYueLiBiaoWuChaiDuiGongXianPingDongDianZhouQiGuiDaoDeWuChaiYingXiangFenXi2024}。
 
 ## 关键技术
 
@@ -52,9 +52,9 @@ twitter:
 
 具体方法包括：
 
-1. **哈密顿建模**：将历表模型的运动方程写成哈密顿形式
-2. **正则变换分离**：通过正则变换将运动分解为受迫运动（由太阳等大天体引起）和自由运动（轨道本身的固有运动）
-3. **频率分析迭代**：采用迭代频率分析方法提取系统的特征频率，构建解析表达式
+1. 哈密顿建模：将历表模型的运动方程写成哈密顿形式
+2. 正则变换分离：通过正则变换将运动分解为受迫运动（由太阳等大天体引起）和自由运动（轨道本身的固有运动）
+3. 频率分析迭代：采用迭代频率分析方法提取系统的特征频率，构建解析表达式
 
 该方法已成功应用于全部5个平动点的动力学替代计算，覆盖360年的时间跨度，为长期轨道预报和编目维护提供了高效的计算工具\cite{qiaoCalculationDynamicalSubstitute2025}。
 
@@ -62,9 +62,9 @@ twitter:
 
 基于上述参数化方法，建立了轨道编目与识别流程：
 
-1. **分布图构建**：在庞加莱截面上绘制不同轨道族的特征参数分布，形成轨道地图
-2. **轨道识别**：给定观测数据，通过贝叶斯优化方法在参数空间中搜索最匹配的轨道族
-3. **鲁棒性验证**：敏感性分析表明，该方法对约 100 km 的初始位置误差和约 1 m/s 的速度误差具有良好的鲁棒性\cite{qiaoOrbitalParameterCharacterization2025}。
+1. 分布图构建：在庞加莱截面上绘制不同轨道族的特征参数分布，形成轨道地图
+2. 轨道识别：给定观测数据，通过贝叶斯优化方法在参数空间中搜索最匹配的轨道族
+3. 鲁棒性验证：敏感性分析表明，该方法对约 100 km 的初始位置误差和约 1 m/s 的速度误差具有良好的鲁棒性\cite{qiaoOrbitalParameterCharacterization2025}。
 
 ## 主要贡献
 
@@ -79,7 +79,7 @@ twitter:
 
 ---
 
-**相关链接**
+相关链接
 
 - ↑ [轨道设计与优化](./README.md)：返回方向首页
 - ↔ [低能转移轨道](./low-energy-transfer.md)：相关子方向

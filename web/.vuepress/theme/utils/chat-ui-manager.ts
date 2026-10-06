@@ -1,5 +1,5 @@
 /**
- * ChatUIManager — presentation helpers for the AI chat surface.
+ * ChatUIManager: presentation helpers for the AI chat surface.
  *
  * Pure module (no Vue runtime dependency). Manages sidebar state, input
  * auto-resize, scroll behavior, suggested questions, and message rendering.

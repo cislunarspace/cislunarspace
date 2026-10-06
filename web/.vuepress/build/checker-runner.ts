@@ -65,7 +65,7 @@ Options:
     ? `\n${config.extraOptions.map((o) => `  ${o.flag.padEnd(23)} ${o.description}`).join('\n')}`
     : '';
 
-  log(`${config.name} — ${config.description}${examples}${commonOptions}${extra}
+  log(`${config.name}: ${config.description}${examples}${commonOptions}${extra}
 
 Exit codes:
   0  No findings at or above the severity threshold

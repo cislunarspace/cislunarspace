@@ -1,5 +1,5 @@
 /**
- * cesium-scene — Cislunar Orbit Simulator Cesium 场景构建函数
+ * cesium-scene，Cislunar Orbit Simulator Cesium 场景构建函数
  *
  * 从 OrbitSimLab.vue 提取。所有函数通过 SceneContext 注入依赖，
  * 不直接引用 Vue 组件闭包变量。

@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 import { normalizePageMetadata } from './page-metadata';
-// @ts-expect-error — .mjs sibling; we only need the runtime export for this test.
+// @ts-expect-error: .mjs sibling; we only need the runtime export for this test.
 import {
   resolveWechatShareFields,
   clipDescription,
@@ -169,7 +169,7 @@ describe('resolveWechatShareFields (WeChat CLI consumer)', () => {
 
     expect(share.title).toBe(normalized.share.title);
     expect(share.desc).toBe(normalized.share.description);
-    // Image is site-relative on the CLI side, absolute on the normalizer side —
+    // Image is site-relative on the CLI side, absolute on the normalizer side;
     // assert the suffix is identical so both end up at the same final URL.
     expect(normalized.share.image.endsWith(share.image)).toBe(true);
   });

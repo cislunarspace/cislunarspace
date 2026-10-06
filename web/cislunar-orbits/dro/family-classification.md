@@ -22,9 +22,9 @@ permalink: /cislunar-orbits/dro/family-classification/
 
 ## 围绕月球的单一逆行族
 
-首先要澄清一个常见误解：**DRO 并不围绕平动点运动，而是围绕月球运动的逆行周期轨道**。在地月旋转坐标系中，DRO 以月球为中心闭合，轨道尺度远大于月球影响球；其在地心惯性系中同样呈现大椭圆环绕形态。文献中偶见的 L1 DRO 与 L2 DRO 提法没有依据，那个位置坐标 x ≈ 0.836 与 1.166 属于 L1/L2 平动点本身，而不是 DRO 的几何中心 \cite{perozziDistantRetrogradeOrbits2017}。
+首先要澄清一个常见误解：DRO 并不围绕平动点运动，而是围绕月球运动的逆行周期轨道。在地月旋转坐标系中，DRO 以月球为中心闭合，轨道尺度远大于月球影响球。其在地心惯性系中同样呈现大椭圆环绕形态。文献中偶见的 L1 DRO 与 L2 DRO 提法没有依据，那个位置坐标 x ≈ 0.836 与 1.166 属于 L1/L2 平动点本身，而不是 DRO 的几何中心 \cite{perozziDistantRetrogradeOrbits2017}。
 
-在 CR3BP 中，绕月的逆行周期解构成一条单参数族：从小振幅紧贴月球的成员到接近地月距离量级的大振幅成员连续延拓，周期随振幅单调增长 \cite{ChenGuanHuaDiYueKongJianDeYuanJuChiNiXingGuiDaoZuJiQiFenChaYanJiu2022}。工程关注的中大振幅成员典型振幅为 4 万至 10 万公里量级，对应周期约两周；我国中科院先导专项 DRO-A/B 双星采用的是 2:1 会合共振 DRO，周期约 14 天 \cite{wangFamily212024}。
+在 CR3BP 中，绕月的逆行周期解构成一条单参数族：从小振幅紧贴月球的成员到接近地月距离量级的大振幅成员连续延拓，周期随振幅单调增长 \cite{ChenGuanHuaDiYueKongJianDeYuanJuChiNiXingGuiDaoZuJiQiFenChaYanJiu2022}。工程关注的中大振幅成员典型振幅为 4 万至 10 万公里量级，对应周期约两周。我国中科院先导专项 DRO-A/B 双星采用的是 2:1 会合共振 DRO，周期约 14 天 \cite{wangFamily212024}。
 
 | 参数 | 典型范围 |
 | ------ | -------- |
@@ -36,9 +36,9 @@ permalink: /cislunar-orbits/dro/family-classification/
 
 ## 平面族与三维桥接族
 
-经典 DRO 位于旋转坐标系的地月旋转平面内，是一条纯平面周期轨道族，天然不存在“南族/北族”之分（对平面内轨道作 z → −z 反射仍得到轨道自身）。
+经典 DRO 位于旋转坐标系的地月旋转平面内，是一条纯平面周期轨道族，天然不存在“南族/北族”之分（对平面内轨道作 z  到  −z 反射仍得到轨道自身）。
 
-值得关注的结构性特征来自分岔：沿族延续过程中，DRO 会依次穿越产生 Butterfly 等派生族的**倍周期分岔**与**垂直自共振分岔** Vertical Self-Resonant Bifurcation \cite{asanoAnalysisPeriodmultiplyingBifurcations2022,aydinExplorationVerticalSelfresonant2025}。越过垂直自共振点后，平面族与空间族之间出现一系列桥接族 bridging families，连接平面逆行轨道与三维顺行空间轨道，形成 Dragonfly 蜻蜓型与 Hoverfly 食蚜蝇型等高倾角极轨类形态。这一系列桥接族为需要大倾角覆盖的驻留与观测任务提供了从稳定平面族出发的设计入口 \cite{aydinExplorationVerticalSelfresonant2025}。
+值得关注的结构性特征来自分岔：沿族延续过程中，DRO 会依次穿越产生 Butterfly 等派生族的倍周期分岔与垂直自共振分岔 Vertical Self-Resonant Bifurcation \cite{asanoAnalysisPeriodmultiplyingBifurcations2022,aydinExplorationVerticalSelfresonant2025}。越过垂直自共振点后，平面族与空间族之间出现一系列桥接族 bridging families，连接平面逆行轨道与三维顺行空间轨道，形成 Dragonfly 蜻蜓型与 Hoverfly 食蚜蝇型等高倾角极轨类形态。这一系列桥接族为需要大倾角覆盖的驻留与观测任务提供了从稳定平面族出发的设计入口 \cite{aydinExplorationVerticalSelfresonant2025}。
 
 ## 与 Lyapunov 轨道的关系
 

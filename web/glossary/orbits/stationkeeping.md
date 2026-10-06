@@ -1,6 +1,6 @@
 ---
 title: 轨道保持（Stationkeeping）
-description: 抵偿导航误差、执行误差与环境摄动，使航天器长期驻留标称轨道的控制过程；平动点轨道固有不稳定，需以目标点法、Floquet 模态控制、最优控制与模型预测控制等策略周期性施加小速度增量修正，从 ARTEMIS 到 Gateway 的地月任务均以此为核心操作环节。
+description: 抵偿导航误差、执行误差与环境摄动，使航天器长期驻留标称轨道的控制过程。平动点轨道固有不稳定，需以目标点法、Floquet 模态控制、最优控制与模型预测控制等策略周期性施加小速度增量修正，从 ARTEMIS 到 Gateway 的地月任务均以此为核心操作环节。
 keywords: 轨道保持, stationkeeping, 位置保持, 轨道维持, 平动点轨道, 晕轨道, NRHO, DRO, Lissajous 轨道
 author: 天疆说
 date: 2026-10-01
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 轨道保持（Stationkeeping）详解 | 术语定义
-  description: 抵偿导航误差、执行误差与环境摄动，使航天器长期驻留标称轨道的控制过程；平动点轨道固有不稳定，需以目标点法、Floquet 模态控制、最优控制与模型预测控制等策略周期性施加小速度增量修正。
+  description: 抵偿导航误差、执行误差与环境摄动，使航天器长期驻留标称轨道的控制过程。平动点轨道固有不稳定，需以目标点法、Floquet 模态控制、最优控制与模型预测控制等策略周期性施加小速度增量修正。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 轨道保持（Stationkeeping）详解 | 术语定义
-  description: 抵偿导航误差、执行误差与环境摄动，使航天器长期驻留标称轨道的控制过程；平动点轨道固有不稳定，需以目标点法、Floquet 模态控制、最优控制与模型预测控制等策略周期性施加小速度增量修正。
+  description: 抵偿导航误差、执行误差与环境摄动，使航天器长期驻留标称轨道的控制过程。平动点轨道固有不稳定，需以目标点法、Floquet 模态控制、最优控制与模型预测控制等策略周期性施加小速度增量修正。
   image: /logo.png
 permalink: /glossary/orbits/stationkeeping/
 aliases:
@@ -50,11 +50,11 @@ related:
 
 ## 方法谱系
 
-- **目标点法与在轨验证**：以标称轨道上预先选定的目标点为参照施加修正，ARTEMIS 作为首批地月平动点轨道器完成了此类保持策略的在轨验证 \cite{foltaStationkeepingFirstEarthmoon2012}；地月平动点轨道保持的理论、建模与运行经验已有系统总结 \cite{foltaEarthMoonLibration2014}。
-- **Floquet 模态与最优控制**：基于单值矩阵特征分解辨识不稳定方向，把修正限制在少数敏感轴上，再与最优控制或降阶方法结合以降低燃耗 \cite{cuevasdelvalleOptimalFloquetStationkeeping2023}。
-- **近直线晕轨道的低成本保持**：计入轨道确定误差、摄动与推力噪声的高保真仿真给出双策略维持方案并配备轨迹发散实时预警 \cite{guzzettiStationkeepingAnalysisSpacecraft2017}；面向 Gateway 的长期保持策略进一步规范化 \cite{muralidharanStationkeepingEarthmoonRectilinear2021}，全状态目标模型预测控制把机动规划在线化 \cite{shimaneStationkeepingNearrectilinearHalo2025}。
-- **低推力保持**：以连续小推力替代脉冲修正，配合反馈控制律实现近直线晕轨道的低推力驻留保持 \cite{gaoLowthrustStationkeepingControl2023}。
-- **稳定轨道上的编队保持**：远距离逆行轨道长期稳定，但其近距离编队仍需按周期施加机动以约束相对运动的不确定性传播 \cite{aoStationkeepingStrategiesClose2024}。
+- 目标点法与在轨验证：以标称轨道上预先选定的目标点为参照施加修正，ARTEMIS 作为首批地月平动点轨道器完成了此类保持策略的在轨验证 \cite{foltaStationkeepingFirstEarthmoon2012}。地月平动点轨道保持的理论、建模与运行经验已有系统总结 \cite{foltaEarthMoonLibration2014}。
+- Floquet 模态与最优控制：基于单值矩阵特征分解辨识不稳定方向，把修正限制在少数敏感轴上，再与最优控制或降阶方法结合以降低燃耗 \cite{cuevasdelvalleOptimalFloquetStationkeeping2023}。
+- 近直线晕轨道的低成本保持：计入轨道确定误差、摄动与推力噪声的高保真仿真给出双策略维持方案并配备轨迹发散实时预警 \cite{guzzettiStationkeepingAnalysisSpacecraft2017}。面向 Gateway 的长期保持策略进一步规范化 \cite{muralidharanStationkeepingEarthmoonRectilinear2021}，全状态目标模型预测控制把机动规划在线化 \cite{shimaneStationkeepingNearrectilinearHalo2025}。
+- 低推力保持：以连续小推力替代脉冲修正，配合反馈控制律实现近直线晕轨道的低推力驻留保持 \cite{gaoLowthrustStationkeepingControl2023}。
+- 稳定轨道上的编队保持：远距离逆行轨道长期稳定，但其近距离编队仍需按周期施加机动以约束相对运动的不确定性传播 \cite{aoStationkeepingStrategiesClose2024}。
 
 ## 相关概念
 

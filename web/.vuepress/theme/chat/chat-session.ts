@@ -1,5 +1,5 @@
 /**
- * ChatSession — facade that orchestrates router → answer engine → transport.
+ * ChatSession: facade that orchestrates router, answer engine, and transport.
  *
  * The real work lives in:
  * - chat-router.ts (path selection)

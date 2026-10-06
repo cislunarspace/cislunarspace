@@ -1,7 +1,7 @@
 /**
  * 内容操作模块（Content Module，ADR-0003）的类型定义。
  *
- * taxonomy 回答「站点结构是什么」；content 回答「内容如何被安全地增删改查」。
+ * taxonomy 回答「站点结构是什么」。content 回答「内容如何被安全地增删改查」。
  * 两个内容写入者（admin GUI、agent/人工）都通过本模块操作内容。
  */
 
@@ -57,6 +57,6 @@ export interface ContentModule {
   delete(relPath: string): DeleteReport;
   /** 批量删除：回收站共用一个时间戳目录，索引只在结束时刷新一次。 */
   deleteMany(relPaths: readonly string[]): DeleteReport;
-  /** 重跑派生索引生成。write 内部已调用；幂等。 */
+  /** 重跑派生索引生成。write 内部已调用。幂等。 */
   refreshIndex(): void;
 }

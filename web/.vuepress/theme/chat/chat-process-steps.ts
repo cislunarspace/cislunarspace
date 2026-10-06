@@ -1,8 +1,8 @@
 /**
  * Pure reducer over ProcessStep[] driven by RouteCallbacks events.
  *
- * Owned by the session layer so that the view layer only renders steps —
- * it does not own the running→done transition state machine.
+ * Owned by the session layer so that the view layer only renders steps;
+ * it does not own the running-to-done transition state machine.
  */
 import type { ProcessStep, ProcessStepKey } from './chat-types';
 
@@ -17,7 +17,7 @@ export function completeRunningSteps(steps: readonly ProcessStep[]): ProcessStep
 
 /**
  * Begin a new step. Any previous `running` step is closed out as `done`
- * (since the session emits stepNav → stepExcerpt → stepAnswer sequentially).
+ * (since the session emits stepNav, stepExcerpt, and stepAnswer sequentially).
  */
 export function beginStep(
   steps: readonly ProcessStep[],
@@ -53,7 +53,7 @@ export function completeStep(
   return next;
 }
 
-/** Final flush — used in cleanup paths to guarantee no step is left `running`. */
+/** Final flush: used in cleanup paths to guarantee no step is left `running`. */
 export function finalizeSteps(steps: readonly ProcessStep[] | undefined): ProcessStep[] {
   if (!steps) return [];
   return completeRunningSteps(steps);

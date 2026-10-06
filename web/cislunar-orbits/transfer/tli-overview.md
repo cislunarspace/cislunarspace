@@ -32,7 +32,7 @@ TLI 的发射窗口由地月几何决定，主要考虑因素包括：
 
 ### 月球相位
 
-最佳 TLI 发射窗口出现在月球处于**近地点**（Perigee）附近时，此时月球距地球最近，所需转移能量最低。月球相位（与太阳的夹角）也是重要参数：理想的发射时机是月球在天空中的位置有利于观测和通信时。
+最佳 TLI 发射窗口出现在月球处于近地点（Perigee）附近时，此时月球距地球最近，所需转移能量最低。月球相位（与太阳的夹角）也是重要参数：理想的发射时机是月球在天空中的位置有利于观测和通信时。
 
 ### 发射机会频率
 
@@ -66,16 +66,16 @@ $$\Delta V_{TLI} \approx 3.1 \text{ km/s}$$
 
 典型的 TLI 发射序列：
 
-1. **LEO 入轨**：运载火箭将航天器送入停泊轨道
-2. **检查与等待**：在 LEO 执行系统检查，等待合适的发射窗口
-3. **TLI 机动**：上面级或主发动机点火，提供 $\Delta V \approx 3.1$ km/s
-4. **上面级分离**：转移级与航天器分离
-5. **中途修正**：视误差传播情况可进行 1-2 次轨迹修正，每次 $\Delta V$ 约 1 至 50 m/s \cite{LiHaiYangZaiRenDengYueZhuanYiGuiDaoPianChaiChuanBoFenXiYuZhongTuXiuZhengFangFaGaiShu2017,ZhaoYuHuiDiYueZhuanYiGuiDaoWuChaiFenXiHeZhongTuXiuZheng2011}。
-6. **月球到达**：到达月球影响球（约 64,000 km），准备轨道插入
+1. LEO 入轨：运载火箭将航天器送入停泊轨道
+2. 检查与等待：在 LEO 执行系统检查，等待合适的发射窗口
+3. TLI 机动：上面级或主发动机点火，提供 $\Delta V \approx 3.1$ km/s
+4. 上面级分离：转移级与航天器分离
+5. 中途修正：视误差传播情况可进行 1-2 次轨迹修正，每次 $\Delta V$ 约 1 至 50 m/s \cite{LiHaiYangZaiRenDengYueZhuanYiGuiDaoPianChaiChuanBoFenXiYuZhongTuXiuZhengFangFaGaiShu2017,ZhaoYuHuiDiYueZhuanYiGuiDaoWuChaiFenXiHeZhongTuXiuZheng2011}。
+6. 月球到达：到达月球影响球（约 64,000 km），准备轨道插入
 
 ## 发射窗口规划工具
 
 现代任务规划中使用 GMAT、STK 等工具进行 TLI 发射窗口优化：
 
-- **GMAT**：NASA 开源的轨道设计工具，支持 TLI 优化和 pork-chop 图生成
-- **STK**（Satellite Tool Kit）：AGI 公司的专业轨道分析软件，提供高精度的窗口计算
+- GMAT：NASA 开源的轨道设计工具，支持 TLI 优化和 pork-chop 图生成
+- STK（Satellite Tool Kit）：AGI 公司的专业轨道分析软件，提供高精度的窗口计算

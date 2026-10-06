@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 伪谱法详解 | 最优控制
-  description: 直接法的重要分支：用单一高阶全局 Lagrange 多项式逼近状态与控制，配点取 Legendre-Gauss/Radau/Lobatto 节点。谱收敛、covector mapping；覆盖 GPM、RPM、LPM、Chebyshev 变体及 GPOPS-II。
+  description: 直接法的重要分支：用单一高阶全局 Lagrange 多项式逼近状态与控制，配点取 Legendre-Gauss/Radau/Lobatto 节点。谱收敛、covector mapping。覆盖 GPM、RPM、LPM、Chebyshev 变体及 GPOPS-II。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 伪谱法详解 | 最优控制
-  description: 直接法的重要分支：用单一高阶全局 Lagrange 多项式逼近状态与控制，配点取 Legendre-Gauss/Radau/Lobatto 节点。谱收敛、covector mapping；覆盖 GPM、RPM、LPM、Chebyshev 变体及 GPOPS-II。
+  description: 直接法的重要分支：用单一高阶全局 Lagrange 多项式逼近状态与控制，配点取 Legendre-Gauss/Radau/Lobatto 节点。谱收敛、covector mapping。覆盖 GPM、RPM、LPM、Chebyshev 变体及 GPOPS-II。
   image: /logo.png
 permalink: /glossary/dynamics/pseudospectral-method/
 ---
@@ -42,7 +42,7 @@ $$t = \frac{t_f-t_0}{2}\tau + \frac{t_f+t_0}{2}.$$
 
 $$\mathbf{x}(\tau)\approx\sum_{k=0}^{N} L_k(\tau)\,\mathbf{x}_k,\quad L_k(\tau)=\prod_{\substack{j=0\\j\neq k}}^{N}\frac{\tau-\tau_j}{\tau_k-\tau_j}$$
 
-为 Lagrange 基函数。其导数在节点处的值由**微分矩阵** $\mathbf{D}$ 一次计算给出：
+为 Lagrange 基函数。其导数在节点处的值由微分矩阵 $\mathbf{D}$ 一次计算给出：
 
 $$\dot{\mathbf{x}}(\tau_i)\approx\sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k,\quad D_{ik}=\dot{L}_k(\tau_i).$$
 
@@ -58,51 +58,51 @@ $$\boldsymbol{\zeta}_i = \sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k - \frac{t_f-t_0}{2}
 
 | 名称 | 节点 | 收敛性/特性 |
 | :--- | :--- | :--- |
-| **LPM**（Lobatto pseudospectral method） | LGL：Legendre 多项式 $P_N(\tau)$ 的根 + 两端 $\pm 1$ | 端点处协态有边界效应，需做边界加权修正 |
-| **GPM**（Gauss pseudospectral method） | LG：$P_{N+1}(\tau)$ 的根（不含端点） | 协态映射最干净，端点状态作为额外变量（Benson 2005；Huntington 2007） |
-| **RPM**（Radau pseudospectral method） | LGR：$P_N(\tau)+P_{N+1}(\tau)$ 的根（含一端） | 一端连续一端离散，积分格式更稳；flipped Radau（FRPM）在 SCP 中常用于提升稀疏性（Garg et al. 2011） |
+| LPM（Lobatto pseudospectral method） | LGL：Legendre 多项式 $P_N(\tau)$ 的根 + 两端 $\pm 1$ | 端点处协态有边界效应，需做边界加权修正 |
+| GPM（Gauss pseudospectral method） | LG：$P_{N+1}(\tau)$ 的根（不含端点） | 协态映射最干净，端点状态作为额外变量（Benson 2005；Huntington 2007） |
+| RPM（Radau pseudospectral method） | LGR：$P_N(\tau)+P_{N+1}(\tau)$ 的根（含一端） | 一端连续一端离散，积分格式更稳。flipped Radau（FRPM）在 SCP 中常用于提升稀疏性（Garg et al. 2011） |
 
-三者的协态映射定理形式不同：**GPM 与 RPM 的 KKT 乘子可直接对应连续协态**，**LPM 需额外做端点加权**（Benson et al. 2006；Garg et al. 2010）。这是近年 GPOPS-II 等工具转向 RPM/FRPM 的主要原因。
+三者的协态映射定理形式不同：GPM 与 RPM 的 KKT 乘子可直接对应连续协态，LPM 需额外做端点加权（Benson et al. 2006；Garg et al. 2010）。这是近年 GPOPS-II 等工具转向 RPM/FRPM 的主要原因。
 
-Chebyshev 节点（Chebyshev-Gauss-Lobatto）的另一族：**Chebyshev 伪谱法（CPM）**，在节点与微分矩阵上有闭式表达，计算效率更高；通过共形映射 + 重心插值可显著缓解标准 CPM 微分矩阵的病态（Kosloff & Tal-Ezer 1993；Cai 等 2016）。
+Chebyshev 节点（Chebyshev-Gauss-Lobatto）的另一族：Chebyshev 伪谱法（CPM），在节点与微分矩阵上有闭式表达，计算效率更高。通过共形映射 + 重心插值可显著缓解标准 CPM 微分矩阵的病态（Kosloff & Tal-Ezer 1993；Cai 等 2016）。
 
 ## 谱收敛性与 hp 自适应
 
 谱收敛性指：对解析解，误差随节点数 $N$ 以 $O(\rho^{-N})$（$\rho>1$）下降，比任何多项式阶都快。但对非光滑解（如低推力燃料最优的 bang-bang 控制），全局多项式会出现 Gibbs 振荡，谱收敛性失效。
 
-工程对策是 **hp 自适应**：
+工程对策是 hp 自适应：
 
-- **h 型**：在控制不连续处把整段切成多相，每相独立用伪谱离散，相间用状态/控制连续性约束连接（Darby et al. 2011）。
-- **p 型**：在每段内根据误差估计加密节点数。
+- h 型：在控制不连续处把整段切成多相，每相独立用伪谱离散，相间用状态/控制连续性约束连接（Darby et al. 2011）。
+- p 型：在每段内根据误差估计加密节点数。
 
 GPOPS-II、SPARTAN 等工具内置 hp 自适应。对强 bang-bang 问题，近年发展的 flipped Radau + switching-time 提取（Hofmann & Topputo 2021）能精确定位开关时刻，把控制离散为分段常数后再优化。
 
 ## 协态映射定理
 
-伪谱法的核心理论结果是 **covector mapping theorem**（Benson 2005；Benson, Huntington, Rao 2006）：经过适当的线性变换，GPM/RPM 离散 NLP 的 KKT 乘子 $\tilde{\boldsymbol{\lambda}}_k$ 在节点上严格对应连续 OCP 的协态 $\boldsymbol{\lambda}(\tau_k)$。
+伪谱法的核心理论结果是 covector mapping theorem（Benson 2005；Benson, Huntington, Rao 2006）：经过适当的线性变换，GPM/RPM 离散 NLP 的 KKT 乘子 $\tilde{\boldsymbol{\lambda}}_k$ 在节点上严格对应连续 OCP 的协态 $\boldsymbol{\lambda}(\tau_k)$。
 
 工程意义：
 
-- 用伪谱法可直接得到协态时间历程，无需解析推导庞特里亚金极大值原理；
-- 计算 Hamiltonian $H(\mathbf{x},\mathbf{u},\boldsymbol{\lambda},t)$ 是否沿轨迹恒定，作为解的精度校核；
+- 用伪谱法可直接得到协态时间历程，无需解析推导庞特里亚金极大值原理。
+- 计算 Hamiltonian $H(\mathbf{x},\mathbf{u},\boldsymbol{\lambda},t)$ 是否沿轨迹恒定，作为解的精度校核。
 - 把伪谱协态作为 [间接法](/glossary/dynamics/indirect-methods/) 或 [同伦法](/glossary/dynamics/homotopy-method/) 的初值，实现伪谱-间接混合求解（Cai 等 2016）。
 
 ## 工具与软件
 
 | 工具 | 算法 | 来源 |
 | :--- | :--- | :--- |
-| **GPOPS-II** | hp 自适应 LGR 配点 + Ipopt/SNOPT | Patterson & Rao 2014，MATLAB |
-| **DIDO** | Legendre 伪谱 | Ross 等，MATLAB |
-| **GPOPS**（原版） | Gauss 伪谱 | Rao et al. 2010 |
-| **SPARTAN** | flipped Radau | Sagliano 2017 |
-| **CasADi + 自写配点** | 任意 | CasADi 符号框架 |
+| GPOPS-II | hp 自适应 LGR 配点 + Ipopt/SNOPT | Patterson & Rao 2014，MATLAB |
+| DIDO | Legendre 伪谱 | Ross 等，MATLAB |
+| GPOPS（原版） | Gauss 伪谱 | Rao et al. 2010 |
+| SPARTAN | flipped Radau | Sagliano 2017 |
+| CasADi + 自写配点 | 任意 | CasADi 符号框架 |
 
 ## 应用要点
 
-- **平动点轨道转移**：低推力 Halo↔NRHO 转移、Halo 族内转移，伪谱法因配点少、协态精度高而是首选之一（Liu 2025；Kayama 2022）。
-- **多阶段问题**：发射/级间分离/入轨/再入等多阶段任务，GPOPS-II 的相间事件约束可自然处理（Jorris 等）。
-- **作为 SCP 离散化后端**：在 [序列凸规划](/glossary/dynamics/scp/) 中，FRPM 因稀疏性优于 GPM 而被广泛采用（Hofmann & Topputo 2021）。
-- **不适用场合**：强 bang-bang 燃料最优问题若不做 hp 加密，会有 Gibbs 振荡；高速率状态变化（如 6DOF 旋转-平移耦合）改用直接配点更稳。
+- 平动点轨道转移：低推力 Halo↔NRHO 转移、Halo 族内转移，伪谱法因配点少、协态精度高而是首选之一（Liu 2025；Kayama 2022）。
+- 多阶段问题：发射/级间分离/入轨/再入等多阶段任务，GPOPS-II 的相间事件约束可自然处理（Jorris 等）。
+- 作为 SCP 离散化后端：在 [序列凸规划](/glossary/dynamics/scp/) 中，FRPM 因稀疏性优于 GPM 而被广泛采用（Hofmann & Topputo 2021）。
+- 不适用场合：强 bang-bang 燃料最优问题若不做 hp 加密，会有 Gibbs 振荡。高速率状态变化（如 6DOF 旋转-平移耦合）改用直接配点更稳。
 
 ## 相关概念
 

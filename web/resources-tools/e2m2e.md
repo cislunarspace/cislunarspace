@@ -36,14 +36,14 @@ permalink: /resources-tools/e2m2e/
 
 ### 积分器与动力学
 
-- Rust 积分器内核：单步 RK（PD45 / PD78 / RK89）、Adams 多步、Störmer–Cowell 二阶积分；状态转移矩阵（STM）传播；事件检测（terminal / direction 语义）。
+- Rust 积分器内核：单步 RK（PD45 / PD78 / RK89）、Adams 多步、Störmer–Cowell 二阶积分。状态转移矩阵（STM）传播。事件检测（terminal / direction 语义）。
 - 动力学模型：CR3BP（快速设计）、星历 N 体（SPICE，精确外推）、含太阳解析摄动的 BCR4BP，以及三者之间的转换。
 - 高精度力模型：点质量与第三体引力、球谐重力场（含固体潮）、ECOM 9 系数光压、大气阻力、太阳光压、连续推力。
 
 ### 任务轨道设计
 
 - 周期轨道族：DRO、Halo、Lyapunov、Lissajous、共振轨道（RO）、DPO、Axial、三角平动点 SPO / LPO、Horseshoe。
-- 数值算法：微分修正、多重打靶、延拓；全链路 CR3BP 初猜 → 星历修正 → 高精度预报。
+- 数值算法：微分修正、多重打靶、延拓。全链路 CR3BP 初猜  到  星历修正  再到  高精度预报。
 - 名义轨道契约（NominalOrbit）：等间距状态表 + Floquet 基 + 投影因子，供轨道保持直接消费。
 
 ### 转移轨道设计
@@ -55,22 +55,22 @@ permalink: /resources-tools/e2m2e/
 
 ### 轨道控制
 
-- 三种控制律：特征点、目标点严格、目标点宽松；蒙特卡洛测定轨与推力误差仿真。
+- 三种控制律：特征点、目标点严格、目标点宽松。蒙特卡洛测定轨与推力误差仿真。
 - 角动量管理：姿态发动机联合控制。
 
 ## 支持的轨道类型
 
 | 轨道类型 | 描述 |
 | --------- | ------ |
-| **DRO** | 远距离逆行轨道（Distant Retrograde Orbit） |
-| **Halo** | Halo 轨道，包含 NRHO（近直线晕轨道）变体 |
-| **Lyapunov** | Lyapunov 轨道，平面周期轨道 |
-| **Lissajous** | Lissajous 轨道，拟周期轨道 |
-| **RO** | 共振轨道，支持 2:1、3:1、3:2、4:1、4:3，缺省为 3:1 |
-| **DPO** | 远距离顺行轨道（Distant Prograde Orbit） |
-| **Axial** | Axial 轨道 |
-| **SPO / LPO** | 三角平动点轨道，包含 SPO 与 LPO |
-| **Horseshoe** | 马蹄形轨道 |
+| DRO | 远距离逆行轨道（Distant Retrograde Orbit） |
+| Halo | Halo 轨道，包含 NRHO（近直线晕轨道）变体 |
+| Lyapunov | Lyapunov 轨道，平面周期轨道 |
+| Lissajous | Lissajous 轨道，拟周期轨道 |
+| RO | 共振轨道，支持 2:1、3:1、3:2、4:1、4:3，缺省为 3:1 |
+| DPO | 远距离顺行轨道（Distant Prograde Orbit） |
+| Axial | Axial 轨道 |
+| SPO / LPO | 三角平动点轨道，包含 SPO 与 LPO |
+| Horseshoe | 马蹄形轨道 |
 
 ## 接口方式
 
@@ -108,7 +108,7 @@ uv pip install "e2m2e[mcp]"
 
 ### CLI
 
-CLI 子命令与 MCP 工具一一对应，命令行中的下划线转换为连字符；使用 `e2m2e --help` 查看完整帮助。
+CLI 子命令与 MCP 工具一一对应，命令行中的下划线转换为连字符。使用 `e2m2e --help` 查看完整帮助。
 
 ## 快速开始
 
@@ -147,11 +147,11 @@ cd e2m2e
 make dev
 ```
 
-e2m2e 所需的全部星历数据已打包在 [GitHub Release](https://github.com/cislunarspace/CODE-core/releases) 的 `kernels-v1` 中，`make dev` 会自动下载到 `kernels/`；也可手动下载解压到该目录。
+e2m2e 所需的全部星历数据已打包在 [GitHub Release](https://github.com/cislunarspace/CODE-core/releases) 的 `kernels-v1` 中，`make dev` 会自动下载到 `kernels/`。也可手动下载解压到该目录。
 
 ## 项目架构
 
-项目采用 ADR 0011 定义的五层架构，由内到外严格单向依赖：`data/` 是数据层，负责常数、星历、坐标系数据、类型与模板及轨道库存储；`crates/` 是 Rust 数值层，包含 `cspice`、`e2m2e-integrators`、`e2m2e-spice`、`e2m2e-propagation`、`e2m2e-levelset`、`e2m2e-hjb-dynamics`、`e2m2e-forces` 7 个 crate；`algorithm/` 是算法层，负责动力学与力模型编排、轨道族、微分修正、转移等算法；`api/` 是接口层，提供 Facade、MCP、CLI 与 sidecar；`tools/` 是工具层。
+项目采用 ADR 0011 定义的五层架构，由内到外严格单向依赖：`data/` 是数据层，负责常数、星历、坐标系数据、类型与模板及轨道库存储。`crates/` 是 Rust 数值层，包含 `cspice`、`e2m2e-integrators`、`e2m2e-spice`、`e2m2e-propagation`、`e2m2e-levelset`、`e2m2e-hjb-dynamics`、`e2m2e-forces` 7 个 crate。`algorithm/` 是算法层，负责动力学与力模型编排、轨道族、微分修正、转移等算法。`api/` 是接口层，提供 Facade、MCP、CLI 与 sidecar。`tools/` 是工具层。
 
 ## 相关资源
 

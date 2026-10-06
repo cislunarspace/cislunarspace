@@ -107,7 +107,7 @@ describe('chat-router', () => {
         signal: new AbortController().signal,
       });
 
-      // Keyword fallback picks the "轨道" path
+      // Keyword fallback picks the “轨道” path
       expect(decision.paths).toContain('/cislunar-orbits/');
     });
 

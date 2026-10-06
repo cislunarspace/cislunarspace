@@ -22,14 +22,14 @@ permalink: /cislunar-orbits/nrho/gateway-cases/
 
 ## 月球门户（Gateway）概述
 
-NASA 的**月球门户**（Lunar Gateway）是 Artemis 计划的核心基础设施，是一个计划在地月空间运行的小型空间站\cite{smithArtemisProgramOverview2020}。与国际空间站（ISS）不同，Gateway 并非常驻轨道，而是运行在 L2 南族 9:2 会合共振 NRHO 上，每约 6.56 天绕月一圈，支持深空任务与极区着陆\cite{crusanDeepSpaceGateway2018}。
+NASA 的月球门户（Lunar Gateway）是 Artemis 计划的核心基础设施，是一个计划在地月空间运行的小型空间站\cite{smithArtemisProgramOverview2020}。与国际空间站（ISS）不同，Gateway 并非常驻轨道，而是运行在 L2 南族 9:2 会合共振 NRHO 上，每约 6.56 天绕月一圈，支持深空任务与极区着陆\cite{crusanDeepSpaceGateway2018}。
 
 Gateway 选择 NRHO 作为其运行轨道，主要基于以下考量：
 
-1. **轨道稳定性**：NRHO 弱双曲不稳定性弱，维持所需推进剂少
-2. **月面可达性**：从 NRHO 到月球两极的转移 ΔV 约为 200-400 m/s，优于 LEO
-3. **通信覆盖**：每个周期的大部分时间悬于月球南极上空，对极区着陆区可见性好
-4. **深空中转**：NRHO 可作为地月往返与深空任务的中间站
+1. 轨道稳定性：NRHO 弱双曲不稳定性弱，维持所需推进剂少
+2. 月面可达性：从 NRHO 到月球两极的转移 ΔV 约为 200-400 m/s，优于 LEO
+3. 通信覆盖：每个周期的大部分时间悬于月球南极上空，对极区着陆区可见性好
+4. 深空中转：NRHO 可作为地月往返与深空任务的中间站
 
 Gateway 的目标 NRHO 参数为近月点高度约 1500 至 3000 公里，掠过月球北极上空，远月点距月心约 7 万公里，伸向月球南极外侧，周期约 6.56 天，连续 15 年的参考轨迹已经公布\cite{leeWhitePaperGateway2019}。
 
@@ -50,8 +50,8 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 
 从地球到 Gateway NRHO 的转移通常分为两个阶段：
 
-1. **地月转移轨道（TLI）**：从 LEO 或直接发射进入地月转移轨道
-2. **NRHO 插入**：到达月球附近后沿稳定流形接入目标轨道并实施插入机动\cite{williams2017targeting}
+1. 地月转移轨道（TLI）：从 LEO 或直接发射进入地月转移轨道
+2. NRHO 插入：到达月球附近后沿稳定流形接入目标轨道并实施插入机动\cite{williams2017targeting}
 
 典型的 TLI 能量预算约为 $\Delta V \approx 3.1-3.3$ km/s（相对于 LEO），到达月球影响球后的 NRHO 插入机动约为 200-400 m/s。
 

@@ -26,7 +26,7 @@ const EXPECTED_IMAGES = [
 
 // ── Directory naming ──────────────────────────────────────────────────────────
 
-describe('public/envrionment → environment rename (issue #75)', () => {
+describe('public/envrionment renamed to environment (issue #75)', () => {
   it('correctly-spelled environment directory exists', () => {
     expect(fs.existsSync(CORRECT_DIR)).toBe(true);
     expect(fs.statSync(CORRECT_DIR).isDirectory()).toBe(true);

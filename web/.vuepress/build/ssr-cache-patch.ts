@@ -7,20 +7,20 @@
 // ─────────────────────────────────────────
 // VuePress 的渲染循环（bundler-vite/dist/index.js）是串行 for 循环：
 //     for (page of app.pages) await renderPage(...)
-// 一次一页，一个 Node 进程一个 JS 线程 → 只用 1 个核。本机 48 线程全闲。
+// 一次一页，一个 Node 进程一个 JS 线程，只用 1 个核。本机 48 线程全闲。
 //
 // 要用多核必须并行化渲染。多进程（旧 sharded-build）能用核，但引入路由表
-// 合并、app.js 重写、缓存互冲等脆弱活。这里走**进程内 worker 线程池**：
+// 合并、app.js 重写、缓存互冲等脆弱活。这里走进程内 worker 线程池：
 // 一个进程、一次构建、无合并。两层 patch：
 //
-// 1. bundlerutils：renderPageToString 改成"查缓存 → 未命中派发给 worker 池"。
+// 1. bundlerutils：renderPageToString 改成“先查缓存，未命中再派发给 worker 池”。
 //    worker 各自 import server bundle、建独立 Vue app（独立核）。
-// 2. bundler-vite：把串行 for 循环换成并发限流（并发数 = worker 数），
+// 2. bundler-vite：把串行 for 循环换成并发限流（并发数等于 worker 数），
 //    这样多个 renderPage 同时在飞、喂满 worker 池。
 //
 // 缓存（增量构建用）：每页 md5(serverBundleName + filePath + content + frontmatter)。
-// server bundle 文件名（含内容 hash）作 buildKey，主题/配置一改 → bundle 重打 →
-// 文件名变 → 全量失效，避免脏缓存。只改个别 md → 只那几页重算。
+// server bundle 文件名（含内容 hash）作 buildKey。主题或配置一改，bundle 重打，
+// 文件名随之一变，全量失效，避免脏缓存。只改个别 md，则只重算那几页。
 
 import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
@@ -74,7 +74,7 @@ parentPort.on("message", async (msg) => {
 function bundlerutilsSource(): string {
   const webDirLit = JSON.stringify(webDir);
   const workerLit = JSON.stringify(workerFile);
-  return `// Patched by ssr-cache-patch.ts — 构建结束后自动还原原文件。
+  return `// Patched by ssr-cache-patch.ts，构建结束后自动还原原文件。
 import { fs, importFile, importFileDefault } from "@vuepress/utils";
 import { ssrContextKey } from "vue";
 import { Worker } from "node:worker_threads";
@@ -96,12 +96,12 @@ const _stats = { hits: 0, misses: 0 };
 
 function _cacheFileFor(pagePath) {
   const h = createHash("md5").update(pagePath).digest("hex");
-  return path.join(CACHE_DIR, h.slice(0, 2), h + ".json"); // 按 md5 前两位分桶 → 256 子目录
+  return path.join(CACHE_DIR, h.slice(0, 2), h + ".json"); // 按 md5 前两位分桶，共 256 个子目录
 }
 
 // 首次渲染前校验 envHash：构建环境变了（主题/配置/生成 JSON 改动）就清空整片缓存。
-// envHash 由 build-cached.ts 从 .vuepress/ 源文件内容算得，确定性；不能用 server
-// bundle 文件名——Rolldown 那个非确定性。
+// envHash 由 build-cached.ts 从 .vuepress/ 源文件内容算得，确定性。不能用 server
+// bundle 文件名（Rolldown 生成，非确定性）。
 function _checkBuildKey() {
   let prev = "";
   try { prev = readFileSync(BUILDKEY_FILE, "utf-8"); } catch (e) {}
@@ -213,7 +213,7 @@ const renderPageToString = async ({ page, vueApp, vueRouter, ssrContextInit }) =
         ssrString: cached.ssrString,
       };
     }
-  } catch (e) {} // ENOENT 或解析失败 → 当 miss
+  } catch (e) {} // ENOENT 或解析失败按 miss 处理
   _stats.misses++;
   const r = await _dispatch(page.path);
   try {
@@ -227,7 +227,7 @@ const renderPageToString = async ({ page, vueApp, vueRouter, ssrContextInit }) =
 
 export { createVueServerApp, getSsrTemplate, renderPageToString };
 
-// 仅打印统计；缓存条目是随渲染逐页落盘的，无需 save-on-exit。
+// 仅打印统计。缓存条目是随渲染逐页落盘的，无需 save-on-exit。
 process.on("exit", () => {
   process.stderr.write("[ssr-render-cache] hits=" + _stats.hits + " misses=" + _stats.misses + "\\n");
 });

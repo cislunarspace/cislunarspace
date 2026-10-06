@@ -22,9 +22,9 @@ permalink: /cislunar-orbits/nrho/stability-maintenance/
 
 ## 初值敏感性与发散时标
 
-NRHO 是弱双曲不稳定轨道：线性化分析表明它沿部分方向存在模大于 1 的 Floquet 乘子，初值误差会逐圈放大。以工程常用的 9:2 共振成员为例，单值矩阵的不稳定乘子约为 −2.18（弱双曲区间内约在 2.2 至 3.1 之间），对应每个周期（6.56 天）误差约放大至 2 倍量级——发散速度远低于大尺度晕轨道动辄数百倍的乘子\cite{muralidharanLeveragingStretchingDirections2022,muralidharanStationkeepingEarthmoonRectilinear2021}。折算成连续时间增长率约为 0.1 d⁻¹ 量级，e 折叠时间为天量级而非月量级。
+NRHO 是弱双曲不稳定轨道：线性化分析表明它沿部分方向存在模大于 1 的 Floquet 乘子，初值误差会逐圈放大。以工程常用的 9:2 共振成员为例，单值矩阵的不稳定乘子约为 −2.18（弱双曲区间内约在 2.2 至 3.1 之间），对应每个周期（6.56 天）误差约放大至 2 倍量级，发散速度远低于大尺度晕轨道动辄数百倍的乘子\cite{muralidharanLeveragingStretchingDirections2022,muralidharanStationkeepingEarthmoonRectilinear2021}。折算成连续时间增长率约为 0.1 d⁻¹ 量级，e 折叠时间为天量级而非月量级。
 
-正因放大慢、可控，NRHO 才能以极低的维持代价长期运行；但同样意味着测定轨误差与机动执行误差必须每圈监控并压制，不能放任累积。
+正因放大慢、可控，NRHO 才能以极低的维持代价长期运行。但同样意味着测定轨误差与机动执行误差必须每圈监控并压制，不能放任累积。
 
 ## ΔV 维持预算
 
@@ -36,7 +36,7 @@ NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典
 
 典型数值：
 
-- L1/L2 NRHO：年维持 $\Delta V$ 为数米/秒量级；采用 Cauchy–Green 最大伸展方向引导的靶向机动或全状态目标模型预测控制等现代方法，可降至 2 m/s/年以内，NASA Gateway 任务基线亦在此量级\cite{muralidharanLeveragingStretchingDirections2022,shimaneRevolutionspacedOutputfeedbackModel2025}
+- L1/L2 NRHO：年维持 $\Delta V$ 为数米/秒量级。采用 Cauchy–Green 最大伸展方向引导的靶向机动或全状态目标模型预测控制等现代方法，可降至 2 m/s/年以内，NASA Gateway 任务基线亦在此量级\cite{muralidharanLeveragingStretchingDirections2022,shimaneRevolutionspacedOutputfeedbackModel2025}
 
 ## 维持策略
 
@@ -50,7 +50,7 @@ NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典
 
 ### 维持时机优化
 
-最优维持策略需在修正频率与修正精度之间权衡。数值研究表明\cite{muralidharanLeveragingStretchingDirections2022}：将机动置于远月点偏离区，即真近点角约 160 至 200 度、Cauchy–Green 应变张量最大伸展方向最能发挥作用的位置，可用理论最小能量抑制发散；配合全状态目标 MPC 还可消除沿轨相位漂移\cite{shimaneStationkeepingNearrectilinearHalo2025}。过低的修正频率会导致偏差累积增加单次代价，过高则增加调度复杂度。
+最优维持策略需在修正频率与修正精度之间权衡。数值研究表明\cite{muralidharanLeveragingStretchingDirections2022}：将机动置于远月点偏离区，即真近点角约 160 至 200 度、Cauchy–Green 应变张量最大伸展方向最能发挥作用的位置，可用理论最小能量抑制发散。配合全状态目标 MPC 还可消除沿轨相位漂移\cite{shimaneStationkeepingNearrectilinearHalo2025}。过低的修正频率会导致偏差累积增加单次代价，过高则增加调度复杂度。
 
 ## 外部摄动的影响
 

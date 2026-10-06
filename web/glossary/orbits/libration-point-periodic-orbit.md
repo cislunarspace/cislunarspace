@@ -1,6 +1,6 @@
 ---
 title: 平动点周期轨道（Libration Point Orbit, LPO）
-description: 围绕平动点的周期轨道统称；狭义指三体问题中不稳定周期轨道的子集（共线点情形），广义涵盖共线点的 Lyapunov/垂直/晕/李萨如/准晕各族与三角点的短周期/长周期/垂直各族。
+description: 围绕平动点的周期轨道统称。狭义指三体问题中不稳定周期轨道的子集（共线点情形），广义涵盖共线点的 Lyapunov/垂直/晕/李萨如/准晕各族与三角点的短周期/长周期/垂直各族。
 keywords: 平动点周期轨道, Libration Point Orbit, LPO, 平动点轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 平动点周期轨道（LPO）详解 | 术语定义
-  description: 围绕平动点的周期轨道统称；狭义指三体问题中不稳定周期轨道的子集（共线点情形），广义涵盖共线点的 Lyapunov/垂直/晕/李萨如/准晕各族与三角点的短周期/长周期/垂直各族。
+  description: 围绕平动点的周期轨道统称。狭义指三体问题中不稳定周期轨道的子集（共线点情形），广义涵盖共线点的 Lyapunov/垂直/晕/李萨如/准晕各族与三角点的短周期/长周期/垂直各族。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 平动点周期轨道（LPO）详解 | 术语定义
-  description: 围绕平动点的周期轨道统称；狭义指三体问题中不稳定周期轨道的子集（共线点情形），广义涵盖共线点的 Lyapunov/垂直/晕/李萨如/准晕各族与三角点的短周期/长周期/垂直各族。
+  description: 围绕平动点的周期轨道统称。狭义指三体问题中不稳定周期轨道的子集（共线点情形），广义涵盖共线点的 Lyapunov/垂直/晕/李萨如/准晕各族与三角点的短周期/长周期/垂直各族。
   image: /logo.png
 permalink: /glossary/orbits/libration-point-periodic-orbit/
 ---
@@ -30,17 +30,17 @@ permalink: /glossary/orbits/libration-point-periodic-orbit/
 
 ## 定义
 
-平动点周期轨道是围绕平动点运行的周期轨道统称。狭义定义取三体问题中**不稳定**周期轨道的子集（\cite{renOptimalLowthrustTransfers2012}，其研究限于共线点平面情形）；广义统称涵盖共线平动点与三角平动点附近的全部周期轨道族（\cite{qiaoOrbitalParameterCharacterization2025,heDesignCislunarNavigation2025} 的族谱）。文献中共线平动点轨道（collinear Lagrangian point orbit）指绕 L1/L2（及 L3）的周期或准周期轨道，如李萨如、晕轨道等 \cite{bucchioniRendezvousCislunarSpace2021}。
+平动点周期轨道是围绕平动点运行的周期轨道统称。狭义定义取三体问题中不稳定周期轨道的子集（\cite{renOptimalLowthrustTransfers2012}，其研究限于共线点平面情形）。广义统称涵盖共线平动点与三角平动点附近的全部周期轨道族（\cite{qiaoOrbitalParameterCharacterization2025,heDesignCislunarNavigation2025} 的族谱）。文献中共线平动点轨道（collinear Lagrangian point orbit）指绕 L1/L2（及 L3）的周期或准周期轨道，如李萨如、晕轨道等 \cite{bucchioniRendezvousCislunarSpace2021}。
 
 ## 共线点的鞍-周期结构与族谱
 
-共线平衡点的运动模式是鞍 × 中心 × 中心：周期分量产生绕点的周期运动，鞍分量产生趋向与离开这些周期解的运动，即稳定与不稳定不变流形；同一能量下不同平动点周期轨道间可借流形实现零代价转移 \cite{renOptimalLowthrustTransfers2012} 及其转引的 Koon 2000 等成果；\cite{qiaoOrbitalParameterCharacterization2025}。
+共线平衡点的运动模式是鞍 × 中心 × 中心：周期分量产生绕点的周期运动，鞍分量产生趋向与离开这些周期解的运动，即稳定与不稳定不变流形。同一能量下不同平动点周期轨道间可借流形实现零代价转移 \cite{renOptimalLowthrustTransfers2012} 及其转引的 Koon 2000 等成果。\cite{qiaoOrbitalParameterCharacterization2025}。
 
-族谱 \cite{qiaoOrbitalParameterCharacterization2025,heDesignCislunarNavigation2025}：共线点 L1/L2/L3 各有 Lyapunov、南/北晕、垂直族，以及李萨如、准晕、准 Lyapunov（准 Lyapunov 轨道是李萨如与准晕之间的分界）；三角点 L4/L5 各有平面（短周期/长周期）与垂直族，见[蝌蚪轨道](/glossary/orbits/tadpole-orbit/)。
+族谱 \cite{qiaoOrbitalParameterCharacterization2025,heDesignCislunarNavigation2025}：共线点 L1/L2/L3 各有 Lyapunov、南/北晕、垂直族，以及李萨如、准晕、准 Lyapunov（准 Lyapunov 轨道是李萨如与准晕之间的分界）。三角点 L4/L5 各有平面（短周期/长周期）与垂直族，见[蝌蚪轨道](/glossary/orbits/tadpole-orbit/)。
 
 ## 四体模型中的替代
 
-双圆四体问题中，平衡点与周期轨道分别被周期轨道与不变环面替代：平动点→周期轨道（动力学替代轨道，经 ε→1 延拓），周期轨道→不变环面 \cite{renOptimalLowthrustTransfers2012}。
+双圆四体问题中，平衡点与周期轨道分别被周期轨道与不变环面替代：平动点被周期轨道替代（动力学替代轨道，经 ε 从小到 1 延拓），周期轨道被不变环面替代 \cite{renOptimalLowthrustTransfers2012}。
 
 ## 编目应用
 

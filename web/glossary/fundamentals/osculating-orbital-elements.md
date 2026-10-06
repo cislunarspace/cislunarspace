@@ -1,6 +1,6 @@
 ---
 title: 吻切轨道根数（Osculating Orbital Elements）
-description: 在某一瞬时冻结摄动力后航天器遵循的开普勒椭圆的六个轨道根数。区别于平均根数，吻切根数包含全部短周期与长周期变化，代表高精度瞬时轨迹；其时间演化由拉格朗日／高斯行星方程描述，是摄动理论、轨道确定与地月空间庞加莱截面分析的起点。
+description: 在某一瞬时冻结摄动力后航天器遵循的开普勒椭圆的六个轨道根数。区别于平均根数，吻切根数包含全部短周期与长周期变化，代表高精度瞬时轨迹。其时间演化由拉格朗日／高斯行星方程描述，是摄动理论、轨道确定与地月空间庞加莱截面分析的起点。
 keywords: 吻切轨道根数, Osculating Orbital Elements, 开普勒根数, 平均根数, 拉格朗日行星方程, 高斯行星方程, 摄动理论, 吻切条件, 庞加莱截面, 轨道确定
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 吻切轨道根数（Osculating Orbital Elements）详解 | 术语定义
-  description: 在某一瞬时冻结摄动力后航天器遵循的开普勒椭圆的六个轨道根数。区别于平均根数，吻切根数包含全部短周期与长周期变化，代表高精度瞬时轨迹；其时间演化由拉格朗日／高斯行星方程描述。
+  description: 在某一瞬时冻结摄动力后航天器遵循的开普勒椭圆的六个轨道根数。区别于平均根数，吻切根数包含全部短周期与长周期变化，代表高精度瞬时轨迹。其时间演化由拉格朗日／高斯行星方程描述。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 吻切轨道根数（Osculating Orbital Elements）详解 | 术语定义
-  description: 在某一瞬时冻结摄动力后航天器遵循的开普勒椭圆的六个轨道根数。区别于平均根数，吻切根数包含全部短周期与长周期变化，代表高精度瞬时轨迹；其时间演化由拉格朗日／高斯行星方程描述。
+  description: 在某一瞬时冻结摄动力后航天器遵循的开普勒椭圆的六个轨道根数。区别于平均根数，吻切根数包含全部短周期与长周期变化，代表高精度瞬时轨迹。其时间演化由拉格朗日／高斯行星方程描述。
   image: /logo.png
 permalink: /glossary/fundamentals/osculating-orbital-elements/
 ---
@@ -36,13 +36,13 @@ permalink: /glossary/fundamentals/osculating-orbital-elements/
 
 ## 数学表述
 
-设 $c_i(t)$ 为六个吻切根数 $(a, e, i, \Omega, \omega, M)$，在无摄动力时它们为常数；有摄动加速度 $\vec{a}_\text{pert}$ 时其时间导数为：
+设 $c_i(t)$ 为六个吻切根数 $(a, e, i, \Omega, \omega, M)$，在无摄动力时它们为常数。有摄动加速度 $\vec{a}_\text{pert}$ 时其时间导数为：
 
 $$
 \frac{d c_i}{dt} = f_i(c_1, \dots, c_6, \vec{a}_\text{pert})
 $$
 
-维持吻切特征需满足 **吻切条件**（condition of osculation，Geyling and Westerman 1971）：
+维持吻切特征需满足 吻切条件（condition of osculation，Geyling and Westerman 1971）：
 
 $$
 \sum_{i=1}^{6} \frac{\partial \vec{x}(\vec{c}, t)}{\partial c_i} \frac{d c_i}{dt} \equiv \vec{0}
@@ -50,7 +50,7 @@ $$
 
 即位置对根数的偏导加权和为零，这保证瞬时轨道的速度表达式与二体问题形式一致，使每个瞬时的 $(\vec{r}, \vec{v})$ 都精确对应到一个开普勒椭圆。
 
-吻切根数的演化方程分两类：保守摄动用 **拉格朗日行星方程**（Lagrange VOP，以摄动势函数 $R$ 的梯度表示）；非保守摄动用 **高斯行星方程**（Gauss VOP，直接代入摄动加速度分量）\cite{valladoFundamentalsAstrodynamicsApplications2022}（Battin 1999）。
+吻切根数的演化方程分两类：保守摄动用 拉格朗日行星方程（Lagrange VOP，以摄动势函数 $R$ 的梯度表示）。非保守摄动用 高斯行星方程（Gauss VOP，直接代入摄动加速度分量）\cite{valladoFundamentalsAstrodynamicsApplications2022}（Battin 1999）。
 
 ## 吻切根数与平均根数的区别
 
@@ -61,7 +61,7 @@ $$
 | 用途 | 实时跟踪、精确轨道确定 | 长期预报、任务规划 |
 | 积分步长 | 必须小于短周期 | 可用大步长（半解析理论） |
 
-单次平均（single-averaged）剔除短周期项，保留长期和长周期；双次平均（double-averaged）同时剔除短周期和长周期，仅留长期项 \cite{valladoFundamentalsAstrodynamicsApplications2022}。平均根数理论的核心是将吻切根数展开为傅里叶级数形式：
+单次平均（single-averaged）剔除短周期项，保留长期和长周期。双次平均（double-averaged）同时剔除短周期和长周期，仅留长期项 \cite{valladoFundamentalsAstrodynamicsApplications2022}。平均根数理论的核心是将吻切根数展开为傅里叶级数形式：
 
 $$
 c = c_0 + \dot{c}_1 (t-t_0) + K_1 \cos(2\omega) + K_2 \sin(2\nu+\omega) + K_3 \cos(2\nu)
@@ -71,11 +71,11 @@ $$
 
 ## 在地月空间中的应用
 
-- **庞加莱截面分析**：将航天器状态投影到庞加莱截面时，常使用吻切根数（特别是近地点半径 $r_p$、偏心率 $e$ 等）作为截面坐标。吻切根数在截面上的迹线是分析弱稳定边界转移中轨道演化模式的直观工具 \cite{oshimaGlobalSearchLowthrust2017}。
+- 庞加莱截面分析：将航天器状态投影到庞加莱截面时，常使用吻切根数（特别是近地点半径 $r_p$、偏心率 $e$ 等）作为截面坐标。吻切根数在截面上的迹线是分析弱稳定边界转移中轨道演化模式的直观工具 \cite{oshimaGlobalSearchLowthrust2017}。
 
-- **月球轨道停泊设计**：环月轨道的吻切根数漂移由月球非球形引力（$J_2, J_3, \dots$）与地球第三体摄动共同驱动，漂移规律直接影响停泊轨道的设计约束（陈天冀等 2023）。
+- 月球轨道停泊设计：环月轨道的吻切根数漂移由月球非球形引力（$J_2, J_3, \dots$）与地球第三体摄动共同驱动，漂移规律直接影响停泊轨道的设计约束（陈天冀等 2023）。
 
-- **轨道确定**：由测量数据通过最小二乘或滤波方法，所解出的是某一历元的吻切根数，而不是平均根数。
+- 轨道确定：由测量数据通过最小二乘或滤波方法，所解出的是某一历元的吻切根数，而不是平均根数。
 
 ## 相关概念
 

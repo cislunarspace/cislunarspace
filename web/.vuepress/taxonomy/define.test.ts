@@ -1,5 +1,5 @@
 /**
- * defineTaxonomy tests — exercise the section / page flattening rules.
+ * defineTaxonomy tests: exercise the section / page flattening rules.
  *
  * These are RED-then-GREEN tests: each one pins one behaviour of the
  * flattening pass, so any future change to the algorithm that drops or
@@ -57,7 +57,7 @@ describe('defineTaxonomy', () => {
     expect(display.kind).toBe('group');
     expect(display.path).toBeNull();
     const child = nodes.find((n) => n.id === 'resources-tools/simulation-software/gmat')!;
-    // Display-only group contributes no path segment — children inherit grandparent.
+    // Display-only group contributes no path segment: children inherit grandparent.
     expect(child.path).toBe('/resources-tools/gmat/');
   });
 

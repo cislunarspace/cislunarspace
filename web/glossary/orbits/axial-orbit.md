@@ -1,6 +1,6 @@
 ---
 title: 轴向轨道（Axial Orbit）
-description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支；L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
+description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支。L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
 keywords: 轴向轨道, Axial Orbit, 平动点轨道, 共振轨道, 系统平移, 周期轨道
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 轴向轨道（Axial Orbit）详解 | 术语定义
-  description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支；L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
+  description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支。L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 轴向轨道（Axial Orbit）详解 | 术语定义
-  description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支；L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
+  description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支。L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
   image: /logo.png
 permalink: /glossary/orbits/axial-orbit/
 ---
@@ -30,23 +30,23 @@ permalink: /glossary/orbits/axial-orbit/
 
 ## 定义
 
-轴向轨道是平动点轨道（LPO）的一类三维周期轨道族。共线点处，轴向族与晕轨道族分别从平面 Lyapunov 族的**不同位置**分岔产生；轴向族关于 **x 轴**对称，并因此分为 axial-1、axial-2 两支 \cite{heReviewCislunarConstellation2026}。三角点处，L4/L5 的轴向族从垂直 Lyapunov 族分岔，且不再具有对称性 \cite{heReviewCislunarConstellation2026}。在周期轨道目录体系中，轴向族与 Lyapunov、垂直、晕族并列为标准 LPO 族 \cite{foltaEarthMoonSystem2015,guzzettiRapidTrajectoryDesign2016}。
+轴向轨道是平动点轨道（LPO）的一类三维周期轨道族。共线点处，轴向族与晕轨道族分别从平面 Lyapunov 族的不同位置分岔产生。轴向族关于 x 轴对称，并因此分为 axial-1、axial-2 两支 \cite{heReviewCislunarConstellation2026}。三角点处，L4/L5 的轴向族从垂直 Lyapunov 族分岔，且不再具有对称性 \cite{heReviewCislunarConstellation2026}。在周期轨道目录体系中，轴向族与 Lyapunov、垂直、晕族并列为标准 LPO 族 \cite{foltaEarthMoonSystem2015,guzzettiRapidTrajectoryDesign2016}。
 
 ## 稳定性
 
-L1/L2 轴向轨道全族强不稳定、无中心子空间（不能用于环面编队）\cite{guzzettiRapidTrajectoryDesign2016}；L4 轴向轨道线性稳定，外推 120 年保持有界 \cite{vaqueroLeveragingResonantorbitManifolds2014}。早期目录给出的 L1/L2 轴向族稳定指数在百位量级（强不稳定），与上述定性结论一致。
+L1/L2 轴向轨道全族强不稳定、无中心子空间（不能用于环面编队）\cite{guzzettiRapidTrajectoryDesign2016}。L4 轴向轨道线性稳定，外推 120 年保持有界 \cite{vaqueroLeveragingResonantorbitManifolds2014}。早期目录给出的 L1/L2 轴向族稳定指数在百位量级（强不稳定），与上述定性结论一致。
 
 ## 轴向共振轨道
 
-三维**非对称**共振轨道称轴向共振轨道，由分叉轨道沿 z 方向微扰算得 \cite{vaqueroLeveragingResonantorbitManifolds2014}。其 3:1 成员可经**系统平移**（system translation，即质量参数 μ 延拓）从地月系直接迁移到其他三体系统（如土星-土卫六系），无需在新系统重做初猜-分岔-延拓流程 \cite{vaqueroLeveragingResonantorbitManifolds2014}。两点注意：
+三维非对称共振轨道称轴向共振轨道，由分叉轨道沿 z 方向微扰算得 \cite{vaqueroLeveragingResonantorbitManifolds2014}。其 3:1 成员可经系统平移（system translation，即质量参数 μ 延拓）从地月系直接迁移到其他三体系统（如土星-土卫六系），无需在新系统重做初猜-分岔-延拓流程 \cite{vaqueroLeveragingResonantorbitManifolds2014}。两点注意：
 
-- 共振比有两种约定：Vaquero & Howell 的 3:1 指航天器 3 圈 / 月球 1 圈，而 Parker & Anderson 2014、Guzzetti 2016 的 p:q 约定是月球 p 圈 : 航天器 q 圈；同一轨道在两种约定下记号相反，引用须写明。
+- 共振比有两种约定：Vaquero & Howell 的 3:1 指航天器 3 圈 / 月球 1 圈，而 Parker & Anderson 2014、Guzzetti 2016 的 p:q 约定是月球 p 圈 : 航天器 q 圈。同一轨道在两种约定下记号相反，引用须写明。
 - 系统平移不保持稳定性：地月系 4:3 共振族全不稳定，而土星-土卫六系同族大多线性稳定 \cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 应用
 
-- **L4 轴向轨道转移**：LEO→L4 轴向轨道的三维转移：由 L2 轴向轨道稳定流形（天然经过地球附近）拼接 3:2 轴向共振轨道不稳定流形，ΔV 3.27 km/s、22.54 天；L4 轴向轨道线性稳定、对地月双覆盖、通信不中断 \cite{vaqueroLeveragingResonantorbitManifolds2014}。
-- **态势感知**：L4/L5 轴向轨道穿越地月空间大体积区域，在空间态势感知架构优化中高频入选，利于对平面机动目标的持续探测 \cite{klonowskiCislunarSpaceDomain2024}。
+- L4 轴向轨道转移：LEO 到 L4 轴向轨道的三维转移：由 L2 轴向轨道稳定流形（天然经过地球附近）拼接 3:2 轴向共振轨道不稳定流形，ΔV 3.27 km/s、22.54 天。L4 轴向轨道线性稳定、对地月双覆盖、通信不中断 \cite{vaqueroLeveragingResonantorbitManifolds2014}。
+- 态势感知：L4/L5 轴向轨道穿越地月空间大体积区域，在空间态势感知架构优化中高频入选，利于对平面机动目标的持续探测 \cite{klonowskiCislunarSpaceDomain2024}。
 
 ## 术语变体对照
 

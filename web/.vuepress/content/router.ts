@@ -5,7 +5,7 @@
  *   - glossary 词条：glossary/<category>/<slug>.md
  *     （glossary/README.md 同理不识别）
  *   - kb-section 页面：<section>/ 下任意深度的 .md（含各层 README）。
- *     section 目录列表由调用方注入 —— 生产环境从 taxonomy 的
+ *     section 目录列表由调用方注入 。 生产环境从 taxonomy 的
  *     kind:'section' 节点派生，测试传 fixture 列表。
  */
 import type { ContentFamily, ContentRoute } from './types.ts';
@@ -21,7 +21,7 @@ function isSafeRelPath(relPath: string): boolean {
 }
 
 export interface ContentRouter {
-  /** 识别一个相对路径；不认识（含 README 索引页、未知目录）返回 null。 */
+  /** 识别一个相对路径。不认识（含 README 索引页、未知目录）返回 null。 */
   resolve(relPath: string): ContentRoute | null;
 }
 

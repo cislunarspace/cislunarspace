@@ -47,7 +47,7 @@
 
 范围（删到站点从未有过 Space News 的状态）：
 
-- 内容：`web/space-news/`（zh，240MB）、`web/en/space-news/`（en 镜像）。
+- 内容：`web/space-news/`（zh，240 MB）、`web/en/space-news/`（en 镜像）。
 - 管线：`scripts/` 下 space-news 相关脚本（update、publish、config、fix）、`scripts/skills/` 写作 skill。
 - 代码：admin 集成、SpaceNewsArticle/Sidebar/Home/Archive 组件与布局、taxonomy 的 news-category 体系、首页新闻卡片。
 - AI：路由索引与语境料生成中的新闻条目（生成逻辑保留，输入收缩）。

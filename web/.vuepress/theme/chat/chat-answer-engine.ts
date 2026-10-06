@@ -5,7 +5,7 @@
  * payload to send to the answer transport: it loads the site context
  * (when two-phase retrieval is on), builds the system prompt (with or
  * without the retrieved excerpt blob), trims history, and assembles the
- * final model payload. It does not call the transport itself — ChatSession
+ * final model payload. It does not call the transport itself: ChatSession
  * dispatches stream vs. non-stream after this.
  */
 import {

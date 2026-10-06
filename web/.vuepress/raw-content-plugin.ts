@@ -1,5 +1,5 @@
 /**
- * Raw content plugin — exposes page markdown content via frontmatter.__rawContent.
+ * Raw content plugin: exposes page markdown content via frontmatter.__rawContent.
  * Used by the AI chat feature to access raw page content at runtime.
  */
 export const rawContentPlugin = {

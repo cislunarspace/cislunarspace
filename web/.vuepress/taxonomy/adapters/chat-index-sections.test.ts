@@ -8,9 +8,9 @@ import type { TaxonomyNode } from '../types';
  * display-only group (path null):
  *
  *   orbits (section)
- *   ├── orbits/index (index — should be skipped)
+ *   ├── orbits/index (index: should be skipped)
  *   ├── orbits/nrho (page)
- *   ├── orbits/display-group (group, path null — skipped but children kept)
+ *   ├── orbits/display-group (group, path null: skipped but children kept)
  *   │   └── orbits/display-group/child (page)
  *   └── orbits/deep-space (page)
  */

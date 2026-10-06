@@ -1,5 +1,5 @@
 /**
- * Taxonomy source data — single declarative file authoring all
+ * Taxonomy source data: single declarative file authoring all
  * currently-flat node kinds: navbar, wayfinding, glossary.
  *
  * Each top-level node has a fully-explicit `id` (no derivation), so the

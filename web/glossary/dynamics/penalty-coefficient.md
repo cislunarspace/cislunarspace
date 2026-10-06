@@ -1,6 +1,6 @@
 ---
 title: 罚系数（Penalty Coefficient）
-description: 最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率；系数越小，优先节省燃料。
+description: 最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率。系数越小，优先节省燃料。
 keywords: 罚系数, Penalty Coefficient, 轨道设计, 最优控制, 动力学建模, 脉冲机动
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 罚系数详解 | 术语定义
-  description: 最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率；系数越小，优先节省燃料。
+  description: 最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率。系数越小，优先节省燃料。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 罚系数详解 | 术语定义
-  description: 最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率；系数越小，优先节省燃料。
+  description: 最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率。系数越小，优先节省燃料。
   image: /logo.png
 permalink: /glossary/dynamics/penalty-coefficient/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/penalty-coefficient/
 
 ## 定义
 
-最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率；系数越小，优先节省燃料。
+最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率。系数越小，优先节省燃料。
 
 ## 应用价值
 

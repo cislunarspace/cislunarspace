@@ -43,11 +43,11 @@ $$F(\mathbf{X}) = \begin{bmatrix} X_1(t_2) \\ X_2(t_3) \\ \vdots \\ X_{n-1}(t_n)
 
 ## 连接点选取策略
 
-Liu 与 Liu 在 2025 年提出的选取策略揭示了**连接点位置对计算成败的关键影响**\cite{liuNoteComputationMultirevolution2025}，并给出了系统性的选取方法。
+Liu 与 Liu 在 2025 年提出的选取策略揭示了连接点位置对计算成败的关键影响\cite{liuNoteComputationMultirevolution2025}，并给出了系统性的选取方法。
 
 ### 条件数分析
 
-状态转移矩阵 $\Phi(t_i, t_{i-1})$ 的条件数 $C$ 取决于弧段长度和起始点位置。当起始点靠近近月点时，$C$ 急剧增大（可达数个量级），导致约束方程组病态，Newton-Raphson 修正过冲而发散。因此，**弧段端点必须远离近月点**。
+状态转移矩阵 $\Phi(t_i, t_{i-1})$ 的条件数 $C$ 取决于弧段长度和起始点位置。当起始点靠近近月点时，$C$ 急剧增大（可达数个量级），导致约束方程组病态，Newton-Raphson 修正过冲而发散。因此，弧段端点必须远离近月点。
 
 ### 相对距离参数 $s$
 
@@ -61,7 +61,7 @@ $$s = \begin{cases} \dfrac{x_R - x_1}{x_R - x_L}, & \text{L1 情形} \\[6pt] \df
 
 - 当 $N = 2$ 时，$s$ 应大于 0.4
 - 当 $N \geq 4$ 时，$s$ 可降低至 0.2 以下
-- 段数越多，连接点可越靠近月球；近月点半径较大的 NRHO 需更大的 $s$ 值\cite{liuNoteComputationMultirevolution2025}
+- 段数越多，连接点可越靠近月球。近月点半径较大的 NRHO 需更大的 $s$ 值\cite{liuNoteComputationMultirevolution2025}
 
 ## 计算结果
 

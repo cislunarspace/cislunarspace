@@ -26,7 +26,7 @@ const domain = 'https://cislunarspace.cn';
 
 if (!process.env.DEEPSEEK_API_KEY && process.env.NODE_ENV !== 'production') {
   console.warn(
-    '[config] DEEPSEEK_API_KEY not set — 本地 /api/ai 代理将无法请求 DeepSeek。请复制 web/.env.example 为 web/.env 并填入密钥。',
+    '[config] DEEPSEEK_API_KEY not set，本地 /api/ai 代理将无法请求 DeepSeek。请复制 web/.env.example 为 web/.env 并填入密钥。',
   );
 }
 

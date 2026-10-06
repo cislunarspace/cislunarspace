@@ -1,4 +1,4 @@
-/** 卫星轨道仿真 — 纯轨道力学（无 Cesium / DOM） */
+/** 卫星轨道仿真，纯轨道力学（无 Cesium / DOM） */
 
 export const GM = 3.986004418e14; // m³/s²
 export const RE = 6378137.0; // m
@@ -101,7 +101,7 @@ export function E2nu(E: number, e: number) {
   return Math.atan2(Math.sqrt(1 - e * e) * Math.sin(E), Math.cos(E) - e);
 }
 
-/** 轨道六要素 → ECI 位置速度（m, m/s） */
+/** 轨道六要素换算为 ECI 位置速度（m, m/s） */
 export function kep2eci(a: number, e: number, i: number, raan: number, argp: number, nu: number) {
   const p = a * (1 - e * e);
   const r = p / (1 + e * Math.cos(nu));
@@ -166,7 +166,7 @@ export function propagate(
   return { nu: nu1, raan: raan0 + dO * dt, argp: argp0 + dW * dt, a };
 }
 
-/** ECI → ECEF（简化格林尼治恒星时） */
+/** ECI 换算为 ECEF（简化格林尼治恒星时） */
 export function eci2ecef(pos: readonly [number, number, number], epoch: Date) {
   const jd = epoch.getTime() / 86400000 + 2440587.5;
   const gst = (280.46061837 + 360.98564736629 * (jd - 2451545.0)) * D2R;

@@ -1,5 +1,5 @@
 /**
- * orbitSimI18n — 轨道仿真组件的界面字符串
+ * orbitSimI18n，轨道仿真组件的界面字符串
  *
  * 从 OrbitSimLab.vue 抽取。组件通过 `const ui = orbitSimI18n()` 调用。
  */
@@ -41,7 +41,7 @@ export function orbitSimI18n() {
     assumptionsTitle: '模型与隐式假设',
     assumptionsHint: '本沙盘不是什么',
     assumptionsLead:
-      '教学可视化专用。下列内容多为界面未写明、学习者容易默认成立的隐含前提——在此显式列出。',
+      '教学可视化专用。下列内容多为界面未写明、学习者容易默认成立的隐含前提，在此显式列出。',
     assumptionsItems: [
       '力模型：二体开普勒根数 + 一阶 J2 长期项（平均化）摄动；无大气阻力、光压、高阶重力场与第三体引力。',
       '坐标系：轨道在类 ECI 惯性系中积分；地球自转显示采用简化的恒星时角关系，非 IERS 完整地球定向模型。',
@@ -63,7 +63,7 @@ export function orbitSimI18n() {
       e: {
         name: '离心率 e',
         unit: '',
-        desc: '轨道椭圆度，e=0圆轨道，e→1抛物线',
+        desc: '轨道椭圆度，e=0 圆轨道，e 趋近 1 为抛物线',
       },
       i: {
         name: '轨道倾角 i',

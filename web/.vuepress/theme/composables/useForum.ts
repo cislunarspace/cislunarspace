@@ -283,7 +283,7 @@ export function useForum() {
 
   /**
    * Converts raw text to HTML-safe content suitable for v-html.
-   * escapeHtml is applied internally — do NOT call escapeHtml on the result.
+   * escapeHtml is applied internally: do NOT call escapeHtml on the result.
    */
   function renderContent(content: string): string {
     return escapeHtml(content).replace(/\n/g, '<br>');

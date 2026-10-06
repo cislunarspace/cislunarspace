@@ -1,6 +1,6 @@
 ---
 title: 李萨如轨道（Lissajous Orbit）
-description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数；ARTEMIS 任务的 L1/L2 轨道即属此类。
+description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数。ARTEMIS 任务的 L1/L2 轨道即属此类。
 keywords: 李萨如轨道, Lissajous Orbit, 准周期轨道, quasi-halo, ARTEMIS, 平动点轨道
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 李萨如轨道（Lissajous Orbit）详解 | 术语定义
-  description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数；ARTEMIS 任务的 L1/L2 轨道即属此类。
+  description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数。ARTEMIS 任务的 L1/L2 轨道即属此类。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 李萨如轨道（Lissajous Orbit）详解 | 术语定义
-  description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数；ARTEMIS 任务的 L1/L2 轨道即属此类。
+  description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数。ARTEMIS 任务的 L1/L2 轨道即属此类。
   image: /logo.png
 permalink: /glossary/orbits/lissajous-orbit/
 ---
@@ -38,20 +38,20 @@ permalink: /glossary/orbits/lissajous-orbit/
 
 ## 族内变体
 
-- **square 李萨如轨道**：面内振幅与面外振幅相等（α3=α4）的李萨如轨道 \cite{alessiTwomanoeuvresTransfersLEOs2010a}。注意square指振幅约束，两频率仍不同，不存在运动周期相同的性质。
-- **quasi-halo（准晕轨道）**：围绕晕轨道的准周期环面 \cite{foltaEarthMoonLibration2014}。生成关系：当面外振幅超过某一下界后，李萨如轨道失去 xy 平面对称、在主天体连线方向出现禁区，即成为 quasi-halo \cite{renk2010exploration}。故 quasi-halo 的面外振幅并不小，它对应李萨如族的大振幅端。
-- **高/低 z 幅值模式**：非线性模型中 z 幅值不再恒定，在高、低两种模式间循环；进入相位决定落在环面的哪个模式区。低 z 幅值模式又称近平面模式（nearly-planar mode）。ARTEMIS 在 L2 侧利用高 z 幅值模式适应弹道转移的面外到达条件，在 L1 侧则利用低 z 幅值（近平面）相位降低进入低倾角月球轨道的 ΔV \cite{foltaEarthMoonLibration2014}。注意该模式是大准晕轨道（及一般准周期轨道）的性质；Folta \cite{foltaEarthMoonLibration2014} 明示李萨如轨道（庞加莱图中央区）不具备近平面模式。
+- square 李萨如轨道：面内振幅与面外振幅相等（α3=α4）的李萨如轨道 \cite{alessiTwomanoeuvresTransfersLEOs2010a}。注意square指振幅约束，两频率仍不同，不存在运动周期相同的性质。
+- quasi-halo（准晕轨道）：围绕晕轨道的准周期环面 \cite{foltaEarthMoonLibration2014}。生成关系：当面外振幅超过某一下界后，李萨如轨道失去 xy 平面对称、在主天体连线方向出现禁区，即成为 quasi-halo \cite{renk2010exploration}。故 quasi-halo 的面外振幅并不小，它对应李萨如族的大振幅端。
+- 高/低 z 幅值模式：非线性模型中 z 幅值不再恒定，在高、低两种模式间循环。进入相位决定落在环面的哪个模式区。低 z 幅值模式又称近平面模式（nearly-planar mode）。ARTEMIS 在 L2 侧利用高 z 幅值模式适应弹道转移的面外到达条件，在 L1 侧则利用低 z 幅值（近平面）相位降低进入低倾角月球轨道的 ΔV \cite{foltaEarthMoonLibration2014}。注意该模式是大准晕轨道（及一般准周期轨道）的性质。Folta \cite{foltaEarthMoonLibration2014} 明示李萨如轨道（庞加莱图中央区）不具备近平面模式。
 
 ## 参数化
 
-- **osculating 李萨如六要素** \cite{renk2010exploration}：类比开普勒根数：不稳定振幅 A1（指数增长项）、稳定振幅 A2（指数衰减项）、面内振幅 Ax（Ay 与 Ax 成比例，不单列）、面外振幅 Az、面内相位 Φxy、面外相位 Φz。取 A1=A2=0 即得李萨如轨道。
-- **有效相位面（EPP）**：有效相位 (Φ, Ψ) 与给定振幅的李萨如轨道状态一一对应，用于两星交会与避食设计 \cite{perozziSpaceManifoldDynamics2010}。
+- osculating 李萨如六要素 \cite{renk2010exploration}：类比开普勒根数：不稳定振幅 A1（指数增长项）、稳定振幅 A2（指数衰减项）、面内振幅 Ax（Ay 与 Ax 成比例，不单列）、面外振幅 Az、面内相位 Φxy、面外相位 Φz。取 A1=A2=0 即得李萨如轨道。
+- 有效相位面（EPP）：有效相位 (Φ, Ψ) 与给定振幅的李萨如轨道状态一一对应，用于两星交会与避食设计 \cite{perozziSpaceManifoldDynamics2010}。
 
 ## 应用
 
-- **ARTEMIS**：P1、P2 分别于 2010-08-25 和 2010-10-22 经一次李萨如入轨机动（LOI）进入地月 L2、L1 李萨如轨道 \cite{foltaApplicationsMultibodyDynamical2012}。站保在星历模型含误差下以轨道延续法最优，消耗下限约 15 m/s/年、预算 25 m/s/年以内 \cite{foltaStationkeepingLissajousTrajectories2010}。事后用庞加莱图判定，ARTEMIS 三条平动点轨道实际是大 quasi-halo 轨道的弧段 \cite{foltaEarthMoonLibration2014}；设计口径称李萨如、事后判定称 quasi-halo，两种说法都有出处。
-- **日地↔地月自然转移**：两个三体系统的双曲流形在庞加莱截面上位置匹配，可实现李萨如轨道间的机动自由转移，多重打靶细化后耦合机动一般小于 100 m/s \cite{canaliasComputingNaturalTransfers2008}。
-- **避食**：李萨如两参数族的形状可控性强，日食规避可以较低的代价实现 \cite{alessiTwomanoeuvresTransfersLEOs2010a}。
+- ARTEMIS：P1、P2 分别于 2010-08-25 和 2010-10-22 经一次李萨如入轨机动（LOI）进入地月 L2、L1 李萨如轨道 \cite{foltaApplicationsMultibodyDynamical2012}。站保在星历模型含误差下以轨道延续法最优，消耗下限约 15 m/s/年、预算 25 m/s/年以内 \cite{foltaStationkeepingLissajousTrajectories2010}。事后用庞加莱图判定，ARTEMIS 三条平动点轨道实际是大 quasi-halo 轨道的弧段 \cite{foltaEarthMoonLibration2014}。设计口径称李萨如、事后判定称 quasi-halo，两种说法都有出处。
+- 日地↔地月自然转移：两个三体系统的双曲流形在庞加莱截面上位置匹配，可实现李萨如轨道间的机动自由转移，多重打靶细化后耦合机动一般小于 100 m/s \cite{canaliasComputingNaturalTransfers2008}。
+- 避食：李萨如两参数族的形状可控性强，日食规避可以较低的代价实现 \cite{alessiTwomanoeuvresTransfersLEOs2010a}。
 
 ## 术语变体对照
 

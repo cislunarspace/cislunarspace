@@ -1,5 +1,5 @@
 /**
- * TaxonomyModule factory — wraps a flat array of TaxonomyNode and exposes
+ * TaxonomyModule factory: wraps a flat array of TaxonomyNode and exposes
  * the typed views consumed by adapters (navbar, sidebar, AI-chat, …).
  *
  * Children are pre-bucketed and pre-sorted at construction time so that

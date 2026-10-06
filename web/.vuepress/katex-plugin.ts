@@ -1,5 +1,5 @@
 /**
- * KaTeX plugin — wraps math blocks with a copy-button overlay.
+ * KaTeX plugin: wraps math blocks with a copy-button overlay.
  */
 import mk from '@traptitech/markdown-it-katex';
 

@@ -109,7 +109,7 @@ export const api = {
     return request('/api/preview/start', { method: 'POST' });
   },
 
-  /** md 路径 → 站点路由 */
+  /** md 路径换算为站点路由 */
   previewRoute(path) {
     return request(`/api/preview/route?path=${encodeURIComponent(path)}`);
   },

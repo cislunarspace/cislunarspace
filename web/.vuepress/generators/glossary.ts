@@ -41,7 +41,7 @@ interface DictCategory {
   entries: DictEntry[];
 }
 
-/** 词条标题形如「自动微分（Automatic Differentiation）」——拆出中英。 */
+/** 词条标题形如「自动微分（Automatic Differentiation）」。拆出中英。 */
 function splitTitle(title: string): { zh: string; en: string | null } {
   const m = title.match(/^(.+?)[（(](.+)[)）]\s*$/);
   if (m) return { zh: m[1].trim(), en: m[2].trim() };
