@@ -50,7 +50,7 @@ $$\{F,G\}=\nabla F^{\!\top}J\,\nabla G=\frac{\partial F}{\partial\mathbf{q}^{\!\
 
 考虑平衡点（如共线平动点）附近的 Hamilton 量 $H=H_2+\sum_{k\geq 3}H_k$，$H_k$ 为 $k$ 次齐次多项式。正规形寻找一个由生成 Hamilton 量 $G=\sum_{k\geq 3}G_k$ 的时间一映射给出的正则变换 $\boldsymbol{\zeta}\mapsto\mathbf{Z}(\boldsymbol{\zeta})$，使新变量下不需要的项逐阶消失（Gómez et al. 2001, vol. III）。第 $k$ 阶的决定方程为同调方程
 
-$$\widetilde H_k = H_k + \{G_k,H_2\} + （\text{低阶已知项}）,$$
+$$\widetilde H_k = H_k + \{G_k,H_2\} + (\text{低阶已知项}),$$
 
 未知量为 $G_k$ 与新的系数多项式 $\widetilde H_k$。$H_k$ 的每个单项式求解 $G_k$ 时产生形如 $\mathbf{k}\cdot\boldsymbol{\omega}$（频率点积）的分母。若 $\mathbf{k}\cdot\boldsymbol{\omega}$ 很小但不为零，$G_k$ 的系数极大（即小除数问题），形式级数可能发散。共线平动点处的双曲频率 $\lambda$ 为非共振项分母提供下界，故有限阶化简是良定义的。
 

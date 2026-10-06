@@ -1,12 +1,12 @@
 ---
-title: “受摄流形”
+title: "受摄流形"
 description: 在天然不变流形的基础上施加微小速度增量调整后形成的修正流形。天然不变流形的近月点月心距通常不等于目标环月轨道半径，通过在Halo轨道入轨点处加入脉冲变轨，可使流形的近月点满足月心距约束。受摄流形是两脉冲转移轨道设计的基础，将天然流形的刚性放松为弹性，扩大了可转移的相位范围。
 keywords: "受摄流形, A modified invariant manifold formed by applying a small velocity increment adjustment to the natural invariant manifold. Since the natural manifold's perilune distance usually does not match the target lunar orbit radius, an impulse at the Halo orbit injection point reshapes the manifold to satisfy the selenocentric distance constraint. Perturbed manifolds extend the transfer phase range beyond the two fixed points of natural zero-cost trajectories., , dynamics"
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: “受摄流形”
+  title: "受摄流形"
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:

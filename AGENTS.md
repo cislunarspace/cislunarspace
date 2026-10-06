@@ -54,19 +54,19 @@
 - 创建走 GitHub 的五类模板（Bug / Feature / Idea / Research / Task），标题前缀与 type 标签由模板预填。
 - 面板唯一自动入板规则是子 issue，普通 issue 建成后不自动入板，须手动加入：
 
- gh project item-add 4 --owner cislunarspace --url <issue 的 URL>
+      gh project item-add 4 --owner cislunarspace --url <issue 的 URL>
 
- 入板后状态自动置为 Inbox，不用手设。Inbox 之后的推进与 Priority、Start Date 由维护者手动维护（面板结构、状态语义与自动联动的完整说明见 CONTRIBUTING.md 的 Project 流水线一节）。
+  入板后状态自动置为 Inbox，不用手设。Inbox 之后的推进与 Priority、Start Date 由维护者手动维护（面板结构、状态语义与自动联动的完整说明见 CONTRIBUTING.md 的 Project 流水线一节）。
 
 ### PR
 
 - 标题回应 issue 标题：解决哪个 issue，就用 issue 的那套词说同一件事，不许另起炉灶用实现手段重新命名。
 - Closes 置顶，其后五段：
- - Summary：一段话讲做了什么。
- - Motivation：为什么值得做，呼应 issue 的 Problem。
- - Changes：逐文件讲改动点和动机，一行一个文件。
- - Why this is safe：为什么不会弄坏现有行为（不变量没动、逃生路径、边界情况）。
- - Test plan：勾选框逐项报结果。只报事实：数字、命令、截图。既存失败如实标注 pre-existing，与本体改动关联不明也要说明。不写应当通过。
+  - Summary：一段话讲做了什么。
+  - Motivation：为什么值得做，呼应 issue 的 Problem。
+  - Changes：逐文件讲改动点和动机，一行一个文件。
+  - Why this is safe：为什么不会弄坏现有行为（不变量没动、逃生路径、边界情况）。
+  - Test plan：勾选框逐项报结果。只报事实：数字、命令、截图。既存失败如实标注 pre-existing，与本体改动关联不明也要说明。不写应当通过。
 - 与 issue 方案不一致的落法，单独一段交代原因，不混进改动清单。说不清对账的，Closes 改 Refs。
 
 ### 评论

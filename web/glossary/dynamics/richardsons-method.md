@@ -1,12 +1,12 @@
 ---
-title: “Richardson方法（Richardson's Method）”
+title: "Richardson方法（Richardson's Method）"
 description: 由Richardson于1980年提出的平动点附近周期轨道的解析近似构造法。将运动方程在平动点处展开到三阶，用Lindstedt-Poincaré摄动法消除长期项，得到Halo轨道的三阶解析解（包含面内和面外分量）。该方法是Halo轨道数值计算的第一步，为后续微分修正提供初始猜测。
 keywords: "Richardson方法, Richardson's Method, 轨道动力学, 姿态控制, 稳定性"
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: “Richardson方法（Richardson's Method）”
+  title: "Richardson方法（Richardson's Method）"
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:

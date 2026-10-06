@@ -1,6 +1,6 @@
 ---
 title: 测量雅可比矩阵（Measurement Jacobian）
-description: “描述测量量对系统状态局部敏感程度的矩阵，即测量函数对状态向量的偏导数。在可观测性Gramian P(x₀) = ∫₀ᵀ Φ'(t)H'(t)H(t)Φ(t)dt 中，H即测量雅可比，与基本矩阵解 Φ 共同决定Gramian的各元素。”
+description: "描述测量量对系统状态局部敏感程度的矩阵，即测量函数对状态向量的偏导数。在可观测性Gramian P(x₀) = ∫₀ᵀ Φ'(t)H'(t)H(t)Φ(t)dt 中，H即测量雅可比，与基本矩阵解 Φ 共同决定Gramian的各元素。"
 keywords: 测量雅可比矩阵, Measurement Jacobian, 轨道动力学, 轨道优化, 非线性动力学
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 测量雅可比矩阵详解 | 术语定义
-  description: “描述测量量对系统状态局部敏感程度的矩阵，即测量函数对状态向量的偏导数。在可观测性Gramian P(x₀) = ∫₀ᵀ Φ'(t)H'(t)H(t)Φ(t)dt 中，H即测量雅可比，与基本矩阵解 Φ 共同决定Gramian的各元素。”
+  description: "描述测量量对系统状态局部敏感程度的矩阵，即测量函数对状态向量的偏导数。在可观测性Gramian P(x₀) = ∫₀ᵀ Φ'(t)H'(t)H(t)Φ(t)dt 中，H即测量雅可比，与基本矩阵解 Φ 共同决定Gramian的各元素。"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 测量雅可比矩阵详解 | 术语定义
-  description: “描述测量量对系统状态局部敏感程度的矩阵，即测量函数对状态向量的偏导数。在可观测性Gramian P(x₀) = ∫₀ᵀ Φ'(t)H'(t)H(t)Φ(t)dt 中，H即测量雅可比，与基本矩阵解 Φ 共同决定Gramian的各元素。”
+  description: "描述测量量对系统状态局部敏感程度的矩阵，即测量函数对状态向量的偏导数。在可观测性Gramian P(x₀) = ∫₀ᵀ Φ'(t)H'(t)H(t)Φ(t)dt 中，H即测量雅可比，与基本矩阵解 Φ 共同决定Gramian的各元素。"
   image: /logo.png
 permalink: /glossary/dynamics/measurement-jacobian/
 ---

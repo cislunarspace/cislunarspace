@@ -40,7 +40,7 @@ permalink: /glossary/fundamentals/synodic-frame/
 
 x 轴方向在不同文献里并不统一，读图、读方程前应先确认该文采用哪一种：
 
-- 主流约定（Szebehely 1967、Gómez 2001 及多数 CR3BP 文献）：x 轴从较大主天体指向较小主天体 \cite{szebehelyTheoryOrbitRestricted1967}。地月系即地球 到 月球，日地系即太阳 再到 地球。
+- 主流约定（Szebehely 1967、Gómez 2001 及多数 CR3BP 文献）：x 轴从较大主天体指向较小主天体 \cite{szebehelyTheoryOrbitRestricted1967}。地月系即地球指向月球，日地系即太阳指向地球。
 - 反向约定（部分文献）：x 轴从小天体指向大天体。例如某些日地系研究取 x 轴由地球指向太阳，并在文中明确声明此约定与标准限制性三体问题相反。
 
 约定不同会反转 $L_1$、$L_2$、$L_3$ 在 x 轴上的相对位置和 halo、Lyapunov 等轨道族的朝向，但物理不变。读一篇陌生论文时，最快的判别法是看该文给出的 $P_1$、$P_2$ 坐标正负号。
@@ -67,4 +67,4 @@ x 轴方向在不同文献里并不统一，读图、读方程前应先确认该
 
 ## 参考文献
 
-- Gómez et al., 2001, Dynamics and Mission Design near Libration Points: vol. II（平动点邻域动力学，x 轴大→小天体约定的采用与说明）
+- Gómez et al., 2001, Dynamics and Mission Design near Libration Points: vol. II（平动点邻域动力学，x 轴由大到小天体约定的采用与说明）

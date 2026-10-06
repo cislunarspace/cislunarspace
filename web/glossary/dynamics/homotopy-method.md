@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/homotopy-method/
 
 同伦方法（homotopy method，又称同伦延拓 homotopy continuation）是求解非线性方程组 $\mathbf{F}(\mathbf{y})=\mathbf{0}$ 的一类数值方法。其思路是：构造一个含参数 $\kappa\in[0,1]$ 的同伦函数 $\mathbf{H}(\mathbf{y},\kappa)$，使
 
-$$\mathbf{H}(\mathbf{y},0)=\mathbf{G}(\mathbf{y})\ \text{（易解的“初始问题”）},\qquad \mathbf{H}(\mathbf{y},1)=\mathbf{F}(\mathbf{y})\ \text{（目标问题）},$$
+$$\mathbf{H}(\mathbf{y},0)=\mathbf{G}(\mathbf{y})\ \text{(易解的初始问题)},\qquad \mathbf{H}(\mathbf{y},1)=\mathbf{F}(\mathbf{y})\ \text{（目标问题）},$$
 
 然后从 $\kappa=0$ 的已知解出发，沿 $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ 的零曲线跟踪到 $\kappa=1$，得到 $\mathbf{F}(\mathbf{y})=\mathbf{0}$ 的解（Watson 1986；Allgower & Georg 1990）。
 
@@ -59,7 +59,7 @@ $$\mathbf{H}(\mathbf{y},\kappa)=\kappa\,\mathbf{F}(\mathbf{y})+(1-\kappa)\,\math
 
 牛顿与定点同伦用于已经有了一个粗糙猜测、想找精确解的情形。代价函数同伦与下面的推力同伦用于想从一种物理上容易的解跳到另一种物理上困难的解，是轨道优化中最重要的两类。
 
-### 能量最优  到  燃料最优（代价函数同伦）
+### 从能量最优到燃料最优（代价函数同伦）
 
 航天器小推力最优控制中，能量最优（$L^2$ 范数）性能指标
 
@@ -85,7 +85,7 @@ $$J_\varepsilon=\int_{t_0}^{t_f}\bigl[\|\mathbf{u}\|-\varepsilon\,F(\|\mathbf{u}
 
 - 对数障碍同伦（Caillau et al. 2012）：在代价中加 $-\varepsilon\ln(\|\mathbf{u}\|(1-\|\mathbf{u}\|))$，强制 $0<\|\mathbf{u}\|<1$，使哈密顿最大化处处可微，克服 L2-L1 同伦在低推力下精度恶化的困难。
 
-- 扩展对数平滑（Taheri et al. 2016）：把对数平滑改写为对切换函数（switching function）的平滑，并与状态转移矩阵法结合以获得高精度雅可比，使 $\varepsilon$ 可大幅跳跃（如 1 到 0.01 再到 $10^{-5}$）仅需 3 个子问题而非 6 个。
+- 扩展对数平滑（Taheri et al. 2016）：把对数平滑改写为对切换函数（switching function）的平滑，并与状态转移矩阵法结合以获得高精度雅可比，使 $\varepsilon$ 可大幅跳跃（如从 1 到 0.01 再到 $10^{-5}$）仅需 3 个子问题而非 6 个。
 
 - sigmoid 平滑（Zhang et al. 2025）：用 $\tanh$、代数函数、误差函数 erf 等参数化 sigmoid 逼近符号函数 $\mathrm{sign}(S)$，其中 $S$ 为切换函数。误差函数在 L1 到 L2 halo 转移算例中比 $\tanh$ 与代数形式收敛快一倍、终端误差低一个量级。
 
@@ -99,7 +99,7 @@ $$T(\kappa)=T_{\max}+\kappa\,(T_L-T_{\max}),\qquad \kappa\in[0,1],$$
 
 $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）。该思路亦用于受摄 Lambert 问题的目标点拉回，把目标点从两体 Lambert 解的位置逐步拉回到多体真实位置，每步按比例调整偏差（同伦迭代法）。
 
-### LP  到  $T_{\min}$  再到  CEV 延拓链
+### LP、$T_{\min}$ 到 CEV 的延拓链
 
 电推进任务中常用一条三阶段同伦链以避免指定任何用户猜测（Petukhov & Yoon 2023；Yoon & Petukhov 2023）：
 
@@ -134,7 +134,7 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 1. 扩大收敛域：每步子问题与前一步仅差 $\Delta\kappa$，前一步的解自然落在当前子问题牛顿收敛域内，逐步推进等效于把收敛半径放大数个量级。
 2. 处理不连续控制：代价函数同伦让 $\varepsilon>0$ 时控制连续可微，状态转移矩阵法可正常用于雅可比计算。$\varepsilon$ 足够小时控制已逼近 bang-bang，再以离散事件检测精修切换时刻。
 
-实证上，Haberkorn et al.（2004）用代价函数同伦 + 单次打靶求解了 LEO–GEO 0.1 N 级别（数百圈、数百次切换）的最小燃料转移。潘迅和泮斌峰（2019）用推力幅值同伦 + 伪弧长跟踪求解了 GEO 到 $L_2$ 的 1 N 时间最优转移，并在拐点附近发现 13 个局部最优解。Zhang et al.（2025）用 erf 平滑同伦求解了 $L_1$ Halo 再到 $L_2$ Halo 的最小燃料转移，消耗仅 0.34% 航天器质量。
+实证上，Haberkorn et al.（2004）用代价函数同伦 + 单次打靶求解了 LEO–GEO 0.1 N 级别（数百圈、数百次切换）的最小燃料转移。潘迅和泮斌峰（2019）用推力幅值同伦 + 伪弧长跟踪求解了 GEO 到 $L_2$ 的 1 N 时间最优转移，并在拐点附近发现 13 个局部最优解。Zhang et al.（2025）用 erf 平滑同伦求解了 $L_1$ Halo 到 $L_2$ Halo 的最小燃料转移，消耗仅 0.34% 航天器质量。
 
 ## 与数值延拓的辨析
 
@@ -173,7 +173,7 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 
 - Bertrand R, Epenoy R. 2002. New smoothing techniques for solving bang–bang optimal control problems: numerical results and statistical interpretation. *Optim. Control Appl. Methods* 23(4): 171–197.（$\varepsilon$-平滑化性能指标的开创性文献）
 
-- Haberkorn T, Martinon P, Gergaud J. 2004. Low thrust minimum-fuel orbital transfer: a homotopic approach. *JGCD* 27(6): 1046–1060.（能量→燃料同伦 + 单次打靶求解 LEO–GEO 0.1 N 转移；对比 PL / PC 三类跟踪算法）
+- Haberkorn T, Martinon P, Gergaud J. 2004. Low thrust minimum-fuel orbital transfer: a homotopic approach. *JGCD* 27(6): 1046–1060.（能量到燃料同伦 + 单次打靶求解 LEO–GEO 0.1 N 转移；对比 PL / PC 三类跟踪算法）
 
 - Gergaud J, Haberkorn T. 2006. Homotopy method for minimum consumption orbit transfer problem. *ESAIM Control Optim. Calc. Var.* 12(2): 294–313.（同伦方法的轨道转移应用综述）
 

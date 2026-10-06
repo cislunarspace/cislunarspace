@@ -15,7 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const webDir = path.resolve(__dirname, '..', '..');
 
 // 两层 patch（worker 池 + 并发循环）都读这个值，保持 worker 数与循环并发数一致。
-// 默认取 min（16, 核数）：每个 worker 一个独立 Vue app（~数百 MB 内存），16 个上限
+// 默认取 min(16, 核数)：每个 worker 一个独立 Vue app（~数百 MB 内存），16 个上限
 // 是内存与吞吐的折中。机器核心多时可设 SSR_WORKERS=24/32 进一步提速。
 if (!process.env.SSR_WORKERS) {
   const cpus = (os.availableParallelism?.() as number | undefined) ?? os.cpus().length;

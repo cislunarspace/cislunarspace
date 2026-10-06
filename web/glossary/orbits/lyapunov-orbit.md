@@ -51,7 +51,7 @@ Lyapunov 轨道是圆型限制性三体问题（CR3BP）中环绕共线平动点
 
 - 分岔出晕轨道族：当面内、面外频率相等（1:1 共振）时，族中垂直稳定性临界的成员分岔出晕轨道族 \cite{belloInvariantManifoldsLagrangian2010,gomezDynamicsMissionDesign2001,alessiLeavingMoonMeans2009}。
 - 分岔出轴向（axial）轨道族，分岔位置与晕轨道族不同 \cite{heReviewCislunarConstellation2026}。
-- 与垂直族互为兄弟族：平面 Lyapunov 是面外振幅 到 0 的李萨如极限，垂直轨道是面内振幅 再到 0 的李萨如极限。两者之间由准周期环面族连接 \cite{belloInvariantManifoldsLagrangian2010,guzzettiRapidTrajectoryDesign2016}。
+- 与垂直族互为兄弟族：平面 Lyapunov 是面外振幅趋零的李萨如极限，垂直轨道是面内振幅趋零的李萨如极限。两者之间由准周期环面族连接 \cite{belloInvariantManifoldsLagrangian2010,guzzettiRapidTrajectoryDesign2016}。
 
 ## 参数化与记号
 

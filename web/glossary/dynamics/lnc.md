@@ -1,12 +1,12 @@
 ---
-title: “Lawden必要条件（Lawden's Necessary Conditions）”
+title: "Lawden必要条件（Lawden's Necessary Conditions）"
 description: 燃料最优脉冲转移的一阶必要条件，包括先驱向量连续、模不超过1、在脉冲点与速度增量方向一致、内点脉冲处先驱向量导数与先驱向量正交。
 keywords: "Lawden必要条件, Lawden's Necessary Conditions, LNC, 轨道力学, 动力学, 控制"
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: “Lawden必要条件（Lawden's Necessary Conditions）”
+  title: "Lawden必要条件（Lawden's Necessary Conditions）"
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:

@@ -235,7 +235,7 @@ process.on("exit", () => {
 }
 
 // ─── patched bundler-vite：把串行 for 循环换成并发限流 ───
-// 策略：定位 "\t\tfor (const page of app.pages) {“ 锚点，找同级闭合 ”\t\t}"，整段替换。
+// 策略：定位 "\t\tfor (const page of app.pages) {" 锚点，找同级闭合 "\t\t}"，整段替换。
 function patchBundlerViteSource(src: string): string {
   const anchor = '\t\tfor (const page of app.pages) {';
   const start = src.indexOf(anchor);

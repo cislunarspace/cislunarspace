@@ -1,6 +1,6 @@
 /**
  * Wayfinding adapter: derives the historical `WayfindingIntake` shape
- * （a single disclosure called “全站导览”） from the unified taxonomy module
+ * (a single disclosure called 全站导览) from the unified taxonomy module
  * via the TaxonomyViewEngine.
  *
  * The intake is the leading entry of every page's sidebar config. The

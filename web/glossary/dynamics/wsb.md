@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: 弱稳定性与弱稳定边界（WSB）详解 | 术语定义
-  description: 太阳引力摄动下的地月弹道捕获区域：Belbruno定义 到 Hiten验证 再到 三类弱稳定现象 再到 与不变流形的对比。
+  description: 太阳引力摄动下的地月弹道捕获区域：从 Belbruno 定义、Hiten 验证，到三类弱稳定现象与不变流形的对比。
   image: /logo.png
 permalink: /glossary/dynamics/wsb/
 ---

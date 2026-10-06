@@ -40,7 +40,7 @@ permalink: /glossary/orbits/libration-point-periodic-orbit/
 
 ## 四体模型中的替代
 
-双圆四体问题中，平衡点与周期轨道分别被周期轨道与不变环面替代：平动点 到 周期轨道（动力学替代轨道，经 ε 再到 1 延拓），周期轨道 再到 不变环面 \cite{renOptimalLowthrustTransfers2012}。
+双圆四体问题中，平衡点与周期轨道分别被周期轨道与不变环面替代：平动点被周期轨道替代（动力学替代轨道，经 ε 从小到 1 延拓），周期轨道被不变环面替代 \cite{renOptimalLowthrustTransfers2012}。
 
 ## 编目应用
 

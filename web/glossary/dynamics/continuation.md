@@ -109,12 +109,12 @@ $$\begin{bmatrix}\mathbf{F}_\mathbf{x} & \mathbf{F}_\lambda \\ \dot{\mathbf{x}}_
 | 近月点高度 $h_p$ | 月球轨道族 | 工程上直观，但族存在性区间窄 |
 | 初始 $\dot{y}_0$ | 单值族 | 通过固定一个分量降低自由度 |
 
-固定步长 $\Delta\lambda$（或 $\Delta s$）选得过大会导致预测点偏离真实解曲线、[微分修正](/glossary/dynamics/differential-correction/) 不收敛。过小则计算量大。常用自适应策略：根据上一步牛顿迭代次数（少 到 放大步长，多 再到 缩小）或解曲线曲率（曲率大处减小步长）调整。
+固定步长 $\Delta\lambda$（或 $\Delta s$）选得过大会导致预测点偏离真实解曲线、[微分修正](/glossary/dynamics/differential-correction/) 不收敛。过小则计算量大。常用自适应策略：根据上一步牛顿迭代次数（迭代次数少则放大步长，多则缩小）或解曲线曲率（曲率大处减小步长）调整。
 
 ## 应用要点
 
 1. 族的系统化扫描。给定一条种子周期轨道（通常由 [微分修正](/glossary/dynamics/differential-correction/) 求得），延拓可一次生成整族数千条轨道，避免逐个孤立的初值猜测。这是 Halo/Lyapunov/DRO/NRHO 族图谱的工业级生成方式（Zhang 2019）。
-2. 模型间的过渡（model continuation）。把参数取为模型保真度（如 CR3BP 到 双圆四体 再到 星历 N 体），每步对当前模型求解平动点或周期轨道，得到保真度递增的解序列。这一思路由 Ren et al.（2012）、Dei Tos & Topputo（2017）系统化，是把 CR3BP 设计的轨道移植到真实星历环境的标配流程。
+2. 模型间的过渡（model continuation）。把参数取为模型保真度（如从 CR3BP 到双圆四体再到星历 N 体），每步对当前模型求解平动点或周期轨道，得到保真度递增的解序列。这一思路由 Ren et al.（2012）、Dei Tos & Topputo（2017）系统化，是把 CR3BP 设计的轨道移植到真实星历环境的标配流程。
 3. 准周期不变环面族的延拓。在参考周期轨道的中心流形附近建立状态网格，施加频闪映射固定、沿环面无漂移、周期匹配等约束修正后，沿族的切向扰动延拓。这是 CR3BP 中准周期 Lissajous / quasi-Halo 族生成的标准方法（Capannolo et al. 2023；Gómez et al. 2001）。
 4. 发射窗口与鲁棒性分析。把出发时刻、月面停留时长等工程参数作为延拓变量，从最优解出发扫描可行区间，评估窗口宽度与备份能力（丁百慧等 2023）。
 
@@ -150,6 +150,6 @@ $$\begin{bmatrix}\mathbf{F}_\mathbf{x} & \mathbf{F}_\lambda \\ \dot{\mathbf{x}}_
 
 - Zhang C. 2019. Numerical continuation of families of periodic orbits in the circular restricted three-body problem.（地月系周期轨道族延拓综述性算例）
 
-- Dei Tos D A, Topputo F. 2017. Trajectory refinement of three-body orbits in the real solar system model. *JGCD*.（模型延拓 CR3BP→星历的标配流程）
+- Dei Tos D A, Topputo F. 2017. Trajectory refinement of three-body orbits in the real solar system model. *JGCD*.（模型延拓从 CR3BP 到星历的标配流程）
 
 - 丁百慧 等. 2023. 载人月球探测任务转移轨道及月面着陆区评估分析.（延拓用于发射窗口鲁棒性分析的实例）

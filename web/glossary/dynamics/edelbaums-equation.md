@@ -1,12 +1,12 @@
 ---
-title: “Edelbaum公式（Edelbaum's Equation）”
+title: "Edelbaum公式（Edelbaum's Equation）"
 description: 由Edelbaum于1961年提出的解析公式，用于估算小推力飞行器在两个倾斜圆轨道之间转移所需的速度增量。核心表达式为DV² = V1² + V2² - 2V1V2·cos(pi·Di/2)，将轨道面变化和速度变化统一到一个简洁公式中，广泛用于低推力任务的快速初步分析。
 keywords: "Edelbaum公式, Edelbaum's Equation, 轨道动力学, 三体问题, 平动点"
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: “Edelbaum公式（Edelbaum's Equation）”
+  title: "Edelbaum公式（Edelbaum's Equation）"
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:

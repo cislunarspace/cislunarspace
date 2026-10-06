@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: 单值矩阵与Floquet稳定性分析 | 术语定义
-  description: 周期轨道稳定性分析的核心框架：单值矩阵 到 Floquet乘子 再到 稳定/不稳定模态，覆盖特征向量指示的不变流形方向与Lyapunov指数型发散。
+  description: 周期轨道稳定性分析的核心框架：从单值矩阵、Floquet 乘子到稳定与不稳定模态，覆盖特征向量指示的不变流形方向与Lyapunov指数型发散。
   image: /logo.png
 permalink: /glossary/dynamics/monodromy-matrix/
 ---

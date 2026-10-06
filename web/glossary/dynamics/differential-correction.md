@@ -108,15 +108,15 @@ $$\bar{F}_i(\bar{X})=\bar{x}_{i+1}-\boldsymbol{\Phi}_{i+1,i}\,\bar{x}_i=\mathbf{
 
 - 直接打靶 / 直接转录：把连续控制 $\mathbf{u}(t)$ 离散化为参数序列，整个最优控制问题化为非线性规划（NLP），不显式引入协态。直接多重打靶（direct multiple shooting，Bock 1981；Sager 2009）在每段节点同时设状态与控制变量，段内用显式积分，是航天 NLP 求解器的标准底层算法之一。
 
-直接打靶收敛性更好但变量维度高。间接打靶维度低、精度高（满足 Pontryagin 必要条件），但初猜困难。实际工程中常用直接法生成初猜  到  间接法精化的组合策略。
+直接打靶收敛性更好但变量维度高。间接打靶维度低、精度高（满足 Pontryagin 必要条件），但初猜困难。实际工程中常用由直接法生成初猜再交由间接法精化的组合策略。
 
 ## 在地月空间中的应用
 
 - 周期轨道生成：Halo、Lyapunov、DRO、NRHO、axial、vertical 等所有 CR3BP 周期轨道族的精确初始条件，都用对称性化简后的变时间单步打靶求解（半周期积分到 $x$ 轴穿越点，约束 $y=\dot{x}=\dot{z}=0$，自由变量为 $\dot{y}_0$ 和半周期 $T/2$）。
 
-- 转移轨道设计：地月 LEO 到 DRO、地月 LEO 再到 NRHO、星球间转移等，用单步/多重打靶匹配终端状态。低能转移常用[拼接点](/glossary/dynamics/patch-point/)处的微分修正消除段间速度跳变。
+- 转移轨道设计：地月 LEO 到 DRO、地月 LEO 到 NRHO、星球间转移等，用单步/多重打靶匹配终端状态。低能转移常用[拼接点](/glossary/dynamics/patch-point/)处的微分修正消除段间速度跳变。
 
-- 星历模型过渡：CR3BP 解  到  高保真星历模型解的过渡，几乎一律用多重打靶（典型 40–50 个拼接点，覆盖一年任务期）。
+- 星历模型过渡：CR3BP 解到高保真星历模型解的过渡，几乎一律用多重打靶（典型 40–50 个拼接点，覆盖一年任务期）。
 
 - 轨道保持：[Target Point 策略](/glossary/dynamics/target-point-strategy/)、x 轴穿越控制、$\dot{x}$-控制等[轨道保持](/glossary/dynamics/station-keeping/)算法本质上都是单步打靶，以未来某圈的下一次穿越点为目标，反解当前机动 $\Delta\mathbf{v}$。
 

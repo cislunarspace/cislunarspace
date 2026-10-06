@@ -55,8 +55,8 @@ $$\mathbf{p}_{n+1} = \mathbf{p}_{n+1/2} + \frac{\Delta t}{2} \cdot \frac{\partia
 
 将哈密顿量分解为可分离部分 $H = T(\mathbf{p}) + V(\mathbf{q})$，分别积分动能和势能：
 
-$$\mathbf{p} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{p}} T} \mathbf{p} \quad \text{（游步）}$$
-$$\mathbf{q} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{q}} V} \mathbf{q} \quad \text{（推步）}$$
+$$\mathbf{p} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{p}} T} \mathbf{p} \quad \text{(游步)}$$
+$$\mathbf{q} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{q}} V} \mathbf{q} \quad \text{(推步)}$$
 
 典型实现：Spring 积分器（Störmer-Verlet 的物理诠释）
 

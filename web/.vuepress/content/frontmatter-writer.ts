@@ -1,7 +1,7 @@
 /**
  * markdown 文档的读写与渲染（Content Module 的写侧工具）。
  *
- * YAML 的解析与序列化使用 yaml 包 。 站点 frontmatter 大量使用嵌套
+ * YAML 的解析与序列化使用 yaml 包。站点 frontmatter 大量使用嵌套
  * （wechatShare、og 等）与多行数组，utils/frontmatter-parser 的简化
  * 实现读侧覆盖不了，作为写侧往返会损坏这些结构，因此 content 模块
  * 不复用它。序列化不保留注释与空行 。 现有内容不使用注释。
