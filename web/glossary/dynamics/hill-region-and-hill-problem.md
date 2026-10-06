@@ -30,16 +30,16 @@ permalink: /glossary/dynamics/hill-region-and-hill-problem/
 
 ## 定义
 
-Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量；给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影（Szebehely 1967；Topputo 2013）。物理直观：质点在禁区内的势能大于总能量，无法到达。
+Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量。给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影（Szebehely 1967；Topputo 2013）。物理直观：质点在禁区内的势能大于总能量，无法到达。
 
 ## 五种拓扑构型
 
 雅可比常数 $C$ 在五个平动点处的取值 $C(L_1), C(L_2), C(L_3), C(L_4)=C(L_5)$ 把问题分成五种几何形态（Sousa-Silva 等 2018；Szebehely 1967）：
 
-1. $C > C(L_1)$：区域由两个互不连通的天体邻域组成，质点在主天体间不能穿越；
-2. $C(L_2) < C < C(L_1)$：两区域在地球与 L1 之间的颈处连通，质点可在两主天体间通行；
-3. $C(L_3) < C < C(L_2)$：L1、L2 两通道均开启，允许区域环绕内区并向外伸展；
-4. $C(L_4) < C < C(L_3)$：L3 通道开启，从内区可达更远的外部；
+1. $C > C(L_1)$：区域由两个互不连通的天体邻域组成，质点在主天体间不能穿越。
+2. $C(L_2) < C < C(L_1)$：两区域在地球与 L1 之间的颈处连通，质点可在两主天体间通行。
+3. $C(L_3) < C < C(L_2)$：L1、L2 两通道均开启，允许区域环绕内区并向外伸展。
+4. $C(L_4) < C < C(L_3)$：L3 通道开启，从内区可达更远的外部。
 5. $C < C(L_4)$：除两主天体邻域（奇异）外全空间允许，等边三角形平动点邻域成为可通行区域。
 
 C 越小，允许区域越大、通行性越强。这一判据决定了探测器能否在地球与月球引力域之间自由穿越、何时需要借力或机动，是轨道可达性定性分析的基础（Hill 区域构型即指这五种配置）。
@@ -58,7 +58,7 @@ $\ddot{x} - 2\dot{y} = 3x - \frac{x}{r^3}$，$\ddot{y} + 2\dot{x} = -\frac{y}{r^
 
 ## Hill 模型与三体 Lambert 求解
 
-Hill 模型在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解；Sukhanov 和 Prado 基于此提出了收敛性较好的 Lambert 求解算法（Sukhanov 和 Prado 2004）。该用法与Hill 区域Hill 问题指代不同对象，注意区分。
+Hill 模型在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解。Sukhanov 和 Prado 基于此提出了收敛性较好的 Lambert 求解算法（Sukhanov 和 Prado 2004）。该用法与Hill 区域Hill 问题指代不同对象，注意区分。
 
 ## 相关概念
 
@@ -86,6 +86,6 @@ Hill 模型在工程文献中有另一种用法：把限制性三体问题在航
 
 - Sukhanov 和 Prado, 2004（Hill 模型 Lambert 求解）
 
-- Sousa-Silva 等, 2018, Fast Earth-Moon transfers with ballistic capture（五种 Hill 区域构型）
+- Sousa-Silva 等，2018, Fast Earth-Moon transfers with ballistic capture（五种 Hill 区域构型）
 
 - Topputo, 2013（能量流形投影与可达集）

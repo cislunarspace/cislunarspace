@@ -44,7 +44,7 @@ $$
 
 其中 $\varepsilon \ll 1$。当 $\varepsilon = 0$ 时，系统完全可积：每个不变环面由 $\theta$ 缠绕而成，作用量 $I$ 是运动常数。引入扰动 $\varepsilon H_1$ 后：
 
-- **KAM定理**：若初始环面频率 $\omega = \partial H_0 / \partial I$ 满足 Diophantine 条件
+- KAM定理：若初始环面频率 $\omega = \partial H_0 / \partial I$ 满足 Diophantine 条件
 
   $$
   |k \cdot \omega| \geq \frac{\gamma}{|k|^\tau}, \quad \forall k \in \mathbb{Z}^n \setminus \{0\}
@@ -52,7 +52,7 @@ $$
 
   （$\gamma > 0, \tau > n-1$），则当 $\varepsilon$ 足够小时，该环面在扰动下变形但依然存在，运动保持拟周期性质（Meyer, Hall & Offin 2017, §6.4）。
 
-- **Nekhoroshev定理**：作用量变化满足 $\|I(t) - I(0)\| \leq C \varepsilon^b$，在下述时间范围内有效：
+- Nekhoroshev定理：作用量变化满足 $\|I(t) - I(0)\| \leq C \varepsilon^b$，在下述时间范围内有效：
 
   $$
   T \propto \exp\left(\frac{1}{\varepsilon^a}\right)
@@ -64,9 +64,9 @@ $$
 
 KAM环面是KAM定理保证存活的变形不变环面。在相空间中，它们起两个关键作用：
 
-1. **拓扑屏障**：环绕有理频率共振区的KAM环面将相邻混沌区隔开，阻止Arnold扩散从一个共振区间向另一个共振区蔓延。二维共振区之间若有KAM环面存在，混沌运动就困在各自共振区内的分离岛上（Gómez et al. 2001, Ch.4）。
+1. 拓扑屏障：环绕有理频率共振区的KAM环面将相邻混沌区隔开，阻止Arnold扩散从一个共振区间向另一个共振区蔓延。二维共振区之间若有KAM环面存在，混沌运动就困在各自共振区内的分离岛上（Gómez et al. 2001, Ch.4）。
 
-2. **DRO环面包络稳定性**：在地月CR3BP中，远距离逆行轨道（DRO）的单值矩阵具有两对模等于1的共轭复数特征值加一对模等于1的实数特征值（两个平凡根）：全部特征值都在单位圆上，说明DRO线性稳定（Yang et al. 2023；Scott & Spencer 2010, JGCD, doi:10.2514/1.47791）。在非线性层面，KAM环面为DRO在被自然微扰或小机动偏差偏离后仍保持在原轨道附近提供保证：航天器不会逃逸，而是在接近DRO的KAM环面上绕行，其返回时间与DRO周期相当。KAM环面的存在是DRO具有内在动力学稳定性、无需大冲量维持控制的根本原因。
+2. DRO环面包络稳定性：在地月CR3BP中，远距离逆行轨道（DRO）的单值矩阵具有两对模等于1的共轭复数特征值加一对模等于1的实数特征值（两个平凡根）：全部特征值都在单位圆上，说明DRO线性稳定（Yang et al. 2023；Scott & Spencer 2010, JGCD, doi:10.2514/1.47791）。在非线性层面，KAM环面为DRO在被自然微扰或小机动偏差偏离后仍保持在原轨道附近提供保证：航天器不会逃逸，而是在接近DRO的KAM环面上绕行，其返回时间与DRO周期相当。KAM环面的存在是DRO具有内在动力学稳定性、无需大冲量维持控制的根本原因。
 
 ## Nekhoroshev定理与轨道长期稳定性
 

@@ -30,17 +30,17 @@ permalink: /glossary/fundamentals/inertial-reference-frames/
 
 ## 定义
 
-惯性参考系（inertial reference frame）指原点取在某一天体质心、坐标轴方向相对遥远恒星近似固定不旋转的参考系，是写出牛顿第二定律（进而写出运动方程）的合法框架。严格说宇宙不存在无加速度的理想惯性系，天体力学用的是准惯性系（pseudo-inertial frame）：对绕地卫星，地心赤道系已足够；对行星际飞行器，日心系是常用背景（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}。与惯性系相对的是固联于天体表面、随天体自转的固联系，以及随两主天体连线旋转的会合系（见[会合坐标系](/glossary/fundamentals/synodic-frame/)）。工程上所谓惯性坐标系其实是一族约定：原点（地心/月心/日心/质心）与主方向（春分点/赤道面/轨道面）各不相同，读文献前必须先确认是哪一种。
+惯性参考系（inertial reference frame）指原点取在某一天体质心、坐标轴方向相对遥远恒星近似固定不旋转的参考系，是写出牛顿第二定律（进而写出运动方程）的合法框架。严格说宇宙不存在无加速度的理想惯性系，天体力学用的是准惯性系（pseudo-inertial frame）：对绕地卫星，地心赤道系已足够。对行星际飞行器，日心系是常用背景（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}。与惯性系相对的是固联于天体表面、随天体自转的固联系，以及随两主天体连线旋转的会合系（见[会合坐标系](/glossary/fundamentals/synodic-frame/)）。工程上所谓惯性坐标系其实是一族约定：原点（地心/月心/日心/质心）与主方向（春分点/赤道面/轨道面）各不相同，读文献前必须先确认是哪一种。
 
 ## 参考系的三个构成要素
 
 任一参考系由三个要素完全确定（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}：
 
-1. **原点**（origin）：地心、月心、日心、或两体/多体质心；
-2. **基本平面**（fundamental plane）：地赤道面、月赤道面、黄道面、白道面等；
-3. **主方向**（principal direction）：通常取春分点方向、格林尼治子午线、或某特征矢（如主天体连线）。
+1. 原点（origin）：地心、月心、日心、或两体/多体质心。
+2. 基本平面（fundamental plane）：地赤道面、月赤道面、黄道面、白道面等。
+3. 主方向（principal direction）：通常取春分点方向、格林尼治子午线、或某特征矢（如主天体连线）。
 
-三个要素不同即构成不同的系；同族名称如 ECI、EME2000、GCRF 的差别往往只在一两个要素的历元或实现方式。
+三个要素不同即构成不同的系。同族名称如 ECI、EME2000、GCRF 的差别往往只在一两个要素的历元或实现方式。
 
 ## 地心系
 
@@ -54,33 +54,33 @@ EME2000（Earth Mean Equator and Equinox of J2000）即上述 J2000 历元地心
 
 ### GCRF 与 ICRS/ICRF
 
-GCRF（Geocentric Celestial Reference Frame）是地球当前的国际标准惯性系，是国际天体参考系 ICRF 的地心实现。ICRS 自 1998 年 1 月 1 日起被 IAU 采纳为基本参考系：原点在太阳系质心，ICRF 框架由甚长基线干涉（VLBI）观测的 3414 颗河外射电源实现，主方向沿用 IAU-76/FK5 J2000 的取值（以射电源 3C273 标定），此后 ICRF1/ICRF2 等历次修正均不引入相对旋转。GCRF 是 ICRF 的地心副本，自 1997 年 1 月 1 日起为 IERS 采用；其轴系与 IAU-76/FK5 J2000 紧密对齐以保证连续性，IAU-2000 决议直接引用 GCRF（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}。因此 GCRF 与 EME2000 轴间只有亚角秒量级的微小差，多数工程任务可视为等价。
+GCRF（Geocentric Celestial Reference Frame）是地球当前的国际标准惯性系，是国际天体参考系 ICRF 的地心实现。ICRS 自 1998 年 1 月 1 日起被 IAU 采纳为基本参考系：原点在太阳系质心，ICRF 框架由甚长基线干涉（VLBI）观测的 3414 颗河外射电源实现，主方向沿用 IAU-76/FK5 J2000 的取值（以射电源 3C273 标定），此后 ICRF1/ICRF2 等历次修正均不引入相对旋转。GCRF 是 ICRF 的地心副本，自 1997 年 1 月 1 日起为 IERS 采用。其轴系与 IAU-76/FK5 J2000 紧密对齐以保证连续性，IAU-2000 决议直接引用 GCRF（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}。因此 GCRF 与 EME2000 轴间只有亚角秒量级的微小差，多数工程任务可视为等价。
 
 ## 地固系：ITRF / ECEF / WGS84
 
 固联于旋转地球的坐标系称地固系（Earth-fixed / Body-fixed）。标准实现是 ITRF（International Terrestrial Reference Frame）：原点在地心，轴系由全球地面站坐标实现，因板块运动（约 cm/年）而定期重解算并冠以年份（ITRF-08 等），历次实现之间仅相差平移、尺度与微小旋转（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}。ECEF（Earth-Centered Earth-Fixed）是地固系的通用名称：z 轴沿地球自转轴（北极），x 轴在赤道面内指向格林尼治子午线，y 轴按右手系补齐。美国军用 WGS84 系与 ITRF 在厘米级一致，GPS 播发的位置即在该系中。
 
-地固系的用途：处理地面观测（测站经纬度、方位仰角）、计算地球非球形引力位（如 J2 项）时，须先把状态从地心惯性系经岁差-章动-地球自转-极移变换转到地固系；反之把测站坐标转回惯性系才能参与定轨（邓辉等 2017；Vallado 2022）\cite{DengHuiDiYueXiGongXianPingDongDianTanCeQiDeXingShangGuiDaoYuBaoWenTi2017,valladoFundamentalsAstrodynamicsApplications2022}。注意：由惯性系转到地固系必须严格用 GMST 或 ERA 等完整旋转链，不能只用近似式。
+地固系的用途：处理地面观测（测站经纬度、方位仰角）、计算地球非球形引力位（如 J2 项）时，须先把状态从地心惯性系经岁差-章动-地球自转-极移变换转到地固系。反之把测站坐标转回惯性系才能参与定轨（邓辉等 2017；Vallado 2022）\cite{DengHuiDiYueXiGongXianPingDongDianTanCeQiDeXingShangGuiDaoYuBaoWenTi2017,valladoFundamentalsAstrodynamicsApplications2022}。注意：由惯性系转到地固系必须严格用 GMST 或 ERA 等完整旋转链，不能只用近似式。
 
 ## 月心系与月固系
 
 ### 月心惯性系 MCI / LME2000
 
-月心惯性系（Moon-Centered Inertial，MCI）原点在月心、轴方向相对惯性空间固定，是月球探测器运动方程的惯用框架 \cite{bettsOptimalLowThrust2003}。两种约定常见：一是直接用 J2000 地心赤道惯性轴平移至月心；二是 LME2000：以 J2000 历元月球平均赤道面为基本平面的月心赤道惯性系（Yoon 和 Petukhov 2023）\cite{yoonMinimumfuelLowthrustTrajectories2023}，月心段最终条件常在该系中计算。还有一种约定把基本平面取为白道面、x 轴指向初始时刻地月连线方向（测绘学报 2013），用于描述平动点轨道在月心系下的状态。
+月心惯性系（Moon-Centered Inertial，MCI）原点在月心、轴方向相对惯性空间固定，是月球探测器运动方程的惯用框架 \cite{bettsOptimalLowThrust2003}。两种约定常见：一是直接用 J2000 地心赤道惯性轴平移至月心。二是 LME2000：以 J2000 历元月球平均赤道面为基本平面的月心赤道惯性系（Yoon 和 Petukhov 2023）\cite{yoonMinimumfuelLowthrustTrajectories2023}，月心段最终条件常在该系中计算。还有一种约定把基本平面取为白道面、x 轴指向初始时刻地月连线方向（测绘学报 2013），用于描述平动点轨道在月心系下的状态。
 
-与月心旋转系（随地球-月球连线旋转，即会合系的一种月心原点变体）相比，MCI 系中地球位置随时间变化，运动方程显含时间；但二体段与三体段可用同一组状态向量，便于动力学模型的连续过渡（Oue 等 2025）。
+与月心旋转系（随地球-月球连线旋转，即会合系的一种月心原点变体）相比，MCI 系中地球位置随时间变化，运动方程显含时间。但二体段与三体段可用同一组状态向量，便于动力学模型的连续过渡（Oue 等 2025）。
 
 ### 月固系
 
-月固系（Lunar Body-Fixed / selenodetic frame）固联于月球表面、随月球自转旋转：原点在月心，参考平面为月赤道面，一轴沿月赤道面与起始子午面交线，另一轴沿月球自转轴。月面经纬度在该系中直接是坐标值，故软着陆、动力下降、月面测绘的终端约束（着陆点坐标、速度为零）都在此系中建立（周净扬和周荻 2007）\cite{ZhouJingYangYueQiuTanCeQiRuanZhaoLuJingQueJianMoJiZuiYouGuiDaoSheJi2007}。白道面（lunar orbital plane，月球绕地公转轨道面）与月赤道面约有 6.7° 交角、与黄道面约 5.145° \cite{CaoPengFeiDiYueL2DianHaloGuiDaoZhiChiDeDengYueGuiDaoYouHuaSheJi2017}。注意不要把白道面与月赤道面混为一谈；白道面是轨道几何基准而非月固系基准。
+月固系（Lunar Body-Fixed / selenodetic frame）固联于月球表面、随月球自转旋转：原点在月心，参考平面为月赤道面，一轴沿月赤道面与起始子午面交线，另一轴沿月球自转轴。月面经纬度在该系中直接是坐标值，故软着陆、动力下降、月面测绘的终端约束（着陆点坐标、速度为零）都在此系中建立（周净扬和周荻 2007）\cite{ZhouJingYangYueQiuTanCeQiRuanZhaoLuJingQueJianMoJiZuiYouGuiDaoSheJi2007}。白道面（lunar orbital plane，月球绕地公转轨道面）与月赤道面约有 6.7° 交角、与黄道面约 5.145° \cite{CaoPengFeiDiYueL2DianHaloGuiDaoZhiChiDeDengYueGuiDaoYouHuaSheJi2017}。注意不要把白道面与月赤道面混为一谈。白道面是轨道几何基准而非月固系基准。
 
 ## 地月质心系与常用平面
 
-- **质心会合系**：原点在地月质心、随地月连线旋转，即[会合坐标系](/glossary/fundamentals/synodic-frame/)的标准形式，CR3BP 的推导框架。
+- 质心会合系：原点在地月质心、随地月连线旋转，即[会合坐标系](/glossary/fundamentals/synodic-frame/)的标准形式，CR3BP 的推导框架。
 
-- **质心惯性系**：原点在地月质心、轴方向固定不转的惯性系（barycentric inertial）。它把二体/多体方程写作相对坐标形式，运动方程与惯性系原点无关、只依赖相对位置与二阶导数（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}。注意勿与质心会合系混淆：后者多一个随主天体连线旋转的自由度。
+- 质心惯性系：原点在地月质心、轴方向固定不转的惯性系（barycentric inertial）。它把二体/多体方程写作相对坐标形式，运动方程与惯性系原点无关、只依赖相对位置与二阶导数（Vallado 2022）\cite{valladoFundamentalsAstrodynamicsApplications2022}。注意勿与质心会合系混淆：后者多一个随主天体连线旋转的自由度。
 
-- **月心瞬时地月面系**：原点在月心、轴方向与地月质心会合系平行但不随月自转的系（坐标轴相对惯性空间缓慢旋转）。它使可达域描述具有时间不变性，常用于揭示转移轨迹可达域的几何特征（Lu 等 2021）\cite{luDesignAnalysisDirect2021}。
+- 月心瞬时地月面系：原点在月心、轴方向与地月质心会合系平行但不随月自转的系（坐标轴相对惯性空间缓慢旋转）。它使可达域描述具有时间不变性，常用于揭示转移轨迹可达域的几何特征（Lu 等 2021）\cite{luDesignAnalysisDirect2021}。
 
 ## 工程选系原则
 

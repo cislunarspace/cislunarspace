@@ -56,4 +56,4 @@ twitter:
 - [Astrobotic](/research-frontiers/institutions/astrobotic/)
 - [ispace](/research-frontiers/institutions/ispace/)
 
-*更多详细内容正在建设中...*
+*更多详细内容正在建设中……*

@@ -1,6 +1,6 @@
 ---
 title: 运动方程与状态方程（Equation of Motion / State Equation）
-description: 描述航天器运动的微分方程组。CR3BP 中是会合系下三个含科氏、离心项的二阶 ODE；改写为一阶系统即得状态方程 dx/dt = f(x,t)（线性形式 dx/dt = A(t)x + Bu），是现代控制理论的工作母机。覆盖自治/非自治、时变/时不变的区分。
+description: 描述航天器运动的微分方程组。CR3BP 中是会合系下三个含科氏、离心项的二阶 ODE。改写为一阶系统即得状态方程 dx/dt = f(x,t)（线性形式 dx/dt = A(t)x + Bu），是现代控制理论的工作母机。覆盖自治/非自治、时变/时不变的区分。
 keywords: 运动方程, 状态方程, EOM, 状态空间, 自治系统, 非自治系统, 时变系统, 科里奥利力, CR3BP, 地月动力学
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 运动方程与状态方程详解 | 术语定义
-  description: 描述航天器运动的微分方程组。CR3BP 中是会合系下三个含科氏、离心项的二阶 ODE；改写为一阶系统即得状态方程，是现代控制理论的工作母机。覆盖自治/非自治、时变/时不变的区分。
+  description: 描述航天器运动的微分方程组。CR3BP 中是会合系下三个含科氏、离心项的二阶 ODE。改写为一阶系统即得状态方程，是现代控制理论的工作母机。覆盖自治/非自治、时变/时不变的区分。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 运动方程与状态方程详解 | 术语定义
-  description: 描述航天器运动的微分方程组。CR3BP 中是会合系下三个含科氏、离心项的二阶 ODE；改写为一阶系统即得状态方程，是现代控制理论的工作母机。覆盖自治/非自治、时变/时变的区分。
+  description: 描述航天器运动的微分方程组。CR3BP 中是会合系下三个含科氏、离心项的二阶 ODE。改写为一阶系统即得状态方程，是现代控制理论的工作母机。覆盖自治/非自治、时变/时变的区分。
   image: /logo.png
 permalink: /glossary/fundamentals/eom/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/eom/
 
 ## 定义
 
-**运动方程**（equation of motion, EOM）是描述航天器位置在指定力学模型下随时间演化的微分方程组。在圆型限制性三体问题中，运动方程写在会合（旋转）坐标系下，是三个二阶常微分方程，右端项由两个主天体的引力与旋转系带来的科氏、离心项共同构成。把任何二阶方程组改写为一阶系统，就得到**状态方程**，这是现代控制理论处理动力学问题的标准形式。
+运动方程（equation of motion, EOM）是描述航天器位置在指定力学模型下随时间演化的微分方程组。在圆型限制性三体问题中，运动方程写在会合（旋转）坐标系下，是三个二阶常微分方程，右端项由两个主天体的引力与旋转系带来的科氏、离心项共同构成。把任何二阶方程组改写为一阶系统，就得到状态方程，这是现代控制理论处理动力学问题的标准形式。
 
 ## CR3BP 运动方程
 
@@ -52,7 +52,7 @@ $$
 \ddot{x} - 2\dot{y} = \Omega_x, \qquad \ddot{y} + 2\dot{x} = \Omega_y, \qquad \ddot{z} = \Omega_z.
 $$
 
-由于时间 $t$ 不显式出现，该系统是**自治的**，并存在雅可比积分 $C = 2\Omega - (\dot x^2 + \dot y^2 + \dot z^2)$ 作为守恒量，这是零速度曲面、平动点和一切 CR3BP 任务设计的根基\cite{szebehelyTheoryOrbitRestricted1967}。
+由于时间 $t$ 不显式出现，该系统是自治的，并存在雅可比积分 $C = 2\Omega - (\dot x^2 + \dot y^2 + \dot z^2)$ 作为守恒量，这是零速度曲面、平动点和一切 CR3BP 任务设计的根基\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 状态方程
 
@@ -68,11 +68,11 @@ $$
 \dot{\mathbf x} = \mathbf A(t)\,\mathbf x + \mathbf B(t)\,\mathbf u, \qquad \mathbf y = \mathbf C(t)\,\mathbf x.
 $$
 
-这就是**状态方程**（状态空间形式）。把动力学写成这一形式是应用最优控制、状态反馈、状态观测等方法的前提。在 CR3BP 中，当参考是周期轨道时，$\mathbf A(t)$ 随参考轨道周期变化，这就是平动点轨道相对运动 Floquet 分析所依赖的**线性周期系统**结构\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
+这就是状态方程（状态空间形式）。把动力学写成这一形式是应用最优控制、状态反馈、状态观测等方法的前提。在 CR3BP 中，当参考是周期轨道时，$\mathbf A(t)$ 随参考轨道周期变化，这就是平动点轨道相对运动 Floquet 分析所依赖的线性周期系统结构\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
 
-## 自治 vs. 非自治；时变 vs. 时不变
+## 自治 vs. 非自治。时变 vs. 时不变
 
-状态方程不显含 $t$ 时，系统是**自治**（时不变）的；显含 $t$ 时则是**非自治**（时变）的。CR3BP 因两主天体在会合系下固定，状态方程是自治的。双圆模型、椭圆限制性三体问题、完整历表（n 体）模型则因第三体的真实运动或行星的真实位置而引入显式时间依赖，是非自治的，丢失雅可比积分，必须改用准周期或纯数值方法\cite{baresiTransitionTwodimensionalQuasiperiodic2023}。
+状态方程不显含 $t$ 时，系统是自治（时不变）的。显含 $t$ 时则是非自治（时变）的。CR3BP 因两主天体在会合系下固定，状态方程是自治的。双圆模型、椭圆限制性三体问题、完整历表（n 体）模型则因第三体的真实运动或行星的真实位置而引入显式时间依赖，是非自治的，丢失雅可比积分，必须改用准周期或纯数值方法\cite{baresiTransitionTwodimensionalQuasiperiodic2023}。
 
 自治系统具有时间平移不变性：$t_0$ 时刻发射的轨迹与 $t_0 + \Delta t$ 时刻发射的轨迹形状一致。非自治系统失去这种对称：发射历元本身成为变量，数值积分必须把绝对时间与状态一并推进。这一增加的复杂性并非形式上的：庞加莱截面、不变流形、雅可比约束下的穿越轨道理论等工具都依赖于自治性，在历表模型中不再直接可用。
 

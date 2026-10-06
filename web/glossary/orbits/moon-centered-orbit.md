@@ -1,6 +1,6 @@
 ---
 title: 月心轨道（Moon-Centered Orbit）
-description: 环绕月球运行、可由绕月二体初值（顺行逆行均可）延拓得到的周期轨道类，含 DRO、DPO、LoPO 三族（对应 Hénon f/g/g′族）；工程上的低月轨道/月球停泊轨道是低能转移的常用终点。
+description: 环绕月球运行、可由绕月二体初值（顺行逆行均可）延拓得到的周期轨道类，含 DRO、DPO、LoPO 三族（对应 Hénon f/g/g′族）。工程上的低月轨道/月球停泊轨道是低能转移的常用终点。
 keywords: 月心轨道, Moon-Centered Orbit, DRO, DPO, LoPO, 低月轨道, 月球停泊轨道
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 月心轨道详解 | 术语定义
-  description: 环绕月球运行、可由绕月二体初值（顺行逆行均可）延拓得到的周期轨道类，含 DRO、DPO、LoPO 三族（对应 Hénon f/g/g′族）；工程上的低月轨道/月球停泊轨道是低能转移的常用终点。
+  description: 环绕月球运行、可由绕月二体初值（顺行逆行均可）延拓得到的周期轨道类，含 DRO、DPO、LoPO 三族（对应 Hénon f/g/g′族）。工程上的低月轨道/月球停泊轨道是低能转移的常用终点。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 月心轨道详解 | 术语定义
-  description: 环绕月球运行、可由绕月二体初值（顺行逆行均可）延拓得到的周期轨道类，含 DRO、DPO、LoPO 三族（对应 Hénon f/g/g′族）；工程上的低月轨道/月球停泊轨道是低能转移的常用终点。
+  description: 环绕月球运行、可由绕月二体初值（顺行逆行均可）延拓得到的周期轨道类，含 DRO、DPO、LoPO 三族（对应 Hénon f/g/g′族）。工程上的低月轨道/月球停泊轨道是低能转移的常用终点。
   image: /logo.png
 permalink: /glossary/orbits/moon-centered-orbit/
 ---
@@ -36,17 +36,17 @@ permalink: /glossary/orbits/moon-centered-orbit/
 
 月心轨道含三族，分别对应 Hénon 1969 \cite{henonNumericalExplorationRestricted1969}（Hill 情形周期轨道分类）的 f、g、g′ 族 \cite{heReviewCislunarConstellation2026}：
 
-- **DRO（远距逆行轨道，f 族）**：旋转系中绕月逆行，振幅增大时可扩展到 L1/L2 以外，见[远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)。
-- **DPO（远距顺行轨道，g 族）**：旋转系中呈8字形，近月点近月、远月点沿 y 向延伸。
-- **LoPO（低顺行轨道，g′ 族）**：顺行近圆低振幅轨道，振幅增大时远月点沿 x 向延伸。
+- DRO（远距逆行轨道，f 族）：旋转系中绕月逆行，振幅增大时可扩展到 L1/L2 以外，见[远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)。
+- DPO（远距顺行轨道，g 族）：旋转系中呈8字形，近月点近月、远月点沿 y 向延伸。
+- LoPO（低顺行轨道，g′ 族）：顺行近圆低振幅轨道，振幅增大时远月点沿 x 向延伸。
 
 ## 工程成员：低月轨道与月球停泊轨道
 
-工程上常用的月心轨道是低月轨道（LLO）/月球停泊轨道，属二体近圆轨道而非三体轨道族。典型用法：取距月面 100 km 的近月圆轨道为停泊轨道；与之相切的大幅值 L1 Lyapunov 轨道，在切点（x 轴上）经一次切向减速脉冲即可直接进入停泊轨道 \cite{ZhengYueJiYuDaFuZhiLyapunovGuiDaoWenDingLiuXingDeDiYueZhuanYiFangFa2023}，该机制构成一条流形连接近地与近月轨道的地月低能转移（见[低能转移](/glossary/orbits/low-energy-transfer/)）。
+工程上常用的月心轨道是低月轨道（LLO）/月球停泊轨道，属二体近圆轨道而非三体轨道族。典型用法：取距月面 100 km 的近月圆轨道为停泊轨道。与之相切的大幅值 L1 Lyapunov 轨道，在切点（x 轴上）经一次切向减速脉冲即可直接进入停泊轨道 \cite{ZhengYueJiYuDaFuZhiLyapunovGuiDaoWenDingLiuXingDeDiYueZhuanYiFangFa2023}，该机制构成一条流形连接近地与近月轨道的地月低能转移（见[低能转移](/glossary/orbits/low-energy-transfer/)）。
 
 ## 月球周期轨道与流形相交的转移构造
 
-Giancotti 2012 在平面 CR3BP 中引入圆柱同构映射，把给定雅可比常数的状态约化到 (x, y, γ) 相空间（γ 为速度方向角），使月球周期轨道与 L1 Lyapunov 轨道的不稳定流形可置于同一空间比较；沿两者的交点集取只转动速度矢量、不改变大小的最小脉冲。算例（C=3.185 的单圈月球周期轨道）：最优者从 L1 Lyapunov 轨道转入仅需 18.71 m/s \cite{giancottiLunarCaptureTrajectories2012}。
+Giancotti 2012 在平面 CR3BP 中引入圆柱同构映射，把给定雅可比常数的状态约化到 (x, y, γ) 相空间（γ 为速度方向角），使月球周期轨道与 L1 Lyapunov 轨道的不稳定流形可置于同一空间比较。沿两者的交点集取只转动速度矢量、不改变大小的最小脉冲。算例（C=3.185 的单圈月球周期轨道）：最优者从 L1 Lyapunov 轨道转入仅需 18.71 m/s \cite{giancottiLunarCaptureTrajectories2012}。
 
 ## 相关统称
 

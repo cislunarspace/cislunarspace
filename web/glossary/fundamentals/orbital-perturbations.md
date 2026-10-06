@@ -36,9 +36,9 @@ $$
 \ddot{\mathbf{r}} = -\frac{\mu}{r^3}\mathbf{r} + \mathbf{a}_p
 $$
 
-这一形式称为 **Cowell 公式**（Cowell's formulation）（Vallado 2022, Ch.8）\cite{valladoFundamentalsAstrodynamicsApplications2022}。
+这一形式称为 Cowell 公式（Cowell's formulation）（Vallado 2022, Ch.8）\cite{valladoFundamentalsAstrodynamicsApplications2022}。
 
-Cowell 公式与 Cowell 方法是两个不同概念：公式指将摄动加速度线性叠加到二体方程右端，是问题描述方式；方法指具体的数值积分技术（见下文摄动处理方法一节）。各摄动源可线性叠加，$\mathbf{a}_p = \sum_i \mathbf{a}_{p_i}$（Vallado 2022）。
+Cowell 公式与 Cowell 方法是两个不同概念：公式指将摄动加速度线性叠加到二体方程右端，是问题描述方式。方法指具体的数值积分技术（见下文摄动处理方法一节）。各摄动源可线性叠加，$\mathbf{a}_p = \sum_i \mathbf{a}_{p_i}$（Vallado 2022）。
 
 需要指出，摄动不一定小：当航天器大气再入时阻力与二体力同量级，三体问题中第三体引力可以大过主引力。此时问题本质已不再是摄动，而是完全不同的动力学系统（Vallado 2022, Ch.8）。
 
@@ -48,31 +48,31 @@ Cowell 公式与 Cowell 方法是两个不同概念：公式指将摄动加速�
 
 按力的物理性质，分为两类（Vallado 2022, Ch.8）：
 
-- **保守摄动**（conservative）：力场可写为势函数的梯度 $\mathbf{a} = \nabla U$，系统总能量守恒。包括中心天体非球形引力、第三体引力、固体潮/海潮。这类摄动一般通过**摄动函数**（disturbing function）$R = U - U_{2\text{-body}}$ 处理。
+- 保守摄动（conservative）：力场可写为势函数的梯度 $\mathbf{a} = \nabla U$，系统总能量守恒。包括中心天体非球形引力、第三体引力、固体潮/海潮。这类摄动一般通过摄动函数（disturbing function）$R = U - U_{2\text{-body}}$ 处理。
 
-- **非保守摄动**（nonconservative）：无势函数，系统能量变化。包括大气阻力、太阳辐射压、推力。这类摄动直接以**摄动力**（disturbing force）形式建模。
+- 非保守摄动（nonconservative）：无势函数，系统能量变化。包括大气阻力、太阳辐射压、推力。这类摄动直接以摄动力（disturbing force）形式建模。
 
 ### 按物理来源分类
 
 | 摄动源 | 性质 | 主要影响区 | 典型量级（低轨，$10^{-3} g_0$） | 典型量级（地月，$10^{-3} g_0$） |
 |--------|------|-----------|------------------------------|-------------------------------|
-| 中心天体非球形引力（J2 项） | 保守 | LEO→MEO | $\sim 10$ | $\ll 1$ |
+| 中心天体非球形引力（J2 项） | 保守 | LEO 到 MEO | $\sim 10$ | $\ll 1$ |
 | 第三体引力（日月行星） | 保守 | GEO 以上、地月 | $\ll 1$（LEO） | $\sim 1\text{--}10$ |
 | 大气阻力 | 非保守 | LEO (<800 km) | $\sim 0.1\text{--}10$ | 0（月面无大气） |
 | 太阳辐射压 | 非保守 | GEO 以上、地月 | $\ll 1$（LEO） | $\sim 0.1\text{--}1$ |
-| 相对论效应 | — | 高精度导航 | $\ll 1$（所有区） | $\ll 1$ |
+| 相对论效应 | 无 | 高精度导航 | $\ll 1$（所有区） | $\ll 1$ |
 
-量级排序的依据：Vallado (2022, Ch.8-9)；地月空间的具体模型配置见下文。
+量级排序的依据：Vallado (2022, Ch.8-9)。地月空间的具体模型配置见下文。
 
 ### 按轨道区给的摄动主导项（选模指引）
 
-- **LEO（<800 km）**：大气阻力 > J2 > 其它。以阻力为主要误差源，需高精度密度模型（如 NRLMSISE-00）。
+- LEO（<800 km）：大气阻力 > J2 > 其它。以阻力为主要误差源，需高精度密度模型（如 NRLMSISE-00）。
 
-- **MEO（800 km ~ 30,000 km）**：J2 占主导，阻力衰减，第三体开始显现。
+- MEO（800 km ~ 30,000 km）：J2 占主导，阻力衰减，第三体开始显现。
 
-- **GEO（~35,800 km）**：第三体 + 太阳光压 > J2。光压对长期轨道演化影响显著。
+- GEO（~35,800 km）：第三体 + 太阳光压 > J2。光压对长期轨道演化影响显著。
 
-- **地月空间**：月球第三体引力是决定性摄动源；太阳摄动次之；J2 在月球低轨有意义（Vallado 2022, Ch.8.6.3）\cite{valladoFundamentalsAstrodynamicsApplications2022}。Cislunar debris 定轨实践中，地球引力场只需球谐展开到 5 阶×5 阶就足够，配以日月木星点质量模型 + 炮弹式光压模型，RKF7(8) 变步长积分器（Cowell 公式）可获得最长 2 年的轨道预报精度（Framework paper, 2023）\cite{ModelFrameworkHighaccuracy}。
+- 地月空间：月球第三体引力是决定性摄动源。太阳摄动次之。J2 在月球低轨有意义（Vallado 2022, Ch.8.6.3）\cite{valladoFundamentalsAstrodynamicsApplications2022}。Cislunar debris 定轨实践中，地球引力场只需球谐展开到 5 阶×5 阶就足够，配以日月木星点质量模型 + 炮弹式光压模型，RKF7(8) 变步长积分器（Cowell 公式）可获得最长 2 年的轨道预报精度（Framework paper, 2023）\cite{ModelFrameworkHighaccuracy}。
 
 ## 第三体引力摄动
 
@@ -82,7 +82,7 @@ $$
 \mathbf{a}_{3\text{rd}} = \mu_3 \left( \frac{\mathbf{r}_{sat-3}}{r_{sat-3}^3} - \frac{\mathbf{r}_{\oplus-3}}{r_{\oplus-3}^3} \right)
 $$
 
-括号中第一项是**直接效应**（太阳对航天器的直接引力），第二项是**间接效应**（太阳对地心的引力）。两者接近同量级、相减时易产生数值消去误差（Vallado 2022, Ch.8.6.3）。通过 LeGendre 多项式展开，直接项的最低阶恰好与间接项抵消，这是第三体摄动在近地轨道上通常较小的代数原因。
+括号中第一项是直接效应（太阳对航天器的直接引力），第二项是间接效应（太阳对地心的引力）。两者接近同量级、相减时易产生数值消去误差（Vallado 2022, Ch.8.6.3）。通过 LeGendre 多项式展开，直接项的最低阶恰好与间接项抵消，这是第三体摄动在近地轨道上通常较小的代数原因。
 
 在地月空间中，月球第三体的作用远远超过太阳：月球距地球仅约 384,400 km，摄动加速度与二体加速度的比值在平动点附近可达 $\mathcal{O}(1)$，因此地月轨道的本质已不是受摄二体问题，而需要用限制性三体问题（CR3BP）来建模。
 
@@ -94,11 +94,11 @@ $$
 
 高精度轨道确定和导航定轨中，广义相对论引入的时空度规偏差需要修正。主要包括（Vallado 2022, Ch.8.6.5；IAU 2000 决议）：
 
-- **Schwarzschild 项**：中心天体质量造成的时空弯曲对加速度的修正，$\mathbf{a}_{rel} = \frac{\mu}{c^2 r^3}\left[ \left( \frac{4\mu}{r} - v^2 \right)\mathbf{r} + 4(\mathbf{r}\cdot\mathbf{v})\mathbf{v} \right]$。
+- Schwarzschild 项：中心天体质量造成的时空弯曲对加速度的修正，$\mathbf{a}_{rel} = \frac{\mu}{c^2 r^3}\left[ \left( \frac{4\mu}{r} - v^2 \right)\mathbf{r} + 4(\mathbf{r}\cdot\mathbf{v})\mathbf{v} \right]$。
 
-- **引力时延**（Shapiro delay）：信号跨越不同引力势区域的传播时间修正。
+- 引力时延（Shapiro delay）：信号跨越不同引力势区域的传播时间修正。
 
-- **Sagnac 效应**：旋转参考系中的信号传播时间修正。
+- Sagnac 效应：旋转参考系中的信号传播时间修正。
 
 在地月空间星间测距自主定轨中，相对论效应修正对毫米级测距精度是必要条件（丛佃伟等, 2025）\cite{CongDianWeiDiYueKongJianHangTianQiZiZhuDaoHangJiShuJiYanJiuJinZhan2025}。
 
@@ -110,26 +110,26 @@ $$
 
 即数值积分法：直接将 Cowell 公式中的 $\mathbf{a}_p$ 计算出来，用数值积分器推进位置和速度。结果是离散数值解，含所有摄动引入的长期项和周期项，精度最高，但计算量大。两种历史变体：
 
-- **Cowell 方法**（Cowell's method）：直接积分完整的加速度（含二体部）。现代所有高精度轨道预报软件（GMAT、ODTK、STK/OD）均采用 Cowell 公式 + 高阶数值积分器（Runge-Kutta-Fehlberg、Gauss-Jackson、Adams-Cowell）。
+- Cowell 方法（Cowell's method）：直接积分完整的加速度（含二体部）。现代所有高精度轨道预报软件（GMAT、ODTK、STK/OD）均采用 Cowell 公式 + 高阶数值积分器（Runge-Kutta-Fehlberg、Gauss-Jackson、Adams-Cowell）。
 
-- **Encke 方法**（Encke's method）：以一条二体密切轨道为参考，只积分摄动引起的偏差 $\delta\mathbf{r}$。偏差量小，历史上一度因计算资源受限而比 Cowell 法更高效，但现代计算能力已使其不再必要（Vallado 2022, Ch.8.3）。不过其核心思路（**与参考轨道的偏差积分**）在轨道确定和精度分析中仍有应用。
+- Encke 方法（Encke's method）：以一条二体密切轨道为参考，只积分摄动引起的偏差 $\delta\mathbf{r}$。偏差量小，历史上一度因计算资源受限而比 Cowell 法更高效，但现代计算能力已使其不再必要（Vallado 2022, Ch.8.3）。不过其核心思路（与参考轨道的偏差积分）在轨道确定和精度分析中仍有应用。
 
-实际工程中广泛采用的是 **时间正则化 Cowell 积分**（s-integration）：不在均匀时间步长上积分，而在偏心近点角或真近点角等轨道参考变量上等步积分，使近心点步长自动缩、远心点步长自动放，极大提升偏心律轨道的积分效率（Vallado 2022, Ch.8.5.1）。
+实际工程中广泛采用的是 时间正则化 Cowell 积分（s-integration）：不在均匀时间步长上积分，而在偏心近点角或真近点角等轨道参考变量上等步积分，使近心点步长自动缩、远心点步长自动放，极大提升偏心律轨道的积分效率（Vallado 2022, Ch.8.5.1）。
 
 ### 一般摄动法（General Perturbations）
 
-即解析/半解析方法：通过数学推导得到轨道要素变化率（长期项和周期项）的封闭或级数表达式。核心工具是**变参数法**（Variation of Parameters, VOP），将摄动加速度投影为密切轨道根数的变化率。
+即解析/半解析方法：通过数学推导得到轨道要素变化率（长期项和周期项）的封闭或级数表达式。核心工具是变参数法（Variation of Parameters, VOP），将摄动加速度投影为密切轨道根数的变化率。
 
-- **Lagrange 行星方程**（Lagrange Planetary Equations）：适用于保守摄动。以摄动函数 $R$ 的偏导数表达 6 个轨道根数的时间变率。
+- Lagrange 行星方程（Lagrange Planetary Equations）：适用于保守摄动。以摄动函数 $R$ 的偏导数表达 6 个轨道根数的时间变率。
 
-- **Gauss 型摄动方程**（Gaussian VOP）：适用于非保守摄动。将摄动加速度按径向（S）、横向（T）、法向（W）三个分量分解，直接导出轨道根数变化率，适合小推力、大气阻力等非势场力的计算。典型形式（Vallado 2022, Eq. 9-14）：
+- Gauss 型摄动方程（Gaussian VOP）：适用于非保守摄动。将摄动加速度按径向（S）、横向（T）、法向（W）三个分量分解，直接导出轨道根数变化率，适合小推力、大气阻力等非势场力的计算。典型形式（Vallado 2022, Eq. 9-14）：
 
 $$
 \frac{da}{dt} = \frac{2a^2 v}{\mu} a_S, \quad
 \frac{de}{dt} = \frac{1}{v}\left[ 2(e + \cos\nu) a_S - \frac{r}{a}\sin\nu \cdot a_T \right], \quad \dots
 $$
 
-- **Kozai 方法**、**Brouwer 方法**：均基于 VOP 发展，将摄动函数的周期项平均掉，提取长期项以获得简化的分析预报。
+- Kozai 方法、Brouwer 方法：均基于 VOP 发展，将摄动函数的周期项平均掉，提取长期项以获得简化的分析预报。
 
 ### 半解析法（Semianalytical）
 

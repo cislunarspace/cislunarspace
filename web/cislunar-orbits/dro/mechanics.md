@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/dro/mechanics/
 
 ## 逆行几何
 
-DRO 在地月旋转坐标系中的最显著特征是其**逆行运动**，即 Retrograde 运动：航天器的轨道运动方向与地月连线的旋转方向相反。在旋转坐标系中，轨道角速度 $\dot{\theta} < 0$，即航天器从旋转坐标系看是在倒退运行 \cite{perozziDistantRetrogradeOrbits2017}。
+DRO 在地月旋转坐标系中的最显著特征是其逆行运动，即 Retrograde 运动：航天器的轨道运动方向与地月连线的旋转方向相反。在旋转坐标系中，轨道角速度 $\dot{\theta} < 0$，即航天器从旋转坐标系看是在倒退运行 \cite{perozziDistantRetrogradeOrbits2017}。
 
 这一几何特性可以用会合坐标系的角动量来解释。设航天器在惯性空间中的角动量为 $h$，则其在旋转坐标系中的有效角动量为：
 
@@ -52,11 +52,11 @@ DRO 在 CR3BP 中的较高固有稳定性源于逆行运动与 Coriolis 效应�
 
 ### Coriolis 效应的角色
 
-在旋转坐标系中，物体的运动受到 Coriolis 力 $-2\boldsymbol{\omega} \times \mathbf{v}$ 的作用。对于顺行轨道，Coriolis 力沿径向向外（类似于离心力增强），这使得某些方向的扰动会被放大；对于逆行轨道，Coriolis 力沿径向向内，起到类似稳定弹簧的作用，抑制了扰动的增长。
+在旋转坐标系中，物体的运动受到 Coriolis 力 $-2\boldsymbol{\omega} \times \mathbf{v}$ 的作用。对于顺行轨道，Coriolis 力沿径向向外（类似于离心力增强），这使得某些方向的扰动会被放大。对于逆行轨道，Coriolis 力沿径向向内，起到类似稳定弹簧的作用，抑制了扰动的增长。
 
 ### 与 Lyapunov 轨道的联系
 
-DRO 与 L1/L2 附近的 Lyapunov 周期轨道存在**同源分支**关系，即随能量参数变化的分岔联系。随着雅可比常数 $C_J$ 减小而能量增加，Lyapunov 轨道会通过分岔转变为 DRO。这种分支关系说明 DRO 并非孤立的轨道族，而是 CR3BP 周期轨道族的一部分 \cite{ChenGuanHuaDiYueKongJianDeYuanJuChiNiXingGuiDaoZuJiQiFenChaYanJiu2022}。
+DRO 与 L1/L2 附近的 Lyapunov 周期轨道存在同源分支关系，即随能量参数变化的分岔联系。随着雅可比常数 $C_J$ 减小而能量增加，Lyapunov 轨道会通过分岔转变为 DRO。这种分支关系说明 DRO 并非孤立的轨道族，而是 CR3BP 周期轨道族的一部分 \cite{ChenGuanHuaDiYueKongJianDeYuanJuChiNiXingGuiDaoZuJiQiFenChaYanJiu2022}。
 
 ## 速度分量与轨道形态
 

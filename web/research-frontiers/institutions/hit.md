@@ -36,7 +36,7 @@ twitter:
 
 ### 航天学院与卫星研制链条
 
-哈工大航天学院是学校开展地月空间相关研究的核心依托。围绕航天学院、卫星技术研究所和工大卫星，学校形成了从总体设计、分系统研制、载荷开发、地面测控到在轨应用验证的完整链条，具备从论文走向型号的实际转化条件。在轨道设计与自主导航等基础方向，张汉清等提出了地月三体问题下 L1-地球低能转移轨道设计方法，以降低轨道角动量为目标揭示了转移的动力学机理 \cite{ZhangHanQingDiYueSanTiWenTiXiaL1DiQiuDiNengZhuanYiGuiDaoSheJi2011}；刘玥等给出了一种用于月球低能返回轨道设计的混合自适应遗传算法，所需速度脉冲仅为传统双曲拼接法的约 75% \cite{LiuYueYueQiuDiNengFanHuiGuiDaoSheJiDeHunHeZiGuaYingYiChuanSuanFa2016}；钱霙婧等研究了多航天器部署问题中的自主导航方法 \cite{QianYingJingDuoHangTianQiBuShuWenTiZhongDeZiZhuDaoHangFangFaYanJiu2010}。在系统与工程层面，王月明针对天基运输平台研究了高精度制导与控制方法 \cite{WangYueMingTianJiYunShuPingTaiGaoJingDuZhiDaoYuKongZhiFangFaYanJiu2015}，田百义系统研究了小推力借力转移轨道设计与优化 \cite{TianBaiYiXiaoTuiLiJieLiZhuanYiGuiDaoSheJiYuYouHuaFangFaYanJiu2012}，陈国庆则面向地月机会式网络设计了数据流编码传输方案 \cite{ChenGuoQingMianXiangDiYueJiHuiShiWangLuoDeShuJuLiuBianMaChuanShuFangAnYanJiu2021}。
+哈工大航天学院是学校开展地月空间相关研究的核心依托。围绕航天学院、卫星技术研究所和工大卫星，学校形成了从总体设计、分系统研制、载荷开发、地面测控到在轨应用验证的完整链条，具备从论文走向型号的实际转化条件。在轨道设计与自主导航等基础方向，张汉清等提出了地月三体问题下 L1-地球低能转移轨道设计方法，以降低轨道角动量为目标揭示了转移的动力学机理 \cite{ZhangHanQingDiYueSanTiWenTiXiaL1DiQiuDiNengZhuanYiGuiDaoSheJi2011}。刘玥等给出了一种用于月球低能返回轨道设计的混合自适应遗传算法，所需速度脉冲仅为传统双曲拼接法的约 75% \cite{LiuYueYueQiuDiNengFanHuiGuiDaoSheJiDeHunHeZiGuaYingYiChuanSuanFa2016}。钱霙婧等研究了多航天器部署问题中的自主导航方法 \cite{QianYingJingDuoHangTianQiBuShuWenTiZhongDeZiZhuDaoHangFangFaYanJiu2010}。在系统与工程层面，王月明针对天基运输平台研究了高精度制导与控制方法 \cite{WangYueMingTianJiYunShuPingTaiGaoJingDuZhiDaoYuKongZhiFangFaYanJiu2015}，田百义系统研究了小推力借力转移轨道设计与优化 \cite{TianBaiYiXiaoTuiLiJieLiZhuanYiGuiDaoSheJiYuYouHuaFangFaYanJiu2012}，陈国庆则面向地月机会式网络设计了数据流编码传输方案 \cite{ChenGuoQingMianXiangDiYueJiHuiShiWangLuoDeShuJuLiuBianMaChuanShuFangAnYanJiu2021}。
 
 ### 月球轨道任务验证能力
 
@@ -56,11 +56,11 @@ twitter:
 
 #### 月球星座导航与定轨技术综述
 
-**文献信息**：Zhang X, Sun Z, Chen X, et al. Summary of lunar constellation navigation and orbit determination technology[J]. Aerospace, 2024, 11(6): 497. DOI: [10.3390/aerospace11060497](https://doi.org/10.3390/aerospace11060497)
+文献信息：Zhang X, Sun Z, Chen X, et al. Summary of lunar constellation navigation and orbit determination technology[J]. Aerospace, 2024, 11(6): 497. DOI: [10.3390/aerospace11060497](https://doi.org/10.3390/aerospace11060497)
 
-**摘要**：月球是距地球最近的天体，其丰富的独特资源是地球资源的重要补充，对人类社会的可持续发展具有深远意义。随着大规模探测任务的逐步推进，月球探测器对通信、导航、测绘等服务的需求大幅增加，星座导航与定轨技术将成为未来月球探测基础设施不可或缺的组成部分。本文系统梳理了国内外月球中继导航卫星网络的现状，总结了单星与星座导航定轨的技术原理，探讨了月球导航星座定轨与导航的技术难点，分析了可能的解决方案，并对高精度定轨与导航方法的研究趋势进行了展望。
+摘要：月球是距地球最近的天体，其丰富的独特资源是地球资源的重要补充，对人类社会的可持续发展具有深远意义。随着大规模探测任务的逐步推进，月球探测器对通信、导航、测绘等服务的需求大幅增加，星座导航与定轨技术将成为未来月球探测基础设施不可或缺的组成部分。本文系统梳理了国内外月球中继导航卫星网络的现状，总结了单星与星座导航定轨的技术原理，探讨了月球导航星座定轨与导航的技术难点，分析了可能的解决方案，并对高精度定轨与导航方法的研究趋势进行了展望。
 
-**关键词**：月球探测；精密定轨；自主导航
+关键词：月球探测。精密定轨。自主导航
 
 这篇综述来自哈工大航天学院与深空探测实验室等单位合作，梳理了月球星座导航的需求背景、体系构型、观测体制和定轨方法。月球轨道导航星座、轨道确定与时间同步，是未来地月基础设施建设的底层问题。结合天都二号任务来看，这一方向已和具体型号验证开始耦合，不止于纸面研究。
 
@@ -68,24 +68,24 @@ twitter:
 
 #### 行星探测下降着陆段光学导航方法与误差分析
 
-**文献信息**：Mu R, Wu P, Deng Y, et al. Optical navigation method and error analysis for the descending landing phase in planetary exploration[J]. Aerospace, 2022, 9(9): 496. DOI: [10.3390/aerospace9090496](https://doi.org/10.3390/aerospace9090496)
+文献信息：Mu R, Wu P, Deng Y, et al. Optical navigation method and error analysis for the descending landing phase in planetary exploration[J]. Aerospace, 2022, 9(9): 496. DOI: [10.3390/aerospace9090496](https://doi.org/10.3390/aerospace9090496)
 
-**摘要**：针对月球及行星探测器下降着陆阶段高精度光学导航问题，本文提出了一种基于空间位置分布模型的光学导航方法。该方法以撞击坑检测为基础，建立了基于撞击坑目标对应关系的成像余弦等效数学模型；通过描述探测器空间位置的几何分布，构建 Abel 李群空间环面，实现参数化光学导航的绝对定位。最后，以拟合椭圆为典型分析对象，讨论了撞击坑检测测量误差对光学导航系统定位精度与姿态的影响，并分析了不同撞击坑分布构型及不同检测误差对所提导航算法性能的影响。蒙特卡洛仿真实验结果表明，所提算法相比现有方法具有高稳定性、高精度和良好实时性的优势。
+摘要：针对月球及行星探测器下降着陆阶段高精度光学导航问题，本文提出了一种基于空间位置分布模型的光学导航方法。该方法以撞击坑检测为基础，建立了基于撞击坑目标对应关系的成像余弦等效数学模型。通过描述探测器空间位置的几何分布，构建 Abel 李群空间环面，实现参数化光学导航的绝对定位。最后，以拟合椭圆为典型分析对象，讨论了撞击坑检测测量误差对光学导航系统定位精度与姿态的影响，并分析了不同撞击坑分布构型及不同检测误差对所提导航算法性能的影响。蒙特卡洛仿真实验结果表明，所提算法相比现有方法具有高稳定性、高精度和良好实时性的优势。
 
-**关键词**：光学导航；撞击坑检测算法；空间位置分布；环面；月球探测
+关键词：光学导航。撞击坑检测算法。空间位置分布。环面。月球探测
 
 这项工作聚焦月球和行星探测器在下降着陆阶段的高精度光学导航问题，以撞击坑等稳定地形特征为核心，研究从图像检测、几何建模到误差传播分析的一整套方法。
 
 #### 面向月球着陆的自适应凸优化制导
 
-**文献信息**：Mu R, Deng Y, Wu P. Adaptive convex optimization guidance for lunar landing[J]. Aerospace, 2023, 10(7): 634. DOI: [10.3390/aerospace10070634](https://doi.org/10.3390/aerospace10070634)
+文献信息：Mu R, Deng Y, Wu P. Adaptive convex optimization guidance for lunar landing[J]. Aerospace, 2023, 10(7): 634. DOI: [10.3390/aerospace10070634](https://doi.org/10.3390/aerospace10070634)
 
-**摘要**：本文提出了一种基于自适应凸优化的新型制导算法，以确保在月球着陆器参数不确定性条件下的鲁棒性，并满足末端位置、速度、姿态和推力约束。针对着陆过程中的参数不确定性问题，采用参数自适应方法，通过最优观测器对比冲和质量进行在线实时最优估计，并利用估计参数实现最优轨迹规划。为解决凸优化过程中末端姿态和推力水平约束困难的问题，引入快速调整阶段以满足末端姿态和推力约束；同时采用目标自适应方法对目标进行自适应调整，从而通过目标偏移消除快速调整阶段引起的位置和速度偏差。
+摘要：本文提出了一种基于自适应凸优化的新型制导算法，以确保在月球着陆器参数不确定性条件下的鲁棒性，并满足末端位置、速度、姿态和推力约束。针对着陆过程中的参数不确定性问题，采用参数自适应方法，通过最优观测器对比冲和质量进行在线实时最优估计，并利用估计参数实现最优轨迹规划。为解决凸优化过程中末端姿态和推力水平约束困难的问题，引入快速调整阶段以满足末端姿态和推力约束。同时采用目标自适应方法对目标进行自适应调整，从而通过目标偏移消除快速调整阶段引起的位置和速度偏差。
 
-**关键词**：自适应凸优化；最优轨迹规划；参数不确定性；目标自适应方法；月球着陆
+关键词：自适应凸优化。最优轨迹规划。参数不确定性。目标自适应方法。月球着陆
 
 这项研究重点解决月球着陆过程中参数不确定、末端姿态约束强、实时性要求高等问题，提出了带参数自适应和目标自适应机制的凸优化制导方法，在着陆精度与燃料消耗之间找到可工程实现的平衡点。
 
 ## 小结
 
-在国内高校的地月空间研究中，哈工大的特点是工程底子厚，且已多次把相关能力真正送上了月球轨道。从龙江二号到天都二号，任务目标从能进月球轨道逐步转向如何在月球轨道稳定运行和通信；地面空间站则在背后提供持续的环境模拟支撑。研究方向从轨道导航定轨延伸到着陆制导，理论研究和型号任务之间的耦合比较紧密。
+在国内高校的地月空间研究中，哈工大的特点是工程底子厚，且已多次把相关能力真正送上了月球轨道。从龙江二号到天都二号，任务目标从能进月球轨道逐步转向如何在月球轨道稳定运行和通信。地面空间站则在背后提供持续的环境模拟支撑。研究方向从轨道导航定轨延伸到着陆制导，理论研究和型号任务之间的耦合比较紧密。

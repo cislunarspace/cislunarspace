@@ -1,6 +1,6 @@
 ---
 title: 经典指数正弦曲线（Classical Exponential Sinusoid）
-description: 指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受；但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不
+description: 指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受。但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不
 keywords: 经典指数正弦曲线, Classical Exponential Sinusoid, 轨道, 周期轨道, Halo轨道
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 经典指数正弦曲线详解 | 术语定义
-  description: 指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受；但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不
+  description: 指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受。但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 经典指数正弦曲线详解 | 术语定义
-  description: 指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受；但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不
+  description: 指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受。但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不
   image: /logo.png
 permalink: /glossary/orbits/classical-exponential-sinusoid/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/classical-exponential-sinusoid/
 
 ## 定义
 
-指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受；但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不足 \cite{vellutiniShapebasedDesignLowthrust2014}。
+指数正弦曲线形状函数的原始形式：r = k0 exp[k1 sin(k2 θ + φ)]。由 Petropoulos 和 Longuski 提出，适用于二体框架下的低推力轨迹设计。在圆型限制性三体问题中，当转移距离较近（如近地轨道高度以下）时，该形式尚可接受。但在双天体引力相当的区域（如地球静止轨道高度以上），其精度不足 \cite{vellutiniShapebasedDesignLowthrust2014}。
 
 ## 应用价值
 

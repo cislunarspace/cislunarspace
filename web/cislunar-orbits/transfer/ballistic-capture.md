@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/transfer/ballistic-capture/
 
 ## 原理
 
-弹道捕获（Ballistic Capture）是一种利用月球引力辅助实现地月转移的技术，其核心思想是：在不进行推进减速的情况下，让航天器被月球引力"自然捕获"。
+弹道捕获（Ballistic Capture）是一种利用月球引力辅助实现地月转移的技术，其核心思想是：在不进行推进减速的情况下，让航天器被月球引力“自然捕获”。
 
 传统的地月转移采用动力捕获，需要在接近月球时执行减速机动，使航天器进入月球捕获轨道。而弹道捕获则利用了月球轨道的动力学特性：若航天器在发射时精确瞄准月球在未来某一时刻的位置，则当航天器到达该位置时，即使不进行减速，月球引力也会将其自然拽入一个相对稳定的轨道 \cite{belbrunoSunperturbedEarthtomoonTransfers1993}。
 
@@ -38,7 +38,7 @@ permalink: /cislunar-orbits/transfer/ballistic-capture/
 
 ## 在低能转移中的角色
 
-弹道捕获是**弱稳定边界** Weak Stability Boundary 转移理论的核心实现手段 \cite{belbrunoWeakStabilityBoundary2010}。
+弹道捕获是弱稳定边界 Weak Stability Boundary 转移理论的核心实现手段 \cite{belbrunoWeakStabilityBoundary2010}。
 
 WSB 理论由 Belbruno 在 1980 年代后期提出，他与 Miller 于 1993 年系统给出了利用太阳引力摄动实现地月弹道捕获的转移设计方法 \cite{belbrunoSunperturbedEarthtomoonTransfers1993}。具体过程：
 
@@ -47,22 +47,22 @@ WSB 理论由 Belbruno 在 1980 年代后期提出，他与 Miller 于 1993 年�
 3. 到达月球附近时自然进入月球捕获区
 4. 进行少量机动（$\Delta V \sim 50-100$ m/s）进入目标轨道
 
-日本月球探测器 **Hiten** 于 1991 年首个验证了 WSB 弹道捕获转移 \cite{griesemerAutomatedGenerationOptimization2009}。NASA 的 **GRAIL** 任务也采用了类似的低能转移策略。
+日本月球探测器 Hiten 于 1991 年首个验证了 WSB 弹道捕获转移 \cite{griesemerAutomatedGenerationOptimization2009}。NASA 的 GRAIL 任务也采用了类似的低能转移策略。
 
 ## 优势与局限
 
 ### 优势
 
-1. **燃料节省**：弹道捕获的发射能量与直接转移相当，差距在数十米每秒内，主要节省出现在到达月球时的捕获制动环节，量级为数百米每秒 \cite{fuLowenergyEarthmoonTransfers2025}
-2. **发射窗口放宽**：虽然需要精确时机，但可通过预先规划选择最优窗口
-3. **适合小卫星**：对于 $\Delta V$ 预算紧张的小型探测器，弹道捕获提供了可行的转移方案 \cite{pengLowenergyTransfersLunar2024}
+1. 燃料节省：弹道捕获的发射能量与直接转移相当，差距在数十米每秒内，主要节省出现在到达月球时的捕获制动环节，量级为数百米每秒 \cite{fuLowenergyEarthmoonTransfers2025}
+2. 发射窗口放宽：虽然需要精确时机，但可通过预先规划选择最优窗口
+3. 适合小卫星：对于 $\Delta V$ 预算紧张的小型探测器，弹道捕获提供了可行的转移方案 \cite{pengLowenergyTransfersLunar2024}
 
 ### 局限
 
-1. **转移时间长**：弹道捕获的转移时间通常为 1-3 个月，远长于直接转移，研究者因此发展了拼接三体模型下的快速弹道捕获转移方案 \cite{sousa-silvaFastEarthMoon2018}
-2. **发射窗口窄**：对发射时机的精度要求高，偏离最佳窗口会显著增加 $C_3$
-3. **通信约束**：长转移时间意味着航天器在途中会经历较长通信盲区
-4. **任务调度**：对于需要快速响应的任务（如载人任务），弹道捕获不适用
+1. 转移时间长：弹道捕获的转移时间通常为 1-3 个月，远长于直接转移，研究者因此发展了拼接三体模型下的快速弹道捕获转移方案 \cite{sousa-silvaFastEarthMoon2018}
+2. 发射窗口窄：对发射时机的精度要求高，偏离最佳窗口会显著增加 $C_3$
+3. 通信约束：长转移时间意味着航天器在途中会经历较长通信盲区
+4. 任务调度：对于需要快速响应的任务（如载人任务），弹道捕获不适用
 
 ## 相关概念
 

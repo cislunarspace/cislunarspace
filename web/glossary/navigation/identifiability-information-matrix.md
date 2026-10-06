@@ -1,6 +1,6 @@
 ---
 title: 可辨识信息矩阵（Identifiability Information Matrix）
-description: 在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识；其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低。
+description: 在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识。其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低。
 keywords: Identifiability Information Matrix, 可辨识信息矩阵, 定轨, 导航, 滤波
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 可辨识信息矩阵详解 | 术语定义
-  description: 在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识；其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低。
+  description: 在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识。其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 可辨识信息矩阵详解 | 术语定义
-  description: 在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识；其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低。
+  description: 在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识。其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低。
   image: /logo.png
 permalink: /glossary/navigation/identifiability-information-matrix/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/identifiability-information-matrix/
 
 ## 定义
 
-在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识；其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低\cite{QianYingJingDiYuePingDongDianNiZhouQiGuiDaoTanCeQiZiZhuDaoHangFangFaYanJiu2013}。
+在导航状态估计中，由观测函数对初值的雅可比矩阵构建的矩阵。其定义为所有采样时刻雅可比矩阵转置与自身的累加和。若该矩阵满秩，则历元状态局部可辨识。其奇异值分解可揭示各状态分量的可辨识顺序，条件数则反映整体可辨识能力的高低\cite{QianYingJingDiYuePingDongDianNiZhouQiGuiDaoTanCeQiZiZhuDaoHangFangFaYanJiu2013}。
 
 ## 应用价值
 

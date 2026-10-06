@@ -34,21 +34,21 @@ $$C_J = 2 - v^2 + \frac{2(1-\mu)}{r_1} + \frac{2\mu}{r_2}$$
 
 其中 $\mu = 0.0121505853$ 为地月质量比参数。
 
-NRHO 的准周期性源于其在 L1 点附近的局部稳定流形与不稳定流形的交叉。在线性化系统中，沿稳定流形方向的扰动会以指数形式衰减；然而在真实星历模型中，摄动（如太阳引力、月球非球形项）会使轨道逐渐漂移，需要周期性轨道维持\cite{gimenoEffectiveStabilityNearrectilinear2026}。
+NRHO 的准周期性源于其在 L1 点附近的局部稳定流形与不稳定流形的交叉。在线性化系统中，沿稳定流形方向的扰动会以指数形式衰减。然而在真实星历模型中，摄动（如太阳引力、月球非球形项）会使轨道逐渐漂移，需要周期性轨道维持\cite{gimenoEffectiveStabilityNearrectilinear2026}。
 
-L1 NRHO 的另一个动力学特征是**近极几何**：南族成员掠过月球北侧上空，对极区长期可见，这也是 Gateway 类任务看重 NRHO 的原因之一\cite{williams2017targeting}。
+L1 NRHO 的另一个动力学特征是近极几何：南族成员掠过月球北侧上空，对极区长期可见，这也是 Gateway 类任务看重 NRHO 的原因之一\cite{williams2017targeting}。
 
 ## 设计约束
 
 NRHO 的轨道设计需满足以下关键约束：
 
-1. **振幅约束**：NRHO 的振幅比 $A_z/A_x$ 需大于某一阈值（通常 $A_z/A_x > 0.5$）才能维持近直线特性
-2. **雅可比常数**：$C_J$ 值必须处于稳定流形存在的范围内，过高或过低都会导致轨道逃逸
-3. **月球碰撞避免**：轨道设计需确保航天器不会进入月球表面以下
+1. 振幅约束：NRHO 的振幅比 $A_z/A_x$ 需大于某一阈值（通常 $A_z/A_x > 0.5$）才能维持近直线特性
+2. 雅可比常数：$C_J$ 值必须处于稳定流形存在的范围内，过高或过低都会导致轨道逃逸
+3. 月球碰撞避免：轨道设计需确保航天器不会进入月球表面以下
 
 典型的 L1 NRHO 周期约为 6.5 至 10 天，随族成员变化，近月点高度通常在数百至数千公里量级\cite{zimovanCharacteristicsDesignStrategies2017}。
 
 ## 典型任务
 
-1. **早期任务**：ISE-3（1978）虽然并非严格意义的 NRHO，但其轨道设计已体现了 L1 附近的晕轨道思想；此后 ACE 任务（1997）在地日系统的 L1 轨道也属于同类思想的应用
-2. **Gateway 任务**：NASA 选定的 Gateway 运行轨道位于 **L2 点**附近的 L2 南族 9:2 会合共振 NRHO 上，周期约 6.56 天；L1 NRHO 则作为其备选族之一在规划阶段被系统比较过\cite{williams2017targeting,zimovanCharacteristicsDesignStrategies2017}。
+1. 早期任务：ISE-3（1978）虽然并非严格意义的 NRHO，但其轨道设计已体现了 L1 附近的晕轨道思想。此后 ACE 任务（1997）在地日系统的 L1 轨道也属于同类思想的应用
+2. Gateway 任务：NASA 选定的 Gateway 运行轨道位于 L2 点附近的 L2 南族 9:2 会合共振 NRHO 上，周期约 6.56 天。L1 NRHO 则作为其备选族之一在规划阶段被系统比较过\cite{williams2017targeting,zimovanCharacteristicsDesignStrategies2017}。

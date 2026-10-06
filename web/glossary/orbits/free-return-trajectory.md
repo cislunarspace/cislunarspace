@@ -48,7 +48,7 @@ related:
 
 ## 全飞行过程设计与入轨衔接
 
-彭祺擘等在星历模型下完成了地月自由返回全飞行过程的轨道设计，覆盖发射、地月转移、月面近距离飞掠与返回再入各阶段，并在高保真模型下验证了轨道的自返回特性 \cite{PengQiBoXingLiMoXingXiaDiYueZiYouFanHuiQuanFeiXingGuoChengGuiDaoSheJi2023}。自由返回轨道也常作为其他任务设计的基础构件：从自由返回轨道出发经小机动可进入月球轨道，Jesick 与 Ocampo 研究了从自由返回轨道实施最优月球轨道插入的问题 \cite{jesick2012optimal}；基于地月自由返回轨道的远距离逆行轨道入轨策略见[远距离逆行轨道](/glossary/orbits/distant-retrograde-orbit-dro/)。
+彭祺擘等在星历模型下完成了地月自由返回全飞行过程的轨道设计，覆盖发射、地月转移、月面近距离飞掠与返回再入各阶段，并在高保真模型下验证了轨道的自返回特性 \cite{PengQiBoXingLiMoXingXiaDiYueZiYouFanHuiQuanFeiXingGuoChengGuiDaoSheJi2023}。自由返回轨道也常作为其他任务设计的基础构件：从自由返回轨道出发经小机动可进入月球轨道，Jesick 与 Ocampo 研究了从自由返回轨道实施最优月球轨道插入的问题 \cite{jesick2012optimal}。基于地月自由返回轨道的远距离逆行轨道入轨策略见[远距离逆行轨道](/glossary/orbits/distant-retrograde-orbit-dro/)。
 
 ## 相关概念
 

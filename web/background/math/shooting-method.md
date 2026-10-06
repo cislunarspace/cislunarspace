@@ -40,11 +40,11 @@ wechatShare:
 
 打靶法在地月空间轨道设计中应用广泛：
 
-- **NRHO 初始条件生成**：Zimovan (2017) 系统总结了地月 L1/L2 NRHO 的单次打靶与多步打靶求解策略
-- **DRO 轨道生成**：利用关于 $x$ 轴的对称性，只在 $x$ 轴上选取初始点，以 $\dot{y}_0$ 和周期 $T$ 为自由变量进行迭代
-- **Halo 轨道族延续**：从已知的平面 Lyapunov 轨道出发，通过弧长延续法逐步增大 $A_z$ 振幅，每步配合打靶法求解
+- NRHO 初始条件生成：Zimovan (2017) 系统总结了地月 L1/L2 NRHO 的单次打靶与多步打靶求解策略
+- DRO 轨道生成：利用关于 $x$ 轴的对称性，只在 $x$ 轴上选取初始点，以 $\dot{y}_0$ 和周期 $T$ 为自由变量进行迭代
+- Halo 轨道族延续：从已知的平面 Lyapunov 轨道出发，通过弧长延续法逐步增大 $A_z$ 振幅，每步配合打靶法求解
 
-打靶法通常需要与**弧长延续法**（Arc-length Continuation）和**微分修正**（Differential Correction）配合使用，以提高收敛性和全局性。
+打靶法通常需要与弧长延续法（Arc-length Continuation）和微分修正（Differential Correction）配合使用，以提高收敛性和全局性。
 
 ## 相关概念
 

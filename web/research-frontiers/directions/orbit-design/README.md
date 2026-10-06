@@ -31,4 +31,4 @@ wechatShare:
 | [低能转移轨道](./low-energy-transfer.md) | 利用三体动力学不变流形实现低能耗的地月转移轨道设计，包括Halo/Lissajous轨道中转方案 |
 | [轨道参数表征](./orbit-characterization.md) | 基于正则变换的平动点轨道参数化方法、动力学替代模型与轨道编目识别框架 |
 
-> **待扩展**：DRO/NRHO轨道族设计、轨道优化算法等子方向将持续添加。
+> 待扩展：DRO/NRHO轨道族设计、轨道优化算法等子方向将持续添加。

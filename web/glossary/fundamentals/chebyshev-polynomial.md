@@ -1,7 +1,7 @@
 ---
 permalink: /glossary/fundamentals/chebyshev-polynomial/
 title: 切比雪夫多项式（Chebyshev Polynomial）
-description: 由递推 $T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x)$ 在 $[-1,1]$ 上定义的正交多项式族；因几乎达到 minimax 最优逼近而在航天动力学中深受倚重。JPL 以切比雪夫系数分块存储行星历表（如月球 4 天一组的系数块），轨迹设计中则用于将周期轨道的位置和速度分量表示为光滑可微的边界约束。
+description: 由递推 $T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x)$ 在 $[-1,1]$ 上定义的正交多项式族。因几乎达到 minimax 最优逼近而在航天动力学中深受倚重。JPL 以切比雪夫系数分块存储行星历表（如月球 4 天一组的系数块），轨迹设计中则用于将周期轨道的位置和速度分量表示为光滑可微的边界约束。
 keywords: 切比雪夫多项式, Chebyshev polynomial, 正交多项式, JPL星历, DE405, 轨道逼近, 行星历表, minimax逼近, Clenshaw递推, 航天动力学
 ---
 
@@ -27,11 +27,11 @@ $$
 
 第二类 $U_n(x)$ 满足 $U_n(\cos\theta) = \sin((n+1)\theta)/\sin\theta$，但航天动力学应用中几乎只用第一类。
 
-核心性质：在 $[-1, 1]$ 上所有 $n$ 次首一多项式中，缩放后的 $2^{1-n}T_n(x)$ 具有最小的最大绝对值，即 **minimax 性质**。这使得切比雪夫逼近几乎达到理论最优并远易于计算。
+核心性质：在 $[-1, 1]$ 上所有 $n$ 次首一多项式中，缩放后的 $2^{1-n}T_n(x)$ 具有最小的最大绝对值，即 minimax 性质。这使得切比雪夫逼近几乎达到理论最优并远易于计算。
 
 ## 求值
 
-导数的递推借助第二类：$T_n'(x) = n U_{n-1}(x)$。数值求值采用 **Clenshaw 递推**：$O(N)$ 计算 $\sum a_n T_n(x)$，数值稳定性极佳，无需显式求每个 $T_n$（Press et al. 1992, Sec. 5.8）。
+导数的递推借助第二类：$T_n'(x) = n U_{n-1}(x)$。数值求值采用 Clenshaw 递推：$O(N)$ 计算 $\sum a_n T_n(x)$，数值稳定性极佳，无需显式求每个 $T_n$（Press et al. 1992, Sec. 5.8）。
 
 ## JPL 星历存储
 
@@ -61,7 +61,7 @@ $$
 |---|---|---|
 | 定义 | $T_n(\cos\theta) = \cos(n\theta)$ | $U_n(\cos\theta) = \frac{\sin((n+1)\theta)}{\sin\theta}$ |
 | 权函数 | $1/\sqrt{1-x^2}$ | $\sqrt{1-x^2}$ |
-| 导数关系 | $T_n' = n U_{n-1}$ | — |
+| 导数关系 | $T_n' = n U_{n-1}$ | 无 |
 | 主要用途 | 逼近论、星历存储 | 数值分析（Gauss-Chebyshev 求积） |
 
 ## 相关概念

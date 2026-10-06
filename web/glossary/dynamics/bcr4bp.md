@@ -40,9 +40,9 @@ BCR4BP 之所以近似，在于两条圆运动假设在物理上不严格自洽�
 
 文献中对这两个缩写常混用，但存在重要的概念差异（Gómez et al. 2001）：
 
-- **BCP**（Bicircular Problem）：Simó 等人最早提出的原始双圆模型，其中地球-月球和地月质心-太阳两套圆运动在运动学上不一致，它们不满足牛顿第三定律。BCP 是一种**不一致的简化模型**，适合快速探索周期轨道的大致几何特征。
+- BCP（Bicircular Problem）：Simó 等人最早提出的原始双圆模型，其中地球-月球和地月质心-太阳两套圆运动在运动学上不一致，它们不满足牛顿第三定律。BCP 是一种不一致的简化模型，适合快速探索周期轨道的大致几何特征。
 
-- **BCR4BP**（Bicircular Restricted Four-Body Problem）：较新的自洽表述，将第四体引力处理为对 CR3BP 运动方程的显式周期性强迫项，而不要求两套圆运动在动力学上自洽。BCR4BP 保留了 CR3BP 的旋转框架，只是右端增加了含太阳质量参数 $\mu_s$ 和太阳方位 $\theta_s$ 的时变项。
+- BCR4BP（Bicircular Restricted Four-Body Problem）：较新的自洽表述，将第四体引力处理为对 CR3BP 运动方程的显式周期性强迫项，而不要求两套圆运动在动力学上自洽。BCR4BP 保留了 CR3BP 的旋转框架，只是右端增加了含太阳质量参数 $\mu_s$ 和太阳方位 $\theta_s$ 的时变项。
 
 在航天器轨道设计语境中，BCR4BP 通常指自洽模型，双圆问题是可互换的通称。
 
@@ -67,7 +67,7 @@ $$
 \end{cases}
 $$
 
-其中 $\Omega$ 即 CR3BP 的有效势函数。太阳摄动加速度 $\mathbf{a}_s$ 由第四体的时变位置 $\mathbf{r}_s(t)$ 和第四体质量参数 $\mu_s$ 导出（以地月质量单位归一化后的质量；日-地月系统 $\mu_s \approx 3.289 \times 10^5$）：
+其中 $\Omega$ 即 CR3BP 的有效势函数。太阳摄动加速度 $\mathbf{a}_s$ 由第四体的时变位置 $\mathbf{r}_s(t)$ 和第四体质量参数 $\mu_s$ 导出（以地月质量单位归一化后的质量。日-地月系统 $\mu_s \approx 3.289 \times 10^5$）：
 
 $$\mathbf{a}_s = -\mu_s \left(\frac{\mathbf{r} - \mathbf{r}_s}{|\mathbf{r} - \mathbf{r}_s|^3} + \frac{\mathbf{r}_s}{|\mathbf{r}_s|^3}\right)$$
 
@@ -77,11 +77,11 @@ $$\mathbf{a}_s = -\mu_s \left(\frac{\mathbf{r} - \mathbf{r}_s}{|\mathbf{r} - \ma
 
 BCR4BP 在地月空间任务设计中填补了 CR3BP 与全星历模型之间的重要空白（Koon et al. 2011）：
 
-- **弱稳定边界转移**（WSB Transfer）：太阳摄动是使地月弹道捕获可行的关键机制。BCR4BP 能捕获太阳的时变影响而不负担全星历积分的成本，是 WSB 转移设计的工作模型。
+- 弱稳定边界转移（WSB Transfer）：太阳摄动是使地月弹道捕获可行的关键机制。BCR4BP 能捕获太阳的时变影响而不负担全星历积分的成本，是 WSB 转移设计的工作模型。
 
-- **行星际超级高速公路**（Interplanetary Superhighway）：日地和地月系统间的不变流形拼接在 BCR4BP 框架下分析最有效：用日地出站流形与地月入站流形在 BCR4BP 的时变系统中求交。
+- 行星际超级高速公路（Interplanetary Superhighway）：日地和地月系统间的不变流形拼接在 BCR4BP 框架下分析最有效：用日地出站流形与地月入站流形在 BCR4BP 的时变系统中求交。
 
-- **第四体摄动判别**：对于特定轨道（如 DRO、NRHO），BCR4BP 可以估算太阳摄动的长期累积效应，帮助判断哪些轨道需要在高保真模型下验证。
+- 第四体摄动判别：对于特定轨道（如 DRO、NRHO），BCR4BP 可以估算太阳摄动的长期累积效应，帮助判断哪些轨道需要在高保真模型下验证。
 
 ## 相关概念
 

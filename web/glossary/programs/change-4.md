@@ -1,12 +1,12 @@
 ---
-title: "嫦娥四号（Chang'e 4）"
+title: “嫦娥四号（Chang'e 4）”
 description: 中国探月工程任务，携带鹊桥中继卫星运行于地月L2点晕轨道，为月球背面提供通信中继服务。
 keywords: "嫦娥四号, Chang'e 4"
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-10-01
 wechatShare:
-  title: "嫦娥四号（Chang'e 4）"
+  title: “嫦娥四号（Chang'e 4）”
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:

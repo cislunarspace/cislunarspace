@@ -46,13 +46,13 @@ related:
 
 ## 处置动因
 
-地月空间交通预计持续增长，为避免近地轨道曾经出现的碎片管理困境在地月空间重演，需要提前部署处置措施 \cite{bolisComparativeAssessmentHeliocentric2026}。新的碎片管理条例，例如美国联邦通信委员会的五年离轨规则，要求对地月区域服役航天器做妥善处置；历史上多数任务选择撞向月面结束，这一做法长期看未必可持续 \cite{accetturaDebrisMitigationAtmospheric2023}。
+地月空间交通预计持续增长，为避免近地轨道曾经出现的碎片管理困境在地月空间重演，需要提前部署处置措施 \cite{bolisComparativeAssessmentHeliocentric2026}。新的碎片管理条例，例如美国联邦通信委员会的五年离轨规则，要求对地月区域服役航天器做妥善处置。历史上多数任务选择撞向月面结束，这一做法长期看未必可持续 \cite{accetturaDebrisMitigationAtmospheric2023}。
 
 ## 三条处置路线
 
-- **日心逃逸**：从 L2 近直线晕轨道出发的逃逸动力学在双圆限制性四体问题中考察，太阳引力摄动使离轨物体在离开后明显受太阳引力支配；处置轨迹候选按直接逃逸、间接逃逸与捕获三类结果划分 \cite{boudad2018disposal}。对离轨动力学的进一步研究覆盖碎片再接触风险、安全日心处置与向选定目的地的部署 \cite{davisDisposalDeploymentDebris2019}。保证处置后不再返回地月空间的轨迹设计可给出参数化分析 \cite{bolisNoreturnDisposalTrajectories2026}。
-- **受控撞月与日心路线比较**：对近直线晕轨道末期任务，受控撞月与日心处置两条路线可以按动力学代价与长期碎片风险做系统比较评估 \cite{bolisComparativeAssessmentHeliocentric2026}。
-- **地球再入**：从月球 L2 近直线晕轨道离轨的航天器可经大气再入完成处置，配合再入脚印分析与控制落点设计满足碎片减缓要求 \cite{accetturaDebrisMitigationAtmospheric2023}。
+- 日心逃逸：从 L2 近直线晕轨道出发的逃逸动力学在双圆限制性四体问题中考察，太阳引力摄动使离轨物体在离开后明显受太阳引力支配。处置轨迹候选按直接逃逸、间接逃逸与捕获三类结果划分 \cite{boudad2018disposal}。对离轨动力学的进一步研究覆盖碎片再接触风险、安全日心处置与向选定目的地的部署 \cite{davisDisposalDeploymentDebris2019}。保证处置后不再返回地月空间的轨迹设计可给出参数化分析 \cite{bolisNoreturnDisposalTrajectories2026}。
+- 受控撞月与日心路线比较：对近直线晕轨道末期任务，受控撞月与日心处置两条路线可以按动力学代价与长期碎片风险做系统比较评估 \cite{bolisComparativeAssessmentHeliocentric2026}。
+- 地球再入：从月球 L2 近直线晕轨道离轨的航天器可经大气再入完成处置，配合再入脚印分析与控制落点设计满足碎片减缓要求 \cite{accetturaDebrisMitigationAtmospheric2023}。
 
 ## 相关概念
 

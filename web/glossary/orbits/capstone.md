@@ -46,9 +46,9 @@ CAPSTONE 全称 Cislunar Autonomous Positioning System Technology Operations and
 
 ## 导航试验与任务进展
 
-- **导航技术验证**：CAPSTONE 搭载的地月导航技术验证包括自主定轨能力，利用一颗航天器与月球轨道器的星间测量支持自主定位，减少对地面测控的依赖 \cite{Thompson2022}。
-- **自主定位试验**：任务在轨持续推进地月自主定位试验，为地月空间导航体系提供实测数据 \cite{Stuit2023}。
-- **任务更新**：入轨后的持续运行与机动结果表明站位保持策略满足近直线晕轨道的任务需求，相关进展为 Gateway 任务设计提供直接参考 \cite{gardnerCAPSTONEMissionUpdates2023}。
+- 导航技术验证：CAPSTONE 搭载的地月导航技术验证包括自主定轨能力，利用一颗航天器与月球轨道器的星间测量支持自主定位，减少对地面测控的依赖 \cite{Thompson2022}。
+- 自主定位试验：任务在轨持续推进地月自主定位试验，为地月空间导航体系提供实测数据 \cite{Stuit2023}。
+- 任务更新：入轨后的持续运行与机动结果表明站位保持策略满足近直线晕轨道的任务需求，相关进展为 Gateway 任务设计提供直接参考 \cite{gardnerCAPSTONEMissionUpdates2023}。
 
 ## 意义
 

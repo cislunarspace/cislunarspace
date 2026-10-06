@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/lindstedt-poincare-method/
 
 ## 定义
 
-Lindstedt-Poincaré 方法是一种构造弱非线性振动系统一致有效周期（或准周期）解的摄动方法。区别于普通摄动法的关键之处在于：把**坐标和频率同时**展开为小参数 $\varepsilon$ 的幂级数；频率中引入的额外自由度用于逐阶抵消会随时间无限增长的长期项（secular terms），使截断级数对任意长时间都保持一致有效（Poincaré 1892；Nayfeh 1973）。
+Lindstedt-Poincaré 方法是一种构造弱非线性振动系统一致有效周期（或准周期）解的摄动方法。区别于普通摄动法的关键之处在于：把坐标和频率同时展开为小参数 $\varepsilon$ 的幂级数。频率中引入的额外自由度用于逐阶抵消会随时间无限增长的长期项（secular terms），使截断级数对任意长时间都保持一致有效（Poincaré 1892；Nayfeh 1973）。
 
 ## 核心思想
 
@@ -52,23 +52,23 @@ z(t) &= \sum_{i,j\ge 1}\Bigl(\sum_{|k|\le i}z_{ijk}\cos(k\theta)\Bigr)\alpha^i\b
 
 $\omega,\nu$ 本身也展开为 $\alpha,\beta$ 的幂级数（喻圣贤 2013; Richardson 1980）\cite{YuShengXianShenKongTanCeZhongDeGuiDaoFenXiSheJiYuKongZhi2013,richardsonAnalyticConstructionPeriodic1980a}。
 
-- $\omega,\nu$ **不可通约**时，轨迹铺满二维环面，对应 **Lissajous（准周期）轨道**。
+- $\omega,\nu$ 不可通约时，轨迹铺满二维环面，对应 Lissajous（准周期）轨道。
 
-- $\omega=\nu$（1:1 通约，在振幅足够大时达到）时，级数塌缩为单一周期，得到 **Halo 轨道**，即三维周期轨道。
+- $\omega=\nu$（1:1 通约，在振幅足够大时达到）时，级数塌缩为单一周期，得到 Halo 轨道，即三维周期轨道。
 
 ## 经典成果
 
-- **Farquhar & Kamel (1973)**：在地月 $L_2$ 邻域给出 Lissajous 的三阶分析解、Halo 的四阶分析解，并考虑月球轨道偏心率与太阳引力摄动 \cite{farquharQuasiperiodicOrbitsTranslunar1973}。
+- Farquhar & Kamel (1973)：在地月 $L_2$ 邻域给出 Lissajous 的三阶分析解、Halo 的四阶分析解，并考虑月球轨道偏心率与太阳引力摄动 \cite{farquharQuasiperiodicOrbitsTranslunar1973}。
 
-- **Richardson (1980)**：共线平动点附近 Halo 轨道的三阶解析构造，是现代 Halo 轨道数值计算的事实标准第一步。其方法把运动方程在平动点处展开到三阶，用改进的 Lindstedt-Poincaré 方法消除长期项，给出平面内与法向的三阶解析解（Richardson 1980；Howell 1984）\cite{richardsonAnalyticConstructionPeriodic1980a,howellThreedimensionalPeriodicHalo1984}。
+- Richardson (1980)：共线平动点附近 Halo 轨道的三阶解析构造，是现代 Halo 轨道数值计算的事实标准第一步。其方法把运动方程在平动点处展开到三阶，用改进的 Lindstedt-Poincaré 方法消除长期项，给出平面内与法向的三阶解析解（Richardson 1980；Howell 1984）\cite{richardsonAnalyticConstructionPeriodic1980a,howellThreedimensionalPeriodicHalo1984}。
 
-- **Gómez、Masdemont (1998, 2005)**：基于中心流形参数化的高阶 Lissajous、准 Halo 解，Lindstedt-Poincaré 展开阶数可达 25 阶以上，展开式系数对应 Birkhoff 正规形，可直接输出不变对象的高精度初始条件。
+- Gómez、Masdemont (1998, 2005)：基于中心流形参数化的高阶 Lissajous、准 Halo 解，Lindstedt-Poincaré 展开阶数可达 25 阶以上，展开式系数对应 Birkhoff 正规形，可直接输出不变对象的高精度初始条件。
 
-- **Archambeau 等 (2011)**：用同框架给出垂直 Lyapunov 轨道的解析解。
+- Archambeau 等 (2011)：用同框架给出垂直 Lyapunov 轨道的解析解。
 
 ## 在现代工作流中的位置
 
-Lindstedt-Poincaré 近似通常不是最终产物，其作用是为数值精化提供**初值**：
+Lindstedt-Poincaré 近似通常不是最终产物，其作用是为数值精化提供初值：
 
 1. Lindstedt-Poincaré 级数在指定雅可比常数处给出粗略的周期/准周期解。
 2. 周期轨道由 [微分修正](/glossary/dynamics/differential-correction/)（打靶法，Howell 1984）精化 \cite{howellThreedimensionalPeriodicHalo1984}。

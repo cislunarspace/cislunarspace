@@ -30,13 +30,13 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 
 根据转移能量的不同，转移走廊可分为两类：
 
-**高能走廊**（Direct Transfer Corridor）：
+高能走廊（Direct Transfer Corridor）：
 
 - 对应较高的 $C_3$ 值（$C_3 \approx -0.3$ 到 $-0.5$ km$^2$/s$^2$）
 - 转移时间短（3-5 天）
 - $\Delta V$ 走廊宽度较窄（约 $\pm 50$ m/s）
 
-**低能走廊**（Low-Energy Corridor）：
+低能走廊（Low-Energy Corridor）：
 
 - 对应较低的 $C_3$ 值（$C_3 \approx -0.8$ 到 $-1.0$ km$^2$/s$^2$）
 - 转移时间长（2-4 周）
@@ -48,15 +48,15 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 
 Pork-Chop 图是 TLI 发射窗口分析的标准工具，以等高线图的形式展示：
 
-- **x 轴**：发射日期
-- **y 轴**：到达日期（或转移时间）
-- **等高线**：总 $\Delta V$ 或 $C_3$ 值
+- x 轴：发射日期
+- y 轴：到达日期（或转移时间）
+- 等高线：总 $\Delta V$ 或 $C_3$ 值
 
 读取 Pork-Chop 图的方法：
 
 1. 找到等高线最凹陷的区域（能量最低的发射机会）
 2. 该区域的发射-到达日期对即为最优窗口
-3. 等高线的密集程度表示走廊的"陡峭程度"
+3. 等高线的密集程度表示走廊的“陡峭程度”
 
 ## 多目标优化
 

@@ -1,6 +1,6 @@
 ---
 title: 双层星间链路（Dual-Layer Inter-Satellite Link）
-description: 混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航；第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性。
+description: 混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航。第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性。
 keywords: 双层星间链路, Dual-Layer Inter-Satellite Link, Dual-layer ISL, 导航, 定轨, GNSS, 卡尔曼滤波
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 双层星间链路详解 | 术语定义
-  description: 混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航；第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性。
+  description: 混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航。第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 双层星间链路详解 | 术语定义
-  description: 混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航；第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性。
+  description: 混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航。第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性。
   image: /logo.png
 permalink: /glossary/navigation/dual-layer-isl/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/navigation/dual-layer-isl/
 
 ## 定义
 
-混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航；第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性\cite{chenAutonomousNavigationMethods2026}。
+混合星座中建立的二层星间网络：第一层连接NRHO与DRO卫星实现月球近域自主导航。第二层连接NRHO/DRO卫星与BDS GEO/IGSO卫星，提供地球参考框架并增强系统可观测性\cite{chenAutonomousNavigationMethods2026}。
 
 ## 应用价值
 
