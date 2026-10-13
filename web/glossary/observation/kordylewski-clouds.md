@@ -30,7 +30,7 @@ permalink: /glossary/observation/kordylewski-clouds/
 
 ## 定义
 
-1961年Kordylewski报告的在L5点附近发现的暗淡云状卫星，后续地面观测未能确认 \cite{gomezDynamicsMissionDesign2001}。
+1961年Kordylewski报告的在L5点附近发现的暗淡云状卫星，后续地面观测未能确认 \cite{gomezDynamicsMissionDesign2001Vol1}。
 
 ## 应用价值
 

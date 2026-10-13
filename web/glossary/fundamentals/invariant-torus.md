@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/invariant-torus/
 
 ## 定义
 
-不变环面（invariant torus）是相空间中由两个以上独立频率运动张成的闭合高维曲面。若环面上轨道在两个角坐标方向的频率之比为无理数，则轨道永不闭合，称为准周期轨道。轨道密布整个环面。在 CR3BP 中，不变环面常环绕某条参考周期轨道，是理解拟周期 Lissajous 与准周期 Halo 轨道族的几何基础（Gómez et al. 2001；Meyer & Offin 2017）\cite{gomez2001dynamics,meyerIntroductionHamiltonianDynamical2017}。
+不变环面（invariant torus）是相空间中由两个以上独立频率运动张成的闭合高维曲面。若环面上轨道在两个角坐标方向的频率之比为无理数，则轨道永不闭合，称为准周期轨道。轨道密布整个环面。在 CR3BP 中，不变环面常环绕某条参考周期轨道，是理解拟周期 Lissajous 与准周期 Halo 轨道族的几何基础（Gómez et al. 2001；Meyer & Offin 2017）\cite{gomezDynamicsMissionDesign2001Vol1,meyerIntroductionHamiltonianDynamical2017}。
 
 ## 二维不变环面与 Lissajous / Halo 轨道
 

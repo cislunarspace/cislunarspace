@@ -30,7 +30,7 @@ permalink: /glossary/other/floquet-mode/
 
 ## 定义
 
-Floquet 模态法（Floquet Mode Method）是基于平动点附近特殊动力学特性的轨道保持策略，由 Gomez 等提出\cite{gomezDynamicsMissionDesign2001}。该方法通过消除与参考轨道相关的不稳定 Floquet 模态来达到轨道保持的目的。
+Floquet 模态法（Floquet Mode Method）是基于平动点附近特殊动力学特性的轨道保持策略，由 Gomez 等提出\cite{gomezDynamicsMissionDesign2001Vol1}。该方法通过消除与参考轨道相关的不稳定 Floquet 模态来达到轨道保持的目的。
 
 ## 核心要素
 

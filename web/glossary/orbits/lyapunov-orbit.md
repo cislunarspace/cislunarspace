@@ -30,7 +30,7 @@ permalink: /glossary/orbits/lyapunov-orbit/
 
 ## 定义
 
-Lyapunov 轨道是圆型限制性三体问题（CR3BP）中环绕共线平动点的平面周期轨道族，L1、L2、L3 各有一族 \cite{gomezDynamicsMissionDesign2001,parker2014low}。线性化下，共线点的中心子空间分解为两个简正振荡：面内（频率 ωp）与面外（频率 ωv），仅激发面内中心模的周期解即平面 Lyapunov 轨道 \cite{belloInvariantManifoldsLagrangian2010}。族的存在性由李雅普诺夫中心定理保证，族由此得名 \cite{alessiLeavingMoonMeans2009}，与Lyapunov 稳定性理论无关。
+Lyapunov 轨道是圆型限制性三体问题（CR3BP）中环绕共线平动点的平面周期轨道族，L1、L2、L3 各有一族 \cite{gomezDynamicsMissionDesign2001Vol1,parker2014low}。线性化下，共线点的中心子空间分解为两个简正振荡：面内（频率 ωp）与面外（频率 ωv），仅激发面内中心模的周期解即平面 Lyapunov 轨道 \cite{belloInvariantManifoldsLagrangian2010}。族的存在性由李雅普诺夫中心定理保证，族由此得名 \cite{alessiLeavingMoonMeans2009}，与Lyapunov 稳定性理论无关。
 
 通常所说的 Lyapunov 轨道即平面 Lyapunov 轨道。另有垂直（vertical）族与它是同级兄弟族（见[垂直轨道](/glossary/orbits/vertical-orbit/)）。地月 L1/L2 族周期约 2~4 周（越靠近平动点越接近 2 周），L3 族约 4 周 \cite{parker2014low}。
 
@@ -49,7 +49,7 @@ Lyapunov 轨道是圆型限制性三体问题（CR3BP）中环绕共线平动点
 
 ## 与其他族的关系
 
-- 分岔出晕轨道族：当面内、面外频率相等（1:1 共振）时，族中垂直稳定性临界的成员分岔出晕轨道族 \cite{belloInvariantManifoldsLagrangian2010,gomezDynamicsMissionDesign2001,alessiLeavingMoonMeans2009}。
+- 分岔出晕轨道族：当面内、面外频率相等（1:1 共振）时，族中垂直稳定性临界的成员分岔出晕轨道族 \cite{belloInvariantManifoldsLagrangian2010,gomezDynamicsMissionDesign2001Vol1,alessiLeavingMoonMeans2009}。
 - 分岔出轴向（axial）轨道族，分岔位置与晕轨道族不同 \cite{heReviewCislunarConstellation2026}。
 - 与垂直族互为兄弟族：平面 Lyapunov 是面外振幅趋零的李萨如极限，垂直轨道是面内振幅趋零的李萨如极限。两者之间由准周期环面族连接 \cite{belloInvariantManifoldsLagrangian2010,guzzettiRapidTrajectoryDesign2016}。
 
@@ -67,7 +67,7 @@ Lyapunov-like（类 Lyapunov）轨道：NRHO 到 DRO 外转移中，近月飞越
 
 | 术语 | 含义 | 出处 |
 |------|------|------|
-| Lyapunov 轨道族 / 周期轨道 | 即平面 Lyapunov 族 | \cite{gomezDynamicsMissionDesign2001} |
+| Lyapunov 轨道族 / 周期轨道 | 即平面 Lyapunov 族 | \cite{gomezDynamicsMissionDesign2001Vol1} |
 | 平面 Lyapunov（周期）轨道 | 面外振幅为零、频率 ωp 的周期解族 | \cite{belloInvariantManifoldsLagrangian2010} |
 | EL1/EL2/LL1/LL2 Lyapunov 轨道 | 日地系 / 地月系对应点的 Lyapunov 轨道 | \cite{XuMingDiYueDiNengZhuanYiDeFaShengTiaoJianJiGuiJiGouZao2010} |
 | 大幅值 Lyapunov 轨道 | 与绕月轨道相切、稳定流形直达近地的族内成员 | \cite{TanMingHuJiYuDaFuZhiLyapunovGuiDaoDeDiYueZhuanYiGuiDaoSheJiYanJiu2014,ZhengYueJiYuDaFuZhiLyapunovGuiDaoWenDingLiuXingDeDiYueZhuanYiFangFa2023} |

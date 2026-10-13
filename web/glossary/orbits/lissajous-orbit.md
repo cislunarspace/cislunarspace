@@ -34,7 +34,7 @@ permalink: /glossary/orbits/lissajous-orbit/
 
 ## 与晕轨道的关系
 
-当面内、面外两个频率相等时，李萨如轨道退化为周期的晕轨道 \cite{renk2010exploration,gomezDynamicsMissionDesign2001}。对称性上两者相反：李萨如轨道对 xy 平面和 xz 平面均保持（准）对称，而晕轨道只关于 xz 平面对称、失去了 xy 平面对称 \cite{renk2010exploration}。
+当面内、面外两个频率相等时，李萨如轨道退化为周期的晕轨道 \cite{renk2010exploration,gomezDynamicsMissionDesign2001Vol1}。对称性上两者相反：李萨如轨道对 xy 平面和 xz 平面均保持（准）对称，而晕轨道只关于 xz 平面对称、失去了 xy 平面对称 \cite{renk2010exploration}。
 
 ## 族内变体
 

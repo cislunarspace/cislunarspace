@@ -30,7 +30,7 @@ permalink: /glossary/orbits/halo-orbit/
 
 ## 定义
 
-晕轨道是圆型限制性三体问题（CR3BP）中共线平动点（L1、L2、L3）附近的三维周期轨道 \cite{parkerDirectLunarHalo2008}。当平动点附近轨道的面内频率与面外频率相等时，平面 Lyapunov 族分岔出晕轨道族 \cite{gomezDynamicsMissionDesign2001,alessiLeavingMoonMeans2009}。也可以说晕轨道是 Lissajous 轨迹中两频率相等退化出的周期解 \cite{howellApplicationDynamicalSystems1997}。轨道在 yz 平面上的投影呈环状（halo 之名由此而来），关于 xz 平面对称，每圈两次垂直穿越该平面 \cite{gomezDynamicsMissionDesign2001,contiDesignHaloOrbit2025}。
+晕轨道是圆型限制性三体问题（CR3BP）中共线平动点（L1、L2、L3）附近的三维周期轨道 \cite{parkerDirectLunarHalo2008}。当平动点附近轨道的面内频率与面外频率相等时，平面 Lyapunov 族分岔出晕轨道族 \cite{gomezDynamicsMissionDesign2001Vol1,alessiLeavingMoonMeans2009}。也可以说晕轨道是 Lissajous 轨迹中两频率相等退化出的周期解 \cite{howellApplicationDynamicalSystems1997}。轨道在 yz 平面上的投影呈环状（halo 之名由此而来），关于 xz 平面对称，每圈两次垂直穿越该平面 \cite{gomezDynamicsMissionDesign2001Vol1,contiDesignHaloOrbit2025}。
 
 ## 南北族与类别
 
@@ -52,11 +52,11 @@ CR3BP 的力场关于 xy 平面对称，而单条晕轨道关于 xy 平面并不
 
 晕轨道以面外振幅 Az 标记大小，但 Az 有三种约定，引用时须指明：
 
-- 展开系数约定（Gómez 2001） \cite{gomezDynamicsMissionDesign2001}：Lindstedt-Poincaré 展开中 α 为面内振幅、β 为面外振幅（取基频余弦项系数）。晕轨道存在的频率相等条件化为约束关系 Δ(α,β)，且面内振幅须不小于 α_min，族即自此从 Lyapunov 族分岔。
+- 展开系数约定（Gómez 2001） \cite{gomezDynamicsMissionDesign2001Vol1}：Lindstedt-Poincaré 展开中 α 为面内振幅、β 为面外振幅（取基频余弦项系数）。晕轨道存在的频率相等条件化为约束关系 Δ(α,β)，且面内振幅须不小于 α_min，族即自此从 Lyapunov 族分岔。
 - 最大偏离约定（Kakoi 2014） \cite{kakoiAccessMarsEarth2014}：Az = 轨道偏离 xy 平面的最大 |z|，工程文献最常用（\cite{gordon2008transfers} 以 Az=1000~10000 km 扫描 L2 晕族）。
 - 峰峰值约定（Spreen 2021） \cite{spreenTrajectoryDesignTargeting2021}：Az = z 最大值减最小值。对南族 NRHO，z_max≈0，峰峰值与最大偏离约定数值接近。对一般晕轨道两者可差近一倍。
 
-初值构造：Richardson 用 Lindstedt-Poincaré 方法给出共线点附近周期运动的三阶解析解，工程上以解析解生成初值、再经微分修正得到精确周期轨道 \cite{gomezDynamicsMissionDesign2001,LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024}。解析解轨道也作为计算偏离量与流形起点的基准（即所谓标称轨道）。
+初值构造：Richardson 用 Lindstedt-Poincaré 方法给出共线点附近周期运动的三阶解析解，工程上以解析解生成初值、再经微分修正得到精确周期轨道 \cite{gomezDynamicsMissionDesign2001Vol1,LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024}。解析解轨道也作为计算偏离量与流形起点的基准（即所谓标称轨道）。
 
 ## 应用与转移
 
@@ -77,9 +77,9 @@ CR3BP 的力场关于 xy 平面对称，而单条晕轨道关于 xy 平面并不
 | Class I / Class II | 北族 / 南族的另一叫法 | \cite{howellApplicationDynamicalSystems1997} |
 | L1/L2/L3 晕轨道 | 三个共线平动点各自的晕轨道族 | \cite{parkerDirectLunarHalo2008} |
 | EM/SE halo | 地月系 / 日地系的晕轨道 | \cite{kakoiAccessMarsEarth2014} |
-| 标称晕轨道（nominal） | Richardson 三阶解析解生成的基准轨道 | \cite{gomezDynamicsMissionDesign2001} |
+| 标称晕轨道（nominal） | Richardson 三阶解析解生成的基准轨道 | \cite{gomezDynamicsMissionDesign2001Vol1} |
 | 稳定晕轨道段 | ν1、ν2 均为实数且 \|ν\|≤1 的族内子段 | \cite{contiDesignHaloOrbit2025} |
-| 振幅 Az | 面外振幅，三种约定（展开系数/最大偏离/峰峰值） | \cite{gomezDynamicsMissionDesign2001} / \cite{kakoiAccessMarsEarth2014} / \cite{spreenTrajectoryDesignTargeting2021} |
+| 振幅 Az | 面外振幅，三种约定（展开系数/最大偏离/峰峰值） | \cite{gomezDynamicsMissionDesign2001Vol1} / \cite{kakoiAccessMarsEarth2014} / \cite{spreenTrajectoryDesignTargeting2021} |
 | 直接转移 | TLI + 流形插入点切向机动的两脉冲方案 | \cite{parkerDirectLunarHalo2008} |
 | halo-to-halo 转移 | 不同三体系统晕轨道间的机动自由转移 | \cite{kakoiAccessMarsEarth2014} |
 | 南北族间转移 | 北↔南晕轨道的低推力异宿连接 | \cite{duTwoTrajectoryConfigurations2023} |
