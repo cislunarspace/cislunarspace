@@ -4,7 +4,7 @@ description: NASA戈达德太空飞行中心发布的月球重力场球谐模型
 keywords: GRGM1200A 月球重力场模型, GRGM1200A Lunar Gravity Field Model, GRGM1200A, 可见性, 覆盖, 光学, 观测
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-13
 wechatShare:
   title: GRGM1200A 月球重力场模型（GRGM1200A Lunar Gravity Field Model）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -26,6 +26,8 @@ permalink: /glossary/observation/grgm1200a/
 
 > 本文作者：天疆说
 >
+> 术语来源：GRGM1200A 月球重力场模型发布文献与数据 (NASA GSFC)
+>
 >本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## 定义
@@ -43,6 +45,4 @@ GRGM1200A 月球重力场模型用于评估地月空间探测器的观测性能�
 - 载荷视场角（Payload Field of View, PFOV）
 - 表面覆盖百分比（Surface Coverage Percentage, SCP）
 
-## 参考文献
-
-- Trofimov et al. 2020; Mazarico, GSFC
+本文支撑文献尚未入库存档，暂作待补处理。

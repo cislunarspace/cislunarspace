@@ -4,7 +4,7 @@ description: 从探测器测量近天体（如地球或太阳）与远天体（�
 keywords: 星光角距, Starlight Angle, 导航, 定轨, 测量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 星光角距（Starlight Angle）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -40,4 +40,3 @@ permalink: /glossary/navigation/starlight-angle/
 
 - 悬停控制（Hovering Control）
 - 先验约束（Prior constraint）
-- [绝对导航（Absolute Navigation）](/glossary/navigation/absolute-navigation/)

@@ -4,7 +4,7 @@ description: 航天器在其地心主导轨道或地月转移轨道近地点处�
 keywords: 近地点地心距, Perigee Geocentric Distance, 轨道几何, 奥伯特效应, 地月转移
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 近地点地心距（Perigee Geocentric Distance）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/perigee-geocentric-distance/
 
 ## 相关概念
 
-- [地心弧段（Geocentric Arc）](/glossary/orbits/geocentric-arc/)
+- [地心段（Geocentric Segment）](/glossary/orbits/geocentric-segment/)
 - [近月点月心距（Perilune Selenocentric Distance）](/glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo/)
 - [借力转移（Gravity Assist / Swingby）](/glossary/orbits/gravity-assist-swingby/)
 - [接近段（Approach Phase）](/glossary/orbits/approach-phase/)

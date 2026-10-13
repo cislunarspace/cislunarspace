@@ -4,7 +4,7 @@ description: 地月三体系统中，平动点附近区域的引力场不具备�
 keywords: 平动点引力不对称, Gravitational Asymmetry at Libration Points, 基础概念, 坐标系, 轨道根数, 物理量
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-13
 wechatShare:
   title: 平动点引力不对称
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/gravitational-asymmetry-at-libration-points/
 
 ## 定义
 
-地月三体系统中，平动点附近区域的引力场不具备对称性。这种不对称性使轨道具有唯一确定的尺寸、形状和绝对朝向，是LiAISON导航方法实现自主定轨的物理基础。
+地月三体系统中，平动点附近区域的引力场不具备对称性。这种不对称性使轨道具有唯一确定的尺寸、形状和绝对朝向，是LiAISON导航方法实现自主定轨的物理基础\cite{carpenterLibrationPointNavigation2004,LiShuangLinDROWeiXingBianDuiTongBoShuChaiFenXiangDuiDaoHang2023,thukralCisLunarSurveillance2025}。
 
 ## 应用价值
 
@@ -45,7 +45,3 @@ permalink: /glossary/fundamentals/gravitational-asymmetry-at-libration-points/
 - [流形传播（Manifold Propagation）](/glossary/dynamics/invariant-manifold/)
 - 低月球轨道（Low Lunar Orbit, LLO）
 - 地平线光学导航（Horizon-Based Optical Navigation）
-
-## 参考文献
-
-- <https://doi.org/10.1016/j.asr.2024.04.016>

@@ -4,7 +4,7 @@ description: 一种分阶段平动点轨道星座优化方法：第一步以轨�
 keywords: 两步优化算法, Two-Step Optimization Algorithm, , 导航, 定轨, 测控
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 两步优化算法（Two-Step Optimization Algorithm）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -27,6 +27,8 @@ permalink: /glossary/navigation/two-step-optimization-algorithm/
 > 本文作者：天疆说
 >
 > 本文来源：[地月空间入门指南](https://cislunarspace.cn)
+>
+> 术语来源：Xu et al., 2026, Tsinghua University Press
 
 ## 定义
 
@@ -43,6 +45,4 @@ permalink: /glossary/navigation/two-step-optimization-algorithm/
 - 几何精度衰减因子（Geometric Dilution of Precision）
 - 天基测控站（Space-based Tracking Station）
 
-## 参考文献
-
-- Xu et al., 2026, Tsinghua University Press
+本文支撑文献尚未入库存档，暂作待补处理。
