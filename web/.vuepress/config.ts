@@ -122,5 +122,6 @@ export default defineUserConfig({
     ogMetaPlugin,
     googleAnalyticsPlugin({ id: 'G-0PLJ56MK80' }),
     searchPlugin(),
+    sitemapPlugin({ hostname: domain }),
   ],
 });

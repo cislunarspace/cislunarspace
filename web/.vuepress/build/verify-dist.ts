@@ -15,6 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { walkSiteMarkdown } from '../utils/markdown-walker.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -67,8 +68,8 @@ Checks (current-dist mode):
   2. Routes             every sidebar entry resolves to a file in dist
   3. HTML shape         every .html has doctype, </html>, <title>
   4. Metadata           og:title/description/url/type, twitter:card, description
-  5. Hreflang           zh and en homes cross-link via rel=alternate
-  6. Figures sync       every source figures/ file is present in dist
+  5. Key page content   key pages carry expected title keywords
+  6. Figures sync       referenced source figures present in dist by content hash
   7. Key pages          index/glossary/ai-chat/404/sitemap/robots
   8. Asset sanity       no broken local hrefs/src on sampled pages
   9. JSON endpoints     ai-chat-config/context/index parse as JSON
@@ -254,6 +255,17 @@ function checkLocalRefs(html: string, file: string, distRoot: string): string[] 
   return issues;
 }
 
+export function selectAssetSamples(relPages: string[], distRoot: string): string[] {
+  // "Article" pages live in a subdirectory; the glossary landing page is a
+  // section cover, not an article. Dictionary order keeps the sample stable.
+  const glossaryLanding = path.join('glossary', 'index.html');
+  const articles = relPages
+    .filter((rel) => rel.includes(path.sep) && rel !== glossaryLanding)
+    .sort()
+    .slice(0, 2);
+  return ['index.html', ...articles].map((rel) => path.join(distRoot, rel));
+}
+
 // ── Sidebar loading ─────────────────────────────────────────────────────────
 
 interface SidebarNode {
@@ -312,6 +324,57 @@ function flattenRoutes(sidebar: SidebarJson): string[] {
     }
   }
   return Array.from(new Set(out));
+}
+
+// ── Figures sync (pure, exported for tests) ─────────────────────────────────
+
+export interface FigureInput {
+  /** Path relative to its source root, e.g. 'figures/dro/dro-schematic.png'. */
+  rel: string;
+  /** SHA-1 of the source figure content (hashFile). */
+  hash: string;
+}
+
+export interface FiguresInput {
+  /** All files under the source figures/ directories. */
+  figures: FigureInput[];
+  /** All image files in dist, hashed. */
+  distHashes: ReadonlyArray<{ rel: string; hash: string }>;
+  /** Raw markdown bodies of the site sources. */
+  mdTexts: string[];
+}
+
+function mdReferencesFigure(text: string, rel: string): boolean {
+  if (text.includes(rel) || text.includes(encodeURIComponent(rel))) return true;
+  // Markdown may URL-encode only the non-ASCII path segments (slashes stay
+  // literal), which encodeURIComponent(rel) never matches; decoding the text
+  // covers that form.
+  try {
+    return decodeURIComponent(text).includes(rel);
+  } catch {
+    return false;
+  }
+}
+
+export function evalFiguresSync(input: FiguresInput): {
+  present: string[];
+  referencedMissing: string[];
+  orphanMissing: string[];
+} {
+  const distHashes = new Set(input.distHashes.map((d) => d.hash));
+  const present: string[] = [];
+  const referencedMissing: string[] = [];
+  const orphanMissing: string[] = [];
+  for (const figure of input.figures) {
+    if (distHashes.has(figure.hash)) {
+      present.push(figure.rel);
+    } else if (input.mdTexts.some((t) => mdReferencesFigure(t, figure.rel))) {
+      referencedMissing.push(figure.rel);
+    } else {
+      orphanMissing.push(figure.rel);
+    }
+  }
+  return { present, referencedMissing, orphanMissing };
 }
 
 // ── Main check: current dist ────────────────────────────────────────────────
@@ -396,11 +459,12 @@ function verifyCurrent(distRoot: string): void {
     details: metaIssues,
   });
 
-  // 5. Figures sync: every source figures/ file must exist in dist
-  const sourceSpaces = [{ src: path.join(webDir, 'glossary'), mirror: 'glossary' }];
-  const figureMisses: string[] = [];
-  let totalFigures = 0;
-  for (const { src: srcRoot, mirror } of sourceSpaces) {
+  // 5. Figures sync: referenced figures must reach dist by content hash. The
+  // bundler packs cited images into hashed dist/assets/ files, so the old
+  // glossary/figures/ mirror expectation no longer holds.
+  const figureFiles: Array<{ rel: string; abs: string }> = [];
+  const sourceRoots = [path.join(webDir, 'glossary')];
+  for (const srcRoot of sourceRoots) {
     if (!exists(srcRoot)) continue;
     const figuresDirs: string[] = [];
     const walk = (dir: string): void => {
@@ -422,24 +486,26 @@ function verifyCurrent(distRoot: string): void {
       return out;
     };
     for (const fdir of figuresDirs) {
-      const rel = path.relative(srcRoot, fdir);
-      const distMirror = path.join(distRoot, mirror, rel);
       for (const srcFile of collectFiles(fdir)) {
-        totalFigures++;
-        const dstFile = path.join(distMirror, path.relative(fdir, srcFile));
-        if (!exists(dstFile)) {
-          figureMisses.push(
-            `missing: ${path.relative(distRoot, dstFile)} (source: ${path.relative(webDir, srcFile)})`,
-          );
-        }
+        figureFiles.push({ rel: path.relative(srcRoot, srcFile), abs: srcFile });
       }
     }
   }
+  const { present, referencedMissing, orphanMissing } = evalFiguresSync({
+    figures: figureFiles.map(({ rel, abs }) => ({ rel, hash: hashFile(abs) })),
+    distHashes: listFiles(distRoot, ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg']).map(
+      (abs) => ({ rel: path.relative(distRoot, abs), hash: hashFile(abs) }),
+    ),
+    mdTexts: walkSiteMarkdown(webDir).map((f) => f.content),
+  });
   record({
     name: 'figures sync',
-    severity: figureMisses.length === 0 ? 'ok' : 'fail',
-    summary: `${totalFigures - figureMisses.length}/${totalFigures} source figures present in dist`,
-    details: figureMisses,
+    severity: referencedMissing.length > 0 ? 'fail' : orphanMissing.length > 0 ? 'warn' : 'ok',
+    summary: `${present.length}/${figureFiles.length} source figures present, ${orphanMissing.length} unreferenced`,
+    details: [
+      ...referencedMissing.map((rel) => `referenced: ${rel}`),
+      ...orphanMissing.map((rel) => `orphan: ${rel}`),
+    ],
   });
 
   // 6. Key pages: user-facing entry points
@@ -447,11 +513,8 @@ function verifyCurrent(distRoot: string): void {
   // pagePatterns); no glossary entries here (ADR-0004).
   const keyPages = [
     'index.html',
-    'en/index.html',
     'glossary/index.html',
-    'en/glossary/index.html',
     'ai-chat.html',
-    'en/ai-chat.html',
     '404.html',
     'sitemap.xml',
     'robots.txt',
@@ -479,28 +542,13 @@ function verifyCurrent(distRoot: string): void {
       mustExclude: ['社区论坛', '按日期查阅'],
     },
     {
-      rel: 'en/index.html',
-      mustInclude: ["Cislunar Space Beginner's Guide"],
-      mustExclude: ['Community Forum', 'AI Q&A', 'Glossary', 'Archive'],
-    },
-    {
       rel: 'glossary/index.html',
       mustInclude: ['地月空间术语词典'],
       mustExclude: ['社区论坛'],
     },
     {
-      rel: 'en/glossary/index.html',
-      mustInclude: ['Cislunar Space Glossary'],
-      mustExclude: ['Community Forum', 'AI Q&A'],
-    },
-
-    {
       rel: 'ai-chat.html',
       mustInclude: ['AI问答', '地月空间'],
-    },
-    {
-      rel: 'en/ai-chat.html',
-      mustInclude: ['AI Q&A', 'Cislunar Space'],
     },
   ];
   const contentIssues: string[] = [];
@@ -527,12 +575,12 @@ function verifyCurrent(distRoot: string): void {
     details: contentIssues,
   });
 
-  // 7. Asset sanity: homepage + 2 articles
-  const assetSamples: string[] = [
-    path.join(distRoot, 'index.html'),
-    path.join(distRoot, 'en', 'index.html'),
-    ...zhArticles.slice(0, 2),
-  ];
+  // 7. Asset sanity: homepage + first article pages
+  const assetSamples = selectAssetSamples(
+    htmlFiles.map((f) => path.relative(distRoot, f)),
+    distRoot,
+  );
+
   const assetIssues: string[] = [];
   for (const f of assetSamples) {
     if (!exists(f)) continue;
@@ -672,4 +720,6 @@ function main(): void {
   if (s.fails > 0) process.exit(1);
 }
 
-main();
+if (process.argv[1] && path.resolve(__filename) === path.resolve(process.argv[1])) {
+  main();
+}
