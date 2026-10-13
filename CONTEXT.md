@@ -122,7 +122,7 @@ kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` �
 - 把 Wayfinding 叫成 index 或侧边栏：导引是全局站点地图披露，既不是侧边栏树的 Index kind，也不是 AI 路由索引。
 - 在需要精确的场合不加限定地说 Surface：要说 special surface、interactive surface、content page 或 site-surface-specific adapter output。
 - 用 i18n key 指 `NodeId`：id 不是 i18n key，它们是稳定身份。
-- 不加限定词的 Category：要说 glossary-category。（ 0  kind 已随太空新闻模块移除，见 ADR-0005。）
+- 不加限定词的 Category：要说 glossary-category。（`news-category` kind 已随太空新闻模块移除，见 ADR-0005。）
 - 不区分 hero/card image、figure set、source figure path、built dist asset path、share image，笼统说 Image 或 image path。
 - 指代完整文件名时说 Slug：`YYYY-MM-DD-` 之后的标识符叫 article slug，`YYYY-MM-DD-slug.md` 整体叫 article filename。
 - 用 AI index 或光秃秃的 index 指 `/ai-chat-index.json`：要说 AI route index。Index 已经表示侧边栏树中 section/group 根上的 README。

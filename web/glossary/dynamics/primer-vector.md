@@ -112,7 +112,7 @@ Jezewski 与 Rozendaal（1968）将上述梯度嵌入 非线性规划（多重�
 
 ## 与协态-控制变换的关系
 
-由 $\mathbf{p}=-\boldsymbol{\lambda}_v$ 与节流条件 $u^{*}=\mathrm{sign}(-\Phi)$ 可见，最优控制可完全由先驱向量与质量协态 $\lambda_m$ 表达。这一观察是 [协态-控制变换](/glossary/dynamics/adjoint-control-transformation/) 与协态归一化的出发点：将打靶变量从完整协态向量换成 $(\mathbf{p},\lambda_m)$ 或进一步约束在单位球面上，可显著缩减间接法搜索维度（Taheri 等 2016；详见  5 ）。
+由 $\mathbf{p}=-\boldsymbol{\lambda}_v$ 与节流条件 $u^{*}=\mathrm{sign}(-\Phi)$ 可见，最优控制可完全由先驱向量与质量协态 $\lambda_m$ 表达。这一观察是 [协态-控制变换](/glossary/dynamics/adjoint-control-transformation/) 与协态归一化的出发点：将打靶变量从完整协态向量换成 $(\mathbf{p},\lambda_m)$ 或进一步约束在单位球面上，可显著缩减间接法搜索维度（Taheri 等 2016；详见 [协态变量](/glossary/dynamics/co-state-variables/)）。
 
 ## 应用要点
 
