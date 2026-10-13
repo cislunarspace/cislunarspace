@@ -1,6 +1,6 @@
 ---
 title: 标称轨道（Nominal Orbit）
-description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
+description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001Vol1}。
 keywords: 标称轨道, Nominal Orbit, 轨道设计, 周期轨道, 转移轨道
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 标称轨道详解 | 术语定义
-  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
+  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001Vol1}。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 标称轨道详解 | 术语定义
-  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
+  description: 设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001Vol1}。
   image: /logo.png
 permalink: /glossary/orbits/nominal-orbit/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/nominal-orbit/
 
 ## 定义
 
-设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001}。
+设计的参考轨道状态，如标称Halo轨道，是实际流形偏离和优化的基准 \cite{gomezDynamicsMissionDesign2001Vol1}。
 
 ## 应用价值
 

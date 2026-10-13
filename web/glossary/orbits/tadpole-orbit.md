@@ -34,7 +34,7 @@ permalink: /glossary/orbits/tadpole-orbit/
 
 ## L4/L5 周期轨道族
 
-三角点附近平面运动有两个模态频率：短周期模态 ω₁≈0.9546、长周期模态 ω₂≈0.2979（以月球平运动为单位），近 3:1 共振（Gómez 2001 第二卷转述 Breakwell–Pringle）\cite{gomezDynamicsMissionDesign2001c}：
+三角点附近平面运动有两个模态频率：短周期模态 ω₁≈0.9546、长周期模态 ω₂≈0.2979（以月球平运动为单位），近 3:1 共振（Gómez 2001 第二卷转述 Breakwell–Pringle）\cite{gomezDynamicsMissionDesign2001Vol2}：
 
 - 短周期族：从 L4/L5 发出，极限（线性）周期约 28.6 天，随振幅增大单调减小。延续至分岔轨道 B₄₅ 处与 L3 发出的 Lyapunov 族相连。
 - 长周期族：极限周期约 91.6 天。
@@ -53,7 +53,7 @@ L4/L5 区域的轨道提供对地月的双覆盖与不间断通信。DRO↔L4/L5
 | 术语 | 含义 | 出处 |
 |------|------|------|
 | 短周期轨道（SPO） | 三角点短周期族轨道（约 27.3~28.6 天，随振幅而变） | \cite{capdevilaTransferNetworkLinking2018} |
-| 长周期轨道 | 三角点长周期族轨道（约 91.6 天） | \cite{gomezDynamicsMissionDesign2001c} |
+| 长周期轨道 | 三角点长周期族轨道（约 91.6 天） | \cite{gomezDynamicsMissionDesign2001Vol2} |
 | L4P/L5P、L4 平面短周期轨道 | 短周期族成员的不同称呼 | \cite{heDesignCislunarNavigation2025}、\cite{xuAdaptiveRobustCubature2026} |
 | L4V/L5V | 三角点垂直族轨道 | \cite{heDesignCislunarNavigation2025} |
 | 平面轨道（planar orbit） | L4/L5 平面族（SDA 观测者目录语境） | \cite{klonowskiCislunarSpaceDomain2024} |
