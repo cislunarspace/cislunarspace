@@ -4,7 +4,7 @@ description: 在限制性三体引力场中，通过依次拼接多个周期轨�
 keywords: 轨道链, Orbit Chain, 动力系统, 不变流形, 轨道拼接
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 轨道链（Orbit Chain）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/orbit-chain/
 
 ## 相关概念
 
-- [地心弧段（Geocentric Arc）](/glossary/orbits/geocentric-arc/)
+- [地心段（Geocentric Segment）](/glossary/orbits/geocentric-segment/)
 - [最小能量地月转移（Minimum-Energy Cislunar Transfer）](/glossary/orbits/minimum-energy-cislunar-transfer/)
 - [接近段（Approach Phase）](/glossary/orbits/approach-phase/)
 - [转移轨道族（Transfer Family）](/glossary/orbits/transfer-family/)

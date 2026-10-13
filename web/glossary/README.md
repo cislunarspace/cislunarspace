@@ -33,7 +33,7 @@ wechatShare:
 
 ## 术语全局索引
 
-### 基础概念（fundamentals，86 条）
+### 基础概念（fundamentals，84 条）
 
 - [GAIO](/glossary/fundamentals/gaio/)
 - [Gauss-Legendre配点法](/glossary/fundamentals/gauss-legendre-collocation-method/)
@@ -75,7 +75,6 @@ wechatShare:
 - [引力场模型](/glossary/fundamentals/gravity-field-model/)
 - [形状参数](/glossary/fundamentals/shape-parameter/)
 - [惯性参考系](/glossary/fundamentals/inertial-reference-frames/)
-- [截断策略](/glossary/fundamentals/truncation-strategy/)
 - [振幅参数与相位参数](/glossary/fundamentals/amplitude-parameter/)
 - [控制正则化](/glossary/fundamentals/control-regularization/)
 - [数值历表与完整历表模型](/glossary/fundamentals/numerical-ephemeris/)
@@ -89,7 +88,6 @@ wechatShare:
 - [月面星下点轨迹](/glossary/fundamentals/lunar-sub-satellite-track/)
 - [松弛变量](/glossary/fundamentals/slack-variable/)
 - [概率密度函数变换法则](/glossary/fundamentals/pdf-transformation-rule/)
-- [正交坐标系](/glossary/fundamentals/orthogonal-coordinate-system/)
 - [洛伦兹收缩](/glossary/fundamentals/lorentz-contraction/)
 - [滑行弧](/glossary/fundamentals/coast-arc/)
 - [状态转移矩阵病态](/glossary/fundamentals/ill-conditioned-state-transition-matrix/)
@@ -483,7 +481,7 @@ wechatShare:
 - [高阶目标相位法](/glossary/dynamics/tpha-target-phase-approach/)
 - [黏附区](/glossary/dynamics/sticky-region/)
 
-### 任务轨道（orbits，143 条）
+### 任务轨道（orbits，142 条）
 
 - [近月点月心距](/glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo/)
 - [EL1轨道](/glossary/orbits/el1-orbit/)
@@ -529,7 +527,6 @@ wechatShare:
 - [周期解](/glossary/orbits/periodic-solution/)
 - [周期轨道族](/glossary/orbits/periodic-orbit-family/)
 - [圆形轨道边界条件](/glossary/orbits/circular-orbit-boundary-conditions/)
-- [地心弧段](/glossary/orbits/geocentric-arc/)
 - [地心段](/glossary/orbits/geocentric-segment/)
 - [地心顺行月心逆行](/glossary/orbits/prograde-in-perigee-and-retrograde-in-perilune/)
 - [地月三角平动点转移网络](/glossary/orbits/earth-moon-triangular-libration-point-transfer-network/)
@@ -629,7 +626,7 @@ wechatShare:
 - [面外振幅](/glossary/orbits/az/)
 - [马蹄轨道](/glossary/orbits/horseshoe-orbit/)
 
-### 导航技术与系统（navigation，65 条）
+### 导航技术与系统（navigation，63 条）
 
 - [B平面参数](/glossary/navigation/b-plane-parameters/)
 - [GNSS旁瓣信号导航](/glossary/navigation/gnss-sidelobe-signal-navigation/)
@@ -667,7 +664,6 @@ wechatShare:
 - [月球全球定位卫星星座](/glossary/navigation/lunar-global-positioning-satellite-constellation/)
 - [月球全球定位系统](/glossary/navigation/lgps/)
 - [月球全球导航卫星系统](/glossary/navigation/lgnss/)
-- [月球导航卫星系统A](/glossary/navigation/lnss-a/)
 - [月球高纬度区域](/glossary/navigation/lunar-high-latitude-region/)
 - [次优反馈控制](/glossary/navigation/sofc/)
 - [法矩阵](/glossary/navigation/normal-matrix/)
@@ -678,7 +674,6 @@ wechatShare:
 - [等待时间](/glossary/navigation/wt/)
 - [线性化方法](/glossary/navigation/linearization-method/)
 - [组合自主定轨](/glossary/navigation/caod/)
-- [绝对导航](/glossary/navigation/absolute-navigation/)
 - [网格划分法](/glossary/navigation/grid-division-method/)
 - [联合自主定轨](/glossary/navigation/laod/)
 - [联络导航](/glossary/navigation/liaison-navigation/)
@@ -697,7 +692,7 @@ wechatShare:
 - [迭代制导](/glossary/navigation/iterative-guidance/)
 - [高精度地月时空基准](/glossary/navigation/high-precision-cislunar-space-time-benchmark/)
 
-### 天文观测技术（observation，24 条）
+### 天文观测技术（observation，23 条）
 
 - [DRO捕获投影面](/glossary/observation/dro-capture-projection-surface/)
 - [GRAIL重力场模型](/glossary/observation/grgm660prim/)
@@ -705,7 +700,6 @@ wechatShare:
 - [Kordylewski云](/glossary/observation/kordylewski-clouds/)
 - [初始太阳相位角](/glossary/observation/w/)
 - [动力学统计定轨](/glossary/observation/dynamics-based-statistical-orbit-determination/)
-- [动态需求](/glossary/observation/dynamic-demand/)
 - [合作代理](/glossary/observation/ca/)
 - [地月平动点星座](/glossary/observation/cislunar-libration-point-constellation/)
 - [地月空间域感知](/glossary/observation/cda/)
@@ -737,7 +731,7 @@ wechatShare:
 - [月球通信中继](/glossary/communication/lunar-communications-relay/)
 - [混合通信导航星座](/glossary/communication/hybrid-communication-navigation-constellation/)
 
-### 计划与项目（programs，18 条）
+### 计划与项目（programs，17 条）
 
 - [嫦娥四号](/glossary/programs/change-4/)
 - [L1点空间站](/glossary/programs/l1-point-space-station/)
@@ -748,7 +742,6 @@ wechatShare:
 - [星座相位部署](/glossary/programs/constellation-phase-deployment/)
 - [月球上升飞行器](/glossary/programs/lunar-ascent-element/)
 - [月球段星座](/glossary/programs/lunar-segment-constellation/)
-- [月球轨道平台-网关](/glossary/programs/lop-g/)
 - [月球轨道空间站](/glossary/programs/lunar-orbital-space-station/)
 - [月球门户空间站](/glossary/programs/lunar-orbital-platform-gateway/)
 - [月球门户](/glossary/programs/lunar-gateway/)

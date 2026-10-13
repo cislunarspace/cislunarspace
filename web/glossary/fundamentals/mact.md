@@ -4,7 +4,7 @@ description: 将小推力轨道优化中的协态变量非线性映射至几何�
 keywords: 映射伴随控制变换, MACT, 最优控制, 间接法, 小推力转移
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-13
 wechatShare:
   title: 映射伴随控制变换
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -15,6 +15,8 @@ permalink: /glossary/fundamentals/mact/
 # 映射伴随控制变换
 
 > 本文作者：天疆说
+>
+> 术语来源：Mapped adjoint control transformation method for low-thrust trajectory design (Ayyanathan和Taheri, 2022)
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
@@ -39,9 +41,5 @@ MACT 技术的物理机制与工程价值体现为：
 - [伴随控制变换（Adjoint Control Transformation）](/glossary/dynamics/adjoint-control-transformation/)
 - [伴随方法（Adjoint Method）](/glossary/dynamics/adjoint-method/)
 - [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
-- [截断策略（Truncation Strategy）](/glossary/fundamentals/truncation-strategy/)
 
-## 参考文献
-
-- Patrick, C. E., & Russell, R. P. Hybrid optimization of high-fidelity low-thrust transfers to the lunar gateway. Journal of Guidance, Control, and Dynamics, 2023, 46(8): 1461-1478.
-- Pontryagin, L. S. The Mathematical Theory of Optimal Processes. Interscience Publishers, 1962.
+本文支撑文献尚未入库存档，暂作待补处理。

@@ -4,7 +4,7 @@ description: 分三个阶段建设平动点轨道通信导航星座的策略：�
 keywords: 三阶段部署策略, Phase-Based Deployment Strategy, 地月空间导航, PNT服务, 轨道确定
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 三阶段部署策略（Phase-Based Deployment Strategy）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -45,6 +45,4 @@ permalink: /glossary/navigation/phase-based-deployment-strategy/
 - 距离可观测性（Range Observability）
 - 六分仪（Sextant）
 
-## 参考文献
-
-- Xu et al., 2026, Tsinghua University Press
+本文支撑文献尚未入库存档，暂作待补处理。

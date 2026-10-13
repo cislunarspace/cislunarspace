@@ -4,7 +4,7 @@ description: 基于美国国家航空航天局GRAIL双星重力梯度测量数�
 keywords: GRAIL重力场模型, GRAIL Gravity Field Model, GRGM660PRIM, observation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-13
 wechatShare:
   title: GRAIL重力场模型（GRAIL Gravity Field Model）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -15,6 +15,8 @@ permalink: /glossary/observation/grgm660prim/
 # GRAIL重力场模型（GRAIL Gravity Field Model）
 
 > 本文作者：天疆说
+>
+> 术语来源：High-degree gravity models from GRAIL primary and extended mission data (Lemoine et al., 2014) 与 The JPL lunar gravity field to spherical harmonic degree 660 from the GRAIL Primary Mission (Konopliv et al., 2013)
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
@@ -37,7 +39,4 @@ GRAIL重力场模型（GRAIL Gravity Field Model）指利用美国国家航空�
 - [通用任务分析工具（General Mission Analysis Tool, GMAT）](/glossary/other/gmat/)
 - [系统工具包（Systems Tool Kit, STK）](/glossary/other/stk/)
 
-## 参考文献
-
-- Lemoine F G, Goossens S, Sabaka T J, et al. High-degree gravity models from GRAIL primary and extended mission data. *Journal of Geophysical Research: Planets*, 2014, 119(7): 1676-1698.
-- Konopliv A S, Park R S, Yuan D N, et al. The JPL lunar gravity field to spherical harmonic degree 660 from the GRAIL Primary Mission. *Journal of Geophysical Research: Planets*, 2013, 118(7): 1415-1434.
+本文支撑文献尚未入库存档，暂作待补处理。

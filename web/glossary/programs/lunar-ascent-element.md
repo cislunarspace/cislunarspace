@@ -4,7 +4,7 @@ description: 从月面起飞携带样本的上升飞行器，与L2轨道站交�
 keywords: 月球上升飞行器, LAE, Lunar Ascent Element, 任务, 飞行器, 系统
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-10-13
 wechatShare:
   title: 月球上升飞行器（LAE）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -30,7 +30,7 @@ permalink: /glossary/programs/lunar-ascent-element/
 
 ## 定义
 
-从月面起飞携带样本的上升飞行器，与L2轨道站交会对接。
+从月面起飞携带样本的上升飞行器，与L2轨道站交会对接\cite{petersGNCLunarAscent2019}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/programs/lunar-ascent-element/
 - 搜索与救援（Search and Rescue, SAR）
 - 在轨服务网络（On-Orbit Servicing Network）
 - 交会与对接（Rendezvous and Docking）
-
-## 参考文献
-
-- （暂无参考文献）

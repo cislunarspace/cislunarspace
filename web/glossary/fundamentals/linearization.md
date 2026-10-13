@@ -4,7 +4,7 @@ description: 在非线性系统的平衡点附近，将非线性项展开为泰�
 keywords: 线性化, Linearization, 基础概念, 推进, 轨道力学, 导航
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 线性化（Linearization）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -40,4 +40,3 @@ permalink: /glossary/fundamentals/linearization/
 
 - 定时定点着陆（Scheduled and Pinpoint Landing）
 - [截面（Surface of Section, SOS）](/glossary/dynamics/poincare-section/)
-- [截断策略（Truncation Strategy）](/glossary/fundamentals/truncation-strategy/)

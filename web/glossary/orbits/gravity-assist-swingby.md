@@ -4,7 +4,7 @@ description: 利用行星或月球等天体的引力场对航天器产生速度�
 keywords: 借力转移, Gravity Assist, Swingby, 轨道设计, 轨道力学, 转移轨道, 周期轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 借力转移（Gravity Assist / Swingby）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -32,7 +32,7 @@ permalink: /glossary/orbits/gravity-assist-swingby/
 
 ## 相关概念
 
-- [地心弧段（Geocentric Arc）](/glossary/orbits/geocentric-arc/)
+- [地心段（Geocentric Segment）](/glossary/orbits/geocentric-segment/)
 - [轨道链（Orbit Chain）](/glossary/orbits/orbit-chain/)
 - [最小能量地月转移（Minimum-Energy Cislunar Transfer）](/glossary/orbits/minimum-energy-cislunar-transfer/)
 - [切向机动（Tangential Maneuver）](/glossary/orbits/tangential/)

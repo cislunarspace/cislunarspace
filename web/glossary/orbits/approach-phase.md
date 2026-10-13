@@ -4,7 +4,7 @@ description: 航天器在月球探测或自由返回轨道任务中，从地月�
 keywords: 接近段, approach phase, 轨道, 平动点, Halo轨道
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 wechatShare:
   title: 接近段（Approach Phase）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -33,7 +33,7 @@ permalink: /glossary/orbits/approach-phase/
 ## 相关概念
 
 - [轨道链（Orbit Chain）](/glossary/orbits/orbit-chain/)
-- [地心弧段（Geocentric Arc）](/glossary/orbits/geocentric-arc/)
+- [地心段（Geocentric Segment）](/glossary/orbits/geocentric-segment/)
 - [借力转移（Gravity Assist / Swingby）](/glossary/orbits/gravity-assist-swingby/)
 - [等待时间（Wait Time）](/glossary/navigation/wt/)
 
