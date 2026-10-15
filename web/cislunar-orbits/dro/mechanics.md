@@ -52,7 +52,7 @@ DRO 在 CR3BP 中的较高固有稳定性源于逆行运动与 Coriolis 效应�
 
 ### Coriolis 效应的角色
 
-在旋转坐标系中，物体的运动受到 Coriolis 力 $-2\boldsymbol{\omega} \times \mathbf{v}$ 的作用。对于顺行轨道，Coriolis 力沿径向向外（类似于离心力增强），这使得某些方向的扰动会被放大。对于逆行轨道，Coriolis 力沿径向向内，起到类似稳定弹簧的作用，抑制了扰动的增长。
+在旋转坐标系中，物体的运动受到 Coriolis 力 $-2\boldsymbol{\omega} \times \mathbf{v}$ 的作用。对于顺行轨道，Coriolis 力沿径向向外，类似于离心力增强，这使得某些方向的扰动会被放大。对于逆行轨道，Coriolis 力沿径向向内，起到类似稳定弹簧的作用，抑制了扰动的增长。
 
 ### 与 Lyapunov 轨道的联系
 

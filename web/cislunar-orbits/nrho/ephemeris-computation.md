@@ -22,17 +22,17 @@ permalink: /cislunar-orbits/nrho/ephemeris-computation/
 
 ## 问题背景
 
-在 CR3BP 模型中，单圈 NRHO 可通过延续法或微分修正直接计算（参见 [设计参数](/cislunar-orbits/nrho/design-parameters/)）。但在真实星历模型（如 JPL DE430）下计算多圈 NRHO 时，直接对整条轨道进行微分修正往往会失败：线性化误差随飞行时间累积，尤其是低近月点半径的 NRHO 在近月点附近状态变化剧烈，导致修正过程发散。
+在 CR3BP 模型中，单圈 NRHO 可通过延续法或微分修正直接计算，参见 [设计参数](/cislunar-orbits/nrho/design-parameters/)。但在真实星历模型如 JPL DE430 下计算多圈 NRHO 时，直接对整条轨道进行微分修正往往会失败：线性化误差随飞行时间累积，尤其是低近月点半径的 NRHO 在近月点附近状态变化剧烈，导致修正过程发散。
 
 现有方法如 Williams 等人的前向与后向打靶、Davis 等人的两级修正虽能生成高保真多圈 NRHO，但依赖 SNOPT 或 NASA Copernicus 等专用优化软件，可复现性受限\cite{williams2017targeting}。
 
 ## 多次打靶法
 
-多次打靶法（Multiple Shooting）是解决长弧段轨道计算收敛困难的标准方法，在地月平动点长期轨道设计中已有系统应用\cite{ZhuYanWeiXingLiMoXingXiaJiYuDuoChongDaBaPinJieDeChangQiJinZhiXianYunGuiDaoSheJiFangFa2026,deitosAdvantagesExploitingHierarchical2017}，核心步骤为：
+多次打靶法 Multiple Shooting 是解决长弧段轨道计算收敛困难的标准方法，在地月平动点长期轨道设计中已有系统应用\cite{ZhuYanWeiXingLiMoXingXiaJiYuDuoChongDaBaPinJieDeChangQiJinZhiXianYunGuiDaoSheJiFangFa2026,deitosAdvantagesExploitingHierarchical2017}，核心步骤为：
 
-1. 将 CR3BP 模型下的初始轨道按时间分为 $n-1$ 段（segments）
+1. 将 CR3BP 模型下的初始轨道按时间分为 $n-1$ 段，即 segments
 2. 在星历模型下对每段分别前向积分
-3. 在相邻段的连接点（patch points）施加状态连续性约束
+3. 在相邻段的连接点 patch points 施加状态连续性约束
 4. 通过 Newton-Raphson 最小二乘迭代修正各连接点状态
 
 约束方程为：
@@ -47,7 +47,7 @@ Liu 与 Liu 在 2025 年提出的选取策略揭示了连接点位置对计算�
 
 ### 条件数分析
 
-状态转移矩阵 $\Phi(t_i, t_{i-1})$ 的条件数 $C$ 取决于弧段长度和起始点位置。当起始点靠近近月点时，$C$ 急剧增大（可达数个量级），导致约束方程组病态，Newton-Raphson 修正过冲而发散。因此，弧段端点必须远离近月点。
+状态转移矩阵 $\Phi(t_i, t_{i-1})$ 的条件数 $C$ 取决于弧段长度和起始点位置。当起始点靠近近月点时，$C$ 急剧增大，可达数个量级，导致约束方程组病态，Newton-Raphson 修正过冲而发散。因此，弧段端点必须远离近月点。
 
 ### 相对距离参数 $s$
 
@@ -57,7 +57,7 @@ $$s = \begin{cases} \dfrac{x_R - x_1}{x_R - x_L}, & \text{L1 情形} \\[6pt] \df
 
 其中 $x_L$、$x_R$ 分别为 NRHO 与 xz 平面左右交点的 x 坐标，$x_1$ 为首末连接点的 x 坐标。$s = 0$ 对应近月点位置，$s = 1$ 对应远月点位置。
 
-每圈轨道分成 $N$ 段：首末两个连接点关于 xz 平面对称放置（使近月点恰好处于首末段中间），其余连接点按等时间间隔分布。关键结论：
+每圈轨道分成 $N$ 段：首末两个连接点关于 xz 平面对称放置，使近月点恰好处于首末段中间，其余连接点按等时间间隔分布。关键结论：
 
 - 当 $N = 2$ 时，$s$ 应大于 0.4
 - 当 $N \geq 4$ 时，$s$ 可降低至 0.2 以下
@@ -69,13 +69,13 @@ $$s = \begin{cases} \dfrac{x_R - x_1}{x_R - x_L}, & \text{L1 情形} \\[6pt] \df
 
 | 轨道族 | 有效范围 | 最少段数 $N$ | 可达圈数 |
 |--------|----------|-------------|----------|
-| L1 NRHO | 近月点半径 < 12,000 km | 2（推荐 4） | 30+ |
-| L2 NRHO | 周期 < 8.8 天 | 2（推荐 4） | 30+ |
+| L1 NRHO | 近月点半径 < 12,000 km | 2，推荐 4 | 30+ |
+| L2 NRHO | 周期 < 8.8 天 | 2，推荐 4 | 30+ |
 
-L1 NRHO 的有效周期范围约为 7.88–10 天，L2 NRHO 的对应近月点半径为 1,850–11,000 km。近月点半径较大的 L1 NRHO（> 12,000 km）或周期较长的 L2 NRHO（> 8.8 天）仅能计算 10–20 圈，轨道在会合坐标系中呈现松散的漂移模式。对于 30 圈可达的情况，圈数可进一步扩展至 100 甚至 500 圈\cite{liuNoteComputationMultirevolution2025}。
+L1 NRHO 的有效周期范围约为 7.88–10 天，L2 NRHO 的对应近月点半径为 1,850–11,000 km。近月点半径大于 12,000 km 的 L1 NRHO 或周期长于 8.8 天的 L2 NRHO 仅能计算 10–20 圈，轨道在会合坐标系中呈现松散的漂移模式。对于 30 圈可达的情况，圈数可进一步扩展至 100 甚至 500 圈\cite{liuNoteComputationMultirevolution2025}。
 
 ## 方法特点
 
-- 不依赖专用优化软件（SNOPT、Copernicus 等），仅使用经典多次打靶与微分修正
+- 不依赖 SNOPT、Copernicus 等专用优化软件，仅使用经典多次打靶与微分修正
 - 实现门槛低，便于一般用户复现
-- 对低近月点半径的 NRHO（Gateway 等任务关注的范围）效果最为显著
+- 对低近月点半径的 NRHO 效果最为显著，这也是 Gateway 等任务所关注的范围

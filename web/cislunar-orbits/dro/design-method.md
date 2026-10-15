@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/dro/design-method/
 
 ## 初始条件搜索
 
-DRO 的初始条件搜索是轨道设计的第一步。在 CR3BP 模型中，DRO 的初始条件通常选取在轨道的近地点或远地点状态（旋转坐标系中）。
+DRO 的初始条件搜索是轨道设计的第一步。在 CR3BP 模型中，DRO 的初始条件通常选取在旋转坐标系中轨道的近地点或远地点状态。
 
 ### 网格搜索法
 
@@ -36,7 +36,7 @@ DRO 的初始条件搜索是轨道设计的第一步。在 CR3BP 模型中，DRO
 
 ### 延续法
 
-更高效的方法是利用延续法（Continuation）从已知的周期轨道出发：
+更高效的方法是利用延续法 Continuation 从已知的周期轨道出发：
 
 1. 从一个已知的 Lyapunov 轨道或 DRO 边界轨道开始
 2. 逐步改变 $C_J$ 或振幅参数
@@ -46,7 +46,7 @@ DRO 的初始条件搜索是轨道设计的第一步。在 CR3BP 模型中，DRO
 
 ## Floquet 模态分析
 
-对于计算得到的 DRO，需进行 Floquet 模态分析以评估其稳定性。Floquet 理论给出单周期状态转移矩阵 $\mathbf{M}(T)$ 的特征值（Floquet 乘数）：
+对于计算得到的 DRO，需进行 Floquet 模态分析以评估其稳定性。Floquet 理论给出单周期状态转移矩阵 $\mathbf{M}(T)$ 的特征值，即 Floquet 乘数：
 
 $$\mathbf{M}(T)\mathbf{v} = \lambda \mathbf{v}$$
 
@@ -56,7 +56,7 @@ DRO 的特征在于其 Floquet 乘数位于单位圆附近且呈共轭对分布�
 
 ## 星历提升
 
-从 CRTBP 模型得到的 DRO 初始条件需要“提升”到真实星历环境（JPL DE440 或更高精度）。星历提升的过程：
+从 CRTBP 模型得到的 DRO 初始条件需要“提升”到真实星历环境，即 JPL DE440 或更高精度的星历模型。星历提升的过程：
 
 1. CRTBP 传播：在 CRTBP 模型中传播一个周期，得到精确的周期轨道
 2. 状态映射：将 CRTBP 状态映射到真实星历的时间坐标系
@@ -73,9 +73,9 @@ DRO 的 station-keeping 设计需考虑以下因素：
 
 DRO 的低维持 ΔV 预算约为每年 5 至 20 m/s，基于敏感性分析的简单脉冲式维持即可满足要求 \cite{AoHaiYueYuanJuChiNiXingGuiDaoDeJinJuChiBianDuiGuiDaoBaoChiCeLue2024}：
 
-- 维持频率：通常每 1-2 周进行一次小修正（$\Delta V \approx 0.5-2$ m/s）
+- 维持频率：通常每 1-2 周进行一次小修正，$\Delta V \approx 0.5-2$ m/s
 - 修正方向：沿轨道不稳定的 Floquet 模态方向进行修正
-- 时机选择：在轨道的速度极值点（动能最低点）进行修正
+- 时机选择：在轨道的速度极值点，即动能最低点进行修正
 
 ### 维持 ΔV 预算分解
 
