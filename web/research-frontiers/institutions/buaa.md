@@ -4,7 +4,7 @@ description: 以月地转移轨道快速设计与平动点、DRO 轨道动力学
 keywords: 北京航空航天大学, 地月空间, 月地转移, 平动点, DRO
 author: 天疆说
 date: 2026-09-30
-lastUpdated: 2026-09-30
+lastUpdated: 2026-10-15
 permalink: /research-frontiers/institutions/buaa/
 wechatShare:
   title: 地月空间研究机构与团队盘点 | 北京航空航天大学
@@ -37,8 +37,6 @@ twitter:
 ## 平动点与 DRO 轨道动力学
 
 徐明在该校的博士学位论文中基于平动点理论系统研究航天器轨道动力学与控制问题，为该校在地月平动点方向的研究奠定了基础 \cite{XuMingJiYuPingDongDianLiLunDeHangTianQiGuiDaoDongLiXueYuKongZhiYanJiu2008}。徐明与徐世杰随后研究地月系绕月飞行的大幅值逆行轨道，数值结果表明太阳引力对 DRO 稳定性有破坏作用但仍能保持较长时间绕飞，并利用地月系 L1 与 L2 点 Lyapunov 轨道的不变流形分别实现 DRO 的快速转移与经弱稳定边界的低能转移 \cite{XuMingRaoYueFeiXingDeDaFuZhiNiXingGuiDaoYanJiu2009}。
-
-吴小婧、曾凌川与巩应奎面向 DRO 的航天工程应用研究其计算方法与摄动特性，利用流函数法通过改变雅可比常数延拓计算不同共振比的 DRO 周期轨道族，发现整数共振比的 DRO 在地月惯性坐标系中轨迹封闭而非整数共振比不封闭，并通过星历模型外推指出太阳引力与月球轨道偏心率是影响 DRO 稳定性的主要摄动因素，为 DRO 精确建模与标称轨道设计提供了理论依据 \cite{WuXiaoJingDROJiSuanJiQiZaiDiYueXiZhongDeSheDongLiYanJiu2020}。
 
 ## 相关页面
 
