@@ -1,9 +1,9 @@
 ---
 title: Gateway 工程案例
-description: NASA月球门户（Gateway）任务的NRHO轨道选择依据、国际合作模式与地月往返设计。
+description: NASA 月球门户 Gateway 任务的 NRHO 轨道选择依据、国际合作模式与地月往返设计。
 wechatShare:
   title: Gateway 工程案例
-  desc: NASA月球门户（Gateway）任务的NRHO轨道选择依据、国际合作模式与地月往返设计。
+  desc: NASA 月球门户 Gateway 任务的 NRHO 轨道选择依据、国际合作模式与地月往返设计。
   image: /logo.png
 keywords: Gateway, Artemis, 月球门户, NRHO应用, 国际合作
 author: 天疆说
@@ -20,9 +20,9 @@ permalink: /cislunar-orbits/nrho/gateway-cases/
 
 # Gateway 工程案例
 
-## 月球门户（Gateway）概述
+## 月球门户 Gateway 概述
 
-NASA 的月球门户（Lunar Gateway）是 Artemis 计划的核心基础设施，是一个计划在地月空间运行的小型空间站\cite{smithArtemisProgramOverview2020}。与国际空间站（ISS）不同，Gateway 并非常驻轨道，而是运行在 L2 南族 9:2 会合共振 NRHO 上，每约 6.56 天绕月一圈，支持深空任务与极区着陆\cite{crusanDeepSpaceGateway2018}。
+NASA 的月球门户 Lunar Gateway 是 Artemis 计划的核心基础设施，是一个计划在地月空间运行的小型空间站\cite{smithArtemisProgramOverview2020}。与国际空间站 ISS 不同，Gateway 并非常驻轨道，而是运行在 L2 南族 9:2 会合共振 NRHO 上，每约 6.56 天绕月一圈，支持深空任务与极区着陆\cite{crusanDeepSpaceGateway2018}。
 
 Gateway 选择 NRHO 作为其运行轨道，主要基于以下考量：
 
@@ -39,10 +39,10 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 
 | 参与方 | 舱段 | 功能 |
 | -------- | ------ | ------ |
-| NASA（美国） | PPE（动力与推进）、HALO（居住与后勤） | 能源、推进、生活保障 |
-| ESA（欧洲） | ESPRIT（欧洲加油模块） | 推进剂补加、通信增强 |
-| JAXA（日本） | I-HAB（国际居住舱） | 人员居住、科学实验 |
-| CSA（加拿大） | robotic arm (Canadarm3) | 舱外机器人操作 |
+| 美国 NASA | 动力与推进 PPE、居住与后勤 HALO | 能源、推进、生活保障 |
+| 欧洲 ESA | 欧洲加油模块 ESPRIT | 推进剂补加、通信增强 |
+| 日本 JAXA | 国际居住舱 I-HAB | 人员居住、科学实验 |
+| 加拿大 CSA | 机械臂 Canadarm3 | 舱外机器人操作 |
 
 各舱段均设计为可在 Gateway NRHO 上独立或协同运行，体现了模块化、多国合作的设计思想\cite{crusanDeepSpaceGateway2018,nasaGatewayCislunarSpringboard2023}。
 
@@ -50,10 +50,10 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 
 从地球到 Gateway NRHO 的转移通常分为两个阶段：
 
-1. 地月转移轨道（TLI）：从 LEO 或直接发射进入地月转移轨道
+1. 地月转移轨道 TLI：从 LEO 或直接发射进入地月转移轨道
 2. NRHO 插入：到达月球附近后沿稳定流形接入目标轨道并实施插入机动\cite{williams2017targeting}
 
-典型的 TLI 能量预算约为 $\Delta V \approx 3.1-3.3$ km/s（相对于 LEO），到达月球影响球后的 NRHO 插入机动约为 200-400 m/s。
+典型的 TLI 能量预算约为 $\Delta V \approx 3.1-3.3$ km/s，以 LEO 为参考，到达月球影响球后的 NRHO 插入机动约为 200-400 m/s。
 
 ## 替代方案对比
 
@@ -61,10 +61,10 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 
 | 特性 | NRHO | DRO |
 | ------ | ------ | ----- |
-| 月面可达性 | 较好（200-400 m/s 到两极） | 较差 |
-| 维持 ΔV | 年均数米/秒（现代方法可低于 2 m/s/年） | 几乎免控（CR3BP 下线性稳定） |
+| 月面可达性 | 较好，200-400 m/s 到两极 | 较差 |
+| 维持 ΔV | 年均数米/秒，现代方法可低于 2 m/s/年 | 几乎免控，在 CR3BP 下线性稳定 |
 | 地球通信 | 好 | 较好 |
-| 月球南极覆盖 | 好（南族成员大部分周期悬于南极上空） | 中等 |
+| 月球南极覆盖 | 好，南族成员大部分周期悬于南极上空 | 中等 |
 | 工程成熟度 | 较低，Gateway 是首个大规模应用，CAPSTONE 已先行验证同类轨道\cite{agasid2025cislunar} | 阿尔忒尼斯 1 号任务已实际采用远距离逆行轨道绕月 |
 
-最终 NASA 选择 NRHO 作为 Gateway 的运行轨道，主要是考虑到其对月球表面（尤其是南极 landing zone）的可达性优势。
+最终 NASA 选择 NRHO 作为 Gateway 的运行轨道，主要是考虑到其对月球表面尤其南极 landing zone 的可达性优势。

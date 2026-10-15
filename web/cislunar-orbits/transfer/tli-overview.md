@@ -1,9 +1,9 @@
 ---
 title: TLI 概览
-description: 地月转移轨道插入（TLI）的原理、发射窗口、能量预算与典型任务参数分析。
+description: 地月转移轨道插入 TLI 的原理、发射窗口、能量预算与典型任务参数分析。
 wechatShare:
   title: TLI 概览
-  desc: 地月转移轨道插入（TLI）的原理、发射窗口、能量预算与典型任务参数分析。
+  desc: 地月转移轨道插入 TLI 的原理、发射窗口、能量预算与典型任务参数分析。
   image: /logo.png
 keywords: TLI, 地月转移轨道插入, 发射窗口, C3, 双曲面超速, Apollo, 嫦娥
 author: 天疆说
@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/transfer/tli-overview/
 
 ## 定义
 
-TLI（Trans-Lunar Injection，地月转移轨道插入）是地月转移任务的第一次大机动，将航天器从近地停泊轨道送入地月转移轨道。TLI 机动通常在地球停泊轨道（LEO 或高椭圆轨道）上执行，利用火箭上面级或航天器主发动机提供所需的 $\Delta V$。
+TLI Trans-Lunar Injection，即地月转移轨道插入，是地月转移任务的第一次大机动，将航天器从近地停泊轨道送入地月转移轨道。TLI 机动通常在地球停泊轨道 LEO 或高椭圆轨道上执行，利用火箭上面级或航天器主发动机提供所需的 $\Delta V$。
 
 历史上，执行过 TLI 机动的任务包括：Apollo 月球载人任务、嫦娥系列月球探测器、SLIM 月球着陆器、以及多项深空探测任务 \cite{genovaTransfersTLILunar2024,MengZhanFengChangEWuHaoRenWuYueDiZhuanYiGuiDaoSheJiYuShiJian2021}。
 
@@ -32,7 +32,7 @@ TLI 的发射窗口由地月几何决定，主要考虑因素包括：
 
 ### 月球相位
 
-最佳 TLI 发射窗口出现在月球处于近地点（Perigee）附近时，此时月球距地球最近，所需转移能量最低。月球相位（与太阳的夹角）也是重要参数：理想的发射时机是月球在天空中的位置有利于观测和通信时。
+最佳 TLI 发射窗口出现在月球处于近地点 Perigee 附近时，此时月球距地球最近，所需转移能量最低。月球相位，即与太阳的夹角，也是重要参数：理想的发射时机是月球在天空中的位置有利于观测和通信时。
 
 ### 发射机会频率
 
@@ -42,8 +42,8 @@ TLI 的发射窗口由地月几何决定，主要考虑因素包括：
 
 若发射时机偏离最佳窗口，则：
 
-- 转移能量 $C_3$ 增加（可能达到 -0.3 km$^2$/s$^2$ 或更高）
-- 转移时间变化（可能延长或缩短）
+- 转移能量 $C_3$ 增加，可能达到 -0.3 km$^2$/s$^2$ 或更高
+- 转移时间变化，可能延长或缩短
 - 到达月球时的相位不利，影响交会对接或着陆
 
 ## 能量预算
@@ -71,11 +71,11 @@ $$\Delta V_{TLI} \approx 3.1 \text{ km/s}$$
 3. TLI 机动：上面级或主发动机点火，提供 $\Delta V \approx 3.1$ km/s
 4. 上面级分离：转移级与航天器分离
 5. 中途修正：视误差传播情况可进行 1-2 次轨迹修正，每次 $\Delta V$ 约 1 至 50 m/s \cite{LiHaiYangZaiRenDengYueZhuanYiGuiDaoPianChaiChuanBoFenXiYuZhongTuXiuZhengFangFaGaiShu2017,ZhaoYuHuiDiYueZhuanYiGuiDaoWuChaiFenXiHeZhongTuXiuZheng2011}。
-6. 月球到达：到达月球影响球（约 64,000 km），准备轨道插入
+6. 月球到达：到达月球影响球，约 64,000 km，准备轨道插入
 
 ## 发射窗口规划工具
 
 现代任务规划中使用 GMAT、STK 等工具进行 TLI 发射窗口优化：
 
 - GMAT：NASA 开源的轨道设计工具，支持 TLI 优化和 pork-chop 图生成
-- STK（Satellite Tool Kit）：AGI 公司的专业轨道分析软件，提供高精度的窗口计算
+- STK Satellite Tool Kit：AGI 公司的专业轨道分析软件，提供高精度的窗口计算

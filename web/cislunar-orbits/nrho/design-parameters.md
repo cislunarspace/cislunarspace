@@ -27,11 +27,11 @@ L1/L2 NRHO 的典型设计参数如下\cite{zimovanCharacteristicsDesignStrategi
 | 参数 | L1 NRHO | L2 NRHO |
 | ------ | ---------- | ---------- |
 | 周期 | 约 6.5–10 天 | 约 6.5–9 天 |
-| 近月点高度 | 数百至数千公里 | 数百至数千公里（Gateway 基线约 1500–3000 km） |
+| 近月点高度 | 数百至数千公里 | 数百至数千公里，Gateway 基线约 1500–3000 km |
 | 远月点高度 | 可达约 7 万公里 | 可达约 7 万公里 |
-| 振幅比 $A_z/A_x$ | 大于约 0.3（近直线特征） | 同左 |
-| 雅可比常数 $C_J$ | 约 2.95–3.05 | 约 2.90–3.00（9:2 成员约 3.047） |
-| 典型维持 ΔV | 年均数米/秒（现代方法 ≤ 2 m/s/年） | 年均数米/秒（现代方法 ≤ 2 m/s/年） |
+| 振幅比 $A_z/A_x$ | 大于约 0.3，即近直线特征 | 同左 |
+| 雅可比常数 $C_J$ | 约 2.95–3.05 | 约 2.90–3.00，其中 9:2 成员约 3.047 |
+| 典型维持 ΔV | 年均数米/秒，现代方法 ≤ 2 m/s/年 | 年均数米/秒，现代方法 ≤ 2 m/s/年 |
 
 地月质量比参数：$\mu_{EM} = 0.0121505853$
 
@@ -43,20 +43,20 @@ $$\mathbf{X}_0 = [x_0, y_0, z_0, \dot{x}_0, \dot{y}_0, \dot{z}_0]$$
 
 对于 L1 NRHO，典型的近月点初始条件约为：
 
-- $x \approx 0.825$（无量纲，距离 L1）
+- $x \approx 0.825$，为距离 L1 的无量纲值
 - $z \approx A_z$，$\dot{x} \approx 0$，$\dot{y} \approx \dot{y}_{halo}$
 
-初始条件的精确选取需要通过数值延续法（numerical continuation）从已知的 Halo 轨道族逐步演化得到\cite{luDesignAnalysisDirect2021}。
+初始条件的精确选取需要通过数值延续法 numerical continuation 从已知的 Halo 轨道族逐步演化得到\cite{luDesignAnalysisDirect2021}。
 
 ## 周期轨道计算
 
 ### 伪弧长延续法
 
-伪弧长延续法（Pseudo-Arclength Continuation）是计算 NRHO 周期轨道族的标准方法。其核心思想是：
+伪弧长延续法 Pseudo-Arclength Continuation 是计算 NRHO 周期轨道族的标准方法。其核心思想是：
 
-1. 从一个已知的周期轨道（如 Lyapunov 轨道）出发
-2. 在参数空间（如雅可比常数 $C_J$）中逐步延续
-3. 在每个参数步长内，利用打靶法（Shooting Method）求解周期边界条件
+1. 从一个已知的周期轨道出发，例如 Lyapunov 轨道
+2. 在参数空间如雅可比常数 $C_J$ 中逐步延续
+3. 在每个参数步长内，利用打靶法 Shooting Method 求解周期边界条件
 
 打靶法的目标函数为：
 $$\mathbf{F}(\mathbf{X}_0) = \mathbf{X}(T; \mathbf{X}_0) - \mathbf{X}_0 = \mathbf{0}$$
@@ -69,7 +69,7 @@ $$\mathbf{F}(\mathbf{X}_0) = \mathbf{X}(T; \mathbf{X}_0) - \mathbf{X}_0 = \mathb
 
 $$\mathbf{M}(T) \mathbf{v} = \lambda \mathbf{v}$$
 
-其中 $\mathbf{M}(T)$ 为单周期状态转移矩阵，$\lambda$ 为 Floquet 乘数。稳定轨道的 Floquet 乘数位于单位圆上（$|\lambda| = 1$），不稳定轨道则存在 $|\lambda| > 1$ 的乘数。
+其中 $\mathbf{M}(T)$ 为单周期状态转移矩阵，$\lambda$ 为 Floquet 乘数。稳定轨道的 Floquet 乘数位于单位圆上，即 $|\lambda| = 1$，不稳定轨道则存在 $|\lambda| > 1$ 的乘数。
 
 上述方法适用于 CR3BP 模型下的单圈周期轨道计算。对于真实星历模型如 JPL DE430 下的多圈 NRHO 计算，需采用多次打靶法并配合特殊的连接点选取策略，长期拟周期成员还可通过不变环面延拓高效构造\cite{liuNoteComputationMultirevolution2025,QinLiMinChangQiNiZhouQiJinZhiXianYunGuiDaoGaoXiaoSheJiFangFa2024}，详见 [多圈 NRHO 星历模型计算](/cislunar-orbits/nrho/ephemeris-computation/)。
 
@@ -77,7 +77,7 @@ $$\mathbf{M}(T) \mathbf{v} = \lambda \mathbf{v}$$
 
 ### 质量比不确定性的影响
 
-地月质量比参数 $\mu_{EM}$ 的不确定性（当前精度约为 $10^{-8}$）对 NRHO 的周期和振幅有微小但可累积的影响。典型敏感性约为：
+地月质量比参数 $\mu_{EM}$ 的当前精度约为 $10^{-8}$，其不确定性对 NRHO 的周期和振幅有微小但可累积的影响。典型敏感性约为：
 
 $$\frac{\Delta T}{T} \approx 0.1 \frac{\Delta \mu}{\mu}$$
 
@@ -85,4 +85,4 @@ $$\frac{\Delta T}{T} \approx 0.1 \frac{\Delta \mu}{\mu}$$
 
 ### 初始位置偏差的影响
 
-NRHO 对初始位置偏差的敏感性可用单值矩阵的不稳定 Floquet 模态评估。以 9:2 成员为例，误差沿不稳定方向每圈放大约 2 至 3 倍（见[稳定性与轨道维持](/cislunar-orbits/nrho/stability-maintenance/)），长期任务必须配合逐圈监控与靶向修正\cite{muralidharanLeveragingStretchingDirections2022}。
+NRHO 对初始位置偏差的敏感性可用单值矩阵的不稳定 Floquet 模态评估。以 9:2 成员为例，误差沿不稳定方向每圈放大约 2 至 3 倍，详见[稳定性与轨道维持](/cislunar-orbits/nrho/stability-maintenance/)，长期任务必须配合逐圈监控与靶向修正\cite{muralidharanLeveragingStretchingDirections2022}。

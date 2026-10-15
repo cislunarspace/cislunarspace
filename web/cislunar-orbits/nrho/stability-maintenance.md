@@ -22,17 +22,17 @@ permalink: /cislunar-orbits/nrho/stability-maintenance/
 
 ## 初值敏感性与发散时标
 
-NRHO 是弱双曲不稳定轨道：线性化分析表明它沿部分方向存在模大于 1 的 Floquet 乘子，初值误差会逐圈放大。以工程常用的 9:2 共振成员为例，单值矩阵的不稳定乘子约为 −2.18（弱双曲区间内约在 2.2 至 3.1 之间），对应每个周期（6.56 天）误差约放大至 2 倍量级，发散速度远低于大尺度晕轨道动辄数百倍的乘子\cite{muralidharanLeveragingStretchingDirections2022,muralidharanStationkeepingEarthmoonRectilinear2021}。折算成连续时间增长率约为 0.1 d⁻¹ 量级，e 折叠时间为天量级而非月量级。
+NRHO 是弱双曲不稳定轨道：线性化分析表明它沿部分方向存在模大于 1 的 Floquet 乘子，初值误差会逐圈放大。以工程常用的 9:2 共振成员为例，单值矩阵的不稳定乘子约为 −2.18，属弱双曲区间，该区间约在 2.2 至 3.1 之间，对应每个周期即 6.56 天误差约放大至 2 倍量级，发散速度远低于大尺度晕轨道动辄数百倍的乘子\cite{muralidharanLeveragingStretchingDirections2022,muralidharanStationkeepingEarthmoonRectilinear2021}。折算成连续时间增长率约为 0.1 d⁻¹ 量级，e 折叠时间为天量级而非月量级。
 
 正因放大慢、可控，NRHO 才能以极低的维持代价长期运行。但同样意味着测定轨误差与机动执行误差必须每圈监控并压制，不能放任累积。
 
 ## ΔV 维持预算
 
-NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典型的维持 ΔV 预算取决于：
+NRHO 的轨道维持 station-keeping 需要周期性的小推力修正。典型的维持 ΔV 预算取决于：
 
-- 轨道位置（L1 vs L2）
+- 轨道位置，即位于 L1 还是 L2
 - 任务持续时间
-- 推进系统类型（电推 vs 化学推力）
+- 推进系统类型，即电推或化学推力
 
 典型数值：
 
@@ -40,11 +40,11 @@ NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典
 
 ## 维持策略
 
-### 脉冲式维持（Impulsive Station-Keeping）
+### 脉冲式维持 Impulsive Station-Keeping
 
-利用小推力发动机（如肼推进器）进行周期性脉冲修正。每次修正的 $\Delta V$ 约为 1-5 m/s，修正时机通常选在轨道的远地点或近地点（速度最低点），以最大化修正效果。基于轨道周期性设计的线性周期控制是这一思路的经典代表\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
+利用肼推进器等小推力发动机进行周期性脉冲修正。每次修正的 $\Delta V$ 约为 1-5 m/s，修正时机通常选在轨道的远地点或近地点，即速度最低点，以最大化修正效果。基于轨道周期性设计的线性周期控制是这一思路的经典代表\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
 
-### 连续推力维持（Continuous Thrust Station-Keeping）
+### 连续推力维持 Continuous Thrust Station-Keeping
 
 对于电推进系统，可采用连续小推力修正，通过调节推力方向来补偿摄动\cite{gaoLowthrustStationkeepingControl2023}。这需要更复杂的姿轨耦合控制，但能获得更精确的轨道保持精度。
 
@@ -60,8 +60,8 @@ NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典
 
 ### 月球非球形摄动
 
-月球的非球形引力（J2 项、$C_{22}$ 项等）对 NRHO 的长期演化有不可忽略的影响。尤其是对于低倾角的 NRHO，月球 J2 项会导致轨道的升交点赤经（RAAN）漂移。
+月球的 J2 项、$C_{22}$ 项等非球形引力对 NRHO 的长期演化有不可忽略的影响。尤其是对于低倾角的 NRHO，月球 J2 项会导致轨道的升交点赤经 RAAN 漂移。
 
 ### 太阳辐射压力
 
-对于大面积太阳帆板或高面质比的航天器，太阳辐射压力（SRP）也是需要专门建模的摄动源。
+对于大面积太阳帆板或高面质比的航天器，太阳辐射压力 SRP 也是需要专门建模的摄动源。

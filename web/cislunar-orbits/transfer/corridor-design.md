@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 
 ## 转移走廊概念
 
-地月转移走廊（Transfer Corridor）是地月空间中一系列可达轨道的集合，航天器沿这些轨道可以在给定能量约束下从起点到达目标轨道。
+地月转移走廊 Transfer Corridor 是地月空间中一系列可达轨道的集合，航天器沿这些轨道可以在给定能量约束下从起点到达目标轨道。
 
 在 CR3BP 模型中，转移走廊对应于相空间中连接 LEO 附近和目标轨道如 NRHO 的稳定流形管 Invariant Manifold Tubes \cite{TanMingHuJiYuDaFuZhiLyapunovGuiDaoDeDiYueZhuanYiGuiDaoSheJiYanJiu2014,ZhengYueJiYuDaFuZhiLyapunovGuiDaoWenDingLiuXingDeDiYueZhuanYiFangFa2023}。这些管状结构在状态空间中形成通道，沿通道内的轨迹只需很小的修正即可到达目标。
 
@@ -30,17 +30,17 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 
 根据转移能量的不同，转移走廊可分为两类：
 
-高能走廊（Direct Transfer Corridor）：
+高能走廊 Direct Transfer Corridor：
 
-- 对应较高的 $C_3$ 值（$C_3 \approx -0.3$ 到 $-0.5$ km$^2$/s$^2$）
-- 转移时间短（3-5 天）
-- $\Delta V$ 走廊宽度较窄（约 $\pm 50$ m/s）
+- 对应较高的 $C_3$ 值，$C_3 \approx -0.3$ 到 $-0.5$ km$^2$/s$^2$
+- 转移时间短，3-5 天
+- $\Delta V$ 走廊宽度较窄，约 $\pm 50$ m/s
 
-低能走廊（Low-Energy Corridor）：
+低能走廊 Low-Energy Corridor：
 
-- 对应较低的 $C_3$ 值（$C_3 \approx -0.8$ 到 $-1.0$ km$^2$/s$^2$）
-- 转移时间长（2-4 周）
-- $\Delta V$ 走廊宽度较宽（约 $\pm 200-300$ m/s）
+- 对应较低的 $C_3$ 值，$C_3 \approx -0.8$ 到 $-1.0$ km$^2$/s$^2$
+- 转移时间长，2-4 周
+- $\Delta V$ 走廊宽度较宽，约 $\pm 200-300$ m/s
 
 两种走廊的 $\Delta V$ 差异约为 200-300 m/s，对推进剂预算影响显著，弱稳定边界类低能走廊与月球借力类低能入轨策略的系统研究均给出了量化的速度增量权衡 \cite{pengLowenergyTransfersLunar2024,LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024,ZhangChenJiYuYueQiuJieLiDeDiNengDRORuGuiCeLue2022}。
 
@@ -49,12 +49,12 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 Pork-Chop 图是 TLI 发射窗口分析的标准工具，以等高线图的形式展示：
 
 - x 轴：发射日期
-- y 轴：到达日期（或转移时间）
+- y 轴：到达日期或转移时间
 - 等高线：总 $\Delta V$ 或 $C_3$ 值
 
 读取 Pork-Chop 图的方法：
 
-1. 找到等高线最凹陷的区域（能量最低的发射机会）
+1. 找到等高线最凹陷的区域，即能量最低的发射机会
 2. 该区域的发射-到达日期对即为最优窗口
 3. 等高线的密集程度表示走廊的“陡峭程度”
 

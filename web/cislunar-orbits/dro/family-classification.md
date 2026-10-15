@@ -29,14 +29,14 @@ permalink: /cislunar-orbits/dro/family-classification/
 | 参数 | 典型范围 |
 | ------ | -------- |
 | 振幅 | 40,000–100,000 km |
-| 典型周期 | 约 10–16 天（随振幅增大变长） |
-| 雅可比常数 | 接近 3.0（依振幅略变） |
+| 典型周期 | 约 10–16 天，随振幅增大变长 |
+| 雅可比常数 | 接近 3.0，依振幅略变 |
 
-> 周期与振幅的具体取值依赖所用动力学模型（CR3BP/ER3BP/星历），上表给出的是任务设计常用的数量级。
+> 周期与振幅的具体取值依赖所用动力学模型，即 CR3BP、ER3BP 或星历，上表给出的是任务设计常用的数量级。
 
 ## 平面族与三维桥接族
 
-经典 DRO 位于旋转坐标系的地月旋转平面内，是一条纯平面周期轨道族，天然不存在“南族/北族”之分（对平面内轨道作 z  到  −z 反射仍得到轨道自身）。
+经典 DRO 位于旋转坐标系的地月旋转平面内，是一条纯平面周期轨道族，天然不存在“南族/北族”之分，对平面内轨道作 z  到  −z 反射仍得到轨道自身。
 
 值得关注的结构性特征来自分岔：沿族延续过程中，DRO 会依次穿越产生 Butterfly 等派生族的倍周期分岔与垂直自共振分岔 Vertical Self-Resonant Bifurcation \cite{asanoAnalysisPeriodmultiplyingBifurcations2022,aydinExplorationVerticalSelfresonant2025}。越过垂直自共振点后，平面族与空间族之间出现一系列桥接族 bridging families，连接平面逆行轨道与三维顺行空间轨道，形成 Dragonfly 蜻蜓型与 Hoverfly 食蚜蝇型等高倾角极轨类形态。这一系列桥接族为需要大倾角覆盖的驻留与观测任务提供了从稳定平面族出发的设计入口 \cite{aydinExplorationVerticalSelfresonant2025}。
 
@@ -48,4 +48,4 @@ permalink: /cislunar-orbits/dro/family-classification/
 
 ![DRO轨道示意图](../../glossary/figures/dro/barycentric-frame-and-dro-schematic.png)
 
-上图展示了在地月旋转坐标系中的 DRO 轨道形态，清晰显示了其逆行特征（相对旋转坐标系的反向运动）。
+上图展示了在地月旋转坐标系中的 DRO 轨道形态，清晰显示了其逆行特征，即相对旋转坐标系的反向运动。

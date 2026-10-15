@@ -24,7 +24,7 @@ permalink: /cislunar-orbits/dro/applications/
 
 DRO 的一个独特应用是作为应急返回轨道 Contingency Return Orbit。在地月空间任务中，若航天器出现故障需要紧急返回地球，DRO 提供了一条低 ΔV 的返回走廊 \cite{zhangTransfersDistantRetrograde2020,BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。
 
-从 DRO 到再入大气层的典型 ΔV 预算约为 400-600 m/s，低于从 NRHO 返回所需的 600-900 m/s。这是因为 DRO 本身距离地球较近（相对于 L1 NRHO），且其轨道几何使得返回转移更为直接。
+从 DRO 到再入大气层的典型 ΔV 预算约为 400-600 m/s，低于从 NRHO 返回所需的 600-900 m/s。这是因为 DRO 本身相较于 L1 NRHO 距离地球较近，且其轨道几何使得返回转移更为直接。
 
 ## 中继与通信
 
@@ -41,7 +41,7 @@ DRO 对某些特定任务具有中继通信优势：
 多航天器协同是 DRO 的另一个应用方向。在 DRO 上运行的多个航天器可以：
 
 - 利用 DRO 的固有稳定性减少编队维持所需的 ΔV \cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023}。
-- 实现编队飞行任务（如合成孔径雷达、引力波探测等）
+- 实现编队飞行任务，即合成孔径雷达、引力波探测等
 - 形成星座结构，提高覆盖范围或冗余度 \cite{JiaoRongChangJiYuDROLEOXingZuoDeBeiDouWeiXingZiZhuDingGuiYuShouShi2026}。
 
 中科院先导专项的 DRO-A/B 双星即采用该思路：2024 年 3 月发射入轨后，双星于同年 8 月分离编队，验证地月 DRO 上的编队与测量技术 \cite{ZhangRuYueDiYueKongJianDROJinJuChiBianDuiXingJianCeLiangXiangDuiDingGui2025}。
@@ -50,7 +50,7 @@ DRO 对某些特定任务具有中继通信优势：
 
 ### 阿尔忒尼斯 1 号
 
-NASA 的阿尔忒尼斯 1 号（Artemis I，2022 年）是 DRO 工程应用最直接的实例：猎户座无人飞船绕月飞行 25.5 天，采用的正是远距离逆行类轨道，并创下了载人级航天器的最远深空飞行纪录。这次任务直接检验了此类轨道在真实星历环境下的运行特性。
+NASA 的阿尔忒尼斯 1 号 Artemis I 于 2022 年实施，是 DRO 工程应用最直接的实例：猎户座无人飞船绕月飞行 25.5 天，采用的正是远距离逆行类轨道，并创下了载人级航天器的最远深空飞行纪录。这次任务直接检验了此类轨道在真实星历环境下的运行特性。
 
 ### 中科院 DRO-A/B 双星
 
