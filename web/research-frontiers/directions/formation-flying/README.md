@@ -1,6 +1,9 @@
 ---
 title: 编队飞行
 description: 地月空间航天器编队飞行的动力学、控制与应用
+author: 天疆说
+date: 2026-09-14
+lastUpdated: 2026-10-06
 wechatShare:
   title: '编队飞行'
   desc: '地月空间航天器编队飞行的动力学、控制与应用'
