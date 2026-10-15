@@ -1,6 +1,9 @@
 ---
 title: 空间态势感知
 description: 地月空间目标监视、碎片探测与态势感知技术
+author: 天疆说
+date: 2026-09-14
+lastUpdated: 2026-09-14
 wechatShare:
   title: '空间态势感知'
   desc: '地月空间目标监视、碎片探测与态势感知技术'

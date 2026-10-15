@@ -1,7 +1,9 @@
 ---
 title: 轨道设计与优化
 description: 地月空间各类轨道的设计方法、优化算法与应用研究
-lastUpdated: '2026-04-28'
+author: 天疆说
+date: 2026-09-14
+lastUpdated: 2026-10-06
 wechatShare:
   title: '轨道设计与优化'
   desc: '地月空间各类轨道的设计方法、优化算法与应用研究'

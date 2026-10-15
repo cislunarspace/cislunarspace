@@ -1,6 +1,9 @@
 ---
 title: 安全与治理
 description: 地月空间安全挑战、国际法规与全球治理框架
+author: 天疆说
+date: 2026-09-14
+lastUpdated: 2026-09-14
 wechatShare:
   title: '安全与治理'
   desc: '地月空间安全挑战、国际法规与全球治理框架'
