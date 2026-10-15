@@ -8,7 +8,7 @@ wechatShare:
 keywords: DRO应用, 应急返回, 中继通信, 编队飞行, CAPSTONE, Artemis
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-15
 permalink: /cislunar-orbits/dro/applications/
 ---
 
@@ -24,7 +24,7 @@ permalink: /cislunar-orbits/dro/applications/
 
 DRO 的一个独特应用是作为应急返回轨道 Contingency Return Orbit。在地月空间任务中，若航天器出现故障需要紧急返回地球，DRO 提供了一条低 ΔV 的返回走廊 \cite{zhangTransfersDistantRetrograde2020,BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。
 
-从 L1 DRO 到再入大气层的典型 ΔV 预算约为 400-600 m/s，低于从 NRHO 返回所需的 600-900 m/s。这是因为 DRO 本身距离地球较近（相对于 L1 NRHO），且其轨道几何使得返回转移更为直接。
+从 DRO 到再入大气层的典型 ΔV 预算约为 400-600 m/s，低于从 NRHO 返回所需的 600-900 m/s。这是因为 DRO 本身距离地球较近（相对于 L1 NRHO），且其轨道几何使得返回转移更为直接。
 
 ## 中继与通信
 
