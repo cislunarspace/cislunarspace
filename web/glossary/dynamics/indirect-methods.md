@@ -119,7 +119,7 @@ $$
 
 ### 内层-外层循环
 
-参数化最优控制（如基于 Theory of Functional Connections 的形函数近似）常用 内层-外层循环结构：内层最小化残差获得状态与代价向量，外层优化切换时间与终端时间，另见 Johnston 等 2020\cite{johnstonFuelEfficientPoweredDescent2020a}。该结构与多重打靶在思路上同源，把快变量与慢变量分层求解。
+参数化最优控制（如基于 Theory of Functional Connections 的形函数近似）常用 内层-外层循环结构：内层最小化残差获得状态与代价向量，外层优化切换时间与终端时间，另见 Johnston 等 2020\cite{johnstonFuelEfficientPoweredDescent2020}。该结构与多重打靶在思路上同源，把快变量与慢变量分层求解。
 
 ## 与直接法的辨析
 
@@ -139,7 +139,7 @@ $$
 - 地月低推力转移：$L_1$/$L_2$ Halo 间、LEO 到 NRHO 的燃料最优转移是间接法 + 同伦的主战场。
 - 多脉冲转移优化：用 primer vector 梯度法判定脉冲数与时刻，再用间接法把脉冲模型升级为有限推力精修。
 - 轨道保持与避碰：固定时长的小型 TPBVP 可实时求解，用于 NRHO 等轨道的连续推力保持与碰撞规避。
-- 相对运动最优控制：在三体动力学下控制伴随卫星相对于参考卫星的相对状态，通过变分方程与预计算的状态转移矩阵，可在 $O(mn^3)$ 内近似求解任意边界条件，另见 Kulik 等 2023\cite{kulikStateTransitionTensors2023}。
+- 相对运动最优控制：在三体动力学下控制伴随卫星相对于参考卫星的相对状态，通过变分方程与预计算的状态转移矩阵，可在 $O(mn^3)$ 内近似求解任意边界条件，另见 Kulik 等 2023\cite{jacksonkulikStateTransitionTensors2023}。
 
 ## 相关概念
 

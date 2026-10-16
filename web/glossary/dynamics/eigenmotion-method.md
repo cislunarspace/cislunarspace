@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/eigenmotion-method/
 
 ## 应用价值
 
-特征运动方法基于平动点轨道附近线性化动力系统的特征结构设计轨道保持策略。通过分解运动为不稳定、稳定和中心模态，选择性地消除不稳定分量，可以最小化燃料消耗维持航天器在目标轨道附近，是平动点轨道保持的先进方法\cite{shimaneOptimizationBasedPhaseConstrainedXAxis2025}。
+特征运动方法基于平动点轨道附近线性化动力系统的特征结构设计轨道保持策略。通过分解运动为不稳定、稳定和中心模态，选择性地消除不稳定分量，可以最小化燃料消耗维持航天器在目标轨道附近，是平动点轨道保持的先进方法\cite{shimaneOptimizationbasedPhaseconstrainedXaxis2025}。
 
 ## 相关概念
 

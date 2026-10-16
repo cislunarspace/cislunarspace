@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/bilinear-tangent-law/
 
 ## 定义
 
-均匀重力场中燃料最优着陆的推力姿态规律。推力角的正切是时间的有理分式函数。在特定边界条件下退化为线性正切律或恒定推力姿态律\cite{trofimovTransfersNearrectilinearHalo2020}。
+均匀重力场中燃料最优着陆的推力姿态规律。推力角的正切是时间的有理分式函数。在特定边界条件下退化为线性正切律或恒定推力姿态律\cite{trofimovTransfersNearrectilinearHalo2020a}。
 
 ## 应用价值
 

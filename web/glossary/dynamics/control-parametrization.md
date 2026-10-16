@@ -80,7 +80,7 @@ $$
 
 Du 等\cite{duNovelCalculationMethod2024} 与 Tu 等\cite{tuOptimalControlLowthrust2025} 给出 CR3BP 低推力轨道碰撞规避、Halo 转移的节流剖面实例\cite{duTwoTrajectoryConfigurations2023}。
 
-油门函数（throttle function） 是节流因子在多模式推进系统中的推广。Zhang Z 等 2026 年的双模式电推进系统用两个油门函数 $\delta_{P1}(t),\delta_{P2}(t)\in\{0,1\}$ 决定每种模式的开关状态，由 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 导出 bang-bang 解\cite{zhangGaussianSmoothingTechnique2026a}。在 [间接法](/glossary/dynamics/indirect-methods/) 框架下，油门函数是最优控制的显式表达，而非外部施加的参数化。
+油门函数（throttle function） 是节流因子在多模式推进系统中的推广。Zhang Z 等 2026 年的双模式电推进系统用两个油门函数 $\delta_{P1}(t),\delta_{P2}(t)\in\{0,1\}$ 决定每种模式的开关状态，由 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 导出 bang-bang 解\cite{zhangGaussianSmoothingTechnique2026}。在 [间接法](/glossary/dynamics/indirect-methods/) 框架下，油门函数是最优控制的显式表达，而非外部施加的参数化。
 
 ## 应用要点
 

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/unmodelled-acceleration/
 
 ## 定义
 
-动力学模型中未显式建模的加速度扰动，如太阳辐射压和太阳引力联合效应。在定轨中作为过程噪声处理，用于吸收模型误差和未建模扰动的影响\cite{qiAnalysisAutonomousOrbit2023a}。
+动力学模型中未显式建模的加速度扰动，如太阳辐射压和太阳引力联合效应。在定轨中作为过程噪声处理，用于吸收模型误差和未建模扰动的影响\cite{qiAnalysisAutonomousOrbit2023}。
 
 ## 应用价值
 

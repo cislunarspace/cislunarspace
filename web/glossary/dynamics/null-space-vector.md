@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/null-space-vector/
 
 ## 定义
 
-雅可比矩阵零空间的向量。在伪弧长延拓中，零空间向量方向作为预测步的搜索方向，使得校正步能沿解曲线滑动而不偏离\cite{ZhangChenJiYuShuZhiYanTuoDeRiYueZongHeJieLiDRORuGuiCeLue2024a}。
+雅可比矩阵零空间的向量。在伪弧长延拓中，零空间向量方向作为预测步的搜索方向，使得校正步能沿解曲线滑动而不偏离\cite{ZhangChenJiYuShuZhiYanTuoDeRiYueZongHeJieLiDRORuGuiCeLue2024}。
 
 ## 应用价值
 

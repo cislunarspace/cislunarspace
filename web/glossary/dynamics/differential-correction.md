@@ -82,7 +82,7 @@ $$\bar{F}_i(\bar{X})=\bar{x}_{i+1}-\boldsymbol{\Phi}_{i+1,i}\,\bar{x}_i=\mathbf{
 
 ## Howell-Pernicka 两级修正
 
-准周期轨道（Lissajous、quasi-halo、拟周期 DRO）在 CR3BP 中不严格闭合，单层微分修正难以同时消除位置和速度残差\cite{howellNumericalDeterminationLissajous1987}。Howell 和 Pernicka 在 1987、1990、1993 年的两级修正（two-level corrector，文献中又称 two-level targeter / TLT）把迭代分成两层：
+准周期轨道（Lissajous、quasi-halo、拟周期 DRO）在 CR3BP 中不严格闭合，单层微分修正难以同时消除位置和速度残差\cite{howell1987numerical}。Howell 和 Pernicka 在 1987、1990、1993 年的两级修正（two-level corrector，文献中又称 two-level targeter / TLT）把迭代分成两层：
 
 - 内层（位置连续）：固定各拼接点位置，只修正各点速度，消除位置不连续。
 

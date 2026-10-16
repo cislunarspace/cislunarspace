@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/energy-range/
 
 ## 定义
 
-根据 Jacobi 能量划分的地月转移可行区域，case a、b、c、d 四个范围\cite{topputo2013optimal}。
+根据 Jacobi 能量划分的地月转移可行区域，case a、b、c、d 四个范围\cite{topputoOptimalTwoimpulseEarth2013a}。
 
 ## 应用价值
 

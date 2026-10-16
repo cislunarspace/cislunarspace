@@ -44,7 +44,7 @@ permalink: /glossary/dynamics/cislunar-transfer-design-elements/
 
 ### 转移轨道族（Transfer Orbit Family）
 
-在限制性三体或四体模型中，具有相同动力学对称性和拓扑结构的一组转移轨道构成一个转移轨道族。这些轨道以连续参数（如 Poincaré 截面处的速度分量）为索引。韦炳威和李银山在 2017 年发现，经过月球旁近的低能地月转移轨道至少存在 16 族，各族在出发时刻、飞行时间、$\Delta v$ 代价和近月点高度分布上差异显著\cite{WeiBingWeiJingGuoYueQiuPangJinDeDiNengDiYueZhuanYiGuiDao2017a}。轨道族的概念使得全局搜索不再需要在连续参数空间中盲目采样，而可以按族搜索，大幅提高效率。
+在限制性三体或四体模型中，具有相同动力学对称性和拓扑结构的一组转移轨道构成一个转移轨道族。这些轨道以连续参数（如 Poincaré 截面处的速度分量）为索引。韦炳威和李银山在 2017 年发现，经过月球旁近的低能地月转移轨道至少存在 16 族，各族在出发时刻、飞行时间、$\Delta v$ 代价和近月点高度分布上差异显著\cite{WeiBingWeiJingGuoYueQiuPangJinDeDiNengDiYueZhuanYiGuiDao2017}。轨道族的概念使得全局搜索不再需要在连续参数空间中盲目采样，而可以按族搜索，大幅提高效率。
 
 ## 转移代价（Transfer Cost）
 

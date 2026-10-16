@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/targeting-threshold/
 
 ## 定义
 
-控制器内部用于收敛判断的容忍度。在PC-SCoP中显式作为约束条件给出，取代了微分修正中非直觉的权重参数，可直接从任务需求推导\cite{shimaneOptimizationBasedPhaseConstrainedXAxis2025}。
+控制器内部用于收敛判断的容忍度。在PC-SCoP中显式作为约束条件给出，取代了微分修正中非直觉的权重参数，可直接从任务需求推导\cite{shimaneOptimizationbasedPhaseconstrainedXaxis2025}。
 
 ## 应用价值
 

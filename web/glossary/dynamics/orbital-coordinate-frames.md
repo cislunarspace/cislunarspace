@@ -62,7 +62,7 @@ $\ddot{x} - 3n^2 x - 2n \dot{y} = f_x$，$\ddot{y} + 2n \dot{x} = f_y$，$\ddot{
 
 ## 相关变体与辨析
 
-- 惯性系固定编队（formation fixed relative to inertial frame）：编队主从航天器相对位置与方位在惯性系中保持恒定，与随轨道转动的 Hill 系描述相反，用于分析平动点附近的长期演化\cite{marchandControlStrategiesFormation2005,heritierDynamicalEvolutionNatural2014a}。
+- 惯性系固定编队（formation fixed relative to inertial frame）：编队主从航天器相对位置与方位在惯性系中保持恒定，与随轨道转动的 Hill 系描述相反，用于分析平动点附近的长期演化\cite{marchandControlStrategiesFormation2005,heritierDynamicalEvolutionNatural2014}。
 
 - 惯性系相对运动方程：直接在惯性系写相对运动方程，能更直接反映多体环境中的真实动力学，避免旋转系下离心/科氏项带来的混淆。
 

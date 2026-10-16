@@ -93,7 +93,7 @@ Acikmese 和 Ploen 在 2007 年的关键 Lemma 证明：在一定条件下，松
 
 - 动力下降制导：火星/月球定点着陆是 SCP 的杀手锏应用：Acikmese & Ploen 的 lossless convexification 是为该问题量身定做，已用于 SpaceX Starship 的 on-board 实时规划\cite{Song2021}。
 - 低推力转移：日地/地月低推力多圈燃料最优转移，Wang & Grant 首次把 SCP 用于该类问题，Tang 和 Conway 则把间接法与序列凸规划结合起来求解同类问题\cite{tangFueloptimalLowthrustTrajectory2018}。Hofmann 和 Topputo 推广到行星际、配合 hp-Radau + bang-off-bang 加密。
-- 地月平动点转移：Halo 与 NRHO 之间的转移等高非线性区域，Kayama 等 2022 证明 SCP 在 CR3BP 邻域仍可收敛，但需推力延续法（从大加速度逐步降至任务推力）才能在低加速度下不出发散\cite{kayamaLowThrustTrajectoryDesign2022a}。
+- 地月平动点转移：Halo 与 NRHO 之间的转移等高非线性区域，Kayama 等 2022 证明 SCP 在 CR3BP 邻域仍可收敛，但需推力延续法（从大加速度逐步降至任务推力）才能在低加速度下不出发散\cite{yukikayamaLowthrustTrajectoryDesign2022}。
 - 碰撞规避与交会：近场 RPO、被动安全交会，用 SCP 求解带凸化保持约束的转移\cite{elangoSuccessiveConvexificationPassivelysafe2025}。
 
 ## 相关概念

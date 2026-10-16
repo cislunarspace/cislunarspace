@@ -56,7 +56,7 @@ Marchand 和 Howell 按相对构型在哪个参考系中定义，将编队分为
 
 ## 自然编队与控制编队
 
-自然编队（natural formation）利用多体动力学的内在特性。Héritier 和 Howell 在 2014 年的证明表明：沿某参考轨迹在惯性系中存在区域（近似二次曲面），其中成员间距离和指向方向的变化最小\cite{heritierDynamicalEvolutionNatural2014a}。这些区域的特性与参考轨道的Floquet特征结构耦合。
+自然编队（natural formation）利用多体动力学的内在特性。Héritier 和 Howell 在 2014 年的证明表明：沿某参考轨迹在惯性系中存在区域（近似二次曲面），其中成员间距离和指向方向的变化最小\cite{heritierDynamicalEvolutionNatural2014}。这些区域的特性与参考轨道的Floquet特征结构耦合。
 
 Barden 与 Howell 在 1998 年以及 Barden、Howell 与 Lo 在 1996 年的工作中，于日地 $L_1$/$L_2$ 平动点附近中心流形上发现了六航天器自然编队：成员间相对距离在做多个参考轨道周期后仍保持有界，不需主动控制，控制代价仅为参考轨道的轨道维持\cite{bardenFundamentalMotionsCollinear1998}。
 

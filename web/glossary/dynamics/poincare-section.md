@@ -84,7 +84,7 @@ $$\Sigma = \{\mathbf{x}\mid (\mathbf{x}-\mathbf{x}_0)\cdot\mathbf{n}=0\}$$
 
 - 流形拼接与转移初值：在 $x=1-\mu$ 截面上比较 $L_1$ 不稳定流形与 $L_2$ 稳定流形的交点，可识别 [heteroclinic/homoclinic 连接](/glossary/dynamics/poincare-map/) 的初值。
 
-- 捕获与逃逸分析：近星点截面上 transit 与 non-transit 点的边界由 Lyapunov 轨道的不变流形管刻画\cite{conleyLowEnergyTransit1968,conleyLowEnergyTransit1968a}，见 Koon 等 2000\cite{koonHeteroclinicConnectionsPeriodic2000}。
+- 捕获与逃逸分析：近星点截面上 transit 与 non-transit 点的边界由 Lyapunov 轨道的不变流形管刻画\cite{conleyLowEnergyTransit1968,conleyLowEnergyTransit1968}，见 Koon 等 2000\cite{koonHeteroclinicConnectionsPeriodic2000}。
 
 - 轨道辨识与编目：将观测状态投影到截面地图上，可像查字典一样辨识未知航天器所在轨道族，绕过混沌环境中直接数值积分的困难。
 

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/ocs/
 
 ## 定义
 
-一种平动点轨道驻留机动算法。不依赖参考轨迹，而是通过微分修正和非线性优化，在后续1至2圈轨道周期的x-z截面穿越点上施加位置或速度约束，使航天器始终留在平动点轨道附近。ARTEMIS任务实测年度驻留DV约5至7 m/s\cite{foltaEarthMoonLibrationPoint2014}。
+一种平动点轨道驻留机动算法。不依赖参考轨迹，而是通过微分修正和非线性优化，在后续1至2圈轨道周期的x-z截面穿越点上施加位置或速度约束，使航天器始终留在平动点轨道附近。ARTEMIS任务实测年度驻留DV约5至7 m/s\cite{foltaEarthMoonLibration2014}。
 
 ## 应用价值
 

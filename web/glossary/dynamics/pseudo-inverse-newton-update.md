@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/pseudo-inverse-newton-update/
 
 ## 定义
 
-多重打靶法中因雅可比矩阵不可逆而采用伪逆代替标准牛顿更新的迭代修正方法\cite{kakoiAccessMarsEarthMoon2014}。
+多重打靶法中因雅可比矩阵不可逆而采用伪逆代替标准牛顿更新的迭代修正方法\cite{kakoiAccessMarsEarth2014}。
 
 ## 应用价值
 

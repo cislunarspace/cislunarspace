@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/energy-level/
 
 ## 定义
 
-由雅可比常数C表征的动力学能级。在CR3BP中，相同雅可比常数的轨迹具有相同的能量水平\cite{vaqueroLeveragingResonantorbitManifolds2014a}。
+由雅可比常数C表征的动力学能级。在CR3BP中，相同雅可比常数的轨迹具有相同的能量水平\cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 应用价值
 

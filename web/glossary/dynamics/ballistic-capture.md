@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/ballistic-capture/
 
 弹道捕获（ballistic capture）是指航天器不施加主动减速脉冲、仅依靠多体引力环境的自然动力学，被目标天体（在本文语境下为月球）捕获进入其引力束缚区域的机制\cite{belbrunoSunperturbedEarthtomoonTransfers1993,parker2014low,belbrunoCaptureDynamicsChaotic2004}。在经典二体轨道转移框架下，从双曲线轨道变为椭圆轨道必须施加制动脉冲（月球捕获需约 0.6--0.8 km/s 量级的 $\Delta v$）。弹道捕获则利用太阳引力摄动或不变流形的自然结构，使航天器在不消耗额外推进剂的情况下进入目标天体附近。
 
-弹道捕获不是一种确定的轨道类型，而是一种动力学现象：航天器的雅可比常数因第三体摄动缓慢改变，使其能量逐渐降低，最终从可逃逸状态过渡到被约束状态\cite{koonDynamicalSystemsThreeBody2000}。在限制性三体问题框架下，这种过渡对应着航天器穿越零速度曲面（ZVS）的颈部（neck）区域，即平动点 $L_1$ 或 $L_2$ 附近的能量关卡，见 Koon 等 2000 年的工作\cite{conleyLowEnergyTransit1968a,szebehely1967theory}。
+弹道捕获不是一种确定的轨道类型，而是一种动力学现象：航天器的雅可比常数因第三体摄动缓慢改变，使其能量逐渐降低，最终从可逃逸状态过渡到被约束状态\cite{koonDynamicalSystemsThreeBody2000}。在限制性三体问题框架下，这种过渡对应着航天器穿越零速度曲面（ZVS）的颈部（neck）区域，即平动点 $L_1$ 或 $L_2$ 附近的能量关卡，见 Koon 等 2000 年的工作\cite{conleyLowEnergyTransit1968,szebehely1967theory}。
 
 ## 物理机制
 

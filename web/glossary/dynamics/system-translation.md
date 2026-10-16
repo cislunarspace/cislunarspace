@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/system-translation/
 
 ## 定义
 
-将一个三体系统中计算的周期轨道和转移轨迹，通过质量参数连续延拓直接迁移到另一个三体系统的方法，无需在新系统中重新生成轨道和流形\cite{vaqueroLeveragingResonantorbitManifolds2014a}。
+将一个三体系统中计算的周期轨道和转移轨迹，通过质量参数连续延拓直接迁移到另一个三体系统的方法，无需在新系统中重新生成轨道和流形\cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 应用价值
 

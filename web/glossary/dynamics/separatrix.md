@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/separatrix/
 
 ## 应用价值
 
-分界线涉及地月空间航天器的运动特性分析和控制问题。在实际任务设计中，利用该方法可以分析轨道稳定性、计算控制策略，或评估摄动因素对轨道的影响，为任务安全性和可靠性提供保障\cite{howellTransfersEarthMoonSunEarth2006}。
+分界线涉及地月空间航天器的运动特性分析和控制问题。在实际任务设计中，利用该方法可以分析轨道稳定性、计算控制策略，或评估摄动因素对轨道的影响，为任务安全性和可靠性提供保障\cite{howellTransfersEarthMoon2006}。
 
 ## 相关概念
 

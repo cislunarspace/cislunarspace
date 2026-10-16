@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/loss-function/
 
 ## 定义
 
-基于微分方程残差定义的优化目标函数，在TFC方法中通过迭代最小二乘法使其最小化以获得最优控制解\cite{johnstonFuelEfficientPoweredDescent2020a}。
+基于微分方程残差定义的优化目标函数，在TFC方法中通过迭代最小二乘法使其最小化以获得最优控制解\cite{johnstonFuelEfficientPoweredDescent2020}。
 
 ## 应用价值
 

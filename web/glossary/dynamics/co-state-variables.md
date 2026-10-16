@@ -67,7 +67,7 @@ $$H=L+\boldsymbol{\lambda}_r^{\!\top}\mathbf{v}+\boldsymbol{\lambda}_v^{\!\top}(
 
 - 间接法的根本瓶颈在于协态初值的猜测与同伦路径规划，比状态初值困难一个量级。
 - 大范围转移中 $\lambda_m$ 数值跨度大，常通过对数化或独立归一化避免病态。
-- CR3BP-LT 的控制 Hamilton 函数 $H_{lt}=H_{nat}-\boldsymbol{\lambda}^{\!\top}\mathbf{a}_{lt}$（$\mathbf{a}_{lt}$ 为低推力加速度），在 $\mathbf{a}_{lt}$ 旋转系下固定时为新的守恒量\cite{coxTransitCapturePlanar2021,coxTransitCapturePlanar2021a}。
+- CR3BP-LT 的控制 Hamilton 函数 $H_{lt}=H_{nat}-\boldsymbol{\lambda}^{\!\top}\mathbf{a}_{lt}$（$\mathbf{a}_{lt}$ 为低推力加速度），在 $\mathbf{a}_{lt}$ 旋转系下固定时为新的守恒量\cite{coxTransitCapturePlanar2021,coxTransitCapturePlanar2021}。
 
 ## 相关概念
 

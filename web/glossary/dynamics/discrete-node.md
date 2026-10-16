@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/discrete-node/
 
 ## 定义
 
-最优控制问题离散化后，沿轨迹的时间采样点。节点数量直接影响优化精度和计算时间，节点间距可固定或根据非线性程度自适应分布\cite{kayamaLowThrustTrajectoryDesign2022a}。
+最优控制问题离散化后，沿轨迹的时间采样点。节点数量直接影响优化精度和计算时间，节点间距可固定或根据非线性程度自适应分布\cite{yukikayamaLowthrustTrajectoryDesign2022}。
 
 ## 应用价值
 

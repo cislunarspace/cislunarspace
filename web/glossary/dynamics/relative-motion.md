@@ -70,7 +70,7 @@ $$
 \delta\dot{\mathbf{x}}(t) = A(t)\,\delta\mathbf{x}(t)
 $$
 
-其中 $A(t) = \partial\mathbf{f}/\partial\mathbf{x}|_{\mathbf{x}_{\text{ref}}(t)}$ 是在参考轨道上取值的 $6\times6$ 时变雅可比矩阵，包含科氏耦合项和伪势函数二阶空间导数。该系统是线性周期时变（LTP）系统，其 Floquet 乘子和特征向量决定了编队的稳定性、自然漂移和控制需求\cite{heritierDynamicalEvolutionNatural2014a,scheeresStabilizingMotionRelative2003}。
+其中 $A(t) = \partial\mathbf{f}/\partial\mathbf{x}|_{\mathbf{x}_{\text{ref}}(t)}$ 是在参考轨道上取值的 $6\times6$ 时变雅可比矩阵，包含科氏耦合项和伪势函数二阶空间导数。该系统是线性周期时变（LTP）系统，其 Floquet 乘子和特征向量决定了编队的稳定性、自然漂移和控制需求\cite{heritierDynamicalEvolutionNatural2014,scheeresStabilizingMotionRelative2003}。
 
 按精度递增，实践中引用三种模型：
 

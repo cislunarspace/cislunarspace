@@ -68,7 +68,7 @@ $$
 
 - 临界倾角轨道（Critical Inclination Orbit）：取 $i = 63.4^{\circ}$ 或 $116.6^{\circ}$，使 $\dot{\omega} = 0$，近地点固定在某一方向（Molniya 轨道即此原理）。
 
-需要指出，对于地月平动点轨道（halo、NRHO、DRO 等），$J_2$ 影响相对很小：这些轨道本质上由三体引力主导，地球扁率引起的相对运动偏差通常仅毫米量级，在多数分析中可忽略\cite{foltaEarthMoonLibrationPoint2014}。
+需要指出，对于地月平动点轨道（halo、NRHO、DRO 等），$J_2$ 影响相对很小：这些轨道本质上由三体引力主导，地球扁率引起的相对运动偏差通常仅毫米量级，在多数分析中可忽略\cite{foltaEarthMoonLibration2014}。
 
 ## 地球非球形引力场
 

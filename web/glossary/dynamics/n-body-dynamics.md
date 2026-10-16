@@ -32,7 +32,7 @@ $$\ddot{\mathbf{r}} = -\sum_{i=1}^{n-1} \frac{\mu_i (\mathbf{r} - \mathbf{r}_i)}
 
 相较于圆型限制性三体问题（CR3BP），高精度星历 $n$ 体模型引入了月球偏心率、太阳第三体引力摄动、黄白交角长期旋进等实际摄动因素。CR3BP 中的保守积分（雅可比积分）在 $n$ 体模型中不再严格守恒，周期轨道退化为拟周期或受摄拟轨道。
 
-在工程实际任务中，地月转移轨迹规划、平动点长期驻留轨道保持、精确星历仿真与定轨滤波必须在全力 $n$ 体动力学框架下完成高保真度迭代与校验\cite{vaqueroLeveragingResonantorbitManifolds2014a}。
+在工程实际任务中，地月转移轨迹规划、平动点长期驻留轨道保持、精确星历仿真与定轨滤波必须在全力 $n$ 体动力学框架下完成高保真度迭代与校验\cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 相关概念
 

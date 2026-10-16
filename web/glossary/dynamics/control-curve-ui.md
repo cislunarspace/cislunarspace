@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/control-curve-ui/
 
 ## 定义
 
-描述低推力弧上低推力哈密顿量随推力角α变化范围的曲线，H_lt = H_nat,i - a_lt(x_i cosα + y_i sinα)\cite{coxTransitCapturePlanar2021a}。
+描述低推力弧上低推力哈密顿量随推力角α变化范围的曲线，H_lt = H_nat,i - a_lt(x_i cosα + y_i sinα)\cite{coxTransitCapturePlanar2021}。
 
 ## 应用价值
 

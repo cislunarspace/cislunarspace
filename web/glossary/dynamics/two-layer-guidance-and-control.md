@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/two-layer-guidance-and-control/
 
 ## 定义
 
-由非线性最优控制器生成基准轨道、线性控制器补偿偏差的两层制导控制架构\cite{muralidharanRendezvousCislunarHalo2023}
+由非线性最优控制器生成基准轨道、线性控制器补偿偏差的两层制导控制架构\cite{bucchioniRendezvousCislunarHalo2023}
 
 ## 应用价值
 

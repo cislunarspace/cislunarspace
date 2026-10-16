@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/ps-plane/
 
 ## 定义
 
-系统间转移设计中用于分析流形管交点的投影平面。以日地旋转坐标系中角度 ψ 确定方位，将三维相空间中两个不同系统的流形管投影到该平面上，通过检测投影的重叠区域来定位转移点。PS 平面不是严格的庞加莱截面（三维问题中截面为四维对象），而是一种降维投影手段\cite{gomezInvariantmanifoldsSpatial3body2001,howellTransfersEarthMoonSunEarth2006}。
+系统间转移设计中用于分析流形管交点的投影平面。以日地旋转坐标系中角度 ψ 确定方位，将三维相空间中两个不同系统的流形管投影到该平面上，通过检测投影的重叠区域来定位转移点。PS 平面不是严格的庞加莱截面（三维问题中截面为四维对象），而是一种降维投影手段\cite{gomezInvariantmanifoldsSpatial3body2001,howellTransfersEarthMoon2006}。
 
 ## 应用价值
 

@@ -38,7 +38,7 @@ $\dot{q} = \partial H / \partial p$，$\dot{p} = -\partial H / \partial q$
 
 ## 正则变换
 
-正则变换（canonical transformation）是保持正则方程形式不变的相空间变量替换 $(q,p) \to (Q,P)$，即辛变换：它保持泊松括号 $\{Q,P\}_{q,p} = 1$，雅可比行列式为 1，从而保持相空间体积（刘维尔定理）\cite{singhLowThrustTransfersSouthern2021}。正则变换是天体力学中简化摄动问题的核心手段：通过合适的变换可以把快变量与慢变量分离、把含时坐标变为循环坐标，使对应广义动量守恒\cite{valladoFundamentalsAstrodynamicsApplications2022,dingCislunarSpaceSituational2025}。寻找正则变换本质上是在寻找更多的循环坐标。典型应用：Brouwer 用两级正则变换消去短周期项得到人工卫星解析理论，Deprit 用 Lie 变换改进之。von Zeipel 法、Hori 法同属此类。
+正则变换（canonical transformation）是保持正则方程形式不变的相空间变量替换 $(q,p) \to (Q,P)$，即辛变换：它保持泊松括号 $\{Q,P\}_{q,p} = 1$，雅可比行列式为 1，从而保持相空间体积（刘维尔定理）\cite{singhLowthrustTransfersSouthern2021}。正则变换是天体力学中简化摄动问题的核心手段：通过合适的变换可以把快变量与慢变量分离、把含时坐标变为循环坐标，使对应广义动量守恒\cite{valladoFundamentalsAstrodynamicsApplications2022,dingCislunarSpaceSituational2025}。寻找正则变换本质上是在寻找更多的循环坐标。典型应用：Brouwer 用两级正则变换消去短周期项得到人工卫星解析理论，Deprit 用 Lie 变换改进之。von Zeipel 法、Hori 法同属此类。
 
 ## 作用-角变量
 

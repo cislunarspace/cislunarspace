@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/pseudospectral-convex-optimization/
 
 ## 应用价值
 
-在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗。该优化方法计算效率高，适合处理带约束的轨迹优化问题\cite{songAdaptivePoweredDescent2021}。
+在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗。该优化方法计算效率高，适合处理带约束的轨迹优化问题\cite{Song2021}。
 
 ## 相关概念
 
