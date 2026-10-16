@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/euler-quintic-equation/
 
 ## 定义
 
-用于确定圆型限制性三体问题中共线平动点距离参数γ的五次代数方程。
+用于确定圆型限制性三体问题中共线平动点距离参数γ的五次代数方程\cite{gomezDynamicsMissionDesign2001f}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/euler-quintic-equation/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points: Fundamentals: The Case of Collinear Libration Points*, World Scientific, Ch. 2, DOI: 10.1142/4402

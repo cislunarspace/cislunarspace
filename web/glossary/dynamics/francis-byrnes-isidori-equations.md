@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/francis-byrnes-isidori-equations/
 
 ## 定义
 
-非线性输出调节理论的核心方程组，由匹配条件和不变流形条件两部分组成。匹配条件要求被控输出与参考信号一致。不变流形条件要求存在一个流形将外系统状态映射到被控系统状态空间，使得系统轨迹在该流形上沿外系统演化。该方程组的可解性是设计调节控制器的前提。
+非线性输出调节理论的核心方程组，由匹配条件和不变流形条件两部分组成\cite{isidoriOutputRegulationNonlinear1990}。匹配条件要求被控输出与参考信号一致\cite{francisLinearMultivariableRegulator1977}。不变流形条件要求存在一个流形将外系统状态映射到被控系统状态空间，使得系统轨迹在该流形上沿外系统演化。该方程组的可解性是设计调节控制器的前提。
 
 ## 应用价值
 
@@ -42,8 +42,3 @@ Francis-Byrnes-Isidori方程是非线性控制理论中的重要结果，描述�
 - [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-section/)
 - 稳定性（Stability）
-
-## 参考文献
-
-- Francis, 1977, *The Linear Multivariable Regulator Problem*, SIAM Journal on Control and Optimization, 15(3): 486-505, DOI: 10.1137/0315033
-- Isidori and Byrnes, 1990, *Output regulation of nonlinear systems*, IEEE Transactions on Automatic Control, 35(2): 131-140, DOI: 10.1109/9.45168

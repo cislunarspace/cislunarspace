@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/pseudospectral-method/
 
 ## 定义
 
-伪谱法（pseudospectral method，又称谱配点法 spectral collocation）是 [直接法](/glossary/dynamics/direct-methods/) 中的一类：把整个时间区间映射到 $[-1,1]$，用单一高阶全局 Lagrange 多项式插值状态 $\mathbf{x}(\tau)$ 与控制 $\mathbf{u}(\tau)$，在正交节点处强制满足动力学。配点取 Legendre 多项式的根（或根 + 端点），节点数 $N$ 通常取 20~100 每相，可以远少于 [直接配点法](/glossary/dynamics/direct-collocation/) 的总节点数。对所有光滑函数都有谱（指数）收敛性，见 Canuto 等 1988 与 Fornberg 1998。
+伪谱法（pseudospectral method，又称谱配点法 spectral collocation）是 [直接法](/glossary/dynamics/direct-methods/) 中的一类：把整个时间区间映射到 $[-1,1]$，用单一高阶全局 Lagrange 多项式插值状态 $\mathbf{x}(\tau)$ 与控制 $\mathbf{u}(\tau)$，在正交节点处强制满足动力学。配点取 Legendre 多项式的根（或根 + 端点），节点数 $N$ 通常取 20~100 每相，可以远少于 [直接配点法](/glossary/dynamics/direct-collocation/) 的总节点数。对所有光滑函数都有谱（指数）收敛性，见 Canuto 等 1988 与 Fornberg 1998\cite{canutoSpectralMethodsFluid1988,fornbergPracticalGuidePseudospectral1996}。
 
 ## 数学形式
 
@@ -62,9 +62,9 @@ $$\boldsymbol{\zeta}_i = \sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k - \frac{t_f-t_0}{2}
 | GPM（Gauss pseudospectral method） | LG：$P_{N+1}(\tau)$ 的根（不含端点） | 协态映射最干净，端点状态作为额外变量，见 Benson 2005 与 Huntington 2007 |
 | RPM（Radau pseudospectral method） | LGR：$P_N(\tau)+P_{N+1}(\tau)$ 的根（含一端） | 一端连续一端离散，积分格式更稳。flipped Radau（FRPM）在 SCP 中常用于提升稀疏性\cite{garg2011direct} |
 
-三者的协态映射定理形式不同：GPM 与 RPM 的 KKT 乘子可直接对应连续协态，LPM 需额外做端点加权，见 Benson 等 2006 与 Garg 等 2010。这是近年 GPOPS-II 等工具转向 RPM/FRPM 的主要原因。
+三者的协态映射定理形式不同：GPM 与 RPM 的 KKT 乘子可直接对应连续协态，LPM 需额外做端点加权，见 Benson 等 2006 与 Garg 等 2010。这是近年 GPOPS-II 等工具转向 RPM/FRPM 的主要原因\cite{gargUnifiedFrameworkNumerical2010}。
 
-Chebyshev 节点（Chebyshev-Gauss-Lobatto）的另一族：Chebyshev 伪谱法（CPM），在节点与微分矩阵上有闭式表达，计算效率更高。通过共形映射 + 重心插值可显著缓解标准 CPM 微分矩阵的病态\cite{caiBangbangOptimalControl2016}，见 Kosloff 与 Tal-Ezer 1993。
+Chebyshev 节点（Chebyshev-Gauss-Lobatto）的另一族：Chebyshev 伪谱法（CPM），在节点与微分矩阵上有闭式表达，计算效率更高。通过共形映射 + 重心插值可显著缓解标准 CPM 微分矩阵的病态\cite{caiBangbangOptimalControl2016}，见 Kosloff 与 Tal-Ezer 1993\cite{kosloffModifiedChebyshevPseudospectral1993}。
 
 ## 谱收敛性与 hp 自适应
 
@@ -72,14 +72,14 @@ Chebyshev 节点（Chebyshev-Gauss-Lobatto）的另一族：Chebyshev 伪谱法�
 
 工程对策是 hp 自适应：
 
-- h 型：在控制不连续处把整段切成多相，每相独立用伪谱离散，相间用状态/控制连续性约束连接，见 Darby 等 2011。
+- h 型：在控制不连续处把整段切成多相，每相独立用伪谱离散，相间用状态/控制连续性约束连接，见 Darby 等 2011\cite{darbyHpAdaptivePseudospectral2010}。
 - p 型：在每段内根据误差估计加密节点数。
 
 GPOPS-II、SPARTAN 等工具内置 hp 自适应。对强 bang-bang 问题，近年发展的 flipped Radau + switching-time 提取能精确定位开关时刻，把控制离散为分段常数后再优化\cite{hofmannRapidLowthrustTrajectory2021}。
 
 ## 协态映射定理
 
-伪谱法的核心理论结果是 covector mapping theorem，见 Benson 2005 与 Benson、Huntington 和 Rao 2006：经过适当的线性变换，GPM/RPM 离散 NLP 的 KKT 乘子 $\tilde{\boldsymbol{\lambda}}_k$ 在节点上严格对应连续 OCP 的协态 $\boldsymbol{\lambda}(\tau_k)$。
+伪谱法的核心理论结果是 covector mapping theorem，见 Benson 2005 与 Benson、Huntington 和 Rao 2006：经过适当的线性变换，GPM/RPM 离散 NLP 的 KKT 乘子 $\tilde{\boldsymbol{\lambda}}_k$ 在节点上严格对应连续 OCP 的协态 $\boldsymbol{\lambda}(\tau_k)$\cite{bensonGaussPseudospectralTranscription2005,bensonDirectTrajectoryOptimization2006,huntingtonAdvancementAnalysisGauss2007}。
 
 工程意义：
 
@@ -100,8 +100,8 @@ GPOPS-II、SPARTAN 等工具内置 hp 自适应。对强 bang-bang 问题，近�
 ## 应用要点
 
 - 平动点轨道转移：低推力 Halo 与 NRHO 之间的转移、Halo 族内转移，伪谱法因配点少、协态精度高而是首选之一，见 Liu 2025 与 Kayama 2022。
-- 多阶段问题：发射/级间分离/入轨/再入等多阶段任务，GPOPS-II 的相间事件约束可自然处理（Jorris 等）。
-- 作为 SCP 离散化后端：在 [序列凸规划](/glossary/dynamics/scp/) 中，FRPM 因稀疏性优于 GPM 而被广泛采用。
+- 多阶段问题：发射/级间分离/入轨/再入等多阶段任务，GPOPS-II 的相间事件约束可自然处理（Jorris 等）\cite{pattersonGPOPSIIMATLABSoftware2014}。
+- 作为 SCP 离散化后端：在 [序列凸规划](/glossary/dynamics/scp/) 中，FRPM 因稀疏性优于 GPM 而被广泛采用\cite{saglianoRadauPseudospectralMethod2017}。
 - 不适用场合：强 bang-bang 燃料最优问题若不做 hp 加密，会有 Gibbs 振荡。高速率状态变化（如 6DOF 旋转-平移耦合）改用直接配点更稳。
 
 ## 相关概念
@@ -113,16 +113,3 @@ GPOPS-II、SPARTAN 等工具内置 hp 自适应。对强 bang-bang 问题，近�
 - [庞特里亚金极大值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagins-maximum-principle/)
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)
 - [Legendre-Clebsch 条件（Legendre-Clebsch Condition）](/glossary/fundamentals/conjugate-point/)
-
-## 参考文献
-
-- Benson, D. A., 2005, *A Gauss pseudospectral transcription for optimal control*, PhD thesis, MIT
-- Benson et al., 2006, *Direct Trajectory Optimization and Costate Estimation via an Orthogonal Collocation Method*, Journal of Guidance, Control, and Dynamics, 29(6): 1435-1440, DOI: 10.2514/1.20478
-- Garg et al., 2010, *A unified framework for the numerical solution of optimal control problems using pseudospectral methods*, Automatica, 46(11): 1843-1851, DOI: 10.1016/j.automatica.2010.06.048
-- Huntington, G. T., 2007, *Advancement and analysis of Gauss pseudospectral transcription for optimal control problems*, PhD thesis, MIT
-- Darby, C. L., Hager, W. W., Rao, A. V., 2011, *An hp-adaptive pseudospectral method for solving optimal control problems*, Optimal Control Applications and Methods, 32(4): 476-502, DOI: 10.1002/oca.957
-- Patterson, M. A., Rao, A. V., 2014, *GPOPS-II*, ACM Transactions on Mathematical Software, 41(1): 1-37, DOI: 10.1145/2558904
-- Fornberg, B., 1996, *A Practical Guide to Pseudospectral Methods*, Cambridge University Press, DOI: 10.1017/CBO9780511626357
-- Canuto et al., 1988, *Spectral Methods in Fluid Dynamics*, Springer-Verlag, Berlin, DOI: 10.1007/978-3-642-84108-8
-- Kosloff, D., Tal-Ezer, H., 1993, *A Modified Chebyshev Pseudospectral Method with an $O(N^{-1})$ Time Step Restriction*, Journal of Computational Physics, 104(2): 457-469, DOI: 10.1006/jcph.1993.1044
-- Sagliano et al., 2017, *On the Radau pseudospectral method: theoretical and implementation advances*, CEAS Space Journal, 9(3): 313-331, DOI: 10.1007/s12567-017-0165-5

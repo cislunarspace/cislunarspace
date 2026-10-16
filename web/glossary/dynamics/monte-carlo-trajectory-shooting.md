@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/monte-carlo-trajectory-shooting/
 2. 利用生成的离散轨迹拓扑数据库，与目标周期轨道流形或近月停泊轨道进行庞加莱截面特征匹配。
 3. 为后续高精度两步法优化提供收敛裕度极大的优质初值解。
 
-在月球低能捕获、DRO/Halo 往返运输系统设计中，该方法是挖掘非常规航线与全局最优低能转移路径的核心手段。
+在月球低能捕获、DRO/Halo 往返运输系统设计中，该方法是挖掘非常规航线与全局最优低能转移路径的核心手段\cite{belbrunoCaptureDynamicsChaotic2004}。
 
 ## 相关概念
 
@@ -44,4 +44,3 @@ permalink: /glossary/dynamics/monte-carlo-trajectory-shooting/
 ## 参考文献
 
 - Peng, K., Bao, C., Shen, H., et al. Global search of low-energy cislunar transfers using Monte Carlo trajectory shooting. AIAA Journal of Spacecraft and Rockets, 2024, 61(3): 890-903，题录待补
-- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics: With Applications to the Construction of Low Energy Transfers*, Princeton University Press

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/backward-integration-method/
 
 ## 定义
 
-从已知最优解的终端状态出发，沿时间反向积分以缩小出发轨道半径的轨迹计算方法。利用最优控制解在逃逸段近似切向推力控制的特性，反向积分可使轨道半径螺旋下降。配合中间圆轨道速度修正，逐步将出发轨道从大圆轨道缩减至地球同步轨道。
+从已知最优解的终端状态出发，沿时间反向积分以缩小出发轨道半径的轨迹计算方法。利用最优控制解在逃逸段近似切向推力控制的特性，反向积分可使轨道半径螺旋下降\cite{duNovelCalculationMethod2024}。配合中间圆轨道速度修正，逐步将出发轨道从大圆轨道缩减至地球同步轨道。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/backward-integration-method/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- Du et al., 2024, *A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem*, Aerospace Science and Technology, 147: 109048, DOI: 10.1016/j.ast.2024.109048

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/control-curve-ui/
 
 ## 定义
 
-描述低推力弧上低推力哈密顿量随推力角α变化范围的曲线，H_lt = H_nat,i - a_lt(x_i cosα + y_i sinα)。
+描述低推力弧上低推力哈密顿量随推力角α变化范围的曲线，H_lt = H_nat,i - a_lt(x_i cosα + y_i sinα)\cite{coxTransitCapturePlanar2021}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/control-curve-ui/
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - 拼接圆锥曲线法（Patched Conics Method）
-
-## 参考文献
-
-- Cox, Howell and Folta, 2021, *Transit and capture in the planar three-body problem leveraging low-thrust invariant manifolds*, Celestial Mechanics and Dynamical Astronomy, 133(5): 22, DOI: 10.1007/s10569-021-10022-y

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/dlqr/
 
 ## 定义
 
-基于离散动力学模型的最优控制策略。以状态偏差和控制增量构成二次型性能指标，通过递推求解 Riccati 方程获得最优反馈增益矩阵。在驻留维持中，DLQR 的优势在于反馈增益可预先计算存储，且无穷时域形式只需当前段信息，使用灵活。
+基于离散动力学模型的最优控制策略。以状态偏差和控制增量构成二次型性能指标，通过递推求解 Riccati 方程获得最优反馈增益矩阵。在驻留维持中，DLQR 的优势在于反馈增益可预先计算存储，且无穷时域形式只需当前段信息，使用灵活\cite{lianStationkeepingRealEarth2014,PerformanceAnalysisImpulsive2022}。
 
 ## 应用价值
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/dlqr/
 - 变长设计空间（Variable-Size Design Space, VSDS）
 - [驻留维持（Station-Keeping）](/glossary/dynamics/station-keeping/)
 - 目标点法（Target Point Method）
-
-## 参考文献
-
-- Zhang et al., 2022, *Performance analysis of impulsive station-keeping strategies for cis-lunar orbits with the ephemeris model*, Acta Astronautica, 198: 152-160, DOI: 10.1016/j.actaastro.2022.05.054
-- Lian et al., 2014, *Station-keeping of real Earth-Moon libration point orbits using discrete-time sliding mode control*, Communications in Nonlinear Science and Numerical Simulation, 19(10): 3792-3807, DOI: 10.1016/j.cnsns.2014.03.026

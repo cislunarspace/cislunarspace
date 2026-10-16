@@ -22,7 +22,7 @@ permalink: /glossary/observation/grgm660prim/
 
 ## 定义
 
-GRAIL重力场模型（GRAIL Gravity Field Model）指利用美国国家航空航天局（NASA）重力恢复与内部实验室（Gravity Recovery and Interior Laboratory, GRAIL）双星微波测距系统获取的高精度星间距离与距离变化率数据，结合精密定轨与最小二乘拟合反演得到的月球引力场高阶球谐系数模型。典型版本如GRGM660PRIM、GL0900C等，最高阶次可达660阶乃至900阶以上。
+GRAIL重力场模型（GRAIL Gravity Field Model）指利用美国国家航空航天局（NASA）重力恢复与内部实验室（Gravity Recovery and Interior Laboratory, GRAIL）双星微波测距系统获取的高精度星间距离与距离变化率数据，结合精密定轨与最小二乘拟合反演得到的月球引力场高阶球谐系数模型。典型版本如GRGM660PRIM、GL0900C等，最高阶次可达660阶乃至900阶以上\cite{lemoineGRGM900CDegree9002014,konoplivJPLLunarGravity2013}。
 
 ## 物理机制与工程价值
 
@@ -36,7 +36,4 @@ GRAIL重力场模型（GRAIL Gravity Field Model）指利用美国国家航空�
 
 - [参考轨道（Reference Orbit）](/glossary/navigation/reference-orbit/)
 - [轨道维持成本（Orbit Maintenance Cost）](/glossary/orbits/orbit-maintenance-cost/)
-- [通用任务分析工具（General Mission Analysis Tool, GMAT）](/glossary/other/gmat/)
 - [系统工具包（Systems Tool Kit, STK）](/glossary/other/stk/)
-
-本文支撑文献尚未入库存档，暂作待补处理。

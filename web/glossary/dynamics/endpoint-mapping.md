@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/endpoint-mapping/
 
 ## 定义
 
-将控制函数映射到终端状态的非线性映射。最小时间控制的最优控制是终点映射的临界点，其梯度条件给出庞特里亚金最大原理。
+将控制函数映射到终端状态的非线性映射。最小时间控制的最优控制是终点映射的临界点，其梯度条件给出庞特里亚金最大原理\cite{Caillau2012}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/endpoint-mapping/
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)
-
-## 参考文献
-
-- Caillau and Daoud, 2012, *Minimum Time Control of the Restricted Three-Body Problem*, SIAM Journal on Control and Optimization, 50(6): 3178-3202, DOI: 10.1137/110847299

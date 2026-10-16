@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/edelbaums-equation/
 
 ## 定义
 
-由Edelbaum于1961年提出的解析公式，用于估算小推力飞行器在两个倾斜圆轨道之间转移所需的速度增量。核心表达式为DV² = V1² + V2² - 2V1V2·cos(pi·Di/2)，将轨道面变化和速度变化统一到一个简洁公式中，广泛用于低推力任务的快速初步分析\cite{kluever1997nuclear}。
+由Edelbaum于1961年提出的解析公式，用于估算小推力飞行器在两个倾斜圆轨道之间转移所需的速度增量\cite{edelbaumPropulsionRequirementsControllable1961}。核心表达式为DV² = V1² + V2² - 2V1V2·cos(pi·Di/2)，将轨道面变化和速度变化统一到一个简洁公式中，广泛用于低推力任务的快速初步分析\cite{kluever1997nuclear}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/edelbaums-equation/
 - 微分代数（Differential Algebra, DA）
 - 羽流冲击（Plume Impingement）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- Edelbaum, 1961, *Propulsion Requirements for Controllable Satellites*, ARS Journal, 31(8): 1079-1089, DOI: 10.2514/8.5723

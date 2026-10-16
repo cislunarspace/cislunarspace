@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/restricted-region/
 2. 当计入太阳第三体引力摄动及月球轨道偏心率时，限制区的几何边界呈现混沌侵蚀现象，使得原先清晰的禁区边界演变为动力学拓扑分界带。
 3. 航天器若需从限制区内起飞，必须采用先入月球停泊环月轨道再施加逃逸脉冲的两步转移方案，或借助复杂弱稳定性边界（WSB）弹道。
 
-该动力学概念对于月球基地选址、极区探测上升起飞窗口规划、月球采样返回着陆器上升弹道设计具有基础性的约束与指导作用。
+该动力学概念对于月球基地选址、极区探测上升起飞窗口规划、月球采样返回着陆器上升弹道设计具有基础性的约束与指导作用\cite{parkerSurveyingBallisticTransfers2013}。
 
 ## 相关概念
 
@@ -44,4 +44,3 @@ permalink: /glossary/dynamics/restricted-region/
 ## 参考文献
 
 - Penzo, P. A. Direct Lunar Trajectories with Specified Landing Site and Flight Time. NASA CR-132100, 1961，题录待补
-- Parker, Anderson and Peterson, 2013, *Surveying Ballistic Transfers to Low Lunar Orbit*, Journal of Guidance, Control, and Dynamics, 36(5): 1501-1511, DOI: 10.2514/1.55661

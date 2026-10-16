@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/unmodelled-acceleration/
 
 ## 定义
 
-动力学模型中未显式建模的加速度扰动，如太阳辐射压和太阳引力联合效应。在定轨中作为过程噪声处理，用于吸收模型误差和未建模扰动的影响。
+动力学模型中未显式建模的加速度扰动，如太阳辐射压和太阳引力联合效应。在定轨中作为过程噪声处理，用于吸收模型误差和未建模扰动的影响\cite{qiAnalysisAutonomousOrbit2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/unmodelled-acceleration/
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
 - [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
-
-## 参考文献
-
-- Qi & Oguri, 2023, *Analysis of Autonomous Orbit Determination in Various Near-Moon Periodic Orbits*, The Journal of the Astronautical Sciences, 70(6): 49, DOI: 10.1007/s40295-023-00415-6

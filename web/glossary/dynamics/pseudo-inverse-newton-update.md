@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/pseudo-inverse-newton-update/
 
 ## 定义
 
-多重打靶法中因雅可比矩阵不可逆而采用伪逆代替标准牛顿更新的迭代修正方法。
+多重打靶法中因雅可比矩阵不可逆而采用伪逆代替标准牛顿更新的迭代修正方法\cite{kakoiAccessMarsEarth2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/pseudo-inverse-newton-update/
 - [形状法（Shape Method）](/glossary/dynamics/shape-based-method/)
 - 差分动态规划（Differential Dynamic Programming, DDP）
 - 二阶锥规划（Second-Order Cone Programming, SOCP）
-
-## 参考文献
-
-- Kakoi, M., Howell, K. C., Folta, D., 2014, *Access to Mars from Earth-Moon Libration Point Orbits: Manifold and Direct Options*, Acta Astronautica, 102: 269-286, DOI: 10.1016/j.actaastro.2014.06.010

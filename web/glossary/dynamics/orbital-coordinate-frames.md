@@ -83,15 +83,3 @@ $\ddot{x} - 3n^2 x - 2n \dot{y} = f_x$，$\ddot{y} + 2n \dot{x} = f_y$，$\ddot{
 - [相对运动（Relative Motion）](/glossary/dynamics/relative-motion/)
 
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Aziz, J. D., Scheeres, D. J., Lantoine, G., 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617，RSW 退化与 CRTBP 小推力优化
-
-- Marchand, B. G., Howell, K. C., 2005, *Control Strategies for Formation Flight in the Vicinity of the Libration Points*, Journal of Guidance, Control, and Dynamics, 28(6): 1210-1219, DOI: 10.2514/1.11016，惯性系固定编队
-
-- Héritier, A., Howell, K. C., 2014, *Dynamical Evolution of Natural Formations in Libration Point Orbits in a Multi-Body Regime*, Acta Astronautica, 102: 332-340, DOI: 10.1016/j.actaastro.2013.10.017，惯性系相对运动方程
-
-- 周净扬, 周荻, 2007, *月球探测器软着陆精确建模及最优轨道设计*, 宇航学报, (6): 1462-1466+1471，月球探测器软着陆推力方向建模
-
-- Catlin, K. A., McLaughlin, C. A., 2007, *Earth-Moon Triangular Libration Point Spacecraft Formations*, Journal of Spacecraft and Rockets, 44(3): 660-670, DOI: 10.2514/1.20152，平动点主轴坐标系

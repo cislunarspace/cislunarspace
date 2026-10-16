@@ -60,7 +60,7 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 - 变量缩放：状态/控制/时间的量纲差异可能跨越几十个数量级（如地月距离 vs 推力加速度），不缩放则条件数恶化。常见做法是按标称量级归一化，见 Betts 2010。
 - 坐标选择：笛卡尔坐标在 NLP 下表现差，状态快速变号且量级跨度大。改用 [轨道根数](/glossary/dynamics/orbital-coordinate-frames/) 或 equinoctial 变量常显著提升鲁棒性，见 Conway 2010 第 3 章。
 - 网加密（mesh refinement）：先用粗网格（如 $N=20$）求得近似解，再根据每段局部误差估计加密，可在固定段内提升配点阶（从 trapezoid 到 H-S 再到 5 阶 G-L）或插入新节点。Betts 2010 给出经验上每段新增节点上限为 5。
-- knots（结点）：状态不连续的边界（如球影响圈交界、引力辅助、级间分离）以零宽度段插入，配点约束在该段替换为左右状态的非线性等式。
+- knots（结点）：状态不连续的边界（如球影响圈交界、引力辅助、级间分离）以零宽度段插入，配点约束在该段替换为左右状态的非线性等式\cite{bettsPracticalMethodsOptimal2010}。
 
 ## 直接配点 vs 伪谱法 vs 打靶法
 
@@ -89,7 +89,3 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)
 - [轨道坐标架（Orbital Coordinate Frames）](/glossary/dynamics/orbital-coordinate-frames/)
 - [CR3BP](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Betts, 2010, *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming*, 2nd ed., SIAM, DOI: 10.1137/1.9780898718577

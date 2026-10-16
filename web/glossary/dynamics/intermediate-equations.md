@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/intermediate-equations/
 
 ## 定义
 
-介于双圆问题和真实运动方程之间的简化模型，仅保留与太阳会合周期相同的周期项及其时间独立项，用于计算中间周期轨道。
+介于双圆问题和真实运动方程之间的简化模型，仅保留与太阳会合周期相同的周期项及其时间独立项，用于计算中间周期轨道\cite{gomezDynamicsMissionDesign2001f}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/intermediate-equations/
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - 脉冲机动（Impulsive Maneuver）
 - Halo轨道（Halo Orbit）
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, Ch. 5, DOI: 10.1142/9789812810632

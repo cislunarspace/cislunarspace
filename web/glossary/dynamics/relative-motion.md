@@ -70,7 +70,7 @@ $$
 \delta\dot{\mathbf{x}}(t) = A(t)\,\delta\mathbf{x}(t)
 $$
 
-其中 $A(t) = \partial\mathbf{f}/\partial\mathbf{x}|_{\mathbf{x}_{\text{ref}}(t)}$ 是在参考轨道上取值的 $6\times6$ 时变雅可比矩阵，包含科氏耦合项和伪势函数二阶空间导数。该系统是线性周期时变（LTP）系统，其 Floquet 乘子和特征向量决定了编队的稳定性、自然漂移和控制需求。
+其中 $A(t) = \partial\mathbf{f}/\partial\mathbf{x}|_{\mathbf{x}_{\text{ref}}(t)}$ 是在参考轨道上取值的 $6\times6$ 时变雅可比矩阵，包含科氏耦合项和伪势函数二阶空间导数。该系统是线性周期时变（LTP）系统，其 Floquet 乘子和特征向量决定了编队的稳定性、自然漂移和控制需求\cite{heritierDynamicalEvolutionNatural2014,scheeresStabilizingMotionRelative2003}。
 
 按精度递增，实践中引用三种模型：
 
@@ -111,9 +111,3 @@ $$
 - [线性化（Linearization）](/glossary/fundamentals/linearization/)
 
 - [单值矩阵（Monodromy Matrix）](/glossary/dynamics/monodromy-matrix/)
-
-## 参考文献
-
-- Héritier, A., Howell, K. C., 2014, *Dynamical Evolution of Natural Formations in Libration Point Orbits in a Multi-Body Regime*, *Acta Astronautica*, 102: 332-340, DOI: 10.1016/j.actaastro.2013.10.017
-
-- Scheeres, D. J., Hsiao, F.-Y., Vinh, N. X., 2003, *Stabilizing Motion Relative to an Unstable Orbit: Applications to Spacecraft Formation Flight*, *Journal of Guidance, Control, and Dynamics*, 26(1): 62-73, DOI: 10.2514/2.5015

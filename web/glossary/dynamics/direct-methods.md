@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/direct-methods/
 
 ## 定义
 
-直接法是轨迹优化的一大类数值方法：将无限维的最优控制问题中的状态 $\mathbf{x}(t)$ 与控制 $\mathbf{u}(t)$ 同时在离散网格上参数化，把动力学方程 $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$ 替换为一组代数约束，连同边界条件、路径约束和性能指标一起，构成有限维的非线性规划（NLP）问题，再用 SQP、内点法等通用 NLP 算法求解\cite{bettsSurveyNumericalMethods1998,conwaySpacecraftTrajectoryOptimization2010}。
+直接法是轨迹优化的一大类数值方法：将无限维的最优控制问题中的状态 $\mathbf{x}(t)$ 与控制 $\mathbf{u}(t)$ 同时在离散网格上参数化，把动力学方程 $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$ 替换为一组代数约束，连同边界条件、路径约束和性能指标一起，构成有限维的非线性规划（NLP）问题，再用 SQP、内点法等通用 NLP 算法求解\cite{bettsSurveyNumericalMethods1998,conwaySpacecraftTrajectoryOptimization2010,hagerRitzTrefftzMethod1975,bettsPracticalMethodsOptimal2010,wachterImplementationInteriorpointFilter2005,bensonGaussPseudospectralTranscription2005}。
 
 与[间接法](/glossary/dynamics/indirect-methods/)相对：间接法先解析推导庞特里亚金极大值原理得到包含协态变量的两点边值问题（[TPBVP](/glossary/dynamics/tpbvp/)），再数值求解。直接法跳过协态方程，直接对状态/控制做优化。两种路线最终都收敛到 KKT 条件，因此当离散网格趋于精细时，直接法 NLP 的拉格朗日乘子与间接法的协态变量之间存在明确的对应关系，见 Hager 1976 与 Benson 2005。
 
@@ -69,9 +69,9 @@ $$\min_{\mathbf{X}} F(\mathbf{X})\quad \text{s.t.}\quad \mathbf{c}_l\leq\mathbf{
 
 - SNOPT：稀疏 SQP，适合约束与梯度稀疏、变量数千至百万级的问题\cite{gillSNOPTSQPAlgorithm2002}。
 - Ipopt：原对偶内点法，开源，对大规模非凸 NLP 鲁棒，见 Wächter 与 Biegler 2006。
-- CasADi：符号计算 + 自动微分框架，可调用上述求解器。在伪谱配点中广泛使用。
+- CasADi：符号计算 + 自动微分框架，可调用上述求解器。在伪谱配点中广泛使用\cite{bensonDirectTrajectoryOptimization2006}。
 
-伪谱配点常用 Patterson 与 Rao 2014 的 GPOPS-II、DIDO（Ross）、SOCS（Betts）、OTIS（Hargraves & Paris）等专门的轨迹优化软件作为前端，内部再调用上述求解器。
+伪谱配点常用 Patterson 与 Rao 2014 的 GPOPS-II、DIDO（Ross）、SOCS（Betts）、OTIS（Hargraves & Paris）等专门的轨迹优化软件作为前端，内部再调用上述求解器\cite{pattersonGPOPSIIMATLABSoftware2014}。
 
 ## KKT 与协态的对应
 
@@ -103,12 +103,3 @@ $$\min_{\mathbf{X}} F(\mathbf{X})\quad \text{s.t.}\quad \mathbf{c}_l\leq\mathbf{
 - [离散力学与最优控制（DMOC）](/glossary/dynamics/discrete-mechanics-and-optimal-control/)
 - [协态变量（Costate Variable）](/glossary/dynamics/co-state-variables/)
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)
-
-## 参考文献
-
-- Betts, 2010, *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming*, 2nd ed., SIAM, DOI: 10.1137/1.9780898718577
-- Hager, 1975, *The Ritz-Trefftz method for state and control constrained optimal control problems*, SIAM Journal on Numerical Analysis, 12(6): 854-867, DOI: 10.1137/0712063
-- Benson, 2005, *A Gauss pseudospectral transcription for optimal control*, Massachusetts Institute of Technology, <https://hdl.handle.net/1721.1/28919>
-- Benson et al., 2006, *Direct trajectory optimization and costate estimation via an orthogonal collocation method*, Journal of Guidance, Control, and Dynamics, 29(6): 1435-1440, DOI: 10.2514/1.20478
-- Wächter and Biegler, 2006, *On the implementation of an interior-point filter line-search algorithm for large-scale nonlinear programming*, Mathematical Programming, 106(1): 25-57, DOI: 10.1007/s10107-004-0559-y
-- Patterson and Rao, 2014, *GPOPS-II: A MATLAB software for solving multiple-phase optimal control problems using hp-adaptive Gaussian quadrature collocation methods*, ACM Transactions on Mathematical Software, 41(1): 1-37, DOI: 10.1145/2558904

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/trajectory-splicing-database/
 
 ## 定义
 
-预先计算并存储各类典型轨迹段（如地球出发轨迹、月球引力辅助轨迹、不变流形轨迹、入轨轨迹等）的数据库。在任务设计时，通过拼接数据库中的轨迹段快速生成可行转移方案，避免从头优化，提高设计效率。
+预先计算并存储各类典型轨迹段（如地球出发轨迹、月球引力辅助轨迹、不变流形轨迹、入轨轨迹等）的数据库。在任务设计时，通过拼接数据库中的轨迹段快速生成可行转移方案，避免从头优化，提高设计效率\cite{shiDatabaseDrivenDesign2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/trajectory-splicing-database/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Shi et al., 2025, *Database Driven Design Method for LEO-DRO Lunar Gravity Assist Transfer Trajectory*, Journal of Physics: Conference Series, 3109(1): 012058, DOI: 10.1088/1742-6596/3109/1/012058

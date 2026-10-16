@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/hddp/
 
 ## 定义
 
-差分动态规划（Differential Dynamic Programming, DDP）和迭代线性二次型调节器（iterative LQR, iLQR）是一类轨迹优化算法：在一条标称轨迹 $\bar{\boldsymbol{x}}(t), \bar{\boldsymbol{u}}(t)$ 附近对动力学和价值函数做 Taylor 展开，通过前向积分（forward pass）评估轨迹、后向扫描（backward sweep）逐级求解局部二次子问题，迭代修正控制序列 $\delta\boldsymbol{u}$ 直至收敛。它们把 Bellman 动态规划从高维状态空间降为沿轨迹的一维递推，是直接配点法之外求解连续小推力最优控制问题的主流途径，相关方法可追溯到 Mayne 1966、Jacobson 与 Mayne 1970 及 Todorov 与 Li 2005。
+差分动态规划（Differential Dynamic Programming, DDP）和迭代线性二次型调节器（iterative LQR, iLQR）是一类轨迹优化算法：在一条标称轨迹 $\bar{\boldsymbol{x}}(t), \bar{\boldsymbol{u}}(t)$ 附近对动力学和价值函数做 Taylor 展开，通过前向积分（forward pass）评估轨迹、后向扫描（backward sweep）逐级求解局部二次子问题，迭代修正控制序列 $\delta\boldsymbol{u}$ 直至收敛。它们把 Bellman 动态规划从高维状态空间降为沿轨迹的一维递推，是直接配点法之外求解连续小推力最优控制问题的主流途径，相关方法可追溯到 Mayne 1966、Jacobson 与 Mayne 1970 及 Todorov 与 Li 2005\cite{mayneSecondorderGradientMethod1966,jacobsonDifferentialDynamicProgramming1970,todorovGeneralizedIterativeLQG2005}。
 
-地月空间任务中的代表实现包括：HDDP（Hybrid DDP，Lantoine & Russell 2012，Aziz 等\cite{azizHybridDifferentialDynamic2019}）、AL-iLQR（Augmented Lagrangian iLQR，Cuevas del Valle 等 2022）、MDDP（多重打靶 DDP，Pellegrini & Russell）等。这些算法在 CR3BP 中求解 DRO 与 DRO、Lyapunov 与 Lyapunov、$L_1$ Halo 与 $L_2$ Halo 之间的低推力转移。
+地月空间任务中的代表实现包括：HDDP（Hybrid DDP，Lantoine & Russell 2012，Aziz 等\cite{azizHybridDifferentialDynamic2019}）、AL-iLQR（Augmented Lagrangian iLQR，Cuevas del Valle 等 2022）、MDDP（多重打靶 DDP，Pellegrini & Russell）等\cite{pellegriniMultipleshootingDifferentialDynamic2020}。这些算法在 CR3BP 中求解 DRO 与 DRO、Lyapunov 与 Lyapunov、$L_1$ Halo 与 $L_2$ Halo 之间的低推力转移。
 
 ## 算法结构：前向 + 后向
 
@@ -62,7 +62,7 @@ $$
 \tilde\varphi = \varphi + \boldsymbol{\lambda}^T\boldsymbol{\psi} + \boldsymbol{\psi}^T\boldsymbol{\Sigma}\boldsymbol{\psi}，
 $$
 
-其中 $\boldsymbol{\Sigma}$ 为罚矩阵。乘子按 $\boldsymbol{\lambda}\leftarrow\boldsymbol{\lambda}+\delta\boldsymbol{\lambda}$ 在外层更新，$\boldsymbol{\Sigma}$ 保持常数（不同于传统做法不断加大罚系数），由设计者观察迭代进展手工调谐。
+其中 $\boldsymbol{\Sigma}$ 为罚矩阵\cite{lantoineHybridDifferentialDynamic2012a}。乘子按 $\boldsymbol{\lambda}\leftarrow\boldsymbol{\lambda}+\delta\boldsymbol{\lambda}$ 在外层更新，$\boldsymbol{\Sigma}$ 保持常数（不同于传统做法不断加大罚系数），由设计者观察迭代进展手工调谐。
 
 为防止子问题更新 $\delta\boldsymbol{u}$ 步长过大导致发散，HDDP 在每级引入信赖域约束 $\|\boldsymbol{D}\,\delta\boldsymbol{u}_k\|\le\Delta$，子问题化为信赖域二次规划（TRQP）。$\boldsymbol{D}$ 是缩放矩阵，决定信赖域形状。当控制变量分量量级相差很大时（如推力幅值 vs 角度），需要非单位 $\boldsymbol{D}$，Lantoine 与 Russell 2012 年给出了几种缩放策略。
 
@@ -84,7 +84,7 @@ DDP/iLQR 的后向扫描本质上是在传播目标函数对控制的灵敏度�
 
 ## 工程要点（CR3BP 小推力优化）
 
-- 球面控制变量 + 信赖域缩放。 Aziz 等（2019）把推力分解为幅值 $T$ 与方向角 $\alpha,\beta$（见 [控制参数化](/glossary/dynamics/control-parametrization/)），并对信赖域做归一化：幅值按 $T_{\max}$ 归一、角度允许较大步长。当 $\boldsymbol{r}_2$ 与速度共线导致 RSW 坐标退化时，切换为笛卡尔分量。
+- 球面控制变量 + 信赖域缩放。 Aziz 等（2019）把推力分解为幅值 $T$ 与方向角 $\alpha,\beta$（见 [控制参数化](/glossary/dynamics/control-parametrization/)），并对信赖域做归一化：幅值按 $T_{\max}$ 归一、角度允许较大步长\cite{azizHybridDifferentialDynamic2019}。当 $\boldsymbol{r}_2$ 与速度共线导致 RSW 坐标退化时，切换为笛卡尔分量。
 - 多阶段化隔离 flyby。单相 HDDP 在月球近距离飞越后会因敏感度爆炸而失败。用多阶段（每个飞越一段）把飞越效应局部化，是处理 CR3BP 转移的关键技巧。
 - 质量泄漏防止奇异。滑行段 $T=0$ 时 $\dot m=0$，对 $T$ 的偏导奇异，引入质量泄漏 $\epsilon_T$（在推力幅值范数中加小常数）解决。
 - 初值不可靠时与流形拼接。 HDDP 的全局搜索能力弱，工程上常用 [不变流形](/glossary/dynamics/invariant-manifold/) 拼接或 [形状基方法](/glossary/dynamics/shape-based-method/) 给出初值。
@@ -102,11 +102,5 @@ DDP/iLQR 的后向扫描本质上是在传播目标函数对控制的灵敏度�
 
 ## 参考文献
 
-- Mayne, 1966, *A second-order gradient method for determining optimal trajectories of non-linear discrete-time systems*, International Journal of Control, 3(1): 85-95, DOI: 10.1080/00207176608921369，DDP 奠基
-- Jacobson and Mayne, 1970, *Differential Dynamic Programming*, American Elsevier, New York，DDP 的系统专著
-- Todorov and Li, 2005, *A generalized iterative LQG method for locally-optimal feedback control of constrained nonlinear stochastic systems*, Proceedings of the 2005 American Control Conference, 300-306, DOI: 10.1109/ACC.2005.1469949，iLQR 的现代形式
-- Lantoine and Russell, 2012, *A Hybrid Differential Dynamic Programming Algorithm for Constrained Optimal Control Problems. Part 1: Theory*, Journal of Optimization Theory and Applications, 154(2): 382-417, DOI: 10.1007/s10957-012-0039-0，HDDP
-- Aziz, Scheeres and Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617，CR3BP 中 HDDP 的工程细节，多阶段化、信赖域缩放、球面控制变量
-- Pellegrini and Russell, 2020, *A multiple-shooting differential dynamic programming algorithm. Part 1: Theory*, Acta Astronautica, 170: 686-700, DOI: 10.1016/j.actaastro.2019.12.037，MDDP 多重打靶 DDP 系列
 - Cuevas del Valle, A. A., et al., 2022, AL-iLQR 算法，增广拉格朗日 + iLQR 处理脉冲与连续推力，题录待补
 - Shimane, D., et al., 2025，最小范数更新在低能耗轨道修正中的应用，题录待补

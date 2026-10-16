@@ -35,7 +35,7 @@ permalink: /glossary/dynamics/characteristic-parameter/
 ## 应用价值
 
 在特征参数的分析中，可用于轨道传播和机动设计，帮助工程师评估航天器在不同动力学环境下的运动特性。
-该概念为地月空间任务设计提供了理论基础，尤其在平动点轨道设计和低能转移分析中具有重要应用价值。
+该概念为地月空间任务设计提供了理论基础，尤其在平动点轨道设计和低能转移分析中具有重要应用价值\cite{qiaoOrbitalParameterCharacterization2025}。
 利用特征参数进行轨迹优化，可以有效降低任务燃料消耗，提高任务经济效益。
 在任务设计中，特征参数的分析有助于理解航天器在复杂引力场中的行为，指导轨道保持策略的制定。
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/characteristic-parameter/
 - 微分代数（Differential Algebra, DA）
 - 羽流冲击（Plume Impingement）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- Qiao et al., 2026, *Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points*, Chinese Journal of Aeronautics, 39(4): 103869, DOI: 10.1016/j.cja.2025.103869

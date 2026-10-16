@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/surface-to-mass-ratio/
 
 ## 定义
 
-碎片或航天器的截面积与其质量之比，单位通常为平方米每千克。面质比决定物体受非引力摄动（如太阳光压、大气阻力）影响的敏感程度。在解体模型中，碎片的面质比具有不确定性，是影响碎片云长期演化行为的关键参数之一。面质比越大，摄动影响越显著，轨道演化越快。
+碎片或航天器的截面积与其质量之比，单位通常为平方米每千克。面质比决定物体受非引力摄动（如太阳光压、大气阻力）影响的敏感程度。在解体模型中，碎片的面质比具有不确定性，是影响碎片云长期演化行为的关键参数之一。面质比越大，摄动影响越显著，轨道演化越快\cite{wangDebrisCloudEvolution2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/surface-to-mass-ratio/
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
 - [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
-
-## 参考文献
-
-- Wang, Yang and Guo, 2025, *Debris Cloud Evolution in Cislunar space Using Eulerian Perspective Method*, IFAC-PapersOnLine, 59(20): 168-173, DOI: 10.1016/j.ifacol.2025.11.144

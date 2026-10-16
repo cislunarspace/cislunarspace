@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/single-step-prediction-method/
 
 ## 定义
 
-平动点轨道维持控制中的一种控制量寻优策略。利用第n圈控制残差对第n+1圈控制量影响显著、对第n+2圈影响通常超出阈值的特性，仅以单步后的控制量最小为目标进行优化，避免多步预测带来的计算复杂度和累积误差。
+平动点轨道维持控制中的一种控制量寻优策略。利用第n圈控制残差对第n+1圈控制量影响显著、对第n+2圈影响通常超出阈值的特性，仅以单步后的控制量最小为目标进行优化，避免多步预测带来的计算复杂度和累积误差\cite{LiangWeiGuangDiYueXiL2PingDongDianGuiDaoChangQiWeiChiGuoChengYanJiu2017}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/single-step-prediction-method/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- 梁伟光 等, 2017, *地月系L2平动点轨道长期维持过程研究*, 深空探测学报, 4(2): 166-170, DOI: 10.15982/j.issn.2095-7777.2017.02.010

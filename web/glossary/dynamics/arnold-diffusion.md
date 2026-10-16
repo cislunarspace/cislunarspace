@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/arnold-diffusion/
 
 ## 定义
 
-高维哈密顿系统中通过不稳定流形的异宿连接实现能量缓慢漂移的机制。在三体问题等保守系统中可能导致轨道长期不可预测性\cite{perozziSpaceManifoldDynamics2010,marchalThreebodyProblem1990}。
+高维哈密顿系统中通过不稳定流形的异宿连接实现能量缓慢漂移的机制。在三体问题等保守系统中可能导致轨道长期不可预测性\cite{perozziSpaceManifoldDynamics2010,marchalThreebodyProblem1990,gomezDynamicsMissionDesign2001b}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/arnold-diffusion/
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-
-## 参考文献
-
-- Gómez 等, 2001, *Dynamics and Mission Design Near Libration Points, Vol. III: Advanced Methods for Collinear Points*, World Scientific, DOI: 10.1142/4337

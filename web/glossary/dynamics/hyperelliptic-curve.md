@@ -24,7 +24,7 @@ permalink: /glossary/dynamics/hyperelliptic-curve/
 
 ## 物理机制与工程价值
 
-在航天器小推力最优轨道转移的哈密顿动力学（Hamiltonian Dynamics）分析中，利用庞特里亚金极大值原理导出的协态方程与能量积分在经久平均化（Averaging Method）处理后，常常需要对快变量进行沿未摄动轨道的解析积分。
+在航天器小推力最优轨道转移的哈密顿动力学（Hamiltonian Dynamics）分析中，利用庞特里亚金极大值原理导出的协态方程与能量积分在经久平均化（Averaging Method）处理后，常常需要对快变量进行沿未摄动轨道的解析积分\cite{Caillau2012}。
 
 当目标轨道为圆轨道或特定非零倾角轨道时，极角方向的动量积分从经典的椭圆积分（Genus 1）退化或升阶为 Genus 2 的超椭圆曲线积分。超椭圆曲线的代数结构决定了最优控制共轭变量（Costates）沿轨周期振荡的多频特征与极值奇异点分布。
 
@@ -36,7 +36,3 @@ permalink: /glossary/dynamics/hyperelliptic-curve/
 - [哈密顿系统（Hamiltonian System）](/glossary/dynamics/conservative-system/)
 - [最优控制（Optimal Control）](/glossary/fundamentals/mact/)
 - [状态雅可比矩阵（State Jacobian Matrix）](/glossary/dynamics/state-jacobian-matrix/)
-
-## 参考文献
-
-- Caillau, Daoud, 2012, *Minimum Time Control of the Restricted Three-Body Problem*, SIAM Journal on Control and Optimization, 50(6): 3178-3202, DOI: 10.1137/110847299

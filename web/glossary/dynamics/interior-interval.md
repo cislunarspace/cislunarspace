@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/interior-interval/
 
 ## 定义
 
-最优轨迹中状态约束处于非激活状态（即严格不等式成立）的子区间。在此区间内，约束对应的拉格朗日乘子为零，协态变量连续演化。
+最优轨迹中状态约束处于非激活状态（即严格不等式成立）的子区间\cite{You2022}。在此区间内，约束对应的拉格朗日乘子为零，协态变量连续演化。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/interior-interval/
 - 三体问题（Three-Body Problem）
 - 最优控制（Optimal Control）
 - 轨迹优化（Trajectory Optimization）
-
-## 参考文献
-
-- You, Dai, Rea, 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815

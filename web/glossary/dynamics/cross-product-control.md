@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/cross-product-control/
 
 ## 定义
 
-令应增速度矢量与自身导数共线，利用叉积信号作为自动驾驶仪速率信号的制导控制技术，在Q系统中用于使应增速度趋近于零。
+令应增速度矢量与自身导数共线，利用叉积信号作为自动驾驶仪速率信号的制导控制技术，在Q系统中用于使应增速度趋近于零\cite{battinIntroductionMathematicsMethods1999}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/cross-product-control/
 - [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
-
-## 参考文献
-
-- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA, DOI: 10.2514/4.861543

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/theoretical-minimum-velocity-increment-delta-v-min
 
 ## 定义
 
-根据两条轨道之间的雅可比常数差计算的速度增量下限。用两轨道在近月点的速度和雅可比常数差表示，给出任意转移所需的能量下界。论文中PRM的总速度增量（365 m/s）比LFM（459.6 m/s）更接近理论最小值（279.2 m/s）。
+根据两条轨道之间的雅可比常数差计算的速度增量下限。用两轨道在近月点的速度和雅可比常数差表示，给出任意转移所需的能量下界。论文中PRM的总速度增量（365 m/s）比LFM（459.6 m/s）更接近理论最小值（279.2 m/s）\cite{kikuchiPeriluneRendezvousMethod2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/theoretical-minimum-velocity-increment-delta-v-min
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-
-## 参考文献
-
-- Kikuchi et al., 2022, *Perilune Rendezvous Method of Earth-NRHO Transfer Orbit for Cargo Transportation Mission to Gateway*, Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan, 20: 26-33, DOI: 10.2322/tastj.20.26

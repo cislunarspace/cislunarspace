@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/perilune-database/
 
 ## 应用价值
 
-近月点数据库存储大量蒙特卡洛轨迹射击结果，航天器轨迹规划时可直接查询匹配条件下的状态矢量，快速获得近月点高度、速度方向等关键参数，实现轨迹段的高效拼接。
+近月点数据库存储大量蒙特卡洛轨迹射击结果，航天器轨迹规划时可直接查询匹配条件下的状态矢量，快速获得近月点高度、速度方向等关键参数，实现轨迹段的高效拼接\cite{pengLowenergyTransfersLunar2024}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/perilune-database/
 - 非轴对称卫星（Non-axisymmetric Satellite）
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- Peng et al., 2024, *Low-Energy Transfers to Lunar Distant Retrograde Orbits from Geostationary Transfer Orbits*, Journal of Spacecraft and Rockets, 61(5): 1293-1304, DOI: 10.2514/1.A35623

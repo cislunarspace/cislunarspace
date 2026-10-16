@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/discrete-node/
 
 ## 定义
 
-最优控制问题离散化后，沿轨迹的时间采样点。节点数量直接影响优化精度和计算时间，节点间距可固定或根据非线性程度自适应分布。
+最优控制问题离散化后，沿轨迹的时间采样点。节点数量直接影响优化精度和计算时间，节点间距可固定或根据非线性程度自适应分布\cite{yukikayamaLowthrustTrajectoryDesign2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/discrete-node/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
-
-## 参考文献
-
-- Kayama et al., 2022, *Low-Thrust Trajectory Design with Successive Convex Optimization for Libration Point Orbits*, Journal of Guidance, Control, and Dynamics, 45(4): 623-637, DOI: 10.2514/1.G005916

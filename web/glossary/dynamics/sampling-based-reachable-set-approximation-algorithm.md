@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/sampling-based-reachable-set-approximation-algorit
 
 ## 定义
 
-通过从六维单位球采样末端协态，利用最小时间轨迹与可达集边界的对偶性快速近似可达集的算法。
+通过从六维单位球采样末端协态，利用最小时间轨迹与可达集边界的对偶性快速近似可达集的算法\cite{bowerfindRapidApproximationLowthrust2024}。
 
 ## 应用价值
 
@@ -40,7 +40,3 @@ permalink: /glossary/dynamics/sampling-based-reachable-set-approximation-algorit
 ## 相关概念
 
 - [平动点（Libration Point / Lagrange Point）](/glossary/dynamics/libration-point/)
-
-## 参考文献
-
-- Bowerfind and Taheri, 2024, *Rapid Approximation of Low-Thrust Spacecraft Reachable Sets within Complex Two-Body and Cislunar Dynamics*, Aerospace, 11(5): 380, DOI: 10.3390/aerospace11050380

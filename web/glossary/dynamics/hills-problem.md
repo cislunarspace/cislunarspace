@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hills-problem/
 
 ## 定义
 
-希尔问题（Hill's problem）是圆型限制性三体问题（CR3BP）在小质量比极限 $\mu\to 0$ 下、并取原点在较小主天体（如地球）邻域得到的简化形式。George William Hill 在 1878 年研究月球运动时引入此模型\cite{hillResearchesLunarTheory1878,szebehelyTheoryOrbitRestricted1967}，Szebehely 1967 年第 10.4 节有系统论述，核心做法是：
+希尔问题（Hill's problem）是圆型限制性三体问题（CR3BP）在小质量比极限 $\mu\to 0$ 下、并取原点在较小主天体（如地球）邻域得到的简化形式\cite{szebehelyTheoryOrbitRestricted1967}。George William Hill 在 1878 年研究月球运动时引入此模型\cite{hillResearchesLunarTheory1878,szebehelyTheoryOrbitRestricted1967}，Szebehely 1967 年第 10.4 节有系统论述，核心做法是：
 
 1. 取太阳视差为零（太阳位于无穷远、引力为均匀潮汐场）。
 2. 取太阳轨道偏心率为零（圆形日地轨道）。
@@ -121,7 +121,7 @@ $$
 Hill 问题作为 CR3BP 的 $\mu\to 0$ 极限，对地月系（$\mu\approx 0.01215$）和日地系（$\mu\approx 3\times 10^{-6}$）都是良好近似。它在理论与工程中扮演几重角色：
 
 - 月球理论的根基：Hill、Brown、De Sitter 等人的精密月球理论都以 Hill 变分轨道为中间轨道。
-- 卫星稳定性判据：Hill 半径是判断卫星是否稳定的基本尺度，远距逆行轨道（DRO）的稳定范围即由 Hill 曲面的拓扑决定。
+- 卫星稳定性判据：Hill 半径是判断卫星是否稳定的基本尺度，远距逆行轨道（DRO）的稳定范围即由 Hill 曲面的拓扑决定\cite{henonNumericalExplorationRestricted1969}。
 - 平动点邻域动力学：地月 $L_1$、$L_2$ 邻域的局部行为在 Hill 极限下变得可解析处理，许多 Halo/Lyapunov 轨道族的解析近似（如 Richardson 三阶展开）就是基于 Hill 问题线性化。
 - 数值延续：Hill 问题中的周期轨道族可作为起点，经质量参数 $\mu$ 的连续延拓（continuation）回到完整的 CR3BP，再过渡到高精度星历模型，是 [共振](/glossary/dynamics/orbital-resonance/)、[平动点轨道](/glossary/orbits/halo-orbit/) 数值延续工作流的常见起点。
 - 受限四体问题推广：Scheeres（1998）把 Hill 问题推广为含两套潮汐项的受限 Hill 四体问题，可用于日地月三主天体环境下航天器运动的近似建模。
@@ -140,8 +140,3 @@ Hill 问题作为 CR3BP 的 $\mu\to 0$ 极限，对地月系（$\mu\approx 0.012
 - [天平动点（Libration Point）](/glossary/fundamentals/libration-point/)
 - [航天器编队飞行（Spacecraft Formation Flying）](/glossary/dynamics/spacecraft-formation-flying/)
 - [远距逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York, Chapter 10
-- Hénon, 1969, *Numerical exploration of the restricted problem. V. Hill's case: periodic orbits and their stability*, Astronomy and Astrophysics, 1: 223-238

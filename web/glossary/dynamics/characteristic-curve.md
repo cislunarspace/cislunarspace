@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/characteristic-curve/
 
 ## 定义
 
-在Halo轨道转移设计中，描述飞行时间（TOF）与所需最小推力T_max之间关系的曲线。每条曲线对应一个固定的轨道圈数n。曲线随n增大向右下方移动，表明增加圈数可降低推力需求。特征曲线是选择发动机规格和规划转移方案的核心工具。
+在Halo轨道转移设计中，描述飞行时间（TOF）与所需最小推力T_max之间关系的曲线\cite{duTwoTrajectoryConfigurations2023}。每条曲线对应一个固定的轨道圈数n。曲线随n增大向右下方移动，表明增加圈数可降低推力需求。特征曲线是选择发动机规格和规划转移方案的核心工具。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/characteristic-curve/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Du et al., 2023, *Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits in the Earth-Moon system*, Advances in Space Research, 72(10): 4093–4105, DOI: 10.1016/j.asr.2023.08.007

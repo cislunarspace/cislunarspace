@@ -75,9 +75,9 @@ $$\mathbf{a}_s = -\mu_s \left(\frac{\mathbf{r} - \mathbf{r}_s}{|\mathbf{r} - \ma
 
 ## 应用
 
-BCR4BP 在地月空间任务设计中填补了 CR3BP 与全星历模型之间的重要空白\cite{koonDynamicalSystemsThreebody1999}：
+BCR4BP 在地月空间任务设计中填补了 CR3BP 与全星历模型之间的重要空白\cite{koonDynamicalSystemsThreebody1999,gomezDynamicsMissionDesign2001f}：
 
-- 弱稳定边界转移（WSB Transfer）：太阳摄动是使地月弹道捕获可行的关键机制。BCR4BP 能捕获太阳的时变影响而不负担全星历积分的成本，是 WSB 转移设计的工作模型。
+- 弱稳定边界转移（WSB Transfer）：太阳摄动是使地月弹道捕获可行的关键机制\cite{belbrunoCaptureDynamicsChaotic2004}。BCR4BP 能捕获太阳的时变影响而不负担全星历积分的成本，是 WSB 转移设计的工作模型。
 
 - 行星际超级高速公路（Interplanetary Superhighway）：日地和地月系统间的不变流形拼接在 BCR4BP 框架下分析最有效：用日地出站流形与地月入站流形在 BCR4BP 的时变系统中求交。
 
@@ -96,9 +96,3 @@ BCR4BP 在地月空间任务设计中填补了 CR3BP 与全星历模型之间的
 - [弱稳定边界](/glossary/dynamics/wsb/)
 
 - [弹道捕获](/glossary/dynamics/ballistic-capture/)
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/4402，第 2 章系统讲述 BCP 与 BCR4BP 的公式、自洽性及其在流形拼接中的应用
-
-- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics: With Applications to the Construction of Low Energy Transfers*, Princeton University Press, DOI: 10.1515/9780691186436，WSB 转移的理论基础，含双圆框架下的弹道捕获机制

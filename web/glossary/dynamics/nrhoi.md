@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/nrhoi/
 
 ## 定义
 
-在近直线晕轨道（NRHO）的近月点施加速度增量，将航天器从椭圆月球轨道注入NRHO的关键机动。NRHOI的大小取决于注入时机：在IDT中约217 m/s（因速度方向偏差大），在PRM中降至约50 m/s，在EPRM Type 2中可低至3 m/s。NRHOI过大时（低于50 m/s阈值），NRHO的稳定性会被破坏，导致轨道漂移或撞击月球。
+在近直线晕轨道（NRHO）的近月点施加速度增量，将航天器从椭圆月球轨道注入NRHO的关键机动\cite{kikuchiPeriluneRendezvousMethod2022,kikuchiExtendedPeriluneRendezvous2024}。NRHOI的大小取决于注入时机：在IDT中约217 m/s（因速度方向偏差大），在PRM中降至约50 m/s，在EPRM Type 2中可低至3 m/s。NRHOI过大时（低于50 m/s阈值），NRHO的稳定性会被破坏，导致轨道漂移或撞击月球。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ NRHO入轨是进入近直线晕轨道的关键机动，需要精确的轨道控�
 - 非线性规划（Nonlinear Programming）
 - [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/jacobi-integral/)
 - [形状基方法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
-
-## 参考文献
-
-- Kikuchi et al., 2022, *Perilune Rendezvous Method of Earth-NRHO Transfer Orbit for Cargo Transportation Mission to Gateway*, Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan, 20: 26-33, DOI: 10.2322/tastj.20.26
-- Kikuchi, Nakamura & Ueda, 2024, *Extended perilune rendezvous method for low Delta-V transition to NRHO for cargo transportation mission to gateway*, Acta Astronautica, 224: 89-98, DOI: 10.1016/j.actaastro.2024.08.004

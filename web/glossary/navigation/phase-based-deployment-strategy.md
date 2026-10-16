@@ -32,7 +32,7 @@ permalink: /glossary/navigation/phase-based-deployment-strategy/
 
 ## 定义
 
-分三个阶段建设平动点轨道通信导航星座的策略：第一阶段单颗NRHO卫星实现地月转移关键区域单重覆盖。第二阶段增至7颗卫星分布于L1、L2、L4、L5及NRHO轨道，实现双重区域四重覆盖。第三阶段再增2颗L3平动点卫星达9颗，实现全地月空间四重覆盖。
+分三个阶段建设平动点轨道通信导航星座的策略：第一阶段单颗NRHO卫星实现地月转移关键区域单重覆盖。第二阶段增至7颗卫星分布于L1、L2、L4、L5及NRHO轨道，实现双重区域四重覆盖。第三阶段再增2颗L3平动点卫星达9颗，实现全地月空间四重覆盖\cite{xuOptimizationDeploymentMethod2026}。
 
 ## 应用价值
 
@@ -42,7 +42,4 @@ permalink: /glossary/navigation/phase-based-deployment-strategy/
 
 - 地月空间导航系统（Cislunar Space Navigation System）
 - [Lyapunov最优反馈制导（Lyapunov Optimal Feedback Guidance）](/glossary/navigation/lyapunov-optimal-feedback-guidance/)
-- 距离可观测性（Range Observability）
 - 六分仪（Sextant）
-
-本文支撑文献尚未入库存档，暂作待补处理。

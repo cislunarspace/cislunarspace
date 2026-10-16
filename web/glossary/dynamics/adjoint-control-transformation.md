@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/adjoint-control-transformation/
 
 ## 定义
 
-一种简化最优控制问题求解的变量变换技术。通过将对偶变量（协态）与控制量结合，导出更易于数值求解的形式。该变换可减少 shooter 函数的自由度，降低计算复杂度。
+一种简化最优控制问题求解的变量变换技术。通过将对偶变量（协态）与控制量结合，导出更易于数值求解的形式\cite{jawaharlalayyanathanMappedAdjointControl2022}。该变换可减少 shooter 函数的自由度，降低计算复杂度。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/adjoint-control-transformation/
 - 达尔文-拉道关系（Darwin-Radau Relation）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Jawaharlal Ayyanathan and Taheri, 2022, *Mapped adjoint control transformation method for low-thrust trajectory design*, Acta Astronautica, 193: 418–431, DOI: 10.1016/j.actaastro.2021.12.019

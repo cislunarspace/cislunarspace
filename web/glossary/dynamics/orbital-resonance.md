@@ -89,7 +89,3 @@ $$p\,T_{\text{sc}} \approx q\,T_{P_2}$$
 - [月球会合共振（Lunar Synodic Resonance）](/glossary/dynamics/lsr/)
 
 - [共振跃迁（Resonance Transition）](/glossary/dynamics/resonance-transition/)
-
-## 参考文献
-
-- Szebehely, V., 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York

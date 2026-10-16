@@ -34,7 +34,7 @@ Floquet理论中对应单位特征值广义特征向量的解。副星相对于�
 
 ## 应用价值
 
-该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。该理论可用于分析周期轨道附近运动的稳定性，指导轨道保持策略。
+该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道\cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023}。该理论可用于分析周期轨道附近运动的稳定性，指导轨道保持策略。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ Floquet理论中对应单位特征值广义特征向量的解。副星相对于�
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- 杨驰航, 符弘岚, 张皓, 2023, *远距离逆行轨道上的近距离自然及受控编队*, 航空学报, 44(5): 326563, DOI: 10.7527/S1000-6893.2021.26563

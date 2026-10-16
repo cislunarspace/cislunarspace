@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/asymptotic-tracking/
 
 ## 定义
 
-一种平动点轨道控制策略，通过设计控制器使航天器状态随时间渐近收敛到标称轨道。与消除不稳定分量的Floquet模式不同，渐近跟踪以完整标称轨道为目标，不区分稳定与不稳定模态。Howell等基于线性控制思想研究了Halo轨道的渐近跟踪。
+一种平动点轨道控制策略，通过设计控制器使航天器状态随时间渐近收敛到标称轨道\cite{howellStationkeepingMethodLibration1993}。与消除不稳定分量的Floquet模式不同，渐近跟踪以完整标称轨道为目标，不区分稳定与不稳定模态。Howell等基于线性控制思想研究了Halo轨道的渐近跟踪。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/asymptotic-tracking/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Howell and Pernicka, 1993, *Station-keeping method for libration point trajectories*, Journal of Guidance, Control, and Dynamics, 16(1): 151–159, DOI: 10.2514/3.11440

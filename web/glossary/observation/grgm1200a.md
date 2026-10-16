@@ -32,7 +32,7 @@ permalink: /glossary/observation/grgm1200a/
 
 ## 定义
 
-NASA戈达德太空飞行中心发布的月球重力场球谐模型，最高展开至1200阶次。本文截断至8阶次用于计算月球引力加速度。
+NASA戈达德太空飞行中心发布的月球重力场球谐模型，最高展开至1200阶次。本文截断至8阶次用于计算月球引力加速度\cite{goossensGlobalDegreeOrder2016}。
 
 ## 应用价值
 
@@ -42,7 +42,4 @@ GRGM1200A 月球重力场模型用于评估地月空间探测器的观测性能�
 
 - [太阳会合周期（Solar Synodic Period）](/glossary/observation/tsun/)
 - 覆盖时间百分比（Coverage Time Percentage, CTP）
-- 载荷视场角（Payload Field of View, PFOV）
 - 表面覆盖百分比（Surface Coverage Percentage, SCP）
-
-本文支撑文献尚未入库存档，暂作待补处理。

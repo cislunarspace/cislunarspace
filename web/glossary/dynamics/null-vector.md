@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/null-vector/
 
 ## 定义
 
-雅可比矩阵的零空间向量，指向族延拓的切向方向。
+雅可比矩阵的零空间向量，指向族延拓的切向方向\cite{spreenTrajectoryDesignTargeting2021}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/null-vector/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
 - [积分不变量（Integral Invariant）](/glossary/dynamics/integral-invariant/)
-
-## 参考文献
-
-- Spreen, 2021, *Trajectory Design and Targeting for Applications to the Exploration Program in Cislunar Space*, Ph.D. dissertation, Purdue University, DOI: 10.25394/pgs.14445717

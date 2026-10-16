@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/axis-ratio/
 
 ## 定义
 
-平动点附近椭圆轨道的半长轴与半短轴之比。在三角平动点附近，长周期运动的轴比约为16/3，短周期运动约为2。该比值决定了编队可行性和面内运动的拉伸程度。
+平动点附近椭圆轨道的半长轴与半短轴之比。在三角平动点附近，长周期运动的轴比约为16/3，短周期运动约为2\cite{catlinEarthmoonTriangularLibration2007}。该比值决定了编队可行性和面内运动的拉伸程度。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/axis-ratio/
 - 刚体动力学（Rigid Body Dynamics）
 - 变长设计空间（Variable-Size Design Space, VSDS）
 - 分析梯度（Analytical Gradient）
-
-## 参考文献
-
-- Catlin and McLaughlin, 2007, *Earth-Moon Triangular Libration Point Spacecraft Formations*, Journal of Spacecraft and Rockets, 44(3): 660–670, DOI: 10.2514/1.20152

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/intermediate-circular-orbit/
 
 ## 定义
 
-反向积分法中用于分段修正速度的局部圆轨道。由于长时间反向积分受月球引力扰动会偏离近似切向方向，在反向积分每一步到达的端点处计算局部圆轨道速度，用打靶法修正航天器速度使其匹配圆轨道，再以此为新起点继续优化，保证计算的收敛性。
+反向积分法中用于分段修正速度的局部圆轨道。由于长时间反向积分受月球引力扰动会偏离近似切向方向，在反向积分每一步到达的端点处计算局部圆轨道速度，用打靶法修正航天器速度使其匹配圆轨道，再以此为新起点继续优化，保证计算的收敛性\cite{duNovelCalculationMethod2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/intermediate-circular-orbit/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Du et al., 2024, *A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem*, Aerospace Science and Technology, 147: 109048, DOI: 10.1016/j.ast.2024.109048

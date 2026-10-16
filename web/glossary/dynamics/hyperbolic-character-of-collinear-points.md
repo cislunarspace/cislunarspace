@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hyperbolic-character-of-collinear-points/
 
 ## 定义
 
-共线平动点（L₁、L₂、L₃）处线性化动力学的不稳定性质。其线性行为类型为中心-中心-鞍点（centre-centre-saddle），鞍点分量产生指数分离的双曲方向，决定了平衡点的不稳定性，并由此产生每个周期/准周期轨道的稳定和不稳定不变流形。
+共线平动点（L₁、L₂、L₃）处线性化动力学的不稳定性质。其线性行为类型为中心-中心-鞍点（centre-centre-saddle），鞍点分量产生指数分离的双曲方向，决定了平衡点的不稳定性，并由此产生每个周期/准周期轨道的稳定和不稳定不变流形\cite{alessiLowenergyTransfersEarth2011}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/hyperbolic-character-of-collinear-points/
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
 - 空间流形动力学（Space Manifold Dynamics, SMD）
 - [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/orbital-coordinate-frames/)
-
-## 参考文献
-
-- Alessi, Gómez, Masdemont, 2011, *Low-Energy Transfers in the Earth–Moon System*, Nonlinear Science and Complexity, 107-114, DOI: 10.1007/978-90-481-9884-9_13

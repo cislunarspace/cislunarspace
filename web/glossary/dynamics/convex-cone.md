@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/convex-cone/
 
 ## 定义
 
-下滑坡度约束的几何表示。以着陆点为顶点、竖直方向为轴、半锥角为 β 的锥体内部区域定义了着陆器的安全飞行空间。数学上表达为位置向量满足锥形不等式，该约束本身是凸的，但与非凸动力学方程耦合后使整个最优控制问题为非凸问题。
+下滑坡度约束的几何表示。以着陆点为顶点、竖直方向为轴、半锥角为 β 的锥体内部区域定义了着陆器的安全飞行空间。数学上表达为位置向量满足锥形不等式，该约束本身是凸的，但与非凸动力学方程耦合后使整个最优控制问题为非凸问题\cite{You2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/convex-cone/
 - 刚体动力学（Rigid Body Dynamics）
 - 变长设计空间（Variable-Size Design Space, VSDS）
 - 分析梯度（Analytical Gradient）
-
-## 参考文献
-
-- You, Dai and Rea, 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815

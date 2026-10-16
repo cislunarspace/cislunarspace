@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/allowed-region/
 
 ## 定义
 
-雅可比常数约束下，航天器凭借足够动能可达的空间区域。
+雅可比常数约束下，航天器凭借足够动能可达的空间区域\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/allowed-region/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press

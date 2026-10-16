@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/tangential-impulsive-maneuver/
 
 ## 定义
 
-沿轨道速度方向施加的瞬时速度变化。论文在转移轨道设计中施加两个切向约束：在初始时刻与LEO相切，在终止时刻与DRO相切，使脉冲机动方向与轨道切向一致，从而最大化速度增量对轨道形状的改变效率。
+沿轨道速度方向施加的瞬时速度变化。论文在转移轨道设计中施加两个切向约束：在初始时刻与LEO相切，在终止时刻与DRO相切，使脉冲机动方向与轨道切向一致，从而最大化速度增量对轨道形状的改变效率\cite{demeyerTransferDistantRetrograde2007}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/tangential-impulsive-maneuver/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- Demeyer, Gurfil, 2007, *Transfer to Distant Retrograde Orbits Using Manifold Theory*, Journal of Guidance, Control, and Dynamics, 30(5): 1261-1267, DOI: 10.2514/1.24960

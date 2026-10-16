@@ -34,14 +34,10 @@ DRO编队中绕飞航天器不进行轨道机动，仅依靠自然动力学环�
 
 ## 应用价值
 
-在轨道设计、分析和控制中，需要利用动力学模型预测航天器轨迹，并通过数值方法或解析方法求解运动方程。该概念支撑轨道机动设计、轨道改进和编队飞行等关键任务。
+在轨道设计、分析和控制中，需要利用动力学模型预测航天器轨迹，并通过数值方法或解析方法求解运动方程。该概念支撑轨道机动设计、轨道改进和编队飞行等关键任务\cite{ZhangRuYueDiYueKongJianDROJinJuChiBianDuiXingJianCeLiangXiangDuiDingGui2025}。
 
 ## 相关概念
 
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- 张如悦 等, 2025, *地月空间DRO近距离编队星间测量相对定轨*, 宇航学报, 46(10): 2146-2159, DOI: 10.3873/j.issn.1000-1328.2025.10.018

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/cannon-ball-model/
 
 ## 定义
 
-一种简化航天器太阳辐射压力模型，将航天器等效为一个球体，假设其截面积恒定且各方向反射率相同。在平动点轨道驻留分析中，球罐模型用于估算SRP加速度，其参数（反射率系数Cr）可从导航数据中更新以提高模型精度。ARTEMIS任务在更新P2的Cr值后，驻留成本显著下降。
+一种简化航天器太阳辐射压力模型，将航天器等效为一个球体，假设其截面积恒定且各方向反射率相同。在平动点轨道驻留分析中，球罐模型用于估算SRP加速度，其参数（反射率系数Cr）可从导航数据中更新以提高模型精度。ARTEMIS任务在更新P2的Cr值后，驻留成本显著下降\cite{foltaEarthMoonLibration2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/cannon-ball-model/
 - [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
-
-## 参考文献
-
-- Folta et al., 2014, *Earth–Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421–433, DOI: 10.1016/j.actaastro.2013.01.022

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/x-z-plane-crossing-target/
 
 ## 定义
 
-最优延续策略中的核心约束形式。以轨道穿越x-z平面时的位置或速度分量（如x方向速度）作为目标值，引导航天器在后续1至2圈内回到期望轨道状态。约束容差通常为厘米每秒量级。该方法的优势在于无需参考轨迹，仅通过逐次穿越点的目标即可维持轨道。
+最优延续策略中的核心约束形式。以轨道穿越x-z平面时的位置或速度分量（如x方向速度）作为目标值，引导航天器在后续1至2圈内回到期望轨道状态。约束容差通常为厘米每秒量级。该方法的优势在于无需参考轨迹，仅通过逐次穿越点的目标即可维持轨道\cite{foltaEarthMoonLibration2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/x-z-plane-crossing-target/
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)
-
-## 参考文献
-
-- Folta et al., 2014, *Earth–Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421-433, DOI: 10.1016/j.actaastro.2013.01.022

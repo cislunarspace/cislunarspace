@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/heteroclinic-orbit-transfer/
 
 ## 定义
 
-在动力系统理论中，异宿轨道（heteroclinic orbit）是连接两个不同不变集（平衡点或周期轨道）的轨道。若起点与终点为同一不变集，则称为同宿轨道（homoclinic orbit）。在 CR3BP 中，它们常表现为不同平动点周期轨道之间稳定流形与不稳定流形的几何交线\cite{koonGenesisTrajectoryHeteroclinic1999}。
+在动力系统理论中，异宿轨道（heteroclinic orbit）是连接两个不同不变集（平衡点或周期轨道）的轨道。若起点与终点为同一不变集，则称为同宿轨道（homoclinic orbit）。在 CR3BP 中，它们常表现为不同平动点周期轨道之间稳定流形与不稳定流形的几何交线\cite{koonGenesisTrajectoryHeteroclinic1999,gomezInvariantmanifoldsSpatial3body2001}。
 
 设 $\mathcal{A}$、$\mathcal{B}$ 为两条周期轨道，记 $\mathcal{H}_{\mathcal{AB}}$ 为从 $\mathcal{A}$ 到 $\mathcal{B}$ 的异宿轨道，则
 
@@ -58,7 +58,7 @@ $$\lim_{t\to-\infty}\phi^t(x)\to\mathcal{A},\qquad \lim_{t\to+\infty}\phi^t(x)\t
 
 ## 星际高速公路与任务实例
 
-由大量平动点流形管及其异宿/同宿连接构成的网络被称为星际高速公路（Interplanetary Superhighway）。其特点包括：
+由大量平动点流形管及其异宿/同宿连接构成的网络被称为星际高速公路（Interplanetary Superhighway）\cite{rossDynamicalSystemsThreebody2022}。其特点包括：
 
 - 低能：沿自然动力学通道运动，燃料消耗极低。
 
@@ -84,8 +84,4 @@ $$\lim_{t\to-\infty}\phi^t(x)\to\mathcal{A},\qquad \lim_{t\to+\infty}\phi^t(x)\t
 
 ## 参考文献
 
-- Koon, Lo, Marsden and Ross, 2011, *Dynamical Systems, the Three-Body Problem and Space Mission Design*, Marsden Books
-
 - Lo, M. W. (2002). The Interplanetary Superhighway and the Genesis Mission. JPL.，题录待补
-
-- Gómez et al., 2001, *Invariant manifolds, the spatial three-body problem and space mission design*, Astrodynamics 2001, 3-22

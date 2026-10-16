@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/orbital-insertion-direction/
 
 ## 定义
 
-航天器进入目标轨道时相对于轨道运动的方向。加速入轨使航天器从目标轨道内侧插入，减速入轨从外侧插入。入轨方向与绕月方向的组合将DRO转移轨道分为逆行加速、逆行减速、顺行加速和顺行减速四类。
+航天器进入目标轨道时相对于轨道运动的方向。加速入轨使航天器从目标轨道内侧插入，减速入轨从外侧插入。入轨方向与绕月方向的组合将DRO转移轨道分为逆行加速、逆行减速、顺行加速和顺行减速四类\cite{WeiZanDiYueYuanJuChiNiXingGuiDaoZuYueQiuJieLiZhuanYiRuGuiYanJiu2026}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/orbital-insertion-direction/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- 魏赞等, 2026, *地月远距离逆行轨道族月球借力转移入轨研究*, 北京航空航天大学学报, DOI: 10.13700/j.bh.1001-5965.2025.0868

@@ -20,14 +20,10 @@ permalink: /glossary/dynamics/tube-topology/
 
 ## 物理机制与工程价值
 
-根据动力系统拓扑理论，流形管道内部的轨迹能够自由穿越平动点颈缩区，实现地球引力区与月球引力区之间的低能转移。而管道外部的轨迹则被零速度面阻挡发生弹回。利用流形相交定理，通过求解地球侧不稳定流形管道与月球侧稳定流形管道的横截相交切点，可以设计出推进剂消耗接近零的天然引力转移走廊。
+根据动力系统拓扑理论，流形管道内部的轨迹能够自由穿越平动点颈缩区，实现地球引力区与月球引力区之间的低能转移。而管道外部的轨迹则被零速度面阻挡发生弹回。利用流形相交定理，通过求解地球侧不稳定流形管道与月球侧稳定流形管道的横截相交切点，可以设计出推进剂消耗接近零的天然引力转移走廊\cite{koonHeteroclinicConnectionsPeriodic2000}。
 
 ## 相关概念
 
 - [不变流形](/glossary/dynamics/invariant-manifold/)
 - [共线拉格朗日点](/glossary/fundamentals/collinear-lagrange-point/)
 - [零速度面](/glossary/dynamics/zero-velocity-surface/)
-
-## 参考文献
-
-- Koon et al., 2000, *Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics*, Chaos: An Interdisciplinary Journal of Nonlinear Science, 10(2): 427-469, DOI: 10.1063/1.166509

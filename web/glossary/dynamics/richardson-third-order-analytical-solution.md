@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/richardson-third-order-analytical-solution/
 
 ## 定义
 
-Richardson于1980年发展的平动点附近周期轨道近似方法。将运动方程在平动点处展开至三阶，用Lindstedt-Poincare摄动法消除长期项，得到Halo轨道在面内和面外分量的三阶解析解，为后续数值微分修正提供初值。
+Richardson于1980年发展的平动点附近周期轨道近似方法。将运动方程在平动点处展开至三阶，用Lindstedt-Poincare摄动法消除长期项，得到Halo轨道在面内和面外分量的三阶解析解，为后续数值微分修正提供初值\cite{DuLanYuanXingXianZhiXingSanTiWenTiXiaHaloRaoYueGuiDaoDeXingJianCeJuDingGui2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Richardson于1980年发展的平动点附近周期轨道近似方法。将运动
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-
-## 参考文献
-
-- 杜兰 等, 2013, *圆型限制性三体问题下Halo-绕月轨道的星间测距定轨*, 测绘学报, 42(2): 184-190

@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/phasing-flyby/
 
 ## 应用价值
 
-该方法在轨道转移设计中被用于分析转移通道和能量最优轨迹，为低能量转移方案提供理论支撑。
+该方法在轨道转移设计中被用于分析转移通道和能量最优轨迹，为低能量转移方案提供理论支撑\cite{andersonSurveyBallisticTransfers2012}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/phasing-flyby/
 - 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - [后向月球借力（Backward Lunar Gravity Assist）](/glossary/dynamics/solar-perturbation-lga/)
 - Lorillo稳定性准则（Lorillo Stability Criterion）
-
-## 参考文献
-
-- Anderson, R. L., Parker, J. S., 2012, *Survey of Ballistic Transfers to the Lunar Surface*, Journal of Guidance, Control, and Dynamics, 35(4): 1256-1267, DOI: 10.2514/1.54830

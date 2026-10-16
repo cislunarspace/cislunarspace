@@ -20,7 +20,7 @@ permalink: /glossary/dynamics/orbital-aerobraking-return/
 
 ## 定义
 
-轨道气动减速返回（Orbital Aerobraking Return）是指航天器从地月空间轨道（如远距离逆行轨道 DRO、平动点 Halo/NRHO 轨道或地月转移轨道）返回地球低轨（LEO）或地表再入过程中，利用地球稠密大气层产生的气动阻力消耗巨大轨道动能、大幅降低轨道半长轴和偏心率的轨道机动技术。
+轨道气动减速返回（Orbital Aerobraking Return）是指航天器从地月空间轨道（如远距离逆行轨道 DRO、平动点 Halo/NRHO 轨道或地月转移轨道）返回地球低轨（LEO）或地表再入过程中，利用地球稠密大气层产生的气动阻力消耗巨大轨道动能、大幅降低轨道半长轴和偏心率的轨道机动技术\cite{vinhHypersonicPlanetaryEntry1980}。
 
 ## 物理机制与工程价值
 
@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/orbital-aerobraking-return/
 2. 配合在脱离大气后的远地点施加微小升轨脉冲将近地点抬出大气层，从而以极低的推进燃料消耗入轨 LEO 目标停泊轨道。
 3. 在理论轨迹优化建模中，气动减速效应可等效为近地点处的等效能量耗散脉冲。
 
-这一技术大幅降低了地月空间往返运输系统的干湿比要求，是地月物流往返货运与深空载人飞船重复利用的关键工程手段。
+这一技术大幅降低了地月空间往返运输系统的干湿比要求，是地月物流往返货运与深空载人飞船重复利用的关键工程手段\cite{BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。
 
 ## 相关概念
 
@@ -40,8 +40,3 @@ permalink: /glossary/dynamics/orbital-aerobraking-return/
 - [接近段（Approach Phase）](/glossary/orbits/approach-phase/)
 - [两脉冲交会（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/)
 - [轨道交会（Orbital Rendezvous）](/glossary/navigation/orbital-rendezvous/)
-
-## 参考文献
-
-- 宝音贺西, 张楠, 武迪, 2026, *地月空间DRO航班化往返转移多脉冲轨迹优化*, 飞控与探测, 9(3): 1-7, DOI: 10.20249/j.cnki.2096-5974.2026.03.001
-- Vinh, N. X., Busemann, A., Culp, R. D., 1980, *Hypersonic and Planetary Entry Flight Mechanics*, University of Michigan Press, Ann Arbor

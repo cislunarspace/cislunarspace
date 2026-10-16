@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/spiral-mode/
 
 ## 定义
 
-不变流形沿周期轨道螺旋式离开或趋近的运动模式。当周期轨道对应的状态转移矩阵存在模大于 1 的复特征值时，其不稳定流形不再沿直线渐近方向离开轨道，而是围绕轨道螺旋展开。P2HO₁（蝴蝶轨道族）中的部分成员即具有这种螺线模态的不稳定流形。
+不变流形沿周期轨道螺旋式离开或趋近的运动模式。当周期轨道对应的状态转移矩阵存在模大于 1 的复特征值时，其不稳定流形不再沿直线渐近方向离开轨道，而是围绕轨道螺旋展开。P2HO₁（蝴蝶轨道族）中的部分成员即具有这种螺线模态的不稳定流形\cite{zimovan-spreenDynamicalStructuresNearby2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/spiral-mode/
 - [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
-
-## 参考文献
-
-- Zimovan-Spreen, Howell and Davis, 2022, *Dynamical Structures Nearby NRHOs with Applications to Transfer Design in Cislunar Space*, The Journal of the Astronautical Sciences, 69(3): 718-744, DOI: 10.1007/s40295-022-00320-4

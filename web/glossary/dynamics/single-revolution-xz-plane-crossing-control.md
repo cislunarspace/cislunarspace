@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/single-revolution-xz-plane-crossing-control/
 
 ## 定义
 
-平动点绕飞轨道的一种维持控制策略：以航天器每穿越会合坐标系xz平面为控制时机，施加单次脉冲，调整x、z向速度趋零以保持轨道形状，同时调整y向速度以维持绕飞。该策略具有参数少、实现简单的特点，已被ARTEMIS等任务实际验证。
+平动点绕飞轨道的一种维持控制策略：以航天器每穿越会合坐标系xz平面为控制时机，施加单次脉冲，调整x、z向速度趋零以保持轨道形状，同时调整y向速度以维持绕飞。该策略具有参数少、实现简单的特点，已被ARTEMIS等任务实际验证\cite{LiangWeiGuangDiYueXiL2PingDongDianGuiDaoChangQiWeiChiGuoChengYanJiu2017}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/single-revolution-xz-plane-crossing-control/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- 梁伟光 等, 2017, *地月系L2平动点轨道长期维持过程研究*, 深空探测学报, 4(2): 166-170, DOI: 10.15982/j.issn.2095-7777.2017.02.010

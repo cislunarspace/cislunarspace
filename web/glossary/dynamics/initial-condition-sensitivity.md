@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/initial-condition-sensitivity/
 
 ## 定义
 
-航天器入轨精度对编队保持能力的影响程度。在三角平动点附近，大多数编队对初始速度精度要求极为苛刻（微米每秒量级），仅并行编队例外。这表明不加控制的编队在三角平动点附近难以长期保持预期构型。
+航天器入轨精度对编队保持能力的影响程度。在三角平动点附近，大多数编队对初始速度精度要求极为苛刻（微米每秒量级），仅并行编队例外\cite{catlinEarthmoonTriangularLibration2007}。这表明不加控制的编队在三角平动点附近难以长期保持预期构型。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/initial-condition-sensitivity/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Catlin, McLaughlin, 2007, *Earth-Moon Triangular Libration Point Spacecraft Formations*, Journal of Spacecraft and Rockets, 44(3): 660-670, DOI: 10.2514/1.20152

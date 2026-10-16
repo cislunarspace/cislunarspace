@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/averaging-method/
 
 ## 定义
 
-当控制幅值很小（低推力）时，以真近点角或经度为新的时间参数，对快速振荡系统进行平均以分析极值轨线行为的摄动方法。可将椭圆轨道的最优控制问题转化为以超椭圆积分为代价函数的问题。
+当控制幅值很小（低推力）时，以真近点角或经度为新的时间参数，对快速振荡系统进行平均以分析极值轨线行为的摄动方法。可将椭圆轨道的最优控制问题转化为以超椭圆积分为代价函数的问题\cite{Caillau2012}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/averaging-method/
 - 微分代数（Differential Algebra, DA）
 - 羽流冲击（Plume Impingement）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- Caillau and Daoud, 2012, *Minimum Time Control of the Restricted Three-Body Problem*, SIAM Journal on Control and Optimization, 50(6): 3178–3202, DOI: 10.1137/110847299

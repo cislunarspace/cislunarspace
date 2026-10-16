@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/loss-function/
 
 ## 定义
 
-基于微分方程残差定义的优化目标函数，在TFC方法中通过迭代最小二乘法使其最小化以获得最优控制解。
+基于微分方程残差定义的优化目标函数，在TFC方法中通过迭代最小二乘法使其最小化以获得最优控制解\cite{johnstonFuelEfficientPoweredDescent2020}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/loss-function/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Johnston et al., 2020, *Fuel-Efficient Powered Descent Guidance on Large Planetary Bodies via Theory of Functional Connections*, The Journal of the Astronautical Sciences, 67(4): 1521-1552, DOI: 10.1007/s40295-020-00228-x

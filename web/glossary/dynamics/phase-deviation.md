@@ -75,5 +75,3 @@ $$
 ## 参考文献
 
 - Davis et al., 2022, *Orbit Maintenance Burn Details for Spacecraft in a Near Rectilinear Halo Orbit*, AAS/AIAA Astrodynamics Specialist Conference，带相位约束的双阶段微分修正 X 轴穿越控制的权衡分析
-
-- 敖海跃等, 2024, *远距离逆行轨道的近距离编队轨道保持策略*, 航空学报, 45(22): 330306, DOI: 10.7527/S1000-6893.2024.30306，DRO 编队绝对相位偏置方法

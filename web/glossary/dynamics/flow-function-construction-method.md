@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/flow-function-construction-method/
 
 ## 定义
 
-利用圆形限制性三体问题的对称性构造流函数，通过求解流函数与x轴交点来计算周期轨道的新方法，可在近似解析解失效时求取数值解。
+利用圆形限制性三体问题的对称性构造流函数，通过求解流函数与x轴交点来计算周期轨道的新方法，可在近似解析解失效时求取数值解\cite{LiYanJunLiYongLaGeLangRiDianDeShenKongTanCeJiShu2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/flow-function-construction-method/
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
-
-## 参考文献
-
-- 李言俊等, 2015, *利用拉格朗日点的深空探测技术*, 西北工业大学出版社
