@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/direction-cosine/
 
 ## 定义
 
-推力矢量在各坐标轴上的投影系数，由协态变量的归一化比值确定。方向余弦将最优控制问题中的协态变量转化为推力矢量的物理方向。
+推力矢量在各坐标轴上的投影系数，由协态变量的归一化比值确定。方向余弦将最优控制问题中的协态变量转化为推力矢量的物理方向\cite{kluever1997nuclear}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/direction-cosine/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- Kluever and Pierson, 1997, Optimal Earth-Moon Trajectories Using Nuclear Electric Propulsion

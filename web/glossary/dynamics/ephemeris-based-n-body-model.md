@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/ephemeris-based-n-body-model/
 
 ## 参考文献
 
-- Zhang et al., 2022
+- Zhang et al., 2022，题录待补

@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/penalty-coefficient/
 
 ## 定义
 
-最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率。系数越小，优先节省燃料。
+最优控制性能指标中平衡碰撞概率项和燃料消耗项的权重因子。系数越大，安全性优先级越高，需要更多燃料来降低碰撞概率。系数越小，优先节省燃料\cite{tuOptimalControlLowthrust2025}。
 
 ## 应用价值
 
-为航天器的精确控制提供理论依据，确保任务执行的可靠性 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+为航天器的精确控制提供理论依据，确保任务执行的可靠性。该概念为地月空间任务设计提供了重要的理论基础，在实际工程中可用于轨道设计、任务规划或控制系统分析。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/penalty-coefficient/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Tu et al. 2025, Optimal control for low-thrust collision avoidance in CRTBP

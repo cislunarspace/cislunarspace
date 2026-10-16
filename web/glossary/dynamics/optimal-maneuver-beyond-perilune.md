@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/optimal-maneuver-beyond-perilune/
 
 ## 定义
 
-在多脉冲DRO往返转移中，近月空间内最优的速度脉冲机动位置并不一定在准确近月点（真近点角0°），而是在近月点附近的一定范围内。本文对217条往返转移轨迹的统计显示，仅约23%的轨迹最优机动真近点角在±10°以内，超过70%的轨迹最优机动位置偏离近月点超过10°。这一发现拓展了近月机动的设计自由度。
+在多脉冲DRO往返转移中，近月空间内最优的速度脉冲机动位置并不一定在准确近月点（真近点角0°），而是在近月点附近的一定范围内。本文对217条往返转移轨迹的统计显示，仅约23%的轨迹最优机动真近点角在±10°以内，超过70%的轨迹最优机动位置偏离近月点超过10°。这一发现拓展了近月机动的设计自由度\cite{BaoYinHeXiDiYueKongJianDROHangBanHuaWangFanZhuanYiDuoMaiChongGuiJiYouHua2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/optimal-maneuver-beyond-perilune/
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-
-## 参考文献
-
-- 宝音贺西 等 - 2025 - 地月空间DRO航班化往返转移多脉冲轨迹优化

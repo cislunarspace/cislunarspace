@@ -36,7 +36,7 @@ $$
 J = \tfrac{1}{2}\boldsymbol{x}^T(t_f)\boldsymbol{S}_f\boldsymbol{x}(t_f) + \tfrac{1}{2}\int_{0}^{t_f}\!\left[\boldsymbol{x}^T\boldsymbol{Q}(t)\boldsymbol{x} + \boldsymbol{u}^T\boldsymbol{R}(t)\boldsymbol{u}\right]dt
 $$
 
-最小。这里 $\boldsymbol{Q}\succeq 0$ 为状态偏差权重、$\boldsymbol{R}\succ 0$ 为控制代价权重、$\boldsymbol{S}_f\succeq 0$ 为终端权重。LQR 的核心结论是：最优反馈增益由矩阵 Riccati 方程的解唯一决定（Kalman 1960；Anderson & Moore 1990），从而把一个泛函最小化问题化归为求解矩阵微分方程。
+最小。这里 $\boldsymbol{Q}\succeq 0$ 为状态偏差权重、$\boldsymbol{R}\succ 0$ 为控制代价权重、$\boldsymbol{S}_f\succeq 0$ 为终端权重。LQR 的核心结论是：最优反馈增益由矩阵 Riccati 方程的解唯一决定，参见 Kalman 1960 与 Anderson 与 Moore 1990，从而把一个泛函最小化问题化归为求解矩阵微分方程。
 
 ## Riccati 方程的两种形式
 
@@ -58,7 +58,7 @@ $$
 
 ## 权矩阵选取：跟踪精度 vs 控制代价
 
-权矩阵 $\boldsymbol{Q}, \boldsymbol{R}$ 是 LQR 设计中唯一的主观选择，直接决定闭环性能。$\boldsymbol{Q}$ 大则跟踪紧、能耗高。$\boldsymbol{R}$ 大则省燃料、误差大。无量纲化后的 CR3BP 平动点轨道保持中，位置偏差、速度偏差、控制加速度同量级，Zhang & Wang（2022）在 DRO/Halo/NRHO 的 comparative 研究中取 $\boldsymbol{Q}=10\boldsymbol{I}_{6\times 6}$、$\boldsymbol{R}=\boldsymbol{I}_{3\times 3}$ 即可获得良好跟踪（年修正量 0.8–26 m/s，按轨道稳定性指数差异而定）。NRHO 因近月点速度梯度大，控制输入在 perilune 附近出现尖峰，比 DRO 高出约两个量级。
+权矩阵 $\boldsymbol{Q}, \boldsymbol{R}$ 是 LQR 设计中唯一的主观选择，直接决定闭环性能。$\boldsymbol{Q}$ 大则跟踪紧、能耗高。$\boldsymbol{R}$ 大则省燃料、误差大。无量纲化后的 CR3BP 平动点轨道保持中，位置偏差、速度偏差、控制加速度同量级，Zhang 与 Wang 2022 在 DRO/Halo/NRHO 的 comparative 研究中取 $\boldsymbol{Q}=10\boldsymbol{I}_{6\times 6}$、$\boldsymbol{R}=\boldsymbol{I}_{3\times 3}$ 即可获得良好跟踪（年修正量 0.8–26 m/s，按轨道稳定性指数差异而定）\cite{zhangContinuousthrustStationkeepingCislunar2022}。NRHO 因近月点速度梯度大，控制输入在 perilune 附近出现尖峰，比 DRO 高出约两个量级。
 
 权矩阵的常用调参法包括：Bryson 法（先取对角元归一化再统一加权）、迭代仿真法（先固定 $\boldsymbol{R}$ 调 $\boldsymbol{Q}$ 的对角比例）、以及基于闭环极点位置的期望配置法。
 
@@ -70,7 +70,7 @@ LQR 本身只对线性系统最优，但在地月空间任务中绝大多数场�
 
 次优控制与 SDRE。把非线性系统改写为状态依赖线性形式 $\dot{\boldsymbol{x}} = \boldsymbol{A}(\boldsymbol{x})\boldsymbol{x} + \boldsymbol{B}(\boldsymbol{x})\boldsymbol{u}$，在每个状态点处瞬时求解代数 Riccati 方程，得到状态依赖的 Riccati 增益。这类方法在中文文献中常与调解因子（mediation factor）一起讨论，用以逼近原非线性最优解。优点是无需积分伴随方程，缺点是缺乏全局最优性保证，且参数化不唯一。
 
-非线性输出调节（Francis-Byrnes-Isidori 方程）。当参考信号和扰动都可由一个外系统（exosystem）生成（如准 Halo 轨道与周期偏心率扰动），输出调节理论给出同时实现跟踪与扰动抑制的反馈律，关键在于求解一组称为 FBI 方程的结构方程（Isidori & Byrnes 1990；Di Giamberardino & Monaco 1996）。该方法在平动点轨道保持中可与 LQR/SDRE 嵌套使用（Elobaid et al. 2022）。
+非线性输出调节（Francis-Byrnes-Isidori 方程）。当参考信号和扰动都可由一个外系统（exosystem）生成（如准 Halo 轨道与周期偏心率扰动），输出调节理论给出同时实现跟踪与扰动抑制的反馈律，关键在于求解一组称为 FBI 方程的结构方程，参见 Isidori 与 Byrnes 1990 以及 Di Giamberardino 与 Monaco 1996。该方法在平动点轨道保持中可与 LQR/SDRE 嵌套使用，参见 Elobaid 等 2022。
 
 ## ZEM/ZEV：双积分系统的 LQR 解析解
 
@@ -80,12 +80,12 @@ $$
 \boldsymbol{r}_{ZEM}(t) = \boldsymbol{r}(t) + \boldsymbol{v}(t)t_{go} + \int_{t}^{t_f}\!(t_f-\tau)\boldsymbol{g}(\boldsymbol{r}(\tau))\,d\tau,\quad \boldsymbol{v}_{ZEV}(t) = \boldsymbol{v}(t) + \int_{t}^{t_f}\!\boldsymbol{g}(\boldsymbol{r}(\tau))\,d\tau。
 $$
 
-对匀重力场 $\boldsymbol{g}$，最小化 $\int\!\|\boldsymbol{u}\|^2 dt$ 的 LQR 闭式解给出经典增益 $\boldsymbol{u}^* = \frac{6}{t_{go}^2}(\boldsymbol{r}_{ZEM}) - \frac{2}{t_{go}}(\boldsymbol{v}_{ZEV})$，即 $K_R=6$、$K_V=-2$。广义 ZEM/ZEV 算法将这两个常数增益替换为时变增益 $K_R(t), K_V(t)$，以便在非匀重力场（如月球动力下降、CR3BP 转移）下仍保持近最优（Ebrahimi et al. 2008；Scorsoglio et al. 2023）。ZEM/ZEV 广泛用于登月动力下降与NRHO交会。
+对匀重力场 $\boldsymbol{g}$，最小化 $\int\!\|\boldsymbol{u}\|^2 dt$ 的 LQR 闭式解给出经典增益 $\boldsymbol{u}^* = \frac{6}{t_{go}^2}(\boldsymbol{r}_{ZEM}) - \frac{2}{t_{go}}(\boldsymbol{v}_{ZEV})$，即 $K_R=6$、$K_V=-2$。广义 ZEM/ZEV 算法将这两个常数增益替换为时变增益 $K_R(t), K_V(t)$，以便在非匀重力场（如月球动力下降、CR3BP 转移）下仍保持近最优\cite{scorsoglioRelativeMotionGuidance2023}，另见 Ebrahimi 等 2008。ZEM/ZEV 广泛用于登月动力下降与NRHO交会。
 
 ## 应用要点
 
-- 数值实现。 Riccati 方程是对称的，可只用上三角传播。稳态解可用 `scipy.linalg.solve_continuous_are` 或专门的 Schur 法（Arnold 1984）求得。
-- 鲁棒性边界。 LQR 至少有 60° 相位裕度、$[1/2, \infty)$ 增益裕度（Safonov & Athans 1977），这一性质使其在模型不确定下仍可用。但当实际扰动达到 SRP 量级（无量纲 $\sim 10^{-4}$），标准 LQR 无法稳定收敛，需切换到鲁棒框架（如 [最优滑模控制](/glossary/dynamics/osmc/)）。
+- 数值实现。 Riccati 方程是对称的，可只用上三角传播。稳态解可用 `scipy.linalg.solve_continuous_are` 或专门的 Schur 法求得，参见 Arnold 1984。
+- 鲁棒性边界。 LQR 至少有 60° 相位裕度、$[1/2, \infty)$ 增益裕度，参见 Safonov 与 Athans 1977，这一性质使其在模型不确定下仍可用。但当实际扰动达到 SRP 量级（无量纲 $\sim 10^{-4}$），标准 LQR 无法稳定收敛，需切换到鲁棒框架（如 [最优滑模控制](/glossary/dynamics/osmc/)）。
 - 不宜滥用。 LQR 只在标称轨迹小邻域内有效，对大幅值偏差（如入轨误差 100 km）需要重新规划而非反馈。
 
 ## 相关概念
@@ -98,11 +98,9 @@ $$
 
 ## 参考文献
 
-- Kalman, R. E., 1960, *Contributions to the Theory of Optimal Control*（LQR 与 Riccati 方程的奠基论文）。
-- Anderson, B. D. O., Moore, J. B., 1990, *Optimal Control: Linear Quadratic Methods*（LQR 理论与权矩阵选取的系统教材）。
-- Safonov, M. G., Athans, M., 1977, Gain and phase margin for multiloop LQG regulators，*IEEE Trans. Autom. Control* 22(2)（LQR 鲁棒裕度的经典结论）。
-- Isidori, A., Byrnes, C. I., 1990, Output regulation of nonlinear systems，*IEEE Trans. Autom. Control* 35(2)（非线性输出调节与 FBI 方程）。
-- Ebrahimi, M., Bahrami, M., Rossi, F., 2008, Optimal sliding-mode guidance with terminal velocity constraint for a lunar lander；同作者 2008 关于 ZEM/ZEV 在非匀重力场的推广。
-- Zhang, R., Wang, Y., 2022, Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints，*Adv. Space Res.*（Q=10I、R=I 的权矩阵选取与 OSMC vs LQR 对比）。
-- Scorsoglio, A., Furfaro, R., et al., 2023, Relative motion guidance for near-rectilinear lunar orbits with path constraints，*Adv. Space Res.*（广义 ZEM/ZEV 在 NRHO 的应用）。
-- Elobaid, M., et al., 2022（非线性调节在平动点保持的应用）。
+- Kalman, 1960, *Contributions to the Theory of Optimal Control*, DOI: 10.1109/9780470544334.ch8，LQR 与 Riccati 方程的奠基论文
+- Anderson, Moore, 1990, *Optimal Control: Linear Quadratic Methods*，LQR 理论与权矩阵选取的系统教材
+- Safonov, Athans, 1977, *Gain and phase margin for multiloop LQG regulators*, IEEE Transactions on Automatic Control, 22(2): 173-179, DOI: 10.1109/TAC.1977.1101470，LQR 鲁棒裕度的经典结论
+- Isidori, Byrnes, 1990, *Output regulation of nonlinear systems*, IEEE Transactions on Automatic Control, 35(2): 131-140, DOI: 10.1109/9.45168，非线性输出调节与 FBI 方程
+- Ebrahimi, Bahrami, Roshanian, 2008, *Optimal sliding-mode guidance with terminal velocity constraint for fixed-interval propulsive maneuvers*, Acta Astronautica, 62(10-11): 556-562, DOI: 10.1016/j.actaastro.2008.02.002，月球着陆器终端速度约束下的最优滑模制导
+- Elobaid, M., et al., 2022，题录待补

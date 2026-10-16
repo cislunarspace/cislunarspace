@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/potential-function/
 
 ## 参考文献
 
-- 地月空间航天器绕飞接近跟踪控制
+- 地月空间航天器绕飞接近跟踪控制，题录待补

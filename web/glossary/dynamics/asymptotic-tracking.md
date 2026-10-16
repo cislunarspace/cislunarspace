@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/asymptotic-tracking/
 
 ## 参考文献
 
-- Howell K C, Pernicka J. Stationkeeping method for libration point trajectories[J]. JGCD, 1993, 16(1): 151-159
+- Howell and Pernicka, 1993, *Station-keeping method for libration point trajectories*, Journal of Guidance, Control, and Dynamics, 16(1): 151–159, DOI: 10.2514/3.11440

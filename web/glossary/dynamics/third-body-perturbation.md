@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/third-body-perturbation/
 
 ## 定义
 
-除中心天体和航天器之外的第三个天体（如太阳、月球）引力对航天器轨道产生的摄动。文中停泊轨道段考虑太阳和月球的第三体摄动，地月段同样计入其影响，是精密轨道计算的必要项。
+除中心天体和航天器之外的第三个天体（如太阳、月球）引力对航天器轨道产生的摄动。文中停泊轨道段考虑太阳和月球的第三体摄动，地月段同样计入其影响，是精密轨道计算的必要项\cite{GaoYuDongDiYueKongJianFeiXingGuiDaoFenCengSouSuoSheJi2006}。
 
 ## 应用价值
 
@@ -45,5 +45,4 @@ permalink: /glossary/dynamics/third-body-perturbation/
 
 ## 参考文献
 
-- 高玉东 等 - 2006 - 地月空间飞行轨道分层搜索设计
-- Criscola等 - 2024
+- Criscola, Canales & Mortari, 2024, *Application of the theory of functional connections to the perturbed Lambert's problem*, Celestial Mechanics and Dynamical Astronomy, 136(5), DOI: 10.1007/s10569-024-10212-4

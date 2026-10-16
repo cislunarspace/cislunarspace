@@ -13,7 +13,7 @@ keywords: 形状基法, shape-based method, 逆多项式形状函数, 指数正�
 
 ## 定义
 
-形状基法预先指定小推力轨道的几何形状（通常以极径 $r(t)$ 或极角 $\theta(t)$ 作为时间的参数化解析函数）再从运动方程反解出实现该形状所需的推力加速度剖面 $\mathbf{a}_T(t)$。这绕过了完整的最优控制求解，给出快速的近似轨迹，作为后续高保真数值优化（直接配点或间接打靶法）的初值（Petropoulos and Longuski 2004）。
+形状基法预先指定小推力轨道的几何形状（通常以极径 $r(t)$ 或极角 $\theta(t)$ 作为时间的参数化解析函数）再从运动方程反解出实现该形状所需的推力加速度剖面 $\mathbf{a}_T(t)$。这绕过了完整的最优控制求解，给出快速的近似轨迹，作为后续高保真数值优化（直接配点或间接打靶法）的初值，见 Petropoulos 与 Longuski 2004。
 
 在小推力任务的初始设计阶段尤其有用：设计空间巨大、NLP 解算器难以无初值收敛。
 
@@ -76,12 +76,12 @@ $$
 
 ## 参考文献
 
-- Petropoulos and Longuski, 2004, *Shape-Based Algorithm for Automated Design of Low-Thrust, Gravity-Assist Trajectories*, J. Spacecraft and Rockets 41(5):787–796（指数正弦形状；自动化借力序列）
+- Petropoulos, Longuski, 2004, *Shape-Based Algorithm for the Automated Design of Low-Thrust, Gravity Assist Trajectories*, Journal of Spacecraft and Rockets, 41(5): 787-796, DOI: 10.2514/1.13095，指数正弦形状，自动化借力序列
 
-- Wall and Conway, 2009, *Shape-Based Approach to Low-Thrust Rendezvous Trajectory Design*, J. Guidance 32(1):95–101（交会问题的多项式与傅里叶形状函数）
+- Wall, Conway, 2009, *Shape-Based Approach to Low-Thrust Rendezvous Trajectory Design*, Journal of Guidance, Control, and Dynamics, 32(1): 95-101, DOI: 10.2514/1.36848，交会问题的多项式与傅里叶形状函数
 
-- Taheri and Abdelkhalik, 2012, *Shape-Based Approximation of Constrained Low-Thrust Space Trajectories Using Fourier Series*, J. Spacecraft and Rockets 49(3):535–546
+- Taheri, Abdelkhalik, 2012, *Shape-Based Approximation of Constrained Low-Thrust Space Trajectories Using Fourier Series*, Journal of Spacecraft and Rockets, 49(3): 535-546, DOI: 10.2514/1.58789
 
-- De Pascale and Vasile, 2006, *Preliminary Design of Low-Thrust Multiple Gravity-Assist Trajectories*, J. Spacecraft and Rockets 43(5):1065–1076（逆多项式与其他形状参数化）
+- De Pascale, Vasile, 2006, *Preliminary Design of Low-Thrust Multiple Gravity-Assist Trajectories*, Journal of Spacecraft and Rockets, 43(5): 1065-1076, DOI: 10.2514/1.19646，逆多项式与其他形状参数化
 
-- Gondelach and Noomen, 2015, *Hodographic-Shaping Method for Low-Thrust Interplanetary Trajectory Design*, J. Spacecraft and Rockets 52(3):728–738
+- Gondelach, Noomen, 2015, *Hodographic-Shaping Method for Low-Thrust Interplanetary Trajectory Design*, Journal of Spacecraft and Rockets, 52(3): 728-738, DOI: 10.2514/1.A32991

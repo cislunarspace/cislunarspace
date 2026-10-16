@@ -44,4 +44,4 @@ permalink: /glossary/dynamics/conic-approximation-of-transfer-segment/
 
 ## 参考文献
 
-- 平动点双脉冲转移轨道的快速计算方法（潘迅 等，2017）
+- 潘迅 等, 2017, *平动点双脉冲转移轨道的快速计算方法*, 宇航学报, 38(6): 574-582

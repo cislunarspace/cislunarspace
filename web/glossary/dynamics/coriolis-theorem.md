@@ -79,7 +79,7 @@ $$
 
 ## 在 CR3BP 会合系中的应用
 
-[圆型限制性三体问题](/glossary/dynamics/cr3bp/) 的标准推导正是科氏定理的直接应用（Szebehely 1967, §1.5；Vallado 2022, §1.5）。设在 [会合坐标系](/glossary/fundamentals/synodic-frame/) 中，两主天体固定不动、整个坐标系以两主天体公转角速度 $\vec\omega=n\hat z$ 旋转。把牛顿引力 $\vec a_I=-\mu_1\vec r_1/r_1^3-\mu_2\vec r_2/r_2^3$ 移到旋转系，得
+[圆型限制性三体问题](/glossary/dynamics/cr3bp/) 的标准推导正是科氏定理的直接应用，见 Szebehely 与 Vallado\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022} 第 1.5 节。设在 [会合坐标系](/glossary/fundamentals/synodic-frame/) 中，两主天体固定不动、整个坐标系以两主天体公转角速度 $\vec\omega=n\hat z$ 旋转。把牛顿引力 $\vec a_I=-\mu_1\vec r_1/r_1^3-\mu_2\vec r_2/r_2^3$ 移到旋转系，得
 
 $$
 \ddot{\vec r}+2\vec\omega\times\dot{\vec r}+\vec\omega\times(\vec\omega\times\vec r)
@@ -97,7 +97,7 @@ $$
 
 ## 在体固系中的应用
 
-月球软着陆、地球再入等任务需要在月固系或地固系（与天体同步旋转的参考系）中建立动力学方程。以月固系为例（周净扬、周荻 2007）：
+月球软着陆、地球再入等任务需要在月固系或地固系（与天体同步旋转的参考系）中建立动力学方程。以月固系为例\cite{ZhouJingYangYueQiuTanCeQiRuanZhaoLuJingQueJianMoJiZuiYouGuiDaoSheJi2007}：
 
 $$
 \vec V_I = \vec V_L + \vec\omega_M\times\vec R,
@@ -121,7 +121,5 @@ $$
 
 ## 参考文献
 
-- Szebehely, V. (1967). *Theory of Orbits: The Restricted Problem of Three Bodies*, §1.5. Academic Press.
-- Vallado, D. A. (2022). *Fundamentals of Astrodynamics and Applications*, 5th ed., §1.5 (rotating frames and the transport theorem).
-- Goldstein, H., Poole, C. P., & Safko, J. L. (2002). *Classical Mechanics*, 3rd ed., Chapter 4. Addison-Wesley.
-- 周净扬，周荻 (2007). 月球探测器软着陆精确建模及最优轨道设计。宇航学报。
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press
+- Goldstein, Poole and Safko, 2002, *Classical Mechanics*, 3rd ed., Addison-Wesley

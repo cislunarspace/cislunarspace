@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/perturbed-gravity-assist-model/
 
 ## 定义
 
-基于伪状态理论建立的引力辅助近似模型。通过伪球将三体问题分解为可解析计算的圆锥曲线弧段，避免直接数值积分，同时通过引入摄动修正（如月球非球形摄动）提高近月轨迹精度。相比传统兰伯特拼接法，在计算效率和精度之间取得更好的平衡。
+基于伪状态理论建立的引力辅助近似模型。通过伪球将三体问题分解为可解析计算的圆锥曲线弧段，避免直接数值积分，同时通过引入摄动修正（如月球非球形摄动）提高近月轨迹精度。相比传统兰伯特拼接法，在计算效率和精度之间取得更好的平衡\cite{DingBaiHuiZaiRenYueQiuTanCeRenWuZhuanYiGuiDaoJiYueMianZhaoLuQuPingGuFenXi2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/perturbed-gravity-assist-model/
 - [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
-
-## 参考文献
-
-- 丁百慧 等 - 2023 - 载人月球探测任务转移轨道及月面着陆区评估分析

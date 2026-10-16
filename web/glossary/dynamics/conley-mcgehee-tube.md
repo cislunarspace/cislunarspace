@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/conley-mcgehee-tube/
 
 ## 定义
 
-限制性三体问题中，Lyapunov轨道稳定流形和不稳定流形在构型空间中扩展形成的二维管状结构。Conley和McGehee证明该管作为转移轨道与非转移轨道的分界面，管内聚集所有穿行转移轨道。是分析平动点附近转移条件的重要工具。
+限制性三体问题中，Lyapunov轨道稳定流形和不稳定流形在构型空间中扩展形成的二维管状结构。Conley和McGehee证明该管作为转移轨道与非转移轨道的分界面，管内聚集所有穿行转移轨道。是分析平动点附近转移条件的重要工具\cite{liangClassificationCislunarTrajectories2016}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/conley-mcgehee-tube/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Liang 等 - 2016 - The classification of cislunar trajectories and its applications in the Earth–moon system

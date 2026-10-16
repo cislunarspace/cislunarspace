@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/spherical-harmonic-model/
 
 ## 定义
 
-用球谐函数展开表示天体引力位的数学模型，可描述非球形天体的引力场。
+用球谐函数展开表示天体引力位的数学模型，可描述非球形天体的引力场\cite{vepaSpaceVehicleManeuvering2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/spherical-harmonic-model/
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
 - 递归遗忘因子估计（Recursive Forgetting Factor Estimation）
-
-## 参考文献
-
-- Vepa - 2024 - Space vehicle maneuvering, propulsion, dynamics and control

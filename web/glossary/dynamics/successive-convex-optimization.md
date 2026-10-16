@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/successive-convex-optimization/
 
 ## 定义
 
-通过迭代方式逐步更新参考轨迹，将非线性最优控制问题转化为系列凸优化问题求解的方法。在每轮迭代中，以当前最优轨迹作为参考轨迹进行线性化，构造凸优化子问题并求解，直至收敛。
+通过迭代方式逐步更新参考轨迹，将非线性最优控制问题转化为系列凸优化问题求解的方法。在每轮迭代中，以当前最优轨迹作为参考轨迹进行线性化，构造凸优化子问题并求解，直至收敛\cite{yukikayamaLowthrustTrajectoryDesign2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/successive-convex-optimization/
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
 - [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
-
-## 参考文献
-
-- Kayama 等 - 2022 - Low-thrust trajectory design with successive convex optimization for libration point orbits

@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/integral-invariant/
 
 ## 定义
 
-哈密顿系统中相空间体积在时间演化下保持不变的特性，是刘维尔定理的体现。
+哈密顿系统中相空间体积在时间演化下保持不变的特性，是刘维尔定理的体现\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/integral-invariant/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Marchal - 1990 - The three-body problem

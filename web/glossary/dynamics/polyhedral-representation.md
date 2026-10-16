@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/polyhedral-representation/
 
 ## 定义
 
-将不变流形上的状态分量表示为两个参数（注入点对应的时间和流形飞行时间）的分段线性函数。通过在参数平面划分矩形网格，在每个矩形内用四个三角形线性插值，实现状态量的快速计算。该表示法几何直观、实现简单、精度满足工程需求（92%~93%区域误差小于5 m/s），可用于轨道优化和交会对接问题。
+将不变流形上的状态分量表示为两个参数（注入点对应的时间和流形飞行时间）的分段线性函数。通过在参数平面划分矩形网格，在每个矩形内用四个三角形线性插值，实现状态量的快速计算。该表示法几何直观、实现简单、精度满足工程需求（92%~93%区域误差小于5 m/s），可用于轨道优化和交会对接问题\cite{pontaniPolyhedralRepresentationInvariant2016}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/polyhedral-representation/
 - 稳定特征向量（Stable Eigenvector）
 - 月球飞越法（Lunar Fly-by Method）
 - 可达集（Reachability Set）
-
-## 参考文献
-
-- Pontani和Teofilatto - 2016 - Polyhedral representation of invariant manifolds applied to orbit transfers in the Earth–moon system

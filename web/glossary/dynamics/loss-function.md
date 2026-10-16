@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/loss-function/
 
 ## 参考文献
 
-- Johnston 等 - 2020
+- Johnston et al., 2020, *Fuel-Efficient Powered Descent Guidance on Large Planetary Bodies via Theory of Functional Connections*, The Journal of the Astronautical Sciences, 67(4): 1521-1552, DOI: 10.1007/s40295-020-00228-x

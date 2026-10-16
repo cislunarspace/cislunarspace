@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/kozai-method/
 
 ## 定义
 
-求解平均共轨道共振问题的摄动方法，常用于分析天体轨道的长周期演化。
+求解平均共轨道共振问题的摄动方法，常用于分析天体轨道的长周期演化\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/kozai-method/
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)
-
-## 参考文献
-
-- Marchal - 1990 - The three-body problem

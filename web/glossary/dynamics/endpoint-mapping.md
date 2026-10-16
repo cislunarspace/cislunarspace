@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/endpoint-mapping/
 
 ## 参考文献
 
-- Caillau and Daoud 2012, SIAM J. Control Optim. 50(6)
+- Caillau and Daoud, 2012, *Minimum Time Control of the Restricted Three-Body Problem*, SIAM Journal on Control and Optimization, 50(6): 3178-3202, DOI: 10.1137/110847299

@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/v-infinity-matching/
 
 ## 定义
 
-将月球借力前后的双曲线剩余速度（v无穷）进行匹配的策略，以连接LEO至LGA和LGA至DRO两段轨道。该策略在不改变借力后v无穷大小的前提下调整近地点参数，可将转移轨道收敛率提高约15倍。
+将月球借力前后的双曲线剩余速度（v无穷）进行匹配的策略，以连接LEO至LGA和LGA至DRO两段轨道。该策略在不改变借力后v无穷大小的前提下调整近地点参数，可将转移轨道收敛率提高约15倍\cite{ZhangChenJiYuYueQiuJieLiDeDiNengDRORuGuiCeLue2022}。
 
 ## 应用价值
 
-在v无穷匹配的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+在v无穷匹配的设计与分析中，可用于优化转移方案，减少燃料消耗。该概念为地月空间任务设计提供了重要的理论基础。在实际工程中可用于轨道设计、任务规划或控制系统分析。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/v-infinity-matching/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- 张晨和张皓 - 2022 - 基于月球借力的低能DRO入轨策略

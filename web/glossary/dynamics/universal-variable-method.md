@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/universal-variable-method/
 
 ## 定义
 
-一种求解Lambert问题的数值方法，通过引入普适变量（不区分椭圆、抛物线、双曲线轨道类型）建立统一的时间方程，用Newton迭代法求解。该方法避免了不同圆锥曲线需要不同公式的问题，适用范围广、计算稳定性好，常用于受摄动情况下的轨道转移计算。
+一种求解Lambert问题的数值方法，通过引入普适变量（不区分椭圆、抛物线、双曲线轨道类型）建立统一的时间方程，用Newton迭代法求解。该方法避免了不同圆锥曲线需要不同公式的问题，适用范围广、计算稳定性好，常用于受摄动情况下的轨道转移计算\cite{ZhaoHongQianJiYuDongTaiGuiHuaDeYueMianDingDianZhaoLuKuaiSuZhiDaoFangFa2021}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/universal-variable-method/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- 赵弘骞等 - 2021 - 基于动态规划的月面定点着陆快速制导方法

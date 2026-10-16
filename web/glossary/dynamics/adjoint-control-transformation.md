@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/adjoint-control-transformation/
 
 ## 参考文献
 
-- （暂无参考文献）
+- Jawaharlal Ayyanathan and Taheri, 2022, *Mapped adjoint control transformation method for low-thrust trajectory design*, Acta Astronautica, 193: 418–431, DOI: 10.1016/j.actaastro.2021.12.019

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/ks-transformation/
 
 ## 定义
 
-空间三体问题碰撞奇点的正则化变换，将四维空间中的点映射到三维空间，同时保持哈密顿结构。是列维-齐维塔变换在空间问题的推广。
+空间三体问题碰撞奇点的正则化变换，将四维空间中的点映射到三维空间，同时保持哈密顿结构。是列维-齐维塔变换在空间问题的推广\cite{cellettiStabilityChaosCelestial2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/ks-transformation/
 - [KAM定理（KAM Theorem）](/glossary/dynamics/kam-theory/)
 - 希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）
 - 状态转移函数（State Transition Function）
-
-## 参考文献
-
-- Celletti - 2010 - Stability and chaos in celestial mechanics。

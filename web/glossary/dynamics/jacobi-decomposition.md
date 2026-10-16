@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/jacobi-decomposition/
 
 ## 定义
 
-将三体问题分解为内轨道（两体约化质量运动）和外轨道（第三体相对质心运动）的分析方法，在质量比或距离比有利时，可近似为两个受摄开普勒运动。
+将三体问题分解为内轨道（两体约化质量运动）和外轨道（第三体相对质心运动）的分析方法，在质量比或距离比有利时，可近似为两个受摄开普勒运动\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/jacobi-decomposition/
 - 三体问题（Three-Body Problem）
 - 最优控制（Optimal Control）
 - 轨迹优化（Trajectory Optimization）
-
-## 参考文献
-
-- Marchal - 1990 - The three-body problem

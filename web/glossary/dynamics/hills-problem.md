@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hills-problem/
 
 ## 定义
 
-希尔问题（Hill's problem）是圆型限制性三体问题（CR3BP）在小质量比极限 $\mu\to 0$ 下、并取原点在较小主天体（如地球）邻域得到的简化形式。George William Hill 在 1878 年研究月球运动时引入此模型（Hill 1878；Szebehely 1967, §10.4），核心做法是：
+希尔问题（Hill's problem）是圆型限制性三体问题（CR3BP）在小质量比极限 $\mu\to 0$ 下、并取原点在较小主天体（如地球）邻域得到的简化形式。George William Hill 在 1878 年研究月球运动时引入此模型\cite{hillResearchesLunarTheory1878,szebehelyTheoryOrbitRestricted1967}，Szebehely 1967 年第 10.4 节有系统论述，核心做法是：
 
 1. 取太阳视差为零（太阳位于无穷远、引力为均匀潮汐场）。
 2. 取太阳轨道偏心率为零（圆形日地轨道）。
@@ -48,7 +48,7 @@ $$
 \ddot{\vec r}+2\vec\omega\times\dot{\vec r}+\vec\omega\times(\vec\omega\times\vec r)=-\frac{\mu_1}{r_1^3}\vec r_1-\frac{\mu_2}{r_2^3}\vec r_2,
 $$
 
-将原点平移到 $P_2$（较小主天体）处，令 $\vec\rho=\vec r-\vec r_2$，并设 $\mu=m_2/(m_1+m_2)\ll 1$。在 $|\vec\rho|\ll|\vec r_2|$ 的局部区域内对 $P_1$ 的引力做 Taylor 展开，保留到 $\mu^{2/3}$ 量级，得到 Hill 方程的标准形式（Szebehely 1967, §10.4；Scheeres 1998）：
+将原点平移到 $P_2$（较小主天体）处，令 $\vec\rho=\vec r-\vec r_2$，并设 $\mu=m_2/(m_1+m_2)\ll 1$。在 $|\vec\rho|\ll|\vec r_2|$ 的局部区域内对 $P_1$ 的引力做 Taylor 展开，保留到 $\mu^{2/3}$ 量级，得到 Hill 方程的标准形式\cite{scheeresRestrictedHillFourbody1998}：
 
 $$
 \ddot{x}-2n\dot{y}=\Omega_x,\qquad \ddot{y}+2n\dot{x}=\Omega_y,\qquad \ddot{z}=\Omega_z,
@@ -62,7 +62,7 @@ $$
 
 ### 由原始三体方程推导
 
-Hill 本人从日-地-月三体方程出发（Szebehely 1967, §10.4.2），写出月球相对地球的运动方程：
+Hill 本人从日-地-月三体方程出发，写出月球相对地球的运动方程，推导见 Szebehely 1967 年第 10.4.2 节：
 
 $$
 \ddot{\vec\rho}_M+\frac{G(m_E+m_M)}{|\vec\rho_M|^3}\vec\rho_M=-Gm_S\!\left[\frac{\vec\rho_M-\vec\rho_S}{|\vec\rho_M-\vec\rho_S|^3}+\frac{\vec\rho_S}{|\vec\rho_S|^3}\right],
@@ -106,7 +106,7 @@ $$
 
 ## 与 Clohessy-Wiltshire 相对运动方程的关系
 
-将 Hill 问题中较大主天体（如地球）视为目标、第三体（航天器）视为追踪器，在目标轨道为圆轨道的假设下线性化，得到著名的 Clohessy-Wiltshire 方程（CW 方程、Hill 相对运动方程，Clohessy & Wiltshire 1960；Vallado 2022, §6.8）：
+将 Hill 问题中较大主天体（如地球）视为目标、第三体（航天器）视为追踪器，在目标轨道为圆轨道的假设下线性化，得到著名的 Clohessy-Wiltshire 方程，即 CW 方程或 Hill 相对运动方程\cite{clohessy1960terminal,valladoFundamentalsAstrodynamicsApplications2022}：
 
 $$
 \ddot{x}-2n\dot{x}-3n^2 x = f_x,\quad \ddot{y}+2n\dot{x}=f_y,\quad \ddot{z}+n^2 z=f_z,
@@ -114,7 +114,7 @@ $$
 
 其中 $(x,y,z)$ 是追踪器相对目标的 LVLH 坐标、$n$ 是目标轨道角速度、$\vec f$ 是控制加速度。CW 方程本质上是 Hill 问题方程在圆轨道邻域的线性化形式，因此与 Hill 问题共享同样的科氏+离心+潮汐结构，只是把原点从较大主天体换成在轨目标。该方程是近地轨道 [编队飞行](/glossary/dynamics/spacecraft-formation-flying/) 与交会对接相对运动分析的标准工具。
 
-需要注意：当目标轨道偏心率较大、轨道高度较低或编队尺寸达到千米量级时，CW 方程的圆轨道假设带来的误差会迅速增大（Vallado 2022 §6.8.3）。
+需要注意：当目标轨道偏心率较大、轨道高度较低或编队尺寸达到千米量级时，CW 方程的圆轨道假设带来的误差会迅速增大，见 Vallado 2022 年第 6.8.3 节。
 
 ## 与 CR3BP 的连接与角色
 
@@ -124,7 +124,7 @@ Hill 问题作为 CR3BP 的 $\mu\to 0$ 极限，对地月系（$\mu\approx 0.012
 - 卫星稳定性判据：Hill 半径是判断卫星是否稳定的基本尺度，远距逆行轨道（DRO）的稳定范围即由 Hill 曲面的拓扑决定。
 - 平动点邻域动力学：地月 $L_1$、$L_2$ 邻域的局部行为在 Hill 极限下变得可解析处理，许多 Halo/Lyapunov 轨道族的解析近似（如 Richardson 三阶展开）就是基于 Hill 问题线性化。
 - 数值延续：Hill 问题中的周期轨道族可作为起点，经质量参数 $\mu$ 的连续延拓（continuation）回到完整的 CR3BP，再过渡到高精度星历模型，是 [共振](/glossary/dynamics/orbital-resonance/)、[平动点轨道](/glossary/orbits/halo-orbit/) 数值延续工作流的常见起点。
-- 受限四体问题推广：Scheeres (1998) 把 Hill 问题推广为含两套潮汐项的受限 Hill 四体问题，可用于日地月三主天体环境下航天器运动的近似建模。
+- 受限四体问题推广：Scheeres（1998）把 Hill 问题推广为含两套潮汐项的受限 Hill 四体问题，可用于日地月三主天体环境下航天器运动的近似建模。
 
 ## 应用要点
 
@@ -143,9 +143,5 @@ Hill 问题作为 CR3BP 的 $\mu\to 0$ 极限，对地月系（$\mu\approx 0.012
 
 ## 参考文献
 
-- Hill, G. W. (1878). Researches in the lunar theory. *American Journal of Mathematics*, 1(1), 5–26.
-- Szebehely, V. (1967). *Theory of Orbits: The Restricted Problem of Three Bodies*, Chapter 10. Academic Press.
-- Clohessy, W. H., & Wiltshire, R. S. (1960). Terminal guidance system for satellite rendezvous. *Journal of the Aerospace Sciences*, 27(9), 653–658.
-- Scheeres, D. J. (1998). The restricted Hill four-body problem with applications to the Earth–Moon–Sun system. *Celestial Mechanics and Dynamical Astronomy*, 70(2), 75–98.
-- Vallado, D. A. (2022). *Fundamentals of Astrodynamics and Applications*, 5th ed., §6.8 (Hill's / Clohessy-Wiltshire equations).
-- Hénon, M. (1969). Numerical exploration of the restricted problem, V: Hill's case. *Astronomy & Astrophysics*, 1, 223–238.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York, Chapter 10
+- Hénon, 1969, *Numerical exploration of the restricted problem. V. Hill's case: periodic orbits and their stability*, Astronomy and Astrophysics, 1: 223-238

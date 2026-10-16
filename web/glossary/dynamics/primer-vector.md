@@ -1,6 +1,6 @@
 ---
 title: 先驱向量（Primer Vector）
-description: Lawden 1963 提出的最优推力向量 p(t)=-λ_v(t)，是连续推力与脉冲推力两类最优转移一阶必要条件的统一表达：连续推力下决定最优推力方向与节流开关。脉冲转移下规定脉冲时刻、方向与是否需要追加脉冲。涵盖先驱向量方程、脉冲必要条件（Lion-Handelsman 1968）、协态-控制变换、推力幅值切换，以及地月空间的应用要点。
+description: Lawden 1963 提出的最优推力向量 p(t)=-λ_v(t)，是连续推力与脉冲推力两类最优转移一阶必要条件的统一表达：连续推力下决定最优推力方向与节流开关。脉冲转移下规定脉冲时刻、方向与是否需要追加脉冲。涵盖先驱向量方程、Lion-Handelsman 1968 给出的脉冲必要条件、协态-控制变换、推力幅值切换，以及地月空间的应用要点。
 keywords: 先驱向量, Primer Vector, 引燃向量, Lawden, 协态速度, 切换函数, 最优推力方向, 脉冲转移最优性, Lion-Handelsman, Jezewski-Rozendaal, 间接法
 author: 天疆说
 date: 2026-07-31
@@ -30,13 +30,13 @@ permalink: /glossary/dynamics/primer-vector/
 
 ## 定义
 
-先驱向量（primer vector）是 Lawden（1963）在其奠基著作《Optimal Trajectories for Space Navigation》中引入的术语，定义为速度协态变量的负值：
+先驱向量（primer vector）是 Lawden 于 1963 年在其奠基著作《Optimal Trajectories for Space Navigation》中引入的术语，定义为速度协态变量的负值：
 
 $$
 \mathbf{p}(t)\equiv-\boldsymbol{\lambda}_v(t).
 $$
 
-它是 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 在带推力航天器最优控制问题中的核心伴随量：连续推力情形下决定最优推力方向与节流时刻，脉冲推力情形下决定脉冲施加时刻、方向及是否需要追加脉冲。术语本身源自 Lawden 二战服役于炮兵的经历：炮弹药筒的火药由底火（primer charge）引燃，$p=1$ 即点火信号（Lawden 致 Prussing 的私人信件，1990；Prussing 2010）。
+它是 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 在带推力航天器最优控制问题中的核心伴随量：连续推力情形下决定最优推力方向与节流时刻，脉冲推力情形下决定脉冲施加时刻、方向及是否需要追加脉冲。术语本身源自 Lawden 二战服役于炮兵的经历：炮弹药筒的火药由底火（primer charge）引燃，$p=1$ 即点火信号，这一说法源自 Lawden 于 1990 年致 Prussing 的私人信件\cite{prussingPrimerVectorTheory2010}。
 
 中译并不统一：先驱向量、引燃向量、初始向量在文献中均出现，本文采用先驱向量，因其不含火器隐喻又保留了 $\mathbf{p}(t)$ 在最优控制律中的先行指示作用。
 
@@ -76,11 +76,11 @@ $$
 \ddot{\mathbf{p}}=G(\mathbf{r})\,\mathbf{p}.
 $$
 
-这是先驱向量沿轨迹演化的二阶线性微分方程（Lawden 1963, Ch. 3；Prussing 2010, Eq. 2.19）。它与状态变分方程同构：其状态转移矩阵即为轨道变分方程的转移矩阵，因此可借助 [状态转移矩阵方法](/glossary/dynamics/co-state-variables/) 一并数值传播。在二体问题中 $G(\mathbf{r})=\mu(3\hat{\mathbf{r}}\hat{\mathbf{r}}^{\mathrm{T}}-I)/r^3$，先驱向量方程存在解析基础（Prussing 1993）。
+这是先驱向量沿轨迹演化的二阶线性微分方程，见 Lawden 1963 Ch. 3。它与状态变分方程同构：其状态转移矩阵即为轨道变分方程的转移矩阵，因此可借助 [状态转移矩阵方法](/glossary/dynamics/co-state-variables/) 一并数值传播。在二体问题中 $G(\mathbf{r})=\mu(3\hat{\mathbf{r}}\hat{\mathbf{r}}^{\mathrm{T}}-I)/r^3$，先驱向量方程存在解析基础\cite{prussingEquationOptimalPowerlimited1993}。
 
 ## 连续推力情形的必要条件
 
-定常比冲（CSI）最优控制问题中，先驱向量满足（Lawden 1963；Conway 2010, Ch. 2）：
+定常比冲（CSI）最优控制问题中，先驱向量满足下列条件\cite{conwaySpacecraftTrajectoryOptimization2010}，见 Ch. 2 与 Lawden 1963：
 
 1. $\mathbf{p}(t)$ 及 $\dot{\mathbf{p}}(t)$ 处处连续。
 2. 最优推力方向 $\boldsymbol{\alpha}^{*}=\mathbf{p}/\|\mathbf{p}\|$。
@@ -91,28 +91,28 @@ Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧�
 
 ## 脉冲推力情形：Lawden-Lion-Handelsman 必要条件
 
-高推力近似下，MT 弧收缩为瞬时脉冲。Lawden（1963）首次写出脉冲最优性的一阶必要条件，Lion 与 Handelsman（1968）将其整理为工程可用形式：
+高推力近似下，MT 弧收缩为瞬时脉冲。Lawden 于 1963 年首次写出脉冲最优性的一阶必要条件，Lion 与 Handelsman 于 1968 年将其整理为工程可用形式：
 
 1. $\mathbf{p}(t)$ 与 $\dot{\mathbf{p}}(t)$ 处处连续。
 2. $\|\mathbf{p}(t)\|\le 1$ 在所有时刻成立，脉冲只能在 $\|\mathbf{p}\|=1$ 的时刻施加。
 3. 在脉冲时刻，$\mathbf{p}$ 是单位向量，方向即最优脉冲方向。
 4. 在中间脉冲（非初始/终端）处 $\dot{\mathbf{p}}=\dot{\mathbf{p}}^{\mathrm{T}}\mathbf{p}/\|\mathbf{p}\|=0$。
 
-对线性系统上述条件同时是充分条件，且给出最优脉冲数的上界（Prussing 1993）。
+对线性系统上述条件同时是充分条件，且给出最优脉冲数的上界。
 
 ### Lion-Handelsman 梯度法：从非最优解到最优解
 
-实践中给定一组边界条件与转移时间，常先得到一个非最优的 $N$ 脉冲解（如双脉冲 Lambert 解）。Lion 与 Handelsman（1968）导出性能指标关于三种修正操作的梯度：
+实践中给定一组边界条件与转移时间，常先得到一个非最优的 $N$ 脉冲解（如双脉冲 Lambert 解）。Lion 与 Handelsman 于 1968 年导出性能指标关于三种修正操作的梯度：
 
 - 末端滑行（terminal coast）：推迟或提前首/末脉冲施加时刻，梯度为 $\partial J/\partial t_i=\pm\|\dot{\mathbf{p}}(t_i)\|$。
 - 追加中段脉冲（midcourse impulse）：在 $\|\mathbf{p}\|>1$ 的子弧上加入新脉冲，梯度为 $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$。
 - 脉冲位置迭代：通过 $\dot{\mathbf{p}}$ 在脉冲点不为零的量调整脉冲时刻。
 
-Jezewski 与 Rozendaal（1968）将上述梯度嵌入 非线性规划（多重打靶，参见 [间接法](/glossary/dynamics/indirect-methods/)） 框架，得到自动判定何时追加脉冲、何时启用滑行的 $N$ 脉冲迭代算法，至今仍是脉冲转移最优性检验与改进的标准工具。
+Jezewski 与 Rozendaal 于 1968 年将上述梯度嵌入 非线性规划（多重打靶，参见 [间接法](/glossary/dynamics/indirect-methods/)） 框架，得到自动判定何时追加脉冲、何时启用滑行的 $N$ 脉冲迭代算法，至今仍是脉冲转移最优性检验与改进的标准工具。
 
 ## 与协态-控制变换的关系
 
-由 $\mathbf{p}=-\boldsymbol{\lambda}_v$ 与节流条件 $u^{*}=\mathrm{sign}(-\Phi)$ 可见，最优控制可完全由先驱向量与质量协态 $\lambda_m$ 表达。这一观察是 [协态-控制变换](/glossary/dynamics/adjoint-control-transformation/) 与协态归一化的出发点：将打靶变量从完整协态向量换成 $(\mathbf{p},\lambda_m)$ 或进一步约束在单位球面上，可显著缩减间接法搜索维度（Taheri 等 2016；详见 [协态变量](/glossary/dynamics/co-state-variables/)）。
+由 $\mathbf{p}=-\boldsymbol{\lambda}_v$ 与节流条件 $u^{*}=\mathrm{sign}(-\Phi)$ 可见，最优控制可完全由先驱向量与质量协态 $\lambda_m$ 表达。这一观察是 [协态-控制变换](/glossary/dynamics/adjoint-control-transformation/) 与协态归一化的出发点：将打靶变量从完整协态向量换成 $(\mathbf{p},\lambda_m)$ 或进一步约束在单位球面上，可显著缩减间接法搜索维度\cite{taheriEnhancedSmoothingTechnique2016}，详见 [协态变量](/glossary/dynamics/co-state-variables/)。
 
 ## 应用要点
 
@@ -134,11 +134,7 @@ Jezewski 与 Rozendaal（1968）将上述梯度嵌入 非线性规划（多重�
 
 ## 参考文献
 
-- Lawden, D. F. 1963. *Optimal Trajectories for Space Navigation*. Butterworths, London.（先驱向量的原始定义、连续/脉冲情形必要条件与三类弧分类）
-- Lion, P. M., and Handelsman, M. 1968. "Primer Vector on Fixed-Time Impulsive Trajectories." *AIAA Journal* 6(1): 127–132.（末端滑行与中段脉冲的代价梯度，非最优解改进方法）
-- Jezewski, D. J., and Rozendaal, H. L. 1968. "An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories." *AIAA Journal* 6(11): 2160–2165.（Lion-Handelsman 梯度的 NLP 实现，自动追加脉冲）
-- Prussing, J. E. 1993. "Equation for Optimal Power-Limited Spacecraft Trajectories." *JGCD* 16(6).（功率受限问题中先驱向量方程的解析结果）
-- Prussing, J. E. 2010. *Primer Vector Theory and Applications*. In Conway (ed.), *Spacecraft Trajectory Optimization*, Ch. 2, Cambridge Univ. Press.（先驱向量理论的现代系统综述，含脉冲必要条件表与算例）
-- Conway, B. A. (ed.) 2010. *Spacecraft Trajectory Optimization*. Cambridge Univ. Press.（间接法、直接法与脉冲方法的统一教材）
-- Bryson, A. E., and Ho, Y.-C. 1975. *Applied Optimal Control*. Hemisphere.（最优控制理论的标准教材，含协态方程与极值条件推导）
-- Taheri, E., Kolmanovsky, I., and Atkins, E. 2016. "Enhanced Smoothing Technique for Indirect Optimization of Minimum-Fuel Low-Thrust Trajectories." *JGCD* 39(11): 2500–2511.（协态归一化与先驱向量同伦的结合）
+- Lawden, D. F., 1963, *Optimal Trajectories for Space Navigation*, Butterworths, London，先驱向量的原始定义、连续/脉冲情形必要条件与三类弧分类
+- Lion, P. M., Handelsman, M., 1968, *Primer Vector on Fixed-Time Impulsive Trajectories*, AIAA Journal, 6(1): 127-132, DOI: 10.2514/3.4452，末端滑行与中段脉冲的代价梯度，非最优解改进方法
+- Jezewski, D. J., Rozendaal, H. L., 1968, *An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories*, AIAA Journal, 6(11): 2160-2165, DOI: 10.2514/3.4949，Lion-Handelsman 梯度的 NLP 实现，自动追加脉冲
+- Bryson, A. E., Ho, Y.-C., 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Halsted Press, New York，最优控制理论的标准教材，含协态方程与极值条件推导

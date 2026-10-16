@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/universal-variable-algorithm/
 
 ## 参考文献
 
-- Criscola等 - 2024
+- Criscola, Canales & Mortari, 2024, *Application of the theory of functional connections to the perturbed Lambert's problem*, Celestial Mechanics and Dynamical Astronomy, 136(5), DOI: 10.1007/s10569-024-10212-4

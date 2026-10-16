@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/bc/
 
 ## 定义
 
-描述航天器对大气阻力敏感度的物理量，定义为质量与阻力系数和截面积之比的乘积。
+描述航天器对大气阻力敏感度的物理量，定义为质量与阻力系数和截面积之比的乘积\cite{pesceModernSpacecraftGuidance2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/bc/
 - [KAM定理（KAM Theorem）](/glossary/dynamics/kam-theory/)
 - 希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）
 - 状态转移函数（State Transition Function）
-
-## 参考文献
-
-- Pesce 等 - 2023 - Modern spacecraft guidance, navigation, and control。

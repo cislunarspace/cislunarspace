@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/third-order-richardson-expansion/
 
 ## 定义
 
-对 Halo 轨道解析近似的三阶展开公式。
+对 Halo 轨道解析近似的三阶展开公式\cite{rossDynamicalSystemsThreebody2022}。
 
 ## 应用价值
 
-在三阶Richardson展开的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+在三阶Richardson展开的设计与分析中，可用于优化转移方案，减少燃料消耗。该概念为地月空间任务设计提供了重要的理论基础。在实际工程中可用于轨道设计、任务规划或控制系统分析。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/third-order-richardson-expansion/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Ross 等 - 2022 - Dynamical systems, the three-body problem, and space mission design

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/birkhoff-equations/
 
 ## 定义
 
-圆型限制性三体问题的等价运动方程组，将状态变量从 (x, y, vx, vy) 约化为 (x, y, γ)，其中 γ 是速度矢量与 x 轴的夹角。通过雅可比积分将速度大小表示为位置的函数，方程组不含显式速度分量，从而将等能面上的四维相空间降至三维，便于几何可视化。
+圆型限制性三体问题的等价运动方程组，将状态变量从 (x, y, vx, vy) 约化为 (x, y, γ)，其中 γ 是速度矢量与 x 轴的夹角。通过雅可比积分将速度大小表示为位置的函数，方程组不含显式速度分量，从而将等能面上的四维相空间降至三维，便于几何可视化\cite{pontaniPolyhedralRepresentationInvariant2016}。
 
 ## 应用价值
 
@@ -44,5 +44,4 @@ permalink: /glossary/dynamics/birkhoff-equations/
 
 ## 参考文献
 
-- Lunar capture trajectories and homoclinic connections through isomorphic mapping (Giancotti et al., 2012)
-- Pontani和Teofilatto - 2016 - Polyhedral representation of invariant manifolds applied to orbit transfers in the Earth–moon system
+- Giancotti, Pontani, and Teofilatto, 2012, *Lunar capture trajectories and homoclinic connections through isomorphic mapping*, Celestial Mechanics and Dynamical Astronomy, 114(1–2): 55–76, DOI: 10.1007/s10569-012-9435-x

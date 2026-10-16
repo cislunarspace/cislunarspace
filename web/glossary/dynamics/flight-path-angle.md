@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/flight-path-angle/
 
 ## 定义
 
-当地速度方向与当地水平面之间的夹角。航迹角决定了推力在径向和横向分量之间的分配，是小推力轨迹设计中的关键几何参数。切向推力假设下航迹角等于推力角。
+当地速度方向与当地水平面之间的夹角。航迹角决定了推力在径向和横向分量之间的分配，是小推力轨迹设计中的关键几何参数。切向推力假设下航迹角等于推力角\cite{vellutiniShapebasedDesignLowthrust2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/flight-path-angle/
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
 - 递归遗忘因子估计（Recursive Forgetting Factor Estimation）
-
-## 参考文献
-
-- Vellutini & Avanzini, 2014, Shape-based design of low-thrust trajectories to cislunar lagrangian point

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/initial-condition-sensitivity/
 
 ## 参考文献
 
-- Catlin and McLaughlin, 2007
+- Catlin, McLaughlin, 2007, *Earth-Moon Triangular Libration Point Spacecraft Formations*, Journal of Spacecraft and Rockets, 44(3): 660-670, DOI: 10.2514/1.20152

@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/hill-region-and-hill-problem/
 
 ## 定义
 
-Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量。给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影（Szebehely 1967；Topputo 2013）。物理直观：质点在禁区内的势能大于总能量，无法到达。
+Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量。给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影\cite{szebehelyTheoryOrbitRestricted1967,topputoOptimalTwoimpulseEarth2013a}。物理直观：质点在禁区内的势能大于总能量，无法到达。
 
 ## 五种拓扑构型
 
-雅可比常数 $C$ 在五个平动点处的取值 $C(L_1), C(L_2), C(L_3), C(L_4)=C(L_5)$ 把问题分成五种几何形态（Sousa-Silva 等 2018；Szebehely 1967）：
+雅可比常数 $C$ 在五个平动点处的取值 $C(L_1), C(L_2), C(L_3), C(L_4)=C(L_5)$ 把问题分成五种几何形态\cite{sousa-silvaFastEarthMoon2018}：
 
 1. $C > C(L_1)$：区域由两个互不连通的天体邻域组成，质点在主天体间不能穿越。
 2. $C(L_2) < C < C(L_1)$：两区域在地球与 L1 之间的颈处连通，质点可在两主天体间通行。
@@ -46,7 +46,7 @@ C 越小，允许区域越大、通行性越强。这一判据决定了探测器
 
 ## Hill 稳定性
 
-Hill 稳定性（Hill stability）指三体系统中相互距离保持有界的条件：当质点的雅可比常数满足 $C > C(L_1)$（对圆型限制性三体问题），或一般三体问题中相应的能量判据成立时，较小主天体不会脱离另一主天体而逃逸，距离保持有界。该概念可部分推广到一般三体问题（Marchal 1990；Szebehely 1967），是判断轨道长期有界、区分逃逸/非逃逸与束缚运动的常用工具。
+Hill 稳定性（Hill stability）指三体系统中相互距离保持有界的条件：当质点的雅可比常数满足 $C > C(L_1)$（对圆型限制性三体问题），或一般三体问题中相应的能量判据成立时，较小主天体不会脱离另一主天体而逃逸，距离保持有界。该概念可部分推广到一般三体问题\cite{marchalThreebodyProblem1990}，是判断轨道长期有界、区分逃逸/非逃逸与束缚运动的常用工具。
 
 ## Hill 问题：质量参数趋于零的极限模型
 
@@ -54,11 +54,11 @@ Hill 问题（Hill problem / Hill's problem）是限制性三体问题在质量�
 
 $\ddot{x} - 2\dot{y} = 3x - \frac{x}{r^3}$，$\ddot{y} + 2\dot{x} = -\frac{y}{r^3}$，$\ddot{z} = -\frac{z}{r^3}$
 
-（无量纲化、$r=\sqrt{x^2+y^2+z^2}$）。该模型保留了限制性三体问题的主要动力学特征：存在雅可比型运动积分、周期轨道按单参数族组织（Hénon 的经典族划分）、在会合系中周期为 $2\pi$。它是推导和分类地月转移基本周期轨道族的理论起点，也是理解更复杂三体动力学的入门模型（Hénon 1969；Mingotti 等 2012；Gómez 等 2001）。Gómez 和 Marcote 给出 Hill 方程的高阶解析解（Gómez 和 Marcote 2006）。
+（无量纲化、$r=\sqrt{x^2+y^2+z^2}$）。该模型保留了限制性三体问题的主要动力学特征：存在雅可比型运动积分、周期轨道按单参数族组织（Hénon 的经典族划分）、在会合系中周期为 $2\pi$。它是推导和分类地月转移基本周期轨道族的理论起点，也是理解更复杂三体动力学的入门模型\cite{henonNumericalExplorationRestricted1969,mingottiTransfersDistantPeriodic2012}，Gómez 等 2001 年亦有系统论述。Gómez 和 Marcote 给出了 Hill 方程的高阶解析解\cite{gomezHighorderAnalyticalSolutions2006}。
 
 ## Hill 模型与三体 Lambert 求解
 
-Hill 模型在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解。Sukhanov 和 Prado 基于此提出了收敛性较好的 Lambert 求解算法（Sukhanov 和 Prado 2004）。该用法与Hill 区域Hill 问题指代不同对象，注意区分。
+Hill 模型在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解。Sukhanov 和 Prado 2004 年基于此提出了收敛性较好的 Lambert 求解算法。该用法与Hill 区域Hill 问题指代不同对象，注意区分。
 
 ## 相关概念
 
@@ -74,18 +74,10 @@ Hill 模型在工程文献中有另一种用法：把限制性三体问题在航
 
 ## 参考文献
 
-- Szebehely, 1967, Theory of Orbits: The Restricted Problem of Three Bodies（Hill 区域与五种构型经典出处）
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York，Hill 区域与五种构型经典出处
 
-- Marchal, 1990, The Three-Body Problem（Hill 稳定性）
+- Hénon, 1969, *Numerical exploration of the restricted problem. V. Hill's case: periodic orbits and their stability*, Astronomy and Astrophysics, 1: 223-238，Hill 问题周期轨道族
 
-- Hénon, 1969, Numerical exploration of the restricted problem. V（Hill 问题周期轨道族）
+- Sukhanov and Prado, 2004, *Lambert problem solution in the Hill model of motion*, Celestial Mechanics and Dynamical Astronomy, 90(3-4): 331-354, DOI: 10.1007/s10569-004-1508-z，Hill 模型 Lambert 求解
 
-- Gómez 和 Marcote, 2006, High-order analytical solutions of Hill's equations
-
-- Mingotti 等, 2012, Transfers to distant periodic orbits around the Moon via their invariant manifolds（Hill 问题作为轨道族理论起点）
-
-- Sukhanov 和 Prado, 2004（Hill 模型 Lambert 求解）
-
-- Sousa-Silva 等，2018, Fast Earth-Moon transfers with ballistic capture（五种 Hill 区域构型）
-
-- Topputo, 2013（能量流形投影与可达集）
+- Topputo, 2013, *On optimal two-impulse Earth-Moon transfers in a four-body model*, Celestial Mechanics and Dynamical Astronomy, 117(3): 279-313, DOI: 10.1007/s10569-013-9513-8，能量流形投影与可达集

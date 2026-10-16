@@ -44,4 +44,4 @@ permalink: /glossary/dynamics/targeting-threshold/
 
 ## 参考文献
 
-- Shimane et al. 2025
+- Shimane, Ho & Weiss, 2025, *Optimization-Based Phase-Constrained x-Axis Crossing Control for Station-Keeping on Libration Point Orbits*, The Journal of the Astronautical Sciences, 72(6), DOI: 10.1007/s40295-025-00543-1

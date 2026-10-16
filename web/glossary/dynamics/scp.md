@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/scp/
 
 ## 定义
 
-序列凸规划（sequential convex programming, SCP，又称 successive convexification、SCvx）是 [直接法](/glossary/dynamics/direct-methods/) 中针对非凸最优控制问题的一类方法：在参考轨迹 $\mathbf{x}^{*}(t)$ 处对非线性动力学做一阶 Taylor 展开，配合信赖域约束、对非凸控制约束做无损凸化，把原问题转换为一系列二阶锥规划（SOCP）子问题。每次迭代用 SOCP 解更新参考轨迹，直到 $\|\mathbf{x}^{(n)}-\mathbf{x}^{(n-1)}\|$ 收敛（Acikmese & Ploen 2007；Szmuk et al. 2017；Wang & Grant 2018）。
+序列凸规划（sequential convex programming, SCP，又称 successive convexification、SCvx）是 [直接法](/glossary/dynamics/direct-methods/) 中针对非凸最优控制问题的一类方法：在参考轨迹 $\mathbf{x}^{*}(t)$ 处对非线性动力学做一阶 Taylor 展开，配合信赖域约束、对非凸控制约束做无损凸化，把原问题转换为一系列二阶锥规划（SOCP）子问题。每次迭代用 SOCP 解更新参考轨迹，直到 $\|\mathbf{x}^{(n)}-\mathbf{x}^{(n-1)}\|$ 收敛，相关框架见 Acikmese 和 Ploen 2007 与 Szmuk 等 2017\cite{wangMinimumfuelLowthrustTransfers2018}。
 
 与一般 [直接配点法](/glossary/dynamics/direct-collocation/) 求解 NLP 不同，SCP 子问题是凸的：
 
@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/scp/
 - 用户提供初值不影响内点法启动（self-dual embedding 自动构造可行起点）。
 - 全局最优性在子问题级别可保证（虽然原非凸问题仍是局部最优）。
 
-这些性质使 SCP 适合实时/on-board 应用，这是它与一般 NLP 直接法的核心区别（Acikmese & Ploen 2007）。
+这些性质使 SCP 适合实时/on-board 应用，这是它与一般 NLP 直接法的核心区别。
 
 ## 数学形式
 
@@ -58,15 +58,15 @@ $$A(t)=\frac{\partial\mathbf{f}}{\partial\mathbf{x}}\bigg|_{\mathbf{x}^{(n-1)}},
 
 很多航天问题的非凸性来自控制约束，而非动力学。典型例子是动力下降的推力幅值约束 $\rho_2\leq\|\mathbf{T}_c\|\leq\rho_1$：下界非零导致可行集是环，非凸。引入松弛变量 $\Gamma\geq\|\mathbf{T}_c\|$，把控制约束改为凸锥 $\|\mathbf{T}_c\|\leq\Gamma,\ \rho_2\leq\Gamma\leq\rho_1$，构造松弛问题。
 
-Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛问题的最优解必然落在原始非凸可行集上，因此松弛不损失最优性（lossless）。这一结果后来推广到一般控制仿射问题（Wang & Grant 2018）。
+Acikmese 和 Ploen 在 2007 年的关键 Lemma 证明：在一定条件下，松弛问题的最优解必然落在原始非凸可行集上，因此松弛不损失最优性（lossless）。这一结果后来推广到一般控制仿射问题。
 
 ### 虚拟控制（virtual control）
 
-线性化可能产生原始问题可行但子问题不可行的人工不可行（artificial infeasibility）。引入未受限的虚拟控制 $\boldsymbol{\nu}$ 加入线性化动力学约束，使子问题恒可行。在代价函数里对 $\|\boldsymbol{\nu}\|$ 加大权重，迫使收敛时 $\boldsymbol{\nu}\to\mathbf{0}$。若收敛后 $\boldsymbol{\nu}=\mathbf{0}$，则子问题解严格满足非线性动力学（Szmuk et al. 2017）。
+线性化可能产生原始问题可行但子问题不可行的人工不可行（artificial infeasibility）。引入未受限的虚拟控制 $\boldsymbol{\nu}$ 加入线性化动力学约束，使子问题恒可行。在代价函数里对 $\|\boldsymbol{\nu}\|$ 加大权重，迫使收敛时 $\boldsymbol{\nu}\to\mathbf{0}$。若收敛后 $\boldsymbol{\nu}=\mathbf{0}$，则子问题解严格满足非线性动力学。
 
 ### 信赖域与收敛判据
 
-信赖域半径 $\delta_n$ 自适应调整：若实际代价下降 $\Delta J_{\text{act}}$ 与预测下降 $\Delta J_{\text{pred}}$ 之比 $r_n$ 接近 1（线性化准确），扩大 $\delta_{n+1}$。若 $r_n$ 接近 0（线性化不准），缩小 $\delta_{n+1}$。Hofmann & Topputo（2021）采用 $\rho_i,\alpha_i,\beta_i$ 三段调整策略。
+信赖域半径 $\delta_n$ 自适应调整：若实际代价下降 $\Delta J_{\text{act}}$ 与预测下降 $\Delta J_{\text{pred}}$ 之比 $r_n$ 接近 1（线性化准确），扩大 $\delta_{n+1}$。若 $r_n$ 接近 0（线性化不准），缩小 $\delta_{n+1}$。Hofmann 和 Topputo 采用 $\rho_i,\alpha_i,\beta_i$ 三段调整策略\cite{hofmannRapidLowthrustTrajectory2021}。
 
 收敛判据通常包含三项：动力学违反 $\epsilon_c\to 0$、代价变化 $\epsilon_\phi\to 0$、虚拟控制 $\|\boldsymbol{\nu}\|\to 0$。
 
@@ -76,7 +76,7 @@ Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛�
 - GUSTO（Mao, Szmuk, Acikmese）：基于成功步/失败步的两阶段策略，工程实现友好。
 - ECIPS / cvxgen：嵌入式代码生成，用于星载实时求解。
 - PC-SCoP（相位约束序列锥规划）：多相问题扩展，在相间事件处施加线性化约束。
-- 逐次凸优化 + 切换时刻提取（Hofmann-Topputo 2021）：用 FRPM 离散化，配合 bang-off-bang 控制的网加密，可精确捕捉低推力燃料最优的开关结构。
+- 逐次凸优化与切换时刻提取：用 FRPM 离散化，配合 bang-off-bang 控制的网加密，可精确捕捉低推力燃料最优的开关结构。
 
 ## 与直接配点 / 伪谱法的对比
 
@@ -91,10 +91,10 @@ Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛�
 
 ## 应用要点
 
-- 动力下降制导：火星/月球定点着陆是 SCP 的杀手锏应用：Acikmese & Ploen 的 lossless convexification 是为该问题量身定做，已用于 SpaceX Starship 的 on-board 实时规划（Acikmese & Ploen 2007；Song et al. 2021）。
-- 低推力转移：日地/地月低推力多圈燃料最优转移，Wang & Grant 首次把 SCP 用于该类问题。Hofmann-Topputo 推广到行星际、配合 hp-Radau + bang-off-bang 加密（Wang & Grant 2018；Hofmann & Topputo 2021）。
-- 地月平动点转移：Halo↔NRHO 等高非线性区域，Kayama 等（2022）证明 SCP 在 CR3BP 邻域仍可收敛，但需推力延续法（从大加速度逐步降至任务推力）才能在低加速度下不出发散。
-- 碰撞规避与交会：近场 RPO、被动安全交会，用 SCP 求解带凸化保持约束的转移（Elango et al. 2025）。
+- 动力下降制导：火星/月球定点着陆是 SCP 的杀手锏应用：Acikmese & Ploen 的 lossless convexification 是为该问题量身定做，已用于 SpaceX Starship 的 on-board 实时规划\cite{Song2021}。
+- 低推力转移：日地/地月低推力多圈燃料最优转移，Wang & Grant 首次把 SCP 用于该类问题，Tang 和 Conway 则把间接法与序列凸规划结合起来求解同类问题\cite{tangFueloptimalLowthrustTrajectory2018}。Hofmann 和 Topputo 推广到行星际、配合 hp-Radau + bang-off-bang 加密。
+- 地月平动点转移：Halo 与 NRHO 之间的转移等高非线性区域，Kayama 等 2022 证明 SCP 在 CR3BP 邻域仍可收敛，但需推力延续法（从大加速度逐步降至任务推力）才能在低加速度下不出发散。
+- 碰撞规避与交会：近场 RPO、被动安全交会，用 SCP 求解带凸化保持约束的转移\cite{elangoSuccessiveConvexificationPassivelysafe2025}。
 
 ## 相关概念
 
@@ -108,12 +108,7 @@ Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛�
 
 ## 参考文献
 
-- Acikmese, B., & Ploen, S. R. (2007). Convex programming approach to powered descent guidance for Mars landing. *Journal of Guidance, Control, and Dynamics*, 30(5), 1353–1366.
-- Szmuk, M., Reynolds, T. P., & Acikmese, B. (2017). Successive convexification for real-time six-degree-of-freedom powered descent guidance. *Journal of Guidance, Control, and Dynamics*.
-- Wang, Z., & Grant, M. J. (2018). Minimum-fuel low-thrust transfers for spacecraft: a convex approach. *IEEE Transactions on Aerospace and Electronic Systems*.
-- Hofmann, C., & Topputo, F. (2021). Rapid low-thrust trajectory optimization in deep space based on convex programming. *Journal of Guidance, Control, and Dynamics*.
-- Kayama, H., 等. (2022). Low-thrust trajectory design with successive convex optimization for libration point orbits.
-- Song, Z., 等. (2021). Adaptive powered descent guidance based on multi-phase pseudospectral convex optimization.
-- Tang, S., & Conway, B. A. (2018). Fuel-optimal low-thrust trajectory optimization using indirect method and successive convex programming.
-- Elango, A., 等. (2025). Successive convexification for passively-safe spacecraft rendezvous on near rectilinear halo orbit.
-- Mao, Y., Szmuk, M., & Acikmese, B. (2016). Successive convexification of non-convex optimal control problems and its convergence properties. *IEEE CDC*.
+- Acikmese and Ploen, 2007, *Convex Programming Approach to Powered Descent Guidance for Mars Landing*, Journal of Guidance, Control, and Dynamics, 30(5): 1353-1366, DOI: 10.2514/1.27553
+- Szmuk, Reynolds and Acikmese, 2020, *Successive Convexification for Real-Time Six-Degree-of-Freedom Powered Descent Guidance with State-Triggered Constraints*, Journal of Guidance, Control, and Dynamics, 43(8): 1399-1413, DOI: 10.2514/1.G004549
+- Kayama et al., 2022, *Low-Thrust Trajectory Design with Successive Convex Optimization for Libration Point Orbits*, Journal of Guidance, Control, and Dynamics, 45(4): 623-637, DOI: 10.2514/1.G005916
+- Mao, Szmuk and Acikmese, 2016, *Successive Convexification of Non-Convex Optimal Control Problems and Its Convergence Properties*, 2016 IEEE 55th Conference on Decision and Control (CDC), 3636-3641, DOI: 10.1109/CDC.2016.7798816

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/cmdp/
 
 ## 参考文献
 
-- Yuan 等 - 2024。
+- Yuan et al., 2024, *Toward the Age in Cislunar Communication: An AoI-optimal Multi-Relay Constellation with Heterogeneous Orbits*, IEEE Journal on Selected Areas in Communications, 42(5): 1420-1435, DOI: 10.1109/JSAC.2024.3365892

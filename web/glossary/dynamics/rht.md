@@ -45,5 +45,5 @@ permalink: /glossary/dynamics/rht/
 
 ## 参考文献
 
-- Zhang et al., 2022
-- Williams et al., 2017
+- Zhang et al., 2022, *Performance Analysis of Impulsive Station-Keeping Strategies for Cis-Lunar Orbits with the Ephemeris Model*, Acta Astronautica, 198: 152-160, DOI: 10.1016/j.actaastro.2022.05.054
+- Williams et al., 2017, *Targeting Cislunar Near Rectilinear Halo Orbits for Human Space Exploration*, AAS 17-267

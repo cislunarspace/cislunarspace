@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/tube-structure/
 
 ## 参考文献
 
-- DOI:10.16804/j.cnki.issn1006-3242.2023.05.009
+- DOI:10.16804/j.cnki.issn1006-3242.2023.05.009，题录待补

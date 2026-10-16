@@ -44,4 +44,4 @@ permalink: /glossary/dynamics/cylindrical-isomorphic-mapping/
 
 ## 参考文献
 
-- Lunar capture trajectories and homoclinic connections through isomorphic mapping (Giancotti et al., 2012)
+- Giancotti, Pontani and Teofilatto, 2012, *Lunar capture trajectories and homoclinic connections through isomorphic mapping*, Celestial Mechanics and Dynamical Astronomy, 114(1-2): 55-76, DOI: 10.1007/s10569-012-9435-x

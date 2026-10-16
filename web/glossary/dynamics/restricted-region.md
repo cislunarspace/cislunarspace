@@ -43,5 +43,5 @@ permalink: /glossary/dynamics/restricted-region/
 
 ## 参考文献
 
-- Penzo, P. A. Direct Lunar Trajectories with Specified Landing Site and Flight Time. NASA CR-132100, 1961.
-- Anderson, R. L., & Parker, J. S. Survey of ballistic transfer opportunities to low lunar orbit. Journal of Guidance, Control, and Dynamics, 2012, 35(4): 1158-1167.
+- Penzo, P. A. Direct Lunar Trajectories with Specified Landing Site and Flight Time. NASA CR-132100, 1961，题录待补
+- Parker, Anderson and Peterson, 2013, *Surveying Ballistic Transfers to Low Lunar Orbit*, Journal of Guidance, Control, and Dynamics, 36(5): 1501-1511, DOI: 10.2514/1.55661

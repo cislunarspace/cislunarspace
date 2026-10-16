@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/collision-curve/
 
 ## 定义
 
-在共振相平面（如 e-σ 平面）上，航天器与月球之间距离为零的曲线。碰撞曲线标记了物理上不可达的区域边界，周期共振轨道必须位于碰撞曲线以外。它是分析共振相空间结构时的重要几何参考。
+在共振相平面（如 e-σ 平面）上，航天器与月球之间距离为零的曲线。碰撞曲线标记了物理上不可达的区域边界，周期共振轨道必须位于碰撞曲线以外。它是分析共振相空间结构时的重要几何参考\cite{dingCislunarSpaceSituational2025}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/collision-curve/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- Ding et al., 2025：Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits

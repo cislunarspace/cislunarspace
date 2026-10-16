@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/im/
 
 ## 定义
 
-航天器沿不稳定流形飞抵连接点时施加的脉冲机动，使其转入稳定流形并被L1点Halo轨道捕获。
+航天器沿不稳定流形飞抵连接点时施加的脉冲机动，使其转入稳定流形并被L1点Halo轨道捕获\cite{tengAutonomousOrbitDetermination2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/im/
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-Teng 等 - 2025

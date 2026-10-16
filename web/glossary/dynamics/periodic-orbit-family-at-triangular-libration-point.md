@@ -41,5 +41,5 @@ permalink: /glossary/dynamics/periodic-orbit-family-at-triangular-libration-poin
 
 ## 参考文献
 
-- Gómez, G., Llibre, J., Martínez, R., & Simó, C. Dynamics and Mission Design Near Libration Points - Vol. 1: Fundamentals. World Scientific, 2001.
-- Szebehely, V. Theory of Orbits: The Restricted Problem of Three Bodies. Academic Press, 1967.
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, Singapore, DOI: 10.1142/9789812810632
+- Szebehely, V., 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York

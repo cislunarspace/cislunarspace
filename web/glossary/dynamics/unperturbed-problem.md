@@ -41,5 +41,5 @@ permalink: /glossary/dynamics/unperturbed-problem/
 
 ## 参考文献
 
-- Szebehely, V. Theory of Orbits: The Restricted Problem of Three Bodies. Academic Press, 1967.
-- Roy, A. E. Orbital Motion (4th Edition). Institute of Physics Publishing, 2005.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press
+- Roy, 2005, *Orbital Motion*, 4th Edition, Institute of Physics Publishing

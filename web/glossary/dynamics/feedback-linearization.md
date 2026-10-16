@@ -45,5 +45,5 @@ permalink: /glossary/dynamics/feedback-linearization/
 
 ## 参考文献
 
-- Elobaid et al. 2022
-- Sanna等 - 2024
+- Elobaid, Monaco and Normand-Cyrot, 2022, *Approximate Transverse Feedback Linearization Under Digital Control*, IEEE Control Systems Letters, 6: 13-18, DOI: 10.1109/LCSYS.2020.3046539
+- Sanna et al., 2024, *Optimal Impulsive Orbit Transfers from Gateway to Low Lunar Orbit*, Aerospace, 11(6): 460, DOI: 10.3390/aerospace11060460

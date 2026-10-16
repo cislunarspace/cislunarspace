@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/mixed-method-hybrid-method/
 
 ## 定义
 
-轨道优化方法的一类。利用间接法推导得到的最优控制律，但不包含其他最优性条件，通过参数优化方法进行求解。兼顾了间接法的控制律精度和直接法的求解便利性。
+轨道优化方法的一类。利用间接法推导得到的最优控制律，但不包含其他最优性条件，通过参数优化方法进行求解。兼顾了间接法的控制律精度和直接法的求解便利性\cite{PanXunJiYuTongLunFangFaDeDiYueXiL2DianXiaoTuiLiZhuanYiGuiDaoYouHua2019}。
 
 ## 应用价值
 
-在混合法的设计与分析中，可用于优化转移方案，减少燃料消耗 为航天器的精确控制提供理论依据，确保任务执行的可靠性 结合数值优化算法，可实现高性能的轨迹规划。
+在混合法的设计与分析中，可用于优化转移方案，减少燃料消耗。为航天器的精确控制提供理论依据，确保任务执行的可靠性。结合数值优化算法，可实现高性能的轨迹规划。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/mixed-method-hybrid-method/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- 潘迅和泮斌峰 - 2019 - 基于同伦方法的地月系L2点小推力转移轨道优化

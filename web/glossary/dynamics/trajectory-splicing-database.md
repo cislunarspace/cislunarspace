@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/trajectory-splicing-database/
 
 ## 参考文献
 
-- Shi et al. (2025)
+- Shi et al., 2025, *Database Driven Design Method for LEO-DRO Lunar Gravity Assist Transfer Trajectory*, Journal of Physics: Conference Series, 3109(1): 012058, DOI: 10.1088/1742-6596/3109/1/012058

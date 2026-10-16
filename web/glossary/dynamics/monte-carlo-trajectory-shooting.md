@@ -43,5 +43,5 @@ permalink: /glossary/dynamics/monte-carlo-trajectory-shooting/
 
 ## 参考文献
 
-- Peng, K., Bao, C., Shen, H., et al. Global search of low-energy cislunar transfers using Monte Carlo trajectory shooting. AIAA Journal of Spacecraft and Rockets, 2024, 61(3): 890-903.
-- Belbruno, E. Capture Dynamics and Chaotic Motions in Celestial Mechanics. Princeton University Press, 2004.
+- Peng, K., Bao, C., Shen, H., et al. Global search of low-energy cislunar transfers using Monte Carlo trajectory shooting. AIAA Journal of Spacecraft and Rockets, 2024, 61(3): 890-903，题录待补
+- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics: With Applications to the Construction of Low Energy Transfers*, Princeton University Press

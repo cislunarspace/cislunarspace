@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/coupling-maneuver/
 
 ## 参考文献
 
-- Canalias and Masdemont, Acta Astronautica, 2008
+- Canalias and Masdemont, 2008, *Computing natural transfers between Sun-Earth and Earth-Moon Lissajous libration point orbits*, Acta Astronautica, 63(1-4): 238-248, DOI: 10.1016/j.actaastro.2007.12.017

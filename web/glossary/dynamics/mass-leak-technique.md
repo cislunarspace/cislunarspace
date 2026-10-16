@@ -45,4 +45,5 @@ permalink: /glossary/dynamics/mass-leak-technique/
 
 ## 参考文献
 
-- McConaghy & Longuski 2004, AIAA 2004-5403; Aziz et al. 2019, JGCD
+- McConaghy & Longuski, 2004, *Parameterization Effects on Convergence When Optimizing a Low-Thrust Trajectory with Gravity Assists*, AIAA 2004-5403, DOI: 10.2514/6.2004-5403
+- Aziz, Scheeres & Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lagrange-jacobi-identity/
 
 ## 定义
 
-描述三体系统惯量矩二阶导数与势能、总能量之间关系的恒等式，是定性分析三体运动的基础。
+描述三体系统惯量矩二阶导数与势能、总能量之间关系的恒等式，是定性分析三体运动的基础\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/lagrange-jacobi-identity/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
 - 姿态确定与控制系统（Attitude Determination and Control System）
-
-## 参考文献
-
-- Marchal - 1990 - The three-body problem

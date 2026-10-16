@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/initial-guess-scheme/
 
 ## 参考文献
 
-- （暂无参考文献）
+- McElreath, Down, Majji, 2025, *A universal approach for solving the multi-revolution Lambert's problem*, Celestial Mechanics and Dynamical Astronomy, 137(4): 22, DOI: 10.1007/s10569-025-10251-5

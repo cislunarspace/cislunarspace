@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/objective-function/
 
 ## 定义
 
-优化问题中被最小化或最大化的数学函数。论文目标函数包含最小接近高度偏差项和光环轨道插入速度增量项，通过权重协调两者。
+优化问题中被最小化或最大化的数学函数。论文目标函数包含最小接近高度偏差项和光环轨道插入速度增量项，通过权重协调两者\cite{neelakantanTwoimpulseTransferMultirevolution2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/objective-function/
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-integral/)
 - [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-section/)
-
-## 参考文献
-
-- Neelakantan和Ramanan - 2022 - Two-impulse transfer to multi-revolution halo orbits in the Earth–moon elliptic restricted three bod

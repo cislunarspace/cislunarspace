@@ -44,4 +44,4 @@ permalink: /glossary/dynamics/hyperbolic-character-of-collinear-points/
 
 ## 参考文献
 
-- Low-Energy Transfers in the Earth–Moon System (Alessi et al., 2011)
+- Alessi, Gómez, Masdemont, 2011, *Low-Energy Transfers in the Earth–Moon System*, Nonlinear Science and Complexity, 107-114, DOI: 10.1007/978-90-481-9884-9_13

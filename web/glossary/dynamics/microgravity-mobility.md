@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/microgravity-mobility/
 
 ## 定义
 
-在微重力环境下的移动技术，微重力既可被利用（如跳跃式平台），也构成挑战（如传统轮式或腿式移动受限）。
+在微重力环境下的移动技术，微重力既可被利用（如跳跃式平台），也构成挑战（如传统轮式或腿式移动受限）\cite{starekSpacecraftAutonomyChallenges2016}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/microgravity-mobility/
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - 脉冲机动（Impulsive Maneuver）
 - Halo轨道（Halo Orbit）
-
-## 参考文献
-
-- Starek 等 - 2016 - Spacecraft autonomy challenges for next-generation space missions

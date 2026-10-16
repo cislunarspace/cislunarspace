@@ -45,5 +45,5 @@ permalink: /glossary/dynamics/dlqr/
 
 ## 参考文献
 
-- Zhang et al., 2022
-- Lian et al., 2014
+- Zhang et al., 2022, *Performance analysis of impulsive station-keeping strategies for cis-lunar orbits with the ephemeris model*, Acta Astronautica, 198: 152-160, DOI: 10.1016/j.actaastro.2022.05.054
+- Lian et al., 2014, *Station-keeping of real Earth-Moon libration point orbits using discrete-time sliding mode control*, Communications in Nonlinear Science and Numerical Simulation, 19(10): 3792-3807, DOI: 10.1016/j.cnsns.2014.03.026

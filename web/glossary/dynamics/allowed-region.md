@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/allowed-region/
 
 ## 参考文献
 
-- （暂无参考文献）
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press

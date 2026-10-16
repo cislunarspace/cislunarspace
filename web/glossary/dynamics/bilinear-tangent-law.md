@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/bilinear-tangent-law/
 
 ## 参考文献
 
-- Trofimov et al. 2020, Transfers from NRHOs to low-perilune orbits
+- Trofimov et al., 2020, *Transfers from near-rectilinear halo orbits to low-perilune orbits and the Moon’s surface*, Acta Astronautica, 167: 260–271, DOI: 10.1016/j.actaastro.2019.10.049

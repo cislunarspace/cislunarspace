@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/solar-sail-artificial-libration-point-orbit/
 
 ## 参考文献
 
-- Pan X, Xu M. Cislunar Navigation constellation by displaced solar sails[J]. Journal of Navigation, 2017, 70(5): 963-982
+- Pan, Xu, 2017, *Cislunar Navigation Constellation by Displaced Solar Sails*, Journal of Navigation, 70(5): 963-982, DOI: 10.1017/S037346331700025X

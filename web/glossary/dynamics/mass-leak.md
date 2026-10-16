@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/mass-leak/
 
 ## 定义
 
-在含推力输入的轨道动力学方程中人为引入微小质量流率的技术，用于避免优化过程中质量变量为零或推力方向计算出现奇异性。小推力轨迹优化中，当发动机不工作时质量保持不变，但这种不连续性会导致梯度信息丢失或数值不稳定。质量泄漏通过在零推力阶段也允许极微量的质量流失，使动力学方程处处光滑，优化器可以稳定地搜索最优解。
+在含推力输入的轨道动力学方程中人为引入微小质量流率的技术，用于避免优化过程中质量变量为零或推力方向计算出现奇异性。小推力轨迹优化中，当发动机不工作时质量保持不变，但这种不连续性会导致梯度信息丢失或数值不稳定。质量泄漏通过在零推力阶段也允许极微量的质量流失，使动力学方程处处光滑，优化器可以稳定地搜索最优解\cite{oueLowthrustManyrevolutionTransfer2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/mass-leak/
 - 刚体动力学（Rigid Body Dynamics）
 - 变长设计空间（Variable-Size Design Space, VSDS）
 - 分析梯度（Analytical Gradient）
-
-## 参考文献
-
-- Oue等 - 2025 - Low-Thrust Many-Revolution Transfer between Near Rectilinear Halo Orbit and Low Lunar Orbit Using Hybrid Differential Dynamic Programming

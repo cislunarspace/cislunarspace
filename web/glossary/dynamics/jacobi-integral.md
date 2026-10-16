@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/jacobi-integral/
 
 $$C \;=\; 2\Omega(x,y,z) - v^2 \;=\; (x^2+y^2) + \frac{2(1-\mu)}{r_1} + \frac{2\mu}{r_2} - (\dot x^2+\dot y^2+\dot z^2),$$
 
-其中 $\mu=m_2/(m_1+m_2)$ 为质量参数，$r_1$、$r_2$ 为到两主天体的距离，$v$ 为航天器在会合系中的速度大小（Vallado 2022, Eq. 12-15；Szebehely 1967, §1.6）。Vallado 称其为伪积分，并非因为推导可疑，而是因为它只存在于会合系这个特殊参考系下、且仅对限制性三体问题成立。
+其中 $\mu=m_2/(m_1+m_2)$ 为质量参数，$r_1$、$r_2$ 为到两主天体的距离，$v$ 为航天器在会合系中的速度大小，见 Vallado 2022 的 Eq. 12-15 与 Szebehely 1967 的 §1.6\cite{valladoFundamentalsAstrodynamicsApplications2022}。Vallado 称其为伪积分，并非因为推导可疑，而是因为它只存在于会合系这个特殊参考系下、且仅对限制性三体问题成立。
 
 C 与能量方向相反：C 越大表示总能量越低、航天器越受限。C 越小能量越高、可达区域越大。
 
@@ -46,7 +46,7 @@ $$\ddot{\mathbf r} + 2\,\hat{\mathbf z}\times\dot{\mathbf r} = \nabla\Omega,$$
 
 $$\dot{\mathbf r}\cdot\ddot{\mathbf r} + \underbrace{\dot{\mathbf r}\cdot(2\hat{\mathbf z}\times\dot{\mathbf r})}_{=0} = \dot{\mathbf r}\cdot\nabla\Omega = \frac{d\Omega}{dt}.$$
 
-科氏力恒与速度垂直、瞬时功率为零，故直接消失。剩下 $\tfrac{d}{dt}(\tfrac12 v^2) = \tfrac{d\Omega}{dt}$，积分即得 $v^2 = 2\Omega - C$（Vallado 2022, §12.7.1；Szebehely 1967, §1.6）。这一推导也说明：守恒量之所以存在，关键不在引力，而在会合系中运动方程不显含时间，换到惯性系，该积分立刻失效。
+科氏力恒与速度垂直、瞬时功率为零，故直接消失。剩下 $\tfrac{d}{dt}(\tfrac12 v^2) = \tfrac{d\Omega}{dt}$，积分即得 $v^2 = 2\Omega - C$，详见 Vallado 2022 的 §12.7.1 与 Szebehely 1967 的 §1.6。这一推导也说明：守恒量之所以存在，关键不在引力，而在会合系中运动方程不显含时间，换到惯性系，该积分立刻失效。
 
 ## 有效势 $\Omega$ 及其众多别名
 
@@ -67,14 +67,14 @@ $\Omega$ 由两部分组成：离心势 $\tfrac12(x^2+y^2)$ 加上两主天体�
 | 记号 | 定义 | 数值方向 | 典型范围（地月系） | 出处 |
 |---|---|---|---|---|
 | $C$ 或 $C_J$ | $C=2\Omega-v^2$ | 大 = 低能 | $[2.988,+\infty)$ | Szebehely 1967。Vallado 2022。Parker & Anderson 2014 |
-| $J$ | $J=\Omega-\tfrac12 v^2=-C/2$ | 大 = 高能 | $(-\infty,1.494]$ | Mingotti et al. 2011。Sánchez & Yárnoz 2016 |
+| $J$ | $J=\Omega-\tfrac12 v^2=-C/2$ | 大 = 高能 | $(-\infty,1.494]$ | Mingotti et al. 2011\cite{mingottiOptimalLowthrustInvariant2011}。Sánchez & Yárnoz 2016 |
 | $E_{\text{rot}}$ | $E_{\text{rot}}=\tfrac12 v^2-\Omega=J$ | 大 = 高能 | 同 $J$ | Scott 2010（文中称 C，实为 $J$） |
 
 雅可比能量（Jacobi energy）只是 $C$ 或 $J$ 的口语化称呼，不指向新概念。本词典把它并入本词条。
 
 ## 临界值 $C_i$ 与可达区域
 
-把五个 [平动点](/glossary/dynamics/libration-point/) 处的速度取为零，得到五个临界雅可比常数 $C_i = 2\Omega(L_i)$。地月系（$\mu=0.01215$）与日地系（$\mu=3.04\times10^{-6}$）的典型值如下（Parker & Anderson 2014, Table 2-2）：
+把五个 [平动点](/glossary/dynamics/libration-point/) 处的速度取为零，得到五个临界雅可比常数 $C_i = 2\Omega(L_i)$。地月系（$\mu=0.01215$）与日地系（$\mu=3.04\times10^{-6}$）的典型值如下\cite{parker2014low}（见 Table 2-2）：
 
 | 平动点 | 地月系 $C_i$ | 日地系 $C_i$ |
 |---|---|---|
@@ -101,17 +101,17 @@ $$\Delta C = -2\,\mathbf v\cdot\Delta\mathbf v.$$
 2. 速度越大的位置，同样的 $\Delta v$ 改变 C 越多，所以应在近心点而非远心点机动才高效。
 3. $\Delta\mathbf v$ 与 $\mathbf v$ 共线时 $|\Delta C|$ 最大。
 
-这一条是四脉冲、双脉冲地月转移中机动点选取的理论基础（乔琛远、杨乐平 2024）。连续小推力下对应的微分关系为 $\dot C = -2\,\mathbf a_T\cdot\mathbf v$（Scott 2010, Eq. 5.9，按其符号约定），同样在速度大处效率高。
+这一条是四脉冲、双脉冲地月转移中机动点选取的理论基础\cite{QiaoChenYuanDiYueL1DianDiNengZhuanYiGuiDaoSheJiYuYouHua2024}。连续小推力下对应的微分关系为 $\dot C = -2\,\mathbf a_T\cdot\mathbf v$（Eq. 5.9，按其符号约定），同样在速度大处效率高\cite{scottTransferCaptureDistant2010}。
 
 ### 蒂塞朗参数：用轨道根数估 $J$
 
 彗星或小行星在行星遭遇前后，其日心轨道根数 $(a,e,i)$ 通过蒂塞朗参数（Tisserand parameter）近似对应同一个 J：
 $$J \;\approx\; \frac{a_p}{a} + 2\cos i\,\sqrt{\frac{a}{a_p}(1-e^2)},$$
-$a_p$ 为扰动行星的半长轴。该式源出于限制性三体问题的雅可比积分在远距离处的近似（Murray & Dermott 1999, §3.4；Sánchez & Yárnoz 2016, Eq. 2），用于在不掌握遭遇细节时识别同一颗彗星、或快速筛选可能被捕获的小行星。
+$a_p$ 为扰动行星的半长轴。该式源出于限制性三体问题的雅可比积分在远距离处的近似\cite{murraySolarSystemDynamics1999}，另见 Murray 与 Dermott 1999 的 §3.4 与 Sánchez 与 Yárnoz 2016 的 Eq. 2，用于在不掌握遭遇细节时识别同一颗彗星、或快速筛选可能被捕获的小行星。
 
 ### 数值积分精度检验
 
-CR3BP 数值积分中，C 应严格守恒。其在积分过程中的实际漂移 $|C(t)-C_0|$ 是积分误差最硬的指标之一，常作为微分改正的终止判据（即所谓雅可比常数误差约束）。地月低能转移的精细化（Dei Tos & Topputo 2017）和站位保持（target point method）均以 C 的漂移量级评估方案质量。
+CR3BP 数值积分中，C 应严格守恒。其在积分过程中的实际漂移 $|C(t)-C_0|$ 是积分误差最硬的指标之一，常作为微分改正的终止判据（即所谓雅可比常数误差约束）。地月低能转移的精细化和站位保持（target point method）均以 C 的漂移量级评估方案质量，精细化做法可参见 Dei Tos 与 Topputo 2017。
 
 ### 周期轨道族延拓参数
 
@@ -135,18 +135,6 @@ CR3BP 数值积分中，C 应严格守恒。其在积分过程中的实际漂移
 
 ## 参考文献
 
-- Szebehely V. *Theory of Orbits: The Restricted Problem of Three Bodies.* Academic Press, 1967, §1.6, Ch. 4.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, §1.6, Ch. 4, DOI: 10.1016/B978-0-12-395732-0.X5001-6
 
-- Vallado D. A. *Fundamentals of Astrodynamics and Applications.* 5th ed., 2022, §12.7.
-
-- Parker J. S., Anderson R. L. *Low-Energy Lunar Trajectory Design.* JPL, 2014, Ch. 2, Table 2-2.
-
-- Murray C. D., Dermott S. F. *Solar System Dynamics.* Cambridge Univ. Press, 1999, §3.4 (Tisserand criterion).
-
-- Sánchez J. P., García Yárnoz D. Asteroid retrieval missions enabled by invariant manifold dynamics. *Acta Astronautica*, 2016.
-
-- Scott C. J. *Transfer and Capture into Distant Retrograde Orbits.* Ph.D. thesis, Purdue, 2010, §5.3.
-
-- Mingotti G., Topputo F., Bernelli-Zazzera F. Optimal low-thrust invariant manifold trajectories via attainable sets. *JGCD*, 2011.
-
-- 乔琛远, 杨乐平. 地月 $L_1$ 点低能转移轨道设计与优化. 2024.
+- Sánchez, García Yárnoz, 2016, *Asteroid retrieval missions enabled by invariant manifold dynamics*, Acta Astronautica, 127: 667-677, DOI: 10.1016/j.actaastro.2016.05.034

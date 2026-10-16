@@ -1,6 +1,6 @@
 ---
 title: 零速度曲面（Zero-Velocity Surface, ZVS）
-description: 圆型限制性三体问题中由雅可比常数决定的等势面 Ω = C/2，将位形空间分为可达区与禁飞区。平面截面称零速度曲线（ZVC）或 Hill 曲线。C 取临界值 C₁…C₅ 时在五个平动点处相继开口，由此界定地月、地月↔深空之间的能量通道。
+description: 圆型限制性三体问题中由雅可比常数决定的等势面 Ω = C/2，将位形空间分为可达区与禁飞区。平面截面称零速度曲线（ZVC）或 Hill 曲线。C 取临界值 C₁…C₅ 时在五个平动点处相继开口，由此界定地月、地月与深空之间的能量通道。
 keywords: 零速度曲面, Zero-Velocity Surface, ZVS, 零速度曲线, Zero-Velocity Curve, ZVC, Hill 曲线, 雅可比常数, CR3BP, 禁飞区, 平动点, 地月空间
 author: 天疆说
 date: 2026-07-31
@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/zero-velocity-surface/
 
 由 [雅可比积分](/glossary/dynamics/jacobi-integral/) $v^2 = 2\Omega - C$ 出发，令 $v=0$，得到位形空间中的等值面
 $$\Omega(x,y,z) = C/2.$$
-它就是 [有效势](/glossary/dynamics/jacobi-integral/) $\Omega$ 的等值面，称作零速度曲面（zero-velocity surface, ZVS）或 Hill 曲面。在会合系的 $xy$ 平面截线称作零速度曲线（zero-velocity curve, ZVC）或 Hill 曲线（Szebehely 1967, §4.7；Vallado 2022, §12.7.3）。
+它就是 [有效势](/glossary/dynamics/jacobi-integral/) $\Omega$ 的等值面，称作零速度曲面（zero-velocity surface, ZVS）或 Hill 曲面。在会合系的 $xy$ 平面截线称作零速度曲线（zero-velocity curve, ZVC）或 Hill 曲线\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022}。
 
 零速度意指：航天器若位于此面上，其会合系速度恰好为零，它刚把全部旋转系动能换成了势能。这是航天器在该 C 值下能到达的边界。
 
@@ -46,11 +46,11 @@ $$\Omega(x,y,z) = C/2.$$
 
 - $2\Omega = C$ 处 $v = 0$，即 ZVS 本身。
 
-航天器单凭 CR3BP 动力学无法进入禁飞区。要跨越必须施加 $\Delta v$ 把 C 降到对应阈值之下。换言之，给定 C 就给定了航天器在位形空间的活动围栏，这是限制性三体问题最直接的定性结论（Szebehely 1967, §4.7）。
+航天器单凭 CR3BP 动力学无法进入禁飞区。要跨越必须施加 $\Delta v$ 把 C 降到对应阈值之下。换言之，给定 C 就给定了航天器在位形空间的活动围栏，这是限制性三体问题最直接的定性结论。
 
 ## 拓扑随 $C$ 的演化
 
-C 由大变小，ZVS 在五个 [平动点](/glossary/dynamics/libration-point/) 处相继开口，可达区拓扑经历五个阶段（地月系 $C_1=3.18834$、$C_2=3.17216$、$C_3=3.01215$、$C_4=C_5=2.98800$；Parker & Anderson 2014, Table 2-2）：
+C 由大变小，ZVS 在五个 [平动点](/glossary/dynamics/libration-point/) 处相继开口，可达区拓扑经历五个阶段，其中地月系 $C_1=3.18834$、$C_2=3.17216$、$C_3=3.01215$、$C_4=C_5=2.98800$\cite{parker2014low}：
 
 | 能量范围 | ZVS 形态 | 可达性 |
 |---|---|---|
@@ -72,15 +72,15 @@ $L_1$、$L_2$、$L_3$ 处的开口被形象地称为颈口（neck）或能量通
 
 - $L_3$ 颈口：连通地月系与地球反向外部空间，工程上较少使用。
 
-颈口附近的动力学由该平动点的不稳定/稳定 [不变流形](/glossary/dynamics/invariant-manifold/) 主导：同 C 下两周期轨道的不变流形能否在相空间相交，决定了它们之间是否存在零消耗转移（Parker & Anderson 2014, §2.6）。
+颈口附近的动力学由该平动点的不稳定/稳定 [不变流形](/glossary/dynamics/invariant-manifold/) 主导：同 C 下两周期轨道的不变流形能否在相空间相交，决定了它们之间是否存在零消耗转移。
 
 ## 截面与可视化
 
-- $xy$ 截面（最常用）：即 Hill 曲线，给出主天体轨道面内的可达轮廓。地月系下 $C=3.18$ 的曲线在 $L_1$ 处刚好接触、$C=3.0$ 的曲线只剩 $L_{4,5}$ 处两个小岛（Parker & Anderson 2014, Fig. 2-3；Vallado 2022, Fig. 12-14）。
+- $xy$ 截面（最常用）：即 Hill 曲线，给出主天体轨道面内的可达轮廓。地月系下 $C=3.18$ 的曲线在 $L_1$ 处刚好接触、$C=3.0$ 的曲线只剩 $L_{4,5}$ 处两个小岛。
 
-- $xz$ 截面：揭示平面外运动同样受限：靠近主天体处禁飞层很薄，远离时变厚（Vallado 2022, Fig. 12-16；Lundberg et al. 1985）。
+- $xz$ 截面：揭示平面外运动同样受限：靠近主天体处禁飞层很薄，远离时变厚\cite{lundbergSurfacesZeroVelocity1985}。
 
-- 三维表示：把 $\Omega$ 作为 $z=\Omega(x,y)$ 的曲面绘出，主天体处呈无穷高峰，$L_{4,5}$ 处呈最低洼地，$L_{1,2,3}$ 处呈鞍形山口，这是 Deprit 经典示意图的内容（Szebehely 1967, Fig. 4.30）。
+- 三维表示：把 $\Omega$ 作为 $z=\Omega(x,y)$ 的曲面绘出，主天体处呈无穷高峰，$L_{4,5}$ 处呈最低洼地，$L_{1,2,3}$ 处呈鞍形山口，这是 Deprit 经典示意图的内容。
 
 ## 应用
 
@@ -88,7 +88,7 @@ $L_1$、$L_2$、$L_3$ 处的开口被形象地称为颈口（neck）或能量通
 
 - 最小能量预算：把 C 从近地停泊轨道降到 $C_1$ 以下所需的最小 $\Delta v$，由 $\Delta C = -2\,\mathbf v\cdot\Delta\mathbf v$（见 [雅可比积分](/glossary/dynamics/jacobi-integral/)）可估出下界。
 
-- 流形拼接：周期轨道的不变流形在固定 C 下演化，ZVS 颈口的大小决定流形能伸展到何处、能否与下一段流形相接（Koon et al. 2011）。
+- 流形拼接：周期轨道的不变流形在固定 C 下演化，ZVS 颈口的大小决定流形能伸展到何处、能否与下一段流形相接\cite{koonDynamicalSystemsThreebody1999}。
 
 - 禁飞区规避：在某些任务中（如月球脉冲星导航星座），刻意把 C 维持在 $C_1$ 之上、把航天器锁在地球或月球附近，可避免漂入平动点邻域。
 
@@ -98,7 +98,7 @@ $L_1$、$L_2$、$L_3$ 处的开口被形象地称为颈口（neck）或能量通
 
 - ZVS 随 C 而变，不是固定曲面：每一颗航天器有自己的 C，因此有自己的 ZVS。不同轨道族绘在同一张 Hill 曲线图上时，对应不同的 C 值。
 
-- C 不变时不能穿越：航天器的轨迹（在位形空间）不会穿过自己的 ZVS，要穿过必须靠 $\Delta v$ 改变 C。
+- C 不变时不能穿越：航天器的轨迹（在位形空间）不会穿过自己的 ZVS，要穿过必须靠 $\Delta v$ 改变 C\cite{oshimaHiddenBarrierSurface2024}。
 
 ## 相关概念
 
@@ -116,14 +116,4 @@ $L_1$、$L_2$、$L_3$ 处的开口被形象地称为颈口（neck）或能量通
 
 ## 参考文献
 
-- Szebehely V. *Theory of Orbits: The Restricted Problem of Three Bodies.* Academic Press, 1967, Ch. 4 (Curves of Zero Velocity).
-
-- Vallado D. A. *Fundamentals of Astrodynamics and Applications.* 5th ed., 2022, §12.7.3.
-
-- Parker J. S., Anderson R. L. *Low-Energy Lunar Trajectory Design.* JPL, 2014, Ch. 2.
-
-- Lundberg J. S., Szebehely V., Whipple C. "Surfaces of zero velocity in the restricted problem of three bodies." *Celestial Mechanics*, 1985.
-
-- Koon W. S., Lo M. W., Marsden J. E., Ross S. D. *Dynamical Systems, the Three-Body Problem and Space Mission Design.* 2nd ed., 2011.
-
-- Oshima K. "A hidden barrier surface complementary to the zero velocity surface in the circular restricted three-body problem." 2024.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, Ch. 4，即零速度曲线

@@ -45,6 +45,6 @@ permalink: /glossary/dynamics/center-subspace/
 
 ## 参考文献
 
-- Folta et al., 2014, Acta Astronautica
-- Guzzetti 等 - 2016
-- Spreen 2021
+- Folta et al., 2014, *Earth–Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421–433, DOI: 10.1016/j.actaastro.2013.01.022
+- Guzzetti et al., 2016, *Rapid trajectory design in the Earth–Moon ephemeris system via an interactive catalog of periodic and quasi-periodic orbits*, Acta Astronautica, 126: 439–455, DOI: 10.1016/j.actaastro.2016.06.029
+- Spreen, 2021, *Trajectory Design and Targeting for Applications to the Exploration Program in Cislunar Space*, Ph.D. dissertation, Purdue University

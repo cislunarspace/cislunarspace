@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/pseudo-inverse-newton-update/
 
 ## 参考文献
 
-- Kakoi 等 - 2014
+- Kakoi, M., Howell, K. C., Folta, D., 2014, *Access to Mars from Earth-Moon Libration Point Orbits: Manifold and Direct Options*, Acta Astronautica, 102: 269-286, DOI: 10.1016/j.actaastro.2014.06.010

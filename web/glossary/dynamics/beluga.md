@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/beluga/
 
 ## 定义
 
-基于Python的最优控制与轨迹优化开源软件包，提供稀疏配点法求解两点边值问题。论文中用于合作代理的转移轨道优化，通过间接法求解以L2范数推力最小化和表观星等最小化为双重目标的最优控制问题。
+基于Python的最优控制与轨迹优化开源软件包，提供稀疏配点法求解两点边值问题。论文中用于合作代理的转移轨道优化，通过间接法求解以L2范数推力最小化和表观星等最小化为双重目标的最优控制问题\cite{klonowskiCislunarSpaceDomain2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ beluga在轨道设计和轨迹优化中用于将连续控制问题离散化，�
 - 推力器调制器（Thruster Modulator）
 - 粒子群优化器（Particle Swarm Optimizer）
 - [脉冲间隔（Impulse Interval）](/glossary/dynamics/two-impulse-rendezvous/)
-
-## 参考文献
-
-- Klonowski 等 - 2024 - Cislunar space domain awareness architecture design and analysis for cooperative agents

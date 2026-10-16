@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-a
 
 ## 定义
 
-航天器速度矢量与当地水平面之间的夹角。在转移轨道设计中，航迹角为零表示航天器速度方向恰好沿当地水平方向切向，对应近月点（或远月点）的特征。文中将航迹角作为微分修正的终止条件：积分至航迹角为零且导数为负时，判定到达近月点，从而提取该时刻的月心距用于约束修正。
+航天器速度矢量与当地水平面之间的夹角。在转移轨道设计中，航迹角为零表示航天器速度方向恰好沿当地水平方向切向，对应近月点（或远月点）的特征。文中将航迹角作为微分修正的终止条件：积分至航迹角为零且导数为负时，判定到达近月点，从而提取该时刻的月心距用于约束修正\cite{PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-a
 - 非线性规划（Nonlinear Programming）
 - [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/jacobi-integral/)
 - [形状基方法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
-
-## 参考文献
-
-- 彭坤 等 - 2016 - 基于不变流形的地月L2点Halo轨道转移轨道设计。

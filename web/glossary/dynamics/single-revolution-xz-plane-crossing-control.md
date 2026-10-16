@@ -46,4 +46,4 @@ permalink: /glossary/dynamics/single-revolution-xz-plane-crossing-control/
 
 ## 参考文献
 
-- 梁伟光 等, 2017, 深空探测学报, 4(2): 166-170
+- 梁伟光 等, 2017, *地月系L2平动点轨道长期维持过程研究*, 深空探测学报, 4(2): 166-170, DOI: 10.15982/j.issn.2095-7777.2017.02.010

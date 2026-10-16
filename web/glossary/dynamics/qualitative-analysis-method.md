@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/qualitative-analysis-method/
 
 ## 定义
 
-通过相图、稳定性分析等手段研究微分方程解的性质而不追求精确解的方法，是庞加莱开创的天体力学研究重要方向。
+通过相图、稳定性分析等手段研究微分方程解的性质而不追求精确解的方法，是庞加莱开创的天体力学研究重要方向\cite{ZhangHongBoHangTianQiGuiDaoLiXueLiLunYuFangFa2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/qualitative-analysis-method/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- 张洪波 - 2015 - 航天器轨道力学理论与方法

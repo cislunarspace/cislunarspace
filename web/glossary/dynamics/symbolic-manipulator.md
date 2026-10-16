@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/symbolic-manipulator/
 
 ## 参考文献
 
-- Gómez 等 - 2001
+- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/4402

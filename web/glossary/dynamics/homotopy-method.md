@@ -34,17 +34,17 @@ permalink: /glossary/dynamics/homotopy-method/
 
 $$\mathbf{H}(\mathbf{y},0)=\mathbf{G}(\mathbf{y})\ \text{(易解的初始问题)},\qquad \mathbf{H}(\mathbf{y},1)=\mathbf{F}(\mathbf{y})\ \text{（目标问题）},$$
 
-然后从 $\kappa=0$ 的已知解出发，沿 $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ 的零曲线跟踪到 $\kappa=1$，得到 $\mathbf{F}(\mathbf{y})=\mathbf{0}$ 的解（Watson 1986；Allgower & Georg 1990）。
+然后从 $\kappa=0$ 的已知解出发，沿 $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ 的零曲线跟踪到 $\kappa=1$，得到 $\mathbf{F}(\mathbf{y})=\mathbf{0}$ 的解\cite{watsonNumericalLinearAlgebra1986}，另见 Allgower 与 Georg 1990。
 
-与 [数值延拓](/glossary/dynamics/continuation/) 的关系：同伦方法是延拓方法的子类，它把参数 $\lambda$ 具体化为同伦参数 $\kappa$，把含参数方程具体化为人为构造的同伦函数 $\mathbf{H}$。延拓是几何地跟踪已有方程的解曲线。同伦是先人为地嵌入一族方程再跟踪。两者共享同一套路径跟踪算法（预测-校正、伪弧长），但出发点不同：延拓从已知的单一解推进到该解所属的族。同伦从人为构造的、有已知解的简单问题出发去攻一个原本没有可用初值的难问题。
+与 [数值延拓](/glossary/dynamics/continuation/) 的关系：同伦方法是延拓方法的子类，它把参数 $\lambda$ 具体化为同伦参数 $\kappa$，把含参数方程具体化为人为构造的同伦函数 $\mathbf{H}$。延拓是几何地跟踪已有方程的解曲线。同伦是先人为地嵌入一族方程再跟踪。两者共享同一套路径跟踪算法（预测-校正、伪弧长），但出发点不同：延拓从已知的单一解推进到该解所属的族。同伦从人为构造的、有已知解的简单问题出发去攻一个原本没有可用初值的难问题\cite{guanyutong2026}。
 
-在轨道力学中，难问题通常是 [间接法](/glossary/dynamics/indirect-methods/) 推导出的两点边值问题（TPBVP）：协态初值收敛域极小、燃料最优控制呈 bang-bang 不连续结构，直接打靶几乎不可能收敛。同伦方法通过把一个光滑、易收敛的姊妹问题（如能量最优问题）逐步变形为目标问题，把单次大跳跃换成数百次小步推进，是间接法从理论最优走向工程可解的关键桥梁（Bertrand & Epenoy 2002；Haberkorn et al. 2004；Taheri et al. 2016）。
+在轨道力学中，难问题通常是 [间接法](/glossary/dynamics/indirect-methods/) 推导出的两点边值问题（TPBVP）：协态初值收敛域极小、燃料最优控制呈 bang-bang 不连续结构，直接打靶几乎不可能收敛。同伦方法通过把一个光滑、易收敛的姊妹问题（如能量最优问题）逐步变形为目标问题，把单次大跳跃换成数百次小步推进，是间接法从理论最优走向工程可解的关键桥梁\cite{bertrandNewSmoothingTechniques2002a,gergaudHomotopyMethodMinimum2006,haberkornLowThrustMinimumfuel2004,taheriEnhancedSmoothingTechnique2016}。
 
 ## 同伦函数的构造
 
 ### 一般形式
 
-最常用的凸组合形式（Haberkorn et al. 2004；潘迅和泮斌峰 2019）：
+最常用的凸组合形式，另见潘迅和泮斌峰 2019：
 
 $$\mathbf{H}(\mathbf{y},\kappa)=\kappa\,\mathbf{F}(\mathbf{y})+(1-\kappa)\,\mathbf{G}(\mathbf{y}),$$
 
@@ -69,7 +69,7 @@ $$J_E=\int_{t_0}^{t_f}\|\mathbf{u}(t)\|^2\,dt$$
 
 $$J_F=\int_{t_0}^{t_f}\|\mathbf{u}(t)\|\,dt$$
 
-对应不连续的 bang-bang / bang-off-bang 控制，[打靶法](/glossary/dynamics/differential-correction/) 直接求解几乎不收敛。Bertrand & Epenoy（2002）引入光滑化性能指标
+对应不连续的 bang-bang / bang-off-bang 控制，[打靶法](/glossary/dynamics/differential-correction/) 直接求解几乎不收敛。Bertrand 与 Epenoy 2002 引入光滑化性能指标
 
 $$J_\varepsilon=\int_{t_0}^{t_f}\bigl[\|\mathbf{u}\|-\varepsilon\,F(\|\mathbf{u}\|)\bigr]\,dt,$$
 
@@ -79,21 +79,21 @@ $$J_\varepsilon=\int_{t_0}^{t_f}\bigl[\|\mathbf{u}\|-\varepsilon\,F(\|\mathbf{u}
 
 扰动项 $F$ 的具体形式决定同伦路径的光滑性与收敛速度：
 
-- 多项式平滑（Bertrand & Epenoy 2002 原型）：$F(w)=w(1-w)$。最简单，但低推力下控制切换次数剧增时精度恶化、二阶最优性条件难以验证。
+- 多项式平滑（原型）：$F(w)=w(1-w)$。最简单，但低推力下控制切换次数剧增时精度恶化、二阶最优性条件难以验证。
 
-- L2-L1 同伦（Caillau et al. 2012）：取 $L^2$ 与 $L^1$ 的凸组合作为代价，等价于上述凸组合形式的特例，与多项式平滑在 CR3BP 平面最小燃料问题中是经典实现。
+- L2-L1 同伦\cite{caillauMinimumFuelControl2012}：取 $L^2$ 与 $L^1$ 的凸组合作为代价，等价于上述凸组合形式的特例，与多项式平滑在 CR3BP 平面最小燃料问题中是经典实现。
 
-- 对数障碍同伦（Caillau et al. 2012）：在代价中加 $-\varepsilon\ln(\|\mathbf{u}\|(1-\|\mathbf{u}\|))$，强制 $0<\|\mathbf{u}\|<1$，使哈密顿最大化处处可微，克服 L2-L1 同伦在低推力下精度恶化的困难。
+- 对数障碍同伦：在代价中加 $-\varepsilon\ln(\|\mathbf{u}\|(1-\|\mathbf{u}\|))$，强制 $0<\|\mathbf{u}\|<1$，使哈密顿最大化处处可微，克服 L2-L1 同伦在低推力下精度恶化的困难。
 
-- 扩展对数平滑（Taheri et al. 2016）：把对数平滑改写为对切换函数（switching function）的平滑，并与状态转移矩阵法结合以获得高精度雅可比，使 $\varepsilon$ 可大幅跳跃（如从 1 到 0.01 再到 $10^{-5}$）仅需 3 个子问题而非 6 个。
+- 扩展对数平滑：把对数平滑改写为对切换函数（switching function）的平滑，并与状态转移矩阵法结合以获得高精度雅可比，使 $\varepsilon$ 可大幅跳跃（如从 1 到 0.01 再到 $10^{-5}$）仅需 3 个子问题而非 6 个。
 
-- sigmoid 平滑（Zhang et al. 2025）：用 $\tanh$、代数函数、误差函数 erf 等参数化 sigmoid 逼近符号函数 $\mathrm{sign}(S)$，其中 $S$ 为切换函数。误差函数在 L1 到 L2 halo 转移算例中比 $\tanh$ 与代数形式收敛快一倍、终端误差低一个量级。
+- sigmoid 平滑：用 $\tanh$、代数函数、误差函数 erf 等参数化 sigmoid 逼近符号函数 $\mathrm{sign}(S)$，其中 $S$ 为切换函数。误差函数在 L1 到 L2 halo 转移算例中比 $\tanh$ 与代数形式收敛快一倍、终端误差低一个量级。
 
-工程上的实证判据是：给定 $\varepsilon$，最优控制接近 bang-bang 的程度：经验上 $\varepsilon\sim 10^{-5}$ 时推力剖面与真正 bang-bang 已几乎不可分辨（Taheri et al. 2016；Zhang et al. 2025）。
+工程上的实证判据是：给定 $\varepsilon$，最优控制接近 bang-bang 的程度：经验上 $\varepsilon\sim 10^{-5}$ 时推力剖面与真正 bang-bang 已几乎不可分辨\cite{zhangSmoothingTechniqueIndirect2025}。
 
 ### 推力幅值同伦（thrust continuation / thrust homotopy）
 
-另一类同伦把推力上限 $T_{\max}$ 当作同伦参数：从较大的、容易收敛的 $T_L$ 出发，逐步降到目标 $T_{\max}$（Caillau & Daoud 2012；潘迅和泮斌峰 2019）。动力学方程中实际推力幅值写为
+另一类同伦把推力上限 $T_{\max}$ 当作同伦参数：从较大的、容易收敛的 $T_L$ 出发，逐步降到目标 $T_{\max}$\cite{Caillau2012}。动力学方程中实际推力幅值写为
 
 $$T(\kappa)=T_{\max}+\kappa\,(T_L-T_{\max}),\qquad \kappa\in[0,1],$$
 
@@ -101,7 +101,7 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 
 ### LP、$T_{\min}$ 到 CEV 的延拓链
 
-电推进任务中常用一条三阶段同伦链以避免指定任何用户猜测（Petukhov & Yoon 2023；Yoon & Petukhov 2023）：
+电推进任务中常用一条三阶段同伦链以避免指定任何用户猜测\cite{yoonMinimumfuelLowthrustTrajectories2023}：
 
 1. 限功率问题（LP）：假设功率恒定、推力可任意小（无切换），用零初值即可解。
 2. 最小推力问题（$T_{\min}$）：从 LP 解出发，延拓求出给定角距离下可行的最小推力值，用于验证 CEV 问题解的存在性。
@@ -115,7 +115,7 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 
 ## 路径跟踪算法
 
-构造完同伦函数后，还要沿 $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ 的零路径跟踪。两类做法（潘迅和泮斌峰 2019；Haberkorn et al. 2004）：
+构造完同伦函数后，还要沿 $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ 的零路径跟踪。两类做法：
 
 ### 离散同伦（discrete homotopy）
 
@@ -123,18 +123,18 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 
 ### 连续同伦（continuous homotopy）
 
-沿同伦曲线的切线方向，以伪弧长 $\Delta s$ 为步长跟踪（即 [数值延拓](/glossary/dynamics/continuation/) 中的伪弧长法）：在当前节点 $(\kappa_i,\mathbf{y}_i)$ 计算雅可比，按切向预测下一步，再以牛顿法校正。由于步进方向由曲线切线决定，$\kappa$ 在跟踪中可增可减，因此可绕过拐点。推力幅值同伦曲线在 $\kappa\approx 0.85$ 附近多次出现拐点并产生多个局部最优解，离散同伦完全无法处理，必须用连续同伦（潘迅和泮斌峰 2019）。
+沿同伦曲线的切线方向，以伪弧长 $\Delta s$ 为步长跟踪（即 [数值延拓](/glossary/dynamics/continuation/) 中的伪弧长法）：在当前节点 $(\kappa_i,\mathbf{y}_i)$ 计算雅可比，按切向预测下一步，再以牛顿法校正。由于步进方向由曲线切线决定，$\kappa$ 在跟踪中可增可减，因此可绕过拐点。推力幅值同伦曲线在 $\kappa\approx 0.85$ 附近多次出现拐点并产生多个局部最优解，离散同伦完全无法处理，必须用连续同伦，见潘迅和泮斌峰 2019。
 
 预测-校正（predictor-corrector）是连续同伦的标准实现：先以切向欧拉一步预测，再以牛顿迭代校正至零路径。
 
 ## 在小推力轨道优化中的作用
 
-间接法解小推力最优控制问题时，状态–协态联立方程两端边值问题的打靶函数对协态初值极度敏感，收敛半径小到几乎不可能给出可用初值，尤其当推力小（圈数多、切换次数多）、或控制呈 bang-bang 时（Haberkorn et al. 2004；Taheri et al. 2016）。同伦方法通过两层机制破解这一困难：
+间接法解小推力最优控制问题时，状态–协态联立方程两端边值问题的打靶函数对协态初值极度敏感，收敛半径小到几乎不可能给出可用初值，尤其当推力小（圈数多、切换次数多）、或控制呈 bang-bang 时。同伦方法通过两层机制破解这一困难：
 
 1. 扩大收敛域：每步子问题与前一步仅差 $\Delta\kappa$，前一步的解自然落在当前子问题牛顿收敛域内，逐步推进等效于把收敛半径放大数个量级。
 2. 处理不连续控制：代价函数同伦让 $\varepsilon>0$ 时控制连续可微，状态转移矩阵法可正常用于雅可比计算。$\varepsilon$ 足够小时控制已逼近 bang-bang，再以离散事件检测精修切换时刻。
 
-实证上，Haberkorn et al.（2004）用代价函数同伦 + 单次打靶求解了 LEO–GEO 0.1 N 级别（数百圈、数百次切换）的最小燃料转移。潘迅和泮斌峰（2019）用推力幅值同伦 + 伪弧长跟踪求解了 GEO 到 $L_2$ 的 1 N 时间最优转移，并在拐点附近发现 13 个局部最优解。Zhang et al.（2025）用 erf 平滑同伦求解了 $L_1$ Halo 到 $L_2$ Halo 的最小燃料转移，消耗仅 0.34% 航天器质量。
+实证上，Haberkorn et al. 2004 用代价函数同伦 + 单次打靶求解了 LEO–GEO 0.1 N 级别（数百圈、数百次切换）的最小燃料转移。潘迅和泮斌峰 2019 用推力幅值同伦 + 伪弧长跟踪求解了 GEO 到 $L_2$ 的 1 N 时间最优转移，并在拐点附近发现 13 个局部最优解。Zhang et al. 2025 用 erf 平滑同伦求解了 $L_1$ Halo 到 $L_2$ Halo 的最小燃料转移，消耗仅 0.34% 航天器质量。
 
 ## 与数值延拓的辨析
 
@@ -167,26 +167,6 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 
 ## 参考文献
 
-- Allgower E L, Georg K. 1990. *Numerical Continuation Methods: An Introduction*. Springer.（同伦与延拓算法的统一教材）
+- Allgower, Georg, 1990, *Numerical Continuation Methods: An Introduction*, Springer, DOI: 10.1007/978-3-642-61257-2，同伦与延拓算法的统一教材
 
-- Watson L T. 1986. Numerical linear algebra aspects of globally convergent homotopy methods. *SIAM Rev.* 28(4): 575–606.（同伦路径跟踪的数值线性代数）
-
-- Bertrand R, Epenoy R. 2002. New smoothing techniques for solving bang–bang optimal control problems: numerical results and statistical interpretation. *Optim. Control Appl. Methods* 23(4): 171–197.（$\varepsilon$-平滑化性能指标的开创性文献）
-
-- Haberkorn T, Martinon P, Gergaud J. 2004. Low thrust minimum-fuel orbital transfer: a homotopic approach. *JGCD* 27(6): 1046–1060.（能量到燃料同伦 + 单次打靶求解 LEO–GEO 0.1 N 转移；对比 PL / PC 三类跟踪算法）
-
-- Gergaud J, Haberkorn T. 2006. Homotopy method for minimum consumption orbit transfer problem. *ESAIM Control Optim. Calc. Var.* 12(2): 294–313.（同伦方法的轨道转移应用综述）
-
-- Caillau J B, Daoud B. 2012. Minimum time control of the restricted three-body problem. *SIAM J. Control Optim.* 50(6).（推力幅值同伦、最小时间问题）
-
-- Caillau J B, Cerf M, Dujols A, et al. 2012. Minimum fuel control of the planar circular restricted three-body problem. *CEP*（L2-L1 与对数障碍同伦在 CR3BP 平面最小燃料的对比）
-
-- Taheri E, Kolmanovsky I, Atkins E. 2016. Enhanced smoothing technique for indirect optimization of minimum-fuel low-thrust trajectories. *JGDD* 39(11): 2500–2511.（扩展对数平滑 + 状态转移矩阵法，减少子问题数）
-
-- Pan X, Pan B F. 2019. 基于同伦方法的地月系 $L_2$ 点小推力转移轨道优化.（推力幅值同伦 + 伪弧长跟踪的中文学源；牛顿 / 定点 / 尺度不变仿射同伦的中文学界术语出处）
-
-- Yoon S, Petukhov V. 2023. Minimum-fuel low-thrust trajectories to the Moon. *Acta Astronaut.*（LP→$T_{\min}$→CEV 三阶段同伦链在地月转移的实现）
-
-- Zhang et al. 2025. Smoothing technique for indirect low-thrust trajectory optimization in cislunar space.（$\tanh$ / 代数 / erf 三类 sigmoid 平滑在 $L_1$–$L_2$ Halo 转移的对比）
-
-- 关宇同, 高长生, 胡玉东, 赵海涵. 2026. 面向航天器远距离协同交会的超参数自主调优-同伦方法. *航天器环境工程*.（RLEPSO 提供初始协态、同伦法精修的工程实践）
+- Pan X, Pan B F. 2019. 基于同伦方法的地月系 $L_2$ 点小推力转移轨道优化，题录待补

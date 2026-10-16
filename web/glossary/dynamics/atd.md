@@ -30,4 +30,4 @@ permalink: /glossary/dynamics/atd/
 
 ## 参考文献
 
-- Zimovan-Spreen et al., 2022, Adaptive Trajectory Design Catalog for Cislunar Space Missions.
+- Zimovan-Spreen et al., 2022, Adaptive Trajectory Design Catalog for Cislunar Space Missions，题录待补

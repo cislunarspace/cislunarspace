@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/event-map/
 
 ## 定义
 
-与生存图使用相同的初始条件网格，但不显示存活时间，而是标注每组初始条件导致的终止事件类型（月面撞击、经 L1 飞出、经 L2 飞出、或在给定时间内保持稳定）。事件图与生存图配合使用，前者告诉你发生了什么，后者告诉你持续了多久。
+与生存图使用相同的初始条件网格，但不显示存活时间，而是标注每组初始条件导致的终止事件类型（月面撞击、经 L1 飞出、经 L2 飞出、或在给定时间内保持稳定）。事件图与生存图配合使用，前者告诉你发生了什么，后者告诉你持续了多久\cite{vanderwegSunearthL1L22016}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/event-map/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Van Der Weg and Vasile, 2016, Sun-Earth L1 and L2 to Moon Transfers Exploiting Natural Dynamics

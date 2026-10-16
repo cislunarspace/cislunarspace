@@ -34,7 +34,7 @@ Bang-bang 控制是燃耗最优控制问题中推力幅值的标准形式：控�
 
 这是庞特里亚金极值原理（Pontryagin's Minimum Principle）的直接推论。在燃耗最省目标下，哈密顿函数对推力幅值 $F$ 呈线性依赖关系，极小化哈密顿函数等价于将推力幅值推向约束的边界，要么最大、要么最小（零）。仅当切换函数恒为零时可能出现中间值，此即奇异弧，需要额外分析。
 
-Lawden (1963) 在其奠基性著作《Optimal Trajectories for Space Navigation》中将推力轨迹按幅值特征划分为三类弧段（arc），这一分类至今仍是推力优化理论的基础术语：
+Lawden 1963 年的著作《Optimal Trajectories for Space Navigation》将推力轨迹按幅值特征划分为三类弧段（arc），这一分类至今仍是推力优化理论的基础术语：
 
 - 最大推力弧（Maximum-thrust arc, MT）：切换函数 $S < 0$ 时的弧段，发动机以 $F_{\max}$ 工作。
 
@@ -46,7 +46,7 @@ Lawden (1963) 在其奠基性著作《Optimal Trajectories for Space Navigation�
 
 ### 燃耗最优问题的哈密顿形式
 
-考虑单一中心引力场中的小推力航天器，动力学方程为（朱政帆和高扬 2017）：
+考虑单一中心引力场中的小推力航天器，动力学方程为\cite{ZhuZhengFanKongJianXiaoTuiLiGuiDaoZuiYouBangBangKongZhiDeLiangLeiYanTuoJieFaZongShu2017}：
 
 $$
 \dot{\mathbf{r}} = \mathbf{v},\qquad
@@ -72,13 +72,13 @@ $$
 
 ### 最优推力方向：Lawden 先驱向量
 
-定义先驱向量（primer vector）$\mathbf{p}(t) \equiv -{\lambda}_v(t)$（Lawden 1963, Ch. 3；Prussing 1993）。极小化哈密顿函数等价于令推力方向 $\boldsymbol{\alpha}$ 与 ${\lambda}_v$ 反向：
+定义先驱向量（primer vector）$\mathbf{p}(t) \equiv -{\lambda}_v(t)$，见 Lawden 1963 年第 3 章\cite{prussingEquationOptimalPowerlimited1993}。极小化哈密顿函数等价于令推力方向 $\boldsymbol{\alpha}$ 与 ${\lambda}_v$ 反向：
 
 $$
 \boldsymbol{\alpha}^* = -\frac{\lambda}_v}{\|{\lambda}_v\|} = \frac{\mathbf{p}}{\|\mathbf{p}\|}
 $$
 
-即最优推力方向与先驱向量方向一致。
+即最优推力方向与先驱向量方向一致\cite{prussingPrimerVectorTheory2010}。
 
 ### 切换函数与 Bang-bang 条件
 
@@ -100,7 +100,7 @@ $$
 
 $S(t)$ 的符号在飞行过程中变化，形成开-关-开-关交替的 Bang-bang 结构。关键在于：开关时刻（$S(t)=0$ 的时刻）和开关次数事先未知，必须作为优化问题的一部分求解。
 
-在无量纲化下，可定义推力比 $u = F/F_{\max} \in [0,1]$，开关函数等价表示为（朱政帆和高扬 2017）：
+在无量纲化下，可定义推力比 $u = F/F_{\max} \in [0,1]$，开关函数等价表示为\cite{ZhuZhengFanKongJianXiaoTuiLiGuiDaoZuiYouBangBangKongZhiDeLiangLeiYanTuoJieFaZongShu2017}：
 
 $$
 \rho = 1 - \frac{g_0 I_{sp} \|{\lambda}_v\|}{m} - \lambda_m
@@ -110,11 +110,11 @@ Bang-bang 条件变为：$\rho > 0 \Rightarrow u^*=0$，$\rho < 0 \Rightarrow u^
 
 ### 奇异弧：中间推力弧
 
-当 $S(t) \equiv 0$ 在一个有限时间区间上恒成立时，一级必要条件不足以确定 $F$。此时需使用 Legendre-Clebsch 条件判断是否为极小路径。数值经验表明，在一般的小推力二体问题中，恒为零的奇异弧极少出现。但在某些特定问题（如功率受限的低推力轨迹）中可能出现（Thorne 1996, Ch. 4；Prussing 1993）。
+当 $S(t) \equiv 0$ 在一个有限时间区间上恒成立时，一级必要条件不足以确定 $F$。此时需使用 Legendre-Clebsch 条件判断是否为极小路径。数值经验表明，在一般的小推力二体问题中，恒为零的奇异弧极少出现。但在某些特定问题（如功率受限的低推力轨迹）中可能出现，相关分析见 Thorne 1996 年第 4 章\cite{prussingEquationOptimalPowerlimited1993,thorneOptimalContinuousthrustOrbit1996}。
 
 ## Lawden 弧定律的物理意义
 
-Lawden (1963) 的三类弧分类不仅是数学表述，更有清晰的物理内涵：
+Lawden 1963 年的三类弧分类不仅是数学表述，更有清晰的物理内涵：
 
 1. 最大推力弧（MT）：发动机全开。出现在需要迅速改变轨道能量或角动量的弧段，如地球逃逸螺旋的推力段和月球捕获螺旋的减速段。在这些位置，单位推力的能量改变效率最高。
 2. 无推力弧（NT）：发动机关机滑行。出现在航天器穿越大范围地月空间时，以及切换函数预示当前不施加推力反而更优的弧段。滑行段利用引力场自然演化轨道，节省推进剂。
@@ -126,7 +126,7 @@ Lawden (1963) 的三类弧分类不仅是数学表述，更有清晰的物理内
 
 直接求解 Bang-bang 控制的主要困难是：微分方程右侧不连续（$F$ 在开关处阶跃），且开关时刻和开关序列事先未知。延拓方法（同伦法）是目前求解该问题的主流途径。
 
-核心思想（朱政帆和高扬 2017）：从容易求解的能量最优问题出发（此时推力幅值随时间连续变化），通过逐步调整性能指标中的同伦参数 $\varepsilon$，将连续控制变形为 Bang-bang 控制。
+核心思想\cite{ZhuZhengFanKongJianXiaoTuiLiGuiDaoZuiYouBangBangKongZhiDeLiangLeiYanTuoJieFaZongShu2017}：从容易求解的能量最优问题出发（此时推力幅值随时间连续变化），通过逐步调整性能指标中的同伦参数 $\varepsilon$，将连续控制变形为 Bang-bang 控制。
 
 构造带同伦参数 $\varepsilon \in [0,1]$ 的性能指标：
 
@@ -150,7 +150,7 @@ $$
 
 在边界层 $|\rho| \leqslant \varepsilon$ 内，控制律连续且可导。随着 $\varepsilon \to 0$，边界层收缩，连续解逼近 Bang-bang 解。同伦参数序列通常采用 $\varepsilon_d = 10^{-(d/N)}$，$N$ 取 15--60。
 
-两类延拓方法（朱政帆和高扬 2017）：
+两类延拓方法\cite{ZhuZhengFanKongJianXiaoTuiLiGuiDaoZuiYouBangBangKongZhiDeLiangLeiYanTuoJieFaZongShu2017}：
 
 1. 能量-燃耗同伦：先从能量最优解出发，逐步减小 $\varepsilon$ 至零。收敛性好，但不处理推力常值约束。
 2. 开关序列切换延拓：从双脉冲转移解出发，通过推力幅值延拓逐步最小推力轨道，再通过开关函数特征值变化自动调整开关序列。能保证每个中间解都满足 Bang-bang 必要条件。
@@ -159,11 +159,11 @@ $$
 
 在地月空间 CR3BP+LT 模型下，Bang-bang 控制与以下概念密切相关：
 
-- CR3BP+LT 轨迹优化：在限制性三体框架下考虑低推力，间接法（通过协态变量的两点边值问题）自然导出 Bang-bang 推力剖面。Fahey (2024) 在 Howell 组工作中使用 S 型函数平滑近似 Bang-bang 跳跃，作为最小燃料问题的中间步。
+- CR3BP+LT 轨迹优化：在限制性三体框架下考虑低推力，间接法（通过协态变量的两点边值问题）自然导出 Bang-bang 推力剖面。Fahey\cite{faheyDesignStrategiesLow2024} 在 Howell 组工作中使用 S 型函数平滑近似 Bang-bang 跳跃，作为最小燃料问题的中间步。
 
 - TCT 序列：地月转移中的 Thrust-Coast-Thrust 天然对应 MT-NT-MT，是 Bang-bang 结构在特定任务中的直接体现。
 
-- 连续推力轨道保持（Station-Keeping）：在 NRHO、Halo 等平动点轨道的长期保持中，最优控制律同样呈 Bang-bang 特征，仅在轨道偏差超过阈值时施加推力（Zhang and Wang 2022）。
+- 连续推力轨道保持（Station-Keeping）：在 NRHO、Halo 等平动点轨道的长期保持中，最优控制律同样呈 Bang-bang 特征，仅在轨道偏差超过阈值时施加推力\cite{zhangContinuousthrustStationkeepingCislunar2022}。
 
 ## 相关概念
 
@@ -183,20 +183,10 @@ $$
 
 ## 参考文献
 
-- Lawden, D. F., 1963, Optimal Trajectories for Space Navigation. Butterworths, London. Ch. 3: 先驱向量的原始定义、切换函数与三类弧（MT/NT/IT）的经典分类。
+- Lawden, 1963, *Optimal Trajectories for Space Navigation*, Butterworths, London，先驱向量的原始定义、切换函数与三类弧 MT/NT/IT 的经典分类
 
-- Pontryagin, L. S., et al., 1962, The Mathematical Theory of Optimal Processes. Wiley. 庞特里亚金极小值原理的原始著作。
+- Pontryagin et al., 1962, *The Mathematical Theory of Optimal Processes*, Interscience Publishers, New York，庞特里亚金极小值原理的原始著作
 
-- Bryson, A. E., and Ho, Y. C., 1975, Applied Optimal Control. Hemisphere. 最优控制的系统教材，含 Bang-bang 控制的数值方法。
+- Bryson and Ho, 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Hemisphere Publishing Corporation, Washington, D.C.，最优控制的系统教材，含 Bang-bang 控制的数值方法
 
-- Prussing, J. E., 1993, Equation for Optimal Power-Limited Spacecraft Trajectories. JGCD. 功率受限问题的先驱向量方程与奇异弧分析。
-
-- Prussing, J. E., 2010, Primer Vector Theory and Applications. 先驱向量理论在冲量机动中的系统综述。
-
-- Thorne, J. D., 1996, Optimal Continuous-Thrust Orbit Transfers. PhD Dissertation, AFIT. 连续推力最优控制的全面数值研究，含奇异弧判定与 Legendre-Clebsch 条件分析。
-
-- 朱政帆, 高扬, 2017, 空间小推力轨道最优 Bang-Bang 控制的两类延拓解法综述. 深空探测学报, 4(2): 101-110. 能量-燃耗同伦与开关序列切换延拓两种方法的详细比较。
-
-- Fahey, L., 2024, Design Strategies for Low Thrust Transfers in the Earth-Moon System. MS Thesis, Purdue Univ. Ch. 5.3: S 型函数平滑近似 Bang-bang 跳跃在 CR3BP+LT 间接法中的应用。
-
-- Zhang and Wang, 2022, Continuous-Thrust Station-Keeping of Cis-Lunar Orbits Using Optimal Sliding Mode Control. NRHO 连续推力轨道保持中 Bang-bang 特征的工程实现。
+- 朱政帆, 高扬, 2017, *空间小推力轨道最优 Bang-Bang 控制的两类延拓解法综述*, 深空探测学报, 4(2): 101–110, DOI: 10.15982/j.issn.2095-7777.2017.02.001，能量-燃耗同伦与开关序列切换延拓两种方法的详细比较

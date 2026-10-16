@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/newton-raphson-method/
 
 ## 定义
 
-一种迭代求解非线性方程组的数值方法。本文将其应用于轨道设计中的多脉冲机动参数优化，通过线性化方程并迭代求解，使转移轨道满足远地点高度和轨道倾角等约束条件。
+一种迭代求解非线性方程组的数值方法。本文将其应用于轨道设计中的多脉冲机动参数优化，通过线性化方程并迭代求解，使转移轨道满足远地点高度和轨道倾角等约束条件\cite{kikuchiComparisonTransferTrajectory2024}。
 
 ## 应用价值
 
@@ -40,7 +40,3 @@ permalink: /glossary/dynamics/newton-raphson-method/
 
 - [Weak Stability Boundary](/glossary/dynamics/wsb/)
 - [Earth-Moon Manifold](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Kikuchi et al. - 2024 - Comparison of transfer trajectory to NRHO and operation plan for logistics resupply mission to gateway。

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/vsi/
 
 ## 定义
 
-比冲可随推力调节而变化的电推进发动机，通过改变喷嘴排气速度来优化燃料消耗。
+比冲可随推力调节而变化的电推进发动机，通过改变喷嘴排气速度来优化燃料消耗\cite{ozimekLowthrustTransfersEarthmoon2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/vsi/
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-Ozimek和Howell 2010

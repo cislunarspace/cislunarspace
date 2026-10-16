@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/stream-function-method/
 
 ## 参考文献
 
-- Yin et al. 2023
+- Yin et al. 2023，题录待补

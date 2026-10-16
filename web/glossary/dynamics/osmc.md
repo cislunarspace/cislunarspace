@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/osmc/
 
 ## 定义
 
-滑模控制（Sliding Mode Control, SMC）是一类变结构控制方法：在状态空间中设计一个低维流形，即滑模面 $s(\boldsymbol{x},t)=0$，控制律在不同区域取不同结构，强制系统状态在有限时间内到达滑模面并沿之滑动。一旦进入滑动段，闭环行为由滑模面方程决定，对满足匹配条件（matching condition）的模型不确定性与外扰具有不变性（Utkin 1977；Slotine & Li 1991）。
+滑模控制（Sliding Mode Control, SMC）是一类变结构控制方法：在状态空间中设计一个低维流形，即滑模面 $s(\boldsymbol{x},t)=0$，控制律在不同区域取不同结构，强制系统状态在有限时间内到达滑模面并沿之滑动。一旦进入滑动段，闭环行为由滑模面方程决定，对满足匹配条件（matching condition）的模型不确定性与外扰具有不变性，见 Utkin 1977 与 Slotine 和 Li 1991\cite{capelloSlidingmodeControlStrategies2017}。
 
-最优滑模控制（Optimal Sliding Mode Control, OSMC）把 [LQR](/glossary/dynamics/linear-quadratic-optimal-control/) 的反馈增益嵌入滑模面，使滑动段对预设的二次型指标最优。同时保留一个不连续的切换项以补偿扰动。这样兼得 LQR 的最优性与 SMC 的鲁棒性（Utkin & Shi 1996；Zhang & Wang 2022）。
+最优滑模控制（Optimal Sliding Mode Control, OSMC）把 [LQR](/glossary/dynamics/linear-quadratic-optimal-control/) 的反馈增益嵌入滑模面，使滑动段对预设的二次型指标最优。同时保留一个不连续的切换项以补偿扰动。这样兼得 LQR 的最优性与 SMC 的鲁棒性\cite{zhangContinuousthrustStationkeepingCislunar2022}，见 Utkin 与 Shi 1996。
 
 ## SMC 的数学结构
 
@@ -45,7 +45,7 @@ $$
 - 等效控制 $\boldsymbol{u}_{eq}$：令 $\dot{s}=0$ 解出的连续控制，描述滑动段的标称动力学。
 - 切换控制 $\boldsymbol{u}_{sw}$：典型形式为 $-(\boldsymbol{G}\boldsymbol{B})^{-1}\boldsymbol{k}\,\mathrm{sgn}(\boldsymbol{s})$，用以在扰动下保持 $\dot{s}\,s<0$。
 
-取 Lyapunov 函数 $V=\tfrac{1}{2}\boldsymbol{s}^T\boldsymbol{s}$，则 $\dot V = \boldsymbol{s}^T[-\boldsymbol{k}\,\mathrm{sgn}(\boldsymbol{s}) + \boldsymbol{G}\boldsymbol{d}]$。当选 $k_i > \bar d_i$ 时 $\dot V<0$，到达条件成立（Utkin 1977）。
+取 Lyapunov 函数 $V=\tfrac{1}{2}\boldsymbol{s}^T\boldsymbol{s}$，则 $\dot V = \boldsymbol{s}^T[-\boldsymbol{k}\,\mathrm{sgn}(\boldsymbol{s}) + \boldsymbol{G}\boldsymbol{d}]$。当选 $k_i > \bar d_i$ 时 $\dot V<0$，到达条件成立，见 Utkin 1977。
 
 抖振问题（chattering）。符号函数 $\mathrm{sgn}(\cdot)$ 在切换面上高频振荡，会激发未建模动态。常用缓解手段包括：边界层（用 $\mathrm{sat}(s/\varepsilon)$ 替代 $\mathrm{sgn}$）、二阶/高阶滑模（如 super-twisting）、以及动态滑模面。
 
@@ -57,11 +57,11 @@ $$
 \boldsymbol{s}(\boldsymbol{x},t) = \boldsymbol{G}\big[\boldsymbol{x}(t) - \boldsymbol{x}(0)\big] - \boldsymbol{G}\int_{0}^{t}\!\big[\boldsymbol{A}-\boldsymbol{B}\boldsymbol{R}^{-1}\boldsymbol{B}^T\boldsymbol{P}\big]\boldsymbol{x}(\tau)\,d\tau，
 $$
 
-其中 $\boldsymbol{P}$ 满足 Riccati 方程。由于 $\boldsymbol{s}(\boldsymbol{x}_0,0)=0$，状态从初始时刻即位于滑模面上，消除了到达段（Utkin & Shi 1996）。代入 $\dot{\boldsymbol{s}}=0$ 得到的等效控制 $\boldsymbol{u}_{eq}^* = -\boldsymbol{R}^{-1}\boldsymbol{B}^T\boldsymbol{P}\boldsymbol{x}$ 恰好等于 LQR 的最优反馈律，因此滑动段对预设的二次型指标最优。
+其中 $\boldsymbol{P}$ 满足 Riccati 方程。由于 $\boldsymbol{s}(\boldsymbol{x}_0,0)=0$，状态从初始时刻即位于滑模面上，消除了到达段，见 Utkin 与 Shi 1996。代入 $\dot{\boldsymbol{s}}=0$ 得到的等效控制 $\boldsymbol{u}_{eq}^* = -\boldsymbol{R}^{-1}\boldsymbol{B}^T\boldsymbol{P}\boldsymbol{x}$ 恰好等于 LQR 的最优反馈律，因此滑动段对预设的二次型指标最优。
 
 ## OSMC 的工程取值与平动点保持
 
-地月空间平动点轨道保持（DRO、Halo、NRHO）是 OSMC 的典型应用场景（Zhang & Wang 2022）。该研究采用 $\boldsymbol{G}=\boldsymbol{B}^T=[\,\boldsymbol{0}_{3\times3}\ \ \boldsymbol{I}_{3\times3}\,]$（保证 $\boldsymbol{G}\boldsymbol{B}$ 非奇异），权矩阵取 $\boldsymbol{Q}=10\boldsymbol{I}_{6}$、$\boldsymbol{R}=\boldsymbol{I}_3$，切换增益按扰动量级配置：
+地月空间平动点轨道保持（DRO、Halo、NRHO）是 OSMC 的典型应用场景。该研究采用 $\boldsymbol{G}=\boldsymbol{B}^T=[\,\boldsymbol{0}_{3\times3}\ \ \boldsymbol{I}_{3\times3}\,]$（保证 $\boldsymbol{G}\boldsymbol{B}$ 非奇异），权矩阵取 $\boldsymbol{Q}=10\boldsymbol{I}_{6}$、$\boldsymbol{R}=\boldsymbol{I}_3$，切换增益按扰动量级配置：
 
 | 扰动源 | 无量纲量级 | 切换增益 $\boldsymbol{k}$ |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ $$
 - $k$ 必须严格大于扰动上界。 $k_i \le \bar d_i$ 时到达条件失效。但 $k$ 过大会加剧抖振、增大燃料消耗。OSMC 的实践是按扰动量级配置（如上表），与 LQR 固定增益不同。
 - 抖振与采样/执行频率。边界层厚度 $\varepsilon$ 应与执行机构时间常数、控制周期匹配。过小起不到平滑作用，过大等效于失去滑模特性。
 - 匹配条件限制。 SMC 的不变性只对 $\boldsymbol{d}$ 落入 $\boldsymbol{B}$ 列空间（即匹配扰动）有效。非匹配扰动需要更高阶滑模或自适应增益。
-- 离散时间实现。控制周期较大时（如 NRHO 上的 2 天），离散滑模的到达条件需重新推导（Drakunov & Utkin 1989），符号函数应以 $\mathrm{sgn}$ 的离散等价形式实现。
+- 离散时间实现。控制周期较大时（如 NRHO 上的 2 天），离散滑模的到达条件需重新推导，见 Drakunov 与 Utkin 1989，符号函数应以 $\mathrm{sgn}$ 的离散等价形式实现。
 
 ## 相关概念
 
@@ -86,9 +86,7 @@ $$
 
 ## 参考文献
 
-- Utkin, V. I., 1977, "Variable structure systems with sliding modes," *IEEE Trans. Autom. Control* 22(2)（SMC 的奠基工作）。
-- Slotine, J.-J. E., Li, W., 1991, *Applied Nonlinear Control*（SMC 教材级讲解，含等效控制、到达条件、抖振）。
-- Utkin, V. I., Shi, J., 1996, "Integral sliding mode in systems operating under uncertainty conditions," *Proc. IEEE Conf. Decis. Control*（积分型滑模面，消除到达段）。
-- Drakunov, S. V., Utkin, V. I., 1989, "On discrete-time sliding modes"（离散滑模的到达条件）。
-- Zhang, R., Wang, Y., 2022, "Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints," *Adv. Space Res.*（OSMC 在 DRO/Halo/NRHO 的工程取值与蒙特卡洛验证）。
-- Capello, E., et al., 2017, "Sliding-mode control strategies for rendezvous and docking maneuvers"（SMC 在交会对接的应用）。
+- Utkin, V. I., 1977, *Variable structure systems with sliding modes*, IEEE Transactions on Automatic Control, 22(2): 212-222, DOI: 10.1109/TAC.1977.1101446，SMC 的奠基工作
+- Slotine, J.-J. E., Li, W., 1991, *Applied Nonlinear Control*, Prentice Hall, Englewood Cliffs，SMC 教材级讲解，含等效控制、到达条件、抖振
+- Utkin, V. I., Shi, J., 1996, *Integral sliding mode in systems operating under uncertainty conditions*, Proceedings of the 35th IEEE Conference on Decision and Control, 4: 4591-4596, DOI: 10.1109/CDC.1996.577594，积分型滑模面，消除到达段
+- Drakunov, S. V., Utkin, V. I., 1989, *On discrete-time sliding modes*, Nonlinear Control Systems Design 1989 (IFAC Symposium), 273-278, DOI: 10.1016/B978-0-08-037022-4.50053-3，离散滑模的到达条件

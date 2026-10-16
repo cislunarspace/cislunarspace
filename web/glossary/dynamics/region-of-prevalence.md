@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/region-of-prevalence/
 
 ## 定义
 
-双圆限制性四体问题中，不同简化模型各自准确描述真实动力学行为的区域。日地模型在地月转移的出发段和 coasting 段更准确，而地月模型在到达段更准确。这种分层特性是拼接三体方法可行性的物理依据。
+双圆限制性四体问题中，不同简化模型各自准确描述真实动力学行为的区域。日地模型在地月转移的出发段和 coasting 段更准确，而地月模型在到达段更准确。这种分层特性是拼接三体方法可行性的物理依据\cite{campanaLowenergyEarthMoon2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/region-of-prevalence/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Campana 等 - 2024 - Low-energy earth–moon transfers via theory of functional connections and homotopy

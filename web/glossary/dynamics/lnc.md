@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/lnc/
 
 ## 参考文献
 
-- Grossi 等 - 2024。
+- Grossi et al., 2024, *On optimal three-impulse Earth–Moon transfers in a four-body model*, Celestial Mechanics and Dynamical Astronomy, 136(3): 22, DOI: 10.1007/s10569-024-10193-4

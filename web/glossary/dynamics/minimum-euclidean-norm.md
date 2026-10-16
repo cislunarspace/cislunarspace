@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/minimum-euclidean-norm/
 
 ## 定义
 
-微分校正中确定迭代步长的数学方法。当自由变量多于约束变量（欠约束系统）时，用伪逆矩阵求范数最小的修正量，使每步修正幅度最小，保证迭代收敛的稳定性。
+微分校正中确定迭代步长的数学方法。当自由变量多于约束变量（欠约束系统）时，用伪逆矩阵求范数最小的修正量，使每步修正幅度最小，保证迭代收敛的稳定性\cite{LiXingMingDiYueZhouQiGuiDaoDuiDiYueL1YuL2FuJinHaloGuiDaoDeKeJianXingFenXi2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/minimum-euclidean-norm/
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
-
-## 参考文献
-
-- 李星明 等 - 2024 - 地月周期轨道对地月L1与L2附近Halo轨道的可见性分析

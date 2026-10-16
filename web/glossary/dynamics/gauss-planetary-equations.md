@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/gauss-planetary-equations/
 
 ## 定义
 
-以径向、切向和法向三个摄动力分量表达的经典轨道要素时间导数方程组。相比拉格朗日型摄动方程（以力的势函数表达），Gauss方程能直接处理非保守力（如推力、大气阻力），在轨道机动和低推力轨迹设计中广泛使用。
+以径向、切向和法向三个摄动力分量表达的经典轨道要素时间导数方程组。相比拉格朗日型摄动方程（以力的势函数表达），Gauss方程能直接处理非保守力（如推力、大气阻力），在轨道机动和低推力轨迹设计中广泛使用\cite{yangEarthmoonTrajectoryOptimization2007}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/gauss-planetary-equations/
 - [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
-
-## 参考文献
-
-- Yang - 2007 - Earth-moon trajectory optimization using solar electric propulsion

@@ -45,5 +45,5 @@ permalink: /glossary/dynamics/lie-transformation/
 
 ## 参考文献
 
-- Orbital parameter characterization and objects cataloging for Earth-moon collinear libration points
-- Gómez 等 - 2001
+- Qiao et al., 2026, *Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points*, Chinese Journal of Aeronautics, 39(4), DOI: 10.1016/j.cja.2025.103869
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/9789812810632

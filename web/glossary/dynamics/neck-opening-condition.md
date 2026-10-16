@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/neck-opening-condition/
 
 ## 参考文献
 
-- Liang et al. 2016
+- Liang, Xu & Xu, 2016, *The classification of cislunar trajectories and its applications in the Earth-Moon system*, Astrophysics and Space Science, 361(1): 5, DOI: 10.1007/s10509-015-2577-z

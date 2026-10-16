@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hamiltonian/
 
 ## 定义
 
-哈密顿函数 $H(\mathbf{q},\mathbf{p},t)$ 是相空间上的标量函数，与正则方程 $\dot{\mathbf{q}}=\partial H/\partial\mathbf{p}$、$\dot{\mathbf{p}}=-\partial H/\partial\mathbf{q}$ 一起决定任何哈密顿系统的演化。保守力学中 $H$ 等于系统总能量。最优控制中 $H=L+\boldsymbol{\lambda}^{\!\top}\mathbf{f}$ 是庞特里亚金原理的核心。CR3BP 中 $H=-C/2$，$C$ 为雅可比常数。同一对象统一了分析力学、摄动理论与轨迹优化（Meyer & Offin 2017；Szebehely 1967）。
+哈密顿函数 $H(\mathbf{q},\mathbf{p},t)$ 是相空间上的标量函数，与正则方程 $\dot{\mathbf{q}}=\partial H/\partial\mathbf{p}$、$\dot{\mathbf{p}}=-\partial H/\partial\mathbf{q}$ 一起决定任何哈密顿系统的演化。保守力学中 $H$ 等于系统总能量。最优控制中 $H=L+\boldsymbol{\lambda}^{\!\top}\mathbf{f}$ 是庞特里亚金原理的核心。CR3BP 中 $H=-C/2$，$C$ 为雅可比常数。同一对象统一了分析力学、摄动理论与轨迹优化\cite{meyerIntroductionHamiltonianDynamical2017,szebehelyTheoryOrbitRestricted1967}。
 
 ## 从拉格朗日量到 Hamilton 函数
 
@@ -42,7 +42,7 @@ $$H(\mathbf{q},\mathbf{p},t)=\mathbf{p}^{\!\top}\dot{\mathbf{q}}-L(\mathbf{q},\d
 
 ## Hamilton 矩阵与辛结构
 
-哈密顿系统在相空间 $\mathbf{z}=(\mathbf{q},\mathbf{p})$ 上的线性化 $\dot{\mathbf{z}}=A\mathbf{z}$，其系数矩阵 $A(t)$ 满足 $A^{\!\top}J+JA=0$，$J=\begin{pmatrix}0&I\\-I&0\end{pmatrix}$，称为 Hamilton 矩阵。其谱关于 $\lambda\mapsto -\lambda$ 对称（Meyer & Offin 2017, Prop. 2.3.1）。Hamilton 矩阵的指数是辛矩阵 $M$，满足 $M^{\!\top}JM=J$，特征值以倒数对 $\lambda,1/\lambda$ 出现。任何 Hamilton 流的状态转移矩阵都是辛矩阵，这是共线平动点处 saddle×center×center 结构的代数根源（详见 [辛结构与哈密顿正规形](/glossary/dynamics/hamiltonian-normal-form/)）。
+哈密顿系统在相空间 $\mathbf{z}=(\mathbf{q},\mathbf{p})$ 上的线性化 $\dot{\mathbf{z}}=A\mathbf{z}$，其系数矩阵 $A(t)$ 满足 $A^{\!\top}J+JA=0$，$J=\begin{pmatrix}0&I\\-I&0\end{pmatrix}$，称为 Hamilton 矩阵。其谱关于 $\lambda\mapsto -\lambda$ 对称，见 Meyer & Offin 2017 命题 2.3.1。Hamilton 矩阵的指数是辛矩阵 $M$，满足 $M^{\!\top}JM=J$，特征值以倒数对 $\lambda,1/\lambda$ 出现。任何 Hamilton 流的状态转移矩阵都是辛矩阵，这是共线平动点处 saddle×center×center 结构的代数根源（详见 [辛结构与哈密顿正规形](/glossary/dynamics/hamiltonian-normal-form/)）。
 
 ## CR3BP Hamilton 量与雅可比常数
 
@@ -50,21 +50,21 @@ $$H(\mathbf{q},\mathbf{p},t)=\mathbf{p}^{\!\top}\dot{\mathbf{q}}-L(\mathbf{q},\d
 
 $$H=\tfrac12(p_x^2+p_y^2+p_z^2)+yp_x-xp_y-\frac{1-\mu}{r_1}-\frac{\mu}{r_2},$$
 
-其中 $r_1,r_2$ 为到两主天体的距离（Szebehely 1967；Meyer & Offin 2017）。科氏与离心项表现为 $yp_x-xp_y$。雅可比常数 $C=-2H$ 是 CR3BP 唯一守恒量，通过零速度曲面限定 Hill 区域（见 [雅可比积分](/glossary/dynamics/jacobi-integral/)）。
+其中 $r_1,r_2$ 为到两主天体的距离。科氏与离心项表现为 $yp_x-xp_y$。雅可比常数 $C=-2H$ 是 CR3BP 唯一守恒量，通过零速度曲面限定 Hill 区域（见 [雅可比积分](/glossary/dynamics/jacobi-integral/)）。
 
 Cox et al.（2021）将 $H$ 拆分为自然 Hamilton 量
 
 $$H_{nat}=\tfrac12 v^2-\tfrac12(x^2+y^2)-\frac{1-\mu}{r_1}-\frac{\mu}{r_2}$$
 
-（无摄 CR3BP 中守恒）与低推力 Hamilton 量 $H_{lt}=H_{nat}-\mathbf{r}^{\!\top}\mathbf{a}_{lt}$，当低推力加速度 $\mathbf{a}_{lt}$ 在旋转系下固定时，$H_{lt}$ 成为新的守恒量。相对 Hamilton 量描述追踪航天器在双主天体引力下相对目标的运动。
+（无摄 CR3BP 中守恒）与低推力 Hamilton 量 $H_{lt}=H_{nat}-\mathbf{r}^{\!\top}\mathbf{a}_{lt}$，当低推力加速度 $\mathbf{a}_{lt}$ 在旋转系下固定时，$H_{lt}$ 成为新的守恒量。相对 Hamilton 量描述追踪航天器在双主天体引力下相对目标的运动\cite{coxTransitCapturePlanar2021}。
 
 ## 近可积 Hamilton 系统
 
-若系统有 $n$ 个相互对合（Poisson 括号为零）的独立积分，则称为可积。近可积 Hamilton 量形如 $H=H_0(I)+\varepsilon H_1(I,\varphi)$，$(I,\varphi)$ 为可积部分的作用-角变量，$\varepsilon\ll 1$。KAM 定理与 Nekhoroshev 定理描述其长期动力学（Celletti 2010；见 [KAM 定理](/glossary/dynamics/kam-theory/)）。Hamilton 可积近似把 $H_1$ 对快变量平均，得到捕捉平均运动共振的可积 $\bar H$，用于为地月共振轨道族的数值延拓提供初值（Ding et al. 2025）。
+若系统有 $n$ 个相互对合（Poisson 括号为零）的独立积分，则称为可积。近可积 Hamilton 量形如 $H=H_0(I)+\varepsilon H_1(I,\varphi)$，$(I,\varphi)$ 为可积部分的作用-角变量，$\varepsilon\ll 1$。KAM 定理与 Nekhoroshev 定理描述其长期动力学\cite{cellettiStabilityChaosCelestial2010}，见 [KAM 定理](/glossary/dynamics/kam-theory/)。Hamilton 可积近似把 $H_1$ 对快变量平均，得到捕捉平均运动共振的可积 $\bar H$，用于为地月共振轨道族的数值延拓提供初值\cite{dingCislunarSpaceSituational2025}。
 
 ## Hamilton 约化
 
-$H$ 具有对称性时，Noether 定理给出守恒量（线动量、角动量、Jacobi 积分）。Hamilton 约化通过对称群对相空间取商以降低有效自由度，Meyer–Marsden–Weinstein 约化是标准框架（Meyer & Offin 2017, Ch.7）。固定 Jacobi 常数的平面 CR3BP 可约化为 Hill 区域上的二维 Hamilton 流。
+$H$ 具有对称性时，Noether 定理给出守恒量（线动量、角动量、Jacobi 积分）。Hamilton 约化通过对称群对相空间取商以降低有效自由度，Meyer–Marsden–Weinstein 约化是标准框架，见 Meyer & Offin 2017 年第 7 章。固定 Jacobi 常数的平面 CR3BP 可约化为 Hill 区域上的二维 Hamilton 流。
 
 ## 最优控制中的 Hamilton 函数
 
@@ -93,8 +93,6 @@ $$H(\mathbf{x},\boldsymbol{\lambda},\mathbf{u},t)=L(\mathbf{x},\mathbf{u},t)+\bo
 
 ## 参考文献
 
-- Szebehely, V. (1967). *Theory of Orbits: The Restricted Problem of Three Bodies*.
-- Meyer, K. R., & Offin, D. C. (2017). *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, 3rd ed., Ch. 1–2, 7.
-- Celletti, A. (2010). *Stability and Chaos in Celestial Mechanics*.
-- Cox, A. B., et al. (2021). CR3BP with low-thrust.
-- Ding, Y., et al. (2025). Cislunar SSA via Earth-Moon resonant orbits.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York
+- Cox, A. B., et al. (2021). CR3BP with low-thrust，题录待补
+- Ding, Qi and Qiao, 2025, *Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits*, IFAC-PapersOnLine, 59(20): 1386-1391, DOI: 10.1016/j.ifacol.2025.11.350

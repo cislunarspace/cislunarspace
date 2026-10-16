@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/projection-functional/
 
 ## 定义
 
-泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束植入函数表达式，确保在约束点处精确满足边界条件。
+泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束植入函数表达式，确保在约束点处精确满足边界条件\cite{campanaLowenergyEarthMoon2024}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/projection-functional/
 - 中途脉冲（Midcourse Impulse）
 - 零推力参考轨迹（Zero-Thrust Reference Trajectory）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
-
-## 参考文献
-
-- Campana 等 - 2024 - Low-energy earth–moon transfers via theory of functional connections and homotopy

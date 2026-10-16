@@ -44,4 +44,4 @@ bang-bang 最优控制中，控制量取某一固定极值（最大或最小推�
 
 ## 参考文献
 
-- You and Dai, 2022, JGCD, doi:10.2514/1.G006815
+- You, Dai and Rea, 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815

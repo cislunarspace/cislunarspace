@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/multicollinearity/
 
 ## 参考文献
 
-- 测绘学报, 2013, 42(2): 184-190
+- 杜兰 等, 2013, *圆型限制性三体问题下Halo-绕月轨道的星间测距定轨*, 测绘学报, 42(2): 184-190

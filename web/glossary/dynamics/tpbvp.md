@@ -67,7 +67,7 @@ $$
 
 $$\mathbf{F}(\boldsymbol{\lambda}(t_0), t_f)=\begin{bmatrix}\mathbf{r}(t_f)-\mathbf{r}_{target}\\\mathbf{v}(t_f)-\mathbf{v}_{target}\end{bmatrix}$$
 
-从对 $\boldsymbol{\lambda}(t_0)$ 的猜测出发向前积分，用 Newton-Raphson 迭代修正直至 $\mathbf{F}\to\mathbf{0}$。每一次迭代需要状态转移矩阵：在这里，STM 扩展到了协态维度（$14\times 14$ 矩阵），积分规模翻倍。
+从对 $\boldsymbol{\lambda}(t_0)$ 的猜测出发向前积分，用 Newton-Raphson 迭代修正直至 $\mathbf{F}\to\mathbf{0}$。每一次迭代需要状态转移矩阵：在这里，STM 扩展到了协态维度（$14\times 14$ 矩阵），积分规模翻倍\cite{valladoFundamentalsAstrodynamicsApplications2022}。
 
 ## 数值困难与对策
 
@@ -75,7 +75,7 @@ $$\mathbf{F}(\boldsymbol{\lambda}(t_0), t_f)=\begin{bmatrix}\mathbf{r}(t_f)-\mat
 
 协态变量的物理意义是状态约束的影子价格：位置协态 $\boldsymbol{\lambda}_r$ 表示终端位置约束对整条轨迹的代价压力。速度协态 $\boldsymbol{\lambda}_v$ 表示终端速度约束的影子价格。但它们的数值量级、方向无简单规则可循，难以给出合理初猜。在 CR3BP 的非线性流下，$\boldsymbol{\lambda}(t_0)$ 细微变化被长时间积分放大，打靶函数 $\mathbf{F}$ 呈现多峰、多谷结构（并行于微分修正的初猜敏感问题）。
 
-[协态归一化](/glossary/dynamics/co-state-variables/)是关键的应对技术：将 $(\boldsymbol{\lambda}(t_0),\lambda_m(t_0))$ 归一化到 7 维单位球面上，把搜索空间从无穷大缩减为有限紧致集合，初猜只需指对方向（Jiang et al. 2012）。
+[协态归一化](/glossary/dynamics/co-state-variables/)是关键的应对技术：将 $(\boldsymbol{\lambda}(t_0),\lambda_m(t_0))$ 归一化到 7 维单位球面上，把搜索空间从无穷大缩减为有限紧致集合，初猜只需指对方向\cite{jiangPracticalTechniquesLowThrust2012a}。
 
 ### 同伦法
 
@@ -119,8 +119,4 @@ Lambert 问题是 TPBVP 在二体问题下的一个特例，给定两点间的�
 
 ## 参考文献
 
-- Bryson A E, Ho Y C. Applied Optimal Control[M]. Taylor & Francis, 1975.（TPBVP 在最优控制中的经典表述）
-
-- Jiang F, Baoyin H, Li J. Practical techniques for low-thrust trajectory optimization with homotopic approach[J]. Journal of Guidance, Control, and Dynamics, 2012.（协态归一化 + 同伦法改善 TPBVP 收敛性的关键技术细节）
-
-- Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 5th ed. Microcosm Press, 2022. §6-8, §10.4.（二体最优控制中的 TPBVP 与打靶法章节）
+- Bryson & Ho, 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Taylor & Francis，TPBVP 在最优控制中的经典表述

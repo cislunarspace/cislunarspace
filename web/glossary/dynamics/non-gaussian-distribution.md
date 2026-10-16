@@ -44,4 +44,4 @@ permalink: /glossary/dynamics/non-gaussian-distribution/
 
 ## 参考文献
 
-- Duan 等 - 2025
+- Duan, Yang & Luo, 2025, *Adaptive polynomial chaos expansion method for uncertain multiple-revolution Lambert problem*, Celestial Mechanics and Dynamical Astronomy, 137(5): 30, DOI: 10.1007/s10569-025-10259-x

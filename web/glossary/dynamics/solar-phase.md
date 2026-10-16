@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/solar-phase/
 
 ## 定义
 
-地月连线与黄白交线的夹角，记为β。太阳相位决定了等效平动点的位置和Hamiltonian函数值，并影响运输管壁的变形和穿越轨道的分布。在空间双圆模型中是描述系统时间周期性的关键参数。
+地月连线与黄白交线的夹角，记为β。太阳相位决定了等效平动点的位置和Hamiltonian函数值，并影响运输管壁的变形和穿越轨道的分布。在空间双圆模型中是描述系统时间周期性的关键参数\cite{XuMingDiYueDiNengZhuanYiDeFaShengTiaoJianJiGuiJiGouZao2010}。
 
 ## 应用价值
 
-在太阳相位的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+在太阳相位的设计与分析中，可用于优化转移方案，减少燃料消耗。该概念为地月空间任务设计提供了重要的理论基础，在实际工程中可用于轨道设计、任务规划或控制系统分析。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/solar-phase/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造

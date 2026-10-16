@@ -30,4 +30,4 @@ permalink: /glossary/dynamics/tube-topology/
 
 ## 参考文献
 
-- Koon, Lo, Marsden, Ross, 2000, Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics.
+- Koon et al., 2000, *Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics*, Chaos: An Interdisciplinary Journal of Nonlinear Science, 10(2): 427-469, DOI: 10.1063/1.166509

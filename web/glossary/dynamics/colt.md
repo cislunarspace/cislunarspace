@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/colt/
 
 ## 参考文献
 
-- （无）
+- 题录待补

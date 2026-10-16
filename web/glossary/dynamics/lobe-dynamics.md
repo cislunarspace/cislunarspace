@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lobe-dynamics/
 
 ## 定义
 
-基于Poincare截面上鞍点不变流形所围成的瓣叶（lobe）结构，分析相空间中不同区域之间物质输运的理论与方法。瓣叶是由鞍点稳定流形和不稳定流形包围的相空间区域，其时间演化（正向和反向迭代）可精确刻画物质在混沌海中的传输路径和时间尺度。论文将该方法应用于日-木PCR3BP，通过追踪瓣叶从火星区域到地球区域的演化过程，找到了火星到地球的长时间自然传输轨道。
+基于Poincare截面上鞍点不变流形所围成的瓣叶（lobe）结构，分析相空间中不同区域之间物质输运的理论与方法。瓣叶是由鞍点稳定流形和不稳定流形包围的相空间区域，其时间演化（正向和反向迭代）可精确刻画物质在混沌海中的传输路径和时间尺度。论文将该方法应用于日-木PCR3BP，通过追踪瓣叶从火星区域到地球区域的演化过程，找到了火星到地球的长时间自然传输轨道\cite{renMechanismsNaturalTransport2011}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/lobe-dynamics/
 - [Poincare截面（Poincare Section）](/glossary/dynamics/poincare-section/)
 - [混沌海（Chaotic Sea）](/glossary/dynamics/chaotic-sea/)
 - [低能转移（Low-Energy Transfer）](/glossary/orbits/low-energy-transfer/)
-
-## 参考文献
-
-- Ren 等 - 2011 - On the mechanisms of natural transport in the solar system

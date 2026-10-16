@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/phasing-flyby/
 
 ## 参考文献
 
-- Anderson and Parker, 2012, J. Guidance, Control, and Dynamics
+- Anderson, R. L., Parker, J. S., 2012, *Survey of Ballistic Transfers to the Lunar Surface*, Journal of Guidance, Control, and Dynamics, 35(4): 1256-1267, DOI: 10.2514/1.54830

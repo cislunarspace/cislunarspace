@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/lsr/
 
 $$\frac{T_{\text{orb}}}{T_{\text{syn}}} = \frac{P}{Q}$$
 
-其中 $P$、$Q$ 为正整数。常记为 $M:N$ 同步共振：航天器完成 $M$ 圈轨道，同时太阳-地球-月球几何配置重复 $N$ 次。由于会合周期由太阳与月球的相对运动决定，共振使轨道在太阳-地球-月球几何下具有可预测的周期重复性（Zimovan-Spreen et al. 2020；Boudad et al. 2020）。
+其中 $P$、$Q$ 为正整数。常记为 $M:N$ 同步共振：航天器完成 $M$ 圈轨道，同时太阳-地球-月球几何配置重复 $N$ 次。由于会合周期由太阳与月球的相对运动决定，共振使轨道在太阳-地球-月球几何下具有可预测的周期重复性\cite{zimovan-spreenRectilinearHaloOrbits2020,boudadDynamicsSynodicResonant2020}。
 
 ## 数学与力学细节
 
@@ -46,13 +46,13 @@ $$T_{4BP} = N \left| \frac{2\pi}{\omega_S} \right|$$
 
 $$T_{3BP} = \frac{N}{M} \left| \frac{2\pi}{\omega_S} \right|$$
 
-（Oshima 2022）。
+\cite{oshimaMultipleFamiliesSynodic2022}
 
-由于 BCR4BP 中太阳引力摄动打破了 CR3BP 的自洽性，同步共振周期轨道必须通过延拓策略从 CR3BP 解过渡：令太阳质量由零逐渐增大，每一中间状态的解即为 CR3BP 更高周期的近周期轨道（Boudad et al. 2020）。当 $M$ 为偶数时，从同一个 CR3BP 轨道出发可能产生两个不同的 BCR4BP 周期轨道族（$T_0$ 族与 $T_{1/2}$ 族），对应从初始时刻太阳相角相差 $\pi$ 时两个不同的对称初始条件（Oshima 2022）。
+由于 BCR4BP 中太阳引力摄动打破了 CR3BP 的自洽性，同步共振周期轨道必须通过延拓策略从 CR3BP 解过渡：令太阳质量由零逐渐增大，每一中间状态的解即为 CR3BP 更高周期的近周期轨道。当 $M$ 为偶数时，从同一个 CR3BP 轨道出发可能产生两个不同的 BCR4BP 周期轨道族（$T_0$ 族与 $T_{1/2}$ 族），对应从初始时刻太阳相角相差 $\pi$ 时两个不同的对称初始条件。
 
 ## 典型实例与日食规避
 
-月球会合共振的关键价值在于日食规避：在太阳-月球和太阳-地球旋转系中，共振轨道的瓣状几何与地球/月球阴影锥之间形成可预测的相对运动，选择合适的历元即可让阴影穿过瓣间空隙，实现无需推进机动的长期无蚀飞行（Zimovan-Spreen et al. 2020）。
+月球会合共振的关键价值在于日食规避：在太阳-月球和太阳-地球旋转系中，共振轨道的瓣状几何与地球/月球阴影锥之间形成可预测的相对运动，选择合适的历元即可让阴影穿过瓣间空隙，实现无需推进机动的长期无蚀飞行。
 
 下表列出 CR3BP 地月系 $L_2$ Halo 族中几个典型同步共振 NRHO 的参数：
 
@@ -63,12 +63,12 @@ $$T_{3BP} = \frac{N}{M} \left| \frac{2\pi}{\omega_S} \right|$$
 | 3:1 | ≈9.79 天 | ≈15000 km | ≈84500 km | 共振比简单，但近月点更高 |
 | 5:1 | ≈5.90 天 | 无 | 无 | 近月点更接近月面 |
 
-此外，NRHO 附近的高周期轨道族也存在同步共振成员，例如 2:1 P2HO1（周期约 14.76 天）、1:1 P2HO1（周期约 29.5 天）、3:2 P2HO1 等，其瓣/峰结构保持了类似 4:1 或 9:2 的日食规避几何（Zimovan-Spreen et al. 2020）。
+此外，NRHO 附近的高周期轨道族也存在同步共振成员，例如 2:1 P2HO1（周期约 14.76 天）、1:1 P2HO1（周期约 29.5 天）、3:2 P2HO1 等，其瓣/峰结构保持了类似 4:1 或 9:2 的日食规避几何\cite{williams2017targeting}。
 
 ## 应用要点
 
 1. 日食规避：在 BCR4BP 中，9:2 NRHO 的轨迹在太阳-$B_1$ 旋转系中完全避开了地球的半影锥，可实现纯弹道的长期无蚀飞行。
-2. 长期可预测性：共振复现性使长期驻留维持预算能够准确估算，也利于多航天器在轨相位规划（例如两航天器在 9:2 轨道上以太阳相角差 $\pi$ 独立运行而不相撞）（Boudad et al. 2020）。
+2. 长期可预测性：共振复现性使长期驻留维持预算能够准确估算，也利于多航天器在轨相位规划（例如两航天器在 9:2 轨道上以太阳相角差 $\pi$ 独立运行而不相撞）。
 3. 导航与任务规划：同步共振的地月-太阳几何重复使导航解算复杂度降低，发射窗口选择更灵活。
 
 ## 相关概念
@@ -87,12 +87,4 @@ $$T_{3BP} = \frac{N}{M} \left| \frac{2\pi}{\omega_S} \right|$$
 
 ## 参考文献
 
-- Zimovan-Spreen, E. M. et al., 2020, Near rectilinear halo orbits and nearby higher-period dynamical structures: orbital stability and resonance properties, *Acta Astronautica*
-
-- Boudad, K. D. et al., 2020, Dynamics of synodic resonant near rectilinear halo orbits in the bicircular four-body problem, *Celestial Mechanics and Dynamical Astronomy*
-
-- Williams, K. E. et al., 2017, Targeting cislunar near rectilinear halo orbits for human space exploration, *AIAA SPACE and Astronautics Forum and Exposition*
-
-- Oshima, K., 2022, Multiple families of synodic resonant periodic orbits in the bicircular restricted four–body problem, *Advances in Space Research*
-
-- Lee, K., 2019 (internal NASA report on Gateway NRHO 9:2 synodic resonant orbit analysis)
+- Lee, K., 2019, internal NASA report on Gateway NRHO 9:2 synodic resonant orbit analysis，题录待补

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/indirect-phasing/
 
 ## 参考文献
 
-- 地月远距离逆行轨道脉冲调相方法
+- 地月远距离逆行轨道脉冲调相方法，题录待补

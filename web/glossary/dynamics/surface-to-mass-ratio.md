@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/surface-to-mass-ratio/
 
 ## 参考文献
 
-- Debris Cloud Evolution in Cislunar Space Using Eulerian Perspective Method
+- Wang, Yang and Guo, 2025, *Debris Cloud Evolution in Cislunar space Using Eulerian Perspective Method*, IFAC-PapersOnLine, 59(20): 168-173, DOI: 10.1016/j.ifacol.2025.11.144

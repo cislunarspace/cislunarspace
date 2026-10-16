@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/connection/
 
 ## 参考文献
 
-- Trajectory selection strategy for tours in the Earth-moon system
+- Haapala et al., 2013, *Trajectory Selection Strategy for Tours in the Earth-Moon System*, Advances in the Astronautical Sciences, 150

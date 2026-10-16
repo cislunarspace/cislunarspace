@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/position-offset-compensation/
 
 ## 参考文献
 
-- Burns和Scherock - 2004
+- Burns, S. P., Scherock, J. J., 2004, *Lambert Guidance Routine Designed to Match Position and Velocity of Ballistic Target*, Journal of Guidance, Control, and Dynamics, 27(6): 989-996, DOI: 10.2514/1.1679

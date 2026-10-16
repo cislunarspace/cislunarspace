@@ -45,4 +45,6 @@ permalink: /glossary/dynamics/box-covering/
 
 ## 参考文献
 
-- Dellnitz and Junge, 2002; Zanzottera et al., 2012
+- Dellnitz and Junge, 2002, *Set Oriented Numerical Methods for Dynamical Systems*, Handbook of Dynamical Systems, 2: 221–264, DOI: 10.1016/S1874-575X(02)80026-1
+
+- Zanzottera et al., 2012, *Intersecting invariant manifolds in spatial restricted three-body problems: Design and optimization of Earth-to-halo transfers in the Sun–Earth–Moon scenario*, Communications in Nonlinear Science and Numerical Simulation, 17(2): 832–843, DOI: 10.1016/j.cnsns.2011.06.032

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/control-curve-ui/
 
 ## 参考文献
 
-- Cox 等 - 2021
+- Cox, Howell and Folta, 2021, *Transit and capture in the planar three-body problem leveraging low-thrust invariant manifolds*, Celestial Mechanics and Dynamical Astronomy, 133(5): 22, DOI: 10.1007/s10569-021-10022-y

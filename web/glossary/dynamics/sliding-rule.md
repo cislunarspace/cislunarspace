@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/sliding-rule/
 2. 终端目标轨道的滑行则对应于沿垂直方向的等相位线滑动。
 3. 当滑动方向与速度增量等值线相切时，即达到局部极值点。
 
-该规则有效规避了传统非线性规划由于初值猜测不良导致的局部次优解陷阱，极大提高了多圈兰伯特交会、地月空间编队重构及远程交会轨道设计的全局搜索效率。
+该规则有效规避了传统非线性规划由于初值猜测不良导致的局部次优解陷阱，极大提高了多圈兰伯特交会、地月空间编队重构及远程交会轨道设计的全局搜索效率\cite{shenOptimalTwoimpulseRendezvous2003}。
 
 ## 相关概念
 
@@ -43,5 +43,4 @@ permalink: /glossary/dynamics/sliding-rule/
 
 ## 参考文献
 
-- Shen, H. X., & Tsiotras, P. Optimal two-impulse rendezvous using multiple-revolution Lambert solutions. Journal of Guidance, Control, and Dynamics, 2003, 26(1): 50-61.
-- Lawden, D. F. Optimal Trajectories for Space Navigation. Butterworths, 1963.
+- Lawden, 1963, *Optimal Trajectories for Space Navigation*, Butterworths

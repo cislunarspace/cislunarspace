@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/tidal-capture/
 
 ## 定义
 
-第三天体进入主天体的引力影响范围并被其引力束缚的过程。在限制性三体问题中可通过势垒穿透实现。
+第三天体进入主天体的引力影响范围并被其引力束缚的过程。在限制性三体问题中可通过势垒穿透实现\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/tidal-capture/
 - 可达集（Reachability Set）
 - 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - 拉普拉斯方法（Laplace Method）
-
-## 参考文献
-
-- Szebehely - 1967 - Theory of orbit the restricted problem of three bodies

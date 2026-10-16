@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/halo-orbit-computation/
 
 ## 定义
 
-计算 Halo 轨道的方法，包括 Lindstedt-Poincaré 解析展开和三阶 Richardson 展开。
+计算 Halo 轨道的方法，包括 Lindstedt-Poincaré 解析展开和三阶 Richardson 展开\cite{rossDynamicalSystemsThreebody2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/halo-orbit-computation/
 - 刚体动力学（Rigid Body Dynamics）
 - 变长设计空间（Variable-Size Design Space, VSDS）
 - 分析梯度（Analytical Gradient）
-
-## 参考文献
-
-- Ross 等 - 2022 - Dynamical systems, the three-body problem, and space mission design

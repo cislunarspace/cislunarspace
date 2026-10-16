@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/near-resonance-theorem/
 
 ## 定义
 
-将刘维尔定理和哈特曼定理推广到近共振情况的理论，证明了中心流形的存在及其与稳定、不稳定流形的相互作用。
+将刘维尔定理和哈特曼定理推广到近共振情况的理论，证明了中心流形的存在及其与稳定、不稳定流形的相互作用\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/near-resonance-theorem/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- Marchal - 1990 - The three-body problem

@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/null-vector/
 
 ## 参考文献
 
-- Spreen 2021
+- Spreen, 2021, *Trajectory Design and Targeting for Applications to the Exploration Program in Cislunar Space*, Ph.D. dissertation, Purdue University, DOI: 10.25394/pgs.14445717

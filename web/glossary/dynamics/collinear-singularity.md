@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/collinear-singularity/
 
 ## 参考文献
 
-- Uncertain Lambert Problem
+- Schumacher et al., 2015, *Uncertain Lambert Problem*, Journal of Guidance, Control, and Dynamics, 38(9): 1573-1584, DOI: 10.2514/1.G001019

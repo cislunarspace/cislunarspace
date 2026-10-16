@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/ocs/
 
 ## 参考文献
 
-- Folta et al., 2014, Acta Astronautica
+- Folta et al., 2014, *Earth-Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421-433, DOI: 10.1016/j.actaastro.2013.01.022

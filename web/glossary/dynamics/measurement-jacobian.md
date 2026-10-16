@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/measurement-jacobian/
 
 ## 参考文献
 
-- Observability metrics for space-based cislunar domain awareness (Fowler & Paley, 2023)
+- Fowler & Paley, 2023, *Observability Metrics for Space-Based Cislunar Domain Awareness*, The Journal of the Astronautical Sciences, 70(2): 10, DOI: 10.1007/s40295-023-00368-w

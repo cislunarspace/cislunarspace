@@ -20,7 +20,7 @@ permalink: /glossary/dynamics/tph/
 
 ## 定义
 
-目标相位（Target Phase, TPh）是指在平动点准周期与周期轨道维持的目标相位法（Target Phase Approach, TPhA）中，于选定庞加莱截面（如 $x=0$ 或 $y=0$ 截面）上显式定义的表征航天器名义轨道运行周期的角相位参数。它作为轨道控制机动规划的终端几何与相位瞄准基准。
+目标相位（Target Phase, TPh）是指在平动点准周期与周期轨道维持的目标相位法（Target Phase Approach, TPhA）中，于选定庞加莱截面（如 $x=0$ 或 $y=0$ 截面）上显式定义的表征航天器名义轨道运行周期的角相位参数。它作为轨道控制机动规划的终端几何与相位瞄准基准\cite{fuHighorderTargetPhase2024}。
 
 ## 物理机制与工程价值
 
@@ -43,5 +43,4 @@ permalink: /glossary/dynamics/tph/
 
 ## 参考文献
 
-- Fu, B., Gong, S. P., & Li, J. F. A high-order target phase approach for the station-keeping of periodic orbits in the Earth-Moon system. Aerospace Science and Technology, 2024, 145: 108873.
-- Folta, D. C., & Pavlak, T. A. Extension of target point stationkeeping methods for libration point orbits. AAS/AIAA Space Flight Mechanics Meeting, 2013.
+- Folta, D. C., & Pavlak, T. A. Extension of target point stationkeeping methods for libration point orbits. AAS/AIAA Space Flight Mechanics Meeting, 2013，题录待补

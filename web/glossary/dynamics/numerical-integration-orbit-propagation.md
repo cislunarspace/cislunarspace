@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/numerical-integration-orbit-propagation/
 
 ## 参考文献
 
-- Biswas & Hablani, 2015, Section II.D
+- Biswas & Hablani, 2015, *Ground Based Navigation of Spacecraft in Lunar Transfer Trajectory, with Application to Chandrayaan-2*, Advances in Estimation, Navigation, and Spacecraft Control, 371-390, Section II.D, DOI: 10.1007/978-3-662-44785-7_20

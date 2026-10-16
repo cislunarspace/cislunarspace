@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/act/
 
 ## 定义
 
-将敏感情形变量映射为物理可实现参数的变换方法，用于降低间接法求解两点边值问题的初值猜测难度。
+将敏感情形变量映射为物理可实现参数的变换方法，用于降低间接法求解两点边值问题的初值猜测难度\cite{ozimekLowthrustTransfersEarthmoon2010}。
 
 ## 应用价值
 
@@ -45,5 +45,4 @@ permalink: /glossary/dynamics/act/
 
 ## 参考文献
 
-Ozimek和Howell 2010
-Dixon和Biggs 2007
+- Dixon and Biggs, 2007，题录待补

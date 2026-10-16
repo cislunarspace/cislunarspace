@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/misg/
 
 ## 参考文献
 
-- Cuevas del Valle 等 - 2022。
+- Cuevas del Valle et al., 2022, *Relative Dynamics and Modern Control Strategies for Rendezvous in Libration Point Orbits*, Aerospace, 9(12): 798, DOI: 10.3390/aerospace9120798

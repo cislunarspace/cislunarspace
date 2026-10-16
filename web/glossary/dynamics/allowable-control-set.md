@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/allowable-control-set/
 
 ## 定义
 
-在多阶段最优控制问题中，满足各阶段约束条件的全部可行控制决策的有限集合。每个阶段预先构建允许控制集，再通过动态规划等全局优化方法从中选取最优组合。集合大小由求解精度需求决定，精度越高集合越大，计算量也越大。
+在多阶段最优控制问题中，满足各阶段约束条件的全部可行控制决策的有限集合。每个阶段预先构建允许控制集，再通过动态规划等全局优化方法从中选取最优组合。集合大小由求解精度需求决定，精度越高集合越大，计算量也越大\cite{ZhaoHongQianJiYuDongTaiGuiHuaDeYueMianDingDianZhaoLuKuaiSuZhiDaoFangFa2021}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/allowable-control-set/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- 赵弘骞等 - 2021 - 基于动态规划的月面定点着陆快速制导方法

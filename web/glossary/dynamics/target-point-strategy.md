@@ -45,4 +45,5 @@ permalink: /glossary/dynamics/target-point-strategy/
 
 ## 参考文献
 
-- Howell and Pernicka, 1993; Hou et al., 2011
+- Howell & Pernicka, 1993, *Stationkeeping Method for Libration Point Trajectories*, Journal of Guidance, Control, and Dynamics, 16(1): 151-159, DOI: 10.2514/3.11440
+- Hou, Liu & Tang, 2011, *Station-keeping of small amplitude motions around the collinear libration point in the real Earth–Moon system*, Advances in Space Research, 47(7): 1127-1134, DOI: 10.1016/j.asr.2010.12.005

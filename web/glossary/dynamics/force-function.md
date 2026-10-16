@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/force-function/
 
 ## 定义
 
-势函数的负值，即F=-V。在限制性三体问题中，力函数显式依赖于时间（惯性系）或不含时间（旋转系）。
+势函数的负值，即F=-V。在限制性三体问题中，力函数显式依赖于时间（惯性系）或不含时间（旋转系）\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/force-function/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- Szebehely - 1967 - Theory of orbit the restricted problem of three bodies

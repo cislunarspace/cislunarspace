@@ -41,5 +41,5 @@ permalink: /glossary/dynamics/tangent-circle/
 
 ## 参考文献
 
-- Belbruno, E., Topputo, F., & Gidea, M. Resonance transitions and invariant manifolds in the planar circular restricted three-body problem. Discrete and Continuous Dynamical Systems, 2010, 26(3): 795-814.
-- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D. Dynamical Systems, the Three-Body Problem and Space Mission Design. Springer, 2011.
+- Belbruno, E., Topputo, F., & Gidea, M. Resonance transitions and invariant manifolds in the planar circular restricted three-body problem. Discrete and Continuous Dynamical Systems, 2010, 26(3): 795-814，题录待补
+- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem and Space Mission Design*, Marsden Books

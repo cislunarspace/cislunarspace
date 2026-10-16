@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/principal-stretching-direction/
 
 ## 定义
 
-对 Cauchy-Green 张量作特征值分解，最大奇异值对应的特征向量即主拉伸方向。沿该方向施加脉冲，对末状态的改变最显著，可用于替代不稳定流形来设计地月低能转移轨迹。
+对 Cauchy-Green 张量作特征值分解，最大奇异值对应的特征向量即主拉伸方向。沿该方向施加脉冲，对末状态的改变最显著，可用于替代不稳定流形来设计地月低能转移轨迹\cite{PengLeiJiYuSanTiWenTiDeDiYueKongJianZhongZhuanZhanGuiDaoSheJi2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/principal-stretching-direction/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- 彭蕾等, 基于三体问题的地月空间中转站轨道设计, 飞行力学学报, 2024

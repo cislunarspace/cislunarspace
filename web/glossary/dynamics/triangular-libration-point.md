@@ -47,5 +47,5 @@ permalink: /glossary/dynamics/triangular-libration-point/
 
 ## 参考文献
 
-- Chen 等 - 2026
-- Gómez 等 - 2001
+- Chen 等，2026，题录待补
+- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points, Vol. II: Fundamentals: The Case of Triangular Libration Points*, World Scientific, DOI: 10.1142/4392

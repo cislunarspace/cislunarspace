@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/tosocs/
 
 ## 定义
 
-Lockheed Martin公司开发的三自由度开放轨迹设计与优化工具，基于商业优化引擎SOCS构建，用于高保真全历表模型下的DRO转移轨道优化设计。
+Lockheed Martin公司开发的三自由度开放轨迹设计与优化工具，基于商业优化引擎SOCS构建，用于高保真全历表模型下的DRO转移轨道优化设计\cite{welchMissionConsiderationsTransfers2015a}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Lockheed Martin公司开发的三自由度开放轨迹设计与优化工具，�
 - [复合粒子群算法（Compound Particle Swarm Optimization）](/glossary/dynamics/cpso/)
 - 平均运动共振（Mean Motion Resonance, MMR）
 - 推力加速度（Thrust Acceleration）
-
-## 参考文献
-
-- Welch et al., 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit

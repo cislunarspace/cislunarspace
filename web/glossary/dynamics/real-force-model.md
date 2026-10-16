@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/real-force-model/
 
 ## 定义
 
-考虑月球轨道偏心率和太阳引力摄动的真实地月系统力学模型，相比圆型限制性三体问题更接近实际飞行环境。
+考虑月球轨道偏心率和太阳引力摄动的真实地月系统力学模型，相比圆型限制性三体问题更接近实际飞行环境\cite{liuApplicationTwoSpecial2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/real-force-model/
 - [形状法（Shape Method）](/glossary/dynamics/shape-based-method/)
 - 差分动态规划（Differential Dynamic Programming, DDP）
 - 二阶锥规划（Second-Order Cone Programming, SOCP）
-
-## 参考文献
-
-- Liu 等 - 2014 - Application of two special orbits in the orbit determination of lunar satellites

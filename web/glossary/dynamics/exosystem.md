@@ -47,5 +47,5 @@ permalink: /glossary/dynamics/exosystem/
 
 ## 参考文献
 
-- Di Giamberardino & Monaco 1996
-- Elobaid et al. 2022
+- Di Giamberardino and Monaco, 1996, *On halo orbits spacecraft stabilization*, Acta Astronautica, 38(12): 903-925, DOI: 10.1016/S0094-5765(96)00082-3
+- Elobaid, Monaco and Normand-Cyrot, 2022, *Approximate Transverse Feedback Linearization Under Digital Control*, IEEE Control Systems Letters, 6: 13-18, DOI: 10.1109/LCSYS.2020.3046539

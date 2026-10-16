@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/pseudospectral-convex-optimization/
 
 ## 参考文献
 
-- Song 等 - 2021
+- Song, Y., Miao, X. Y., Gong, S. P., 2021, *Adaptive Powered Descent Guidance Based on Multi-Phase Pseudospectral Convex Optimization*, Acta Astronautica, 180: 386-397, DOI: 10.1016/j.actaastro.2020.12.019

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/lagrange-dalembert-principle/
 
 ## 参考文献
 
-- （暂无参考文献）
+- Ober-Blöbaum, Junge, Marsden, 2011, *Discrete mechanics and optimal control: An analysis*, ESAIM: Control, Optimisation and Calculus of Variations, 17(2): 322-352, DOI: 10.1051/cocv/2010012

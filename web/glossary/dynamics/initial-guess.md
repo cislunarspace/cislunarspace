@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/initial-guess/
 
 ## 定义
 
-迭代求解非线性规划或最优控制问题时提供的变量初始值。直接配点法对初始猜测有一定鲁棒性，但低推力轨迹问题高度非线性且解空间存在多个局部最优，需要构造物理意义明确的初始猜测。文中采用四步法构造：先假设沿正推力方向积分确定第一阶段状态，再逆向积分确定第三阶段状态，然后求解Lambert问题连接两阶段，最后用真近点角等距分布的节点完成网格填充。
+迭代求解非线性规划或最优控制问题时提供的变量初始值。直接配点法对初始猜测有一定鲁棒性，但低推力轨迹问题高度非线性且解空间存在多个局部最优，需要构造物理意义明确的初始猜测。文中采用四步法构造：先假设沿正推力方向积分确定第一阶段状态，再逆向积分确定第三阶段状态，然后求解Lambert问题连接两阶段，最后用真近点角等距分布的节点完成网格填充\cite{bettsOptimalLowThrust2003,conwaySpacecraftTrajectoryOptimization2010}。
 
 ## 应用价值
 
@@ -45,6 +45,4 @@ permalink: /glossary/dynamics/initial-guess/
 
 ## 参考文献
 
-- Betts and Erb, 2003, Optimal low thrust trajectories to the moon
-- Spreen 2021
-- Conway - 2010 - Spacecraft trajectory optimization
+- Spreen 2021，题录待补

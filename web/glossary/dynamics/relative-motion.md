@@ -36,7 +36,7 @@ permalink: /glossary/dynamics/relative-motion/
 
 ## 两体近圆编队：Hill-Clohessy-Wiltshire（HCW）方程
 
-假设主星在圆形开普勒轨道上，副星距离足够近（$\rho = |\delta\mathbf{r}| \ll r_{\text{主}}$），在主星固连的 RSW 系（径向-沿迹-法向）中线性化两体运动方程，得到 Hill-Clohessy-Wiltshire（HCW）方程（Clohessy & Wiltshire 1960；Vallado 2022 §6.8）：
+假设主星在圆形开普勒轨道上，副星距离足够近（$\rho = |\delta\mathbf{r}| \ll r_{\text{主}}$），在主星固连的 RSW 系（径向-沿迹-法向）中线性化两体运动方程，得到 Hill-Clohessy-Wiltshire（HCW）方程\cite{clohessy1960terminal,valladoFundamentalsAstrodynamicsApplications2022}，见 §6.8：
 
 $$
 \ddot{x} - 2n\dot{y} - 3n^2 x = f_x, \quad
@@ -60,7 +60,7 @@ $$
 
 $y(t)$ 中的漂移项 $-(6n x_0 + 3\dot{y}_0)t$ 是 HCW 动力学最核心的实验事实：除非初始状态满足 $6n x_0 + 3\dot{y}_0 = 0$，副星将在沿迹方向长期漂移。满足该条件时，副星绕主星画出一个闭合的椭圆，即径向-沿迹长短轴比 1:2 的经典相对椭圆，是全球所有地球轨道编队设计的几何起点。
 
-局限性：HCW 假设主星为圆轨道。当主星偏心率不可忽略时，误差急剧增大（Vallado 2022 图 6-37：LEO $e = 0.152$ 的例子每天漂移误差约 9 km）。椭圆轨道的推广是 Tschauner-Hempel 方程。但所有两体相对模型都忽略第三体引力，而地月空间恰是月亮或地球作为第三体的效应不可忽略的地方，因此 HCW 及其变体在地月空间不能直接套用。
+局限性：HCW 假设主星为圆轨道。当主星偏心率不可忽略时，误差急剧增大，例如 LEO $e = 0.152$ 时每天漂移误差约 9 km，见图 6-37。椭圆轨道的推广是 Tschauner-Hempel 方程。但所有两体相对模型都忽略第三体引力，而地月空间恰是月亮或地球作为第三体的效应不可忽略的地方，因此 HCW 及其变体在地月空间不能直接套用。
 
 ## CR3BP 中的相对运动方程
 
@@ -74,15 +74,15 @@ $$
 
 按精度递增，实践中引用三种模型：
 
-- 圆型线性化相对运动方程（CLERM）：CR3BP 下一阶变分方程 $\delta\dot{\mathbf{x}} = A(t)\delta\mathbf{x}$。是平动点编队动力学分析和控制器设计的标准模型（Marchand & Howell 2005）。$A(t)$ 含科氏耦合和时变重力梯度。
+- 圆型线性化相对运动方程（CLERM）：CR3BP 下一阶变分方程 $\delta\dot{\mathbf{x}} = A(t)\delta\mathbf{x}$。是平动点编队动力学分析和控制器设计的标准模型\cite{marchandControlStrategiesFormation2005}。$A(t)$ 含科氏耦合和时变重力梯度。
 
-- 圆型非线性相对运动方程（CNERM）：CR3BP 完整非线性方程的主-副星位置差分。保留全部非线性引力项，适用于近程交会末段制导。Innocenti et al.（2022）报告远月点附近精度可达厘米级，满足近程交会制导需求。
+- 圆型非线性相对运动方程（CNERM）：CR3BP 完整非线性方程的主-副星位置差分。保留全部非线性引力项，适用于近程交会末段制导。Innocenti 等报告远月点附近精度可达厘米级，满足近程交会制导需求\cite{innocentiDynamicsControlAnalysis2022}。
 
 - 椭圆线性化相对运动方程（ELERM）：在椭圆限制性三体问题（ER3BP）框架下对参考轨道做线性化。$A(t)$ 不仅依赖时间，还通过主星真近点角参数化。用于需考虑月球轨道偏心率（$e_M \approx 0.055$）的任务。
 
 ## 三角平动点的相对运动解析解
 
-Catlin & McLaughlin（2007）推导了地月 $L_4$ 点相对运动的解析解。线性化 CR3BP 方程在主星固连主轴系下导出两类本征频率：长周期 $s_1$ 与短周期 $s_2$，外加独立的法向简谐振荡（无量纲频率 $s_z = 1$）。
+Catlin 和 McLaughlin 推导了地月 $L_4$ 点相对运动的解析解\cite{catlinEarthmoonTriangularLibration2007}。线性化 CR3BP 方程在主星固连主轴系下导出两类本征频率：长周期 $s_1$ 与短周期 $s_2$，外加独立的法向简谐振荡（无量纲频率 $s_z = 1$）。
 
 通解是两模态的线性叠加：
 
@@ -114,16 +114,6 @@ $$
 
 ## 参考文献
 
-- Clohessy, W. H., Wiltshire, R. S., 1960, Terminal Guidance System for Satellite Rendezvous, *Journal of the Aerospace Sciences*, 27(9): 653–674.
+- Héritier, A., Howell, K. C., 2014, *Dynamical Evolution of Natural Formations in Libration Point Orbits in a Multi-Body Regime*, *Acta Astronautica*, 102: 332-340, DOI: 10.1016/j.actaastro.2013.10.017
 
-- Vallado, D.A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press, §6.8.
-
-- Catlin, K. A., McLaughlin, C. A., 2007, Earth–Moon triangular libration point spacecraft formations, *J. Guidance, Control, Dyn.*, 30(2): 563–574.
-
-- Marchand, B. G., Howell, K. C., 2005, Control strategies for formation flight in the vicinity of the libration points, AAS 03-113, *J. Guidance, Control, Dyn.*, 28(6): 1210–1219.
-
-- Héritier, A., Howell, K. C., 2014, Dynamical evolution of natural formations in libration point orbits in a multi-body regime, *Acta Astronautica*, 102: 81–94.
-
-- Innocenti, M. et al., 2022, Dynamics and control analysis during rendezvous in non-Keplerian Earth–Moon orbits, *Frontiers in Space Technologies*.
-
-- Scheeres, D.J., Vinh, N.X., 2003, Stabilizing motion relative to an unstable orbit: applications to spacecraft formation flight, *J. Guidance, Control, Dyn.*, 26(1): 62–73.
+- Scheeres, D. J., Hsiao, F.-Y., Vinh, N. X., 2003, *Stabilizing Motion Relative to an Unstable Orbit: Applications to Spacecraft Formation Flight*, *Journal of Guidance, Control, and Dynamics*, 26(1): 62-73, DOI: 10.2514/2.5015

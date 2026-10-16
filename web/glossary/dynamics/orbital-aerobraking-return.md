@@ -43,5 +43,5 @@ permalink: /glossary/dynamics/orbital-aerobraking-return/
 
 ## 参考文献
 
-- 宝音贺西, 蒋方华, 李明涛, 等. 地月空间DRO航班化往返转移多脉冲轨迹优化. 宇航学报, 2025, 46(2): 185-196.
-- Vinh, N. X., Busemann, A., & Culp, R. D. Hypersonic and Planetary Entry Flight Mechanics. University of Michigan Press, 1980.
+- 宝音贺西, 张楠, 武迪, 2026, *地月空间DRO航班化往返转移多脉冲轨迹优化*, 飞控与探测, 9(3): 1-7, DOI: 10.20249/j.cnki.2096-5974.2026.03.001
+- Vinh, N. X., Busemann, A., Culp, R. D., 1980, *Hypersonic and Planetary Entry Flight Mechanics*, University of Michigan Press, Ann Arbor

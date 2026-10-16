@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/adjoint-method/
 
 ## 定义
 
-通过构建原系统的对偶系统，利用对偶系统脉冲响应计算最优控制输入的方法。适用于时变线性系统，可将多脉冲机动设计问题转化为伪逆求解。
+通过构建原系统的对偶系统，利用对偶系统脉冲响应计算最优控制输入的方法。适用于时变线性系统，可将多脉冲机动设计问题转化为伪逆求解\cite{bucchioniRendezvousCislunarSpace2021}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/adjoint-method/
 - 中途脉冲（Midcourse Impulse）
 - 零推力参考轨迹（Zero-Thrust Reference Trajectory）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
-
-## 参考文献
-
-- Bucchioni和Innocenti - 2021 - Rendezvous in Cis-Lunar Space near Rectilinear Halo Orbit Dynamics and Control Issues

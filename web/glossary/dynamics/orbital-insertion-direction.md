@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/orbital-insertion-direction/
 
 ## 参考文献
 
-- 魏赞等2026北航学报
+- 魏赞等, 2026, *地月远距离逆行轨道族月球借力转移入轨研究*, 北京航空航天大学学报, DOI: 10.13700/j.bh.1001-5965.2025.0868

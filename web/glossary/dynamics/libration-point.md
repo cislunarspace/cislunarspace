@@ -71,7 +71,7 @@ $$x = \frac{1}{2} - \mu, \quad y = \pm \frac{\sqrt{3}}{2}$$
 
 ## 应用价值
 
-平动点附近的轨道（如 Halo 轨道、Lissajous 轨道、Lyapunov 轨道）在地月空间任务中具有重要应用价值，包括深空探测中转站、引力天文台、太阳观测站和空间态势感知等。
+平动点附近的轨道（如 Halo 轨道、Lissajous 轨道、Lyapunov 轨道）在地月空间任务中具有重要应用价值，包括深空探测中转站、引力天文台、太阳观测站和空间态势感知等\cite{ChenYuJieMianXiangDiYueKongJianTaiShiGanZhiDeDROGuiDaoSheJiYuKongZhiYanJiu2024,klonowskiCislunarSpaceSituational2025}。
 
 ## 相关概念
 
@@ -83,6 +83,4 @@ $$x = \frac{1}{2} - \mu, \quad y = \pm \frac{\sqrt{3}}{2}$$
 
 ## 参考文献
 
-- Szebehely V. Theory of orbits: the restricted problem of three bodies[M]. Academic Press, 1968.
-- 陈昱桔. 面向地月空间态势感知的DRO轨道设计与控制研究[D]. 2024.
-- Klonowski M. Cislunar Space Situational Awareness Architecture Design and Analysis[D]. University of Colorado Boulder, 2025.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, DOI: 10.1016/B978-0-12-395732-0.X5001-6

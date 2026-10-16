@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/ukf/
 
 ## 定义
 
-通过统计采样（西格玛点）近似概率分布来估计非线性系统状态的卡尔曼滤波器变体。不需要系统雅可比矩阵，直接通过非线性方程传播采样点。
+通过统计采样（西格玛点）近似概率分布来估计非线性系统状态的卡尔曼滤波器变体。不需要系统雅可比矩阵，直接通过非线性方程传播采样点\cite{zuehlkeRendezvousProximityOperations2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/ukf/
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-Rendezvous and Proximity Operations in Cislunar Space Using Linearized Dynamics for Estimation

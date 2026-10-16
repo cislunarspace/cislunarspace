@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/offset/
 
 ## 定义
 
-描述扰动DRO相对于理想DRO偏离程度的参数。在给定任务寿命内，通过比较两种轨道与坐标轴的截集之差的平方和来计算，用于确定长期DRO的发射窗口。
+描述扰动DRO相对于理想DRO偏离程度的参数。在给定任务寿命内，通过比较两种轨道与坐标轴的截集之差的平方和来计算，用于确定长期DRO的发射窗口\cite{minghuTransferLongTerm2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/offset/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Tan Minghu et al., 2014, Transfer to long term distant retrograde orbits around the Moon
