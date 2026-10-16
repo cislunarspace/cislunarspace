@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/symbolic-manipulator/
 
 ## 定义
 
-用于解析推导哈密顿函数标准型系数和坐标变换的计算机代数系统。
+用于解析推导哈密顿函数标准型系数和坐标变换的计算机代数系统\cite{gomezDynamicsMissionDesign2001f}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/symbolic-manipulator/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
 - [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/4402

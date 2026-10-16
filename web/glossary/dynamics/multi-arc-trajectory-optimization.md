@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/multi-arc-trajectory-optimization/
 
 ## 定义
 
-航天器转移轨道由多段弧组成、各弧可采用不同坐标表示、最优控制问题需在弧间界面施加匹配条件的轨迹设计方法。
+航天器转移轨道由多段弧组成、各弧可采用不同坐标表示、最优控制问题需在弧间界面施加匹配条件的轨迹设计方法\cite{pozziOptimalLowthrustOrbit2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/multi-arc-trajectory-optimization/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Pozzi et al., 2025, *Optimal low-thrust orbit transfers connecting Gateway with Earth and Moon*, Acta Astronautica, 228: 1107-1121, DOI: 10.1016/j.actaastro.2024.11.040

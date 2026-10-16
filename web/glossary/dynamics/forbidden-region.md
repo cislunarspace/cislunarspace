@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/forbidden-region/
 
 ## 定义
 
-雅可比常数约束下，航天器因动能不足而无法到达的空间区域。
+雅可比常数约束下，航天器因动能不足而无法到达的空间区域\cite{szebehely1967theory}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/forbidden-region/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York

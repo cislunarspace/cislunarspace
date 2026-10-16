@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/floquet-modal-method/
 
 Floquet模态法是一类基于单值矩阵特征分解的平动点轨道保持策略，核心思想是：将参考轨道附近的偏差 $\Delta X$ 分解为 6 个 Floquet 模态（不稳定、中性、稳定三类各 2 个），然后仅消去会指数增长的不稳定分量，忽略振荡的中性分量和衰减的稳定分量。由于不稳定模态支配了长期误差发散，消去它的控制代价最低，而脉冲间隔可以拉长到误差再次累积到阈值的时间尺度，通常为数天到数周。
 
-这一原理由 Gómez et al.（1998）及后续工作 Hou et al.（2011）发展为可实际操作的平动点任务轨道保持框架，与传统的追踪标称轨道方法（每圈或每数圈校正到参考轨道）相比，燃料消耗显著降低，且脉冲间隔长，对需要减少推力器点火次数的深空探测任务（如对仪器干扰敏感）尤其有优势。
+这一原理由 Gómez et al.（1998）及后续工作 Hou et al.（2011）发展为可实际操作的平动点任务轨道保持框架，与传统的追踪标称轨道方法（每圈或每数圈校正到参考轨道）相比，燃料消耗显著降低，且脉冲间隔长，对需要减少推力器点火次数的深空探测任务（如对仪器干扰敏感）尤其有优势\cite{gomezStudyTransferHalo1998}。
 
 ## 三种轨道保持策略
 
@@ -81,7 +81,7 @@ Folta et al.（2010）详细介绍了这一方法在 ARTEMIS（地月 $L_1$/$L_2
 
 ## 应用要点
 
-- 模态选择：Floquet 模态法的关键参数是阈值设定，不稳定分量阈值越大，脉冲间隔越长但燃料效率降低。任务设计需在脉冲频次与燃料消耗间取平衡。
+- 模态选择：Floquet 模态法的关键参数是阈值设定，不稳定分量阈值越大，脉冲间隔越长但燃料效率降低\cite{YanXueMeiJiYuFuLuoKaiTeLiLunDeHaloGuiDaoFuLunGouXingBianDuiKongZhiSheJi2024}。任务设计需在脉冲频次与燃料消耗间取平衡。
 
 - 参考轨道依赖性：Floquet 模态法要求参考轨道经过高精度数值平衡（至少 $10^{-12}$ 量级）才能可靠计算模态矩阵，对 Halo 等大幅值轨道还需在校正过程中引入自旋面约束。
 
@@ -107,10 +107,6 @@ Folta et al.（2010）详细介绍了这一方法在 ARTEMIS（地月 $L_1$/$L_2
 
 ## 参考文献
 
-- Gómez et al., 1998, *Study of the transfer between halo orbits*, Acta Astronautica, 43(9-10): 493-520, DOI: 10.1016/S0094-5765(98)00177-5，初始 Floquet 模态概念的引入
-
 - Hou et al., 2011, Station-Keeping of Libration Point Orbits by the Floquet Mode Elimination Approach in the Earth-Moon System, Acta Astronautica，Floquet 策略的完整框架与其在地月系 $L_1$/$L_2$ 轨道的验证，题录待补
 
 - Folta et al., 2010, Applications Of Libration Point Orbit Transfers In The Earth-Moon System, AAS 10-139，ARTEMIS 任务中轨道平衡法的设计、VF13AD 优化器的使用及实际机动方案，题录待补
-
-- 闫雪梅等, 2024, *基于弗洛凯特理论的Halo轨道辐轮构型编队控制设计*, 宇航学报, 45(9): 1408, DOI: 10.3873/j.issn.1000-1328.2024.09.007，Floquet 模态法的最新中文综述，含 δ 阈值设定与机动频次的定量关系

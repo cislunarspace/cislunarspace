@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/exosystem/
 
 ## 定义
 
-非线性调节理论中描述外部信号（参考轨迹和干扰）来源的自治动力学系统。在地月L2点Halo轨道保持中，外系统由两个频率的正弦振荡器组成，分别对应面内和面外运动的自然频率，动态生成准Halo轨道参考轨迹和偏心率周期扰动。
+非线性调节理论中描述外部信号（参考轨迹和干扰）来源的自治动力学系统\cite{elobaidApproximateTransverseFeedback2022}。在地月L2点Halo轨道保持中，外系统由两个频率的正弦振荡器组成，分别对应面内和面外运动的自然频率，动态生成准Halo轨道参考轨迹和偏心率周期扰动\cite{digiamberardinoHaloOrbitsSpacecraft1996}。
 
 ## 应用价值
 
@@ -44,8 +44,3 @@ permalink: /glossary/dynamics/exosystem/
 - 低月球轨道（Low Lunar Orbit, LLO）
 - [平动点引力不对称（Gravitational Asymmetry at Libration Points）](/glossary/fundamentals/gravitational-asymmetry-at-libration-points/)
 - 复合周期轨道（Complex Periodic Orbit）
-
-## 参考文献
-
-- Di Giamberardino and Monaco, 1996, *On halo orbits spacecraft stabilization*, Acta Astronautica, 38(12): 903-925, DOI: 10.1016/S0094-5765(96)00082-3
-- Elobaid, Monaco and Normand-Cyrot, 2022, *Approximate Transverse Feedback Linearization Under Digital Control*, IEEE Control Systems Letters, 6: 13-18, DOI: 10.1109/LCSYS.2020.3046539

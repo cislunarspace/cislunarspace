@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/nekhorosev-estimates/
 
 ## 定义
 
-给出近可积哈密顿系统能量面附近轨道保持时间下界的指数型估计，揭示小扰动下稳定性的慢衰减特性。
+给出近可积哈密顿系统能量面附近轨道保持时间下界的指数型估计，揭示小扰动下稳定性的慢衰减特性\cite{gomezDynamicsMissionDesign2001f}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/nekhorosev-estimates/
 - 动力一致性（Dynamical Consistency）
 - 组合协方差（Combined Covariance）
 - 收敛准则（Convergence Criterion）
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points: Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific Monograph Series in Mathematics, DOI: 10.1142/4402

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/central-configuration/
 
 ## 定义
 
-三天体加速度均指向质心且与矢径成正比时的构型。包括等边三角形拉格朗日构型和共线欧拉构型两种\cite{marchalThreebodyProblem1990}。
+三天体加速度均指向质心且与矢径成正比时的构型。包括等边三角形拉格朗日构型和共线欧拉构型两种\cite{marchalThreebodyProblem1990,meyerIntroductionHamiltonianDynamical2017}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/central-configuration/
 - 微分代数（Differential Algebra, DA）
 - 羽流冲击（Plume Impingement）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- Meyer 和 Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, Springer, 3rd ed.

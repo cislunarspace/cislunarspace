@@ -13,7 +13,7 @@ keywords: 形状基法, shape-based method, 逆多项式形状函数, 指数正�
 
 ## 定义
 
-形状基法预先指定小推力轨道的几何形状（通常以极径 $r(t)$ 或极角 $\theta(t)$ 作为时间的参数化解析函数）再从运动方程反解出实现该形状所需的推力加速度剖面 $\mathbf{a}_T(t)$。这绕过了完整的最优控制求解，给出快速的近似轨迹，作为后续高保真数值优化（直接配点或间接打靶法）的初值，见 Petropoulos 与 Longuski 2004。
+形状基法预先指定小推力轨道的几何形状（通常以极径 $r(t)$ 或极角 $\theta(t)$ 作为时间的参数化解析函数）再从运动方程反解出实现该形状所需的推力加速度剖面 $\mathbf{a}_T(t)$\cite{wallShapeBasedApproachLowThrust2009}。这绕过了完整的最优控制求解，给出快速的近似轨迹，作为后续高保真数值优化（直接配点或间接打靶法）的初值，见 Petropoulos 与 Longuski 2004\cite{petropoulosShapeBasedAlgorithmAutomated2004}。
 
 在小推力任务的初始设计阶段尤其有用：设计空间巨大、NLP 解算器难以无初值收敛。
 
@@ -50,8 +50,8 @@ $$
 ## 为什么用形状基
 
 1. 速度快：推力解析求解，形状确定阶段无需 NLP。
-2. 可行性筛查：超出推力大小限制或产生逆行的设计方案可极早排除，不耗 NLP 成本。
-3. 自动满足边界：形状在设计上即满足端点位置和速度约束。
+2. 可行性筛查：超出推力大小限制或产生逆行的设计方案可极早排除，不耗 NLP 成本\cite{depascalePreliminaryDesignLowThrust2006}。
+3. 自动满足边界：形状在设计上即满足端点位置和速度约束\cite{gondelachHodographicShapingMethodLowThrust2015}。
 4. 初值在收敛域内：形状基轨迹通常位于高保真优化器的收敛盆地内，大幅缩短总求解时间。
 
 局限性：形状基法强制预设函数形式，可能不包含真正的最优轨迹。它只是起点，不能替代严格优化。
@@ -60,7 +60,7 @@ $$
 
 对地月低推力转移，逆多项式和指数正弦形状已被用于为直接配点解算器（Gauss 伪谱法、Hermite-Simpson）生成初值。从 LEO 高度（~300 km）到月球距离（~384,000 km）的大径向变化天然适配逆多项式形式。
 
-对 CR3BP 中周期轨道间的转移（如 halo 到 DRO），形状通常指定在旋转坐标系中，在会合系中求解所需推力，再变换到惯性系传播。
+对 CR3BP 中周期轨道间的转移（如 halo 到 DRO），形状通常指定在旋转坐标系中，在会合系中求解所需推力，再变换到惯性系传播\cite{taheriShapeBasedApproximation2012}。
 
 ## 相关概念
 
@@ -73,15 +73,3 @@ $$
 - [低推力推进（Low-Thrust Propulsion）](/glossary/fundamentals/ep/)
 
 - [切比雪夫多项式（Chebyshev Polynomial）](/glossary/fundamentals/chebyshev-polynomial/)
-
-## 参考文献
-
-- Petropoulos, Longuski, 2004, *Shape-Based Algorithm for the Automated Design of Low-Thrust, Gravity Assist Trajectories*, Journal of Spacecraft and Rockets, 41(5): 787-796, DOI: 10.2514/1.13095，指数正弦形状，自动化借力序列
-
-- Wall, Conway, 2009, *Shape-Based Approach to Low-Thrust Rendezvous Trajectory Design*, Journal of Guidance, Control, and Dynamics, 32(1): 95-101, DOI: 10.2514/1.36848，交会问题的多项式与傅里叶形状函数
-
-- Taheri, Abdelkhalik, 2012, *Shape-Based Approximation of Constrained Low-Thrust Space Trajectories Using Fourier Series*, Journal of Spacecraft and Rockets, 49(3): 535-546, DOI: 10.2514/1.58789
-
-- De Pascale, Vasile, 2006, *Preliminary Design of Low-Thrust Multiple Gravity-Assist Trajectories*, Journal of Spacecraft and Rockets, 43(5): 1065-1076, DOI: 10.2514/1.19646，逆多项式与其他形状参数化
-
-- Gondelach, Noomen, 2015, *Hodographic-Shaping Method for Low-Thrust Interplanetary Trajectory Design*, Journal of Spacecraft and Rockets, 52(3): 728-738, DOI: 10.2514/1.A32991

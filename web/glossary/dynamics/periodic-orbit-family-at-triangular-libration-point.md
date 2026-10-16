@@ -20,11 +20,11 @@ permalink: /glossary/dynamics/periodic-orbit-family-at-triangular-libration-poin
 
 ## 定义
 
-三角平动点周期轨道族（Periodic Orbit Family at Triangular Libration Point）是指在限制性三体问题模型中，围绕三角拉格朗日平衡点 $L_4$ 或 $L_5$ 拓扑分岔生成的一维连续周期轨道集合。在地月系统中，主要包含由中心流形微小扰动线性化本征频率演化而来的短周期轨道族（Short-Period Family）与长周期轨道族（Long-Period Family）。
+三角平动点周期轨道族（Periodic Orbit Family at Triangular Libration Point）是指在限制性三体问题模型中，围绕三角拉格朗日平衡点 $L_4$ 或 $L_5$ 拓扑分岔生成的一维连续周期轨道集合\cite{gomezDynamicsMissionDesign2001f}。在地月系统中，主要包含由中心流形微小扰动线性化本征频率演化而来的短周期轨道族（Short-Period Family）与长周期轨道族（Long-Period Family）。
 
 ## 物理机制与工程价值
 
-在地月圆型限制性三体问题（CR3BP）中，质量比 $\mu \approx 0.01215$ 满足劳斯稳定判据（$\mu < \mu_R \approx 0.03852$），三角平动点 $L_4$ 和 $L_5$ 呈现纯虚数特征值结构 $\pm i\omega_1, \pm i\omega_2$，线性动力学表现为线性稳定中心。
+在地月圆型限制性三体问题（CR3BP）中，质量比 $\mu \approx 0.01215$ 满足劳斯稳定判据（$\mu < \mu_R \approx 0.03852$），三角平动点 $L_4$ 和 $L_5$ 呈现纯虚数特征值结构 $\pm i\omega_1, \pm i\omega_2$，线性动力学表现为线性稳定中心\cite{szebehely1967theory}。
 
 1. 短周期轨道族：围绕平衡点做逆时针快速环绕，无量纲极限基本周期约为 $T_1 = 2\pi/\omega_1 \approx 6.58$（对应约 28.5 天）。
 2. 长周期轨道族：对应缓变振荡模态，极限周期约为 $T_2 = 2\pi/\omega_2 \approx 21.07$（对应约 91.2 天），在旋转坐标系中呈现大尺度的豆状或蝌蚪形闭合轨迹。
@@ -38,8 +38,3 @@ permalink: /glossary/dynamics/periodic-orbit-family-at-triangular-libration-poin
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [Halo轨道计算（Halo Orbit Computation）](/glossary/dynamics/halo-orbit-computation/)
 - [轨道保持（Station-Keeping）](/glossary/dynamics/station-keeping/)
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, Singapore, DOI: 10.1142/9789812810632
-- Szebehely, V., 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York

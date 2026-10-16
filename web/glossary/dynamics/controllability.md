@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/controllability/
 
 ## 定义
 
-对任意两个给定状态，存在容许控制使系统从前一状态到达后一状态的性质。本文证明了三体问题在雅可比常数小于L1点对应值时在X_μ^1子流形上是可控的。
+对任意两个给定状态，存在容许控制使系统从前一状态到达后一状态的性质。本文证明了三体问题在雅可比常数小于L1点对应值时在X_μ^1子流形上是可控的\cite{Caillau2012}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/controllability/
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
 - 空间流形动力学（Space Manifold Dynamics, SMD）
 - [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/orbital-coordinate-frames/)
-
-## 参考文献
-
-- Caillau and Daoud, 2012, *Minimum Time Control of the Restricted Three-Body Problem*, SIAM Journal on Control and Optimization, 50(6): 3178-3202, DOI: 10.1137/110847299

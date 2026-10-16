@@ -24,7 +24,7 @@ permalink: /glossary/dynamics/sliding-rule/
 
 ## 物理机制与工程价值
 
-在航天器两脉冲或多脉冲轨道交会问题中，通常将总任务时间划分为初始停泊轨道滑行段 $t_{\text{coast1}}$、兰伯特转移轨道飞行段 $T$ 和终端目标轨道滑行段 $t_{\text{coast2}}$。由劳登（Lawden）引向矢量理论可知，最优滑行时间点的必要条件对应于主引向矢量模值导数过零。
+在航天器两脉冲或多脉冲轨道交会问题中，通常将总任务时间划分为初始停泊轨道滑行段 $t_{\text{coast1}}$、兰伯特转移轨道飞行段 $T$ 和终端目标轨道滑行段 $t_{\text{coast2}}$。由劳登（Lawden）引向矢量理论可知，最优滑行时间点的必要条件对应于主引向矢量模值导数过零\cite{lawdenOptimalTrajectoriesSpace1963}。
 
 滑动规则将这一抽象变分极值条件转化为直观的几何投影搜索：
 
@@ -40,7 +40,3 @@ permalink: /glossary/dynamics/sliding-rule/
 - [轨道交会（Orbital Rendezvous）](/glossary/navigation/orbital-rendezvous/)
 - [有效飞行时间（Effective Time of Flight）](/glossary/orbits/effective-time-of-flight/)
 - [网格搜索方法（Grid Search Method）](/glossary/fundamentals/grid-search-method/)
-
-## 参考文献
-
-- Lawden, 1963, *Optimal Trajectories for Space Navigation*, Butterworths

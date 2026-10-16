@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/box-covering/
 
 ## 定义
 
-基于GAIO软件实现的集合覆盖方法。通过对庞加莱映射所在的高维空间进行网格细分，逐步构造越来越小的矩形盒子族来逼近目标集合。仅保留与目标集合相交的盒子，形成对不变流形与截面交点的离散近似。该方法能够系统地检测不同限制性三体问题流形之间的连接点，并以预设精度控制位形空间中的交点误差。
+基于GAIO软件实现的集合覆盖方法\cite{SetOrientedNumerical2002}。通过对庞加莱映射所在的高维空间进行网格细分，逐步构造越来越小的矩形盒子族来逼近目标集合。仅保留与目标集合相交的盒子，形成对不变流形与截面交点的离散近似。该方法能够系统地检测不同限制性三体问题流形之间的连接点，并以预设精度控制位形空间中的交点误差\cite{zanzotteraIntersectingInvariantManifolds2012}。
 
 ## 应用价值
 
@@ -42,9 +42,3 @@ permalink: /glossary/dynamics/box-covering/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
-
-## 参考文献
-
-- Dellnitz and Junge, 2002, *Set Oriented Numerical Methods for Dynamical Systems*, Handbook of Dynamical Systems, 2: 221–264, DOI: 10.1016/S1874-575X(02)80026-1
-
-- Zanzottera et al., 2012, *Intersecting invariant manifolds in spatial restricted three-body problems: Design and optimization of Earth-to-halo transfers in the Sun–Earth–Moon scenario*, Communications in Nonlinear Science and Numerical Simulation, 17(2): 832–843, DOI: 10.1016/j.cnsns.2011.06.032

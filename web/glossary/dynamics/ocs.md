@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/ocs/
 
 ## 定义
 
-一种平动点轨道驻留机动算法。不依赖参考轨迹，而是通过微分修正和非线性优化，在后续1至2圈轨道周期的x-z截面穿越点上施加位置或速度约束，使航天器始终留在平动点轨道附近。ARTEMIS任务实测年度驻留DV约5至7 m/s。
+一种平动点轨道驻留机动算法。不依赖参考轨迹，而是通过微分修正和非线性优化，在后续1至2圈轨道周期的x-z截面穿越点上施加位置或速度约束，使航天器始终留在平动点轨道附近。ARTEMIS任务实测年度驻留DV约5至7 m/s\cite{foltaEarthMoonLibrationPoint2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/ocs/
 - [复合粒子群算法（Compound Particle Swarm Optimization）](/glossary/dynamics/cpso/)
 - 平均运动共振（Mean Motion Resonance, MMR）
 - 推力加速度（Thrust Acceleration）
-
-## 参考文献
-
-- Folta et al., 2014, *Earth-Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421-433, DOI: 10.1016/j.actaastro.2013.01.022

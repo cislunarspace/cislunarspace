@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/target-point-strategy/
 
 ## 定义
 
-一种平动点轨道保持策略。选取标称轨道上的若干节点作为目标点，通过控制使实际轨道与标称轨道在这些目标点处的偏差尽可能小。
+一种平动点轨道保持策略。选取标称轨道上的若干节点作为目标点，通过控制使实际轨道与标称轨道在这些目标点处的偏差尽可能小\cite{howellStationkeepingMethodLibration1993}。
 
 ## 应用价值
 
-基于该术语的定义，它在地月空间任务中具有重要应用价值。例如在轨道设计中，可利用其特性进行转移轨道优化。在轨道维持中，能够实现精确的轨道控制。在导航定轨中，可用于提高状态估计精度。在任务规划中，可辅助决策轨道转移时机和策略。具体的工程应用需结合任务约束和轨道特性进行综合分析。
+基于该术语的定义，它在地月空间任务中具有重要应用价值。例如在轨道设计中，可利用其特性进行转移轨道优化。在轨道维持中，能够实现精确的轨道控制\cite{houStationkeepingSmallAmplitude2011}。在导航定轨中，可用于提高状态估计精度。在任务规划中，可辅助决策轨道转移时机和策略。具体的工程应用需结合任务约束和轨道特性进行综合分析。
 
 ## 相关概念
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/target-point-strategy/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
-
-## 参考文献
-
-- Howell & Pernicka, 1993, *Stationkeeping Method for Libration Point Trajectories*, Journal of Guidance, Control, and Dynamics, 16(1): 151-159, DOI: 10.2514/3.11440
-- Hou, Liu & Tang, 2011, *Station-keeping of small amplitude motions around the collinear libration point in the real Earth–Moon system*, Advances in Space Research, 47(7): 1127-1134, DOI: 10.1016/j.asr.2010.12.005

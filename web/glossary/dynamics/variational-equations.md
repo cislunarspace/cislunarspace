@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/variational-equations/
 
 ## 定义
 
-描述状态转移矩阵沿轨道演化的微分方程组，形式为dPhi/dt = A * Phi，其中A是力F对状态X的偏导数矩阵。变分方程的特征值决定了状态转移矩阵的性质，进而决定轨道的可观性。
+描述状态转移矩阵沿轨道演化的微分方程组，形式为dPhi/dt = A * Phi，其中A是力F对状态X的偏导数矩阵。变分方程的特征值决定了状态转移矩阵的性质，进而决定轨道的可观性\cite{meyerIntroductionHamiltonianDynamical2017a}。
 
 ## 应用价值
 
@@ -48,4 +48,3 @@ permalink: /glossary/dynamics/variational-equations/
 ## 参考文献
 
 - 测绘学报, 2013, 42(2): 184-190，题录待补
-- Meyer & Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, Springer, DOI: 10.1007/978-3-319-53691-0

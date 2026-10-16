@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lie-transformation/
 
 ## 定义
 
-哈密顿系统中的正则变换方法，通过构造生成函数 G 将原哈密顿函数化为更简单的形式。论文用该方法将双曲方向与中心方向解耦。
+哈密顿系统中的正则变换方法，通过构造生成函数 G 将原哈密顿函数化为更简单的形式\cite{gomezDynamicsMissionDesign2001f}。论文用该方法将双曲方向与中心方向解耦\cite{qiaoOrbitalParameterCharacterization2025}。
 
 ## 应用价值
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/lie-transformation/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Qiao et al., 2026, *Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points*, Chinese Journal of Aeronautics, 39(4), DOI: 10.1016/j.cja.2025.103869
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/9789812810632

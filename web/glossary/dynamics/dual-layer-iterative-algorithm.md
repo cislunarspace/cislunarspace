@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/dual-layer-iterative-algorithm/
 
 ## 定义
 
-Sukhanov 和 Prado 提出的基于参考轨道同时修正初始和末端位置矢量的迭代算法。通过内外两层循环分别处理轨道传播和约束满足，有效克服三体 Lambert 问题的初始值估计困难，收敛性良好。
+Sukhanov 和 Prado 提出的基于参考轨道同时修正初始和末端位置矢量的迭代算法\cite{sukhanovLambertProblemSolution2004}。通过内外两层循环分别处理轨道传播和约束满足，有效克服三体 Lambert 问题的初始值估计困难，收敛性良好。
 
 ## 应用价值
 
-在实际的地月空间任务中，该概念可用于轨道设计与优化，帮助规划航天器的转移路径和机动策略，在姿态控制与导航算法中发挥重要作用，通过数值优化方法提升任务设计效率。。
+在实际的地月空间任务中，该概念可用于轨道设计与优化，帮助规划航天器的转移路径和机动策略，在姿态控制与导航算法中发挥重要作用，通过数值优化方法提升任务设计效率\cite{shiReviewCislunarSpace2025}。。
 
 ## 相关概念
 
@@ -42,8 +42,3 @@ Sukhanov 和 Prado 提出的基于参考轨道同时修正初始和末端位置�
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-
-## 参考文献
-
-- Sukhanov and Prado, 2004, *Lambert problem solution in the hill model of motion*, Celestial Mechanics and Dynamical Astronomy, 90(3-4): 331-354, DOI: 10.1007/s10569-004-1508-z
-- Shi et al., 2025, *Review of Cislunar Space Transfer Trajectory Design Based on Impulsive*, IFAC-PapersOnLine, 59(20): 381-386, DOI: 10.1016/j.ifacol.2025.11.180

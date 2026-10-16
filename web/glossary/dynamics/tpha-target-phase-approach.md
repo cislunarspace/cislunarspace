@@ -24,7 +24,7 @@ permalink: /glossary/dynamics/tpha-target-phase-approach/
 
 ## 物理机制与工程价值
 
-在地月 $L_1/L_2$ Halo 轨道、近直线晕轨道（NRHO）等动力学强非线性区域，线性化目标点方法（如基于一阶状态转移矩阵的经典 TPS 方法）仅能在微小偏差范围内有效。当入轨注入误差或长期积分摄动较大时，线性假设失效导致修正机动发散或燃料消耗急剧增加。
+在地月 $L_1/L_2$ Halo 轨道、近直线晕轨道（NRHO）等动力学强非线性区域，线性化目标点方法（如基于一阶状态转移矩阵的经典 TPS 方法）仅能在微小偏差范围内有效\cite{howellStationkeepingMethodLibration1993}。当入轨注入误差或长期积分摄动较大时，线性假设失效导致修正机动发散或燃料消耗急剧增加。
 
 高阶目标相位法实现了以下关键突破：
 
@@ -40,7 +40,3 @@ permalink: /glossary/dynamics/tpha-target-phase-approach/
 - [目标点策略（Target Point Strategy）](/glossary/dynamics/target-point-strategy/)
 - [轨道保持（Station-Keeping）](/glossary/dynamics/station-keeping/)
 - [轨道维持代价（Orbit Maintenance Cost）](/glossary/orbits/orbit-maintenance-cost/)
-
-## 参考文献
-
-- Howell & Pernicka, 1993, *Stationkeeping Method for Libration Point Trajectories*, Journal of Guidance, Control, and Dynamics, 16(1): 151-159, DOI: 10.2514/3.11440

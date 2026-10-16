@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/phase-space/
 
 ## 相空间
 
-相空间（phase space）是动力系统状态的全部可能取值集合所构成的抽象空间，对 $n$ 自由度的系统，相空间是 $2n$ 维的：$n$ 个位置坐标 + $n$ 个动量（或速度）坐标。它是分析系统演化的天然几何框架，系统在任一时刻的状态对应相空间中一个点，随时间的演化对应相空间中的一条轨迹\cite{szebehelyTheoryOrbitRestricted1967,wigginsIntroductionAppliedNonlinear2003}。
+相空间（phase space）是动力系统状态的全部可能取值集合所构成的抽象空间，对 $n$ 自由度的系统，相空间是 $2n$ 维的：$n$ 个位置坐标 + $n$ 个动量（或速度）坐标。它是分析系统演化的天然几何框架，系统在任一时刻的状态对应相空间中一个点，随时间的演化对应相空间中的一条轨迹\cite{szebehelyTheoryOrbitRestricted1967,szebehely1967theory,wigginsIntroductionAppliedNonlinear2003}。
 
-在 CR3BP（限制性三体问题）中，第三体（航天器）在会合坐标系中有 3 个位置坐标 $(x, y, z)$ 和 3 个速度坐标 $(\dot{x}, \dot{y}, \dot{z})$，相空间是 六维的。但由于雅可比常数 $C_J$ 是守恒量（在 CR3BP 中），实际动力学约束在一个 五维能量流形上。零速度面将该五维流形划分为禁区（$C_J$ 对应的速度平方为负）与可行区域，形成了相空间的最外层通量屏障。进一步考虑庞加莱截面的降维后，平面限制性三体问题（PCRTBP）的相空间降为二维截面上的离散映射，见 Koon 等 2011。
+在 CR3BP（限制性三体问题）中，第三体（航天器）在会合坐标系中有 3 个位置坐标 $(x, y, z)$ 和 3 个速度坐标 $(\dot{x}, \dot{y}, \dot{z})$，相空间是 六维的。但由于雅可比常数 $C_J$ 是守恒量（在 CR3BP 中），实际动力学约束在一个 五维能量流形上。零速度面将该五维流形划分为禁区（$C_J$ 对应的速度平方为负）与可行区域，形成了相空间的最外层通量屏障。进一步考虑庞加莱截面的降维后，平面限制性三体问题（PCRTBP）的相空间降为二维截面上的离散映射，见 Koon 等 2011\cite{rossDynamicalSystemsThreebody2022}。
 
 ### 相空间的结构要素
 
@@ -73,9 +73,3 @@ permalink: /glossary/dynamics/phase-space/
 - [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
 
 - [低能量转移（Low-Energy Transfer）](/glossary/orbits/low-energy-transfer/)
-
-## 参考文献
-
-- Szebehely, V., 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York，CR3BP 相空间结构与线性化流形的经典阐述
-
-- Koon et al., 2011, *Dynamical Systems, the Three-Body Problem and Space Mission Design*，相空间通道即运输管的系统化理论，流形拼接方法

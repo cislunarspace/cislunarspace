@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/eigenmotion-method/
 
 ## 定义
 
-基于平动点轨道附近线性化动力系统的特征结构（特征值和特征向量）设计轨道保持策略。通过识别不稳定、稳定和中心模态，选择性地消除不稳定分量，从而以最小燃料消耗维持航天器在目标轨道附近。
+基于平动点轨道附近线性化动力系统的特征结构（特征值和特征向量）设计轨道保持策略。通过识别不稳定、稳定和中心模态，选择性地消除不稳定分量，从而以最小燃料消耗维持航天器在目标轨道附近\cite{elangoLocalEigenmotionControl2022}。
 
 ## 应用价值
 
-特征运动方法基于平动点轨道附近线性化动力系统的特征结构设计轨道保持策略。通过分解运动为不稳定、稳定和中心模态，选择性地消除不稳定分量，可以最小化燃料消耗维持航天器在目标轨道附近，是平动点轨道保持的先进方法。
+特征运动方法基于平动点轨道附近线性化动力系统的特征结构设计轨道保持策略。通过分解运动为不稳定、稳定和中心模态，选择性地消除不稳定分量，可以最小化燃料消耗维持航天器在目标轨道附近，是平动点轨道保持的先进方法\cite{shimaneOptimizationBasedPhaseConstrainedXAxis2025}。
 
 ## 相关概念
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/eigenmotion-method/
 - [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-section/)
 - 稳定性（Stability）
-
-## 参考文献
-
-- Shimane, Ho and Weiss, 2025, *Optimization-Based Phase-Constrained x-Axis Crossing Control for Station-Keeping on Libration Point Orbits*, The Journal of the Astronautical Sciences, 72(6): 59, DOI: 10.1007/s40295-025-00543-1
-- Elango et al., 2022, *Local Eigenmotion Control for Near Rectilinear Halo Orbits*, 2022 American Control Conference (ACC), 1822-1827, DOI: 10.23919/ACC53348.2022.9867672

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/velocity-wedge/
 
 ## 定义
 
-在平动点附近的相空间中，定义Transit轨道的速度边界条件。位于速度楔内部的初始速度对应Transit轨道。位于边界上对应渐近轨道（与流形曲线重合）。位于外部为非Transit轨道。该概念将流形管的边界条件转化为速度空间的约束，便于Transit轨道的数值计算。
+在平动点附近的相空间中，定义Transit轨道的速度边界条件。位于速度楔内部的初始速度对应Transit轨道。位于边界上对应渐近轨道（与流形曲线重合）。位于外部为非Transit轨道。该概念将流形管的边界条件转化为速度空间的约束，便于Transit轨道的数值计算\cite{demeyerTransferDistantRetrograde2007}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/velocity-wedge/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- Demeyer & Gurfil, 2007, *Transfer to Distant Retrograde Orbits Using Manifold Theory*, Journal of Guidance, Control, and Dynamics, 30(5): 1261-1267, DOI: 10.2514/1.24960

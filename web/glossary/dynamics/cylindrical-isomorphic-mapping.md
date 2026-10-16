@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/cylindrical-isomorphic-mapping/
 
 ## 定义
 
-将 Birkhoff 方程的状态 (x, y, γ) 映射到圆柱坐标 (X, Y, Z) 的几何变换，定义为 X = x - xL1，Y = ρcosγ，Z = ρsinγ（ρ = y - ymin）。在该映射下，平动点周期轨道的稳定与不稳定不变流形呈现为从周期轨道向外延伸的管状结构，使流形的几何特征和交截关系一目了然，从而揭示三体问题的混沌动力学拓扑。
+将 Birkhoff 方程的状态 (x, y, γ) 映射到圆柱坐标 (X, Y, Z) 的几何变换，定义为 X = x - xL1，Y = ρcosγ，Z = ρsinγ（ρ = y - ymin）\cite{giancottiLunarCaptureTrajectories2012}。在该映射下，平动点周期轨道的稳定与不稳定不变流形呈现为从周期轨道向外延伸的管状结构，使流形的几何特征和交截关系一目了然，从而揭示三体问题的混沌动力学拓扑。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/cylindrical-isomorphic-mapping/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- Giancotti, Pontani and Teofilatto, 2012, *Lunar capture trajectories and homoclinic connections through isomorphic mapping*, Celestial Mechanics and Dynamical Astronomy, 114(1-2): 55-76, DOI: 10.1007/s10569-012-9435-x

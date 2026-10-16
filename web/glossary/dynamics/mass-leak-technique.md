@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/mass-leak-technique/
 
 ## 定义
 
-在推力幅值的计算公式中加入一个微小常数 εT 以避免零推力弧段（滑行段）数值奇异性的技术。推力范数写作 T=√(Tx²+Ty²+Tz²+εT)，当实际推力为零时，质量流率对笛卡尔控制变量的导数不再发散。该技术牺牲了极小的精度（εT 通常取 10⁻⁸ 到 10⁻¹⁶），换来了优化过程中滑行段的数值稳定性。在低推力轨迹优化中，逐步减小 εT 并以上一轮解作为初始猜测，可逼近精确的 bang-bang 控制。
+在推力幅值的计算公式中加入一个微小常数 εT 以避免零推力弧段（滑行段）数值奇异性的技术。推力范数写作 T=√(Tx²+Ty²+Tz²+εT)，当实际推力为零时，质量流率对笛卡尔控制变量的导数不再发散。该技术牺牲了极小的精度（εT 通常取 10⁻⁸ 到 10⁻¹⁶），换来了优化过程中滑行段的数值稳定性。在低推力轨迹优化中，逐步减小 εT 并以上一轮解作为初始猜测，可逼近精确的 bang-bang 控制\cite{mcconaghyParameterizationEffectsConvergence2004,azizHybridDifferentialDynamic2019}。
 
 ## 应用价值
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/mass-leak-technique/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- McConaghy & Longuski, 2004, *Parameterization Effects on Convergence When Optimizing a Low-Thrust Trajectory with Gravity Assists*, AIAA 2004-5403, DOI: 10.2514/6.2004-5403
-- Aziz, Scheeres & Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617

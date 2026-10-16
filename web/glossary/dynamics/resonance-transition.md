@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/resonance-transition/
 
 ## 自然天体实例
 
-- Oterma 与 Gehrels 3 彗星：在太阳-木星 CR3BP 中，从 3:2 共振被木星临时捕获，经过 $L_2$ 颈部跃迁到 2:3 共振，再释放回日心轨道，整个过程在不变流形管网络中解释为异宿连接，见 Koon 等 2001。
+- Oterma 与 Gehrels 3 彗星：在太阳-木星 CR3BP 中，从 3:2 共振被木星临时捕获，经过 $L_2$ 颈部跃迁到 2:3 共振，再释放回日心轨道，整个过程在不变流形管网络中解释为异宿连接，见 Koon 等 2001\cite{koonResonanceCaptureJupiter2001}。
 
 - Shoemaker-Levy 9：撞击木星前处于 2:3 共振，实际上经历了共振与木星引力相互作用的复杂动力学。
 
@@ -75,7 +75,5 @@ permalink: /glossary/dynamics/resonance-transition/
 - [轨道共振（Orbital Resonance）](/glossary/dynamics/orbital-resonance/)
 
 ## 参考文献
-
-- Koon et al., 2001, *Resonance and Capture of Jupiter Comets*, Celestial Mechanics and Dynamical Astronomy, 81(1-2): 27-38, DOI: 10.1023/A:1013398801813
 
 - Fantino, E. et al., 2010, "Resonance hopping in the comet Oterma", *Celestial Mechanics and Dynamical Astronomy*，题录待补

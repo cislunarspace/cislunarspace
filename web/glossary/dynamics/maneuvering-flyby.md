@@ -34,14 +34,10 @@ DRO编队中绕飞航天器通过频繁的脉冲轨道机动快速飞掠目标�
 
 ## 应用价值
 
-DRO轨道的线性稳定性使其成为月球任务目标轨道的首选方案。自然编队利用低漂移区域维持相对构型，可减少主动控制燃料消耗。该导航方法在地月空间任务中的定位与轨道确定发挥关键作用。
+DRO轨道的线性稳定性使其成为月球任务目标轨道的首选方案。自然编队利用低漂移区域维持相对构型，可减少主动控制燃料消耗。该导航方法在地月空间任务中的定位与轨道确定发挥关键作用\cite{ZhangRuYueDiYueKongJianDROJinJuChiBianDuiXingJianCeLiangXiangDuiDingGui2025}。
 
 ## 相关概念
 
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
 - 空间流形动力学（Space Manifold Dynamics, SMD）
 - [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/orbital-coordinate-frames/)
-
-## 参考文献
-
-- 张如悦 等, 2025, *地月空间DRO近距离编队星间测量相对定轨*, 宇航学报, 46(10): 2146-2159, DOI: 10.3873/j.issn.1000-1328.2025.10.018

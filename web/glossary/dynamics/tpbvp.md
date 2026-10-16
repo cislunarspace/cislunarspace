@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/tpbvp/
 
 $$\dot{\mathbf{y}}=\mathbf{f}(\mathbf{y},t),\quad t\in[t_0,t_f],\qquad \boldsymbol{\psi}(\mathbf{y}(t_0),\mathbf{y}(t_f))=\mathbf{0}$$
 
-在航天器轨道优化的语境下，TPBVP 是间接法的核心数学结构：由庞特里亚金极值原理（Pontryagin's Maximum Principle, PMP）推导出的最优轨迹必须同时满足初始状态约束（初始位置、速度、质量已知）和终端状态约束（目标位置、速度），构成典型的两点边值问题。
+在航天器轨道优化的语境下，TPBVP 是间接法的核心数学结构：由庞特里亚金极值原理（Pontryagin's Maximum Principle, PMP）推导出的最优轨迹必须同时满足初始状态约束（初始位置、速度、质量已知）和终端状态约束（目标位置、速度），构成典型的两点边值问题\cite{brysonAppliedOptimalControl1975}。
 
 与初值问题（IVP）不同，TPBVP 两边各自指定部分条件，中间的自由度由动力学方程约束。换句话说，两边夹着未知自由变量，要同时调整才能满足双边条件。在数值上，这个自由变量就是初始[协态](/glossary/dynamics/co-state-variables/) $\boldsymbol{\lambda}(t_0)$（和终端时间 $t_f$）：协态没有物理直觉、取值范围无界、对初猜极敏感，这是 TPBVP 求解困难的根本。
 
@@ -116,7 +116,3 @@ Lambert 问题是 TPBVP 在二体问题下的一个特例，给定两点间的�
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)
 
 - [微分修正与打靶法](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- Bryson & Ho, 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Taylor & Francis，TPBVP 在最优控制中的经典表述

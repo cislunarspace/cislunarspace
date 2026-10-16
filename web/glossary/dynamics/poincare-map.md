@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/poincare-map/
 
 ## 定义
 
-庞加莱映射（Poincaré map，又称首次回归映射 first return map）是由 [庞加莱截面](/glossary/dynamics/poincare-section/) $\Sigma$ 上的首次回归导出的离散映射 $P:\Sigma\to\Sigma$：从 $\mathbf{x}_k\in\Sigma$ 出发，沿相流积分至下一次按规定方向穿越 $\Sigma$ 的状态 $\mathbf{x}_{k+1}$，即 $P(\mathbf{x}_k)=\mathbf{x}_{k+1}$。反复迭代 $P$ 把连续流的周期/准周期/混沌分析转化为离散动力学问题\cite{henripoincareMethodesNouvellesMecanique1892}，见 Parker 和 Chua 1989。
+庞加莱映射（Poincaré map，又称首次回归映射 first return map）是由 [庞加莱截面](/glossary/dynamics/poincare-section/) $\Sigma$ 上的首次回归导出的离散映射 $P:\Sigma\to\Sigma$：从 $\mathbf{x}_k\in\Sigma$ 出发，沿相流积分至下一次按规定方向穿越 $\Sigma$ 的状态 $\mathbf{x}_{k+1}$，即 $P(\mathbf{x}_k)=\mathbf{x}_{k+1}$。反复迭代 $P$ 把连续流的周期/准周期/混沌分析转化为离散动力学问题\cite{henripoincareMethodesNouvellesMecanique1892}，见 Parker 和 Chua 1989\cite{parkerPracticalNumericalAlgorithms1989}。
 
 截面与映射紧密相关但侧重不同：
 
@@ -63,15 +63,15 @@ permalink: /glossary/dynamics/poincare-map/
 
 ### 近星点图（periapse map）
 
-定义在 [近星点截面](/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$ 上。平面问题中，其投影到构型空间即可完整表示状态，揭示次天体附近的逃逸/捕获结构，见 Villac 和 Scheeres 2004 与 Paskowitz 和 Scheeres 2006。按中心天体命名的变体：近地点图（perigee map）、近月点图（perilune map）、近星点/近拱点图（apse map），构造等价，仅参考主天体不同。近月点图常用于筛选月球借力 + WSB 捕获的转移轨道、分析 DRO 轨道族近月点分布\cite{scottTransferCaptureDistant2010}。
+定义在 [近星点截面](/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$ 上。平面问题中，其投影到构型空间即可完整表示状态，揭示次天体附近的逃逸/捕获结构，见 Villac 和 Scheeres 2004 与 Paskowitz 和 Scheeres 2006\cite{villacConceptPeriapsisHills2004}。按中心天体命名的变体：近地点图（perigee map）、近月点图（perilune map）、近星点/近拱点图（apse map），构造等价，仅参考主天体不同。近月点图常用于筛选月球借力 + WSB 捕获的转移轨道、分析 DRO 轨道族近月点分布\cite{scottTransferCaptureDistant2010}。
 
 ### Tisserand-Poincaré 图（T-P graph）
 
-Tisserand 图（基于拼接二体模型的重力辅助序列设计工具）在 CR3BP 中的推广，由 Campagnola 和 Russell 在 2010 年提出。坐标轴为相对主天体的吻切近星点距离与远星点距离（或周期），Tisserand 参数 $T = 3 - V_\infty^2$ 的等值线在固定 Poincaré 穿越点（通常取负 $x$ 轴穿越）逐圈采样。T-P 图覆盖了 $T<3$（$V_\infty$ 为虚数、拼接圆锥 Tisserand 图失效）的区域，可用于行星卫星系高高度飞越序列的系统化设计\cite{lantoineMethodologyRobustOptimization2010,yangReviewTrajectoryDesign2023}，见 Shen 等 2026。
+Tisserand 图（基于拼接二体模型的重力辅助序列设计工具）在 CR3BP 中的推广，由 Campagnola 和 Russell 在 2010 年提出。坐标轴为相对主天体的吻切近星点距离与远星点距离（或周期），Tisserand 参数 $T = 3 - V_\infty^2$ 的等值线在固定 Poincaré 穿越点（通常取负 $x$ 轴穿越）逐圈采样。T-P 图覆盖了 $T<3$（$V_\infty$ 为虚数、拼接圆锥 Tisserand 图失效）的区域，可用于行星卫星系高高度飞越序列的系统化设计\cite{lantoineMethodologyRobustOptimization2010,yangReviewTrajectoryDesign2023,campagnolaEndgameProblemPart2010}，见 Shen 等 2026。
 
 ## 应用要点
 
-- Heteroclinic / homoclinic 连接：在 $x=1-\mu$ 映射上，某周期轨道的不稳定流形与另一周期轨道的稳定流形的交点给出无机动转移初值。平面情形即等值线相交，空间情形靠字形观察后再用微分修正收敛\cite{gomezDynamicsMissionDesign2001Vol2}。
+- Heteroclinic / homoclinic 连接：在 $x=1-\mu$ 映射上，某周期轨道的不稳定流形与另一周期轨道的稳定流形的交点给出无机动转移初值。平面情形即等值线相交，空间情形靠字形观察后再用微分修正收敛\cite{gomezDynamicsMissionDesign2001Vol2,gomezDynamicsMissionDesign2001d}。
 
 - 转移初值生成：把高维解空间压缩到二维图上，可交互式挑选转移候选，再由 [微分修正](/glossary/dynamics/differential-correction/) 或多次打靶收敛。
 
@@ -99,14 +99,4 @@ Tisserand 图（基于拼接二体模型的重力辅助序列设计工具）在 
 
 ## 参考文献
 
-- Poincaré, H., 1892, *Les méthodes nouvelles de la mécanique céleste*, Gauthier-Villars, Paris
-
-- Parker, T. S., Chua, L. O., 1989, *Practical Numerical Algorithms for Chaotic Systems*, Springer-Verlag, New York, DOI: 10.1007/978-1-4612-3486-9
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. II: Fundamentals: The Case of Triangular Libration Points*, World Scientific, Singapore, DOI: 10.1142/9789812810649
-
-- Villac, B. F., Scheeres, D. J., 2004, *On the Concept of Periapsis in Hill's Problem*, Celestial Mechanics and Dynamical Astronomy, 90(1-2): 165-178, DOI: 10.1007/s10569-004-0405-9
-
 - Paskowitz M E, Scheeres D J. Geometry of quasiperiodic orbits in the Hill problem[J]. Celestial Mechanics and Dynamical Astronomy, 2006，题录待补
-
-- Campagnola, S., Russell, R. P., 2010, *Endgame Problem Part 2: Multibody Technique and the Tisserand-Poincaré Graph*, Journal of Guidance, Control, and Dynamics, 33(2): 476-486, DOI: 10.2514/1.44290

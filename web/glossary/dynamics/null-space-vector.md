@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/null-space-vector/
 
 ## 定义
 
-雅可比矩阵零空间的向量。在伪弧长延拓中，零空间向量方向作为预测步的搜索方向，使得校正步能沿解曲线滑动而不偏离。
+雅可比矩阵零空间的向量。在伪弧长延拓中，零空间向量方向作为预测步的搜索方向，使得校正步能沿解曲线滑动而不偏离\cite{ZhangChenJiYuShuZhiYanTuoDeRiYueZongHeJieLiDRORuGuiCeLue2024a}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/null-space-vector/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- 张晨, 2024, *基于数值延拓的日月综合借力DRO入轨策略*, 北京航空航天大学学报, 50(4): 1176-1186, DOI: 10.13700/j.bh.1001-5965.2022.0494

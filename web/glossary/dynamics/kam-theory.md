@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/kam-theory/
 
 ## 定义
 
-KAM（Kolmogorov-Arnold-Moser）理论是近可积哈密顿系统中关于不变环面保持性的数学定理。其核心结论：当可积哈密顿系统受到足够小的非可积扰动时，满足非共振条件（Diophantine条件）的不变环面不会完全瓦解，而是在变形后依然存在。这些幸存的不变环面嵌入在相空间中，将相邻的混沌区隔离开来，充当扩散的拓扑屏障\cite{meyerIntroductionHamiltonianDynamical2017}。CR3BP 的平动点邻域动力学是 KAM 理论的典型应用场景，中心-中心鞍点结构使相空间同时容纳稳定性迥异的动力学对象，KAM环面恰在稳定区内提供了无漂流运动存在的数学保证\cite{perozziSpaceManifoldDynamics2010}。
+KAM（Kolmogorov-Arnold-Moser）理论是近可积哈密顿系统中关于不变环面保持性的数学定理。其核心结论：当可积哈密顿系统受到足够小的非可积扰动时，满足非共振条件（Diophantine条件）的不变环面不会完全瓦解，而是在变形后依然存在\cite{kolmogorovPreservationConditionallyPeriodic2006}。这些幸存的不变环面嵌入在相空间中，将相邻的混沌区隔离开来，充当扩散的拓扑屏障\cite{meyerIntroductionHamiltonianDynamical2017,arnoldPROOFTHEOREMKOLMOGOROV1963}。CR3BP 的平动点邻域动力学是 KAM 理论的典型应用场景，中心-中心鞍点结构使相空间同时容纳稳定性迥异的动力学对象，KAM环面恰在稳定区内提供了无漂流运动存在的数学保证\cite{perozziSpaceManifoldDynamics2010}。
 
-Nekhoroshev 1977 提出的定理从另一维度补足KAM定理未覆盖的区域：它在更一般条件下给出作用量的指数型长时间有界估计，即作用量漂移时间尺度正比于 $\exp(c\varepsilon^{-a})$（$\varepsilon$ 为扰动尺度），覆盖了KAM定理的共振间隙内可能发生的Arnold扩散\cite{gomezDynamicsMissionDesign2001Vol2}，详见 Ch. 2。
+Nekhoroshev 1977 提出的定理从另一维度补足KAM定理未覆盖的区域：它在更一般条件下给出作用量的指数型长时间有界估计，即作用量漂移时间尺度正比于 $\exp(c\varepsilon^{-a})$（$\varepsilon$ 为扰动尺度），覆盖了KAM定理的共振间隙内可能发生的Arnold扩散\cite{gomezDynamicsMissionDesign2001Vol2,nekhoroshevEXPONENTIALESTIMATETIME1977}，详见 Ch. 2。
 
 ## 数学表述（概要）
 
@@ -66,7 +66,7 @@ KAM环面是KAM定理保证存活的变形不变环面。在相空间中，它�
 
 1. 拓扑屏障：环绕有理频率共振区的KAM环面将相邻混沌区隔开，阻止Arnold扩散从一个共振区间向另一个共振区蔓延。二维共振区之间若有KAM环面存在，混沌运动就困在各自共振区内的分离岛上，详见 Ch. 4。
 
-2. DRO环面包络稳定性：在地月CR3BP中，远距离逆行轨道（DRO）的单值矩阵具有两对模等于1的共轭复数特征值加一对模等于1的实数特征值（两个平凡根）：全部特征值都在单位圆上，说明DRO线性稳定\cite{yangCloseRelativeMotion2023}，另见 Scott 与 Spencer 2010。在非线性层面，KAM环面为DRO在被自然微扰或小机动偏差偏离后仍保持在原轨道附近提供保证：航天器不会逃逸，而是在接近DRO的KAM环面上绕行，其返回时间与DRO周期相当。KAM环面的存在是DRO具有内在动力学稳定性、无需大冲量维持控制的根本原因。
+2. DRO环面包络稳定性：在地月CR3BP中，远距离逆行轨道（DRO）的单值矩阵具有两对模等于1的共轭复数特征值加一对模等于1的实数特征值（两个平凡根）：全部特征值都在单位圆上，说明DRO线性稳定\cite{yangCloseRelativeMotion2023}，另见 Scott 与 Spencer 2010。在非线性层面，KAM环面为DRO在被自然微扰或小机动偏差偏离后仍保持在原轨道附近提供保证：航天器不会逃逸，而是在接近DRO的KAM环面上绕行，其返回时间与DRO周期相当\cite{scottCalculatingTransferFamilies2010}。KAM环面的存在是DRO具有内在动力学稳定性、无需大冲量维持控制的根本原因。
 
 ## Nekhoroshev定理与轨道长期稳定性
 
@@ -94,12 +94,4 @@ Maslov指数（Maslov Index）是辛矩阵路径的拓扑不变量。在周期�
 
 ## 参考文献
 
-- Kolmogorov, 1954, *On Conservation of Conditionally Periodic Motions for a Small Change in Hamilton's Function*, Dokl. Akad. Nauk SSSR, DOI: 10.1007/BFb0021737，KAM定理的原始表述
-
-- Arnold, 1963, *Proof of a Theorem of A. N. Kolmogorov on the Invariance of Quasi-Periodic Motions Under Small Perturbations of the Hamiltonian*, Russian Mathematical Surveys, 18(5): 9-36, DOI: 10.1070/RM1963v018n05ABEH004130，Arnold扩散的命名渊源
-
 - Moser, 1962, On Invariant Curves of Area-Preserving Mappings of an Annulus, Nachr. Akad. Wiss. Göttingen，题录待补
-
-- Nekhoroshev, 1977, *An Exponential Estimate of the Time of Stability of Nearly Integrable Hamiltonian Systems*, Russian Mathematical Surveys, 32(6): 1-65, DOI: 10.1070/RM1977v032n06ABEH003859，Nekhoroshev定理的原始出处
-
-- Scott, Spencer, 2010, *Calculating Transfer Families to Periodic Distant Retrograde Orbits Using Differential Correction*, Journal of Guidance, Control, and Dynamics, 33(5): 1592-1605, DOI: 10.2514/1.47791，KAM环面用于解释DRO微扰下的动力学稳定性

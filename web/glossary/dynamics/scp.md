@@ -58,7 +58,7 @@ $$A(t)=\frac{\partial\mathbf{f}}{\partial\mathbf{x}}\bigg|_{\mathbf{x}^{(n-1)}},
 
 很多航天问题的非凸性来自控制约束，而非动力学。典型例子是动力下降的推力幅值约束 $\rho_2\leq\|\mathbf{T}_c\|\leq\rho_1$：下界非零导致可行集是环，非凸。引入松弛变量 $\Gamma\geq\|\mathbf{T}_c\|$，把控制约束改为凸锥 $\|\mathbf{T}_c\|\leq\Gamma,\ \rho_2\leq\Gamma\leq\rho_1$，构造松弛问题。
 
-Acikmese 和 Ploen 在 2007 年的关键 Lemma 证明：在一定条件下，松弛问题的最优解必然落在原始非凸可行集上，因此松弛不损失最优性（lossless）。这一结果后来推广到一般控制仿射问题。
+Acikmese 和 Ploen 在 2007 年的关键 Lemma 证明：在一定条件下，松弛问题的最优解必然落在原始非凸可行集上，因此松弛不损失最优性（lossless）。这一结果后来推广到一般控制仿射问题\cite{Acikmes2007}。
 
 ### 虚拟控制（virtual control）
 
@@ -72,8 +72,8 @@ Acikmese 和 Ploen 在 2007 年的关键 Lemma 证明：在一定条件下，松
 
 ## 变体
 
-- SCvx（Szmuk et al.）：经典信赖域 + 虚拟控制框架，理论收敛性证明较完整。
-- GUSTO（Mao, Szmuk, Acikmese）：基于成功步/失败步的两阶段策略，工程实现友好。
+- SCvx（Szmuk et al.）：经典信赖域 + 虚拟控制框架，理论收敛性证明较完整\cite{szmukSuccessiveConvexificationRealTime2020}。
+- GUSTO（Mao, Szmuk, Acikmese）：基于成功步/失败步的两阶段策略，工程实现友好\cite{maoSuccessiveConvexificationNonconvex2016}。
 - ECIPS / cvxgen：嵌入式代码生成，用于星载实时求解。
 - PC-SCoP（相位约束序列锥规划）：多相问题扩展，在相间事件处施加线性化约束。
 - 逐次凸优化与切换时刻提取：用 FRPM 离散化，配合 bang-off-bang 控制的网加密，可精确捕捉低推力燃料最优的开关结构。
@@ -93,7 +93,7 @@ Acikmese 和 Ploen 在 2007 年的关键 Lemma 证明：在一定条件下，松
 
 - 动力下降制导：火星/月球定点着陆是 SCP 的杀手锏应用：Acikmese & Ploen 的 lossless convexification 是为该问题量身定做，已用于 SpaceX Starship 的 on-board 实时规划\cite{Song2021}。
 - 低推力转移：日地/地月低推力多圈燃料最优转移，Wang & Grant 首次把 SCP 用于该类问题，Tang 和 Conway 则把间接法与序列凸规划结合起来求解同类问题\cite{tangFueloptimalLowthrustTrajectory2018}。Hofmann 和 Topputo 推广到行星际、配合 hp-Radau + bang-off-bang 加密。
-- 地月平动点转移：Halo 与 NRHO 之间的转移等高非线性区域，Kayama 等 2022 证明 SCP 在 CR3BP 邻域仍可收敛，但需推力延续法（从大加速度逐步降至任务推力）才能在低加速度下不出发散。
+- 地月平动点转移：Halo 与 NRHO 之间的转移等高非线性区域，Kayama 等 2022 证明 SCP 在 CR3BP 邻域仍可收敛，但需推力延续法（从大加速度逐步降至任务推力）才能在低加速度下不出发散\cite{kayamaLowThrustTrajectoryDesign2022a}。
 - 碰撞规避与交会：近场 RPO、被动安全交会，用 SCP 求解带凸化保持约束的转移\cite{elangoSuccessiveConvexificationPassivelysafe2025}。
 
 ## 相关概念
@@ -105,10 +105,3 @@ Acikmese 和 Ploen 在 2007 年的关键 Lemma 证明：在一定条件下，松
 - [动力下降燃料最优（Fuel-Optimal Powered Descent）](/glossary/dynamics/fuel-optimal/)
 - [CR3BP](/glossary/dynamics/cr3bp/)
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)
-
-## 参考文献
-
-- Acikmese and Ploen, 2007, *Convex Programming Approach to Powered Descent Guidance for Mars Landing*, Journal of Guidance, Control, and Dynamics, 30(5): 1353-1366, DOI: 10.2514/1.27553
-- Szmuk, Reynolds and Acikmese, 2020, *Successive Convexification for Real-Time Six-Degree-of-Freedom Powered Descent Guidance with State-Triggered Constraints*, Journal of Guidance, Control, and Dynamics, 43(8): 1399-1413, DOI: 10.2514/1.G004549
-- Kayama et al., 2022, *Low-Thrust Trajectory Design with Successive Convex Optimization for Libration Point Orbits*, Journal of Guidance, Control, and Dynamics, 45(4): 623-637, DOI: 10.2514/1.G005916
-- Mao, Szmuk and Acikmese, 2016, *Successive Convexification of Non-Convex Optimal Control Problems and Its Convergence Properties*, 2016 IEEE 55th Conference on Decision and Control (CDC), 3636-3641, DOI: 10.1109/CDC.2016.7798816

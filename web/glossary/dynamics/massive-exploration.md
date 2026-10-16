@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/massive-exploration/
 
 ## 定义
 
-一种求解间接最优控制问题数值解的策略。通过在 shooter 函数未知变量的参数空间中大规模采样，结合二分搜索和连续性原理，高效搜索满足庞特里亚金极值原理所有条件的最优轨迹。相比延拓法，可发现多个局部最优解构成的轨迹族。
+一种求解间接最优控制问题数值解的策略。通过在 shooter 函数未知变量的参数空间中大规模采样，结合二分搜索和连续性原理，高效搜索满足庞特里亚金极值原理所有条件的最优轨迹。相比延拓法，可发现多个局部最优解构成的轨迹族\cite{perez-palauFuelOptimizationLowthrust2018}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/massive-exploration/
 - 中途脉冲（Midcourse Impulse）
 - 零推力参考轨迹（Zero-Thrust Reference Trajectory）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
-
-## 参考文献
-
-- Pérez-Palau & Epenoy, 2018, *Fuel optimization for low-thrust Earth-Moon transfer via indirect optimal control*, Celestial Mechanics and Dynamical Astronomy, 130(2): 21, DOI: 10.1007/s10569-017-9808-2

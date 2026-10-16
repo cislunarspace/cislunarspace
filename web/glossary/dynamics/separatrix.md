@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/separatrix/
 
 ## 定义
 
-在圆型限制性三体问题的二维相空间中，流形管将运动划分为两类：穿越轨道（穿过管内、连接平动点两侧区域）和非穿越轨道（留在管外、无法穿越）。这条管面就是分界线，是理解平动点附近相空间拓扑结构的关键。
+在圆型限制性三体问题的二维相空间中，流形管将运动划分为两类：穿越轨道（穿过管内、连接平动点两侧区域）和非穿越轨道（留在管外、无法穿越）。这条管面就是分界线，是理解平动点附近相空间拓扑结构的关键\cite{koonResonanceCaptureJupiter2001}。
 
 ## 应用价值
 
-分界线涉及地月空间航天器的运动特性分析和控制问题。在实际任务设计中，利用该方法可以分析轨道稳定性、计算控制策略，或评估摄动因素对轨道的影响，为任务安全性和可靠性提供保障。
+分界线涉及地月空间航天器的运动特性分析和控制问题。在实际任务设计中，利用该方法可以分析轨道稳定性、计算控制策略，或评估摄动因素对轨道的影响，为任务安全性和可靠性提供保障\cite{howellTransfersEarthMoonSunEarth2006}。
 
 ## 相关概念
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/separatrix/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Koon et al., 2001, *Resonance and Capture of Jupiter Comets*, Celestial Mechanics and Dynamical Astronomy, 81(1-2): 27-38, DOI: 10.1023/A:1013398801813
-- Howell and Kakoi, 2006, *Transfers between the Earth–Moon and Sun–Earth systems using manifolds and transit orbits*, Acta Astronautica, 59(1–5): 367–380, DOI: 10.1016/j.actaastro.2006.02.010

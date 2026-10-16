@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/osmc/
 
 ## 定义
 
-滑模控制（Sliding Mode Control, SMC）是一类变结构控制方法：在状态空间中设计一个低维流形，即滑模面 $s(\boldsymbol{x},t)=0$，控制律在不同区域取不同结构，强制系统状态在有限时间内到达滑模面并沿之滑动。一旦进入滑动段，闭环行为由滑模面方程决定，对满足匹配条件（matching condition）的模型不确定性与外扰具有不变性，见 Utkin 1977 与 Slotine 和 Li 1991\cite{capelloSlidingmodeControlStrategies2017}。
+滑模控制（Sliding Mode Control, SMC）是一类变结构控制方法：在状态空间中设计一个低维流形，即滑模面 $s(\boldsymbol{x},t)=0$，控制律在不同区域取不同结构，强制系统状态在有限时间内到达滑模面并沿之滑动。一旦进入滑动段，闭环行为由滑模面方程决定，对满足匹配条件（matching condition）的模型不确定性与外扰具有不变性，见 Utkin 1977 与 Slotine 和 Li 1991\cite{capelloSlidingmodeControlStrategies2017,utkinVariableStructureSystems1977,slotineAppliedNonlinearControl1991}。
 
 最优滑模控制（Optimal Sliding Mode Control, OSMC）把 [LQR](/glossary/dynamics/linear-quadratic-optimal-control/) 的反馈增益嵌入滑模面，使滑动段对预设的二次型指标最优。同时保留一个不连续的切换项以补偿扰动。这样兼得 LQR 的最优性与 SMC 的鲁棒性\cite{zhangContinuousthrustStationkeepingCislunar2022}，见 Utkin 与 Shi 1996。
 
@@ -57,7 +57,7 @@ $$
 \boldsymbol{s}(\boldsymbol{x},t) = \boldsymbol{G}\big[\boldsymbol{x}(t) - \boldsymbol{x}(0)\big] - \boldsymbol{G}\int_{0}^{t}\!\big[\boldsymbol{A}-\boldsymbol{B}\boldsymbol{R}^{-1}\boldsymbol{B}^T\boldsymbol{P}\big]\boldsymbol{x}(\tau)\,d\tau，
 $$
 
-其中 $\boldsymbol{P}$ 满足 Riccati 方程。由于 $\boldsymbol{s}(\boldsymbol{x}_0,0)=0$，状态从初始时刻即位于滑模面上，消除了到达段，见 Utkin 与 Shi 1996。代入 $\dot{\boldsymbol{s}}=0$ 得到的等效控制 $\boldsymbol{u}_{eq}^* = -\boldsymbol{R}^{-1}\boldsymbol{B}^T\boldsymbol{P}\boldsymbol{x}$ 恰好等于 LQR 的最优反馈律，因此滑动段对预设的二次型指标最优。
+其中 $\boldsymbol{P}$ 满足 Riccati 方程。由于 $\boldsymbol{s}(\boldsymbol{x}_0,0)=0$，状态从初始时刻即位于滑模面上，消除了到达段，见 Utkin 与 Shi 1996\cite{utkinIntegralSlidingMode2002}。代入 $\dot{\boldsymbol{s}}=0$ 得到的等效控制 $\boldsymbol{u}_{eq}^* = -\boldsymbol{R}^{-1}\boldsymbol{B}^T\boldsymbol{P}\boldsymbol{x}$ 恰好等于 LQR 的最优反馈律，因此滑动段对预设的二次型指标最优。
 
 ## OSMC 的工程取值与平动点保持
 
@@ -75,7 +75,7 @@ $$
 - $k$ 必须严格大于扰动上界。 $k_i \le \bar d_i$ 时到达条件失效。但 $k$ 过大会加剧抖振、增大燃料消耗。OSMC 的实践是按扰动量级配置（如上表），与 LQR 固定增益不同。
 - 抖振与采样/执行频率。边界层厚度 $\varepsilon$ 应与执行机构时间常数、控制周期匹配。过小起不到平滑作用，过大等效于失去滑模特性。
 - 匹配条件限制。 SMC 的不变性只对 $\boldsymbol{d}$ 落入 $\boldsymbol{B}$ 列空间（即匹配扰动）有效。非匹配扰动需要更高阶滑模或自适应增益。
-- 离散时间实现。控制周期较大时（如 NRHO 上的 2 天），离散滑模的到达条件需重新推导，见 Drakunov 与 Utkin 1989，符号函数应以 $\mathrm{sgn}$ 的离散等价形式实现。
+- 离散时间实现。控制周期较大时（如 NRHO 上的 2 天），离散滑模的到达条件需重新推导，见 Drakunov 与 Utkin 1989\cite{drakunovDISCRETETIMESLIDINGMODES1990}，符号函数应以 $\mathrm{sgn}$ 的离散等价形式实现。
 
 ## 相关概念
 
@@ -83,10 +83,3 @@ $$
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
 - [庞特里亚金最小值原理（Pontryagin Minimum Principle）](/glossary/dynamics/pontryagins-maximum-principle/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Utkin, V. I., 1977, *Variable structure systems with sliding modes*, IEEE Transactions on Automatic Control, 22(2): 212-222, DOI: 10.1109/TAC.1977.1101446，SMC 的奠基工作
-- Slotine, J.-J. E., Li, W., 1991, *Applied Nonlinear Control*, Prentice Hall, Englewood Cliffs，SMC 教材级讲解，含等效控制、到达条件、抖振
-- Utkin, V. I., Shi, J., 1996, *Integral sliding mode in systems operating under uncertainty conditions*, Proceedings of the 35th IEEE Conference on Decision and Control, 4: 4591-4596, DOI: 10.1109/CDC.1996.577594，积分型滑模面，消除到达段
-- Drakunov, S. V., Utkin, V. I., 1989, *On discrete-time sliding modes*, Nonlinear Control Systems Design 1989 (IFAC Symposium), 273-278, DOI: 10.1016/B978-0-08-037022-4.50053-3，离散滑模的到达条件

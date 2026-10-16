@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/ballistic-capture/
 
 ## 定义
 
-弹道捕获（ballistic capture）是指航天器不施加主动减速脉冲、仅依靠多体引力环境的自然动力学，被目标天体（在本文语境下为月球）捕获进入其引力束缚区域的机制\cite{belbrunoSunperturbedEarthtomoonTransfers1993,parker2014low}。在经典二体轨道转移框架下，从双曲线轨道变为椭圆轨道必须施加制动脉冲（月球捕获需约 0.6--0.8 km/s 量级的 $\Delta v$）。弹道捕获则利用太阳引力摄动或不变流形的自然结构，使航天器在不消耗额外推进剂的情况下进入目标天体附近。
+弹道捕获（ballistic capture）是指航天器不施加主动减速脉冲、仅依靠多体引力环境的自然动力学，被目标天体（在本文语境下为月球）捕获进入其引力束缚区域的机制\cite{belbrunoSunperturbedEarthtomoonTransfers1993,parker2014low,belbrunoCaptureDynamicsChaotic2004}。在经典二体轨道转移框架下，从双曲线轨道变为椭圆轨道必须施加制动脉冲（月球捕获需约 0.6--0.8 km/s 量级的 $\Delta v$）。弹道捕获则利用太阳引力摄动或不变流形的自然结构，使航天器在不消耗额外推进剂的情况下进入目标天体附近。
 
-弹道捕获不是一种确定的轨道类型，而是一种动力学现象：航天器的雅可比常数因第三体摄动缓慢改变，使其能量逐渐降低，最终从可逃逸状态过渡到被约束状态。在限制性三体问题框架下，这种过渡对应着航天器穿越零速度曲面（ZVS）的颈部（neck）区域，即平动点 $L_1$ 或 $L_2$ 附近的能量关卡，见 Koon 等 2000 年的工作。
+弹道捕获不是一种确定的轨道类型，而是一种动力学现象：航天器的雅可比常数因第三体摄动缓慢改变，使其能量逐渐降低，最终从可逃逸状态过渡到被约束状态\cite{koonDynamicalSystemsThreeBody2000}。在限制性三体问题框架下，这种过渡对应着航天器穿越零速度曲面（ZVS）的颈部（neck）区域，即平动点 $L_1$ 或 $L_2$ 附近的能量关卡，见 Koon 等 2000 年的工作\cite{conleyLowEnergyTransit1968a,szebehely1967theory}。
 
 ## 物理机制
 
@@ -138,18 +138,4 @@ Giancotti 等\cite{giancottiLunarCaptureTrajectories2012} 利用圆柱同构映�
 
 ## 参考文献
 
-- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics: With Applications to the Construction of Low Energy Transfers*, Princeton University Press, DOI: 10.1515/9780691186436
-
-- Conley, 1968, *Low Energy Transit Orbits in the Restricted Three-Body Problems*, SIAM Journal on Applied Mathematics, 16(4): 732–746, DOI: 10.1137/0116060
-
-- Koon et al., 2000, *Dynamical Systems, the Three-Body Problem and Space Mission Design*, Equadiff 99, 1167–1181, DOI: 10.1142/9789812792617_0222
-
-- Liang, Xu, and Xu, 2016, *The classification of cislunar trajectories and its applications in the Earth–Moon system*, Astrophysics and Space Science, 361(1): 5, DOI: 10.1007/s10509-015-2577-z
-
-- Fantino et al., 2010, *A note on libration point orbits, temporary capture and low-energy transfers*, Acta Astronautica, 67(9–10): 1038–1052, DOI: 10.1016/j.actaastro.2010.06.037
-
 - Oshima et al., 2017, Permanent capture and escape in the Earth-Moon system, *Celest. Mech. Dyn. Astron.*，题录待补
-
-- 徐明, 2010, *地月低能转移的发生条件及轨迹构造*, 力学学报, 42(2): 275–289, DOI: 10.6052/0459-1879-2010-2-2008-708
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/long-period-motion/
 
 ## 定义
 
-在三角平动点（$L_4$ 或 $L_5$）附近对 CR3BP 方程作线性化，得到两个面内振荡模态加一个面外简谐运动。两个面内模态分别称为长周期模态与短周期模态。两者并存的情形称为双周期运动。沿用 Catlin 与 McLaughlin 的记号\cite{catlinEarthmoonTriangularLibration2007}，面内频率为
+在三角平动点（$L_4$ 或 $L_5$）附近对 CR3BP 方程作线性化，得到两个面内振荡模态加一个面外简谐运动\cite{szebehely1967theory}。两个面内模态分别称为长周期模态与短周期模态。两者并存的情形称为双周期运动。沿用 Catlin 与 McLaughlin 的记号\cite{catlinEarthmoonTriangularLibration2007}，面内频率为
 
 $$
 s_{1,2} = \sqrt{\tfrac{1}{2}\Big(\tfrac{1}{2} \pm \sqrt{\tfrac{1}{4} - 27\,\mu(1-\mu)}\Big)},
@@ -75,7 +75,3 @@ $$
 - [雅可比常数（Jacobi Constant）](/glossary/dynamics/jacobi-integral/)
 
 - [会合周期（Synodic Period）](/glossary/fundamentals/synodic-period/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, §§5.2-5.4, DOI: 10.1016/B978-0-12-395732-0.X5001-6，$L_4/L_5$ 线性化、特征根与 Routh 稳定判据

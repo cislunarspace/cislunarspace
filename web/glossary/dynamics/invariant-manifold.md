@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/invariant-manifold/
 
 ## 定义
 
-在动力系统理论中，不变流形（invariant manifold）是在系统流作用下保持不变的集合：若某时刻状态位于该集合上，则过去与未来所有时刻的状态仍位于其上\cite{koonGenesisTrajectoryHeteroclinic1999}，另见 Gómez 等 2001。对圆型限制性三体问题（CR3BP），最常用的不变流形是平动点周期轨道（如 Halo、Lyapunov 轨道）的稳定流形 $W^s$ 与不稳定流形 $W^u$。
+在动力系统理论中，不变流形（invariant manifold）是在系统流作用下保持不变的集合：若某时刻状态位于该集合上，则过去与未来所有时刻的状态仍位于其上\cite{koonGenesisTrajectoryHeteroclinic1999}，另见 Gómez 等 2001\cite{gomezInvariantmanifoldsSpatial3body2001}。对圆型限制性三体问题（CR3BP），最常用的不变流形是平动点周期轨道（如 Halo、Lyapunov 轨道）的稳定流形 $W^s$ 与不稳定流形 $W^u$。
 
 设周期轨道为 $\Gamma$，其附近状态为 $x$，流映射为 $\phi^t$，则
 
@@ -46,7 +46,7 @@ CR3BP 状态方程 $\dot{x}=f(x)$ 的变分方程为
 
 $$\dot{\Phi}(t,0)=A(t)\Phi(t,0),\quad A(t)=\frac{\partial f}{\partial x}\bigg|_{x(t)},\quad \Phi(0,0)=I.$$
 
-沿周期轨道 $\Gamma$ 积分一个周期 $T$ 得到 单值矩阵（monodromy matrix） $M=\Phi(T,0)$。$M$ 的特征值决定局部稳定性：Hamilton 系统特征值成倒数与共轭对出现。共线平动点附近的周期轨道通常具有一对实特征值 $\lambda_s<1$、$\lambda_u=1/\lambda_s>1$（双曲方向），以及两对模为 1 的复特征值（中心方向），即 saddle×center×center 结构，另见 Szebehely 1967。
+沿周期轨道 $\Gamma$ 积分一个周期 $T$ 得到 单值矩阵（monodromy matrix） $M=\Phi(T,0)$。$M$ 的特征值决定局部稳定性：Hamilton 系统特征值成倒数与共轭对出现。共线平动点附近的周期轨道通常具有一对实特征值 $\lambda_s<1$、$\lambda_u=1/\lambda_s>1$（双曲方向），以及两对模为 1 的复特征值（中心方向），即 saddle×center×center 结构，另见 Szebehely 1967\cite{szebehely1967theory}。
 
 对应 $\lambda_s$、$\lambda_u$ 的特征向量 $v_s$、$v_u$ 给出周期轨道上每一点的局部稳定/不稳定方向。若 $x_p(\tau)$ 为轨道上相位 $\tau\in[0,T)$ 处的状态，则流形初值可取
 
@@ -79,7 +79,7 @@ CR3BP 中，周期轨道的全部稳定（或不稳定）流形在相空间中�
 
 自然流形未必精确满足任务约束（如近月点高度、到达时间）。工程中引入两类近似：
 
-- 伪流形（pseudo-manifold）：在理想 CR3BP 流形上施加微小速度增量，使轨迹满足约束，扩展可行域，另见 Davis、Born 与 Butcher 2013。
+- 伪流形（pseudo-manifold）：在理想 CR3BP 流形上施加微小速度增量，使轨迹满足约束，扩展可行域，另见 Davis、Born 与 Butcher 2013\cite{davisTransfersEarthMoon2013}。
 
 - 扰动流形（disturbed manifold）：在自然不稳定流形特定位置施加一次机动，改变演化路径以命中目标轨道。
 
@@ -87,7 +87,7 @@ CR3BP 中，周期轨道的全部稳定（或不稳定）流形在相空间中�
 
 ## 地月/日地流形与跨系统拼接
 
-地月系统与日地系统的平动点轨道各自拥有不变流形。当两套流形在公共参考平面（如庞加莱截面）上的位置投影重叠时，可在交点处通过一次速度增量完成系统间转移。这类流形交叠是构造日地 $L_2$ 与地月 $L_1/L_2$ 之间低能通道的几何前提，也是星际高速公路在地球邻域的具体实现\cite{PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016}。
+地月系统与日地系统的平动点轨道各自拥有不变流形。当两套流形在公共参考平面（如庞加莱截面）上的位置投影重叠时，可在交点处通过一次速度增量完成系统间转移。这类流形交叠是构造日地 $L_2$ 与地月 $L_1/L_2$ 之间低能通道的几何前提，也是星际高速公路在地球邻域的具体实现\cite{PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016,rossDynamicalSystemsThreebody2022}。
 
 ## 应用要点
 
@@ -114,13 +114,3 @@ CR3BP 中，周期轨道的全部稳定（或不稳定）流形在相空间中�
 - [弱稳定边界（WSB）](/glossary/dynamics/wsb/)
 
 - [中心流形](/glossary/dynamics/center-manifold/)
-
-## 参考文献
-
-- Gómez, G., Koon, W. S., Lo, M. W., Marsden, J. E., Masdemont, J., & Ross, S. D., 2001. Invariant manifolds, the spatial three-body problem and space mission design，题录待补
-
-- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D., 2006/2011. Dynamical systems, the three-body problem and space mission design，题录待补
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, DOI: 10.1016/B978-0-12-395732-0.X5001-6
-
-- Davis, Born, Butcher, 2013, *Transfers to Earth–Moon L3 halo orbits*, Acta Astronautica, 88: 116-128, DOI: 10.1016/j.actaastro.2013.03.004

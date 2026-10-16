@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/equilateral-triangle-libration-point/
 
 ## 定义
 
-与地球、月球构成等边三角形关系的平动点，即L4和L5点，位于月球轨道上与地月连线成60度夹角的位置，是稳定的平衡点。
+与地球、月球构成等边三角形关系的平动点，即L4和L5点，位于月球轨道上与地月连线成60度夹角的位置，是稳定的平衡点\cite{LiYanJunLiYongLaGeLangRiDianDeShenKongTanCeJiShu2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ L4和L5点作为稳定的等边三角形平动点，可作为长期在轨支援�
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- 李言俊等, 2015, *利用拉格朗日点的深空探测技术*, 西北工业大学出版社

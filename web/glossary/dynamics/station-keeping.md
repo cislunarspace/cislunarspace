@@ -42,7 +42,7 @@ permalink: /glossary/dynamics/station-keeping/
 
 - 太阳引力（第三体摄动）：在共线平动点附近，太阳引力加速度的量级约 $5 \times 10^{-6}$ m/s$^2$，与不稳定流形诱发的漂移在同一数量级。
 
-- 太阳辐射压（SRP）：对面积质量比为典型值的航天器（如 Gateway 级：面积 50 m$^2$，质量 25.8 吨），SRP 加速度约 $2 \times 10^{-7}$ m/s$^2$。单独看不大，但如果标称轨道是在不含 SRP 的低保真模型（CR3BP）中构造的，忽略 SRP 会导致额外每年 5-6 m/s 的维持成本，见 Zhang 等 2022 的表 7。
+- 太阳辐射压（SRP）：对面积质量比为典型值的航天器（如 Gateway 级：面积 50 m$^2$，质量 25.8 吨），SRP 加速度约 $2 \times 10^{-7}$ m/s$^2$。单独看不大，但如果标称轨道是在不含 SRP 的低保真模型（CR3BP）中构造的，忽略 SRP 会导致额外每年 5-6 m/s 的维持成本，见 Zhang 等 2022 的表 7\cite{PerformanceAnalysisImpulsive2022}。
 
 - 月球非球形引力：对低近月点轨道（如 NRHO 近月点仅 ~3200 km，贴月极近），高阶球谐项（GRAIL 模型截断到 8 阶）显著改变近月点附近的动力学。忽略月球非球形引力导致 NRHO 的年维持成本从 1.63 跃升至 3.68 m/s，见 Zhang 等 2022。
 
@@ -78,7 +78,7 @@ $$
 
 ### Floquet 模式法（Floquet Mode Approach）
 
-利用周期轨道的 Floquet 理论：单值矩阵 $\mathbf{M}$ 的特征结构区分不稳定、稳定和中心模态。在脉冲时刻沿不稳定特征向量施加速度增量，恰好抵消当前偏差沿不稳定方向的分量，从而实现切除发散而不浪费推力在稳定/中心方向，见 Gómez 等 2001 与 Simó 等 1987。ARTEMIS 任务的事后分析表明，实际执行的约 60 次维持机动的 $\Delta V$ 方向与当地稳定特征向量高度对齐，这意味着最优机动并非简单抵消不稳定模态，而是利用稳定模态将航天器自然拉回。
+利用周期轨道的 Floquet 理论：单值矩阵 $\mathbf{M}$ 的特征结构区分不稳定、稳定和中心模态。在脉冲时刻沿不稳定特征向量施加速度增量，恰好抵消当前偏差沿不稳定方向的分量，从而实现切除发散而不浪费推力在稳定/中心方向，见 Gómez 等 2001 与 Simó 等 1987\cite{gomezDynamicsMissionDesign2001b}。ARTEMIS 任务的事后分析表明，实际执行的约 60 次维持机动的 $\Delta V$ 方向与当地稳定特征向量高度对齐，这意味着最优机动并非简单抵消不稳定模态，而是利用稳定模态将航天器自然拉回。
 
 该方法的局限在于：它依赖周期轨道的 Floquet 分解，对拟周期轨道（如星历模型中的 NRHO）不直接适用。对稳定或近稳定的轨道（如 NRHO 的低幅值分支），不稳定分量本身很小甚至不存在，Floquet 法退化为非最优。
 
@@ -154,9 +154,3 @@ $$
 - [太阳辐射压（Solar Radiation Pressure）](/glossary/dynamics/srp/)
 
 - [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
-
-## 参考文献
-
-- Zhang et al., 2022, *Performance Analysis of Impulsive Station-Keeping Strategies for Cis-Lunar Orbits with the Ephemeris Model*, Acta Astronautica, 198: 152-160, DOI: 10.1016/j.actaastro.2022.05.054，目标点法 vs. DLQR、200 次蒙特卡洛仿真、SRP 和月球非球形引力对站保持成本的影响、不同脉冲间隔的对比
-
-- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points, Vol. III: Advanced Methods for Collinear Points*, World Scientific, DOI: 10.1142/4337，Floquet 模态法的经典来源

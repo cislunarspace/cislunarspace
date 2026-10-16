@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/nonlinear-tuning/
 
 ## 定义
 
-通过调节Lindstedt-Poincaré展开中的参数使面内与垂向频率相等，从而获得真正的周期轨道。
+通过调节Lindstedt-Poincaré展开中的参数使面内与垂向频率相等，从而获得真正的周期轨道\cite{gomezDynamicsMissionDesign2001f}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/nonlinear-tuning/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points: Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific Monograph Series in Mathematics, DOI: 10.1142/4402

@@ -30,17 +30,17 @@ permalink: /glossary/dynamics/center-manifold/
 
 ## 定义
 
-在动力系统平衡点附近，线性化矩阵的特征值按实部可分为三类：负实部（稳定）、正实部（不稳定）、零实部（中心）。由中心特征方向张成的局部不变流形称为中心流形（center manifold）。CR3BP 共线平动点 $L_1$、$L_2$、$L_3$ 的线性化谱具有一对实特征值 $\pm d_1$（双曲方向）和两对纯虚特征值 $\pm i\omega_1$、$\pm i\omega_2$（中心方向），因此局部存在一个 4 维中心流形与一个 1 维稳定、1 维不稳定流形，见 Szebehely 1967 年与 Gómez 等 2001 年的工作\cite{szebehelyTheoryOrbitRestricted1967}。
+在动力系统平衡点附近，线性化矩阵的特征值按实部可分为三类：负实部（稳定）、正实部（不稳定）、零实部（中心）。由中心特征方向张成的局部不变流形称为中心流形（center manifold）。CR3BP 共线平动点 $L_1$、$L_2$、$L_3$ 的线性化谱具有一对实特征值 $\pm d_1$（双曲方向）和两对纯虚特征值 $\pm i\omega_1$、$\pm i\omega_2$（中心方向），因此局部存在一个 4 维中心流形与一个 1 维稳定、1 维不稳定流形，见 Szebehely 1967 年与 Gómez 等 2001 年的工作\cite{szebehelyTheoryOrbitRestricted1967,szebehely1967theory,gomezgDengDynamicsMissionDesign2001}。
 
 中心流形上的运动是有界的，Lissajous 轨道、Lyapunov 轨道和 Halo 轨道都落在中心流形或其延拓上。稳定/不稳定流形则在双曲方向上指数趋近或远离平衡点。
 
 ## 中心流形的约化与作用量变量
 
-中心流形的存在使得高维系统可局部约化为低维哈密顿系统：在中心流形坐标系下，运动可用作用量-角度变量 $(I_2,I_3;\theta_2,\theta_3)$ 描述。$I_2$ 常与旋转坐标系 $XY$ 平面内的运动振幅相关，$I_3$ 与 $Z$ 方向振幅相关。通过适当的正则变换和 Lyapunov 中心定理，中心流形上的周期轨道族可以系统构造，见 Gómez 等 2001 年与 Meyer、Hall 1992 年的工作。
+中心流形的存在使得高维系统可局部约化为低维哈密顿系统：在中心流形坐标系下，运动可用作用量-角度变量 $(I_2,I_3;\theta_2,\theta_3)$ 描述\cite{meyerIntroductionHamiltonianDynamical2017}。$I_2$ 常与旋转坐标系 $XY$ 平面内的运动振幅相关，$I_3$ 与 $Z$ 方向振幅相关。通过适当的正则变换和 Lyapunov 中心定理，中心流形上的周期轨道族可以系统构造，见 Gómez 等 2001 年与 Meyer、Hall 1992 年的工作。
 
 ## 法向双曲不变流形（NHIM）
 
-NHIM（Normally Hyperbolic Invariant Manifold，法向双曲不变流形）是中心流形概念的推广：它本身可以是多维不变流形，沿其法向具有强烈的双曲性（稳定/不稳定方向指数收缩/扩张），而切向则表现为中性或弱双曲。在 CR3BP 中，平动点周期轨道本身是一维 NHIM：切向沿轨道中性，法向有稳定、不稳定及中心方向。NHIM 是相空间中控制输运的瓶颈结构，也是构造异宿循环和不变环面的基础，见 Wiggins 1994 年的工作\cite{rossDynamicalSystemsThreebody2022}。
+NHIM（Normally Hyperbolic Invariant Manifold，法向双曲不变流形）是中心流形概念的推广：它本身可以是多维不变流形，沿其法向具有强烈的双曲性（稳定/不稳定方向指数收缩/扩张），而切向则表现为中性或弱双曲\cite{wigginsNormallyHyperbolicInvariant1994}。在 CR3BP 中，平动点周期轨道本身是一维 NHIM：切向沿轨道中性，法向有稳定、不稳定及中心方向。NHIM 是相空间中控制输运的瓶颈结构，也是构造异宿循环和不变环面的基础，见 Wiggins 1994 年的工作\cite{rossDynamicalSystemsThreebody2022}。
 
 ## 相对中心流形
 
@@ -65,13 +65,3 @@ NHIM（Normally Hyperbolic Invariant Manifold，法向双曲不变流形）是�
 - [Halo 轨道](/glossary/orbits/halo-orbit/)
 
 - [Lyapunov 轨道](/glossary/orbits/lyapunov-orbit/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press
-
-- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points*, Vol. I: Fundamentals: The Case of Collinear Libration Points, Vol. III: Advanced Methods for Collinear Points, World Scientific
-
-- Meyer and Hall, 1992, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, Applied Mathematical Sciences 90, Springer
-
-- Wiggins, 1994, *Normally Hyperbolic Invariant Manifolds in Dynamical Systems*, Applied Mathematical Sciences 105, Springer

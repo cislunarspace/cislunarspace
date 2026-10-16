@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/turning-point/
 
 ## 定义
 
-同伦路径上参数导数为零的点。转折点处参数对弧长的一阶导为零，通常对应极值失去全局最优性（同伦分支切换）或局部最优性（出现共轭时间）的临界状态。
+同伦路径上参数导数为零的点。转折点处参数对弧长的一阶导为零，通常对应极值失去全局最优性（同伦分支切换）或局部最优性（出现共轭时间）的临界状态\cite{Caillau2012}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/turning-point/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Caillau & Daoud, 2012, *Minimum Time Control of the Restricted Three-Body Problem*, SIAM Journal on Control and Optimization, 50(6): 3178-3202, DOI: 10.1137/110847299

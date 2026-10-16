@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/bilinear-tangent-law/
 
 ## 定义
 
-均匀重力场中燃料最优着陆的推力姿态规律。推力角的正切是时间的有理分式函数。在特定边界条件下退化为线性正切律或恒定推力姿态律。
+均匀重力场中燃料最优着陆的推力姿态规律。推力角的正切是时间的有理分式函数。在特定边界条件下退化为线性正切律或恒定推力姿态律\cite{trofimovTransfersNearrectilinearHalo2020}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/bilinear-tangent-law/
 - 机动重构（Maneuver Reconstruction）
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
 - 功能连接理论（Theory of Functional Connections）
-
-## 参考文献
-
-- Trofimov et al., 2020, *Transfers from near-rectilinear halo orbits to low-perilune orbits and the Moon’s surface*, Acta Astronautica, 167: 260–271, DOI: 10.1016/j.actaastro.2019.10.049

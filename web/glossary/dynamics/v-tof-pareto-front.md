@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/v-tof-pareto-front/
 
 ## 定义
 
-在速度增量与飞行时间构成的二维空间中，由不可被同时改善两个目标的非支配解构成的曲线。低能转移的帕累托前沿揭示了推进剂消耗与飞行时间之间的基本权衡：飞行时间越长，越能利用天体引力梯度，所需ΔV越低。前沿上的典型解标定了该转移类型的性能边界。
+在速度增量与飞行时间构成的二维空间中，由不可被同时改善两个目标的非支配解构成的曲线。低能转移的帕累托前沿揭示了推进剂消耗与飞行时间之间的基本权衡：飞行时间越长，越能利用天体引力梯度，所需ΔV越低。前沿上的典型解标定了该转移类型的性能边界\cite{pengLowenergyTransfersLunar2024}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/v-tof-pareto-front/
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [科氏定理（Coriolis Theorem）](/glossary/dynamics/coriolis-theorem/)
 - 速度函数（Velocity Function）
-
-## 参考文献
-
-- Peng et al., 2024, *Low-Energy Transfers to Lunar Distant Retrograde Orbits from Geostationary Transfer Orbits*, Journal of Spacecraft and Rockets, 61(5): 1293-1304, DOI: 10.2514/1.A35623

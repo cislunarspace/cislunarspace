@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/subarc/
 
 ## 定义
 
-bang-bang 最优控制中，控制量取某一固定极值（最大或最小推力）的连续时间段。无状态约束时，燃料最优动力下降的推力幅值最多含三段子弧，按最大-最小-最大排列。引入下滑坡度约束后，子弧数可超过三段。
+bang-bang 最优控制中，控制量取某一固定极值（最大或最小推力）的连续时间段。无状态约束时，燃料最优动力下降的推力幅值最多含三段子弧，按最大-最小-最大排列。引入下滑坡度约束后，子弧数可超过三段\cite{You2022}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ bang-bang 最优控制中，控制量取某一固定极值（最大或最小推�
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- You, Dai and Rea, 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815

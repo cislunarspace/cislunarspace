@@ -53,7 +53,7 @@ $$
 
 ## 最优控制中的微分代数方程（DAE）
 
-最优控制必要条件本身就是 DAE 系统：状态方程 $\dot{\mathbf{y}} = \mathbf{f}$（微分部分），最优性条件 $\mathbf{H}_{\mathbf{u}}^{\top} = 0$（代数部分），以及协态方程。DAE 的指标（index）衡量将代数方程化为显式 ODE 所需的微分次数，见 Betts 1998 年第 V.A 节。指标 1 的 DAE（路径约束矩阵 $\partial\mathbf{g}/\partial\mathbf{u}$ 满秩）可用 DASSL 等标准方法求解，见 Petzold 1982 年。指标 $\ge 2$ 需指标约减（对代数约束微分）引入数值漂移，需要专门的配点格式。
+最优控制必要条件本身就是 DAE 系统：状态方程 $\dot{\mathbf{y}} = \mathbf{f}$（微分部分），最优性条件 $\mathbf{H}_{\mathbf{u}}^{\top} = 0$（代数部分），以及协态方程。DAE 的指标（index）衡量将代数方程化为显式 ODE 所需的微分次数，见 Betts 1998 年第 V.A 节。指标 1 的 DAE（路径约束矩阵 $\partial\mathbf{g}/\partial\mathbf{u}$ 满秩）可用 DASSL 等标准方法求解，见 Petzold 1982 年\cite{petzoldDescriptionDASSLDifferential1982}。指标 $\ge 2$ 需指标约减（对代数约束微分）引入数值漂移，需要专门的配点格式。
 
 在直接转录中，NLP 本身就是一个大的代数约束系统（缺陷约束）。对指标 1 的问题，只要网格足够密，由隐函数定理保证 NLP 是良定的。
 
@@ -61,7 +61,7 @@ $$
 
 NLP 解算器需要约束和目标函数的一阶导数（雅可比矩阵 $\mathbf{G}$）乃至二阶导数（Hessian 矩阵 $\mathbf{H}_L$）。手工推导不可能覆盖所有模型组合，有限差分引入截断误差且扩展性差。自动微分（AD）在源码级别介入，通过链式法则对基本运算做导数传播，给出机器精度的梯度和 Hessian，无截断误差，见 Betts 1998 年第 VI.F.2 节，且在处理大型稀疏 DAE 系统时计算量取决于耦合宽度而非总变量数。
 
-早年的轨迹优化工具依赖稀疏有限差分。Bischof 等 1992 年提出的 ADIFOR 和后来的 CasADi 等框架使 AD 成为主流途径。
+早年的轨迹优化工具依赖稀疏有限差分。Bischof 等 1992 年提出的 ADIFOR 和后来的 CasADi 等框架使 AD 成为主流途径\cite{bischofADIFORGeneratingDerivative1992}。
 
 ## 网格精化：h 法与 p 法
 
@@ -74,7 +74,7 @@ NLP 解算器需要约束和目标函数的一阶导数（雅可比矩阵 $\math
 
 - OTIS（Optimal Trajectories by Implicit Simulation）：Hargraves and Paris（1987）原创，采用 Hermite-Simpson 缺陷 + NPSOL。后集成 SOCS（Sparse Optimal Control Software）。
 
-- GPOPS-II：MATLAB 平台 hp 自适应伪谱法（Rao et al.）。
+- GPOPS-II：MATLAB 平台 hp 自适应伪谱法（Rao et al.）\cite{pattersonGPOPSIIMATLABSoftware2014}。
 
 - DIDO：伪谱最优控制求解器（Ross）。
 
@@ -97,11 +97,3 @@ NLP 解算器需要约束和目标函数的一阶导数（雅可比矩阵 $\math
 - [高斯伪谱法（GPM）](/glossary/dynamics/pseudospectral-method/)
 
 - [形状基法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
-
-## 参考文献
-
-- Petzold, 1982, *A Description of DASSL: A Differential/Algebraic System Solver*, Sandia Report SAND82-8637，题录待补
-
-- Bischof et al., 1992, *ADIFOR: Generating Derivative Codes from Fortran Programs*, Scientific Programming, 1(1): 11-29, DOI: 10.1155/1992/717832
-
-- Patterson and Rao, 2014, *GPOPS-II: A MATLAB Software for Solving Multiple-Phase Optimal Control Problems Using hp-Adaptive Gaussian Quadrature Collocation Methods*, ACM Transactions on Mathematical Software, 41(1): 1-37, DOI: 10.1145/2558904

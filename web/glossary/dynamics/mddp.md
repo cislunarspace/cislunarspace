@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/mddp/
 
 ## 定义
 
-将多相轨迹分解为多个独立相段、各自运行 HDDP 迭代的优化框架。与多相 HDDP 中全轨迹导数耦合不同，MDDP 在每次迭代中先独立优化各相段，再通过外层信赖域步骤更新各相段的初始状态和目标状态，从而将引力辅助等敏感段的影响限制在本相段内。各相段可并行计算，适合含多个引力辅助或复杂机动的长周期轨迹。
+将多相轨迹分解为多个独立相段、各自运行 HDDP 迭代的优化框架。与多相 HDDP 中全轨迹导数耦合不同，MDDP 在每次迭代中先独立优化各相段，再通过外层信赖域步骤更新各相段的初始状态和目标状态，从而将引力辅助等敏感段的影响限制在本相段内。各相段可并行计算，适合含多个引力辅助或复杂机动的长周期轨迹\cite{azizHybridDifferentialDynamic2019}。
 
 ## 应用价值
 
@@ -44,4 +44,3 @@ permalink: /glossary/dynamics/mddp/
 ## 参考文献
 
 - Pellegrini & Russell, 2017, *A multiple-shooting differential dynamic programming algorithm*, AAS/AIAA Astrodynamics Specialist Conference, AAS 17-453
-- Aziz, Scheeres & Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617

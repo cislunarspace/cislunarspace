@@ -36,7 +36,7 @@ permalink: /glossary/dynamics/patch-point/
 
 ## 在两级微分修正中的角色
 
-Howell 和 Pernicka 的两级修正算法因拼接点而得名\cite{howell1987numerical}，两级指的就是拼接点处先后处理位置连续性和速度连续性的两层嵌套迭代：
+Howell 和 Pernicka 的两级修正算法因拼接点而得名\cite{howell1987numerical,howellNumericalDeterminationLissajous1987}，两级指的就是拼接点处先后处理位置连续性和速度连续性的两层嵌套迭代：
 
 - 内层：固定各拼接点位置，只修正各点速度，消除每段终点与下一拼接点之间的位置不连续。
 
@@ -58,7 +58,7 @@ Howell 和 Pernicka 的两级修正算法因拼接点而得名\cite{howell1987nu
 
 ## 异系统拼接中的连接点角色
 
-两种不同的三体系统（如日地 CR3BP + 地月 CR3BP）因引力圈结构不同而各自独立，无法在同一框架下直接耦合。弱稳定边界（WSB）转移的关键思路是在共同庞加莱截面上寻找连接点：日地流形和地月流形在截面上投影的交点。该交点处的状态作为两系统之间的几何拼接点，两侧在其各自的旋转系中积分，交叠区域的速度跳变再通过微分修正消除，实现两体系统之间的低能连接，见 Koon 等 2000。
+两种不同的三体系统（如日地 CR3BP + 地月 CR3BP）因引力圈结构不同而各自独立，无法在同一框架下直接耦合。弱稳定边界（WSB）转移的关键思路是在共同庞加莱截面上寻找连接点：日地流形和地月流形在截面上投影的交点。该交点处的状态作为两系统之间的几何拼接点，两侧在其各自的旋转系中积分，交叠区域的速度跳变再通过微分修正消除，实现两体系统之间的低能连接，见 Koon 等 2000\cite{koonHeteroclinicConnectionsPeriodic2000}。
 
 在这个语境下，拼接点不仅是算法节点，同时具有几何含义：它是切换动力学模型的界面位置。地月/日地系统的连接点通常选在地月 $L_2$ 附近、两系统都允许航天器在局部无推力传过该截面的位置。
 
@@ -75,11 +75,3 @@ Howell 和 Pernicka 的两级修正算法因拼接点而得名\cite{howell1987nu
 - [差分进化算法（DE）](/glossary/dynamics/de/)
 
 - [轨道保持（Station-Keeping）](/glossary/dynamics/station-keeping/)
-
-## 参考文献
-
-- Howell, K. C., Pernicka, H. J., 1987, *Numerical Determination of Lissajous Trajectories in the Restricted Three-Body Problem*, Celestial Mechanics, 41(1-4): 107-124, DOI: 10.1007/BF01238756，拼接点的原始定义与两级修正
-
-- Chen et al., 2024, *Calculating the Quasi-Periodic Distant Retrograde Orbit under the Ephemeris Model Based on the Adaptive Two-Level Differential Correction*, Astrophysics and Space Science, 369(12): 123, DOI: 10.1007/s10509-024-04390-8，自适应拼接点选取：差分进化优化拼接位置与数量
-
-- Koon et al., 2000, *Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics*, Chaos, 10(2): 427-469, DOI: 10.1063/1.166509，日地与地月系统之间的异宿连接，连接点在双系统流形拼接中的几何含义

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/rht/
 
 ## 定义
 
-在星历模型中构造长周期标称轨道的数值方法。将长时间积分分解为若干短时间段，在每个时间段内进行靶向修正，逐段推进以维持轨道精度。适合处理如 NRHO 这类需要数年时长标称轨道、但直接差分修正难以收敛的情况。代价是各段之间存在微小速度不连续（每圈约 1 毫米/秒量级）。
+在星历模型中构造长周期标称轨道的数值方法\cite{PerformanceAnalysisImpulsive2022}。将长时间积分分解为若干短时间段，在每个时间段内进行靶向修正，逐段推进以维持轨道精度。适合处理如 NRHO 这类需要数年时长标称轨道、但直接差分修正难以收敛的情况\cite{williams2017targeting}。代价是各段之间存在微小速度不连续（每圈约 1 毫米/秒量级）。
 
 ## 应用价值
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/rht/
 - 变长设计空间（Variable-Size Design Space, VSDS）
 - [驻留维持（Station-Keeping）](/glossary/dynamics/station-keeping/)
 - 目标点法（Target Point Method）
-
-## 参考文献
-
-- Zhang et al., 2022, *Performance Analysis of Impulsive Station-Keeping Strategies for Cis-Lunar Orbits with the Ephemeris Model*, Acta Astronautica, 198: 152-160, DOI: 10.1016/j.actaastro.2022.05.054
-- Williams et al., 2017, *Targeting Cislunar Near Rectilinear Halo Orbits for Human Space Exploration*, AAS 17-267

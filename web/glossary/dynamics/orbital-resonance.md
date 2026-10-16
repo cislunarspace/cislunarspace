@@ -62,7 +62,7 @@ $$p\,T_{\text{sc}} \approx q\,T_{P_2}$$
 
 - 外共振（exterior resonance）：$p < q$，航天器周期长于参考天体，例如 1:2、2:3。
 
-- 1:1 共振：周期相同，包括三角平动点 $L_4$、$L_5$ 附近的特洛伊（Trojan）运动，以及蝌蚪轨道（tadpole）和马蹄轨道（horseshoe）。在地月系中，$L_4$、$L_5$ 处的运动即属 1:1 共轨共振\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022}。
+- 1:1 共振：周期相同，包括三角平动点 $L_4$、$L_5$ 附近的特洛伊（Trojan）运动，以及蝌蚪轨道（tadpole）和马蹄轨道（horseshoe）。在地月系中，$L_4$、$L_5$ 处的运动即属 1:1 共轨共振\cite{szebehelyTheoryOrbitRestricted1967,szebehely1967theory,valladoFundamentalsAstrodynamicsApplications2022}。
 
 - 月球会合共振（synodic resonance）：轨道周期与月球会合周期（约 29.5 天）成简单整数比，例如 Gateway 基线 [9:2 近直线晕轨道](/glossary/dynamics/lsr/)\cite{oshimaMultipleFamiliesSynodic2022}。
 
@@ -89,7 +89,3 @@ $$p\,T_{\text{sc}} \approx q\,T_{P_2}$$
 - [月球会合共振（Lunar Synodic Resonance）](/glossary/dynamics/lsr/)
 
 - [共振跃迁（Resonance Transition）](/glossary/dynamics/resonance-transition/)
-
-## 参考文献
-
-- Szebehely, V., 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York

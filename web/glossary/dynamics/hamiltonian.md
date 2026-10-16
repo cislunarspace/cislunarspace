@@ -50,7 +50,7 @@ $$H(\mathbf{q},\mathbf{p},t)=\mathbf{p}^{\!\top}\dot{\mathbf{q}}-L(\mathbf{q},\d
 
 $$H=\tfrac12(p_x^2+p_y^2+p_z^2)+yp_x-xp_y-\frac{1-\mu}{r_1}-\frac{\mu}{r_2},$$
 
-其中 $r_1,r_2$ 为到两主天体的距离。科氏与离心项表现为 $yp_x-xp_y$。雅可比常数 $C=-2H$ 是 CR3BP 唯一守恒量，通过零速度曲面限定 Hill 区域（见 [雅可比积分](/glossary/dynamics/jacobi-integral/)）。
+其中 $r_1,r_2$ 为到两主天体的距离\cite{szebehely1967theory}。科氏与离心项表现为 $yp_x-xp_y$。雅可比常数 $C=-2H$ 是 CR3BP 唯一守恒量，通过零速度曲面限定 Hill 区域（见 [雅可比积分](/glossary/dynamics/jacobi-integral/)）。
 
 Cox et al.（2021）将 $H$ 拆分为自然 Hamilton 量
 
@@ -60,7 +60,7 @@ $$H_{nat}=\tfrac12 v^2-\tfrac12(x^2+y^2)-\frac{1-\mu}{r_1}-\frac{\mu}{r_2}$$
 
 ## 近可积 Hamilton 系统
 
-若系统有 $n$ 个相互对合（Poisson 括号为零）的独立积分，则称为可积。近可积 Hamilton 量形如 $H=H_0(I)+\varepsilon H_1(I,\varphi)$，$(I,\varphi)$ 为可积部分的作用-角变量，$\varepsilon\ll 1$。KAM 定理与 Nekhoroshev 定理描述其长期动力学\cite{cellettiStabilityChaosCelestial2010}，见 [KAM 定理](/glossary/dynamics/kam-theory/)。Hamilton 可积近似把 $H_1$ 对快变量平均，得到捕捉平均运动共振的可积 $\bar H$，用于为地月共振轨道族的数值延拓提供初值\cite{dingCislunarSpaceSituational2025}。
+若系统有 $n$ 个相互对合（Poisson 括号为零）的独立积分，则称为可积。近可积 Hamilton 量形如 $H=H_0(I)+\varepsilon H_1(I,\varphi)$，$(I,\varphi)$ 为可积部分的作用-角变量，$\varepsilon\ll 1$\cite{dingCislunarSpaceSituational2025}。KAM 定理与 Nekhoroshev 定理描述其长期动力学\cite{cellettiStabilityChaosCelestial2010}，见 [KAM 定理](/glossary/dynamics/kam-theory/)。Hamilton 可积近似把 $H_1$ 对快变量平均，得到捕捉平均运动共振的可积 $\bar H$，用于为地月共振轨道族的数值延拓提供初值\cite{dingCislunarSpaceSituational2025}。
 
 ## Hamilton 约化
 
@@ -93,6 +93,4 @@ $$H(\mathbf{x},\boldsymbol{\lambda},\mathbf{u},t)=L(\mathbf{x},\mathbf{u},t)+\bo
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York
 - Cox, A. B., et al. (2021). CR3BP with low-thrust，题录待补
-- Ding, Qi and Qiao, 2025, *Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits*, IFAC-PapersOnLine, 59(20): 1386-1391, DOI: 10.1016/j.ifacol.2025.11.350

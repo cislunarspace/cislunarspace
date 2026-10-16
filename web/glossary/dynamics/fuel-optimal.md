@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/fuel-optimal/
 
 ## 定义
 
-燃料最优控制是一类以推进剂消耗最少为目标的最优控制问题。在火箭方程假设下，等价于最大化终端质量或最小化速度增量总和。与 能量最优控制（minimize $\int\|\mathbf{u}\|^2 dt$）和 时间最优控制（minimize $t_f-t_0$）并列为航天器轨迹优化的三大主流性能指标，三者在 [庞特里亚金极值原理](/glossary/dynamics/pontryagins-maximum-principle/) 框架下导出不同结构的最优控制律\cite{bettsSurveyNumericalMethods1998,conwaySpacecraftTrajectoryOptimization2010}，Bryson 与 Ho 1975 年对此有系统对比。
+燃料最优控制是一类以推进剂消耗最少为目标的最优控制问题。在火箭方程假设下，等价于最大化终端质量或最小化速度增量总和。与 能量最优控制（minimize $\int\|\mathbf{u}\|^2 dt$）和 时间最优控制（minimize $t_f-t_0$）并列为航天器轨迹优化的三大主流性能指标，三者在 [庞特里亚金极值原理](/glossary/dynamics/pontryagins-maximum-principle/) 框架下导出不同结构的最优控制律\cite{bettsSurveyNumericalMethods1998,conwaySpacecraftTrajectoryOptimization2010}，Bryson 与 Ho 1975 年对此有系统对比\cite{brysonAppliedOptimalControl1975}。
 
 | 指标 | 数学形式 | 控制结构 | 典型场景 |
 | :--- | :--- | :--- | :--- |
@@ -70,7 +70,7 @@ $$
 u^{*}=\begin{cases}0,&\rho>0\\1,&\rho<0\\\text{不定},&\rho=0\end{cases}
 $$
 
-$\rho=0$ 对应 奇异弧（singular arc）：一阶极值条件不足以确定 $u$，需用 Legendre-Clebsch 二阶条件判断。在标准燃料最优问题中奇异弧极少出现，多数解呈现 Bang-off-Bang 结构，MT 弧（$u=1$）与 NT 弧（$u=0$）交替，中间无中间推力段，见 Lawden 1963 年。详见 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)。
+$\rho=0$ 对应 奇异弧（singular arc）：一阶极值条件不足以确定 $u$，需用 Legendre-Clebsch 二阶条件判断。在标准燃料最优问题中奇异弧极少出现，多数解呈现 Bang-off-Bang 结构，MT 弧（$u=1$）与 NT 弧（$u=0$）交替，中间无中间推力段，见 Lawden 1963 年\cite{lawdenOptimalTrajectoriesSpace1963}。详见 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)。
 
 ### 能量最优与同伦起点
 
@@ -94,7 +94,7 @@ $$
 
 ### 动力下降（Powered Descent）
 
-月球或行星动力下降是燃料最优控制的典型场景：终端状态约束为 $(\mathbf{r}(t_f),\mathbf{v}(t_f))$ 给定，性能指标取 $J=m(t_f)$。由极值原理导出的最优推力通常呈始终制动或 Bang-off-Bang 形态。Åström 与 Di Benedetto 等证明在标准软着陆问题中不存在非平凡奇异弧\cite{You2022}，因此数值上可放心使用 Bang-off-Bang 假设。
+月球或行星动力下降是燃料最优控制的典型场景：终端状态约束为 $(\mathbf{r}(t_f),\mathbf{v}(t_f))$ 给定，性能指标取 $J=m(t_f)$。由极值原理导出的最优推力通常呈始终制动或 Bang-off-Bang 形态\cite{You2022}。Åström 与 Di Benedetto 等证明在标准软着陆问题中不存在非平凡奇异弧\cite{You2022}，因此数值上可放心使用 Bang-off-Bang 假设。
 
 ### 地月低推力转移
 
@@ -129,9 +129,3 @@ NRHO、Halo 等平动点轨道的长期保持是周期性触发的燃料最优�
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)：切换函数的来源
 - [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/)：求解燃料最优问题的方法框架
 - [电推进（Electric Propulsion）](/glossary/fundamentals/ep/)：燃料最优控制的主要物理载体
-
-## 参考文献
-
-- Lawden, 1963, *Optimal Trajectories for Space Navigation*, Butterworths, London，三类推力弧与奇异弧分析的经典出处
-- Bryson and Ho, 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Hemisphere Publishing, Washington, D.C.，最优控制系统教材，含燃料/能量/时间三类指标对比
-- You, Dai and Rea, 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815，动力下降问题无非平凡奇异弧的证明

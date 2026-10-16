@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/inner-frequencies/
 
 ## 定义
 
-三角平动点附近运动的固有频率，包括短周期、长周期和垂直方向振动模式，是对圆型限制性三体问题周期模式的一般化推广。
+三角平动点附近运动的固有频率，包括短周期、长周期和垂直方向振动模式，是对圆型限制性三体问题周期模式的一般化推广\cite{gomezDynamicsMissionDesign2001d}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/inner-frequencies/
 - 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
 - 推进制动返回（Propulsive Braking Return）
 - [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
-
-## 参考文献
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. II: Fundamentals: The Case of Triangular Libration Points*, World Scientific, DOI: 10.1142/9789812810649

@@ -52,7 +52,7 @@ CR3BP 的完整状态空间为 6 维（3 位置 + 3 速度），但雅可比常�
 
 对不稳定周期轨道（如 Halo 轨道、Lyapunov 轨道），稳定性由主导实乘子 $\lambda_u$ 的大小决定。稳定性因子（stability factor）定义为 $\nu = (|\lambda_u| + |\lambda_s|)/2$，最小值为 1（线性稳定），趋势越大越不稳定\cite{mengyun-heOutlineDesignPerformance2014}。
 
-小偏值 Halo 轨道的地月系 Floquet 实数乘子通常远大于 1（受轨道幅值、所绕平动点及模型影响，量级在数百到数千），这给出相邻轨道每圈发散的倍数。若沿不稳定方向存在初始偏差 $\delta x_0$，一周后偏差为 $\lambda_u \cdot \delta x_0$，$n$ 周后为 $\lambda_u^n \cdot \delta x_0$，这正是平动点轨道误差指数发散（exponential error divergence）的数学根源。
+小偏值 Halo 轨道的地月系 Floquet 实数乘子通常远大于 1（受轨道幅值、所绕平动点及模型影响，量级在数百到数千），这给出相邻轨道每圈发散的倍数。若沿不稳定方向存在初始偏差 $\delta x_0$，一周后偏差为 $\lambda_u \cdot \delta x_0$，$n$ 周后为 $\lambda_u^n \cdot \delta x_0$，这正是平动点轨道误差指数发散（exponential error divergence）的数学根源\cite{breakwellHaloFamily3dimensional1979}。
 
 ## 轨道预报误差与指数发散率
 
@@ -82,7 +82,7 @@ $$
 
 周期轨道的 Floquet 模态分解建立在对平衡点（equilibrium point/平动点）邻域线性化分析的基础上。CR3BP 的 5 个平动点中：
 
-- 共线平动点（$L_1, L_2, L_3$）的线性化系统具有鞍点型特征值（一对实特征值 $\pm d_1$ 加两对纯虚特征值 $\pm i \lambda_2$, $\pm i \lambda_3$），在平面投影中呈现中心-鞍点（center-saddle）结构。中心方向对应有界运动，鞍点方向产生双曲效应，即周期轨道的稳定流形与不稳定流形存在的几何根源\cite{szebehelyTheoryOrbitRestricted1967}。
+- 共线平动点（$L_1, L_2, L_3$）的线性化系统具有鞍点型特征值（一对实特征值 $\pm d_1$ 加两对纯虚特征值 $\pm i \lambda_2$, $\pm i \lambda_3$），在平面投影中呈现中心-鞍点（center-saddle）结构。中心方向对应有界运动，鞍点方向产生双曲效应，即周期轨道的稳定流形与不稳定流形存在的几何根源\cite{szebehelyTheoryOrbitRestricted1967,szebehely1967theory}。
 
 - 三角平动点（$L_4, L_5$）当 $\mu < \mu_0 \approx 0.0385$（地月系 $\mu \approx 0.01215$ 满足）时，线性化系统具有三对纯虚特征值，即中心-中心-中心型线性稳定，但非线性效应和太阳引力摄动会在实用时间尺度上引入弱不稳定性。
 
@@ -122,10 +122,4 @@ Conley（1968）的平衡区域（equilibrium region）理论揭示了共线平�
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, ISBN: 978-0-12-395732-0，共线平动点线性化与鞍点特征值
-
 - Gao & Hou, 2020, "Formation of three-dimensional periodic orbits from planar periodic orbits in the Earth-Moon system"，DRO 族的 m-分岔分析，基于单值矩阵各次幂特征值穿越复平面，题录待补
-
-- Breakwell & Brown, 1979, *The Halo family of 3-dimensional periodic orbits in the Earth-Moon restricted 3-body problem*, Celestial Mechanics, 20(4): 389-404, DOI: 10.1007/BF01230405，Halo 轨道的 Floquet 乘子及其对维持控制的含义
-
-- 孟云鹤, 陈琪锋, 2014, *地月平动点导航星座的概要设计与性能分析*, 物理学报, 63(24): 248402, DOI: 10.7498/aps.63.248402，稳定性因子 $\nu$ 的定义与周期轨道的稳定性判别

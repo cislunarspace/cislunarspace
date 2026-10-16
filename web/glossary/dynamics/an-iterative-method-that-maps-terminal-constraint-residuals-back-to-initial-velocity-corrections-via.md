@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/an-iterative-method-that-maps-terminal-constraint-
 
 $$\Delta \mathbf{v}_0^{(k+1)} = \Delta \mathbf{v}_0^{(k)} - \left[ \frac{\partial \mathbf{F}}{\partial \mathbf{v}_0} \right]^{-1} \mathbf{F}(\mathbf{x}_0^{(k)})$$
 
-该方法具有二阶局部收敛速度，计算效率高，但收敛域依赖初始猜测值的精度。在工程实践中，通常结合不变流形流管切断面或网格全局搜索提供高质量初值，广泛用于地月转移轨道设计、周期轨道族延拓与中途修正机动规划\cite{parker2014low}。
+该方法具有二阶局部收敛速度，计算效率高，但收敛域依赖初始猜测值的精度。在工程实践中，通常结合不变流形流管切断面或网格全局搜索提供高质量初值，广泛用于地月转移轨道设计、周期轨道族延拓与中途修正机动规划\cite{parker2014low,PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016}。
 
 ## 相关概念
 
@@ -38,7 +38,3 @@ $$\Delta \mathbf{v}_0^{(k+1)} = \Delta \mathbf{v}_0^{(k)} - \left[ \frac{\partia
 - [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/state-jacobian-matrix/)
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - [Halo轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
-
-## 参考文献
-
-- 彭坤, 罗亚中, 高有涛, 等. 基于不变流形的地月L2点Halo轨道转移轨道设计. 宇航学报, 2016, 37(10): 1167-1175，题录待补

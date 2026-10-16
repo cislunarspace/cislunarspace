@@ -44,7 +44,7 @@ permalink: /glossary/dynamics/cislunar-transfer-design-elements/
 
 ### 转移轨道族（Transfer Orbit Family）
 
-在限制性三体或四体模型中，具有相同动力学对称性和拓扑结构的一组转移轨道构成一个转移轨道族。这些轨道以连续参数（如 Poincaré 截面处的速度分量）为索引。韦炳威和李银山在 2017 年发现，经过月球旁近的低能地月转移轨道至少存在 16 族，各族在出发时刻、飞行时间、$\Delta v$ 代价和近月点高度分布上差异显著。轨道族的概念使得全局搜索不再需要在连续参数空间中盲目采样，而可以按族搜索，大幅提高效率。
+在限制性三体或四体模型中，具有相同动力学对称性和拓扑结构的一组转移轨道构成一个转移轨道族。这些轨道以连续参数（如 Poincaré 截面处的速度分量）为索引。韦炳威和李银山在 2017 年发现，经过月球旁近的低能地月转移轨道至少存在 16 族，各族在出发时刻、飞行时间、$\Delta v$ 代价和近月点高度分布上差异显著\cite{WeiBingWeiJingGuoYueQiuPangJinDeDiNengDiYueZhuanYiGuiDao2017a}。轨道族的概念使得全局搜索不再需要在连续参数空间中盲目采样，而可以按族搜索，大幅提高效率。
 
 ## 转移代价（Transfer Cost）
 
@@ -102,7 +102,7 @@ $$
 
 - 前向调相（preceding phasing）：调相轨道到达目标点的时间早于目标航天器，在 DRO 调相中，轨道路径位于 DRO 内侧。
 
-- 后向调相（receding phasing）：到达时间晚于目标航天器，轨道路径位于 DRO 外侧，可实现的调相范围通常大于前向调相（地月远距离逆行轨道脉冲调相方法）。
+- 后向调相（receding phasing）：到达时间晚于目标航天器，轨道路径位于 DRO 外侧，可实现的调相范围通常大于前向调相（地月远距离逆行轨道脉冲调相方法）\cite{ZhaoMingXuDiYueYuanJuChiNiXingGuiDaoMaiChongDiaoXiangFangFa2024a,YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023a}。
 
 ## 中间转移段（Transfer Leg）
 
@@ -138,14 +138,4 @@ $$
 
 ## 参考文献
 
-- Liang, Xu, and Xu, 2016, *The classification of cislunar trajectories and its applications in the Earth–Moon system*, Astrophysics and Space Science, 361(1): 5, DOI: 10.1007/s10509-015-2577-z
-
-- 韦炳威, 李银山, 2017, *经过月球旁近的低能地月转移轨道*, 天文学报, 58(5): 3–19, DOI: 10.15940/j.cnki.0001-5245.2017.05.001
-
-- Zhang et al., 2021, *The transfers from lunar DROs to Earth orbits via optimization in the four body problem*, Astrophysics and Space Science, 366(6): 49, DOI: 10.1007/s10509-021-03955-1
-
 - Chao et al., 2022, Trajectory database generation for cislunar space domain awareness，题录待补
-
-- 杨驰航, 符弘岚, 张皓, 2023, *远距离逆行轨道上的近距离自然及受控编队*, 航空学报, 44(5): 326563, DOI: 10.7527/S1000-6893.2021.26563
-
-- 赵明旭, 齐毅, 金启航, 2024, *地月远距离逆行轨道脉冲调相方法*, 宇航学报, 45(10): 1599–1612, DOI: 10.3873/j.issn.1000-1328.2024.10.009

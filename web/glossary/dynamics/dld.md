@@ -16,7 +16,7 @@ permalink: /glossary/dynamics/dld/
 
 ## 定义
 
-航天器在远距离逆行轨道（DRO）上施加切向小推力脉冲进入相切的Lyapunov平动点周期轨道，利用两类轨道运行周期的天然差异积累相位角差，并在数圈后再次施加切向脉冲返回目标DRO轨位的间接调相方法。
+航天器在远距离逆行轨道（DRO）上施加切向小推力脉冲进入相切的Lyapunov平动点周期轨道，利用两类轨道运行周期的天然差异积累相位角差，并在数圈后再次施加切向脉冲返回目标DRO轨位的间接调相方法\cite{ZhaoMingXuDiYueYuanJuChiNiXingGuiDaoMaiChongDiaoXiangFangFa2024a}。
 
 ## 物理机制与工程价值
 
@@ -27,7 +27,3 @@ permalink: /glossary/dynamics/dld/
 - [远距离逆行轨道](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [Lyapunov轨道](/glossary/orbits/lyapunov-orbit/)
 - 轨道机动
-
-## 参考文献
-
-- 赵明旭, 齐毅, 金启航, 2024, *地月远距离逆行轨道脉冲调相方法*, 宇航学报, 45(10): 1599-1612, DOI: 10.3873/j.issn.1000-1328.2024.10.009

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/low-energy-transfer/
 
 ## 定义
 
-低能转移（low-energy transfer）是指利用多体引力环境（特别是限制性三体/四体问题的不变流形自然动力学结构）实现的轨道转移，其燃料消耗远低于经典的圆锥曲线拼接法给出的结果\cite{koonDynamicalSystemsThreebody1999,parker2014low}。
+低能转移（low-energy transfer）是指利用多体引力环境（特别是限制性三体/四体问题的不变流形自然动力学结构）实现的轨道转移，其燃料消耗远低于经典的圆锥曲线拼接法给出的结果\cite{koonDynamicalSystemsThreebody1999,parker2014low,koonDynamicalSystemsThreeBody2000}。
 
 在传统二体框架下，转移轨道设计以圆锥曲线拼接（patched-conics）为基础：将飞行路径分割为若干段，每段由单个天体的二体轨道近似。这一范式对近地轨道任务足够准确，但在涉及地月空间、日地系统或行星际航行时，多体效应变得不可忽略，而低能转移正是利用这些凌乱的多体效应，把摄动从误差源变成资源\cite{LiXiangYuSanTiGuiDaoDongLiXueYanJiuJinZhan2021}。
 
@@ -50,7 +50,7 @@ permalink: /glossary/dynamics/low-energy-transfer/
 
 令 $\mathbf{X}_0$ 为周期轨道上一点，$\Phi(T, 0)$ 为其单值矩阵，其特征向量 $\mathbf{v}^s$（对应特征值 $|\lambda_s| < 1$）和 $\mathbf{v}^u$（对应 $|\lambda_u| > 1$）分别给出该点的稳定方向和不稳定方向。从周期轨道上每一点出发，沿 $\mathbf{v}^s$ 方向给一个小扰动并反向积分，即得稳定流形管上的一条轨道。沿 $\mathbf{v}^u$ 方向给扰动并正向积分，即得不稳定流形管上的一条轨道。
 
-整族这样的轨道形成一个四维（空间 CR3BP）或六维（平面 CR3BP）状态空间中的管状结构：这就是不变流形管（invariant manifold tube）。在会合坐标系中，不稳定的管将处于月球附近的航天器排出。稳定的管则将远处（如地球近旁）的航天器吸入。低能转移设计的关键步骤就是在 Poincaré 截面上寻找稳定管与不稳定管的交叠区域。
+整族这样的轨道形成一个四维（空间 CR3BP）或六维（平面 CR3BP）状态空间中的管状结构：这就是不变流形管（invariant manifold tube）。在会合坐标系中，不稳定的管将处于月球附近的航天器排出。稳定的管则将远处（如地球近旁）的航天器吸入。低能转移设计的关键步骤就是在 Poincaré 截面上寻找稳定管与不稳定管的交叠区域\cite{andersonComparisonLowenergyLunar2013}。
 
 ### 弹道段（Ballistic Arc）
 
@@ -60,7 +60,7 @@ permalink: /glossary/dynamics/low-energy-transfer/
 
 在零速度面的拓扑中，$L_1$ 和 $L_2$ 平动点是连接不同区域（realm）的关口。当航天器的雅可比常数 $C$ 满足 $C_2 < C < C_1$ 时，$L_1$ 处打开一个瞬变通道（transit gate）：航天器可穿过此通道，在地球区域和月球区域之间自由来往\cite{campanaLowenergyEarthMoon2024}。$C$ 进一步降低到 $C_3 < C < C_2$ 时，$L_2$ 处也打开，提供通往外部空间的通道。
 
-在多体环境中，这些通道在状态空间中构成动力学通道（dynamical channel）：天然形成的输运路径，不仅用于航天器转移设计，也解释了太阳系中流星、彗星等的迁移。
+在多体环境中，这些通道在状态空间中构成动力学通道（dynamical channel）：天然形成的输运路径，不仅用于航天器转移设计，也解释了太阳系中流星、彗星等的迁移\cite{belbrunoCaptureDynamicsChaotic2004}。
 
 ### 转移性（Transitability）
 
@@ -68,7 +68,7 @@ permalink: /glossary/dynamics/low-energy-transfer/
 
 ## 行星际超级高速公路（IPS）
 
-行星际超级高速公路（Interplanetary Superhighway, IPS）是低能转移概念的行星际尺度推广，由 Lo 在 2002 年提出。其核心思想是：将不同三体系统（如日地系统与地月系统）的平动点轨道的不变流形拼接起来，形成跨越全部内行星区域、甚至延伸到外行星的低能量传输网络。
+行星际超级高速公路（Interplanetary Superhighway, IPS）是低能转移概念的行星际尺度推广，由 Lo 在 2002 年提出\cite{loInterPlanetarySuperhighwayOrigins2003}。其核心思想是：将不同三体系统（如日地系统与地月系统）的平动点轨道的不变流形拼接起来，形成跨越全部内行星区域、甚至延伸到外行星的低能量传输网络。
 
 一条典型的 IPS 轨道可能如下：航天器先从地球发射并进入日地 $L_1/L_2$ Halo 轨道的稳定流形管道，随后沿流形自然漂移至平动点轨道附近，再施加小脉冲在 Poincaré 截面上跳转到另一个三体系统的流形管，最终到达目标天体附近。整个过程中，脉冲仅用于流形管之间的换乘，绝大部分飞行里程是无推力滑行。
 
@@ -122,14 +122,6 @@ IPS 的实际应用包括 NASA 的 Genesis 任务（利用日地 $L_1$ 流形往
 
 ## 参考文献
 
-- Koon et al., 2000, *Dynamical Systems, the Three-Body Problem and Space Mission Design*, Equadiff 99, 1167-1181, DOI: 10.1142/9789812792617_0222
-
-- Anderson, Parker, 2013, *Comparison of low-energy lunar transfer trajectories to invariant manifolds*, Celestial Mechanics and Dynamical Astronomy, 115(3): 311-331, DOI: 10.1007/s10569-012-9466-3
-
-- Lo, 2002, *The Interplanetary Superhighway and the Origins Program*, Proceedings, IEEE Aerospace Conference, 7: 7-3562, DOI: 10.1109/AERO.2002.1035332
-
 - Cox et al., 2021, Transitability of low-thrust transfers through libration point gateways，题录待补
 
 - Ren et al., 2012, Earth-Moon low-energy transfer using invariant manifolds, *Celest. Mech. Dyn. Astron.*，题录待补
-
-- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics*, Princeton University Press, DOI: 10.1515/9780691186436

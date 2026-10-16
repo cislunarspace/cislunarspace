@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/homotopy-method/
 
 $$\mathbf{H}(\mathbf{y},0)=\mathbf{G}(\mathbf{y})\ \text{(易解的初始问题)},\qquad \mathbf{H}(\mathbf{y},1)=\mathbf{F}(\mathbf{y})\ \text{（目标问题）},$$
 
-然后从 $\kappa=0$ 的已知解出发，沿 $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ 的零曲线跟踪到 $\kappa=1$，得到 $\mathbf{F}(\mathbf{y})=\mathbf{0}$ 的解\cite{watsonNumericalLinearAlgebra1986}，另见 Allgower 与 Georg 1990。
+然后从 $\kappa=0$ 的已知解出发，沿 $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ 的零曲线跟踪到 $\kappa=1$，得到 $\mathbf{F}(\mathbf{y})=\mathbf{0}$ 的解\cite{watsonNumericalLinearAlgebra1986}，另见 Allgower 与 Georg 1990\cite{allgowerNumericalContinuationMethods1990}。
 
 与 [数值延拓](/glossary/dynamics/continuation/) 的关系：同伦方法是延拓方法的子类，它把参数 $\lambda$ 具体化为同伦参数 $\kappa$，把含参数方程具体化为人为构造的同伦函数 $\mathbf{H}$。延拓是几何地跟踪已有方程的解曲线。同伦是先人为地嵌入一族方程再跟踪。两者共享同一套路径跟踪算法（预测-校正、伪弧长），但出发点不同：延拓从已知的单一解推进到该解所属的族。同伦从人为构造的、有已知解的简单问题出发去攻一个原本没有可用初值的难问题\cite{guanyutong2026}。
 
@@ -166,7 +166,5 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
-
-- Allgower, Georg, 1990, *Numerical Continuation Methods: An Introduction*, Springer, DOI: 10.1007/978-3-642-61257-2，同伦与延拓算法的统一教材
 
 - Pan X, Pan B F. 2019. 基于同伦方法的地月系 $L_2$ 点小推力转移轨道优化，题录待补

@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/opt-mi/
 
 ## 应用价值
 
-该机动方式在地月转移和轨道调整任务中起重要作用，影响任务能量消耗与飞行时间。
+该机动方式在地月转移和轨道调整任务中起重要作用，影响任务能量消耗与飞行时间\cite{cuevasdelvalleRelativeDynamicsModern2022}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/opt-mi/
 - 有动力月球借力（Powered Lunar Flyby, PLF）
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/cr3bp/)
 - 插入速度增量（Insertion Delta-V）
-
-## 参考文献
-
-- Cuevas del Valle et al., 2022, *Relative Dynamics and Modern Control Strategies for Rendezvous in Libration Point Orbits*, Aerospace, 9(12): 798, DOI: 10.3390/aerospace9120798

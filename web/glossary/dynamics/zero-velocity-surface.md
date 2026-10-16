@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/zero-velocity-surface/
 
 由 [雅可比积分](/glossary/dynamics/jacobi-integral/) $v^2 = 2\Omega - C$ 出发，令 $v=0$，得到位形空间中的等值面
 $$\Omega(x,y,z) = C/2.$$
-它就是 [有效势](/glossary/dynamics/jacobi-integral/) $\Omega$ 的等值面，称作零速度曲面（zero-velocity surface, ZVS）或 Hill 曲面。在会合系的 $xy$ 平面截线称作零速度曲线（zero-velocity curve, ZVC）或 Hill 曲线\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022}。
+它就是 [有效势](/glossary/dynamics/jacobi-integral/) $\Omega$ 的等值面，称作零速度曲面（zero-velocity surface, ZVS）或 Hill 曲面。在会合系的 $xy$ 平面截线称作零速度曲线（zero-velocity curve, ZVC）或 Hill 曲线\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022,szebehely1967theory}。
 
 零速度意指：航天器若位于此面上，其会合系速度恰好为零，它刚把全部旋转系动能换成了势能。这是航天器在该 C 值下能到达的边界。
 
@@ -113,7 +113,3 @@ $L_1$、$L_2$、$L_3$ 处的开口被形象地称为颈口（neck）或能量通
 - [Halo 轨道](/glossary/orbits/halo-orbit/)
 
 - [会合坐标系（Synodic Frame）](/glossary/fundamentals/synodic-frame/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, Ch. 4，即零速度曲线

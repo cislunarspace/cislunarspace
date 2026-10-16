@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/er3bp/
 
 - 雅可比积分不再存在：时变系统的能量不守恒，航天器可以在不消耗推进剂的情况下改变其机械能。
 
-当日-月、日-地或地-月系统的偏心率不可忽略时（例如月球公转偏心率约 $0.0549$），ER3BP 比 CR3BP 更逼近真实动力学，但由于失去自治性和守恒量，分析难度显著上升。
+当日-月、日-地或地-月系统的偏心率不可忽略时（例如月球公转偏心率约 $0.0549$），ER3BP 比 CR3BP 更逼近真实动力学，但由于失去自治性和守恒量，分析难度显著上升\cite{szebehely1967theory}。
 
 ## 脉动旋转坐标系
 
@@ -60,7 +60,7 @@ $$
 
 ## Floquet 理论与周期轨道稳定性
 
-ER3BP 中的周期轨道必须是系统周期 $T=2\pi$（在 $f$ 域中）的周期解。由于系统显含 $f$（非自治），稳定性分析不能使用 CR3BP 中的特征值方法，而需借助 Floquet 理论。
+ER3BP 中的周期轨道必须是系统周期 $T=2\pi$（在 $f$ 域中）的周期解。由于系统显含 $f$（非自治），稳定性分析不能使用 CR3BP 中的特征值方法，而需借助 Floquet 理论\cite{gomezDynamicsMissionDesign2001b}。
 
 取周期轨道的基态 $\mathbf{x}_0(f)$，对 $f$ 偏导数的动力学沿其线性化为周期系数线性系统：
 
@@ -74,7 +74,7 @@ $$\delta \mathbf{x}'(f) = \mathbf{A}(f)\,\delta \mathbf{x}(f), \quad \mathbf{A}(
 
 - 平面与空间 ER3BP：平面椭圆限制性三体问题（PER3BP）约束运动在轨道面内，分析方法以 $f$ 截面庞加莱映射为主。空间 ER3BP 保留全部三维自由度，周期轨道族更加复杂。
 
-- 共振效应：在某些偏心率下，ER3BP 的周期轨道可能与 CR3BP 轨道族出现显著偏移或分岔，这是长远任务必须考虑的效应。
+- 共振效应：在某些偏心率下，ER3BP 的周期轨道可能与 CR3BP 轨道族出现显著偏移或分岔，这是长远任务必须考虑的效应\cite{campagnolaNewTechniquesAstrodynamics2010}。
 
 ## 相关概念
 
@@ -92,10 +92,4 @@ $$\delta \mathbf{x}'(f) = \mathbf{A}(f)\,\delta \mathbf{x}(f), \quad \mathbf{A}(
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York，第 10 章系统论述 ER3BP 的脉动坐标系与运动方程。
-
 - Broucke, 1969, *Periodic Orbits in the Elliptic Restricted Three-Body Problem*, Jet Propulsion Laboratory, California Institute of Technology，ER3BP 周期轨道的早期系统化研究。
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. III: Advanced Methods for Collinear Points*, World Scientific, DOI: 10.1142/4337，讨论 ER3BP 中平动点周期轨道的延拓与 Floquet 稳定性。
-
-- Campagnola, 2010, *New Techniques in Astrodynamics for Moon Systems Exploration*, Ph.D. dissertation, University of Southern California, DOI: 10.25549/usctheses-m2875，含 ER3BP 轨道设计的实际数值方法。

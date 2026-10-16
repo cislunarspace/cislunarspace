@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/mass-consumption-rate/
 
 ## 定义
 
-燃料最优控制模型中描述推进剂质量随时间消耗速率的常数参数 α，出现在质量变化方程 dm/dt = -α||T|| 中。α 由发动机比冲决定，直接联系推力幅值与燃料消耗速度。
+燃料最优控制模型中描述推进剂质量随时间消耗速率的常数参数 α，出现在质量变化方程 dm/dt = -α||T|| 中。α 由发动机比冲决定，直接联系推力幅值与燃料消耗速度\cite{You2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/mass-consumption-rate/
 - [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
-
-## 参考文献
-
-- You, Dai & Rea, 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815

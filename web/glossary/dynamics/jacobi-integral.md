@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/jacobi-integral/
 
 ## 定义
 
-雅可比积分（Jacobi integral）是圆型限制性三体问题（CR3BP）在会合坐标系下迄今已知的唯一解析积分，1836 年由 Jacobi 给出。其积分常数 $C$ 又称雅可比常数（Jacobi constant），记作 $C$、$C_J$，少数文献用 $J$（差一符号约定，见下节）。无量纲化（[会合坐标系](/glossary/fundamentals/synodic-frame/)下距离单位为主天体间距、$\omega=1$）后，其表达式为
+雅可比积分（Jacobi integral）是圆型限制性三体问题（CR3BP）在会合坐标系下迄今已知的唯一解析积分，1836 年由 Jacobi 给出\cite{szebehely1967theory}。其积分常数 $C$ 又称雅可比常数（Jacobi constant），记作 $C$、$C_J$，少数文献用 $J$（差一符号约定，见下节）。无量纲化（[会合坐标系](/glossary/fundamentals/synodic-frame/)下距离单位为主天体间距、$\omega=1$）后，其表达式为
 
 $$C \;=\; 2\Omega(x,y,z) - v^2 \;=\; (x^2+y^2) + \frac{2(1-\mu)}{r_1} + \frac{2\mu}{r_2} - (\dot x^2+\dot y^2+\dot z^2),$$
 
@@ -107,7 +107,7 @@ $$\Delta C = -2\,\mathbf v\cdot\Delta\mathbf v.$$
 
 彗星或小行星在行星遭遇前后，其日心轨道根数 $(a,e,i)$ 通过蒂塞朗参数（Tisserand parameter）近似对应同一个 J：
 $$J \;\approx\; \frac{a_p}{a} + 2\cos i\,\sqrt{\frac{a}{a_p}(1-e^2)},$$
-$a_p$ 为扰动行星的半长轴。该式源出于限制性三体问题的雅可比积分在远距离处的近似\cite{murraySolarSystemDynamics1999}，另见 Murray 与 Dermott 1999 的 §3.4 与 Sánchez 与 Yárnoz 2016 的 Eq. 2，用于在不掌握遭遇细节时识别同一颗彗星、或快速筛选可能被捕获的小行星。
+$a_p$ 为扰动行星的半长轴。该式源出于限制性三体问题的雅可比积分在远距离处的近似\cite{murraySolarSystemDynamics1999,sanchezAsteroidRetrievalMissions2016}，另见 Murray 与 Dermott 1999 的 §3.4 与 Sánchez 与 Yárnoz 2016 的 Eq. 2，用于在不掌握遭遇细节时识别同一颗彗星、或快速筛选可能被捕获的小行星。
 
 ### 数值积分精度检验
 
@@ -132,9 +132,3 @@ CR3BP 数值积分中，C 应严格守恒。其在积分过程中的实际漂移
 - [Halo 轨道](/glossary/orbits/halo-orbit/)
 
 - [庞加莱截面](/glossary/dynamics/poincare-section/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, §1.6, Ch. 4, DOI: 10.1016/B978-0-12-395732-0.X5001-6
-
-- Sánchez, García Yárnoz, 2016, *Asteroid retrieval missions enabled by invariant manifold dynamics*, Acta Astronautica, 127: 667-677, DOI: 10.1016/j.actaastro.2016.05.034

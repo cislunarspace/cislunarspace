@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/shape-based-method/
 
 ## 定义
 
-形状基方法（shape-based method）是一类小推力轨迹的近似解析设计法：用含少量待定参数的解析函数（形状函数）描述转移轨道的几何形状，通常是极径 $r(\theta)$ 或速度矢量 $\boldsymbol{v}(t)$，再由逆动力学（inverse dynamics）从形状反算出推力加速度 $\boldsymbol{u}(t)$ 和飞行时间。它不求解完整的最优控制问题，只把无限维的轨迹优化降为有限维参数优化，因此算得快、便于全局搜索，但形状受所选函数族限制，得到的解一般非真正最优，相关讨论另见 Petropoulos 和 Longuski 2004\cite{conwaySpacecraftTrajectoryOptimization2010,vellutiniShapebasedDesignLowthrust2014}。
+形状基方法（shape-based method）是一类小推力轨迹的近似解析设计法：用含少量待定参数的解析函数（形状函数）描述转移轨道的几何形状，通常是极径 $r(\theta)$ 或速度矢量 $\boldsymbol{v}(t)$，再由逆动力学（inverse dynamics）从形状反算出推力加速度 $\boldsymbol{u}(t)$ 和飞行时间。它不求解完整的最优控制问题，只把无限维的轨迹优化降为有限维参数优化，因此算得快、便于全局搜索，但形状受所选函数族限制，得到的解一般非真正最优，相关讨论另见 Petropoulos 和 Longuski 2004\cite{conwaySpacecraftTrajectoryOptimization2010,vellutiniShapebasedDesignLowthrust2014,petropoulosShapeBasedAlgorithmAutomated2004}。
 
 工程上的定位：形状基方法用于初值生成和全局剪枝：在大量候选方案中快速找到近似可行的转移，再交给 [直接配点](/glossary/dynamics/differential-correction/)、[HDDP](/glossary/dynamics/hddp/) 或 [间接法](/glossary/dynamics/indirect-methods/) 做精确优化。
 
@@ -56,7 +56,7 @@ Izzo 给出了多圈 Lambert 类比\cite{izzoLambertsProblemExponential2006}。�
 
 ## 其他形状函数族
 
-逆多项式（Wall & Conway）。 Wall 与 Conway 在 2010 年提出五阶、六阶逆多项式 $r(\theta)=1/\sum_{i} a_i\theta^i$，参数更多、能拟合更一般的轨迹（含非切向推力分量），适合交会、拦截等固定时间问题，但代价是维度灾难：参数空间的网格搜索成本随阶数增长。
+逆多项式（Wall & Conway）。 Wall 与 Conway 在 2010 年提出五阶、六阶逆多项式 $r(\theta)=1/\sum_{i} a_i\theta^i$，参数更多、能拟合更一般的轨迹（含非切向推力分量），适合交会、拦截等固定时间问题，但代价是维度灾难：参数空间的网格搜索成本随阶数增长\cite{wallShapeBasedApproachLowThrust2009}。
 
 速度 Hodograph 法。把速度矢量 $\boldsymbol{v}(t)$（而非位置）表示为时间或真近点角的形状函数，由 $\dot{\boldsymbol{r}}=\boldsymbol{v}$ 反求位置、由运动方程反求推力。优点是速度边界条件直接、便于处理速度匹配的交会问题，被用于地球–火星、地球–水星、小行星/彗星任务。
 
@@ -74,7 +74,7 @@ $$
 
 ## 平动点周期轨道的振幅-相位形状函数
 
-针对平动点周期轨道（Halo、Lissajous）之间的低推力转移，中文文献构造了振幅与相位按多项式变化的新形状函数，把共线平动点附近的动力学特性（如 [中心流形](/glossary/dynamics/invariant-manifold/)、[零速度面](/glossary/dynamics/zero-velocity-surface/) 结构）嵌入形状参数化，相比通用形状函数能用更少参数表达有动力学意义的转移。这类形状法产出的初始猜测再交给 [Gauss 伪谱法](/glossary/dynamics/direct-methods/) 或 HDDP 精修。
+针对平动点周期轨道（Halo、Lissajous）之间的低推力转移，中文文献构造了振幅与相位按多项式变化的新形状函数，把共线平动点附近的动力学特性（如 [中心流形](/glossary/dynamics/invariant-manifold/)、[零速度面](/glossary/dynamics/zero-velocity-surface/) 结构）嵌入形状参数化，相比通用形状函数能用更少参数表达有动力学意义的转移。这类形状法产出的初始猜测再交给 [Gauss 伪谱法](/glossary/dynamics/direct-methods/) 或 HDDP 精修\cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020a}。
 
 ## 应用要点
 
@@ -93,9 +93,3 @@ $$
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [流管（Flow Tube）](/glossary/dynamics/flow-tube/)
-
-## 参考文献
-
-- Petropoulos, Longuski, 2004, *Shape-Based Algorithm for the Automated Design of Low-Thrust, Gravity Assist Trajectories*, Journal of Spacecraft and Rockets, 41(5): 787-796, DOI: 10.2514/1.13095，指数正弦曲线的奠基论文
-- Wall, Conway, 2009, *Shape-Based Approach to Low-Thrust Rendezvous Trajectory Design*, Journal of Guidance, Control, and Dynamics, 32(1): 95-101, DOI: 10.2514/1.36848，逆多项式形状函数
-- 周敬, 胡军, 2020, *平动点周期轨道间小推力转移的Gauss伪谱法*, 中国空间科学技术, 40(5): 42-52, DOI: 10.16708/j.cnki.1000-758X.2020.0057，振幅-相位形状函数

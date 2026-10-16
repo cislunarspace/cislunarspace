@@ -44,7 +44,7 @@ $$\{F,G\}=\nabla F^{\!\top}J\,\nabla G=\frac{\partial F}{\partial\mathbf{q}^{\!\
 
 ## 生成函数与李变换
 
-正则变换可由生成函数编码。在 Hori 1966、Deprit 1969 与 Meyer 的李级数方法中\cite{depritCanonicalTransformationsDepending1969a}，自治 Hamilton 量 $G$ 生成一个单参数正则变换族 $\boldsymbol{\zeta}\mapsto\mathbf{Z}_t(\boldsymbol{\zeta})$，对任意函数 $F$ 的作用为 $F\mapsto F+\{G,F\}+\tfrac12\{G,\{G,F\}\}+\cdots$，即*李变换*。逐阶选择 $G$ 消去 $H$ 中不需要的项即得正规形。Hori/Deprit 方法给出了一个递归的、便于计算机代数实现的形式，在天体力学中广泛使用。
+正则变换可由生成函数编码。在 Hori 1966、Deprit 1969 与 Meyer 的李级数方法中\cite{depritCanonicalTransformationsDepending1969a,horiTheoryGeneralPerturbations1966}，自治 Hamilton 量 $G$ 生成一个单参数正则变换族 $\boldsymbol{\zeta}\mapsto\mathbf{Z}_t(\boldsymbol{\zeta})$，对任意函数 $F$ 的作用为 $F\mapsto F+\{G,F\}+\tfrac12\{G,\{G,F\}\}+\cdots$，即*李变换*。逐阶选择 $G$ 消去 $H$ 中不需要的项即得正规形\cite{gomezDynamicsMissionDesign2001d}。Hori/Deprit 方法给出了一个递归的、便于计算机代数实现的形式，在天体力学中广泛使用。
 
 ## 正规形流程与同调方程
 
@@ -62,7 +62,7 @@ Birkhoff 正规形（BNF）消去所有非共振单项式，仅保留与 $H_2$ �
 
 偏正规形（PNF）只消去不稳定（双曲）项，保留中心流形动力学。配合中心流形 $W^c$ 约化，得到 4 维（或平面 2 维）保守 Hamilton 系统，捕捉 $L_{1,2}$ 邻域的 Lissajous、halo、拟 halo 轨道族而不必处理双曲方向\cite{jorbaDynamicsCenterManifold1999}。正规形约化对庞加莱映射做同样的事：化简辛映射以读出稳定性与分岔结构。
 
-Moser 1958 年的定理给出 Birkhoff 正规形在椭圆平衡点附近收敛的充分条件，形式级数此时描述真实的不变曲线，为平动点邻域的稳定性论断与不变流形参数化提供依据。
+Moser 1958 年的定理给出 Birkhoff 正规形在椭圆平衡点附近收敛的充分条件，形式级数此时描述真实的不变曲线，为平动点邻域的稳定性论断与不变流形参数化提供依据\cite{moserNewAspectsTheory1958}。
 
 ## 应用要点
 
@@ -80,9 +80,3 @@ Moser 1958 年的定理给出 Birkhoff 正规形在椭圆平衡点附近收敛�
 - [中心流形（Center Manifold）](/glossary/dynamics/center-manifold/)
 - [KAM 定理](/glossary/dynamics/kam-theory/)
 - [正则变量（Canonical Variables）](/glossary/dynamics/canonical-variables/)
-
-## 参考文献
-
-- Gómez, Llibre, Martínez and Simó, 2001, *Dynamics and Mission Design near Libration Points: Fundamentals: The Case of Triangular Libration Points*, World Scientific, DOI: 10.1142/4392
-- Moser, 1958, *New aspects in the theory of stability of Hamiltonian systems*, Communications on Pure and Applied Mathematics, 11(1): 81-114, DOI: 10.1002/cpa.3160110105
-- Hori, 1966, *Theory of general perturbations with unspecified canonical variables*, Publications of the Astronomical Society of Japan, 18(4): 287-296, DOI: 10.1093/pasj/18.4.287

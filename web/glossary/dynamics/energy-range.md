@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/energy-range/
 
 ## 定义
 
-根据 Jacobi 能量划分的地月转移可行区域，case a、b、c、d 四个范围。
+根据 Jacobi 能量划分的地月转移可行区域，case a、b、c、d 四个范围\cite{topputo2013optimal}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/energy-range/
 - [形状法（Shape Method）](/glossary/dynamics/shape-based-method/)
 - 差分动态规划（Differential Dynamic Programming, DDP）
 - 二阶锥规划（Second-Order Cone Programming, SOCP）
-
-## 参考文献
-
-- Topputo, 2013, *On optimal two-impulse Earth-Moon transfers in a four-body model*, Celestial Mechanics and Dynamical Astronomy, 117(3): 279-313, DOI: 10.1007/s10569-013-9513-8

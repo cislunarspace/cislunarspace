@@ -42,7 +42,7 @@ permalink: /glossary/dynamics/poincare-section/
 
 - $y=0$ 截面：记录轨道穿过主天体连线时的状态，常配合 $\dot{y}>0$ 或 $\dot{y}<0$ 取单侧，避免同一周期轨道在截面上重复计数。适合展示 $x$-$\dot{x}$ 相平面。
 
-- $x=1-\mu$ 截面（次天体 $P_2$ 所在 $x$ 位置）：地月系或日地系中研究 $L_1$/$L_2$ 流形拼接、平动点附近转移的事实标准\cite{gomezDynamicsMissionDesign2001Vol2}。
+- $x=1-\mu$ 截面（次天体 $P_2$ 所在 $x$ 位置）：地月系或日地系中研究 $L_1$/$L_2$ 流形拼接、平动点附近转移的事实标准\cite{gomezDynamicsMissionDesign2001Vol2,gomezDynamicsMissionDesign2001d}。
 
 - $x=x_{L_i}$ 截面：取在某个平动点位置，用于研究穿越平动点门户的 transit/non-transit 轨道，见 Koon 等 2000。
 
@@ -52,7 +52,7 @@ permalink: /glossary/dynamics/poincare-section/
 
 $$\Sigma = \{\mathbf{x}\mid \dot{\rho}=0,\ \ddot{\rho}>0\},\qquad \rho=\sqrt{(x-x_{P_i})^2+y^2+z^2}$$
 
-即探测器到指定主天体 $P_i$ 的距离取极小（$\dot{\rho}=0$）且径向加速度向外（$\ddot{\rho}>0$，确保是近星点而非远星点）。近星点截面的物理优势：穿越点的速度天然切向，是脉冲机动、月球借力窗口分析的最小能耗基线。对应的远星点截面取 $\ddot{\rho}<0$。Haapala 和 Howell 将其推广到空间问题，用以分类 transit 轨道、识别月球长期捕获轨道族。
+即探测器到指定主天体 $P_i$ 的距离取极小（$\dot{\rho}=0$）且径向加速度向外（$\ddot{\rho}>0$，确保是近星点而非远星点）。近星点截面的物理优势：穿越点的速度天然切向，是脉冲机动、月球借力窗口分析的最小能耗基线。对应的远星点截面取 $\ddot{\rho}<0$。Haapala 和 Howell 将其推广到空间问题，用以分类 transit 轨道、识别月球长期捕获轨道族\cite{villacConceptPeriapsisHills2004}。
 
 地月系、日地系、行星卫星系工程中常见的命名变体：近地点截面（perigee section，相对地球）、近月点截面（perilune section，相对月球）、近拱点截面（periapsis section，相对任意主天体）、远地点截面（apogee section）。这些只是中心天体不同的近/远星点截面，构造等价。
 
@@ -84,7 +84,7 @@ $$\Sigma = \{\mathbf{x}\mid (\mathbf{x}-\mathbf{x}_0)\cdot\mathbf{n}=0\}$$
 
 - 流形拼接与转移初值：在 $x=1-\mu$ 截面上比较 $L_1$ 不稳定流形与 $L_2$ 稳定流形的交点，可识别 [heteroclinic/homoclinic 连接](/glossary/dynamics/poincare-map/) 的初值。
 
-- 捕获与逃逸分析：近星点截面上 transit 与 non-transit 点的边界由 Lyapunov 轨道的不变流形管刻画\cite{conleyLowEnergyTransit1968}，见 Koon 等 2000。
+- 捕获与逃逸分析：近星点截面上 transit 与 non-transit 点的边界由 Lyapunov 轨道的不变流形管刻画\cite{conleyLowEnergyTransit1968,conleyLowEnergyTransit1968a}，见 Koon 等 2000\cite{koonHeteroclinicConnectionsPeriodic2000}。
 
 - 轨道辨识与编目：将观测状态投影到截面地图上，可像查字典一样辨识未知航天器所在轨道族，绕过混沌环境中直接数值积分的困难。
 
@@ -104,16 +104,4 @@ $$\Sigma = \{\mathbf{x}\mid (\mathbf{x}-\mathbf{x}_0)\cdot\mathbf{n}=0\}$$
 
 ## 参考文献
 
-- Poincaré, H., 1892, *Les méthodes nouvelles de la mécanique céleste*, Gauthier-Villars, Paris，截面方法的奠基性著作
-
-- Hénon, M., 1969, *Numerical Exploration of the Restricted Problem. V. Hill's Case: Periodic Orbits and Their Stability*, Astronomy and Astrophysics, 1: 223-267，首次系统使用 $y=0$ 截面研究希尔问题
-
-- Conley, C. C., 1968, *Low Energy Transit Orbits in the Restricted Three-Body Problems*, SIAM Journal on Applied Mathematics, 16(4): 732-746, DOI: 10.1137/0116060，transit/non-transit 与流形管理论
-
-- Koon et al., 2000, *Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics*, Chaos, 10(2): 427-469, DOI: 10.1063/1.166509
-
-- Villac, B. F., Scheeres, D. J., 2004, *On the Concept of Periapsis in Hill's Problem*, Celestial Mechanics and Dynamical Astronomy, 90(1-2): 165-178, DOI: 10.1007/s10569-004-0405-9
-
 - Paskowitz M E, Scheeres D J. Geometry of quasiperiodic orbits in the Hill problem[J]. Celestial Mechanics and Dynamical Astronomy, 2006，题录待补
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. II: Fundamentals: The Case of Triangular Libration Points*, World Scientific, Singapore, DOI: 10.1142/9789812810649

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/solar-sail-artificial-libration-point-orbit/
 
 ## 定义
 
-利用太阳光压产生的持续推力，在非共线平动点位置或原平动点附近构造的准平衡轨道。太阳帆提供的光压力可以抵消部分引力不平衡，使航天器在传统平动点不存在的位置也能实现准周期运动。朱敏研究了其动力学特性和自抗扰保持控制。
+利用太阳光压产生的持续推力，在非共线平动点位置或原平动点附近构造的准平衡轨道。太阳帆提供的光压力可以抵消部分引力不平衡，使航天器在传统平动点不存在的位置也能实现准周期运动。朱敏研究了其动力学特性和自抗扰保持控制\cite{panCislunarNavigationConstellation2017}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/solar-sail-artificial-libration-point-orbit/
 - 动力一致性（Dynamical Consistency）
 - 组合协方差（Combined Covariance）
 - [尼霍罗舍夫估计（Nekhorosev Estimates）](/glossary/dynamics/nekhorosev-estimates/)
-
-## 参考文献
-
-- Pan, Xu, 2017, *Cislunar Navigation Constellation by Displaced Solar Sails*, Journal of Navigation, 70(5): 963-982, DOI: 10.1017/S037346331700025X

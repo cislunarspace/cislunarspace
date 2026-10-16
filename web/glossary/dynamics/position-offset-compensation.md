@@ -36,7 +36,7 @@ permalink: /glossary/dynamics/position-offset-compensation/
 
 ## 应用价值
 
-位置偏移补偿通过 Lambert 制导引导至偏移瞄准点来补偿燃烧产生的位置偏差，是提高落点精度的重要技术。在弹道导弹和月球着陆中具有应用。
+位置偏移补偿通过 Lambert 制导引导至偏移瞄准点来补偿燃烧产生的位置偏差，是提高落点精度的重要技术。在弹道导弹和月球着陆中具有应用\cite{burnsLambertGuidanceRoutine2004}。
 
 ## 相关概念
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/position-offset-compensation/
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - 脉冲机动（Impulsive Maneuver）
 - Halo轨道（Halo Orbit）
-
-## 参考文献
-
-- Burns, S. P., Scherock, J. J., 2004, *Lambert Guidance Routine Designed to Match Position and Velocity of Ballistic Target*, Journal of Guidance, Control, and Dynamics, 27(6): 989-996, DOI: 10.2514/1.1679

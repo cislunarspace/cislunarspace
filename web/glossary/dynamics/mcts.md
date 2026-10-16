@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/mcts/
 
 ## 应用价值
 
-该概念在地月空间轨道设计与转移中具有重要应用，可用于分析轨道稳定性、设计转移方案或评估任务性能。
+该概念在地月空间轨道设计与转移中具有重要应用，可用于分析轨道稳定性、设计转移方案或评估任务性能\cite{pengExploringMoreSolutions2022}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/mcts/
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/cr3bp/)
 - 插入速度增量（Insertion Delta-V）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- Peng et al., 2022, *Exploring more solutions for low-energy transfers to lunar distant retrograde orbits*, Celestial Mechanics and Dynamical Astronomy, 134(1): 1-38, DOI: 10.1007/s10569-021-10056-2

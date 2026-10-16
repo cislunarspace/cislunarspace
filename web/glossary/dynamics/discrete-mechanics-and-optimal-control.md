@@ -48,11 +48,11 @@ $$L_d(\mathbf{q}_k,\mathbf{q}_{k+1},h)\approx h\,L\bigg(\frac{\mathbf{q}_k+\math
 
 $$D_2 L_d(\mathbf{q}_{k-1},\mathbf{q}_k) + D_1 L_d(\mathbf{q}_k,\mathbf{q}_{k+1}) + \mathbf{F}_k^- + \mathbf{F}_k^+ = \mathbf{0},\quad k=1,\dots,N-1.$$
 
-DMOC 把控制力作为外力 $\mathbf{f}_{\text{ext}} = \mathbf{u}(t)$，离散化为节点上的 $\{\mathbf{u}_k\}$。以 DEL 方程为 NLP 等式约束，初始/终端条件为边界约束，控制能量 $\sum_k \|\mathbf{u}_k\|^2$ 为目标，用 SNOPT 等 SQP 求解器求解，见 Ober-Blöbaum 等 2011 与 Moore 2011 第 2 章。中点规则下 DMOC 是 2 阶精度\cite{leyendeckerDiscreteMechanicsOptimal2010}。
+DMOC 把控制力作为外力 $\mathbf{f}_{\text{ext}} = \mathbf{u}(t)$，离散化为节点上的 $\{\mathbf{u}_k\}$。以 DEL 方程为 NLP 等式约束，初始/终端条件为边界约束，控制能量 $\sum_k \|\mathbf{u}_k\|^2$ 为目标，用 SNOPT 等 SQP 求解器求解，见 Ober-Blöbaum 等 2011 与 Moore 2011 第 2 章。中点规则下 DMOC 是 2 阶精度\cite{leyendeckerDiscreteMechanicsOptimal2010,jungeDISCRETEMECHANICSOPTIMAL2005}。
 
 ## 结构保持性质
 
-DMOC 解继承变分积分器的关键性质：
+DMOC 解继承变分积分器的关键性质：\cite{marsdenDiscreteMechanicsVariational2001}
 
 - 保辛（symplectic）：相空间上的辛 2-form 在迭代中精确保持。
 - 保动量（momentum-preserving）：与系统对称性对应的 Noether 动量映射精确保持，与步长无关。
@@ -89,8 +89,3 @@ DMOC 解继承变分积分器的关键性质：
 - [辛几何（Symplectic Geometry）](/glossary/dynamics/hamiltonian-normal-form/)
 - [CR3BP](/glossary/dynamics/cr3bp/)
 - [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
-
-## 参考文献
-
-- Junge, Marsden and Ober-Blöbaum, 2005, *Discrete mechanics and optimal control*, IFAC Proceedings Volumes, 38(1): 538-543, DOI: 10.3182/20050703-6-CZ-1902.00745
-- Marsden and West, 2001, *Discrete mechanics and variational integrators*, Acta Numerica, 10: 357-514, DOI: 10.1017/S096249290100006X

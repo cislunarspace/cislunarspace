@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/misg/
 
 ## 定义
 
-借鉴运载器级联质量优化思想，以各脉冲速度增量指数乘积为目标函数，通过递推求解最优推力方向的数值脉冲规划算法。
+借鉴运载器级联质量优化思想，以各脉冲速度增量指数乘积为目标函数，通过递推求解最优推力方向的数值脉冲规划算法\cite{cuevasdelvalleRelativeDynamicsModern2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/misg/
 - 有动力月球借力（Powered Lunar Flyby, PLF）
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/cr3bp/)
 - 插入速度增量（Insertion Delta-V）
-
-## 参考文献
-
-- Cuevas del Valle et al., 2022, *Relative Dynamics and Modern Control Strategies for Rendezvous in Libration Point Orbits*, Aerospace, 9(12): 798, DOI: 10.3390/aerospace9120798

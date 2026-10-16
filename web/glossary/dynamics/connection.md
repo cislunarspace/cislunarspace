@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/connection/
 
 ## 应用价值
 
-轨道连接通过不变流形实现两条轨道间的自然转移通道，通常为零速度增量自由转移，轨道设计师利用这一特性规划低能转移路径。
+轨道连接通过不变流形实现两条轨道间的自然转移通道，通常为零速度增量自由转移，轨道设计师利用这一特性规划低能转移路径\cite{haapalaTrajectorySelectionStrategy2013}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/connection/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- Haapala et al., 2013, *Trajectory Selection Strategy for Tours in the Earth-Moon System*, Advances in the Astronautical Sciences, 150

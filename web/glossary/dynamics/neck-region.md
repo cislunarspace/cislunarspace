@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/neck-region/
 
 ## 应用价值
 
-颈部区域是地月空间地球区域与月球区域之间的唯一连通通道，当雅可比能量略低于C1时颈部开启，轨道设计师利用这一特性规划低能转移通道。
+颈部区域是地月空间地球区域与月球区域之间的唯一连通通道，当雅可比能量略低于C1时颈部开启，轨道设计师利用这一特性规划低能转移通道\cite{liangClassificationCislunarTrajectories2016}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/neck-region/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- Liang, Xu & Xu, 2016, *The classification of cislunar trajectories and its applications in the Earth-Moon system*, Astrophysics and Space Science, 361(1): 5, DOI: 10.1007/s10509-015-2577-z

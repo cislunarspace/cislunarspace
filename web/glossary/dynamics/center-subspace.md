@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/center-subspace/
 
 ## 定义
 
-在共线平动点线性化分析中，由对应特征值模等于1的特征向量张成的子空间。周期轨道和准周期轨道均存在于中心子空间内。与鞍点子空间的稳定和不稳定方向不同，中心子空间内的运动既不发散也不收敛，而是维持准周期振荡。
+在共线平动点线性化分析中，由对应特征值模等于1的特征向量张成的子空间\cite{foltaEarthMoonLibrationPoint2014}。周期轨道和准周期轨道均存在于中心子空间内\cite{guzzettiRapidTrajectoryDesign2016a,spreenTrajectoryDesignTargeting2021a}。与鞍点子空间的稳定和不稳定方向不同，中心子空间内的运动既不发散也不收敛，而是维持准周期振荡。
 
 ## 应用价值
 
@@ -42,9 +42,3 @@ permalink: /glossary/dynamics/center-subspace/
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/spacecraft-formation-flying/)
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/fundamentals/lamberts-problem/)
 - 探测器定位（Probe Targeting）
-
-## 参考文献
-
-- Folta et al., 2014, *Earth–Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421–433, DOI: 10.1016/j.actaastro.2013.01.022
-- Guzzetti et al., 2016, *Rapid trajectory design in the Earth–Moon ephemeris system via an interactive catalog of periodic and quasi-periodic orbits*, Acta Astronautica, 126: 439–455, DOI: 10.1016/j.actaastro.2016.06.029
-- Spreen, 2021, *Trajectory Design and Targeting for Applications to the Exploration Program in Cislunar Space*, Ph.D. dissertation, Purdue University

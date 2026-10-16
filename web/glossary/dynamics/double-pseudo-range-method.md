@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/double-pseudo-range-method/
 
 ## 定义
 
-一种初轨确定方法。假定已知首尾两个观测时刻目标到测站的伪距，即可由测角数据确定目标在这两个时刻的位置矢量。再用首末位置矢量求解转移弧段（兰伯特问题），计算中间时刻的理论观测角。以理论值与实测值的残差最小为目标，迭代修正伪距从而完成定轨。
+一种初轨确定方法。假定已知首尾两个观测时刻目标到测站的伪距，即可由测角数据确定目标在这两个时刻的位置矢量。再用首末位置矢量求解转移弧段（兰伯特问题），计算中间时刻的理论观测角。以理论值与实测值的残差最小为目标，迭代修正伪距从而完成定轨\cite{HouXiYunDiYueKongJianMuBiaoDeShuangWeiJuFaDingChuGuiYanJiu2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/double-pseudo-range-method/
 - 动力一致性（Dynamical Consistency）
 - 组合协方差（Combined Covariance）
 - [尼霍罗舍夫估计（Nekhorosev Estimates）](/glossary/dynamics/nekhorosev-estimates/)
-
-## 参考文献
-
-- 侯锡云 等, 2025, *地月空间目标的双伪距法定初轨研究*, 航天技术与工程学报, 2(5): 62-72

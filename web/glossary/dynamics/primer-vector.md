@@ -66,7 +66,7 @@ $$
 H_c=u\,T_{\max}\!\left(-\frac{\|\mathbf{p}\|}{m}-\frac{\lambda_m}{c}\right)=u\,\Phi(t),
 $$
 
-其中 $\Phi(t)$ 即切换函数（switching function）。由极小值原理得 $u^{*}=0$ 当 $\Phi>0$（关机），$u^{*}=1$ 当 $\Phi<0$（满推），这是 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/) 的来源。
+其中 $\Phi(t)$ 即切换函数（switching function）。由极小值原理得 $u^{*}=0$ 当 $\Phi>0$（关机），$u^{*}=1$ 当 $\Phi<0$（满推），这是 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/) 的来源\cite{brysonAppliedOptimalControl1975}。
 
 ## 先驱向量方程
 
@@ -87,7 +87,7 @@ $$
 3. 切换函数 $\Phi=-T_{\max}(\|\mathbf{p}\|/m+\lambda_m/c)$ 的符号决定节流开关。
 4. 切换时刻处 $\Phi=0$，即 $\|\mathbf{p}\|=-m\lambda_m/c$。
 
-Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧（NT）、中间推力弧（IT，即 [奇异弧](/glossary/dynamics/bang-bang-control/)）。详见 [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/)。
+Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧（NT）、中间推力弧（IT，即 [奇异弧](/glossary/dynamics/bang-bang-control/)）\cite{lawdenOptimalTrajectoriesSpace1963}。详见 [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/)。
 
 ## 脉冲推力情形：Lawden-Lion-Handelsman 必要条件
 
@@ -98,7 +98,7 @@ Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧�
 3. 在脉冲时刻，$\mathbf{p}$ 是单位向量，方向即最优脉冲方向。
 4. 在中间脉冲（非初始/终端）处 $\dot{\mathbf{p}}=\dot{\mathbf{p}}^{\mathrm{T}}\mathbf{p}/\|\mathbf{p}\|=0$。
 
-对线性系统上述条件同时是充分条件，且给出最优脉冲数的上界。
+对线性系统上述条件同时是充分条件，且给出最优脉冲数的上界\cite{lionPrimerVectorFixedtime1968}。
 
 ### Lion-Handelsman 梯度法：从非最优解到最优解
 
@@ -108,7 +108,7 @@ Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧�
 - 追加中段脉冲（midcourse impulse）：在 $\|\mathbf{p}\|>1$ 的子弧上加入新脉冲，梯度为 $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$。
 - 脉冲位置迭代：通过 $\dot{\mathbf{p}}$ 在脉冲点不为零的量调整脉冲时刻。
 
-Jezewski 与 Rozendaal 于 1968 年将上述梯度嵌入 非线性规划（多重打靶，参见 [间接法](/glossary/dynamics/indirect-methods/)） 框架，得到自动判定何时追加脉冲、何时启用滑行的 $N$ 脉冲迭代算法，至今仍是脉冲转移最优性检验与改进的标准工具。
+Jezewski 与 Rozendaal 于 1968 年将上述梯度嵌入 非线性规划（多重打靶，参见 [间接法](/glossary/dynamics/indirect-methods/)） 框架，得到自动判定何时追加脉冲、何时启用滑行的 $N$ 脉冲迭代算法，至今仍是脉冲转移最优性检验与改进的标准工具\cite{jezewskiEfficientMethodCalculating1968}。
 
 ## 与协态-控制变换的关系
 
@@ -131,10 +131,3 @@ Jezewski 与 Rozendaal 于 1968 年将上述梯度嵌入 非线性规划（多�
 - [对偶控制变换（Adjoint-Control Transformation）](/glossary/dynamics/adjoint-control-transformation/)：用 $(\mathbf{p},\lambda_m)$ 替代协态的变量变换
 - [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/)：Lion-Handelsman 梯度的 NLP 实现（多重打靶框架）
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)：地月空间先驱向量应用的动力学背景
-
-## 参考文献
-
-- Lawden, D. F., 1963, *Optimal Trajectories for Space Navigation*, Butterworths, London，先驱向量的原始定义、连续/脉冲情形必要条件与三类弧分类
-- Lion, P. M., Handelsman, M., 1968, *Primer Vector on Fixed-Time Impulsive Trajectories*, AIAA Journal, 6(1): 127-132, DOI: 10.2514/3.4452，末端滑行与中段脉冲的代价梯度，非最优解改进方法
-- Jezewski, D. J., Rozendaal, H. L., 1968, *An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories*, AIAA Journal, 6(11): 2160-2165, DOI: 10.2514/3.4949，Lion-Handelsman 梯度的 NLP 实现，自动追加脉冲
-- Bryson, A. E., Ho, Y.-C., 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Halsted Press, New York，最优控制理论的标准教材，含协态方程与极值条件推导
