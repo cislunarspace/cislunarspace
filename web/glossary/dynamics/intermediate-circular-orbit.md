@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/intermediate-circular-orbit/
 
 ## 参考文献
 
-- Du et al. 2024
+- Du et al., 2024, *A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem*, Aerospace Science and Technology, 147: 109048, DOI: 10.1016/j.ast.2024.109048

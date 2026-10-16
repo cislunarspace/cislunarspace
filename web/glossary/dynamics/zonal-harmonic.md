@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/zonal-harmonic/
 
 ## 定义
 
-地球引力位函数中与经度无关、仅与纬度有关的调和函数项，如J2、J3、J4。
+地球引力位函数中与经度无关、仅与纬度有关的调和函数项，如J2、J3、J4\cite{ZhangRenWeiWeiXingGuiDaoZiTaiDongLiXueYuKongZhi1998}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/zonal-harmonic/
 - 中途脉冲（Midcourse Impulse）
 - 零推力参考轨迹（Zero-Thrust Reference Trajectory）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
-
-## 参考文献
-
-- 章仁为 - 1998 - 卫星轨道姿态动力学与控制

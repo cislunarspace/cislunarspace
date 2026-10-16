@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/equivalent-libration-point/
 
 ## 定义
 
-在考虑太阳引力摄动的空间双圆模型中，根据瞬时Hill边界几何定义的引力等效平衡点，其中LL1点是连接地球和月球引力场的临界点，LL2点是连接内部与禁区边界的临界点。
+在考虑太阳引力摄动的空间双圆模型中，根据瞬时Hill边界几何定义的引力等效平衡点，其中LL1点是连接地球和月球引力场的临界点，LL2点是连接内部与禁区边界的临界点\cite{xuConstructionLowenergyCislunar2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/equivalent-libration-point/
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-
-## 参考文献
-
-- Xu 等 - 2013 - On the construction of low-energy cislunar and trans-lunar transfers based on the libration points

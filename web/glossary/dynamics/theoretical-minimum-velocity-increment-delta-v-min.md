@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/theoretical-minimum-velocity-increment-delta-v-min
 
 ## 参考文献
 
-- Kikuchi et al., 2022
+- Kikuchi et al., 2022, *Perilune Rendezvous Method of Earth-NRHO Transfer Orbit for Cargo Transportation Mission to Gateway*, Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan, 20: 26-33, DOI: 10.2322/tastj.20.26

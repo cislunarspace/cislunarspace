@@ -34,17 +34,17 @@ permalink: /glossary/dynamics/lunar-flyby-plane-change/
 
 ## 几何与节省量
 
-飞越的转向角 $\delta$ 在低近月点高度下很大（见 [月球飞越](/glossary/dynamics/lunar-flyby/)），若入射 $\vec v_\infty$ 在地月轨道面内、所选 B 平面瞄准点让出射 $\vec v_\infty(t_{\rm out})$ 带可观的 $z$ 分量，飞越就相当于用月球引力免费做了一次面外机动，等效 $\Delta v$ 可达 $10^2$ m/s 量级（Zanzottera et al. 2011, §5.1）。Peng 等（2024）在 GTO–DRO 转移里实测：飞越后落到地月轨道面所需的面内显式脉冲 $\Delta v_\Sigma$ 可压到 5 m/s 以内，而飞越本身等效提供了超过 200 m/s 的 $z$ 方向速度变化。
+飞越的转向角 $\delta$ 在低近月点高度下很大（见 [月球飞越](/glossary/dynamics/lunar-flyby/)），若入射 $\vec v_\infty$ 在地月轨道面内、所选 B 平面瞄准点让出射 $\vec v_\infty(t_{\rm out})$ 带可观的 $z$ 分量，飞越就相当于用月球引力免费做了一次面外机动，等效 $\Delta v$ 可达 $10^2$ m/s 量级，详见该文第 5.1 节\cite{zanzotteraLowenergyEarthtohaloTransfers2011}。Peng 等（2024）在 GTO–DRO 转移里实测：飞越后落到地月轨道面所需的面内显式脉冲 $\Delta v_\Sigma$ 可压到 5 m/s 以内，而飞越本身等效提供了超过 200 m/s 的 $z$ 方向速度变化。
 
 对于面内出发到 halo 轨道稳定流形的转移，这正是单脉冲转移成立的机理：飞越把面内的地月转移弧弯出地月轨道面、直接搭上 halo 稳定流形，省去了原本独立的面外变轨。
 
 ## 方法：二体筛查 + BCR4BP 修正
 
-由于 BCR4BP 不可积，工程做法是先用月心二体模型筛查候选近月点状态、给出 $\Delta\vec v_{\rm per}$ 的初值猜测。再在 BCR4BP 的旋转坐标系（ROT）里做差分校正，使航天器按要求落到地月轨道面并匹配目标面内状态。月心二体的关系 $\tan\delta^+ = \hat v_p^z/\hat r_p^z$（Peng et al. 2024, Eq. 11）给出把出射 $z$ 方向 $\vec v_\infty$ 压零所需的转向角，再由两段双曲线的能量守恒解出 $|\Delta\vec v_{\rm per}|$。差分校正把残余 $z$ 速度清零并锁定到目标流形。
+由于 BCR4BP 不可积，工程做法是先用月心二体模型筛查候选近月点状态、给出 $\Delta\vec v_{\rm per}$ 的初值猜测。再在 BCR4BP 的旋转坐标系（ROT）里做差分校正，使航天器按要求落到地月轨道面并匹配目标面内状态。月心二体的关系 $\tan\delta^+ = \hat v_p^z/\hat r_p^z$，即原文式 11，给出把出射 $z$ 方向 $\vec v_\infty$ 压零所需的转向角\cite{pengLowenergyTransfersLunar2024}，再由两段双曲线的能量守恒解出 $|\Delta\vec v_{\rm per}|$。差分校正把残余 $z$ 速度清零并锁定到目标流形。
 
 ## 应用要点
 
-- GTO–DRO 低能转移：与一段 WSB 弧和第二次 PLF 串接，飞越面外分量让从带倾角 GTO 出发的低能转移仍能落到面内 DRO，总 $\Delta v$ 控制在 1200 m/s 以内（Peng et al. 2024）。
+- GTO–DRO 低能转移：与一段 WSB 弧和第二次 PLF 串接，飞越面外分量让从带倾角 GTO 出发的低能转移仍能落到面内 DRO，总 $\Delta v$ 控制在 1200 m/s 以内。
 
 - 地月到 halo 的转移：Zanzottera 等（2011）用太阳摄动下的月球飞越搭接面内地球出发弧与三维 halo 稳定流形，是经典的单脉冲 Earth-to-halo 转移。
 
@@ -61,9 +61,3 @@ permalink: /glossary/dynamics/lunar-flyby-plane-change/
 - [双圆限制性四体问题（BCR4BP）](/glossary/dynamics/bcr4bp/)
 
 - [月球引力作用球（SOI）](/glossary/dynamics/soi/)
-
-## 参考文献
-
-- Zanzottera 等, 2011, Low-energy Earth-to-halo transfers in the Earth-Moon scenario with Sun-perturbation, Acta Astronautica, §5.1
-
-- Peng 等, 2024, Low-Energy Transfers to Lunar Distant Retrograde Orbits from Geostationary Transfer Orbits, J. Spacecraft and Rockets, doi:10.2514/1.A35623, §III.A

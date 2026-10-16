@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/ps-section/
 
 ## 定义
 
-日-地+月会合坐标系下x=1-μs的Poincaré截面，用于拼接LL2 Lyapunov轨道与EL1（或EL2）Lyapunov轨道的不变流形，是构造弱稳定边界转移的关键工具。
+日-地+月会合坐标系下x=1-μs的Poincaré截面，用于拼接LL2 Lyapunov轨道与EL1（或EL2）Lyapunov轨道的不变流形，是构造弱稳定边界转移的关键工具\cite{XuMingDiYueDiNengZhuanYiDeFaShengTiaoJianJiGuiJiGouZao2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ PS截面是用于分析周期轨道的参考截面。在庞加莱映射分析中
 - [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-section/)
 - 稳定性（Stability）
-
-## 参考文献
-
-- 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造

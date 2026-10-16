@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/discrete-node/
 
 ## 参考文献
 
-- Kayama 等 - 2022
+- Kayama et al., 2022, *Low-Thrust Trajectory Design with Successive Convex Optimization for Libration Point Orbits*, Journal of Guidance, Control, and Dynamics, 45(4): 623-637, DOI: 10.2514/1.G005916

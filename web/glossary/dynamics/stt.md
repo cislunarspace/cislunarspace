@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/stt/
 
 ## 定义
 
-状态转移矩阵（STM）的二阶推广，描述轨道初始状态的微小变化如何通过动力学传播影响终端状态的非线性敏感度。STM是雅可比矩阵（一阶），STT则包含海森矩阵（二阶）信息，在HDDP反向扫描中用于构造二阶最优控制律。引入二阶信息可加速收敛，尤其在动力学高度非线性的多圈转移问题中。
+状态转移矩阵（STM）的二阶推广，描述轨道初始状态的微小变化如何通过动力学传播影响终端状态的非线性敏感度。STM是雅可比矩阵（一阶），STT则包含海森矩阵（二阶）信息，在HDDP反向扫描中用于构造二阶最优控制律。引入二阶信息可加速收敛，尤其在动力学高度非线性的多圈转移问题中\cite{oueLowthrustManyrevolutionTransfer2025}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/stt/
 - 非线性规划（Nonlinear Programming）
 - [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/jacobi-integral/)
 - [形状基方法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
-
-## 参考文献
-
-- Oue等 - 2025 - Low-Thrust Many-Revolution Transfer between Near Rectilinear Halo Orbit and Low Lunar Orbit Using Hybrid Differential Dynamic Programming。

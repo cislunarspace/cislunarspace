@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/collinear-libration-points/
 
 ## 定义
 
-位于两个主天体连线上的三个平动点，分别记为L₁、L₂、L₃。L₁在两天体之间，L₂在较小天体外侧，L₃在较大天体外侧。这些点是不稳定的鞍点。
+位于两个主天体连线上的三个平动点，分别记为L₁、L₂、L₃。L₁在两天体之间，L₂在较小天体外侧，L₃在较大天体外侧。这些点是不稳定的鞍点\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/collinear-libration-points/
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
 - [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
-
-## 参考文献
-
-- Szebehely - 1967 - Theory of orbit the restricted problem of three bodies

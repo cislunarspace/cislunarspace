@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/transportation-tube-wall/
 
 ## 定义
 
-由Halo或Lyapunov轨道不变流形在相空间中构成的二维管壁结构。它将穿越轨道包裹在管内，非穿越轨道在管外。在空间双圆模型下，运输管壁发生变形甚至断裂，导致衍生穿越轨道数量锐减。
+由Halo或Lyapunov轨道不变流形在相空间中构成的二维管壁结构。它将穿越轨道包裹在管内，非穿越轨道在管外。在空间双圆模型下，运输管壁发生变形甚至断裂，导致衍生穿越轨道数量锐减\cite{XuMingDiYueDiNengZhuanYiDeFaShengTiaoJianJiGuiJiGouZao2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/transportation-tube-wall/
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
 - 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
-
-## 参考文献
-
-- 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造

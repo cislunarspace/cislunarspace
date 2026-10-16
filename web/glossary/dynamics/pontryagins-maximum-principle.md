@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/pontryagins-maximum-principle/
 
 ## 定义
 
-庞特里亚金极值原理（PMP；Pontryagin et al. 1962）给出最优控制必须满足的一组必要条件。它取代经典变分法，能够处理带不等式约束（如有界推力）的控制集。给定系统 $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$ 和增广性能指标，PMP 引入协态 $\boldsymbol{\lambda}$ 与 *Hamilton 函数* $H=L+\boldsymbol{\lambda}^{\!\top}\mathbf{f}$，断言最优控制在每一时刻使 $H$ 在容许控制集上取极大（俄语学派原始约定）或极小（工程界，常用于燃料/时间问题），两者仅差 $H$ 与 $\lambda_0$ 的整体符号，最优轨迹相同（Pontryagin et al. 1962；Bryson & Ho 1975；Betts 2010）。
+庞特里亚金极值原理（PMP）由 Pontryagin 等 1962 提出，给出最优控制必须满足的一组必要条件。它取代经典变分法，能够处理带不等式约束（如有界推力）的控制集。给定系统 $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$ 和增广性能指标，PMP 引入协态 $\boldsymbol{\lambda}$ 与 *Hamilton 函数* $H=L+\boldsymbol{\lambda}^{\!\top}\mathbf{f}$，断言最优控制在每一时刻使 $H$ 在容许控制集上取极大（俄语学派原始约定）或极小（工程界，常用于燃料/时间问题），两者仅差 $H$ 与 $\lambda_0$ 的整体符号，最优轨迹相同，见 Pontryagin 等 1962、Bryson 与 Ho 1975 和 Betts 2010。
 
 ## 一阶必要条件全集
 
-对 Bolza 问题 $J=\Phi(\mathbf{x}(t_f),t_f)+\int_{t_0}^{t_f}L\,dt$，终端约束 $\boldsymbol{\Psi}=0$，PMP 给出五条条件（Conway 2010, Ch.1；You & Dai 2022）：
+对 Bolza 问题 $J=\Phi(\mathbf{x}(t_f),t_f)+\int_{t_0}^{t_f}L\,dt$，终端约束 $\boldsymbol{\Psi}=0$，PMP 给出五条条件，见 Ch. 1\cite{conwaySpacecraftTrajectoryOptimization2010,You2022}：
 
 1. 状态方程 $\dot{\mathbf{x}}=\partial H/\partial\boldsymbol{\lambda}=\mathbf{f}(\mathbf{x},\mathbf{u}^*,t)$。
 2. 协态方程 $\dot{\boldsymbol{\lambda}}=-\partial H/\partial\mathbf{x}$（详见 [协态变量与共轭方程](/glossary/dynamics/co-state-variables/)）。
@@ -46,9 +46,9 @@ permalink: /glossary/dynamics/pontryagins-maximum-principle/
 
 ## 切换函数与 bang-bang 结构
 
-当控制以线性形式进入 $H$（例如推力幅值 $T\in[0,T_{max}]$），$H$ 的极小化要求 $T$ 取边界值。定义标量切换函数 $\rho(t)$ 作为 $H$ 中 $T$ 的系数：$\rho<0$ 时 $T=T_{max}$，$\rho>0$ 时 $T=0$，由此导出 bang-bang / bang-off-bang 结构（Lawden 1963；Conway 2010, Ch.1–2；见 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)）。若 $\rho\equiv 0$ 持续一段有限时间则为奇异弧，$T$ 由高阶条件决定。
+当控制以线性形式进入 $H$（例如推力幅值 $T\in[0,T_{max}]$），$H$ 的极小化要求 $T$ 取边界值。定义标量切换函数 $\rho(t)$ 作为 $H$ 中 $T$ 的系数：$\rho<0$ 时 $T=T_{max}$，$\rho>0$ 时 $T=0$，由此导出 bang-bang / bang-off-bang 结构，见 Lawden 1963 与 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)。若 $\rho\equiv 0$ 持续一段有限时间则为奇异弧，$T$ 由高阶条件决定。
 
-推力方向的最优值为 $-\boldsymbol{\lambda}_v/\|\boldsymbol{\lambda}_v\|$，引出引燃矢量 $\mathbf{p}=-\boldsymbol{\lambda}_v$，用于评估与改进脉冲转移（Lawden 1963；见 [引燃矢量](/glossary/dynamics/primer-vector/)）。
+推力方向的最优值为 $-\boldsymbol{\lambda}_v/\|\boldsymbol{\lambda}_v\|$，引出引燃矢量 $\mathbf{p}=-\boldsymbol{\lambda}_v$，用于评估与改进脉冲转移，见 Lawden 1963 与 [引燃矢量](/glossary/dynamics/primer-vector/)。
 
 ## 与变分法的衔接
 
@@ -58,7 +58,7 @@ $$\frac{d}{dt}\frac{\partial L}{\partial\dot{\mathbf{q}}}-\frac{\partial L}{\par
 
 是作用量 $\int L\,dt$ 取极值的必要条件。Legendre 变换给出 Hamilton 形式 $\dot{\mathbf{q}}=\partial H/\partial\mathbf{p},\;\dot{\mathbf{p}}=-\partial H/\partial\mathbf{q}$。PMP 把变分法推广到带界控制、不等式约束与非光滑动力学的情形，Euler-Lagrange 方程是 $\mathbf{u}=\dot{\mathbf{q}}$ 不受约束时的特例。
 
-离散 Euler-Lagrange 方程是 DMOC（离散力学与最优控制）的离散对应物：把作用量替换为离散和、施加离散 Lagrange-d'Alembert 原理导出离散必要条件，保持连续问题的辛结构（Marsden & West 2001）。
+离散 Euler-Lagrange 方程是 DMOC（离散力学与最优控制）的离散对应物：把作用量替换为离散和、施加离散 Lagrange-d'Alembert 原理导出离散必要条件，保持连续问题的辛结构，见 Marsden 与 West 2001。
 
 ## 应用要点
 
@@ -77,9 +77,8 @@ $$\frac{d}{dt}\frac{\partial L}{\partial\dot{\mathbf{q}}}-\frac{\partial L}{\par
 
 ## 参考文献
 
-- Pontryagin, L. S., et al. (1962). *The Mathematical Theory of Optimal Processes*.
-- Bryson, A. E., & Ho, Y.-C. (1975). *Applied Optimal Control*.
-- Lawden, D. F. (1963). *Optimal Trajectories for Space Navigation*.
-- Betts, J. T. (2010). *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming*.
-- Conway, B. A. (Ed.) (2010). *Spacecraft Trajectory Optimization*, Ch. 1–2.
-- Marsden, J. E., & West, M. (2001). Discrete mechanics and variational integrators. *Acta Numerica*, 10, 357–514.
+- Pontryagin, L. S., et al., 1962, *The Mathematical Theory of Optimal Processes*, John Wiley & Sons, New York
+- Bryson, A. E., Ho, Y.-C., 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Halsted Press, New York
+- Lawden, D. F., 1963, *Optimal Trajectories for Space Navigation*, Butterworths, London
+- Betts, J. T., 2010, *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming*, 2nd ed., SIAM, Philadelphia, DOI: 10.1137/1.9780898718577
+- Marsden, J. E., West, M., 2001, *Discrete mechanics and variational integrators*, Acta Numerica, 10: 357-514, DOI: 10.1017/S096249290100006X

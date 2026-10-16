@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/arrival-deflection-angle/
 
 ## 定义
 
-到达DRO时的脉冲速度矢量相对于DRO当地速度矢量的夹角。逆时针为正，顺时针为负。
+到达DRO时的脉冲速度矢量相对于DRO当地速度矢量的夹角。逆时针为正，顺时针为负\cite{wangMechanismAnalysisDRO2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/arrival-deflection-angle/
 - 可达集（Reachability Set）
 - 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - 拉普拉斯方法（Laplace Method）
-
-## 参考文献
-
-- Wang 等 - 2025 - Mechanism analysis of the DRO low-energy transfer problem An energy perspective

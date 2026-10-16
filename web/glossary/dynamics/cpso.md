@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/cpso/
 
 ## 定义
 
-一种改进的粒子群优化算法，前期强调局部最优粒子的作用以提高全局搜索能力，后期强调全局最优粒子的作用以提高收敛性和精度。该算法用于求解三脉冲和四脉冲低能转移轨道的优化问题。
+一种改进的粒子群优化算法，前期强调局部最优粒子的作用以提高全局搜索能力，后期强调全局最优粒子的作用以提高收敛性和精度。该算法用于求解三脉冲和四脉冲低能转移轨道的优化问题\cite{QiaoChenYuanDiYueL1DianDiNengZhuanYiGuiDaoSheJiYuYouHua2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/cpso/
 - 平均运动共振（Mean Motion Resonance, MMR）
 - 推力加速度（Thrust Acceleration）
 - 马尔可夫决策过程（Markov Decision Process, MDP）
-
-## 参考文献
-
-- 乔琛远和杨乐平 - 2024 - 地月L1点低能转移轨道设计与优化

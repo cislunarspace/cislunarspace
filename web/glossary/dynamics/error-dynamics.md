@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/error-dynamics/
 
 ## 定义
 
-描述航天器实际飞行轨迹与名义轨道之间偏差的演化方程。通过将实际轨迹 X_A 和名义 Halo 轨道 X_H 的差 delta_X 代入 CR3BP 动力学方程，并在名义轨道处作一阶 Taylor 展开得到。一阶近似后，误差动力学方程为线性周期系统：dot{delta_X} = A(t) delta_X + BU，其中 A(t) = df/dX|_{X_H(t)} 是沿名义轨道求偏导的周期矩阵。这是论文进行控制器设计的出发点。
+描述航天器实际飞行轨迹与名义轨道之间偏差的演化方程。通过将实际轨迹 X_A 和名义 Halo 轨道 X_H 的差 delta_X 代入 CR3BP 动力学方程，并在名义轨道处作一阶 Taylor 展开得到。一阶近似后，误差动力学方程为线性周期系统：dot{delta_X} = A(t) delta_X + BU，其中 A(t) = df/dX|_{X_H(t)} 是沿名义轨道求偏导的周期矩阵。这是论文进行控制器设计的出发点\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/error-dynamics/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
-
-## 参考文献
-
-- 徐明和徐世杰 - 2008 - Halo轨道维持的线性周期控制策略

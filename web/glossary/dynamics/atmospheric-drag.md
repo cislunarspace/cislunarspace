@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/atmospheric-drag/
 
 ## 定义
 
-大气阻力摄动（atmospheric drag perturbation，简称大气阻力）是航天器与稀薄大气之间动量交换引起的非保守摄动力，方向与航天器相对于大气的速度方向相反。它是典型的非保守摄动（系统能量不守恒），直接用摄动力形式建模，写出摄动加速度为（Vallado 2022, Ch. 8.6.2）：
+大气阻力摄动（atmospheric drag perturbation，简称大气阻力）是航天器与稀薄大气之间动量交换引起的非保守摄动力，方向与航天器相对于大气的速度方向相反。它是典型的非保守摄动（系统能量不守恒），直接用摄动力形式建模，写出摄动加速度如下，形式见 8.6.2 节\cite{valladoFundamentalsAstrodynamicsApplications2022}：
 
 $$
 \mathbf{a}_d = -\frac{1}{2} \rho v^2 \frac{C_D A}{m} \hat{\mathbf{v}} = -\frac{1}{2} \rho v^2 B \hat{\mathbf{v}}
@@ -42,11 +42,11 @@ $$
 
 ## 主导 LEO 摄动
 
-在低地球轨道（LEO，<800 km），大气阻力是仅次于 J2 的最重要的摄动源，甚至在轨道寿命末期（再入前最后几圈）可超过非球形引力（Vallado 2022, Ch. 8.6.2）。在 300 km 高度，典型阻力加速度量级为 $10^{-6}\text{--}10^{-5}$ m/s$^2$，对应弹道系数 $B \approx 0.02$ m$^2$/kg 的物体。该加速度导致的半长轴衰减在每日几米到几十米量级，轨道寿命数月到数年。
+在低地球轨道（LEO，<800 km），大气阻力是仅次于 J2 的最重要的摄动源，甚至在轨道寿命末期（再入前最后几圈）可超过非球形引力，见 8.6.2 节\cite{valladoFundamentalsAstrodynamicsApplications2022}。在 300 km 高度，典型阻力加速度量级为 $10^{-6}\text{--}10^{-5}$ m/s$^2$，对应弹道系数 $B \approx 0.02$ m$^2$/kg 的物体。该加速度导致的半长轴衰减在每日几米到几十米量级，轨道寿命数月到数年。
 
 ## 大气密度：最大的不确定性源
 
-阻力建模的精度受制于大气密度 $\rho$ 的估计，而密度本身是高度复杂且不可精确预测的（Vallado 2022, Ch. 8.6.2；Framework paper, 2023）。密度主要由以下因素控制：
+阻力建模的精度受制于大气密度 $\rho$ 的估计，而密度本身是高度复杂且不可精确预测，8.6.2 节与 Witte 等 2023 年的模型框架均有讨论\cite{valladoFundamentalsAstrodynamicsApplications2022}。密度主要由以下因素控制：
 
 - 高度：密度随高度近似指数衰减，标尺高度 $\sim 50$ km。
 
@@ -60,7 +60,7 @@ $$
 
 - 半年度变化：春分秋分附近有密度峰值。
 
-常用的经验大气模型包括（Vallado 2022, App. B；Picone et al., 2002）：
+常用的经验大气模型如下，见 App. B 与 Picone 等 2002 年的工作\cite{valladoFundamentalsAstrodynamicsApplications2022}：
 
 - NRLMSISE-00：基于雷达非相干散射和卫星阻力数据建立，覆盖地面到高空，是目前应用最广泛的高层大气密度模型。
 
@@ -72,7 +72,7 @@ $$
 
 弹道系数 $B = C_D A / m$ 是反映航天器阻力敏感度的综合参数。$B$ 越小，阻力影响越小。影响 $B$ 的物理因素包括：
 
-- $C_D$（阻力系数）：自由分子流区（LEO）通常取 2.0~2.2（Vallado 2022, Ch. 8.6.2）。受表面材料和大气成分影响。
+- $C_D$（阻力系数）：自由分子流区（LEO）通常取 2.0~2.2，见 8.6.2 节\cite{valladoFundamentalsAstrodynamicsApplications2022}。受表面材料和大气成分影响。
 
 - $A/m$（面质比，area-to-mass ratio）：质量小、截面积大的物体（如碎片、太阳帆）阻力效应显著。典型的空间碎片面质比为 $0.001\text{--}1$ m$^2$/kg。
 
@@ -80,7 +80,7 @@ $$
 
 ## 大气阻力在地月空间的特殊地位
 
-地月空间（月球附近）不存在大气，阻力摄动为零。但在以下场景中轨道段穿过或接近地球高层大气，阻力不可忽略（Framework paper, 2023）：
+地月空间（月球附近）不存在大气，阻力摄动为零。但在以下场景中轨道段穿过或接近地球高层大气，阻力不可忽略，见 Witte 等 2023 年的模型框架：
 
 - 地月转移初段：近地停泊轨道起飞的航天器在爬升初始阶段受阻力衰减。地球逃逸高度一般在 200 km 以上，阻力显著。
 
@@ -88,7 +88,7 @@ $$
 
 - 大偏心率地月轨道远地点之外：近地点如果低至数百 km，虽然大部分时间在远程，但每次近地点通过都对半长轴形成累积性衰减。
 
-在 cislunar 碎片定轨实践中（Framework paper, 2023），近地点遇及低轨区域时才启用 NRLMSISE-00 模型。
+在 Witte 等 2023 年给出的 cislunar 碎片定轨实践中，近地点遇及低轨区域时才启用 NRLMSISE-00 模型。
 
 ## DFAC：无阻力姿态控制
 
@@ -114,12 +114,10 @@ DFAC 的工程目的不是作姿控，而是利用微推将阻力产生的等效
 
 ## 参考文献
 
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications（Ch. 8.6.2 Atmospheric Drag：阻力加速度公式、密度变化因素、Jacchia-Roberts 模型；App. B Modeling the Atmosphere：大气模型实现细节）
+- Picone et al., 2002, *NRLMSISE-00 empirical model of the atmosphere: Statistical comparisons and scientific issues*, Journal of Geophysical Research: Space Physics, 107(A12): 1468, DOI: 10.1029/2002JA009430，NRLMSISE-00 的构造原理和统计验证
 
-- Picone et al., 2002, NRLMSISE-00 empirical model of the atmosphere: Statistical comparisons and scientific issues, JGR（NRLMSISE-00 的构造原理和统计验证）
+- Witte, Langbroek, and Dirkx, 2023, *A Model Framework for High-Accuracy, Short- and Long-Term Orbit Determination and Propagation of Cislunar Space Debris, with Realistically Quantified Uncertainties*, 22nd IAA Symposium on Space Debris, 798–815, DOI: 10.52202/078360-0074，地月空间碎片定轨中的大气阻力处理实践
 
-- A model framework for high-accuracy orbit determination and propagation of cislunar space debris, 2023（地月空间碎片定轨中的大气阻力处理实践）
+- Vine, 1973, The TRIAD drag-free satellite mission，世界首个无阻力卫星任务，题录待补
 
-- Vine, 1973, The TRIAD drag-free satellite mission（世界首个无阻力卫星任务）
-
-- Fichter et al., 2005, Drag-free control system for LISA Pathfinder（LISA Pathfinder 无阻力控制）
+- Fichter et al., 2005, *LISA Pathfinder drag-free control and system implications*, Classical and Quantum Gravity, 22(10): S139–S148, DOI: 10.1088/0264-9381/22/10/002，LISA Pathfinder 无阻力控制

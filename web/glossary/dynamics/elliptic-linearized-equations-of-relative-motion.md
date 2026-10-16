@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/elliptic-linearized-equations-of-relative-motion/
 
 ## 参考文献
 
-- （暂无参考文献）
+- 题录待补

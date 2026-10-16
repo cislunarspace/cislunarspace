@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/gravitational-asymmetry/
 
 ## 定义
 
-探测器所处位置的第三体摄动加速度与所有加速度之和的比值。是决定星间测距能否实现自主定轨的关键因素。
+探测器所处位置的第三体摄动加速度与所有加速度之和的比值。是决定星间测距能否实现自主定轨的关键因素\cite{HuangYongDiYueKongJianTanCeQiXingJianCeJuZiZhuDingGui2023a}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/gravitational-asymmetry/
 - 机动重构（Maneuver Reconstruction）
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
 - 功能连接理论（Theory of Functional Connections）
-
-## 参考文献
-
-- 黄勇 等 - 2023 - 地月空间探测器星间测距自主定轨

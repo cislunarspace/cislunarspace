@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/apce/
 
 ## 定义
 
-一种自适应多项式混沌展开代理模型，通过最小角回归等自适应系数回归方法克服维度灾难，用于高效求解不确定多圈Lambert问题。
+一种自适应多项式混沌展开代理模型，通过最小角回归等自适应系数回归方法克服维度灾难，用于高效求解不确定多圈Lambert问题\cite{duanAdaptivePolynomialChaos2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/apce/
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-Duan 等 - 2025

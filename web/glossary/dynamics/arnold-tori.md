@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/arnold-tori/
 
 ## 定义
 
-近可积哈密顿系统中由不变环面组成的相空间结构，KAM定理保证了在非共振条件下部分环面的持久性。
+近可积哈密顿系统中由不变环面组成的相空间结构，KAM定理保证了在非共振条件下部分环面的持久性\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/arnold-tori/
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- Marchal - 1990 - The three-body problem

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/collision-belt/
 
 ## 参考文献
 
-- Ren 等 - 2020
+- Ren, Li and Zheng, 2020, *Families of transfers from the Moon to Distant Retrograde Orbits in cislunar space*, Astrophysics and Space Science, 365(12): 192, DOI: 10.1007/s10509-020-03901-7

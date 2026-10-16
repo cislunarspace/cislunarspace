@@ -16,7 +16,7 @@ permalink: /glossary/dynamics/hoi/
 
 ## 定义
 
-航天器经过地月转移段飞行至平动点区域预定注入点时，通过主发动机点火施加精确控制脉冲，消除剩余相对速度偏差，使航天器状态落入目标Halo轨道或其稳定流形上的变轨机动。
+航天器经过地月转移段飞行至平动点区域预定注入点时，通过主发动机点火施加精确控制脉冲，消除剩余相对速度偏差，使航天器状态落入目标Halo轨道或其稳定流形上的变轨机动\cite{neelakantanTwoimpulseTransferMultirevolution2022}。
 
 ## 物理机制与工程价值
 
@@ -27,7 +27,3 @@ Halo 轨道属于三体引力场中的不稳定周期轨道，其相空间鞍点
 - [晕轨道](/glossary/orbits/halo-orbit/)
 - [不变流形](/glossary/dynamics/invariant-manifold/)
 - [微分修正](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- Neelakantan and Ramanan, 2022, Two-impulse transfer to multi-revolution halo orbits in the Earth-Moon elliptic restricted three-body problem.

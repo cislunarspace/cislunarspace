@@ -47,5 +47,5 @@ permalink: /glossary/dynamics/variational-equations/
 
 ## 参考文献
 
-- 测绘学报, 2013, 42(2): 184-190
-- Meyer和Offin - 2017
+- 测绘学报, 2013, 42(2): 184-190，题录待补
+- Meyer & Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, Springer, DOI: 10.1007/978-3-319-53691-0

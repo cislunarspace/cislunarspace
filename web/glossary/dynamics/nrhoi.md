@@ -44,5 +44,5 @@ NRHO入轨是进入近直线晕轨道的关键机动，需要精确的轨道控�
 
 ## 参考文献
 
-- Kikuchi et al., 2022。
-- Kikuchi et al., 2024。
+- Kikuchi et al., 2022, *Perilune Rendezvous Method of Earth-NRHO Transfer Orbit for Cargo Transportation Mission to Gateway*, Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan, 20: 26-33, DOI: 10.2322/tastj.20.26
+- Kikuchi, Nakamura & Ueda, 2024, *Extended perilune rendezvous method for low Delta-V transition to NRHO for cargo transportation mission to gateway*, Acta Astronautica, 224: 89-98, DOI: 10.1016/j.actaastro.2024.08.004

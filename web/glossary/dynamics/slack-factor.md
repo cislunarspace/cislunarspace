@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/slack-factor/
 
 ## 定义
 
-在多点打靶微分修正中，将不等式约束转化为等式约束所引入的辅助变量。用于提高算法收敛鲁棒性。
+在多点打靶微分修正中，将不等式约束转化为等式约束所引入的辅助变量\cite{wangMechanismAnalysisDRO2025}。用于提高算法收敛鲁棒性。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/slack-factor/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Wang 等 - 2025 - Mechanism analysis of the DRO low-energy transfer problem An energy perspective

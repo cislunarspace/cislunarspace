@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/full-force-model/
 
 ## 定义
 
-考虑所有主要摄动源的航天器运动方程，包括中心天体引力、非球形引力摄动、太阳及主要行星的第三体引力摄动、太阳辐射压等。与简化的CR3BP模型相比，完整力模型能更真实地反映轨道演化，但计算复杂度显著增加。
+考虑所有主要摄动源的航天器运动方程，包括中心天体引力、非球形引力摄动、太阳及主要行星的第三体引力摄动、太阳辐射压等。与简化的CR3BP模型相比，完整力模型能更真实地反映轨道演化，但计算复杂度显著增加\cite{liuNovelAutonomousNavigation2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/full-force-model/
 - [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-section/)
 - 稳定性（Stability）
-
-## 参考文献
-
-- Liu et al. 2024, A novel autonomous navigation constellation in the Earth–Moon system

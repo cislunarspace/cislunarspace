@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/dissipative-system/
 
 ## 定义
 
-相空间体积随时间收缩或膨胀的动力系统。若雅可比矩阵迹小于零则体积收缩，系统趋向吸引子。
+相空间体积随时间收缩或膨胀的动力系统。若雅可比矩阵迹小于零则体积收缩，系统趋向吸引子\cite{cellettiStabilityChaosCelestial2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/dissipative-system/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Celletti - 2010 - Stability and chaos in celestial mechanics

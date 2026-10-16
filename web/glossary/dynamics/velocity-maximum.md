@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/velocity-maximum/
 
 ## 定义
 
-航天器沿轨道运动时，速度大小达到局部最大值的点。在该点施加减速机动，可以在相同速度增量下最大化雅可比常数的变化，从而以最小代价降低航天器能量。是四脉冲低能转移方案中第二次脉冲的施加位置。
+航天器沿轨道运动时，速度大小达到局部最大值的点。在该点施加减速机动，可以在相同速度增量下最大化雅可比常数的变化，从而以最小代价降低航天器能量。是四脉冲低能转移方案中第二次脉冲的施加位置\cite{QiaoChenYuanDiYueL1DianDiNengZhuanYiGuiDaoSheJiYuYouHua2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/velocity-maximum/
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
-
-## 参考文献
-
-- 乔琛远和杨乐平 - 2024 - 地月L1点低能转移轨道设计与优化

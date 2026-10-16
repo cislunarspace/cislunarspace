@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/two-impulse-rendezvous/
 
 ## 定义
 
-脉冲机动（impulsive maneuver）是对化学推进航天器轨道机动的一种数学近似：假设发动机推力 $F \to \infty$、燃烧时间 $\Delta t \to 0$，使得冲量 $F\Delta t$ 有限且轨道速度发生瞬时阶跃变化。这一近似成立的条件是燃烧时间远小于轨道周期，对于典型的高推力化学火箭（推力数十万牛、比冲 300--400 s），这在地球低轨转移中基本成立（Vallado 2022）。
+脉冲机动（impulsive maneuver）是对化学推进航天器轨道机动的一种数学近似：假设发动机推力 $F \to \infty$、燃烧时间 $\Delta t \to 0$，使得冲量 $F\Delta t$ 有限且轨道速度发生瞬时阶跃变化。这一近似成立的条件是燃烧时间远小于轨道周期，对于典型的高推力化学火箭（推力数十万牛、比冲 300--400 s），这在地球低轨转移中基本成立\cite{valladoFundamentalsAstrodynamicsApplications2022}。
 
 脉冲机动使轨道设计退化为求解速度增量 $\Delta v$（模与方向）的问题，而不必处理连续推力积分。两个核心性能指标：
 
@@ -46,13 +46,13 @@ permalink: /glossary/dynamics/two-impulse-rendezvous/
 
 Lambert 问题的解通过 Lagrange 系数或 Gibbs 方法得到，存在长程解和短程解、多圈解等分支。当两个轨道共面圆时，能量最优的双脉冲解退化为 Hohmann 转移：两次脉冲均沿切向施加，在出发点加速使航天器进入半长轴恰为两轨道半径平均值的椭圆转移轨道，在到达点减速使航天器圆化。
 
-在多圈问题的更一般情形下，双脉冲交会可通过多圈 Lambert 解（multiple-revolution Lambert solution）扩展到包含 0 至 N 个额外整圈的转移（Shen and Tsiotras 2003）。
+在多圈问题的更一般情形下，双脉冲交会可通过多圈 Lambert 解（multiple-revolution Lambert solution）扩展到包含 0 至 N 个额外整圈的转移\cite{shenOptimalTwoimpulseRendezvous2003}。
 
 ### 三脉冲与多脉冲
 
 当双脉冲解不满足约束（如推力方向限、窗位约束）或为进一步优化燃耗时，引入中间脉冲：
 
-- 三脉冲转移：在地月 DRO 入轨的标准构型中，依次在离轨点、近月点和入轨点施加三次脉冲。离轨脉冲将航天器从地球停泊轨道送入地月转移段。近月点脉冲施加在月球飞掠近地点，借力改变飞行方向进入月球至 DRO 的转移段。入轨脉冲在 DRO 插入点完成轨道匹配。总脉冲为近月点脉冲与入轨脉冲之和（魏赞等 2026）。
+- 三脉冲转移：在地月 DRO 入轨的标准构型中，依次在离轨点、近月点和入轨点施加三次脉冲。离轨脉冲将航天器从地球停泊轨道送入地月转移段。近月点脉冲施加在月球飞掠近地点，借力改变飞行方向进入月球至 DRO 的转移段。入轨脉冲在 DRO 插入点完成轨道匹配。总脉冲为近月点脉冲与入轨脉冲之和，该算法见于魏赞等 2026 年的工作。
 
 - 三脉冲入轨：三脉冲转移在 DRO 捕获场景的具体表述：第一脉冲低轨离轨、第二脉冲近月点转向、第三脉冲 DRO 插入。
 
@@ -64,7 +64,7 @@ Lambert 问题的解通过 Lagrange 系数或 Gibbs 方法得到，存在长程�
 
 ### 平动点双脉冲转移
 
-航天器从近地停泊轨道出发，仅施加两次脉冲即可到达平动点周期轨道（潘迅等 2017）。其策略利用了 CR3BP 的不变流形：
+航天器从近地停泊轨道出发，仅施加两次脉冲即可到达平动点周期轨道\cite{PanXunPingDongDianShuangMaiChongZhuanYiGuiDaoDeKuaiSuJiSuanFangFa2017}。其策略利用了 CR3BP 的不变流形：
 
 1. 第一次脉冲（出发）：将航天器从近地轨道送入拼接转移段，飞向目标周期轨道的稳定流形。
 2. 滑行段：航天器在拼接段上沿引力自然飞行。
@@ -74,29 +74,29 @@ Lambert 问题的解通过 Lagrange 系数或 Gibbs 方法得到，存在长程�
 
 ### NRHO 脉冲交会调相
 
-在近直线晕轨道（NRHO）上，同轨航天器的交会需要调相。NRHO 两脉冲调相（Li et al. 2026）：追踪航天器通过两次脉冲实现与目标航天器的相位匹配。第一次脉冲离开原 NRHO 轨道，追赶或等待目标。经转移时间后，第二次脉冲恢复至目标轨道状态。相比三脉冲方案，两脉冲适合大相位差交会。
+在近直线晕轨道（NRHO）上，同轨航天器的交会需要调相。李少峰等 2026 年给出 NRHO 两脉冲调相方案：追踪航天器通过两次脉冲实现与目标航天器的相位匹配。第一次脉冲离开原 NRHO 轨道，追赶或等待目标。经转移时间后，第二次脉冲恢复至目标轨道状态。相比三脉冲方案，两脉冲适合大相位差交会。
 
-Fossa et al. (2022) 进一步研究了 NRHO 上的两脉冲与三脉冲调相策略，指出在 $L_2$ 南部 NRHO 上，到特定目标相位的总 $\Delta v$ 可低至 1.5 m/s 量级，显著低于传统的多圈漂移方案。
+Fossa 等进一步研究了 NRHO 上的两脉冲与三脉冲调相策略\cite{fossaTwoThreeImpulses2022}，指出在 $L_2$ 南部 NRHO 上，到特定目标相位的总 $\Delta v$ 可低至 1.5 m/s 量级，显著低于传统的多圈漂移方案。
 
 ### 双脉冲平动点轨道间转移
 
-双脉冲机动（Two-Impulse Maneuver, TI）利用两次脉冲在共线平动点轨道间进行转移，通过状态转移矩阵（STM）线性化相对动力学求解脉冲速度增量。方法是在初始脉冲处计算目标轨道状态与当前状态的偏差，通过 STM 传播至目标点，求解满足终端条件的脉冲。该方法计算效率高，适合在线制导，但高精度需求下需要迭代求解以补偿线性化误差（Cuevas del Valle et al. 2022）。
+双脉冲机动（Two-Impulse Maneuver, TI）利用两次脉冲在共线平动点轨道间进行转移，通过状态转移矩阵（STM）线性化相对动力学求解脉冲速度增量。方法是在初始脉冲处计算目标轨道状态与当前状态的偏差，通过 STM 传播至目标点，求解满足终端条件的脉冲。该方法计算效率高，适合在线制导，但高精度需求下需要迭代求解以补偿线性化误差\cite{cuevasdelvalleRelativeDynamicsModern2022}。
 
 ## 脉冲施加法则
 
-基于 CR3BP 中雅可比常数与速度增量之间的微分关系，可以推导出两条脉冲施加的能效最优原则（乔琛远和杨乐平 2024）：
+基于 CR3BP 中雅可比常数与速度增量之间的微分关系，可以推导出两条脉冲施加的能效最优原则\cite{QiaoChenYuanDiYueL1DianDiNengZhuanYiGuiDaoSheJiYuYouHua2024}：
 
 1. 减速机动应在速度极大值处施加，且速度增量方向与速度反向共线。因为当速度最大时，同样的 $\Delta v$ 能最大地降低轨道能量（雅可比常数）。
 
 2. 调向机动应在速度极小值处施加。改变速度方向所需的能量代价与当前速度大小成正比，速度越小则越省燃耗。
 
-这些法则在多体引力场中提供了脉冲位置与方向选择的物理解释，是轨道优化中初值猜测和结果评估的重要定性依据。
+这些法则在多体引力场中提供了脉冲位置与方向选择的物理解释，是轨道优化中初值猜测和结果评估的重要定性依据\cite{prussingPrimerVectorTheory2010}。
 
 ## 脉冲间隔与工程约束
 
 在轨道保持（station-keeping）任务中，并非随时施加脉冲，而是在固定时间间隔上进行的。
 
-脉冲间隔（impulse interval）是两次轨道维持脉冲之间的时间间隔，是保持策略的核心设计参数（Zhang et al. 2022）：
+脉冲间隔（impulse interval）是两次轨道维持脉冲之间的时间间隔，是保持策略的核心设计参数，Zhang 等 2022 年对此有系统分析：
 
 - 间隔越长，年化燃耗通常越低，但位置偏差越大。
 
@@ -138,26 +138,12 @@ Fossa et al. (2022) 进一步研究了 NRHO 上的两脉冲与三脉冲调相策
 
 ## 参考文献
 
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications. 脉冲机动的二体问题经典处理与 Lambert 问题。
+- Lawden, 1963, *Optimal Trajectories for Space Navigation*, Butterworths, Ch. 4，先驱向量对脉冲机动最优性条件的系统推导
 
-- Lawden, D. F., 1963, Optimal Trajectories for Space Navigation. Butterworths. Ch. 4: 先驱向量对脉冲机动最优性条件的系统推导。
+- 李少峰等, 2026, *地月空间NRHO两脉冲调相轨道优化与分析*, 空间科学学报, 46(1): 175-188, DOI: 10.11728/cjss2026.01.2025-0013，NRHO 两脉冲调相的相位-燃耗分析
 
-- Prussing, J. E., 2010, Primer Vector Theory and Applications. 先驱向量在冲量机动中的评估与优化。
+- 魏赞等, 2026, 三脉冲转移与入轨, 北航学报. DRO 入轨的标准三脉冲构型，题录待补
 
-- Shen and Tsiotras, 2003, Optimal Two-Impulse Rendezvous Using Multiple-Revolution Lambert Solutions. JGCD. 多圈 Lambert 解在双脉冲交会中的应用。
+- Zhang et al., 2022, 脉冲间隔与轨道保持的工程设计分析，题录待补
 
-- 潘迅等, 2017, 平动点双脉冲转移轨道的快速计算方法. 双脉冲流形拼接的地月转移策略。
-
-- Li et al., 2026, NRHO Two-Impulse Phasing, Chinese Journal of Space Science, 46(1): 175-188. NRHO 两脉冲调相的相位-燃耗分析。
-
-- Fossa et al., 2022, Two and Three Impulses Phasing Strategy with a Spacecraft Orbiting on an Earth-Moon NRHO. NRHO 交会调相的综合分析。
-
-- Cuevas del Valle et al., 2022, Relative Dynamics and Modern Control Strategies for Rendezvous in Libration Point Orbits. STM 方法在平动点轨道交会中的应用。
-
-- 魏赞等, 2026, 三脉冲转移与入轨, 北航学报. DRO 入轨的标准三脉冲构型。
-
-- 乔琛远, 杨乐平, 2024, 地月 L1 点低能转移轨道设计与优化. 脉冲施加法则的详细推导。
-
-- Zhang et al., 2022, 脉冲间隔与轨道保持的工程设计分析。
-
-- Kluever and Pierson, 1995, TCT 序列的原始概念与动力学分析。
+- Kluever & Pierson, 1995, *Optimal low-thrust three-dimensional Earth-Moon trajectories*, Journal of Guidance, Control, and Dynamics, 18(4): 830-837, DOI: 10.2514/3.21466，TCT 序列的原始概念与动力学分析

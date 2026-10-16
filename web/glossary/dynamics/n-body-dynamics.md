@@ -43,5 +43,5 @@ $$\ddot{\mathbf{r}} = -\sum_{i=1}^{n-1} \frac{\mu_i (\mathbf{r} - \mathbf{r}_i)}
 
 ## 参考文献
 
-- Vaquero, M., & Howell, K. C. Leveraging resonant orbits in the circular restricted three-body problem for transfers in the Earth-Moon system. Journal of Guidance, Control, and Dynamics, 2014, 37(4): 1143-1157.
-- Battin, R. H. An Introduction to the Mathematics and Methods of Astrodynamics. AIAA Education Series, 1999.
+- Vaquero & Howell, 2014, *Leveraging Resonant-Orbit Manifolds to Design Transfers Between Libration-Point Orbits*, Journal of Guidance, Control, and Dynamics, 37(4): 1143-1157, DOI: 10.2514/1.62230
+- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA Education Series, DOI: 10.2514/4.861543

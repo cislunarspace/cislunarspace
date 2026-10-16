@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/stationarity-condition/
 
 ## 定义
 
-最优控制理论的必要条件之一，要求哈密顿函数对控制变量的偏导数为零。由此推导出最优推力转向角与协态变量的解析关系。
+最优控制理论的必要条件之一，要求哈密顿函数对控制变量的偏导数为零。由此推导出最优推力转向角与协态变量的解析关系\cite{kluever1997nuclear}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/stationarity-condition/
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - 脉冲机动（Impulsive Maneuver）
 - Halo轨道（Halo Orbit）
-
-## 参考文献
-
-- Kluever and Pierson, 1997, Optimal Earth-Moon Trajectories Using Nuclear Electric Propulsion

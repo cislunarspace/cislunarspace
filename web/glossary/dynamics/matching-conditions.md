@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/matching-conditions/
 
 ## 参考文献
 
-- Pozzi 等 - 2025
+- Pozzi et al., 2025, *Optimal low-thrust orbit transfers connecting Gateway with Earth and Moon*, Acta Astronautica, 228: 1107-1121, DOI: 10.1016/j.actaastro.2024.11.040

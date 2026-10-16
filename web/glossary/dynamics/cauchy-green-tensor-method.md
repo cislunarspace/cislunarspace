@@ -42,7 +42,7 @@ $$
 \sigma(t_0,t_f) = \frac{1}{\Delta t}\ln\!\sqrt{\lambda_1(C)}.
 $$
 
-在初始条件网格上计算 $\sigma$ 得到 FTLE 场。场中的高值脊线（ridges）即拉格朗日相干结构（Lagrangian Coherent Structures, LCS）。LCS 标识有限时间内最显著地分隔不同流动区域的屏障，穿越轨道、捕获轨道与逃逸轨道在相空间里被 LCS 隔开（Haller 2001；Shadden et al. 2005）。
+在初始条件网格上计算 $\sigma$ 得到 FTLE 场。场中的高值脊线（ridges）即拉格朗日相干结构（Lagrangian Coherent Structures, LCS）。LCS 标识有限时间内最显著地分隔不同流动区域的屏障，穿越轨道、捕获轨道与逃逸轨道在相空间里被 LCS 隔开，见 Haller 2001 年与 Shadden 等 2005 年的工作\cite{shaddenDefinitionPropertiesLagrangian2005}。
 
 ## 与单值矩阵、庞加莱截面的区别
 
@@ -56,7 +56,7 @@ $$
 
 ## 计算流程
 
-在 CR3BP 截面 $\Sigma$ 上构造 FTLE 图的标准步骤（Canales & Howell 2024）：
+在 CR3BP 截面 $\Sigma$ 上构造 FTLE 图的标准步骤\cite{canalesUnderstandingFlowPlanetary2024}：
 
 1. 在 $\Sigma$（例如过 $L_1$ 或 $L_2$ 的 $y\dot y$ 截面）上铺初始条件网格 $\{\vec q_i\}$。
 2. 对每个 $\vec q_i$ 在选定能量 $C_J$ 下补齐为完整状态，沿时间 $\Delta t$ 正向（或反向）积分，同步传播 STM。
@@ -68,15 +68,15 @@ $$
 
 ## 工程要点
 
-- $\Delta t$ 选择：太短 LCS 不成形。太长则不同初始条件的轨迹大量进入混沌海，FTLE 趋同。Canales & Howell (2024) 在木卫三邻域使用约一个绕木轨道周期。
-- 分辨率与计算量：典型 FTLE 图需要 $10^5\sim 10^6$ 条轨迹积分。近期工作用 GPU 并行或 Jet Transport 等高阶方法加速（Pérez-Palau et al. 2015）。
+- $\Delta t$ 选择：太短 LCS 不成形。太长则不同初始条件的轨迹大量进入混沌海，FTLE 趋同。Canales 与 Howell\cite{canalesUnderstandingFlowPlanetary2024} 在木卫三邻域使用约一个绕木轨道周期。
+- 分辨率与计算量：典型 FTLE 图需要 $10^5\sim 10^6$ 条轨迹积分。近期工作用 GPU 并行或 Jet Transport 等高阶方法加速，见 Pérez-Palau 等 2015 年的工作。
 - 能量阈值识别：在 LCS 包围的区域内可分类捕获、撞击、穿越三类轨道，对应不同任务行为，为地月转移与捕获设计提供决策图。
-- 对称性加速：CR3BP 的时间反射对称性使得正向与反向 LCS 互为镜像，可减半计算量（Canales & Howell 2024）。
+- 对称性加速：CR3BP 的时间反射对称性使得正向与反向 LCS 互为镜像，可减半计算量\cite{canalesUnderstandingFlowPlanetary2024}。
 
 ## 应用场景
 
-- 地月空间运输分析：在 $L_1/L_2$ 邻域用 LCS 识别低能穿越走廊，辅助 [不变流形](/glossary/dynamics/invariant-manifold/) 拼接策略。Short & Howell (2014) 把它用于 ARTEMIS 任务的 stationkeeping 评估。
-- 木卫系、土卫系探测：Canales & Howell (2024) 用 FTLE 图谱刻画木卫三、木卫二邻域的门几何，为 endgame 设计提供决策。
+- 地月空间运输分析：在 $L_1/L_2$ 邻域用 LCS 识别低能穿越走廊，辅助 [不变流形](/glossary/dynamics/invariant-manifold/) 拼接策略。Short 与 Howell 2014 年的工作把它用于 ARTEMIS 任务的 stationkeeping 评估。
+- 木卫系、土卫系探测：Canales 与 Howell\cite{canalesUnderstandingFlowPlanetary2024} 用 FTLE 图谱刻画木卫三、木卫二邻域的门几何，为 endgame 设计提供决策。
 - 小行星邻域：碎石堆引力场下 FTLE 图揭示稳定环、撞击区、逃逸区，配合姿态动力学评估。
 - 碎片云演化：长期碎片演化分析中，FTLE 图用于识别捕获带与再撞击带。
 
@@ -91,9 +91,7 @@ $$
 
 ## 参考文献
 
-- Haller, G. (2001). Distinguished material surfaces and coherent structures in three-dimensional fluid flows. *Physica D*, 149(4), 248–277.
-- Shadden, S. C., Lekien, F., & Marsden, J. E. (2005). Definition and properties of Lagrangian coherent structures from finite-time Lyapunov exponents in two-dimensional aperiodic flows. *Physica D*, 212(3–4), 271–304.
-- Gawlik, E. S., Marsden, J. E., Du Toit, P. C., & Campagnolo, S. (2009). Lagrangian coherent structures in the restricted three-body problem. *Celestial Mechanics and Dynamical Astronomy*, 103(3), 227–249.
-- Short, C., & Howell, K. C. (2014). Lagrangian coherent structures in various maps for Earth–Moon systems. *Acta Astronautica*, 94(1), 592–607.
-- Pérez-Palau, D., Barrabés, E., & Gomez, G. (2015). Dynamical indicators in the restricted three-body problem. *Celestial Mechanics and Dynamical Astronomy*, 122(4), 319–341.
-- Canales, D., & Howell, K. C. (2024). Understanding flow around planetary moons via finite-time Lyapunov exponent maps. *Celestial Mechanics and Dynamical Astronomy*, 136(2), 11.
+- Haller, 2001, *Distinguished material surfaces and coherent structures in three-dimensional fluid flows*, Physica D, 149(4): 248–277, DOI: 10.1016/S0167-2789(00)00199-8
+- Gawlik et al., 2009, *Lagrangian coherent structures in the planar elliptic restricted three-body problem*, Celestial Mechanics and Dynamical Astronomy, 103(3): 227–249, DOI: 10.1007/s10569-008-9180-3
+- Short and Howell, 2014, *Lagrangian coherent structures in various map representations for application to multi-body gravitational regimes*, Acta Astronautica, 94(2): 592–607, DOI: 10.1016/j.actaastro.2013.08.020
+- Pérez-Palau et al., 2015, *Tools to detect structures in dynamical systems using Jet Transport*, Celestial Mechanics and Dynamical Astronomy, 123(3): 239–262, DOI: 10.1007/s10569-015-9634-3

@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/launch-velocity-error/
 
 ## 参考文献
 
-- Serban et al., 2002, Acta Astronautica
+- Serban et al., 2002, *Halo orbit mission correction maneuvers using optimal control*, Automatica, 38(4): 571-583, DOI: 10.1016/S0005-1098(01)00279-5

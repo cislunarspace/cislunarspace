@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/cross-product-control/
 
 ## 参考文献
 
-- 航天动力学的数学方法（修订版）/Richard H. Battin - 2018 - 航天动力学的数学方法（修订版）.md
+- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA, DOI: 10.2514/4.861543

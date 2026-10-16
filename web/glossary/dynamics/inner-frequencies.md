@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/inner-frequencies/
 
 ## 参考文献
 
-- Gómez 等 - 2001
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. II: Fundamentals: The Case of Triangular Libration Points*, World Scientific, DOI: 10.1142/9789812810649

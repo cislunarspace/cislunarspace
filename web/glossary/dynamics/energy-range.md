@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/energy-range/
 
 ## 参考文献
 
-- Topputo 2013
+- Topputo, 2013, *On optimal two-impulse Earth-Moon transfers in a four-body model*, Celestial Mechanics and Dynamical Astronomy, 117(3): 279-313, DOI: 10.1007/s10569-013-9513-8

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/control-parametrization/
 
 ## 定义
 
-控制参数化（control parametrization）是把无限维的连续推力控制 $\boldsymbol{u}(t)$ 表达为有限个参数的方法。设 $\boldsymbol{u}(t) = \sum_{i} c_i\,\phi_i(t)$，其中 $\{\phi_i\}$ 是选定的基函数族、$\{c_i\}$ 是待优化系数，最优控制问题就被转化为关于 $\{c_i\}$ 的非线性规划（NLP）。常用基函数族包括多项式、Fourier 级数、B 样条。节流因子/油门函数 是低推力发动机特有的标量/函数形式参数化，描述推力幅值随时间的变化。
+控制参数化（control parametrization）是把无限维的连续推力控制 $\boldsymbol{u}(t)$ 表达为有限个参数的方法。设 $\boldsymbol{u}(t) = \sum_{i} c_i\,\phi_i(t)$，其中 $\{\phi_i\}$ 是选定的基函数族、$\{c_i\}$ 是待优化系数，最优控制问题就被转化为关于 $\{c_i\}$ 的非线性规划（NLP）。常用基函数族包括多项式、Fourier 级数、B 样条。节流因子/油门函数 是低推力发动机特有的标量/函数形式参数化，描述推力幅值随时间的变化\cite{colagrossiGuidanceNavigationControl2021}。
 
 ## 多项式与 Fourier 基
 
@@ -50,11 +50,11 @@ $$
 - 连续阶。内部节点不重复时 $q$ 阶 B 样条保证 $C^{q-1}$ 连续。重复节点会降低该处的连续阶，可用于表达推力的不连续（如多模式推进的开关切换）。
 - 凸包性。 B 样条曲线位于控制点凸包内，便于施加推力幅值约束。
 
-Sanchez 等（2020）将 B 样条用于轨迹优化与姿态控制，可与 [直接配点](/glossary/dynamics/differential-correction/) 或 [HDDP](/glossary/dynamics/hddp/) 配合。
+Sanchez 等在 2020 年将 B 样条用于轨迹优化与姿态控制，可与 [直接配点](/glossary/dynamics/differential-correction/) 或 [HDDP](/glossary/dynamics/hddp/) 配合。
 
 ## 球面控制变量（Spherical Control Variables）
 
-在 CR3BP 小推力优化中，HDDP（Aziz 等 2019）采用球面参数化：把推力分解为幅值 $T$ 与两个方向角 $\alpha,\beta$
+在 CR3BP 小推力优化中，HDDP\cite{azizHybridDifferentialDynamic2019} 采用球面参数化：把推力分解为幅值 $T$ 与两个方向角 $\alpha,\beta$
 
 $$
 \boldsymbol{u} = [T,\alpha,\beta]^T,
@@ -78,9 +78,9 @@ $$
 - 燃料最优控制：节流呈 bang-bang 形式，由切换函数符号决定 0 或 1，等价于能量最优同伦的极限。
 - 能量最优控制：节流连续取值，由协态变量和同伦参数共同决定。
 
-Du 等（2024）、Tu 等（2025）等给出 CR3BP 低推力轨道碰撞规避、Halo 转移的节流剖面实例。
+Du 等\cite{duNovelCalculationMethod2024} 与 Tu 等\cite{tuOptimalControlLowthrust2025} 给出 CR3BP 低推力轨道碰撞规避、Halo 转移的节流剖面实例。
 
-油门函数（throttle function） 是节流因子在多模式推进系统中的推广。Zhang Z 等（2026）的双模式电推进系统用两个油门函数 $\delta_{P1}(t),\delta_{P2}(t)\in\{0,1\}$ 决定每种模式的开关状态，由 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 导出 bang-bang 解。在 [间接法](/glossary/dynamics/indirect-methods/) 框架下，油门函数是最优控制的显式表达，而非外部施加的参数化。
+油门函数（throttle function） 是节流因子在多模式推进系统中的推广。Zhang Z 等 2026 年的双模式电推进系统用两个油门函数 $\delta_{P1}(t),\delta_{P2}(t)\in\{0,1\}$ 决定每种模式的开关状态，由 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 导出 bang-bang 解。在 [间接法](/glossary/dynamics/indirect-methods/) 框架下，油门函数是最优控制的显式表达，而非外部施加的参数化。
 
 ## 应用要点
 
@@ -102,11 +102,8 @@ Du 等（2024）、Tu 等（2025）等给出 CR3BP 低推力轨道碰撞规避�
 
 ## 参考文献
 
-- de Boor, C., 1978, *A Practical Guide to Splines*（B 样条数学基础）。
-- Sanchez, P., et al., 2020（B 样条控制参数化在轨迹优化与姿态控制中的应用）。
-- Aziz, J. D., Scheeres, D. J., Lantoine, G., 2019, "Hybrid Differential Dynamic Programming in the CR3BP," *JGCD*（球面控制变量、RSW 退化切换、信赖域缩放）。
-- Colagrossi, A., et al., 2021, "Guidance, navigation and control for 6DOF rendezvous in cislunar multi-body environment"（控制参数化与 6DOF 交会）。
-- Du, L., et al., 2023, "Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits"（节流因子在 Halo 转移中的应用）。
-- Du, L., et al., 2024, "A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem"（节流参数与切换函数）。
-- Tu, X., et al., 2025, "Optimal control for low-thrust collision avoidance in CRTBP"（节流因子在碰撞规避中的应用）。
-- Zhang, Z., et al., 2026, *Space Sci. Technol.* 6:0441（双模式电推进的油门函数与 bang-bang 解）。
+- de Boor, 1978, *A Practical Guide to Splines*, Springer, DOI: 10.1007/978-1-4612-6333-3，B 样条数学基础
+- Sanchez, P., et al., 2020, B 样条控制参数化在轨迹优化与姿态控制中的应用，题录待补
+- Aziz, Scheeres and Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617，球面控制变量、RSW 退化切换、信赖域缩放
+- Du et al., 2023, *Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits in the Earth-Moon system*, Advances in Space Research, 72(10): 4093-4105, DOI: 10.1016/j.asr.2023.08.007，节流因子在 Halo 转移中的应用
+- Zhang et al., 2026, *Gaussian Smoothing Technique for Eclipse-Constrained Cislunar Multi-Mode Trajectory Optimization*, Space: Science & Technology, 6: 0441, DOI: 10.34133/space.0441，双模式电推进的油门函数与 bang-bang 解

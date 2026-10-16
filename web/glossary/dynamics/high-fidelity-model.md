@@ -46,4 +46,4 @@ permalink: /glossary/dynamics/high-fidelity-model/
 
 ## 参考文献
 
-- Sanna et al., 2024, Aerospace 11, 460
+- Sanna et al., 2024, *Optimal Impulsive Orbit Transfers from Gateway to Low Lunar Orbit*, Aerospace, 11(6): 460, DOI: 10.3390/aerospace11060460

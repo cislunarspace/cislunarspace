@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/non-tangential-injection/
 
 ## 定义
 
-内部转移中的一种注入方式，脉冲方向与位置矢量不垂直，飞行器先飞掠月球再环绕地月系统后被DRO捕获。优点是能充分借助天体引力实现低能转移，燃料消耗可接近外部转移水平，但飞行时间更长。
+内部转移中的一种注入方式，脉冲方向与位置矢量不垂直，飞行器先飞掠月球再环绕地月系统后被DRO捕获。优点是能充分借助天体引力实现低能转移，燃料消耗可接近外部转移水平，但飞行时间更长\cite{minghuTransferLongTerm2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/non-tangential-injection/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 临界轨道（Critical Orbit）
 - 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
-
-## 参考文献
-
-- Tan Minghu et al., 2014, Transfer to long term distant retrograde orbits around the Moon

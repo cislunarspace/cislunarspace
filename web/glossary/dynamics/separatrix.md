@@ -45,4 +45,5 @@ permalink: /glossary/dynamics/separatrix/
 
 ## 参考文献
 
-- Koon et al., 2001, Celestial Mechanics and Dynamical Astronomy; Howell and Kakoi, 2006
+- Koon et al., 2001, *Resonance and Capture of Jupiter Comets*, Celestial Mechanics and Dynamical Astronomy, 81(1-2): 27-38, DOI: 10.1023/A:1013398801813
+- Howell and Kakoi, 2006, *Transfers between the Earth–Moon and Sun–Earth systems using manifolds and transit orbits*, Acta Astronautica, 59(1–5): 367–380, DOI: 10.1016/j.actaastro.2006.02.010

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/de/
 
 ## 定义
 
-一种基于群体差异进化的全局优化算法，在此文中用于搜索最优协态初值和转移时间。
+一种基于群体差异进化的全局优化算法，在此文中用于搜索最优协态初值和转移时间\cite{pozziOptimalLowthrustOrbit2025}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/de/
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-Pozzi 等 - 2025

@@ -43,4 +43,5 @@ permalink: /glossary/dynamics/mddp/
 
 ## 参考文献
 
-- Pellegrini & Russell 2017, AAS 17-453; Aziz et al. 2019, JGCD。
+- Pellegrini & Russell, 2017, *A multiple-shooting differential dynamic programming algorithm*, AAS/AIAA Astrodynamics Specialist Conference, AAS 17-453
+- Aziz, Scheeres & Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617

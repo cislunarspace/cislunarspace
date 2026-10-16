@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/c-m/
 
 ## 定义
 
-Conley和McGehee提出的周期轨道稳定和不稳定不变流形形成的二维超曲面，将转移轨道分为穿的和非穿的两类。
+Conley和McGehee提出的周期轨道稳定和不稳定不变流形形成的二维超曲面，将转移轨道分为穿的和非穿的两类\cite{xuConstructionLowenergyCislunar2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Conley和McGehee提出的周期轨道稳定和不稳定不变流形形成的二�
 - 有动力月球借力（Powered Lunar Flyby, PLF）
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/cr3bp/)
 - 插入速度增量（Insertion Delta-V）
-
-## 参考文献
-
-- Xu 等 - 2013 - On the construction of low-energy cislunar and trans-lunar transfers based on the libration points。

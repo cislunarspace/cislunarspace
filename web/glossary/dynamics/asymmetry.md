@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/asymmetry/
 
 ## 定义
 
-引力非对称性的量化指标，定义为第三体摄动加速度大小与所有加速度大小之和的比值，取值范围0到1，值越大表示引力非对称性越强。
+引力非对称性的量化指标，定义为第三体摄动加速度大小与所有加速度大小之和的比值，取值范围0到1，值越大表示引力非对称性越强\cite{HuangYongDiYueKongJianTanCeQiXingJianCeJuZiZhuDingGui2023a}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/asymmetry/
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [科氏定理（Coriolis Theorem）](/glossary/dynamics/coriolis-theorem/)
 - 速度函数（Velocity Function）
-
-## 参考文献
-
-- 黄勇 等 - 2023 - 地月空间探测器星间测距自主定轨

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/moving-point-strategy/
 
 ## 参考文献
 
-- Du et al., 2023, Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits
+- Du et al., 2023, *Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits in the Earth-Moon system*, Advances in Space Research, 72(10): 4093-4105, DOI: 10.1016/j.asr.2023.08.007

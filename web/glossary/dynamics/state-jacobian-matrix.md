@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/state-jacobian-matrix/
 
 ## 参考文献
 
-- Chen 等 - 2026
+- Chen 等 - 2026，题录待补

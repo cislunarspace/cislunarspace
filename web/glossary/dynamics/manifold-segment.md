@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/manifold-segment/
 
 ## 定义
 
-晕轨道稳定流形的一段。航天器在此段上沿不稳定流形渐近飞向目标晕轨道，一旦到达距离晕轨道100公里以内即认为已进入晕轨道。流形段通过沿稳定特征向量方向施加100公里位置扰动后反向积分得到。
+晕轨道稳定流形的一段。航天器在此段上沿不稳定流形渐近飞向目标晕轨道，一旦到达距离晕轨道100公里以内即认为已进入晕轨道。流形段通过沿稳定特征向量方向施加100公里位置扰动后反向积分得到\cite{parkerDirectLunarHalo2008}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/manifold-segment/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Parker和Born - 2008 - Direct lunar halo orbit transfers

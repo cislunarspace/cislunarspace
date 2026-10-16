@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/er3bp/
 
 椭圆限制性三体问题（Elliptic Restricted Three-Body Problem, ER3BP 或 ERTBP）是 [CR3BP](/glossary/dynamics/cr3bp/) 向椭圆轨道的自然推广。两个主天体不再作匀速圆运动，而是绕公共质心沿开普勒椭圆轨道运动（偏心率 $e \in [0,1)$），其余限制性假设不变。
 
-这一看似微小的改变使问题在数学本质上区别于 CR3BP（Szebehely 1967；Broucke 1969）：
+这一看似微小的改变使问题在数学本质上区别于 CR3BP\cite{szebehelyTheoryOrbitRestricted1967,brouckeStabilityPeriodicOrbits1969}：
 
 - 两主天体间距 $r_{12}$ 不再是常数，而是其真近点角 $f$ 的周期函数：$r_{12}(f) = a(1-e^2)/(1+e\cos f)$，其中 $a$ 为半长轴。
 
@@ -44,7 +44,7 @@ permalink: /glossary/dynamics/er3bp/
 
 ## 脉动旋转坐标系
 
-为了使主天体在新的参考系中保持静止，ER3BP 通常采用脉动旋转坐标系（pulsating synodic frame 或 dimensionless pulsating coordinate system）。与 CR3BP 的恒定会合系不同，ER3BP 的距离和时间单位随主天体间距 $r_{12}(f)$ 实时脉动缩放：$\tilde{x} = x / r_{12}(f)$，用真近点角 $f$（或时间 $t$）作为自变量（Szebehely 1967；Gómez et al. 2001）。
+为了使主天体在新的参考系中保持静止，ER3BP 通常采用脉动旋转坐标系（pulsating synodic frame 或 dimensionless pulsating coordinate system）。与 CR3BP 的恒定会合系不同，ER3BP 的距离和时间单位随主天体间距 $r_{12}(f)$ 实时脉动缩放：$\tilde{x} = x / r_{12}(f)$，用真近点角 $f$（或时间 $t$）作为自变量\cite{szebehelyTheoryOrbitRestricted1967,gomezDynamicsMissionDesign2001Vol3}。
 
 在此系中，归一化后的运动方程具有以下形式：
 
@@ -92,10 +92,10 @@ $$\delta \mathbf{x}'(f) = \mathbf{A}(f)\,\delta \mathbf{x}(f), \quad \mathbf{A}(
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*：第 10 章系统论述 ER3BP 的脉动坐标系与运动方程。
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York，第 10 章系统论述 ER3BP 的脉动坐标系与运动方程。
 
-- Broucke, 1969, Periodic Orbits in the Elliptic Restricted Three-Body Problem：ER3BP 周期轨道的早期系统化研究。
+- Broucke, 1969, *Periodic Orbits in the Elliptic Restricted Three-Body Problem*, Jet Propulsion Laboratory, California Institute of Technology，ER3BP 周期轨道的早期系统化研究。
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. III：讨论 ER3BP 中平动点周期轨道的延拓与 Floquet 稳定性。
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. III: Advanced Methods for Collinear Points*, World Scientific, DOI: 10.1142/4337，讨论 ER3BP 中平动点周期轨道的延拓与 Floquet 稳定性。
 
-- Campagnola, 2010, *New Techniques in Astrodynamics for Moon Systems Exploration*, Ph.D.：含 ER3BP 轨道设计的实际数值方法。
+- Campagnola, 2010, *New Techniques in Astrodynamics for Moon Systems Exploration*, Ph.D. dissertation, University of Southern California, DOI: 10.25549/usctheses-m2875，含 ER3BP 轨道设计的实际数值方法。

@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/hddp/
 
 ## 定义
 
-差分动态规划（Differential Dynamic Programming, DDP）和迭代线性二次型调节器（iterative LQR, iLQR）是一类轨迹优化算法：在一条标称轨迹 $\bar{\boldsymbol{x}}(t), \bar{\boldsymbol{u}}(t)$ 附近对动力学和价值函数做 Taylor 展开，通过前向积分（forward pass）评估轨迹、后向扫描（backward sweep）逐级求解局部二次子问题，迭代修正控制序列 $\delta\boldsymbol{u}$ 直至收敛。它们把 Bellman 动态规划从高维状态空间降为沿轨迹的一维递推，是直接配点法之外求解连续小推力最优控制问题的主流途径（Mayne 1966；Jacobson & Mayne 1970；Todorov & Li 2005）。
+差分动态规划（Differential Dynamic Programming, DDP）和迭代线性二次型调节器（iterative LQR, iLQR）是一类轨迹优化算法：在一条标称轨迹 $\bar{\boldsymbol{x}}(t), \bar{\boldsymbol{u}}(t)$ 附近对动力学和价值函数做 Taylor 展开，通过前向积分（forward pass）评估轨迹、后向扫描（backward sweep）逐级求解局部二次子问题，迭代修正控制序列 $\delta\boldsymbol{u}$ 直至收敛。它们把 Bellman 动态规划从高维状态空间降为沿轨迹的一维递推，是直接配点法之外求解连续小推力最优控制问题的主流途径，相关方法可追溯到 Mayne 1966、Jacobson 与 Mayne 1970 及 Todorov 与 Li 2005。
 
-地月空间任务中的代表实现包括：HDDP（Hybrid DDP，Lantoine & Russell 2012；Aziz 等 2019）、AL-iLQR（Augmented Lagrangian iLQR，Cuevas del Valle 等 2022）、MDDP（多重打靶 DDP，Pellegrini & Russell）等。这些算法在 CR3BP 中求解 DRO ↔ DRO、Lyapunov ↔ Lyapunov、$L_1$ Halo ↔ $L_2$ Halo 之间的低推力转移。
+地月空间任务中的代表实现包括：HDDP（Hybrid DDP，Lantoine & Russell 2012，Aziz 等\cite{azizHybridDifferentialDynamic2019}）、AL-iLQR（Augmented Lagrangian iLQR，Cuevas del Valle 等 2022）、MDDP（多重打靶 DDP，Pellegrini & Russell）等。这些算法在 CR3BP 中求解 DRO 与 DRO、Lyapunov 与 Lyapunov、$L_1$ Halo 与 $L_2$ Halo 之间的低推力转移。
 
 ## 算法结构：前向 + 后向
 
@@ -52,7 +52,7 @@ $$
 
 得到 $\delta\boldsymbol{u}_k = -J_{uu,k}^{-1}J_{u,k} + \boldsymbol{K}_k\,\delta\boldsymbol{x}_k$（前一项是开环修正、后一项是时变反馈增益）。iLQR 与 DDP 的区别在于 $\boldsymbol{K}_k$ 的具体表达，iLQR 不计算 $\boldsymbol{f}_{xx}$ 等二阶动力学导数，工程实现更轻量。
 
-收敛判据：可行性（约束残差 $\|\boldsymbol{\psi}\|<\varepsilon_f$）+ 最优性（梯度范数 $<\varepsilon_o$），通常 $\varepsilon_f\sim 10^{-7}$、$\varepsilon_o\sim 10^{-8}$（Aziz 等 2019）。
+收敛判据：可行性（约束残差 $\|\boldsymbol{\psi}\|<\varepsilon_f$）+ 最优性（梯度范数 $<\varepsilon_o$），通常 $\varepsilon_f\sim 10^{-7}$、$\varepsilon_o\sim 10^{-8}$。
 
 ## HDDP：增广拉格朗日 + 信赖域
 
@@ -64,23 +64,23 @@ $$
 
 其中 $\boldsymbol{\Sigma}$ 为罚矩阵。乘子按 $\boldsymbol{\lambda}\leftarrow\boldsymbol{\lambda}+\delta\boldsymbol{\lambda}$ 在外层更新，$\boldsymbol{\Sigma}$ 保持常数（不同于传统做法不断加大罚系数），由设计者观察迭代进展手工调谐。
 
-为防止子问题更新 $\delta\boldsymbol{u}$ 步长过大导致发散，HDDP 在每级引入信赖域约束 $\|\boldsymbol{D}\,\delta\boldsymbol{u}_k\|\le\Delta$，子问题化为信赖域二次规划（TRQP）。$\boldsymbol{D}$ 是缩放矩阵，决定信赖域形状。当控制变量分量量级相差很大时（如推力幅值 vs 角度），需要非单位 $\boldsymbol{D}$（Lantoine & Russell 2012 给出几种缩放策略）。
+为防止子问题更新 $\delta\boldsymbol{u}$ 步长过大导致发散，HDDP 在每级引入信赖域约束 $\|\boldsymbol{D}\,\delta\boldsymbol{u}_k\|\le\Delta$，子问题化为信赖域二次规划（TRQP）。$\boldsymbol{D}$ 是缩放矩阵，决定信赖域形状。当控制变量分量量级相差很大时（如推力幅值 vs 角度），需要非单位 $\boldsymbol{D}$，Lantoine 与 Russell 2012 年给出了几种缩放策略。
 
 ## AL-iLQR：用一阶框架处理约束
 
-AL-iLQR（Cuevas del Valle 等 2022）在 iLQR 一阶框架上嫁接增广拉格朗日外层，可处理等式与不等式约束，支持脉冲与连续推力混合任务。相比 HDDP 计算量更小，但收敛性略弱。
+Cuevas del Valle 等 2022 年提出的 AL-iLQR 在 iLQR 一阶框架上嫁接增广拉格朗日外层，可处理等式与不等式约束，支持脉冲与连续推力混合任务。相比 HDDP 计算量更小，但收敛性略弱。
 
 ## 灵敏度工具：DDP/iLQR 的底座
 
 DDP/iLQR 的后向扫描本质上是在传播目标函数对控制的灵敏度（gradient 与 Hessian）。多个相关概念在族内被单独收录，归并入本词条：
 
-灵敏度矩阵（Sensitivity Matrix）。状态对设计变量（初始条件、控制、参数）的偏导数矩阵。对 Lambert 问题等两点边值问题，输出 $\boldsymbol{y}$ 对输入 $\boldsymbol{x}$ 的高阶灵敏度矩阵可由 Conjugate Unscented Transform（CUT）等非乘积求积法在少数样本下数值估计（Hall & Singla 2020），用于不确定性传播、可达集计算，构成原问题的代理模型。
+灵敏度矩阵（Sensitivity Matrix）。状态对设计变量（初始条件、控制、参数）的偏导数矩阵。对 Lambert 问题等两点边值问题，输出 $\boldsymbol{y}$ 对输入 $\boldsymbol{x}$ 的高阶灵敏度矩阵可由 Conjugate Unscented Transform（CUT）等非乘积求积法在少数样本下数值估计\cite{hallHigherorderSensitivityMatrix2020}，用于不确定性传播、可达集计算，构成原问题的代理模型。
 
-最小范数更新（Minimum-Norm Update）。微分修正中，当目标状态分量数少于控制自由度时（欠定系统），用伪逆 $\delta\boldsymbol{u}=\boldsymbol{J}^T(\boldsymbol{J}\boldsymbol{J}^T)^{-1}\delta\boldsymbol{y}$ 取 $\|\delta\boldsymbol{u}\|$ 最小的修正，等价于带 $Q=0$、$R=I$ 的瞬时 LQR 解。这是平动点轨道保持、机动定位中常用的低能耗修正策略（Shimane 等 2025）。
+最小范数更新（Minimum-Norm Update）。微分修正中，当目标状态分量数少于控制自由度时（欠定系统），用伪逆 $\delta\boldsymbol{u}=\boldsymbol{J}^T(\boldsymbol{J}\boldsymbol{J}^T)^{-1}\delta\boldsymbol{y}$ 取 $\|\delta\boldsymbol{u}\|$ 最小的修正，等价于带 $Q=0$、$R=I$ 的瞬时 LQR 解。这是平动点轨道保持、机动定位中常用的低能耗修正策略，Shimane 等 2025 年将其用于低能耗轨道修正。
 
 次梯度法（Subgradient Method）。用于带约束优化中对偶变量（拉格朗日乘子）的更新，当对偶函数不可微时取其次梯度方向逐步收窄对偶间隙。它在 HDDP/AL-iLQR 中与增广拉格朗日交替使用，也用于序列凸优化、对偶分解。
 
-代理模型（Surrogate Model）。用低计算代价的多项式（如多项式混沌展开 PCE、APCE）、高斯过程或神经网络近似昂贵的高保真模型。Hall & Singla（2020）用 HOSM 的多项式系数代理 Lambert 求解器以快速计算不确定 Lambert 问题的输出 PDF。Duan 等（2025）用 APCE 代理 Lambert 求解器处理多圈不确定 Lambert 问题。
+代理模型（Surrogate Model）。用低计算代价的多项式（如多项式混沌展开 PCE、APCE）、高斯过程或神经网络近似昂贵的高保真模型。Hall & Singla（2020）用 HOSM 的多项式系数代理 Lambert 求解器以快速计算不确定 Lambert 问题的输出 PDF。Duan 等（2025）用 APCE 代理 Lambert 求解器处理多圈不确定 Lambert 问题\cite{duanAdaptivePolynomialChaos2025}。
 
 ## 工程要点（CR3BP 小推力优化）
 
@@ -102,13 +102,11 @@ DDP/iLQR 的后向扫描本质上是在传播目标函数对控制的灵敏度�
 
 ## 参考文献
 
-- Mayne, D. Q., 1966, A second-order gradient method for determining optimal trajectories of non-linear discrete-time systems（DDP 奠基）。
-- Jacobson, D. H., Mayne, D. Q., 1970, *Differential Dynamic Programming*（DDP 的系统专著）。
-- Todorov, E., Li, W., 2005, A generalized iterative LQG method for locally-optimal feedback control of constrained nonlinear stochastic systems（iLQR 的现代形式）。
-- Lantoine, G., Russell, R. P., 2012, A hybrid differential dynamic programming algorithm for constrained optimal control problems（HDDP）。
-- Aziz, J. D., Scheeres, D. J., Lantoine, G., 2019, Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem, *JGCD*, DOI: 10.2514/1.G003617（CR3BP 中 HDDP 的工程细节，多阶段化、信赖域缩放、球面控制变量）。
-- Pellegrini, E., Russell, R. P., 2017+，MDDP 多重打靶 DDP 系列。
-- Cuevas del Valle, A. A., et al., 2022, AL-iLQR 算法（增广拉格朗日 + iLQR 处理脉冲与连续推力）。
-- Hall, Z., Singla, P., 2020, Higher-order sensitivity matrix method for probabilistic solution to uncertain Lambert problem and reachability set problem, *Celest. Mech. Dyn. Astron.*（HOSM、CUT、代理 Lambert 求解器）。
-- Duan, J., et al., 2025, Adaptive polynomial chaos expansion method for uncertain multiple-revolution Lambert problem（APCE 代理模型）。
-- Shimane, D., et al., 2025（最小范数更新在低能耗轨道修正中的应用）。
+- Mayne, 1966, *A second-order gradient method for determining optimal trajectories of non-linear discrete-time systems*, International Journal of Control, 3(1): 85-95, DOI: 10.1080/00207176608921369，DDP 奠基
+- Jacobson and Mayne, 1970, *Differential Dynamic Programming*, American Elsevier, New York，DDP 的系统专著
+- Todorov and Li, 2005, *A generalized iterative LQG method for locally-optimal feedback control of constrained nonlinear stochastic systems*, Proceedings of the 2005 American Control Conference, 300-306, DOI: 10.1109/ACC.2005.1469949，iLQR 的现代形式
+- Lantoine and Russell, 2012, *A Hybrid Differential Dynamic Programming Algorithm for Constrained Optimal Control Problems. Part 1: Theory*, Journal of Optimization Theory and Applications, 154(2): 382-417, DOI: 10.1007/s10957-012-0039-0，HDDP
+- Aziz, Scheeres and Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617，CR3BP 中 HDDP 的工程细节，多阶段化、信赖域缩放、球面控制变量
+- Pellegrini and Russell, 2020, *A multiple-shooting differential dynamic programming algorithm. Part 1: Theory*, Acta Astronautica, 170: 686-700, DOI: 10.1016/j.actaastro.2019.12.037，MDDP 多重打靶 DDP 系列
+- Cuevas del Valle, A. A., et al., 2022, AL-iLQR 算法，增广拉格朗日 + iLQR 处理脉冲与连续推力，题录待补
+- Shimane, D., et al., 2025，最小范数更新在低能耗轨道修正中的应用，题录待补

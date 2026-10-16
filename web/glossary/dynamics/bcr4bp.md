@@ -38,9 +38,9 @@ BCR4BP 之所以近似，在于两条圆运动假设在物理上不严格自洽�
 
 ## BCP 与 BCR4BP 的区分
 
-文献中对这两个缩写常混用，但存在重要的概念差异（Gómez et al. 2001）：
+文献中对这两个缩写常混用，但存在重要的概念差异，见 Gómez 等 2001 年的工作：
 
-- BCP（Bicircular Problem）：Simó 等人最早提出的原始双圆模型，其中地球-月球和地月质心-太阳两套圆运动在运动学上不一致，它们不满足牛顿第三定律。BCP 是一种不一致的简化模型，适合快速探索周期轨道的大致几何特征。
+- BCP（Bicircular Problem）：Simó 等人最早提出的原始双圆模型，其中地球-月球和地月质心-太阳两套圆运动在运动学上不一致，它们不满足牛顿第三定律\cite{simoBicircularModelTriangular1995}。BCP 是一种不一致的简化模型，适合快速探索周期轨道的大致几何特征。
 
 - BCR4BP（Bicircular Restricted Four-Body Problem）：较新的自洽表述，将第四体引力处理为对 CR3BP 运动方程的显式周期性强迫项，而不要求两套圆运动在动力学上自洽。BCR4BP 保留了 CR3BP 的旋转框架，只是右端增加了含太阳质量参数 $\mu_s$ 和太阳方位 $\theta_s$ 的时变项。
 
@@ -75,7 +75,7 @@ $$\mathbf{a}_s = -\mu_s \left(\frac{\mathbf{r} - \mathbf{r}_s}{|\mathbf{r} - \ma
 
 ## 应用
 
-BCR4BP 在地月空间任务设计中填补了 CR3BP 与全星历模型之间的重要空白（Koon et al. 2011）：
+BCR4BP 在地月空间任务设计中填补了 CR3BP 与全星历模型之间的重要空白\cite{koonDynamicalSystemsThreebody1999}：
 
 - 弱稳定边界转移（WSB Transfer）：太阳摄动是使地月弹道捕获可行的关键机制。BCR4BP 能捕获太阳的时变影响而不负担全星历积分的成本，是 WSB 转移设计的工作模型。
 
@@ -99,10 +99,6 @@ BCR4BP 在地月空间任务设计中填补了 CR3BP 与全星历模型之间的
 
 ## 参考文献
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. I：第 2 章系统讲述 BCP 与 BCR4BP 的公式、自洽性及其在流形拼接中的应用。
+- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/4402，第 2 章系统讲述 BCP 与 BCR4BP 的公式、自洽性及其在流形拼接中的应用
 
-- Simó et al., 1995, "The Bicircular Model Near the Triangular Libration Points of the RTBP"：双圆问题的原始系统化表述。
-
-- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design*：第 6 章讨论四体近似与行星际超级高速公路的拼接方法。
-
-- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics*：WSB 转移的理论基础，含双圆框架下的弹道捕获机制。
+- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics: With Applications to the Construction of Low Energy Transfers*, Princeton University Press, DOI: 10.1515/9780691186436，WSB 转移的理论基础，含双圆框架下的弹道捕获机制

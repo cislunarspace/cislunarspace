@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/monodromy-matrix/
 
 ## 定义
 
-单值矩阵（monodromy matrix）是周期系数线性系统沿一个完整周期的状态转移矩阵 $M = \Phi(T, 0)$，其中 $T$ 为周期轨道的周期，$\Phi(t, 0)$ 为变分方程（variational equation）的基本解矩阵。单值矩阵的特征值称为 Floquet 乘子（Floquet multipliers），它们是判断周期轨道线性稳定性的唯一判据（Gómez et al. 2001, Ch.1；Meyer, Hall & Offin 2017, §4.3）。
+单值矩阵（monodromy matrix）是周期系数线性系统沿一个完整周期的状态转移矩阵 $M = \Phi(T, 0)$，其中 $T$ 为周期轨道的周期，$\Phi(t, 0)$ 为变分方程（variational equation）的基本解矩阵。单值矩阵的特征值称为 Floquet 乘子（Floquet multipliers），它们是判断周期轨道线性稳定性的唯一判据，见 Gómez 等 2001 年第 1 章与 Meyer 等 2017 年第 4.3 节\cite{gomezDynamicsMissionDesign2001Vol1,meyerIntroductionHamiltonianDynamical2017}。
 
 Floquet定理（Floquet-Lyapunov theorem）指出：周期哈密顿系统的状态转移矩阵可唯一分解为周期辛矩阵与指数矩阵的乘积 $\Phi(t, 0) = P(t) e^{t K}$，其中 $P(t+T) = P(t)$、$K$ 为常数阵。单值矩阵等同于 $M = e^{T K}$，其特征值 $\lambda_i$ 按 $|\lambda_i|$ 分为三类模态：
 
@@ -42,15 +42,15 @@ Floquet定理（Floquet-Lyapunov theorem）指出：周期哈密顿系统的状�
 
 ## CR3BP 周期轨道的 Floquet 模态分解
 
-CR3BP 的完整状态空间为 6 维（3 位置 + 3 速度），但雅可比常数约束了一阶守恒量，因此单值矩阵的 6 个 Floquet 乘子满足辛共轭性质：若 $\lambda$ 是乘子，则 $\bar{\lambda}, 1/\lambda, 1/\bar{\lambda}$ 也是乘子（Meyer, Hall & Offin 2017）。对共线平动点邻域的周期轨道，典型情况为：
+CR3BP 的完整状态空间为 6 维（3 位置 + 3 速度），但雅可比常数约束了一阶守恒量，因此单值矩阵的 6 个 Floquet 乘子满足辛共轭性质：若 $\lambda$ 是乘子，则 $\bar{\lambda}, 1/\lambda, 1/\bar{\lambda}$ 也是乘子。对共线平动点邻域的周期轨道，典型情况为：
 
-1. 一对实根：$\lambda_1 > 1$，$\lambda_2 = 1/\lambda_1 < 1$，表征鞍点结构（center-saddle）。$\lambda_1$ 对应不稳定方向，其右特征向量 $w_u$ 给出相邻轨道沿不稳定流形指数发散的局部方向。$\lambda_2$ 对应稳定方向，其右特征向量 $w_s$ 给出相邻轨道沿稳定流形指数收敛的方向。二者共同定义了不变流形在周期轨道每个点上的局部切向（Gómez et al. 2001, Ch.1）。
+1. 一对实根：$\lambda_1 > 1$，$\lambda_2 = 1/\lambda_1 < 1$，表征鞍点结构（center-saddle）。$\lambda_1$ 对应不稳定方向，其右特征向量 $w_u$ 给出相邻轨道沿不稳定流形指数发散的局部方向。$\lambda_2$ 对应稳定方向，其右特征向量 $w_s$ 给出相邻轨道沿稳定流形指数收敛的方向。二者共同定义了不变流形在周期轨道每个点上的局部切向。
 
 2. 一对共轭复根：$|\lambda_{3,4}| = 1$，描述面内 Lyapunov 中心族的振荡模态，对应的中心 Floquet 模态产生准周期轨道（如准Halo、拟周期DRO）。
 
 3. 两个平凡根：$\lambda_5 = \lambda_6 = 1$，对应轨道自身的周期方向（沿切向平移）和雅可比守恒量方向（能量变化零方向）。沿轨道方向的扰动不改变轨道的空间形状而只改变相位。
 
-对不稳定周期轨道（如 Halo 轨道、Lyapunov 轨道），稳定性由主导实乘子 $\lambda_u$ 的大小决定。稳定性因子（stability factor）定义为 $\nu = (|\lambda_u| + |\lambda_s|)/2$，最小值为 1（线性稳定），趋势越大越不稳定（Acta Phys. Sin. 63, 248402, 2014）。
+对不稳定周期轨道（如 Halo 轨道、Lyapunov 轨道），稳定性由主导实乘子 $\lambda_u$ 的大小决定。稳定性因子（stability factor）定义为 $\nu = (|\lambda_u| + |\lambda_s|)/2$，最小值为 1（线性稳定），趋势越大越不稳定\cite{mengyun-heOutlineDesignPerformance2014}。
 
 小偏值 Halo 轨道的地月系 Floquet 实数乘子通常远大于 1（受轨道幅值、所绕平动点及模型影响，量级在数百到数千），这给出相邻轨道每圈发散的倍数。若沿不稳定方向存在初始偏差 $\delta x_0$，一周后偏差为 $\lambda_u \cdot \delta x_0$，$n$ 周后为 $\lambda_u^n \cdot \delta x_0$，这正是平动点轨道误差指数发散（exponential error divergence）的数学根源。
 
@@ -62,7 +62,7 @@ $$
 \delta \approx \frac{\ln|\lambda_u|}{P}
 $$
 
-邓辉等（2017）给出地月系共线平动点轨道 $\delta \approx 0.5\ \text{day}^{-1}$，意味着几十米的初始位置误差在约 10 天发散至几十千米量级。理解发散率对设计星上轨道预报系统（如何时重定轨、预报窗口多长）至关重要。
+邓辉等（2017）给出地月系共线平动点轨道 $\delta \approx 0.5\ \text{day}^{-1}$，意味着几十米的初始位置误差在约 10 天发散至几十千米量级\cite{DengHuiDiYueXiGongXianPingDongDianTanCeQiDeXingShangGuiDaoYuBaoWenTi2017}。理解发散率对设计星上轨道预报系统（如何时重定轨、预报窗口多长）至关重要。
 
 值得注意的是，无论初始误差的方向如何，长时间演化后的终了误差方向均趋向于主导不稳定特征向量 $w_u$ 方向，这一性质在工程上称为不稳定方向对齐，意味着轨道维持控制应优先消去 $w_u$ 方向的分量。
 
@@ -76,21 +76,21 @@ $$
 
 - 复共轭对穿越：对应 Neimark-Sacker（环面）分岔，产生不变环面（拟周期轨道）。
 
-在 DRO 族上，m-分岔（m-bifurcation）是一类特殊的倍周期型分岔：平面 DRO 族中某条特定轨道在 $m$ 次返回后成为分岔点，由此产生 $m$ 分岔空间周期轨道族（如 5 分岔平面 DRO 绕 5 圈后分岔出三维空间轨道族）。Gao & Hou (2020) 通过分析单值矩阵的第 $m$ 次幂 $M^m$ 的特征值穿越单位圆的时刻，得到了 DRO 全族的分岔图谱。
+在 DRO 族上，m-分岔（m-bifurcation）是一类特殊的倍周期型分岔：平面 DRO 族中某条特定轨道在 $m$ 次返回后成为分岔点，由此产生 $m$ 分岔空间周期轨道族（如 5 分岔平面 DRO 绕 5 圈后分岔出三维空间轨道族）。Gao & Hou（2020）通过分析单值矩阵的第 $m$ 次幂 $M^m$ 的特征值穿越单位圆的时刻，得到了 DRO 全族的分岔图谱。
 
 ## 平衡点与鞍点结构：Floquet 分析的零阶基础
 
 周期轨道的 Floquet 模态分解建立在对平衡点（equilibrium point/平动点）邻域线性化分析的基础上。CR3BP 的 5 个平动点中：
 
-- 共线平动点（$L_1, L_2, L_3$）的线性化系统具有鞍点型特征值（一对实特征值 $\pm d_1$ 加两对纯虚特征值 $\pm i \lambda_2$, $\pm i \lambda_3$），在平面投影中呈现中心-鞍点（center-saddle）结构。中心方向对应有界运动，鞍点方向产生双曲效应，即周期轨道的稳定流形与不稳定流形存在的几何根源（Szebehely 1967；Meyer, Hall & Offin 2017）。
+- 共线平动点（$L_1, L_2, L_3$）的线性化系统具有鞍点型特征值（一对实特征值 $\pm d_1$ 加两对纯虚特征值 $\pm i \lambda_2$, $\pm i \lambda_3$），在平面投影中呈现中心-鞍点（center-saddle）结构。中心方向对应有界运动，鞍点方向产生双曲效应，即周期轨道的稳定流形与不稳定流形存在的几何根源\cite{szebehelyTheoryOrbitRestricted1967}。
 
 - 三角平动点（$L_4, L_5$）当 $\mu < \mu_0 \approx 0.0385$（地月系 $\mu \approx 0.01215$ 满足）时，线性化系统具有三对纯虚特征值，即中心-中心-中心型线性稳定，但非线性效应和太阳引力摄动会在实用时间尺度上引入弱不稳定性。
 
-Conley（1968）的平衡区域（equilibrium region）理论揭示了共线平动点邻域一个重要的几何事实：当雅可比常数略高于临界值 $C_i$ 时，Hill 区域中会打开一条狭窄的连通通道（颈），允许两个主天体之间的轨道穿越。平衡区域内的动力学由线性化方程精确定性，且经由 Moser 对 Lyapunov 定理的推广，线性结论的定性结果均适用于完整非线性方程。这一观察是后续所有不变流形拼接理论和低能转移设计（如行星际转移中的瓣叶动力学）的几何出发点。
+Conley（1968）的平衡区域（equilibrium region）理论揭示了共线平动点邻域一个重要的几何事实：当雅可比常数略高于临界值 $C_i$ 时，Hill 区域中会打开一条狭窄的连通通道（颈），允许两个主天体之间的轨道穿越\cite{conleyLowEnergyTransit1968}。平衡区域内的动力学由线性化方程精确定性，且经由 Moser 对 Lyapunov 定理的推广，线性结论的定性结果均适用于完整非线性方程。这一观察是后续所有不变流形拼接理论和低能转移设计（如行星际转移中的瓣叶动力学）的几何出发点。
 
 ## 应用要点
 
-- 轨道稳定性评估：计算单值矩阵的 Floquet 乘子是评估任何数值计算出的参考轨道的线性稳定性的标准步骤。模大于 1 的乘子意味着相邻轨道指数发散，轨道维持控制是必须的。
+- 轨道稳定性评估：计算单值矩阵的 Floquet 乘子是评估任何数值计算出的参考轨道的线性稳定性的标准步骤。模大于 1 的乘子意味着相邻轨道指数发散，轨道维持控制是必须的\cite{foltaSurveyEarthMoon2004}。
 
 - 不变流形方向：不稳定和稳定特征向量 $w_u$、$w_s$ 给出流形在周期轨道每点的局部切向，是全局化流形计算和庞加莱截面拼接的输入。
 
@@ -122,20 +122,10 @@ Conley（1968）的平衡区域（equilibrium region）理论揭示了共线平�
 
 ## 参考文献
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points: Vol. I: Fundamentals: The Case of Collinear Libration Points*, Ch.1（单值矩阵的定义、Floquet乘子的模态分类及特征向量）
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, ISBN: 978-0-12-395732-0，共线平动点线性化与鞍点特征值
 
-- Meyer, Hall & Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, 3rd ed., Springer（Floquet定理、辛矩阵特征值共轭性质的数学表述）
+- Gao & Hou, 2020, "Formation of three-dimensional periodic orbits from planar periodic orbits in the Earth-Moon system"，DRO 族的 m-分岔分析，基于单值矩阵各次幂特征值穿越复平面，题录待补
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*（共线平动点线性化与鞍点特征值）
+- Breakwell & Brown, 1979, *The Halo family of 3-dimensional periodic orbits in the Earth-Moon restricted 3-body problem*, Celestial Mechanics, 20(4): 389-404, DOI: 10.1007/BF01230405，Halo 轨道的 Floquet 乘子及其对维持控制的含义
 
-- Conley, 1968, "Low Energy Transit Orbits in the Restricted Three-Body Problem", SIAM J. Appl. Math.（平衡区域的几何定义和连通通道的存在性）
-
-- Gao & Hou, 2020, "Formation of three-dimensional periodic orbits from planar periodic orbits in the Earth-Moon system"（DRO 族的 m-分岔分析，基于单值矩阵各次幂特征值穿越复平面）
-
-- 邓辉等, 2017, "地月系共线平动点探测器的星上轨道预报问题"（误差指数发散率 $\delta \approx 0.5\ \text{day}^{-1}$ 的数值验证及不定方向对齐）
-
-- Folta & Vaughn, 2004, "A Survey of Earth-Moon Libration Orbits: Stationkeeping Strategies and Intra-Orbit Transfers"（单值矩阵与状态转移矩阵在轨道保持控制设计中的工程应用）
-
-- Breakwell & Brown, 1979, "The Halo Family of 3-Dimensional Periodic Orbits in the Earth-Moon Restricted 3-Body Problem", Celestial Mech., 20(4)（Halo 轨道的 Floquet 乘子及其对维持控制的含义）
-
-- Acta Phys. Sin. 63, 248402, 2014（稳定性因子 $\nu$ 的定义与周期轨道稳定性的判别）
+- 孟云鹤, 陈琪锋, 2014, *地月平动点导航星座的概要设计与性能分析*, 物理学报, 63(24): 248402, DOI: 10.7498/aps.63.248402，稳定性因子 $\nu$ 的定义与周期轨道的稳定性判别

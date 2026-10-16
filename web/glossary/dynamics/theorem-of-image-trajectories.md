@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/theorem-of-image-trajectories/
 
 ## 定义
 
-若某轨迹是圆形限制性三体问题的可行轨迹，则通过时间反射和符号变换生成的三条轨迹（镜像轨迹）也是可行轨迹。该定理可用于已知一条周期轨迹时快速构造其他周期轨迹，以及从不稳定流形推导稳定流形。推论：若轨迹在x-z平面上有两点正交穿越（y=0且vx=0），则该轨迹关于x-z平面对称且周期。
+若某轨迹是圆形限制性三体问题的可行轨迹，则通过时间反射和符号变换生成的三条轨迹（镜像轨迹）也是可行轨迹。该定理可用于已知一条周期轨迹时快速构造其他周期轨迹，以及从不稳定流形推导稳定流形。推论：若轨迹在x-z平面上有两点正交穿越（y=0且vx=0），则该轨迹关于x-z平面对称且周期\cite{pontaniPolyhedralRepresentationInvariant2016}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/theorem-of-image-trajectories/
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- Pontani和Teofilatto - 2016 - Polyhedral representation of invariant manifolds applied to orbit transfers in the Earth–moon system

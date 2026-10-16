@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/angle-distance-section-method/
 
 ## 参考文献
 
-- 利用拉格朗日点的深空探测技术
+- 李言俊等, 2015, *利用拉格朗日点的深空探测技术*, 西北工业大学出版社

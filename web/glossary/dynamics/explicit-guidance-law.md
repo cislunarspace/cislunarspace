@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/explicit-guidance-law/
 
 ## 定义
 
-根据航天器当前运动状态，按照泛函的显式表达式实时计算控制量的制导方法。与标称轨迹制导需要预先存储最优轨迹不同，显式制导在轨计算量小、实时性好，适合星载计算机执行。在动力下降段中，通过引入哈密尔顿函数和协态变量，可推导出加速度和推力方向角的解析表达式。
+根据航天器当前运动状态，按照泛函的显式表达式实时计算控制量的制导方法。与标称轨迹制导需要预先存储最优轨迹不同，显式制导在轨计算量小、实时性好，适合星载计算机执行。在动力下降段中，通过引入哈密尔顿函数和协态变量，可推导出加速度和推力方向角的解析表达式\cite{ZhaoHongQianJiYuDongTaiGuiHuaDeYueMianDingDianZhaoLuKuaiSuZhiDaoFangFa2021}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/explicit-guidance-law/
 - 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
 - 姿态确定与控制系统（Attitude Determination and Control System）
-
-## 参考文献
-
-- 赵弘骞等 - 2021 - 基于动态规划的月面定点着陆快速制导方法

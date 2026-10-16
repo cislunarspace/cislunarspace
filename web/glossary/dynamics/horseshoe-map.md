@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/horseshoe-map/
 
 ## 定义
 
-一种产生混沌动力学行为的离散映射，轨道在两个水平条和垂直条之间反复拉伸折叠。
+一种产生混沌动力学行为的离散映射，轨道在两个水平条和垂直条之间反复拉伸折叠\cite{rossDynamicalSystemsThreebody2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/horseshoe-map/
 - 刚体动力学（Rigid Body Dynamics）
 - 变长设计空间（Variable-Size Design Space, VSDS）
 - 分析梯度（Analytical Gradient）
-
-## 参考文献
-
-- Ross 等 - 2022 - Dynamical systems, the three-body problem, and space mission design

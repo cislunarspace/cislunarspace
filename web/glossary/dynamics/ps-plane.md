@@ -47,4 +47,5 @@ permalink: /glossary/dynamics/ps-plane/
 
 ## 参考文献
 
-- Gómez et al., 2001, AAS 01-301; Howell and Kakoi, 2006
+- Gómez et al., 2001, *Invariant Manifolds, the Spatial Three-Body Problem and Space Mission Design*, AAS/AIAA Astrodynamics Specialist Conference, Paper AAS 01-301
+- Howell, K. C., Kakoi, M., 2006, *Transfers between the Earth-Moon and Sun-Earth systems using manifolds and transit orbits*, Acta Astronautica, 59(1-5): 367-380, DOI: 10.1016/j.actaastro.2006.02.010

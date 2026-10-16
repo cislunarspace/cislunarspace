@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/conservative-system/
 
 ## 定义
 
-相空间体积保持不变的动力系统。判定条件为雅可比矩阵行列式绝对值等于1。保守系统不可引入耗散项。
+相空间体积保持不变的动力系统。判定条件为雅可比矩阵行列式绝对值等于1。保守系统不可引入耗散项\cite{cellettiStabilityChaosCelestial2010}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/conservative-system/
 - 空间流形动力学（Space Manifold Dynamics, SMD）
 - [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/orbital-coordinate-frames/)
 - 轨道注入误差（Orbit Injection Error）
-
-## 参考文献
-
-- Celletti - 2010 - Stability and chaos in celestial mechanics

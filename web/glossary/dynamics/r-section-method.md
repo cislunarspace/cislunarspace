@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/r-section-method/
 
 ## 定义
 
-一种以角度和距离作为坐标的庞加莱截面构建方法。θ为速度方向与截面法向的夹角，r为交点距离地球的距离。该方法用坐标（r, θ）代替传统的（x, ẋ）或（y, ẏ），能够更直观地反映流形与目标轨道截面之间的几何关系，便于在庞加莱截面上寻找拼接点。在三维空间中扩展为（r̄, θ, β, γ）四个坐标。
+一种以角度和距离作为坐标的庞加莱截面构建方法。θ为速度方向与截面法向的夹角，r为交点距离地球的距离。该方法用坐标（r, θ）代替传统的（x, ẋ）或（y, ẏ），能够更直观地反映流形与目标轨道截面之间的几何关系，便于在庞加莱截面上寻找拼接点。在三维空间中扩展为（r̄, θ, β, γ）四个坐标\cite{QiaoChenYuanDiYueL1DianDiNengZhuanYiGuiDaoSheJiYuYouHua2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/r-section-method/
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
-
-## 参考文献
-
-- 乔琛远和杨乐平 - 2024 - 地月L1点低能转移轨道设计与优化

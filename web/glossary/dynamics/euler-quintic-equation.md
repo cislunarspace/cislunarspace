@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/euler-quintic-equation/
 
 ## 参考文献
 
-- Gómez et al. 2001, Ch.2
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points: Fundamentals: The Case of Collinear Libration Points*, World Scientific, Ch. 2, DOI: 10.1142/4402

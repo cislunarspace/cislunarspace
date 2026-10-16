@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/velocity-minimum/
 
 ## 定义
 
-航天器沿轨道运动时，速度大小达到局部最小值的点。在该点施加调向机动，可以最小化改变速度方向所需的能量代价。是四脉冲低能转移方案中第一次脉冲的施加位置。
+航天器沿轨道运动时，速度大小达到局部最小值的点。在该点施加调向机动，可以最小化改变速度方向所需的能量代价。是四脉冲低能转移方案中第一次脉冲的施加位置\cite{QiaoChenYuanDiYueL1DianDiNengZhuanYiGuiDaoSheJiYuYouHua2024}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/velocity-minimum/
 - 微分代数（Differential Algebra, DA）
 - 羽流冲击（Plume Impingement）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- 乔琛远和杨乐平 - 2024 - 地月L1点低能转移轨道设计与优化

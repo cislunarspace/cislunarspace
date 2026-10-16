@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/vertical-lyapunov-orbit/
 
 ## 定义
 
-共线平动点线性化方程的竖直中心解产生的周期轨道族，其频率与面内、面外两个中心频率均相关。
+共线平动点线性化方程的竖直中心解产生的周期轨道族，其频率与面内、面外两个中心频率均相关\cite{alessiLeavingMoonMeans2009}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/vertical-lyapunov-orbit/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
-
-## 参考文献
-
-- Alessi 等 - 2009 - Leaving the moon by means of invariant manifolds of libration point orbits

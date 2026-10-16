@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/deviation/
 
 ## 定义
 
-流形起点相对于标称Halo轨道的偏移距离，是双层优化算法上层优化的核心变量。
+流形起点相对于标称Halo轨道的偏移距离，是双层优化算法上层优化的核心变量\cite{LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/deviation/
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - 脉冲机动（Impulsive Maneuver）
 - Halo轨道（Halo Orbit）
-
-## 参考文献
-
-- 李宸硕 等 - 2024 - 基于弱稳定边界理论的低能地月转移轨道设计

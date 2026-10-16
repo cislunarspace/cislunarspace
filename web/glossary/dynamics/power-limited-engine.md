@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/power-limited-engine/
 
 ## 定义
 
-推力功率有上限的推进系统，如电推进。功率一定时，推力与比冲成反比关系。
+推力功率有上限的推进系统，如电推进。功率一定时，推力与比冲成反比关系\cite{conwaySpacecraftTrajectoryOptimization2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/power-limited-engine/
 - 推力器调制器（Thruster Modulator）
 - 粒子群优化器（Particle Swarm Optimizer）
 - [脉冲间隔（Impulse Interval）](/glossary/dynamics/two-impulse-rendezvous/)
-
-## 参考文献
-
-- Conway - 2010 - Spacecraft trajectory optimization

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/departure-velocity/
 
 ## 定义
 
-航天器从月面出发时的速度大小。由于月面各点的几何位置变化对势能影响极小（量级为10的负5次方归一化单位），出发速度主要取决于目标轨道的雅可比常数，接近月球逃逸速度（约2.4千米每秒），沿halo轨道族的变化幅度约为10米每秒。
+航天器从月面出发时的速度大小。由于月面各点的几何位置变化对势能影响极小（量级为10的负5次方归一化单位），出发速度主要取决于目标轨道的雅可比常数，接近月球逃逸速度（约2.4千米每秒），沿halo轨道族的变化幅度约为10米每秒\cite{alessiLeavingMoonMeans2009}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/departure-velocity/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- Alessi 等 - 2009 - Leaving the moon by means of invariant manifolds of libration point orbits

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/spiral-mode/
 
 ## 参考文献
 
-- Zimovan-Spreen et al. 2022
+- Zimovan-Spreen, Howell and Davis, 2022, *Dynamical Structures Nearby NRHOs with Applications to Transfer Design in Cislunar Space*, The Journal of the Astronautical Sciences, 69(3): 718-744, DOI: 10.1007/s40295-022-00320-4

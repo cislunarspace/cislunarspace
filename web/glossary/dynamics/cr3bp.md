@@ -30,18 +30,18 @@ permalink: /glossary/dynamics/cr3bp/
 
 ## 定义与分层
 
-圆形限制性三体问题（Circular Restricted Three-Body Problem，CR3BP 或 CRTBP）是地月空间轨道动力学中应用最广泛的数学模型。它属于限制性三体问题（Restricted Three-Body Problem, R3BP）族，R3BP 是经典三体问题的一个特殊情形，作两条根本简化（Szebehely 1967；Vallado 2022）：
+圆形限制性三体问题（Circular Restricted Three-Body Problem，CR3BP 或 CRTBP）是地月空间轨道动力学中应用最广泛的数学模型。它属于限制性三体问题（Restricted Three-Body Problem, R3BP）族，R3BP 是经典三体问题的一个特殊情形，作两条根本简化\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022}：
 
 1. 限制性假设：第三体（航天器）质量可忽略，受两个主天体引力作用但不反作用于主天体。
 2. 唯引力假设：仅考虑质点引力，无其他力。
 
-CR3BP 在 R3BP 基础上进一步增加圆轨道假设：两主天体绕公共质心作匀速圆运动。若主天体实际在椭圆轨道上运动，则为椭圆限制性三体问题（ER3BP）。若圆轨道运动的假设放宽到含第四体，则进入双圆限制性四体问题（BCR4BP）。实际工程中，除非明确关注偏心率效应，限制性三体问题一词默认即指 CR3BP（Koon et al. 2011）。
+CR3BP 在 R3BP 基础上进一步增加圆轨道假设：两主天体绕公共质心作匀速圆运动。若主天体实际在椭圆轨道上运动，则为椭圆限制性三体问题（ER3BP）。若圆轨道运动的假设放宽到含第四体，则进入双圆限制性四体问题（BCR4BP）。实际工程中，除非明确关注偏心率效应，限制性三体问题一词默认即指 CR3BP\cite{koonDynamicalSystemsThreebody1999}。
 
 ## 会合坐标系与无量纲化
 
 CR3BP 的标准研究框架是会合坐标系（synodic frame / rotating frame），原点在两主天体质心、随主天体连线同步旋转的参考系。在此系中：两个主天体固定在 x 轴上静止不动，运动方程化为自治系统。代价是引入科里奥利力和离心力项。坐标系细节见 [会合坐标系](/glossary/fundamentals/synodic-frame/)。
 
-为消除方程中的量级差异、减少独立参数，CR3BP 惯例采用一套无量纲化（Szebehely 1967；Gómez et al. 2001）：
+为消除方程中的量级差异、减少独立参数，CR3BP 惯例采用一套无量纲化，见 Szebehely 1967 与 Gómez 等 2001：
 
 | 符号 | 名称 | 定义 | 地月系统 SI 值 |
 | :--- | :--- | :--- | :--- |
@@ -57,20 +57,20 @@ CR3BP 的标准研究框架是会合坐标系（synodic frame / rotating frame�
 
 $$\mu = \frac{m_2}{m_1 + m_2}, \quad m_2 \le m_1$$
 
-在会合坐标系中，较大主天体 $P_1$ 位于 $(-\mu, 0, 0)$，较小主天体 $P_2$ 位于 $(1-\mu, 0, 0)$。常用系统值（Vallado 2022）：
+在会合坐标系中，较大主天体 $P_1$ 位于 $(-\mu, 0, 0)$，较小主天体 $P_2$ 位于 $(1-\mu, 0, 0)$。常用系统值见 Vallado 2022：
 
 | 系统 | $\mu$ | 备注 |
 | :--- | :--- | :--- |
 | 地月系 | $0.01215$ | 本词典默认语境 |
 | 日地系 | $3.0404 \times 10^{-6}$ | $L_1$/$L_2$ 任务（JWST, SOHO） |
 | 日-木系 | $9.537 \times 10^{-4}$ | 行星际传输研究 |
-| 哥本哈根问题 | $0.5$ | 等质量理论基准（Szebehely 1967） |
+| 哥本哈根问题 | $0.5$ | 等质量理论基准，见 Szebehely 1967 |
 
 $\mu$ 决定了所有平动点位置、零速度曲面拓扑和轨道族特征。$\mu \to 0$ 的极限退化为 Hill 问题，原点移至较小主天体。
 
 ## 动力学方程
 
-无量纲化后，在会合坐标系中 CR3BP 的运动方程为（Koon et al. 2011；Szebehely 1967）：
+无量纲化后，在会合坐标系中 CR3BP 的运动方程由 Koon 等 2011 与 Szebehely 1967 给出：
 
 $$
 \begin{cases}
@@ -92,7 +92,7 @@ $r_1 = \sqrt{(x+\mu)^2 + y^2 + z^2}$（到 $P_1$ 距离），$r_2 = \sqrt{(x-1+\
 
 ## 雅可比常数与运动允许域
 
-CR3BP 仅存在一个运动积分，即雅可比常数 $C$（Jacobi 1836）：
+CR3BP 仅存在一个运动积分，即雅可比常数 $C$，由 Jacobi 于 1836 年引入：
 
 $$C = 2\Omega - v^2, \quad v^2 = \dot{x}^2 + \dot{y}^2 + \dot{z}^2$$
 
@@ -100,7 +100,7 @@ $$C = 2\Omega - v^2, \quad v^2 = \dot{x}^2 + \dot{y}^2 + \dot{z}^2$$
 
 令 $v=0$ 得零速度曲面（Zero-Velocity Surface, ZVS）：$2\Omega(x,y,z) = C$。在平面情况下退化为零速度曲线（ZVC）。ZVS 是在位形空间中界定航天器可达域与禁区的曲面，航天器不能在 $2\Omega < C$ 的区域存在。
 
-ZVS 拓扑随 $C$ 值变化经历若干临界值 $C_1 > C_2 > C_3 > C_4 = C_5$，每个临界值对应一个平动点打开连通颈部的条件（Koon et al. 2011）：
+ZVS 拓扑随 $C$ 值变化经历若干临界值 $C_1 > C_2 > C_3 > C_4 = C_5$，每个临界值对应一个平动点打开连通颈部的条件，见 Koon 等 2011：
 
 | $C$ 值范围 | 可达域特征 |
 | :--- | :--- |
@@ -122,7 +122,7 @@ CR3BP 的五个平动点 $L_1$--$L_5$ 是令 $\ddot{x} = \ddot{y} = \ddot{z} = \
 
 ### 三维 CR3BP
 
-完整三维 CR3BP 是分析地月空间周期轨道族的标准框架。最主要的轨道族包括（Howell 1984；Zimovan 2017）：
+完整三维 CR3BP 是分析地月空间周期轨道族的标准框架。最主要的轨道族包括\cite{howellThreedimensionalPeriodicHalo1984,zimovanCharacteristicsDesignStrategies2017}：
 
 - Lyapunov 轨道：平面周期轨道，关于 x 轴和 xOz 平面对称
 
@@ -176,14 +176,6 @@ CR3BP 的若干重要扩展变体保留基础框架、在特定方向上增加�
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*：CR3BP 的经典著作，涵盖会合系、无量纲化、平动点、周期轨道的完整理论。
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press，CR3BP 的经典著作，涵盖会合系、无量纲化、平动点、周期轨道的完整理论
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, 4th ed.：第 2 章讲述限制性三体问题与 N 体运动方程；第 3 章给出地月/日地会合系的坐标定义与基本平面。
-
-- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design*：将现代动力系统方法（不变流形、庞加莱截面、异宿连接）系统地引入 CR3BP 轨道设计。
-
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. I–IV：平动点邻域动力学与任务设计的标准参考文献，覆盖双圆问题、同伦法、太阳帆等扩展。
-
-- Howell, 1984, "Three-Dimensional, Periodic, 'Halo' Orbits"：Halo 轨道族的首次系统化数值生成与参数化。
-
-- Zimovan, 2017, *Characteristics and Design Strategies for Near Rectilinear Halo Orbits within the Earth-Moon System*, Purdue Ph.D.：地月 L1/L2 NRHO 求解策略的标准参考文献。
+- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points*, Vol. I-IV, World Scientific，平动点邻域动力学与任务设计的标准参考文献，覆盖双圆问题、同伦法、太阳帆等扩展

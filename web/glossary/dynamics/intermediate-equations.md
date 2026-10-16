@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/intermediate-equations/
 
 ## 参考文献
 
-- Gómez et al. 2001, Chapter 5
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, Ch. 5, DOI: 10.1142/9789812810632

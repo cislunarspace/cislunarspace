@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lunar-proximity/
 
 ## 定义
 
-航天器在接近月球的位置执行流形插入机动，此时插入代价最低，是低能量转移的关键因素。
+航天器在接近月球的位置执行流形插入机动，此时插入代价最低，是低能量转移的关键因素\cite{gordon2008transfers}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/lunar-proximity/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- Gordon - 2008 - Transfers to Earth-moon L2 halo orbits using lunar proximity and invariant manifolds

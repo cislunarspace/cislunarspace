@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/cnerm/
 
 ## 定义
 
-基于CR3BP假设的相对运动非线性方程组，忽略主天体的离心率效应。在远月点附近精度较好，误差在厘米级，可满足近程交会制导需求。
+基于CR3BP假设的相对运动非线性方程组，忽略主天体的离心率效应。在远月点附近精度较好，误差在厘米级，可满足近程交会制导需求\cite{innocentiDynamicsControlAnalysis2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/cnerm/
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-Innocenti et al., 2022

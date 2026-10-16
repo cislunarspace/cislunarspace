@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/dual-actor-network/
 
 ## 参考文献
 
-- （暂无参考文献）
+- Holt, Baresi and Armellin, 2024, *Reinforced Lyapunov controllers for low-thrust lunar transfers*, Astrodynamics, 8(4): 633-656, DOI: 10.1007/s42064-024-0212-x

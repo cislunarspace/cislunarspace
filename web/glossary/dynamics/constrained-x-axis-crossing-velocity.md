@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/constrained-x-axis-crossing-velocity/
 
 ## 定义
 
-ARTEMIS任务采用的平动点轨道保持策略：在地月会合坐标系X轴附近施加控制，约束X轴穿越时刻X方向速度为零。该策略已在日地平动点任务中验证，可用微分修正或优化方法计算单个目标参数，但存在过度约束导致控制消耗增大的缺点。
+ARTEMIS任务采用的平动点轨道保持策略：在地月会合坐标系X轴附近施加控制，约束X轴穿越时刻X方向速度为零。该策略已在日地平动点任务中验证，可用微分修正或优化方法计算单个目标参数，但存在过度约束导致控制消耗增大的缺点\cite{foltaStationkeepingLissajousTrajectories2010}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ ARTEMIS任务采用的平动点轨道保持策略：在地月会合坐标系X轴
 - 中途脉冲（Midcourse Impulse）
 - 零推力参考轨迹（Zero-Thrust Reference Trajectory）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
-
-## 参考文献
-
-- Folta D C, Pavlak T A, Howell K C, et al. Station keeping of Lissajous trajectories in the Earth-Moon system with applications to ARTEMIS[C]. 20th AAS/AIAA Space Flight Mechanics Meeting, 2010

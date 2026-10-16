@@ -45,4 +45,5 @@ permalink: /glossary/dynamics/eigenmotion-method/
 
 ## 参考文献
 
-- Shimane et al. 2025; Elango et al. 2022
+- Shimane, Ho and Weiss, 2025, *Optimization-Based Phase-Constrained x-Axis Crossing Control for Station-Keeping on Libration Point Orbits*, The Journal of the Astronautical Sciences, 72(6): 59, DOI: 10.1007/s40295-025-00543-1
+- Elango et al., 2022, *Local Eigenmotion Control for Near Rectilinear Halo Orbits*, 2022 American Control Conference (ACC), 1822-1827, DOI: 10.23919/ACC53348.2022.9867672

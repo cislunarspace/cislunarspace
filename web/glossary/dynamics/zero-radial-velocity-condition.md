@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/zero-radial-velocity-condition/
 
 ## 定义
 
-轨迹与庞加莱截面交点处满足dr/dt = 0的条件，是弱稳定边界点位于稳定流形上的几何特征之一。
+轨迹与庞加莱截面交点处满足dr/dt = 0的条件，是弱稳定边界点位于稳定流形上的几何特征之一\cite{belbrunoWeakStabilityBoundary2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/zero-radial-velocity-condition/
 - 可达集（Reachability Set）
 - 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - 拉普拉斯方法（Laplace Method）
-
-## 参考文献
-
-- Belbruno 等 - 2010 - Weak stability boundary and invariant manifolds

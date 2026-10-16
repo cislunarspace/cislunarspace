@@ -47,4 +47,6 @@ permalink: /glossary/dynamics/cell-estimation-technique/
 
 ## 参考文献
 
-- Howell, Beckman, Patterson and Folta, 2004, AAS 04-287; Howell and Kakoi, 2006
+- Howell et al., 2004, *Representations of Invariant Manifolds for Applications in Three-Body Systems*, AAS/AIAA Space Flight Mechanics Conference, AAS 04-287
+
+- Howell and Kakoi, 2006, *Transfers between the Earth–Moon and Sun–Earth systems using manifolds and transit orbits*, Acta Astronautica, 59(1–5): 367–380, DOI: 10.1016/j.actaastro.2006.02.010

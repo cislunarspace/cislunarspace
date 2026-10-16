@@ -26,13 +26,13 @@ permalink: /glossary/dynamics/extreme-terrain-mobility/
 
 > 本文作者：天疆说
 >
-> 术语来源：Starek 等 - 2016 - Spacecraft autonomy challenges for next-generation space missions
+> 术语来源：Starek 等 2016 年，Spacecraft autonomy challenges for next-generation space missions
 >
 > 本文地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## 定义
 
-在陡峭、破碎或低重力等极端地形条件下实现表面移动的能力，涵盖地形包括陨石坑壁、沙丘、峡谷、冷阱和裂缝等。
+在陡峭、破碎或低重力等极端地形条件下实现表面移动的能力，涵盖地形包括陨石坑壁、沙丘、峡谷、冷阱和裂缝等\cite{starekSpacecraftAutonomyChallenges2016}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/extreme-terrain-mobility/
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Starek 等 - 2016 - Spacecraft autonomy challenges for next-generation space missions

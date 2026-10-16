@@ -44,4 +44,4 @@ permalink: /glossary/dynamics/v-tof-pareto-front/
 
 ## 参考文献
 
-- Peng et al. 2024, AIAA Journal of Spacecraft and Rockets, doi:10.2514/1.A35623
+- Peng et al., 2024, *Low-Energy Transfers to Lunar Distant Retrograde Orbits from Geostationary Transfer Orbits*, Journal of Spacecraft and Rockets, 61(5): 1293-1304, DOI: 10.2514/1.A35623

@@ -45,4 +45,8 @@ permalink: /glossary/dynamics/augmented-lagrangian-method/
 
 ## 参考文献
 
-- Lantoine & Russell 2012, JOTA Part 1 & 2; Aziz et al. 2019, JGCD
+- Lantoine and Russell, 2012, *A Hybrid Differential Dynamic Programming Algorithm for Constrained Optimal Control Problems. Part 1: Theory*, Journal of Optimization Theory and Applications, 154(2): 382–417, DOI: 10.1007/s10957-012-0039-0
+
+- Lantoine and Russell, 2012, *A Hybrid Differential Dynamic Programming Algorithm for Constrained Optimal Control Problems. Part 2: Application*, Journal of Optimization Theory and Applications, 154(2): 418–442, DOI: 10.1007/s10957-012-0038-1
+
+- Aziz, Scheeres, and Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963–975, DOI: 10.2514/1.G003617

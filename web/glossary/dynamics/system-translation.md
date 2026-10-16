@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/system-translation/
 
 ## 参考文献
 
-- Vaquero和Howell - 2014
+- Vaquero and Howell, 2014, *Leveraging Resonant-Orbit Manifolds to Design Transfers Between Libration-Point Orbits*, Journal of Guidance, Control, and Dynamics, 37(4): 1143-1157, DOI: 10.2514/1.62230

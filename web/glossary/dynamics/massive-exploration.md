@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/massive-exploration/
 
 ## 参考文献
 
-- （暂无参考文献）
+- Pérez-Palau & Epenoy, 2018, *Fuel optimization for low-thrust Earth-Moon transfer via indirect optimal control*, Celestial Mechanics and Dynamical Astronomy, 130(2): 21, DOI: 10.1007/s10569-017-9808-2

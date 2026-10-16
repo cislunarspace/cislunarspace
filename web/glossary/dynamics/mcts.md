@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/mcts/
 
 ## 参考文献
 
-- Chao 等 - 2022。
+- Peng et al., 2022, *Exploring more solutions for low-energy transfers to lunar distant retrograde orbits*, Celestial Mechanics and Dynamical Astronomy, 134(1): 1-38, DOI: 10.1007/s10569-021-10056-2

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/double-pseudo-range-method/
 
 ## 参考文献
 
-- 侯锡云 等, 2025
+- 侯锡云 等, 2025, *地月空间目标的双伪距法定初轨研究*, 航天技术与工程学报, 2(5): 62-72

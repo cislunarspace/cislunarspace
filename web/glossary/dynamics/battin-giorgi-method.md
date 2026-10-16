@@ -37,7 +37,7 @@ $$
 = -G m_j\!\left[\frac{\vec d_j}{d_j^3}+\frac{\vec\rho_j}{\rho_j^3}\right],
 $$
 
-其中 $\vec\rho_j$ 是摄动天体相对中心天体的位置、$\vec d_j=\vec r-\vec\rho_j$ 是航天器相对摄动天体的位置。当 $r\ll\rho_j$（航天器紧贴中心天体）时，$\vec d_j/d_j^3$ 与 $-\vec\rho_j/\rho_j^3$ 是两个量级相近、方向相反的大矢量，直接相减会产生灾难性相消（catastrophic cancellation），有效位数急剧损失。Giorgi (1964) 给出、Battin (1999, §8.4.1) 整理为标准形式的算法，引入辅助变量 $q$ 把这两个大矢量的差写成单矢量上的小修正：
+其中 $\vec\rho_j$ 是摄动天体相对中心天体的位置、$\vec d_j=\vec r-\vec\rho_j$ 是航天器相对摄动天体的位置。当 $r\ll\rho_j$（航天器紧贴中心天体）时，$\vec d_j/d_j^3$ 与 $-\vec\rho_j/\rho_j^3$ 是两个量级相近、方向相反的大矢量，直接相减会产生灾难性相消（catastrophic cancellation），有效位数急剧损失。Giorgi 1964 年给出、Battin 1999 年 §8.4.1 整理为标准形式的算法，引入辅助变量 $q$ 把这两个大矢量的差写成单矢量上的小修正：
 
 $$
 \vec a_{3B} = -\frac{G m_j}{d_j^3}\big[\vec r + f(q_j)\,\vec\rho_j\big],
@@ -53,7 +53,7 @@ $$
 
 ## f(q) 的稳定求值
 
-直接按 $(1+q)^{3/2}-1$ 计算 $f(q)$ 在 $q$ 接近零时同样相消。Battin (1999, Eq. 8-60) 给出封闭稳定形式：
+直接按 $(1+q)^{3/2}-1$ 计算 $f(q)$ 在 $q$ 接近零时同样相消。Battin 1999 年的 Eq. 8-60 给出封闭稳定形式：
 
 $$
 f(q) = q\,\frac{3+3q+q^2}{1+(1+q)^{3/2}}.
@@ -79,10 +79,10 @@ $$
 
 ## 应用场景
 
-- 高精度星历数值积分：地月转移、平动点轨道、月球低轨等场景都需在地球椭球、第三体摄动下长时间积分。Cowell 法直接对总加速度积分时步长受迫变小。改用 Battin-Giorgi 计算第三体项后，可在不损失精度的情况下放大步长。
+- 高精度星历数值积分：地月转移、平动点轨道、月球低轨等场景都需在地球椭球、第三体摄动下长时间积分。Cowell 法直接对总加速度积分时步长受迫变小。改用 Battin-Giorgi 计算第三体项后，可在不损失精度的情况下放大步长\cite{valladoFundamentalsAstrodynamicsApplications2022}。
 - 地月空间第三体摄动评估：地球邻域的太阳、月球摄动。月球邻域的地球、太阳摄动，两类问题都满足 $r\ll\rho_j$，Battin-Giorgi 是默认选择。
 - 星载导航滤波：实时计算需求下，避免相消意味着可用更短字长（如 32 位浮点）获得同等精度，对星载计算机友好。
-- 教学参考：Battin《航天动力学的数学方法》（1999 / 中译本 2018）§8.4.1 给出完整推导。Sanna et al. (2024) 在 Gateway 到低月轨的最优脉冲转移中援引该方法并把第三体摄动加速度的稳定计算列为基础假设之一。
+- 教学参考：Battin《航天动力学的数学方法》1999 年修订版与 2018 年中译本 §8.4.1 给出完整推导。Sanna 等\cite{sannaOptimalImpulsiveOrbit2024} 在 Gateway 到低月轨的最优脉冲转移中援引该方法并把第三体摄动加速度的稳定计算列为基础假设之一。
 
 ## 易混点
 
@@ -99,7 +99,5 @@ $$
 
 ## 参考文献
 
-- Battin, R. H. (1999). *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, §8.4.1. AIAA.（中译本：《航天动力学的数学方法（修订版）》，2018，第 8 章。）
-- Giorgi, L. (1964). Sur la détermination des positions apparentes des planètes. *Astronomische Nachrichten*, 339, 250–258.
-- Sanna, D. et al. (2024). Optimal impulsive orbit transfers from Gateway to low lunar orbit. *Aerospace*, 11(10), 460.
-- Vallado, D. A. (2022). *Fundamentals of Astrodynamics and Applications*, 5th ed., §9 (numerical treatment of perturbations).
+- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA, DOI: 10.2514/4.861543，中译本：《航天动力学的数学方法》修订版，2018，第 8 章
+- Giorgi, 1964, *Una Formulazione Caratteristica del Metodo di Encke in Vista dell'Applicazione Numerica*, Scuola di Ingegneria Aerospaziale, Roma

@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/two-layer-guidance-and-control/
 
 ## 参考文献
 
-- Rendezvous in cislunar halo orbits: Hardware-in-the-loop simulation with coupled orbit and attitude dynamics
+- Muralidharan et al., 2023, *Rendezvous in cislunar halo orbits: Hardware-in-the-loop simulation with coupled orbit and attitude dynamics*, Acta Astronautica, 211: 556-573, DOI: 10.1016/j.actaastro.2023.06.028

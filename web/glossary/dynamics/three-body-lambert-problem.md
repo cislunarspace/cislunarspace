@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 ## 定义
 
-三体 Lambert 问题（Three-Body Lambert Problem，3BLP。亦记 L3BP，即 Lambert Three-Body Problem。在 CR3BP 模型下又称 CR3BP Lambert 问题）是 [Lambert 问题](/glossary/fundamentals/lamberts-problem/) 在三体动力学框架下的推广：在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 模型下，给定起点 $\vec r_1$（时刻 $t_1$）、终点 $\vec r_2$（时刻 $t_2$）、飞行时间 $\Delta t=t_2-t_1$，求连接两端的轨道及两端的速度（孙俞 等 2017）。
+三体 Lambert 问题（Three-Body Lambert Problem，3BLP。亦记 L3BP，即 Lambert Three-Body Problem。在 CR3BP 模型下又称 CR3BP Lambert 问题）是 [Lambert 问题](/glossary/fundamentals/lamberts-problem/) 在三体动力学框架下的推广：在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 模型下，给定起点 $\vec r_1$（时刻 $t_1$）、终点 $\vec r_2$（时刻 $t_2$）、飞行时间 $\Delta t=t_2-t_1$，求连接两端的轨道及两端的速度\cite{SunYuJiYuSanTiLambertSuanFaDePingDongDianJiaoHuiGuiDaoSheJi2017}。
 
 由于 CR3BP 运动方程不可积、对初值高度敏感，三体 Lambert 问题不存在解析解，只能数值求解。初值估计是核心难点，简单的 Newton-Raphson 打靶对长时间转移几乎不收敛。
 
@@ -49,9 +49,9 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 求解三体 Lambert 问题本质上是两端固定的打靶问题。常用初值策略：
 
-- 二体解 + 同伦迭代：先求二体 Lambert 解 $\vec v_1^{(2B)}$ 作初值，再引入同伦参数 $\lambda\in[0,1]$ 把动力学从二体连续变形到 CR3BP（[同伦法](/glossary/dynamics/homotopy-method/)），每步用 Newton-Raphson 收敛。此法对长时间转移显著优于直接打靶（孙俞 等 2017）。
+- 二体解 + 同伦迭代：先求二体 Lambert 解 $\vec v_1^{(2B)}$ 作初值，再引入同伦参数 $\lambda\in[0,1]$ 把动力学从二体连续变形到 CR3BP（[同伦法](/glossary/dynamics/homotopy-method/)），每步用 Newton-Raphson 收敛。此法对长时间转移显著优于直接打靶。
 
-- 遗传算法作参考轨道：用 GA 全局搜索一条粗略满足边界的位置-时间序列作参考，再上同伦牛顿迭代精化，能解决长时间 Halo 间转移收敛性差的问题（孙俞 等 2017）。
+- 遗传算法作参考轨道：用 GA 全局搜索一条粗略满足边界的位置-时间序列作参考，再上同伦牛顿迭代精化，能解决长时间 Halo 间转移收敛性差的问题。
 
 - Sukhanov-Prado 两层迭代：在 Hill 模型下同时修正初末位置矢量，收敛性好但无法保证收敛到期望解（因三体 Lambert 多解）。
 
@@ -59,7 +59,7 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 ## 多解性
 
-同一组 $(\vec r_1,\vec r_2,\Delta t)$ 可能对应多条本质不同的转移轨道：直接短弧、绕月长弧、绕地球多圈后到达、借助日地摄动的低能转移等。这是 CR3BP 非线性动力学的直接结果，与二体 Lambert 至多 $2N+1$ 解形成对比。实际工程中通常：
+同一组 $(\vec r_1,\vec r_2,\Delta t)$ 可能对应多条本质不同的转移轨道：直接短弧、绕月长弧、绕地球多圈后到达、借助日地摄动的低能转移等。这是 CR3BP 非线性动力学的直接结果，与二体 Lambert 至多 $2N+1$ 解形成对比\cite{valladoFundamentalsAstrodynamicsApplications2022}。实际工程中通常：
 
 - 限定 [雅可比常数](/glossary/dynamics/jacobi-integral/) $C_J$ 的范围，把搜索空间裁剪到能量可行的子集。
 
@@ -71,7 +71,7 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 ## 应用要点
 
-- 平动点交会对接：同一 Halo 轨道不同相位两航天器间的转移、不同振幅 Halo 间的转移，是地月 $L_2$ 空间站建设的基础工具（孙俞 等 2017）。
+- 平动点交会对接：同一 Halo 轨道不同相位两航天器间的转移、不同振幅 Halo 间的转移，是地月 $L_2$ 空间站建设的基础工具。
 
 - 低能地月转移：配合日地摄动设计 WSB、流形拼接转移。
 
@@ -99,8 +99,4 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 ## 参考文献
 
-- 孙俞, 张进, 罗亚中, 2017, 基于三体 Lambert 算法的平动点交会轨道设计（地月 $L_2$ Halo 间交会，遗传算法 + 同伦牛顿迭代求解法）
-
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications, §7.6（二体 Lambert 问题，作对照与本词族上位概念）
-
-- Szebehely, 1967, Theory of Orbits: The Restricted Problem of Three Bodies（CR3BP 框架）
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press，CR3BP 框架

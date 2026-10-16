@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/sticky-region/
 
 ## 定义
 
-DRO稳定区与P3DRO黏附区共同构成的稳定屏障，阻止航天器偏离或进入DRO。黏附区寿命更长，使航天器在附近长期停留。
+DRO稳定区与P3DRO黏附区共同构成的稳定屏障，阻止航天器偏离或进入DRO。黏附区寿命更长，使航天器在附近长期停留\cite{wangMechanismAnalysisDRO2025}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ DRO稳定区与P3DRO黏附区共同构成的稳定屏障，阻止航天器偏离
 - 三体问题（Three-Body Problem）
 - 最优控制（Optimal Control）
 - 轨迹优化（Trajectory Optimization）
-
-## 参考文献
-
-- Wang 等 - 2025 - Mechanism analysis of the DRO low-energy transfer problem An energy perspective

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/obliquity-of-lunar-orbit-to-equatorial-plane/
 
 ## 定义
 
-月球轨道面（白道面）与地球赤道面之间的夹角，波动范围为18.5°到28.5°。该角的季节性变化导致平动点卫星相对于赤道面的高度位置不同，从而影响俯仰向视场需求。在白赤交角最大（28.5°）时，俯仰向视场角需求最大，为10.5°。
+月球轨道面（白道面）与地球赤道面之间的夹角，波动范围为18.5°到28.5°。该角的季节性变化导致平动点卫星相对于赤道面的高度位置不同，从而影响俯仰向视场需求。在白赤交角最大（28.5°）时，俯仰向视场角需求最大，为10.5°\cite{ZhangJingPengDiYuePingDongDianGaoGuiGuanCeXiTongSheJiJiXiaoNengFenXi2025}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/obliquity-of-lunar-orbit-to-equatorial-plane/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- 张靖鹏 等 - 2025 - 地月平动点高轨观测系统设计及效能分析

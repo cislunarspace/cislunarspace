@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/equivalent-control/
 
 ## 定义
 
-滑模控制中，令滑模面的时间导数为零所求得的控制量，代表系统在滑模面上做理想滑动运动时所需的名义控制。在积分型滑模面设计中，等效控制的解析形式与线性二次型最优控制律相同。实际滑模控制律在等效控制的基础上叠加不连续切换项，以补偿扰动和不确定性。
+滑模控制中，令滑模面的时间导数为零所求得的控制量，代表系统在滑模面上做理想滑动运动时所需的名义控制。在积分型滑模面设计中，等效控制的解析形式与线性二次型最优控制律相同。实际滑模控制律在等效控制的基础上叠加不连续切换项，以补偿扰动和不确定性\cite{zhangContinuousthrustStationkeepingCislunar2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/equivalent-control/
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
 - 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-
-## 参考文献
-
-- Zhang and Wang 2022 Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints

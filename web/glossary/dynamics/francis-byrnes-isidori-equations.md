@@ -45,5 +45,5 @@ Francis-Byrnes-Isidori方程是非线性控制理论中的重要结果，描述�
 
 ## 参考文献
 
-- Francis 1977
-- Isidori & Byrnes 1990
+- Francis, 1977, *The Linear Multivariable Regulator Problem*, SIAM Journal on Control and Optimization, 15(3): 486-505, DOI: 10.1137/0315033
+- Isidori and Byrnes, 1990, *Output regulation of nonlinear systems*, IEEE Transactions on Automatic Control, 35(2): 131-140, DOI: 10.1109/9.45168

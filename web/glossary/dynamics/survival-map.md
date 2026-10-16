@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/survival-map/
 
 ## 定义
 
-在地月 CR3BP 中，以月球 L2 点附近的一组初始条件（位置和速度）为自变量，以色标显示各初始条件对应的轨道存活时间（从出发到撞击月面、飞出 L1/L2 或达到最大传播时间）的二维参数图。用于快速筛选能实现月球弱捕获或撞击的初始状态区间。
+在地月 CR3BP 中，以月球 L2 点附近的一组初始条件（位置和速度）为自变量，以色标显示各初始条件对应的轨道存活时间（从出发到撞击月面、飞出 L1/L2 或达到最大传播时间）的二维参数图。用于快速筛选能实现月球弱捕获或撞击的初始状态区间\cite{vanderwegSunearthL1L22016}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/survival-map/
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - [平动点（Libration Point）](/glossary/dynamics/libration-point/)
-
-## 参考文献
-
-- Van Der Weg and Vasile, 2016, Sun-Earth L1 and L2 to Moon Transfers Exploiting Natural Dynamics

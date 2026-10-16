@@ -44,4 +44,5 @@ Hénon在限制性三体问题中通过数值探索发现的周期轨道族之�
 
 ## 参考文献
 
-- Tan Minghu et al., 2014, Transfer to long term distant retrograde orbits around the Moon; Hénon, 1969, Numerical exploration of the restricted problem
+- Tan et al., 2014, *Transfer to long term distant retrograde orbits around the Moon*, Acta Astronautica, 98: 50-63, DOI: 10.1016/j.actaastro.2014.01.016
+- Hénon, 1969, *Numerical exploration of the restricted problem. V. Hill's case: periodic orbits and their stability*, Astronomy and Astrophysics, 1: 223-238

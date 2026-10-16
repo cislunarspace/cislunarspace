@@ -20,7 +20,7 @@ permalink: /glossary/dynamics/hyperelliptic-curve/
 
 ## 定义
 
-超椭圆曲线（Hyperelliptic Curve）是代数几何中一类形式为 $y^2 = f(x)$ 的非奇异代数曲线，其中 $f(x)$ 为次数大于4且无重根的多项式。其亏格（Genus）满足 $g = \lfloor(n-1)/2\rfloor \ge 2$（$n$ 为多项式次数），是椭圆曲线向高维积分情形的严格推广。
+超椭圆曲线（Hyperelliptic Curve）是代数几何中一类形式为 $y^2 = f(x)$ 的非奇异代数曲线，其中 $f(x)$ 为次数大于4且无重根的多项式。其亏格（Genus）满足 $g = \lfloor(n-1)/2\rfloor \ge 2$（$n$ 为多项式次数），是椭圆曲线向高维积分情形的严格推广\cite{arnoldMathematicalMethodsClassical1989}。
 
 ## 物理机制与工程价值
 
@@ -39,5 +39,4 @@ permalink: /glossary/dynamics/hyperelliptic-curve/
 
 ## 参考文献
 
-- Caillau, J. B., & Daoud, B. Minimum time control of the planar circular restricted three-body problem: A geometric approach. SIAM Journal on Control and Optimization, 2012, 50(6): 3178-3202.
-- Arnold, V. I. Mathematical Methods of Classical Mechanics. Springer-Verlag, 1989.
+- Caillau, Daoud, 2012, *Minimum Time Control of the Restricted Three-Body Problem*, SIAM Journal on Control and Optimization, 50(6): 3178-3202, DOI: 10.1137/110847299

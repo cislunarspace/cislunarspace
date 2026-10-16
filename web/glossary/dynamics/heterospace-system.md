@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/heterospace-system/
 
 ## 定义
 
-指由不同主天体构成的三体系统，如日地系统和地月系统，两者可分别独立描述但可借助流形拼接实现轨道关联。
+指由不同主天体构成的三体系统，如日地系统和地月系统，两者可分别独立描述但可借助流形拼接实现轨道关联\cite{LiChenShuoJiYuRuoWenDingBianJieLiLunDeDiNengDiYueZhuanYiGuiDaoSheJi2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/heterospace-system/
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
-
-## 参考文献
-
-- 李宸硕 等 - 2024 - 基于弱稳定边界理论的低能地月转移轨道设计

@@ -30,13 +30,13 @@ permalink: /glossary/dynamics/lagrange-coefficients/
 
 ## 定义
 
-二体问题中，任意时刻 $t$ 的位置与速度可写成初始时刻 $t_0$ 位置 $\vec r_0$ 与速度 $\vec v_0$ 的线性组合（Vallado 2022, §2.5；Battin 1999）：
+二体问题中，任意时刻 $t$ 的位置与速度可写成初始时刻 $t_0$ 位置 $\vec r_0$ 与速度 $\vec v_0$ 的线性组合\cite{valladoFundamentalsAstrodynamicsApplications2022}，见 Vallado 2022 的 §2.5，另见 Battin 1999：
 
 $$
 \vec r(t) = f\,\vec r_0 + g\,\vec v_0,\qquad \vec v(t) = \dot f\,\vec r_0 + \dot g\,\vec v_0.
 $$
 
-四个系数 $f, g, \dot f, \dot g$ 称为 Lagrange 系数（Lagrange coefficients）或 f, g 函数（f and g functions）。Lagrange 在 18 世纪为月球运动研究提出此形式。它把在中心引力场中如何由一段状态推算另一段状态（开普勒问题）线性化地表达出来，是二体传播、初轨确定与 [兰伯特问题](/glossary/fundamentals/lamberts-problem/) 求解的基础构件。
+四个系数 $f, g, \dot f, \dot g$ 称为 Lagrange 系数（Lagrange coefficients）或 f, g 函数（f and g functions）。Lagrange 在 18 世纪为月球运动研究提出此形式。它把在中心引力场中如何由一段状态推算另一段状态（开普勒问题）线性化地表达出来，是二体传播、初轨确定与 [兰伯特问题](/glossary/fundamentals/lamberts-problem/) 求解的基础构件\cite{bateFundamentalsAstrodynamics1971}。
 
 ## 基本恒等式
 
@@ -50,7 +50,7 @@ $$
 
 ## 按不同自变量的封闭形式
 
-Lagrange 系数的具体表达式取决于知道什么量，通常以某个轨道异常量之差作为自变量（Vallado 2022, §2.5）。
+Lagrange 系数的具体表达式取决于知道什么量，通常以某个轨道异常量之差作为自变量，见 §2.5。
 
 ### 由真近点角差 $\Delta\nu$
 
@@ -103,7 +103,7 @@ $$
 \dot g = 1-\frac{a}{r}(1-\cosh\Delta H).
 $$
 
-### 由通用变量 $\chi$（统一形式，Battin 1987；Vallado 2022 Eq. 2-68）
+### 由通用变量 $\chi$（统一形式）
 
 通用变量法把椭圆、抛物、双曲统一起来，避免轨道类型分支：
 
@@ -117,11 +117,11 @@ $$
 \dot g = 1-\frac{\chi^2}{r}c_2,
 $$
 
-其中 $\psi=\chi^2/a$（带符号），$c_2, c_3$ 是 Stumpff 函数。这一形式是 [通用变量法](/glossary/dynamics/universal-variable-method/) 的核心。
+其中 $\psi=\chi^2/a$（带符号），$c_2, c_3$ 是 Stumpff 函数。这一形式是 [通用变量法](/glossary/dynamics/universal-variable-method/) 的核心，其统一形式的推导见 Vallado 2022 的 Eq. 2-68 与 Battin 1987。
 
 ## 级数形式（初轨确定专用）
 
-只知道 $t_0$ 时刻的位置矢量大小 $r_0$、无法直接得到轨道根数时（典型于初轨确定的 Gauss 方法），用 $u\triangleq\mu/r_0^3$ 把 $\vec r(t)$ 在 $t_0$ 附近作 Taylor 展开，得到 $f$ 与 $g$ 的级数形式（Escobal 1965；Vallado 2022, Eq. 2-69）：
+只知道 $t_0$ 时刻的位置矢量大小 $r_0$、无法直接得到轨道根数时（典型于初轨确定的 Gauss 方法），用 $u\triangleq\mu/r_0^3$ 把 $\vec r(t)$ 在 $t_0$ 附近作 Taylor 展开，得到 $f$ 与 $g$ 的级数形式，见 Escobal 1965 与 Vallado 2022 的 Eq. 2-69：
 
 $$
 f = 1-\frac{u}{2}\tau^2-\frac{\dot u}{6}\tau^3-\frac{\ddot u-u^2}{24}\tau^4-\cdots,
@@ -155,8 +155,6 @@ $$
 
 ## 参考文献
 
-- Vallado, D. A. (2022). *Fundamentals of Astrodynamics and Applications*, 5th ed., §2.5 (Classical Formulas Using f and g Functions) and §2.6 (Series Forms of f and g). Microcosm Press.
-- Battin, R. H. (1999). *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition. AIAA.
-- Bate, R. R., Mueller, D. D., & White, J. E. (1971). *Fundamentals of Astrodynamics*. Dover.
-- Escobal, P. R. (1965, reprinted 1985). *Methods of Orbit Determination*, 2nd ed. Krieger.
-- Herrick, S. (1971). *Astrodynamics*, Vol. 1. Van Nostrand Reinhold.
+- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, AIAA, DOI: 10.2514/4.861543
+- Escobal, 1965, *Methods of Orbit Determination*, 2nd ed., Krieger
+- Herrick, 1971, *Astrodynamics*, Vol. 1, Van Nostrand Reinhold

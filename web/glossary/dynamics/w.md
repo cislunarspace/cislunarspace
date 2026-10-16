@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/w/
 
 ## 定义
 
-碎片横截面积与质量之比，是决定太阳辐射压摄动大小的关键参数，也是解体模型的核心输出之一。论文中碎片面积质量比分布跨越多个数量级。
+碎片横截面积与质量之比，是决定太阳辐射压摄动大小的关键参数，也是解体模型的核心输出之一。论文中碎片面积质量比分布跨越多个数量级\cite{aAnalysisAccidentalSpacecraft2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/w/
 - 规定性能控制（Prescribed Performance Control, PPC）
 - 规定性能函数（Prescribed Performance Function, PPF）
 - 终端滑模控制（Terminal Sliding Mode Control, TSMC）
-
-## 参考文献
-
-- Guardabasso 等 - 2023 - Analysis of accidental spacecraft break-up events in cislunar space。

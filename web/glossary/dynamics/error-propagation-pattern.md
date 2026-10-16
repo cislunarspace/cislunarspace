@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/error-propagation-pattern/
 
 ## 定义
 
-初始状态误差随预报时间增长而在轨道状态中扩散和放大的规律。共线平动点轨道的误差传播与近地卫星有根本区别：近地卫星误差主要沿延迹方向线性增长，平动点轨道误差沿状态转移矩阵的不稳定方向指数增长。
+初始状态误差随预报时间增长而在轨道状态中扩散和放大的规律。共线平动点轨道的误差传播与近地卫星有根本区别：近地卫星误差主要沿延迹方向线性增长，平动点轨道误差沿状态转移矩阵的不稳定方向指数增长\cite{DengHuiDiYueXiGongXianPingDongDianTanCeQiDeXingShangGuiDaoYuBaoWenTi2017}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/error-propagation-pattern/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- 邓辉 等 - 2017 - 地月系共线平动点探测器的星上轨道预报问题

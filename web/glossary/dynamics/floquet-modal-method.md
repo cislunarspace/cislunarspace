@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/floquet-modal-method/
 
 Floquet模态法是一类基于单值矩阵特征分解的平动点轨道保持策略，核心思想是：将参考轨道附近的偏差 $\Delta X$ 分解为 6 个 Floquet 模态（不稳定、中性、稳定三类各 2 个），然后仅消去会指数增长的不稳定分量，忽略振荡的中性分量和衰减的稳定分量。由于不稳定模态支配了长期误差发散，消去它的控制代价最低，而脉冲间隔可以拉长到误差再次累积到阈值的时间尺度，通常为数天到数周。
 
-这一原理由 Gómez et al.（1998）及后续工作（Hou et al., 2011）发展为可实际操作的平动点任务轨道保持框架，与传统的追踪标称轨道方法（每圈或每数圈校正到参考轨道）相比，燃料消耗显著降低，且脉冲间隔长，对需要减少推力器点火次数的深空探测任务（如对仪器干扰敏感）尤其有优势。
+这一原理由 Gómez et al.（1998）及后续工作 Hou et al.（2011）发展为可实际操作的平动点任务轨道保持框架，与传统的追踪标称轨道方法（每圈或每数圈校正到参考轨道）相比，燃料消耗显著降低，且脉冲间隔长，对需要减少推力器点火次数的深空探测任务（如对仪器干扰敏感）尤其有优势。
 
 ## 三种轨道保持策略
 
@@ -55,7 +55,7 @@ Floquet模态法是一类基于单值矩阵特征分解的平动点轨道保持�
 
 ### Floquet策略（Floquet Strategy）
 
-Floquet策略与Floquet模态法在数学上是同一族，核心区别在于是否在参考轨道的特定节点（如 $x$ 轴穿越点）计算 Floquet 分解。Floquet 策略在标称轨道的节点处计算状态转移矩阵和模态，然后消去不稳定分量。因节点是轨道穿过特定平面（如 $x$-$z$ 面）的位置，那里的动力学条件简化了模态矩阵，计算更稳定且工程适用。Hou et al.（2011）将该策略系统化为地月平动点轨道的标准保持框架，在每一次 $x$-$z$ 面穿越时计算模态矩阵并决定是否施加机动。
+Floquet策略与Floquet模态法在数学上是同一族，核心区别在于是否在参考轨道的特定节点（如 $x$ 轴穿越点）计算 Floquet 分解。Floquet 策略在标称轨道的节点处计算状态转移矩阵和模态，然后消去不稳定分量。因节点是轨道穿过特定平面（如 $x$-$z$ 面）的位置，那里的动力学条件简化了模态矩阵，计算更稳定且工程适用。Hou et al.（2011）将该策略系统化为地月平动点轨道的标准保持框架，在每一次 $x$-$z$ 面穿越时计算模态矩阵并决定是否施加机动\cite{gaoLowthrustStationkeepingControl2023}。
 
 ### 轨道平衡法（Orbit Balancing / Orbit Continuation）
 
@@ -66,7 +66,7 @@ Folta et al.（2010）详细介绍了这一方法在 ARTEMIS（地月 $L_1$/$L_2
 1. 该任务没有预先生成的参考轨道用于计算 Floquet 模态，拟周期 Lissajous 轨道的参数空间是连续的，没有单一的正确标称轨道。
 2. 在完全星历模型下，月球偏心率和太阳引力使 Floquet 模态计算对扰动敏感，特别是对于无法精确匹配单个 CR3BP 周期轨道的拟周期运动，模态基底随时间剧烈变化。
 
-轨道平衡法的典型操作：在 $x$ 轴穿越处，设定未来 $x$ 方向速度略为负值，确保轨道始终向平动点内侧卷绕而不逃逸，这一约束通过 DC（differential correction）解算机动方向和时刻得到。Folta & Vaughn（2004）给出的 ARTEMIS 轨道年维持代价约为 15–70 m/s（Lissajous）到 100–200 m/s（Halo），视轨道幅值和控制模式（$x$ 轴 vs. $y$ 轴方向）而定。
+轨道平衡法的典型操作：在 $x$ 轴穿越处，设定未来 $x$ 方向速度略为负值，确保轨道始终向平动点内侧卷绕而不逃逸，这一约束通过 DC（differential correction）解算机动方向和时刻得到。Folta & Vaughn（2004）给出的 ARTEMIS 轨道年维持代价约为 15–70 m/s（Lissajous）到 100–200 m/s（Halo），视轨道幅值和控制模式（$x$ 轴 vs. $y$ 轴方向）而定\cite{foltaSurveyEarthMoon2004}。
 
 ## 三策略的比较
 
@@ -107,14 +107,10 @@ Folta et al.（2010）详细介绍了这一方法在 ARTEMIS（地月 $L_1$/$L_2
 
 ## 参考文献
 
-- Gómez et al., 1998, Study of the Transfer Between Halo Orbits, Acta Astronautica（初始 Floquet 模态概念的引入）
+- Gómez et al., 1998, *Study of the transfer between halo orbits*, Acta Astronautica, 43(9-10): 493-520, DOI: 10.1016/S0094-5765(98)00177-5，初始 Floquet 模态概念的引入
 
-- Hou et al., 2011, Station-Keeping of Libration Point Orbits by the Floquet Mode Elimination Approach in the Earth-Moon System, Acta Astronautica（Floquet 策略的完整框架与其在地月系 $L_1$/$L_2$ 轨道的验证）
+- Hou et al., 2011, Station-Keeping of Libration Point Orbits by the Floquet Mode Elimination Approach in the Earth-Moon System, Acta Astronautica，Floquet 策略的完整框架与其在地月系 $L_1$/$L_2$ 轨道的验证，题录待补
 
-- Folta et al., 2010, Applications Of Libration Point Orbit Transfers In The Earth-Moon System, AAS 10-139（ARTEMIS 任务中轨道平衡法的设计、VF13AD 优化器的使用及实际机动方案）
+- Folta et al., 2010, Applications Of Libration Point Orbit Transfers In The Earth-Moon System, AAS 10-139，ARTEMIS 任务中轨道平衡法的设计、VF13AD 优化器的使用及实际机动方案，题录待补
 
-- Folta & Vaughn, 2004, A Survey of Earth-Moon Libration Orbits: Stationkeeping Strategies and Intra-Orbit Transfers, AIAA-2004-4741（三类站保持策略的系统综述，含 dLQR、微分校正和 x-y 轴方向控制的年维持代价数据）
-
-- Gao et al., 2023, Low-Thrust Station-Keeping Control for Lunar Near Rectilinear Halo Orbits（基于准 Floquet 变换的模态基底在低推力连续控制下的改进）
-
-- 2024, 宇航学报，doi:10.3873/j.issn.1000-1328.2024.09.007（Floquet 模态法的最新中文综述，含 δ 阈值设定与机动频次的定量关系）
+- 闫雪梅等, 2024, *基于弗洛凯特理论的Halo轨道辐轮构型编队控制设计*, 宇航学报, 45(9): 1408, DOI: 10.3873/j.issn.1000-1328.2024.09.007，Floquet 模态法的最新中文综述，含 δ 阈值设定与机动频次的定量关系

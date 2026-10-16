@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a
 
 ## 定义
 
-在天然不变流形的基础上施加微小速度增量调整后形成的修正流形。天然不变流形的近月点月心距通常不等于目标环月轨道半径，通过在Halo轨道入轨点处加入脉冲变轨，可使流形的近月点满足月心距约束。受摄流形是两脉冲转移轨道设计的基础，将天然流形的刚性放松为弹性，扩大了可转移的相位范围。
+在天然不变流形的基础上施加微小速度增量调整后形成的修正流形。天然不变流形的近月点月心距通常不等于目标环月轨道半径，通过在Halo轨道入轨点处加入脉冲变轨，可使流形的近月点满足月心距约束。受摄流形是两脉冲转移轨道设计的基础，将天然流形的刚性放松为弹性，扩大了可转移的相位范围\cite{PengKunJiYuBuBianLiuXingDeDiYueL2DianHaloGuiDaoZhuanYiGuiDaoSheJi2016}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a
 - 非线性规划（Nonlinear Programming）
 - [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/jacobi-integral/)
 - [形状基方法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
-
-## 参考文献
-
-- 彭坤 等 - 2016 - 基于不变流形的地月L2点Halo轨道转移轨道设计。

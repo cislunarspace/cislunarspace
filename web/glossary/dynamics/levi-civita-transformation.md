@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/levi-civita-transformation/
 
 ## 定义
 
-平面两体问题和圆型限制性三体问题碰撞奇点的正则化变换。通过二次变换将碰撞处的速度奇异消除，是局部正则化方法。
+平面两体问题和圆型限制性三体问题碰撞奇点的正则化变换。通过二次变换将碰撞处的速度奇异消除，是局部正则化方法\cite{cellettiStabilityChaosCelestial2010}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/levi-civita-transformation/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
-
-## 参考文献
-
-- Celletti - 2010 - Stability and chaos in celestial mechanics

@@ -45,4 +45,4 @@ Halo轨道维持的两种基本策略之一，由Farquhar和Breakwell提出。�
 
 ## 参考文献
 
-- Farquhar R W. Fifty years on the space frontier[M]. Outskirts Press, 2011
+- Farquhar, 2011, *Fifty Years on the Space Frontier: Halo Orbits, Comets, Asteroids, and More*, Outskirts Press

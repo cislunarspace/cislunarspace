@@ -43,4 +43,4 @@ permalink: /glossary/dynamics/lagrange-relaxation/
 
 ## 参考文献
 
-- Yuan 等 - 2024
+- Yuan 等 - 2024，题录待补

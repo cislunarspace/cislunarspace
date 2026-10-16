@@ -54,11 +54,11 @@ $$d_i = \sum_{m=1}^{M} \frac{f_m^{i+1} - f_m^{i-1}}{f_m^{\max} - f_m^{\min}}$$
 
 ## 在地月空间SSA架构设计中的应用
 
-Klonowski (2025) 在地月空间态势感知架构设计中，采用 MO-MCTS 和 NSGA II 的混合算法优化观测卫星配置：
+Klonowski（2025）在地月空间态势感知架构设计中，采用 MO-MCTS 和 NSGA II 的混合算法优化观测卫星配置：
 
 - MO-MCTS 用于全局搜索帕累托最优架构
 - NSGA II 用于局部优化和种群的更新维护
-- 聚类分析（如 K-Medoids）用于识别不同类型的架构配置
+- 聚类分析（如 K-Medoids）用于识别不同类型的架构配置\cite{klonowskiCislunarSpaceDomain2024}
 
 ## 核心要素
 
@@ -82,5 +82,4 @@ NSGA II 适用于连续和离散变量的多目标优化问题，广泛应用于
 
 ## 参考文献
 
-- Deb K, Pratap A, Agarwal S, et al. A fast and elitist multiobjective genetic algorithm: NSGA-II[J]. IEEE Transactions on Evolutionary Computation, 2002.
-- Klonowski M, Owens-Fahrner N, Heidrich C, et al. Cislunar space domain awareness architecture design and analysis for cooperative agents[J]. The Journal of the Astronautical Sciences, 2024.
+- Deb et al., 2002, *A fast and elitist multiobjective genetic algorithm: NSGA-II*, IEEE Transactions on Evolutionary Computation, 6(2): 182-197, DOI: 10.1109/4235.996017

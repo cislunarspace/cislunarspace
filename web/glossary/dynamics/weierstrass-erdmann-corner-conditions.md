@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/weierstrass-erdmann-corner-conditions/
 
 ## 参考文献
 
-- Grossi 等 - 2024。
+- Grossi 等，2024，题录待补

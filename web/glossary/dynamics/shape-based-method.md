@@ -30,13 +30,13 @@ permalink: /glossary/dynamics/shape-based-method/
 
 ## 定义
 
-形状基方法（shape-based method）是一类小推力轨迹的近似解析设计法：用含少量待定参数的解析函数（形状函数）描述转移轨道的几何形状，通常是极径 $r(\theta)$ 或速度矢量 $\boldsymbol{v}(t)$，再由逆动力学（inverse dynamics）从形状反算出推力加速度 $\boldsymbol{u}(t)$ 和飞行时间。它不求解完整的最优控制问题，只把无限维的轨迹优化降为有限维参数优化，因此算得快、便于全局搜索，但形状受所选函数族限制，得到的解一般非真正最优（Petropoulos & Longuski 2004；Conway 2010；Vellutini & Avanzini 2014）。
+形状基方法（shape-based method）是一类小推力轨迹的近似解析设计法：用含少量待定参数的解析函数（形状函数）描述转移轨道的几何形状，通常是极径 $r(\theta)$ 或速度矢量 $\boldsymbol{v}(t)$，再由逆动力学（inverse dynamics）从形状反算出推力加速度 $\boldsymbol{u}(t)$ 和飞行时间。它不求解完整的最优控制问题，只把无限维的轨迹优化降为有限维参数优化，因此算得快、便于全局搜索，但形状受所选函数族限制，得到的解一般非真正最优，相关讨论另见 Petropoulos 和 Longuski 2004\cite{conwaySpacecraftTrajectoryOptimization2010,vellutiniShapebasedDesignLowthrust2014}。
 
 工程上的定位：形状基方法用于初值生成和全局剪枝：在大量候选方案中快速找到近似可行的转移，再交给 [直接配点](/glossary/dynamics/differential-correction/)、[HDDP](/glossary/dynamics/hddp/) 或 [间接法](/glossary/dynamics/indirect-methods/) 做精确优化。
 
 ## Petropoulos 指数正弦曲线
 
-在中心引力 + 切向推力假设下，Petropoulos（Petropoulos & Longuski 2004）发现如下指数正弦
+在中心引力 + 切向推力假设下，Petropoulos 和 Longuski 于 2004 年发现如下指数正弦
 
 $$
 r(\theta) = k_0\,\exp\!\big[k_1\sin(k_2\theta+\phi)\big]
@@ -52,17 +52,17 @@ $$
 
 可行性条件 $|k_1 k_2^2|<1$。当 $|k_1 k_2^2|\ge 1$ 时 $\dot\theta^2$ 在某些 $\theta$ 处变负（角速率虚化）、或 $a$ 发散，形状不可飞。这是形状基方法最重要的约束。
 
-Izzo（2006）的多圈 Lambert 类比。给定 $r_1, r_2, \Delta\theta$ 与转移时间 $t_f$，把多圈 Lambert 问题推广到指数正弦：$k_2$ 固定时一族以 $\gamma_1$（初始航迹角）为参数的曲线穿过两端点，可行性给出 $\tan\gamma_1$ 的二次不等式，从而解析界定 $\gamma_1$ 的可行区间。这是低推力全局优化的低推力 Lambert 求解器。
+Izzo 给出了多圈 Lambert 类比\cite{izzoLambertsProblemExponential2006}。给定 $r_1, r_2, \Delta\theta$ 与转移时间 $t_f$，把多圈 Lambert 问题推广到指数正弦：$k_2$ 固定时一族以 $\gamma_1$（初始航迹角）为参数的曲线穿过两端点，可行性给出 $\tan\gamma_1$ 的二次不等式，从而解析界定 $\gamma_1$ 的可行区间。这是低推力全局优化的低推力 Lambert 求解器。
 
 ## 其他形状函数族
 
-逆多项式（Wall & Conway）。 Wall 与 Conway（2010）提出五阶、六阶逆多项式 $r(\theta)=1/\sum_{i} a_i\theta^i$，参数更多、能拟合更一般的轨迹（含非切向推力分量），适合交会、拦截等固定时间问题，但代价是维度灾难：参数空间的网格搜索成本随阶数增长。
+逆多项式（Wall & Conway）。 Wall 与 Conway 在 2010 年提出五阶、六阶逆多项式 $r(\theta)=1/\sum_{i} a_i\theta^i$，参数更多、能拟合更一般的轨迹（含非切向推力分量），适合交会、拦截等固定时间问题，但代价是维度灾难：参数空间的网格搜索成本随阶数增长。
 
 速度 Hodograph 法。把速度矢量 $\boldsymbol{v}(t)$（而非位置）表示为时间或真近点角的形状函数，由 $\dot{\boldsymbol{r}}=\boldsymbol{v}$ 反求位置、由运动方程反求推力。优点是速度边界条件直接、便于处理速度匹配的交会问题，被用于地球–火星、地球–水星、小行星/彗星任务。
 
 Forbes 螺线、Lawden 螺线、对数螺线。经典解析螺线族，参数更少但表达力有限，多用于教学与初筛。
 
-## CR3BP 修正指数正弦（Vellutini & Avanzini 2014）
+## CR3BP 修正指数正弦
 
 经典指数正弦只在单中心引力下成立，地月 $L_1$ 转移中月球引力不可忽略。Vellutini & Avanzini 在原指数正弦上加一项沿主天体连线方向变形
 
@@ -96,9 +96,6 @@ $$
 
 ## 参考文献
 
-- Petropoulos, A. E., Longuski, J. M., 2004, "Shape-based algorithm for the automated design of low-thrust, gravity-assist trajectories," *J. Spacecr. Rockets*（指数正弦曲线的奠基论文）。
-- Izzo, D., 2006, "Lambert's problem for exponential sinusoids," *J. Guid. Control Dyn.*, DOI: 10.2514/1.21796（多圈低推力 Lambert 问题，$\tan\gamma_1$ 可行区间）。
-- Wall, B. J., Conway, B. A., 2010, "Shape-based approach to low-thrust rendezvous trajectory design," *J. Guid. Control Dyn.*（逆多项式形状函数）。
-- Vellutini, E., Avanzini, G., 2014, "Shape-Based Design of Low-Thrust Trajectories to Cislunar Lagrangian Point," *J. Guid. Control Dyn.*, DOI: 10.2514/1.G000165（CR3BP 修正指数正弦，地月 $L_1$ 转移）。
-- Conway, B. A. (ed.), 2010, *Spacecraft Trajectory Optimization*（教材，形状基方法一章）。
-- 平动点周期轨道间小推力转移的 Gauss 伪谱法相关研究（振幅-相位形状函数）。
+- Petropoulos, Longuski, 2004, *Shape-Based Algorithm for the Automated Design of Low-Thrust, Gravity Assist Trajectories*, Journal of Spacecraft and Rockets, 41(5): 787-796, DOI: 10.2514/1.13095，指数正弦曲线的奠基论文
+- Wall, Conway, 2009, *Shape-Based Approach to Low-Thrust Rendezvous Trajectory Design*, Journal of Guidance, Control, and Dynamics, 32(1): 95-101, DOI: 10.2514/1.36848，逆多项式形状函数
+- 周敬, 胡军, 2020, *平动点周期轨道间小推力转移的Gauss伪谱法*, 中国空间科学技术, 40(5): 42-52, DOI: 10.16708/j.cnki.1000-758X.2020.0057，振幅-相位形状函数

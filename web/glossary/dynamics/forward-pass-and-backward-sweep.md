@@ -45,4 +45,6 @@ DDP 算法的两个核心计算步骤。前向传播从初始状态出发，按�
 
 ## 参考文献
 
-- Mayne 1966; Lantoine & Russell 2012, JOTA; Aziz et al. 2019, JGCD
+- Mayne, 1966, *A second-order gradient method for determining optimal trajectories of non-linear discrete-time systems*, International Journal of Control, 3(1): 85-95, DOI: 10.1080/00207176608921369
+- Lantoine and Russell, 2012, *A Hybrid Differential Dynamic Programming Algorithm for Constrained Optimal Control Problems. Part 1: Theory*, Journal of Optimization Theory and Applications, 154(2): 382-417, DOI: 10.1007/s10957-012-0039-0
+- Aziz, Scheeres and Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617

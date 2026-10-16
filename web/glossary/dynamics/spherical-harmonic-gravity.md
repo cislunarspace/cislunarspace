@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/spherical-harmonic-gravity/
 
 ## 定义
 
-用球谐函数展开表示真实地球引力位的模型，考虑了地球非球形引力效应。展开系数包括带谐系数（Jl）和扇谐系数（Clm, Slm），用于高精度轨道计算。
+用球谐函数展开表示真实地球引力位的模型，考虑了地球非球形引力效应\cite{valladoFundamentalsAstrodynamicsApplications2022}。展开系数包括带谐系数（Jl）和扇谐系数（Clm, Slm），用于高精度轨道计算。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/spherical-harmonic-gravity/
 - [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
-
-## 参考文献
-
-- Vallado - 2022 - Fundamentals of astrodynamics and applications

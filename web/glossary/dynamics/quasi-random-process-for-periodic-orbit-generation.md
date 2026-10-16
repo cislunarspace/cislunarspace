@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/quasi-random-process-for-periodic-orbit-generation
 
 ## 参考文献
 
-- Wilmer 等 - 2025
+- Wilmer et al., 2025, *Preliminary Investigation and Proposal of Periodic Orbits and Their Utilization for Logistics in the Cislunar Regime*, Space Policy, 71: 101635, DOI: 10.1016/j.spacepol.2024.101635

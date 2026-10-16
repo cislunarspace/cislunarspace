@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/indirect-gravitational-perturbation/
 
 ## 参考文献
 
-- 钱霙婧等, 2013, 宇航学报
+- 钱霙婧等, 2013, 宇航学报，题录待补

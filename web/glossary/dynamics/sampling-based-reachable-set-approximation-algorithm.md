@@ -43,4 +43,4 @@ permalink: /glossary/dynamics/sampling-based-reachable-set-approximation-algorit
 
 ## 参考文献
 
-- Bowerfind和Taheri - 2024
+- Bowerfind and Taheri, 2024, *Rapid Approximation of Low-Thrust Spacecraft Reachable Sets within Complex Two-Body and Cislunar Dynamics*, Aerospace, 11(5): 380, DOI: 10.3390/aerospace11050380

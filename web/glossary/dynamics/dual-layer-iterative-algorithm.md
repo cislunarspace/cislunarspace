@@ -45,5 +45,5 @@ Sukhanov 和 Prado 提出的基于参考轨道同时修正初始和末端位置�
 
 ## 参考文献
 
-- Sukhanov and Prado (2004)
-- Shi et al. (2025)
+- Sukhanov and Prado, 2004, *Lambert problem solution in the hill model of motion*, Celestial Mechanics and Dynamical Astronomy, 90(3-4): 331-354, DOI: 10.1007/s10569-004-1508-z
+- Shi et al., 2025, *Review of Cislunar Space Transfer Trajectory Design Based on Impulsive*, IFAC-PapersOnLine, 59(20): 381-386, DOI: 10.1016/j.ifacol.2025.11.180

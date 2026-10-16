@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/non-spherical-gravity-perturbation/
 
 非球形引力摄动（non-spherical gravity perturbation，又称非球形摄动、aspherical gravity perturbation）是天体实际引力场偏离理想均匀球体所产生的附加引力加速度。均匀球体的引力可等效为质点引力（Newton 二体问题）。但真实天体因自转、内部质量分布不均，几何形状与质量分布都偏离球对称，由此产生的引力差异就是非球形摄动。
 
-它是保守摄动，可用引力势函数 $U$ 的梯度表达 $\mathbf{a} = \nabla U$，并通过球谐函数展开（spherical harmonic expansion）来建模（Vallado 2022, Ch. 8.6.1）：
+它是保守摄动，可用引力势函数 $U$ 的梯度表达 $\mathbf{a} = \nabla U$，并通过球谐函数展开（spherical harmonic expansion）来建模，见该文第 8.6.1 节\cite{valladoFundamentalsAstrodynamicsApplications2022}：
 
 $$
 U(r, \phi, \lambda) = \frac{\mu}{r} \sum_{\ell=0}^{\infty} \sum_{m=0}^{\ell} \left(\frac{R_e}{r}\right)^{\ell} P_{\ell m}(\sin\phi) \left[ C_{\ell m} \cos m\lambda + S_{\ell m} \sin m\lambda \right]
@@ -42,7 +42,7 @@ $$
 
 ## 球谐项的分类
 
-按 $(\ell, m)$ 的组合，球谐项分为三类（Vallado 2022, Ch. 8.6.1）：
+按 $(\ell, m)$ 的组合，球谐项分为三类：
 
 - 带谐项（zonal harmonics, $m = 0$）：仅与纬度有关，与经度无关，在球面上呈纬度带分布。$J_2$ 是带谐项之一，反映赤道隆起（扁率）。$J_3$ 反映南北不对称（梨形）。$J_4, J_5, \dots$ 描述更高阶的纬度结构。
 
@@ -52,7 +52,7 @@ $$
 
 ## J2 项：主导的扁率摄动
 
-$J_2$（Earth oblateness, $J_2 \approx 1.0826 \times 10^{-3}$）是非球形引力场中最大的项，描述地球赤道隆起（极半径比赤道半径短约 21 km）。它对近地轨道产生两个关键的长期效应（Vallado 2022, Ch. 9.6.1）：
+$J_2$（Earth oblateness, $J_2 \approx 1.0826 \times 10^{-3}$）是非球形引力场中最大的项，描述地球赤道隆起（极半径比赤道半径短约 21 km）。它对近地轨道产生两个关键的长期效应：
 
 $$
 \dot{\Omega} = -\frac{3}{2} J_2 \frac{R_e^2}{a^2(1-e^2)^2} n \cos i \quad \text{（升交点赤经进动，即"回归"）}
@@ -72,7 +72,7 @@ $$
 
 ## 地球非球形引力场
 
-地球引力场模型（EGM96、EGM2008、JGM-3、GGM series）通过卫星测高、卫星激光测距（SLR）、重力测量（GOCE、GRACE）联合求解，最高展开至 $\ell_{max} = 2190$。在轨道力学中通常用 70×70（LEO 高精度）或 5×5（地月空间）就足够（Vallado 2022, Ch. 8.6.1；Framework paper, 2023）。
+地球引力场模型（EGM96、EGM2008、JGM-3、GGM series）通过卫星测高、卫星激光测距（SLR）、重力测量（GOCE、GRACE）联合求解，最高展开至 $\ell_{max} = 2190$。在轨道力学中通常用 70×70（LEO 高精度）或 5×5（地月空间）就足够，见 Vallado 2022 年第 8.6.1 节与 2023 年的模型框架论文。
 
 参考椭球参数：
 
@@ -86,7 +86,7 @@ $$
 
 ## 月球非球形引力场
 
-月球引力场与地球显著不同，呈现以下特点（Vallado 2022, Ch. 8.6.1；Folta et al. 2010；LP-150Q 模型）：
+月球引力场与地球显著不同，呈现以下特点，相关建模可参见 Vallado 2022 年第 8.6.1 节、Folta 等 2010 年的工作\cite{foltaStationkeepingLissajousTrajectories2010}、LP-150Q 模型：
 
 - 远端未知：由于潮汐锁定，月球始终以一面朝向地球，远端引力场早期只能靠 Apollo 残差间接估计。GRAIL 任务（2012）才大幅改善。
 
@@ -100,7 +100,7 @@ $$
 
 ## 模型选择（地月空间）
 
-按轨道区选模（Vallado 2022, Ch. 8；Framework paper, 2023）：
+按轨道区选模，依据见 Vallado 2022 年第 8 章与 2023 年的模型框架论文：
 
 | 轨道 | 地球引力场阶次 | 月球引力场阶次 |
 |------|---------------|---------------|
@@ -111,7 +111,7 @@ $$
 | 月球低轨（LLO） | 不需要 | 50×50 或更高 |
 | 地月平动点 | 4×4 | 4×4 |
 
-球谐函数展开在月球远端和极区收敛性差，对 LLO 精密定轨常改用点质量模型（point-mass model）作为补充。
+球谐函数展开在月球远端和极区收敛性差，对 LLO 精密定轨常改用点质量模型（point-mass model）作为补充\cite{PengQiBoZaiRenDengYueDiYueZhuanYiGuiDaoFangAnZongShu2016}。
 
 ## 相关概念
 
@@ -135,10 +135,6 @@ $$
 
 ## 参考文献
 
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications（Ch. 8.6.1 Gravity Field of a Central Body：球谐函数展开推导、带谐/田谐/扇谐分类、J2 项；Ch. 9.6.1：J2 长期效应公式；Ch. 8.6.3：月球引力场的特殊性）
+- Witte, Langbroek & Dirkx, 2024, *A Model Framework for High-Accuracy, Short- And Long-Term Orbit Determination and Propagation of Cislunar Space Debris, with Realistically Quantified Uncertainties*, 22nd IAA Symposium on Space Debris, 798-815, DOI: 10.52202/078360-0074，地月空间碎片定轨：地球 5×5 球谐 + 月球点质量的实践依据
 
-- A model framework for high-accuracy orbit determination and propagation of cislunar space debris, 2023（地月空间碎片定轨：地球 5×5 球谐 + 月球点质量的实践依据）
-
-- 彭祺擘、张海联, 2016, 载人登月地月转移轨道方案综述（地月转移轨道力学模型配置）
-
-- Folta et al., 2010, Earth-Moon libration point orbit stationkeeping（$J_2$ 对地月平动点轨道的微小影响）
+- Folta et al., 2014, *Earth-Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421-433, DOI: 10.1016/j.actaastro.2013.01.022，$J_2$ 对地月平动点轨道的微小影响

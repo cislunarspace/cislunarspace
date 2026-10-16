@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/goodings-method/
 
 ## Gooding 的两个不同方法
 
-Gooding（1990）Lambert 算法。现代最广泛使用的 Lambert 求解器之一，给出由 $\boldsymbol{r}_1, \boldsymbol{r}_2, t_f$ 计算 $\boldsymbol{v}_1$ 的高效稳定算法。算法用 Lagrange 形式的飞行时间方程（半长轴或等价变量的函数），结合超几何函数与一个高效率的初值猜测（覆盖多圈、短/长途径、椭圆/抛物/双曲分支），数值性能与稳健性优于 Gauss 原始方法（Battin 1999；Vallado 2022）。多数现代 Lambert 实现都以 Gooding 算法作为基准。
+Gooding（1990）Lambert 算法。现代最广泛使用的 Lambert 求解器之一，给出由 $\boldsymbol{r}_1, \boldsymbol{r}_2, t_f$ 计算 $\boldsymbol{v}_1$ 的高效稳定算法。算法用 Lagrange 形式的飞行时间方程（半长轴或等价变量的函数），结合超几何函数与一个高效率的初值猜测（覆盖多圈、短/长途径、椭圆/抛物/双曲分支），数值性能与稳健性优于 Gauss 原始方法\cite{valladoFundamentalsAstrodynamicsApplications2022}，Battin 1999 年的教材对此有系统论述。多数现代 Lambert 实现都以 Gooding 算法作为基准。
 
 Gooding（1996）三视线初轨确定（IOD）方案。与 Lambert 算法不同，这是从三个视线方向观测确定一条轨道的方法。最小情况下仅需三个方向观测 $\hat{\boldsymbol{\rho}}_1, \hat{\boldsymbol{\rho}}_2, \hat{\boldsymbol{\rho}}_3$，方案把 IOD 化为反复求解一个 Lambert 问题（给定两端距离 + 时间，求速度），迭代收敛到一致的轨道。形式简洁、计算高效，可自然推广到多观测数据。
 
@@ -46,7 +46,7 @@ Lambert 问题最终归结为求一个标量方程（飞行时间方程）的根
 
 Householder 方法。高阶迭代法，$p$ 阶 Householder 用到 $f$ 的前 $p$ 阶导数，收敛阶为 $p+1$。三阶 Householder（$\mathcal{O}(4)$ 收敛）在 Lambert 问题中常用，几次迭代即达机器精度。代价是每次迭代要算 $f', f'', f'''$，对复杂飞行时间函数不便宜。
 
-Powell 混合算法（Powell's hybrid method）。把 Newton 法与割线法思路混合：在离根较远时用更稳健的步长限制，靠近根后切换到快速 Newton 收敛。Powell 1970 原作用于非线性方程组。在延拓法（continuation method）的每一步成功积分后做修正迭代时常被引用（Yoon & Petukhov 2023 在月球低推力转移中用）。
+Powell 混合算法（Powell's hybrid method）。把 Newton 法与割线法思路混合：在离根较远时用更稳健的步长限制，靠近根后切换到快速 Newton 收敛。Powell 1970 原作用于非线性方程组。在延拓法（continuation method）的每一步成功积分后做修正迭代时常被引用，月球低推力转移中即用到这一思路\cite{yoonMinimumfuelLowthrustTrajectories2023}。
 
 双点迭代法（two-point method / 割线法 secant）。用前两次出离角与飞行时间的估计值，构造割线
 
@@ -54,7 +54,7 @@ $$
 \gamma_{n+1} = \gamma_n - (\gamma_n - \gamma_{n-1})\frac{t_n - t_f}{t_n - t_{n-1}},
 $$
 
-每步只需一次函数求值（无需导数），实现简单。Nelson & Zarchan（1992）把这一思路用于 Lambert 问题，把迭代变量从半长轴换成出离角（flight-path angle），因为飞行时间对出离角的二阶导较小，割线法表现良好。典型算例 8 位有效精度只需数次迭代。
+每步只需一次函数求值（无需导数），实现简单。Nelson & Zarchan（1992）把这一思路用于 Lambert 问题，把迭代变量从半长轴换成出离角（flight-path angle），因为飞行时间对出离角的二阶导较小，割线法表现良好\cite{nelsonAlternativeApproachSolution1992}。典型算例 8 位有效精度只需数次迭代。
 
 取舍。 Householder 收敛快但需高阶导。Newton（二阶）折中。割线/双点法只需函数值但收敛阶 $\approx 1.618$。Lambert 问题中飞行时间函数性态良好，工程上Gooding 算法 + 内置切换的多圈处理通常胜过裸用上述任一方法。
 
@@ -66,11 +66,11 @@ $$
 \delta\dot{\boldsymbol{x}} = \boldsymbol{A}(t)\delta\boldsymbol{x} + \boldsymbol{B}(t)\delta\boldsymbol{u},\qquad \boldsymbol{A}=\partial\boldsymbol{f}/\partial\boldsymbol{x}\big|_{\bar{\boldsymbol{x}},\bar{\boldsymbol{u}}},\ \ \boldsymbol{B}=\partial\boldsymbol{f}/\partial\boldsymbol{u}\big|_{\bar{\boldsymbol{x}},\bar{\boldsymbol{u}}}。
 $$
 
-求解线性 TPBVP 得到 $\delta\boldsymbol{x},\delta\boldsymbol{u}$，更新 $\bar{\boldsymbol{x}}\leftarrow\bar{\boldsymbol{x}}+\delta\boldsymbol{x}$，重复。与一阶微分修正（differential correction）相比，拟线性化在更新中考虑了二阶项，二阶收敛、收敛后精度更高，适合在轨自主制导场景（Wang 等 2024 用于地月低能转移自主制导）。代价是每步需要构造并求解线性 TPBVP（通常用 [多重打靶](/glossary/dynamics/differential-correction/) 或 [状态转移矩阵](/glossary/dynamics/variational-equations/)）。
+求解线性 TPBVP 得到 $\delta\boldsymbol{x},\delta\boldsymbol{u}$，更新 $\bar{\boldsymbol{x}}\leftarrow\bar{\boldsymbol{x}}+\delta\boldsymbol{x}$，重复。与一阶微分修正（differential correction）相比，拟线性化在更新中考虑了二阶项，二阶收敛、收敛后精度更高，适合在轨自主制导场景，地月低能转移自主制导中即为一例\cite{wangLowenergyEarthMoon2024}。代价是每步需要构造并求解线性 TPBVP（通常用 [多重打靶](/glossary/dynamics/differential-correction/) 或 [状态转移矩阵](/glossary/dynamics/variational-equations/)）。
 
 ## 阻尼二分修正（Damped Bisection Correction）
 
-平动点轨道保持的机动定位中，标准微分修正（基于一阶 STM）在 Halo 轨道附近的强非线性相空间中容易发散，或收敛到所需 $\Delta V$ 过大的解。阻尼二分修正法（Folta 等 2010）是一种鲁棒的回退策略：当迭代进入错误区域（积分到达时间上限仍未满足约束条件）时，自动把速度修正量减半并回退，逐步缩小修正步长，直至迭代跳出错误区域并找到满足终止条件的解。
+平动点轨道保持的机动定位中，标准微分修正（基于一阶 STM）在 Halo 轨道附近的强非线性相空间中容易发散，或收敛到所需 $\Delta V$ 过大的解。阻尼二分修正法是 Folta 等 2010 年提出的一种鲁棒的回退策略：当迭代进入错误区域（积分到达时间上限仍未满足约束条件）时，自动把速度修正量减半并回退，逐步缩小修正步长，直至迭代跳出错误区域并找到满足终止条件的解。
 
 算法流程：
 
@@ -100,12 +100,8 @@ $$
 
 ## 参考文献
 
-- Gooding, R. H., 1990, A procedure for the solution of Lambert's orbital boundary-value problem, *Celest. Mech. Dyn. Astron.*（Gooding Lambert 算法）。
-- Gooding, R. H., 1996, A new procedure for the solution of the classical problem of minimal orbit determination from three lines of sight, *Celest. Mech. Dyn. Astron.*（Gooding 三视线 IOD 方案）。
-- Battin, R. H., 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*（Lambert 问题与飞行时间方程的经典教材）。
-- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*（现代 Lambert 算法的工程对比基准）。
-- Nelson, S., Zarchan, P., 1992, Alternative approach to the solution of Lambert's problem, *J. Guid. Control Dyn.*（出离角迭代 + 双点/割线法）。
-- Powell, M. J. D., 1970, A hybrid method for nonlinear equations（Powell 混合算法）。
-- Wang, Y., et al., 2024, Low-energy earth–moon transfer autonomous guidance considering high-fidelity orbital dynamics（拟线性化用于地月低能转移自主制导）。
-- Folta, D., et al., 2010（阻尼二分修正应用于平动点轨道保持）。
-- Yoon, S., Petukhov, V., 2023, Minimum-fuel low-thrust trajectories to the moon（Powell 混合在延拓法中的应用）。
+- Gooding, 1990, *A procedure for the solution of Lambert's orbital boundary-value problem*, Celestial Mechanics and Dynamical Astronomy, 48(2): 145-165, DOI: 10.1007/BF00049511，Gooding Lambert 算法
+- Gooding, 1996, *A new procedure for the solution of the classical problem of minimal orbit determination from three lines of sight*, Celestial Mechanics and Dynamical Astronomy, 66(4): 387-423, DOI: 10.1007/BF00049379，Gooding 三视线 IOD 方案
+- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, American Institute of Aeronautics and Astronautics, Reston, DOI: 10.2514/4.861543，Lambert 问题与飞行时间方程的经典教材
+- Powell, 1970, *A hybrid method for nonlinear equations*, in Rabinowitz, P. (ed.), Numerical Methods for Nonlinear Algebraic Equations, Gordon and Breach, London, 87-114，Powell 混合算法
+- Folta, D., et al., 2010，阻尼二分修正应用于平动点轨道保持，题录待补

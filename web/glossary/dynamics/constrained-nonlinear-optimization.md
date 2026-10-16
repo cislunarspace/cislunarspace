@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/constrained-nonlinear-optimization/
 
 ## 定义
 
-在给定约束条件下寻找目标函数最优解的非线性优化方法。本文用MATLAB的fmincon优化直接转移轨迹，以DRO插入速度增量最小化为目标。
+在给定约束条件下寻找目标函数最优解的非线性优化方法。本文用MATLAB的fmincon优化直接转移轨迹，以DRO插入速度增量最小化为目标\cite{welchMissionConsiderationsTransfers2015a}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/constrained-nonlinear-optimization/
 - 可达集（Reachability Set）
 - 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - 拉普拉斯方法（Laplace Method）
-
-## 参考文献
-
-- Welch et al., 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit

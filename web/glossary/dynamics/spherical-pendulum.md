@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/spherical-pendulum/
 
 ## 参考文献
 
-- Meyer和Offin - 2017
+- Meyer and Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, 3rd ed., Springer, DOI: 10.1007/978-3-319-53691-0

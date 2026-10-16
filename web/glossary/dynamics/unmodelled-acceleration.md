@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/unmodelled-acceleration/
 
 ## 参考文献
 
-- Analysis of Autonomous Orbit Determination in Various Near-Moon Periodic Orbits (Qi & Oguri, 2023)
+- Qi & Oguri, 2023, *Analysis of Autonomous Orbit Determination in Various Near-Moon Periodic Orbits*, The Journal of the Astronautical Sciences, 70(6): 49, DOI: 10.1007/s40295-023-00415-6

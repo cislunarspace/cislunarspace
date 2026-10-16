@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lagrange-stability/
 
 ## 定义
 
-轨道在未来所有时间内保持有界的性质，是三体运动的基本稳定性概念。
+轨道在未来所有时间内保持有界的性质，是三体运动的基本稳定性概念\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/lagrange-stability/
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
 - 空间流形动力学（Space Manifold Dynamics, SMD）
 - [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/orbital-coordinate-frames/)
-
-## 参考文献
-
-- Marchal - 1990 - The three-body problem

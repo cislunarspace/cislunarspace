@@ -46,4 +46,4 @@ permalink: /glossary/dynamics/tangential-impulsive-maneuver/
 
 ## 参考文献
 
-- Transfer to Distant Retrograde Orbits Using Manifold Theory
+- Demeyer, Gurfil, 2007, *Transfer to Distant Retrograde Orbits Using Manifold Theory*, Journal of Guidance, Control, and Dynamics, 30(5): 1261-1267, DOI: 10.2514/1.24960

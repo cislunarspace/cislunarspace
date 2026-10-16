@@ -45,4 +45,4 @@ permalink: /glossary/dynamics/3-1-3-euler-angle-sequence/
 
 ## 参考文献
 
-- Howell and Kakoi, 2006, Acta Astronautica
+- Howell and Kakoi, 2006, *Transfers between the Earth–Moon and Sun–Earth systems using manifolds and transit orbits*, Acta Astronautica, 59(1–5): 367–380, DOI: 10.1016/j.actaastro.2006.02.010

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/debris-cloud-evolution/
 
 ## 定义
 
-航天器解体后产生的碎片群在地月空间多体引力场中的时空演变过程。论文通过100年长期传播评估碎片与月球、地球碰撞以及进入受保护区域的时间特性。
+航天器解体后产生的碎片群在地月空间多体引力场中的时空演变过程。论文通过100年长期传播评估碎片与月球、地球碰撞以及进入受保护区域的时间特性\cite{aAnalysisAccidentalSpacecraft2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/debris-cloud-evolution/
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/spacecraft-formation-flying/)
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/fundamentals/lamberts-problem/)
 - 探测器定位（Probe Targeting）
-
-## 参考文献
-
-- Guardabasso 等 - 2023 - Analysis of accidental spacecraft break-up events in cislunar space

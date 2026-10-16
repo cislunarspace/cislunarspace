@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/lm/
 - ga
 - moop
 - aa
-
-## 参考文献
-
-无

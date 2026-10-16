@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/characteristic-parameter/
 
 ## 参考文献
 
-- Orbital parameter characterization and objects cataloging for Earth-moon collinear libration points
+- Qiao et al., 2026, *Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points*, Chinese Journal of Aeronautics, 39(4): 103869, DOI: 10.1016/j.cja.2025.103869

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/central-configuration/
 
 ## 定义
 
-三天体加速度均指向质心且与矢径成正比时的构型。包括等边三角形拉格朗日构型和共线欧拉构型两种。
+三天体加速度均指向质心且与矢径成正比时的构型。包括等边三角形拉格朗日构型和共线欧拉构型两种\cite{marchalThreebodyProblem1990}。
 
 ## 应用价值
 
@@ -47,5 +47,4 @@ permalink: /glossary/dynamics/central-configuration/
 
 ## 参考文献
 
-- Meyer和Offin - 2017
-- Marchal - 1990 - The three-body problem
+- Meyer 和 Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, Springer, 3rd ed.

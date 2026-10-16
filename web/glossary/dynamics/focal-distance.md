@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/focal-distance/
 
 ## 定义
 
-描述共线平动点附近轨道几何的参数。
+描述共线平动点附近轨道几何的参数\cite{rossDynamicalSystemsThreebody2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/focal-distance/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Ross 等 - 2022 - Dynamical systems, the three-body problem, and space mission design

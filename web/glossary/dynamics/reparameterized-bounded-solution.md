@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/reparameterized-bounded-solution/
 
 ## 定义
 
-将DRO上线性化相对运动有界解表示为三个振幅和两个初始相角的函数形式，实现参数化设计，便于编队轨道快速设计。
+将DRO上线性化相对运动有界解表示为三个振幅和两个初始相角的函数形式，实现参数化设计，便于编队轨道快速设计\cite{yangCloseRelativeMotion2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/reparameterized-bounded-solution/
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
 - [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
-
-## 参考文献
-
-- Yang 等 - 2023 - Close relative motion on distant retrograde orbits

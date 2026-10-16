@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/chaotic-sea/
 
 ## 定义
 
-Poincaré截面上由混沌轨道填充的连通区域，区别于由不变环面围成的规则岛链。在混沌海中，轨道对初值高度敏感，能够遍历该区域内的所有状态，从而实现不同相空间区域之间的物质传输。论文通过对比不同Jacobi常数下的Poincaré映射发现，随着能量增加（Jacobi常数减小），混沌海不断扩展。当C=3.03时，火星区域和部分地球区域均落入混沌海，此时火星到地球的长时间自然传输成为可能。
+Poincaré截面上由混沌轨道填充的连通区域，区别于由不变环面围成的规则岛链。在混沌海中，轨道对初值高度敏感，能够遍历该区域内的所有状态，从而实现不同相空间区域之间的物质传输。论文通过对比不同Jacobi常数下的Poincaré映射发现，随着能量增加（Jacobi常数减小），混沌海不断扩展。当C=3.03时，火星区域和部分地球区域均落入混沌海，此时火星到地球的长时间自然传输成为可能\cite{renMechanismsNaturalTransport2011}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ Poincaré截面上由混沌轨道填充的连通区域，区别于由不变环�
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
 - [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Ren 等 - 2011 - On the mechanisms of natural transport in the solar system

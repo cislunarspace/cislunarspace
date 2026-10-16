@@ -47,4 +47,4 @@ permalink: /glossary/dynamics/elliptic-region/
 
 ## 参考文献
 
-- Thorne 1996
+- Thorne 1996，题录待补

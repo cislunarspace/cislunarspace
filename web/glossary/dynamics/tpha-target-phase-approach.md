@@ -20,7 +20,7 @@ permalink: /glossary/dynamics/tpha-target-phase-approach/
 
 ## 定义
 
-高阶目标相位法（Target Phase Approach, TPhA）是一种面向平动点周期轨道与拟周期轨道长期维持的高精度控制算法。该算法结合高阶微分代数（Differential Algebra, DA）展开技术，在庞加莱截面上建立包含非线性项的相位角与状态转移映射，通过求解约束优化问题精确计算轨道修正机动历元与控制脉冲矢量。
+高阶目标相位法（Target Phase Approach, TPhA）是一种面向平动点周期轨道与拟周期轨道长期维持的高精度控制算法。该算法结合高阶微分代数（Differential Algebra, DA）展开技术，在庞加莱截面上建立包含非线性项的相位角与状态转移映射，通过求解约束优化问题精确计算轨道修正机动历元与控制脉冲矢量\cite{fuHighorderTargetPhase2024}。
 
 ## 物理机制与工程价值
 
@@ -43,5 +43,4 @@ permalink: /glossary/dynamics/tpha-target-phase-approach/
 
 ## 参考文献
 
-- Fu, B., Gong, S. P., & Li, J. F. A high-order target phase approach for the station-keeping of periodic orbits in the Earth-Moon system. Aerospace Science and Technology, 2024, 145: 108873.
-- Howell, K. C., & Pernicka, H. J. Stationkeeping method for Libration point trajectories. Journal of Guidance, Control, and Dynamics, 1993, 16(1): 151-159.
+- Howell & Pernicka, 1993, *Stationkeeping Method for Libration Point Trajectories*, Journal of Guidance, Control, and Dynamics, 16(1): 151-159, DOI: 10.2514/3.11440
