@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/cr3bp/
 
 ## 定义与分层
 
-圆形限制性三体问题（Circular Restricted Three-Body Problem，CR3BP 或 CRTBP）是地月空间轨道动力学中应用最广泛的数学模型\cite{szebehely1967theory}。它属于限制性三体问题（Restricted Three-Body Problem, R3BP）族，R3BP 是经典三体问题的一个特殊情形，作两条根本简化\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022}：
+圆形限制性三体问题（Circular Restricted Three-Body Problem，CR3BP 或 CRTBP）是地月空间轨道动力学中应用最广泛的数学模型\cite{szebehelyTheoryOrbitRestricted1967}。它属于限制性三体问题（Restricted Three-Body Problem, R3BP）族，R3BP 是经典三体问题的一个特殊情形，作两条根本简化\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022}：
 
 1. 限制性假设：第三体（航天器）质量可忽略，受两个主天体引力作用但不反作用于主天体。
 2. 唯引力假设：仅考虑质点引力，无其他力。
@@ -66,7 +66,7 @@ $$\mu = \frac{m_2}{m_1 + m_2}, \quad m_2 \le m_1$$
 | 日-木系 | $9.537 \times 10^{-4}$ | 行星际传输研究 |
 | 哥本哈根问题 | $0.5$ | 等质量理论基准，见 Szebehely 1967 |
 
-$\mu$ 决定了所有平动点位置、零速度曲面拓扑和轨道族特征\cite{gomezgDengDynamicsMissionDesign2001}。$\mu \to 0$ 的极限退化为 Hill 问题，原点移至较小主天体。
+$\mu$ 决定了所有平动点位置、零速度曲面拓扑和轨道族特征\cite{gomezDynamicsMissionDesign2001f}。$\mu \to 0$ 的极限退化为 Hill 问题，原点移至较小主天体。
 
 ## 动力学方程
 

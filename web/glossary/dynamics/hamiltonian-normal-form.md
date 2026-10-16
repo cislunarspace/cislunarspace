@@ -44,7 +44,7 @@ $$\{F,G\}=\nabla F^{\!\top}J\,\nabla G=\frac{\partial F}{\partial\mathbf{q}^{\!\
 
 ## 生成函数与李变换
 
-正则变换可由生成函数编码。在 Hori 1966、Deprit 1969 与 Meyer 的李级数方法中\cite{depritCanonicalTransformationsDepending1969a,horiTheoryGeneralPerturbations1966}，自治 Hamilton 量 $G$ 生成一个单参数正则变换族 $\boldsymbol{\zeta}\mapsto\mathbf{Z}_t(\boldsymbol{\zeta})$，对任意函数 $F$ 的作用为 $F\mapsto F+\{G,F\}+\tfrac12\{G,\{G,F\}\}+\cdots$，即*李变换*。逐阶选择 $G$ 消去 $H$ 中不需要的项即得正规形\cite{gomezDynamicsMissionDesign2001d}。Hori/Deprit 方法给出了一个递归的、便于计算机代数实现的形式，在天体力学中广泛使用。
+正则变换可由生成函数编码。在 Hori 1966、Deprit 1969 与 Meyer 的李级数方法中\cite{depritCanonicalTransformationsDepending1969a,horiTheoryGeneralPerturbations1966}，自治 Hamilton 量 $G$ 生成一个单参数正则变换族 $\boldsymbol{\zeta}\mapsto\mathbf{Z}_t(\boldsymbol{\zeta})$，对任意函数 $F$ 的作用为 $F\mapsto F+\{G,F\}+\tfrac12\{G,\{G,F\}\}+\cdots$，即*李变换*。逐阶选择 $G$ 消去 $H$ 中不需要的项即得正规形\cite{gomezDynamicsMissionDesign2001Vol2}。Hori/Deprit 方法给出了一个递归的、便于计算机代数实现的形式，在天体力学中广泛使用。
 
 ## 正规形流程与同调方程
 

@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/null-vector/
 
 ## 定义
 
-雅可比矩阵的零空间向量，指向族延拓的切向方向\cite{spreenTrajectoryDesignTargeting2021a}。
+雅可比矩阵的零空间向量，指向族延拓的切向方向\cite{spreenTrajectoryDesignTargeting2021}。
 
 ## 应用价值
 

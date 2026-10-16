@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/forbidden-region/
 
 ## 定义
 
-雅可比常数约束下，航天器因动能不足而无法到达的空间区域\cite{szebehely1967theory}。
+雅可比常数约束下，航天器因动能不足而无法到达的空间区域\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 应用价值
 

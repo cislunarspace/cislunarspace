@@ -46,7 +46,7 @@ CR3BP 状态方程 $\dot{x}=f(x)$ 的变分方程为
 
 $$\dot{\Phi}(t,0)=A(t)\Phi(t,0),\quad A(t)=\frac{\partial f}{\partial x}\bigg|_{x(t)},\quad \Phi(0,0)=I.$$
 
-沿周期轨道 $\Gamma$ 积分一个周期 $T$ 得到 单值矩阵（monodromy matrix） $M=\Phi(T,0)$。$M$ 的特征值决定局部稳定性：Hamilton 系统特征值成倒数与共轭对出现。共线平动点附近的周期轨道通常具有一对实特征值 $\lambda_s<1$、$\lambda_u=1/\lambda_s>1$（双曲方向），以及两对模为 1 的复特征值（中心方向），即 saddle×center×center 结构，另见 Szebehely 1967\cite{szebehely1967theory}。
+沿周期轨道 $\Gamma$ 积分一个周期 $T$ 得到 单值矩阵（monodromy matrix） $M=\Phi(T,0)$。$M$ 的特征值决定局部稳定性：Hamilton 系统特征值成倒数与共轭对出现。共线平动点附近的周期轨道通常具有一对实特征值 $\lambda_s<1$、$\lambda_u=1/\lambda_s>1$（双曲方向），以及两对模为 1 的复特征值（中心方向），即 saddle×center×center 结构，另见 Szebehely 1967\cite{szebehelyTheoryOrbitRestricted1967}。
 
 对应 $\lambda_s$、$\lambda_u$ 的特征向量 $v_s$、$v_u$ 给出周期轨道上每一点的局部稳定/不稳定方向。若 $x_p(\tau)$ 为轨道上相位 $\tau\in[0,T)$ 处的状态，则流形初值可取
 

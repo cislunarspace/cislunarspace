@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/zero-velocity-surface/
 
 由 [雅可比积分](/glossary/dynamics/jacobi-integral/) $v^2 = 2\Omega - C$ 出发，令 $v=0$，得到位形空间中的等值面
 $$\Omega(x,y,z) = C/2.$$
-它就是 [有效势](/glossary/dynamics/jacobi-integral/) $\Omega$ 的等值面，称作零速度曲面（zero-velocity surface, ZVS）或 Hill 曲面。在会合系的 $xy$ 平面截线称作零速度曲线（zero-velocity curve, ZVC）或 Hill 曲线\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022,szebehely1967theory}。
+它就是 [有效势](/glossary/dynamics/jacobi-integral/) $\Omega$ 的等值面，称作零速度曲面（zero-velocity surface, ZVS）或 Hill 曲面。在会合系的 $xy$ 平面截线称作零速度曲线（zero-velocity curve, ZVC）或 Hill 曲线\cite{szebehelyTheoryOrbitRestricted1967,valladoFundamentalsAstrodynamicsApplications2022}。
 
 零速度意指：航天器若位于此面上，其会合系速度恰好为零，它刚把全部旋转系动能换成了势能。这是航天器在该 C 值下能到达的边界。
 

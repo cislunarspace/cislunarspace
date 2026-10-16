@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/indirect-methods/
 
 ## 定义
 
-间接法（indirect method）是轨迹优化的一类方法：先用 [庞特里亚金极值原理](/glossary/dynamics/pontryagins-maximum-principle/) 把最优控制问题化为一组含必要条件的方程，状态-协态 Hamilton 正则方程加横截条件，得到 两点边值问题（TPBVP），再用打靶、配点或其它数值方法求解该 BVP\cite{bettsSurveyNumericalMethods1998,conwaySpacecraftTrajectoryOptimization2010}，另见 Bryson 与 Ho 1975\cite{brysonAppliedOptimalControl2018}。
+间接法（indirect method）是轨迹优化的一类方法：先用 [庞特里亚金极值原理](/glossary/dynamics/pontryagins-maximum-principle/) 把最优控制问题化为一组含必要条件的方程，状态-协态 Hamilton 正则方程加横截条件，得到 两点边值问题（TPBVP），再用打靶、配点或其它数值方法求解该 BVP\cite{bettsSurveyNumericalMethods1998,conwaySpacecraftTrajectoryOptimization2010}，另见 Bryson 与 Ho 1975\cite{brysonAppliedOptimalControl1975}。
 
 与 直接法（把状态-控制时间序列直接离散化为 NLP 参数）相对，间接法的核心特征是先把最优性条件解出来再求数值解。它的优点是解严格满足一阶必要条件、参数维度低、精度高（数值上可达机器精度）。缺点是收敛域窄、对协态初值极度敏感、不连续控制（Bang-bang）处雅可比难算。
 

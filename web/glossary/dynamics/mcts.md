@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/mcts/
 
 ## 应用价值
 
-该概念在地月空间轨道设计与转移中具有重要应用，可用于分析轨道稳定性、设计转移方案或评估任务性能\cite{pengExploringMoreSolutions2022}。
+该概念在地月空间轨道设计与转移中具有重要应用，可用于分析轨道稳定性、设计转移方案或评估任务性能\cite{chaoExploringMoreSolutions2022}。
 
 ## 相关概念
 

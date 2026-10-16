@@ -102,7 +102,7 @@ $$
 
 - 前向调相（preceding phasing）：调相轨道到达目标点的时间早于目标航天器，在 DRO 调相中，轨道路径位于 DRO 内侧。
 
-- 后向调相（receding phasing）：到达时间晚于目标航天器，轨道路径位于 DRO 外侧，可实现的调相范围通常大于前向调相（地月远距离逆行轨道脉冲调相方法）\cite{ZhaoMingXuDiYueYuanJuChiNiXingGuiDaoMaiChongDiaoXiangFangFa2024a,YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023a}。
+- 后向调相（receding phasing）：到达时间晚于目标航天器，轨道路径位于 DRO 外侧，可实现的调相范围通常大于前向调相（地月远距离逆行轨道脉冲调相方法）\cite{ZhaoMingXuDiYueYuanJuChiNiXingGuiDaoMaiChongDiaoXiangFangFa2024,YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023}。
 
 ## 中间转移段（Transfer Leg）
 

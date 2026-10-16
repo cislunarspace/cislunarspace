@@ -82,7 +82,7 @@ $$
 
 周期轨道的 Floquet 模态分解建立在对平衡点（equilibrium point/平动点）邻域线性化分析的基础上。CR3BP 的 5 个平动点中：
 
-- 共线平动点（$L_1, L_2, L_3$）的线性化系统具有鞍点型特征值（一对实特征值 $\pm d_1$ 加两对纯虚特征值 $\pm i \lambda_2$, $\pm i \lambda_3$），在平面投影中呈现中心-鞍点（center-saddle）结构。中心方向对应有界运动，鞍点方向产生双曲效应，即周期轨道的稳定流形与不稳定流形存在的几何根源\cite{szebehelyTheoryOrbitRestricted1967,szebehely1967theory}。
+- 共线平动点（$L_1, L_2, L_3$）的线性化系统具有鞍点型特征值（一对实特征值 $\pm d_1$ 加两对纯虚特征值 $\pm i \lambda_2$, $\pm i \lambda_3$），在平面投影中呈现中心-鞍点（center-saddle）结构。中心方向对应有界运动，鞍点方向产生双曲效应，即周期轨道的稳定流形与不稳定流形存在的几何根源\cite{szebehelyTheoryOrbitRestricted1967}。
 
 - 三角平动点（$L_4, L_5$）当 $\mu < \mu_0 \approx 0.0385$（地月系 $\mu \approx 0.01215$ 满足）时，线性化系统具有三对纯虚特征值，即中心-中心-中心型线性稳定，但非线性效应和太阳引力摄动会在实用时间尺度上引入弱不稳定性。
 

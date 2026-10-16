@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hill-region-and-hill-problem/
 
 ## 定义
 
-Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域\cite{szebehely1967theory}。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量。给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影\cite{szebehelyTheoryOrbitRestricted1967,topputoOptimalTwoimpulseEarth2013a,topputoOptimalTwoimpulseEarth2013a}。物理直观：质点在禁区内的势能大于总能量，无法到达。
+Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域\cite{szebehelyTheoryOrbitRestricted1967}。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量。给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影\cite{szebehelyTheoryOrbitRestricted1967,topputoOptimalTwoimpulseEarth2013a}。物理直观：质点在禁区内的势能大于总能量，无法到达。
 
 ## 五种拓扑构型
 

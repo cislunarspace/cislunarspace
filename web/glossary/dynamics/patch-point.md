@@ -36,7 +36,7 @@ permalink: /glossary/dynamics/patch-point/
 
 ## 在两级微分修正中的角色
 
-Howell 和 Pernicka 的两级修正算法因拼接点而得名\cite{howell1987numerical,howell1987numerical}，两级指的就是拼接点处先后处理位置连续性和速度连续性的两层嵌套迭代：
+Howell 和 Pernicka 的两级修正算法因拼接点而得名\cite{howell1987numerical}，两级指的就是拼接点处先后处理位置连续性和速度连续性的两层嵌套迭代：
 
 - 内层：固定各拼接点位置，只修正各点速度，消除每段终点与下一拼接点之间的位置不连续。
 

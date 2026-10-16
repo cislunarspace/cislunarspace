@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/libration-point/
 
 ## 定义
 
-平动点（Libration Point），又称拉格朗日点（Lagrange Point），是圆型限制性三体问题（CR3BP）中的五个特解对应的位置。在质心旋转坐标系中，平动点处的速度和加速度均为零，即航天器在该点所受引力与离心力达到平衡\cite{szebehely1967theory}。在惯性坐标系中，平动点绕质心的角速度与两天体绕质心的角速度相等。
+平动点（Libration Point），又称拉格朗日点（Lagrange Point），是圆型限制性三体问题（CR3BP）中的五个特解对应的位置。在质心旋转坐标系中，平动点处的速度和加速度均为零，即航天器在该点所受引力与离心力达到平衡\cite{szebehelyTheoryOrbitRestricted1967}。在惯性坐标系中，平动点绕质心的角速度与两天体绕质心的角速度相等。
 
 ## 五个平动点
 

@@ -32,7 +32,7 @@ permalink: /glossary/navigation/two-step-optimization-algorithm/
 
 ## 定义
 
-一种分阶段平动点轨道星座优化方法：第一步以轨道家族为参数快速筛选候选族。第二步以轨道幅值为参数从候选族中选择最优构型。该方法通过先验信息缩小优化范围，再结合遗传算法（GA）和禁忌搜索（TS）进行全局探索与局部细化，显著提高优化效率\cite{xuOptimizationDeploymentMethod2026a}。
+一种分阶段平动点轨道星座优化方法：第一步以轨道家族为参数快速筛选候选族。第二步以轨道幅值为参数从候选族中选择最优构型。该方法通过先验信息缩小优化范围，再结合遗传算法（GA）和禁忌搜索（TS）进行全局探索与局部细化，显著提高优化效率\cite{xuOptimizationDeploymentMethod2026}。
 
 ## 应用价值
 

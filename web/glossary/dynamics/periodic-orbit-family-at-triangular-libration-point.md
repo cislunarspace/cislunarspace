@@ -24,7 +24,7 @@ permalink: /glossary/dynamics/periodic-orbit-family-at-triangular-libration-poin
 
 ## 物理机制与工程价值
 
-在地月圆型限制性三体问题（CR3BP）中，质量比 $\mu \approx 0.01215$ 满足劳斯稳定判据（$\mu < \mu_R \approx 0.03852$），三角平动点 $L_4$ 和 $L_5$ 呈现纯虚数特征值结构 $\pm i\omega_1, \pm i\omega_2$，线性动力学表现为线性稳定中心\cite{szebehely1967theory}。
+在地月圆型限制性三体问题（CR3BP）中，质量比 $\mu \approx 0.01215$ 满足劳斯稳定判据（$\mu < \mu_R \approx 0.03852$），三角平动点 $L_4$ 和 $L_5$ 呈现纯虚数特征值结构 $\pm i\omega_1, \pm i\omega_2$，线性动力学表现为线性稳定中心\cite{szebehelyTheoryOrbitRestricted1967}。
 
 1. 短周期轨道族：围绕平衡点做逆时针快速环绕，无量纲极限基本周期约为 $T_1 = 2\pi/\omega_1 \approx 6.58$（对应约 28.5 天）。
 2. 长周期轨道族：对应缓变振荡模态，极限周期约为 $T_2 = 2\pi/\omega_2 \approx 21.07$（对应约 91.2 天），在旋转坐标系中呈现大尺度的豆状或蝌蚪形闭合轨迹。

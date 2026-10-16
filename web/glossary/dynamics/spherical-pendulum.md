@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/spherical-pendulum/
 
 ## 定义
 
-质点约束在球面上运动的可积哈密顿系统例子\cite{meyerIntroductionHamiltonianDynamical2017a}。
+质点约束在球面上运动的可积哈密顿系统例子\cite{meyerIntroductionHamiltonianDynamical2017}。
 
 ## 应用价值
 

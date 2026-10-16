@@ -40,7 +40,7 @@ $$
 \vec\omega\times\vec q.
 $$
 
-$\vec\omega$ 是 $\mathcal R$ 相对 $\mathcal I$ 的瞬时角速度。矢量本身与参考系无关，但其分量与对时间求导的操作随参考系而变，科氏定理正是后者的变换法则。它是 [会合坐标系](/glossary/fundamentals/synodic-frame/)、月固系、地球固系等所有旋转参考系中航天器运动方程的推导根基\cite{szebehely1967theory}。
+$\vec\omega$ 是 $\mathcal R$ 相对 $\mathcal I$ 的瞬时角速度。矢量本身与参考系无关，但其分量与对时间求导的操作随参考系而变，科氏定理正是后者的变换法则。它是 [会合坐标系](/glossary/fundamentals/synodic-frame/)、月固系、地球固系等所有旋转参考系中航天器运动方程的推导根基\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 推导要点
 

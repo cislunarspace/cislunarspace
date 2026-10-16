@@ -34,7 +34,7 @@ Floquet理论中对应单位特征值广义特征向量的解。副星相对于�
 
 ## 应用价值
 
-该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道\cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023a}。该理论可用于分析周期轨道附近运动的稳定性，指导轨道保持策略。
+该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道\cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023}。该理论可用于分析周期轨道附近运动的稳定性，指导轨道保持策略。
 
 ## 相关概念
 

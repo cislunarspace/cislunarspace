@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/co-state-variables/
 
 ## 定义
 
-协态变量（costate variables，又称伴随变量 adjoint variables、共轭变量 conjugate variables、与状态变量配对的拉格朗日乘子）是最优控制问题中为施加动力学约束而引入的对偶变量\cite{bettsPracticalMethodsOptimal2010,brysonAppliedOptimalControl2018,beolchiMultiplearcOptimizationLowthrust2024}。它们不对应任何可直接测量的物理量。几何意义是性能指标对状态的灵敏度，即 $\lambda_i(t)=\partial J^*/\partial x_i(t)$，见 Bryson 与 Ho 1975 和 Betts 2010。庞特里亚金极值原理（PMP）通过 Hamilton 函数把协态与状态耦合为正则方程，使最优控制问题转化为以 $(\mathbf{x},\boldsymbol{\lambda})$ 为变量的两点边值问题（TPBVP）。共轭方程、共轭动量、共轭变量、协态归一化、协态-控制变换等概念，都是这套对偶框架在不同问题结构下的具体化。
+协态变量（costate variables，又称伴随变量 adjoint variables、共轭变量 conjugate variables、与状态变量配对的拉格朗日乘子）是最优控制问题中为施加动力学约束而引入的对偶变量\cite{bettsPracticalMethodsOptimal2010,brysonAppliedOptimalControl1975,beolchiMultiplearcOptimizationLowthrust2024}。它们不对应任何可直接测量的物理量。几何意义是性能指标对状态的灵敏度，即 $\lambda_i(t)=\partial J^*/\partial x_i(t)$，见 Bryson 与 Ho 1975 和 Betts 2010。庞特里亚金极值原理（PMP）通过 Hamilton 函数把协态与状态耦合为正则方程，使最优控制问题转化为以 $(\mathbf{x},\boldsymbol{\lambda})$ 为变量的两点边值问题（TPBVP）。共轭方程、共轭动量、共轭变量、协态归一化、协态-控制变换等概念，都是这套对偶框架在不同问题结构下的具体化。
 
 ## Hamilton 形式与伴随方程
 
@@ -61,13 +61,13 @@ $$H=L+\boldsymbol{\lambda}_r^{\!\top}\mathbf{v}+\boldsymbol{\lambda}_v^{\!\top}(
 
 ## 协态初值敏感性
 
-间接法的核心难点是 $\boldsymbol{\lambda}(t_0)$ 数值上极不稳定，微小扰动会引起轨迹在 $t_f$ 处发散。初始协态轨迹（optimal initial costate locus）刻画 $\boldsymbol{\lambda}(t_0)$ 随问题参数（推力加速度、目标半径）变化的曲线族，在抛物、椭圆、螺旋等不同运动区域呈现不同特征。实践中通常以 [同伦方法](/glossary/dynamics/homotopy-method/) 从易解的 energy-optimal 问题出发，逐步过渡到 fuel-optimal 问题\cite{klueverOptimalEarthMoonTrajectories1997}。
+间接法的核心难点是 $\boldsymbol{\lambda}(t_0)$ 数值上极不稳定，微小扰动会引起轨迹在 $t_f$ 处发散。初始协态轨迹（optimal initial costate locus）刻画 $\boldsymbol{\lambda}(t_0)$ 随问题参数（推力加速度、目标半径）变化的曲线族，在抛物、椭圆、螺旋等不同运动区域呈现不同特征。实践中通常以 [同伦方法](/glossary/dynamics/homotopy-method/) 从易解的 energy-optimal 问题出发，逐步过渡到 fuel-optimal 问题\cite{kluever1997nuclear}。
 
 ## 应用要点
 
 - 间接法的根本瓶颈在于协态初值的猜测与同伦路径规划，比状态初值困难一个量级。
 - 大范围转移中 $\lambda_m$ 数值跨度大，常通过对数化或独立归一化避免病态。
-- CR3BP-LT 的控制 Hamilton 函数 $H_{lt}=H_{nat}-\boldsymbol{\lambda}^{\!\top}\mathbf{a}_{lt}$（$\mathbf{a}_{lt}$ 为低推力加速度），在 $\mathbf{a}_{lt}$ 旋转系下固定时为新的守恒量\cite{coxTransitCapturePlanar2021,coxTransitCapturePlanar2021}。
+- CR3BP-LT 的控制 Hamilton 函数 $H_{lt}=H_{nat}-\boldsymbol{\lambda}^{\!\top}\mathbf{a}_{lt}$（$\mathbf{a}_{lt}$ 为低推力加速度），在 $\mathbf{a}_{lt}$ 旋转系下固定时为新的守恒量\cite{coxTransitCapturePlanar2021}。
 
 ## 相关概念
 

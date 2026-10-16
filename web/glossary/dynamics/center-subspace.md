@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/center-subspace/
 
 ## 定义
 
-在共线平动点线性化分析中，由对应特征值模等于1的特征向量张成的子空间\cite{foltaEarthMoonLibration2014}。周期轨道和准周期轨道均存在于中心子空间内\cite{guzzettiRapidTrajectoryDesign2016,spreenTrajectoryDesignTargeting2021a}。与鞍点子空间的稳定和不稳定方向不同，中心子空间内的运动既不发散也不收敛，而是维持准周期振荡。
+在共线平动点线性化分析中，由对应特征值模等于1的特征向量张成的子空间\cite{foltaEarthMoonLibration2014}。周期轨道和准周期轨道均存在于中心子空间内\cite{guzzettiRapidTrajectoryDesign2016,spreenTrajectoryDesignTargeting2021}。与鞍点子空间的稳定和不稳定方向不同，中心子空间内的运动既不发散也不收敛，而是维持准周期振荡。
 
 ## 应用价值
 

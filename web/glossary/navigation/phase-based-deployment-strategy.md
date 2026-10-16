@@ -32,7 +32,7 @@ permalink: /glossary/navigation/phase-based-deployment-strategy/
 
 ## 定义
 
-分三个阶段建设平动点轨道通信导航星座的策略：第一阶段单颗NRHO卫星实现地月转移关键区域单重覆盖。第二阶段增至7颗卫星分布于L1、L2、L4、L5及NRHO轨道，实现双重区域四重覆盖。第三阶段再增2颗L3平动点卫星达9颗，实现全地月空间四重覆盖\cite{xuOptimizationDeploymentMethod2026a}。
+分三个阶段建设平动点轨道通信导航星座的策略：第一阶段单颗NRHO卫星实现地月转移关键区域单重覆盖。第二阶段增至7颗卫星分布于L1、L2、L4、L5及NRHO轨道，实现双重区域四重覆盖。第三阶段再增2颗L3平动点卫星达9颗，实现全地月空间四重覆盖\cite{xuOptimizationDeploymentMethod2026}。
 
 ## 应用价值
 

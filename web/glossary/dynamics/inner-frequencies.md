@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/inner-frequencies/
 
 ## 定义
 
-三角平动点附近运动的固有频率，包括短周期、长周期和垂直方向振动模式，是对圆型限制性三体问题周期模式的一般化推广\cite{gomezDynamicsMissionDesign2001d}。
+三角平动点附近运动的固有频率，包括短周期、长周期和垂直方向振动模式，是对圆型限制性三体问题周期模式的一般化推广\cite{gomezDynamicsMissionDesign2001Vol2}。
 
 ## 应用价值
 

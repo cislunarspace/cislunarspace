@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/jacobi-integral/
 
 ## 定义
 
-雅可比积分（Jacobi integral）是圆型限制性三体问题（CR3BP）在会合坐标系下迄今已知的唯一解析积分，1836 年由 Jacobi 给出\cite{szebehely1967theory}。其积分常数 $C$ 又称雅可比常数（Jacobi constant），记作 $C$、$C_J$，少数文献用 $J$（差一符号约定，见下节）。无量纲化（[会合坐标系](/glossary/fundamentals/synodic-frame/)下距离单位为主天体间距、$\omega=1$）后，其表达式为
+雅可比积分（Jacobi integral）是圆型限制性三体问题（CR3BP）在会合坐标系下迄今已知的唯一解析积分，1836 年由 Jacobi 给出\cite{szebehelyTheoryOrbitRestricted1967}。其积分常数 $C$ 又称雅可比常数（Jacobi constant），记作 $C$、$C_J$，少数文献用 $J$（差一符号约定，见下节）。无量纲化（[会合坐标系](/glossary/fundamentals/synodic-frame/)下距离单位为主天体间距、$\omega=1$）后，其表达式为
 
 $$C \;=\; 2\Omega(x,y,z) - v^2 \;=\; (x^2+y^2) + \frac{2(1-\mu)}{r_1} + \frac{2\mu}{r_2} - (\dot x^2+\dot y^2+\dot z^2),$$
 

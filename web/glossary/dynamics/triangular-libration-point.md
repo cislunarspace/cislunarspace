@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/triangular-libration-point/
 
 ## 定义
 
-限制性三体问题中与两天体构成等边三角形关系的平衡点，共有两个，位于两天体连线的两侧，又称L4和L5点\cite{gomezDynamicsMissionDesign2001d}。
+限制性三体问题中与两天体构成等边三角形关系的平衡点，共有两个，位于两天体连线的两侧，又称L4和L5点\cite{gomezDynamicsMissionDesign2001Vol2}。
 
 ## 应用价值
 

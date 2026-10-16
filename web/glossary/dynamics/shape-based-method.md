@@ -74,7 +74,7 @@ $$
 
 ## 平动点周期轨道的振幅-相位形状函数
 
-针对平动点周期轨道（Halo、Lissajous）之间的低推力转移，中文文献构造了振幅与相位按多项式变化的新形状函数，把共线平动点附近的动力学特性（如 [中心流形](/glossary/dynamics/invariant-manifold/)、[零速度面](/glossary/dynamics/zero-velocity-surface/) 结构）嵌入形状参数化，相比通用形状函数能用更少参数表达有动力学意义的转移。这类形状法产出的初始猜测再交给 [Gauss 伪谱法](/glossary/dynamics/direct-methods/) 或 HDDP 精修\cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020a}。
+针对平动点周期轨道（Halo、Lissajous）之间的低推力转移，中文文献构造了振幅与相位按多项式变化的新形状函数，把共线平动点附近的动力学特性（如 [中心流形](/glossary/dynamics/invariant-manifold/)、[零速度面](/glossary/dynamics/zero-velocity-surface/) 结构）嵌入形状参数化，相比通用形状函数能用更少参数表达有动力学意义的转移。这类形状法产出的初始猜测再交给 [Gauss 伪谱法](/glossary/dynamics/direct-methods/) 或 HDDP 精修\cite{ZhouJingPingDongDianZhouQiGuiDaoJianXiaoTuiLiZhuanYiDeGaussWeiPuFa2020}。
 
 ## 应用要点
 

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 ## 定义
 
-三体 Lambert 问题（Three-Body Lambert Problem，3BLP。亦记 L3BP，即 Lambert Three-Body Problem。在 CR3BP 模型下又称 CR3BP Lambert 问题）是 [Lambert 问题](/glossary/fundamentals/lamberts-problem/) 在三体动力学框架下的推广：在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 模型下，给定起点 $\vec r_1$（时刻 $t_1$）、终点 $\vec r_2$（时刻 $t_2$）、飞行时间 $\Delta t=t_2-t_1$，求连接两端的轨道及两端的速度\cite{SunYuJiYuSanTiLambertSuanFaDePingDongDianJiaoHuiGuiDaoSheJi2017,szebehely1967theory}。
+三体 Lambert 问题（Three-Body Lambert Problem，3BLP。亦记 L3BP，即 Lambert Three-Body Problem。在 CR3BP 模型下又称 CR3BP Lambert 问题）是 [Lambert 问题](/glossary/fundamentals/lamberts-problem/) 在三体动力学框架下的推广：在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 模型下，给定起点 $\vec r_1$（时刻 $t_1$）、终点 $\vec r_2$（时刻 $t_2$）、飞行时间 $\Delta t=t_2-t_1$，求连接两端的轨道及两端的速度\cite{SunYuJiYuSanTiLambertSuanFaDePingDongDianJiaoHuiGuiDaoSheJi2017,szebehelyTheoryOrbitRestricted1967}。
 
 由于 CR3BP 运动方程不可积、对初值高度敏感，三体 Lambert 问题不存在解析解，只能数值求解。初值估计是核心难点，简单的 Newton-Raphson 打靶对长时间转移几乎不收敛。
 

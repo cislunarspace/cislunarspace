@@ -71,7 +71,7 @@ Tisserand 图（基于拼接二体模型的重力辅助序列设计工具）在 
 
 ## 应用要点
 
-- Heteroclinic / homoclinic 连接：在 $x=1-\mu$ 映射上，某周期轨道的不稳定流形与另一周期轨道的稳定流形的交点给出无机动转移初值。平面情形即等值线相交，空间情形靠字形观察后再用微分修正收敛\cite{gomezDynamicsMissionDesign2001Vol2,gomezDynamicsMissionDesign2001d}。
+- Heteroclinic / homoclinic 连接：在 $x=1-\mu$ 映射上，某周期轨道的不稳定流形与另一周期轨道的稳定流形的交点给出无机动转移初值。平面情形即等值线相交，空间情形靠字形观察后再用微分修正收敛\cite{gomezDynamicsMissionDesign2001Vol2}。
 
 - 转移初值生成：把高维解空间压缩到二维图上，可交互式挑选转移候选，再由 [微分修正](/glossary/dynamics/differential-correction/) 或多次打靶收敛。
 

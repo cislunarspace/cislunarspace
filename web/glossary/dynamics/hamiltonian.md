@@ -50,7 +50,7 @@ $$H(\mathbf{q},\mathbf{p},t)=\mathbf{p}^{\!\top}\dot{\mathbf{q}}-L(\mathbf{q},\d
 
 $$H=\tfrac12(p_x^2+p_y^2+p_z^2)+yp_x-xp_y-\frac{1-\mu}{r_1}-\frac{\mu}{r_2},$$
 
-其中 $r_1,r_2$ 为到两主天体的距离\cite{szebehely1967theory}。科氏与离心项表现为 $yp_x-xp_y$。雅可比常数 $C=-2H$ 是 CR3BP 唯一守恒量，通过零速度曲面限定 Hill 区域（见 [雅可比积分](/glossary/dynamics/jacobi-integral/)）。
+其中 $r_1,r_2$ 为到两主天体的距离\cite{szebehelyTheoryOrbitRestricted1967}。科氏与离心项表现为 $yp_x-xp_y$。雅可比常数 $C=-2H$ 是 CR3BP 唯一守恒量，通过零速度曲面限定 Hill 区域（见 [雅可比积分](/glossary/dynamics/jacobi-integral/)）。
 
 Cox et al.（2021）将 $H$ 拆分为自然 Hamilton 量
 

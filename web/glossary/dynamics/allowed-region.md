@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/allowed-region/
 
 ## 定义
 
-雅可比常数约束下，航天器凭借足够动能可达的空间区域\cite{szebehely1967theory}。
+雅可比常数约束下，航天器凭借足够动能可达的空间区域\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 应用价值
 

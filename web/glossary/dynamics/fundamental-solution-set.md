@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/fundamental-solution-set/
 
 ## 定义
 
-Floquet理论给出的周期系数线性化方程的一组线性无关解。对于2:1 DRO附近的相对运动，基础解集包含6个解：2个地月平面内拟周期解、1个周期解（对应前后编队）、1个发散解、2个法向拟周期解\cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023a}。任意相对运动状态均可表示为基础解集的线性组合。
+Floquet理论给出的周期系数线性化方程的一组线性无关解。对于2:1 DRO附近的相对运动，基础解集包含6个解：2个地月平面内拟周期解、1个周期解（对应前后编队）、1个发散解、2个法向拟周期解\cite{YangChiHangYuanJuChiNiXingGuiDaoShangDeJinJuChiZiRanJiShouKongBianDui2023}。任意相对运动状态均可表示为基础解集的线性组合。
 
 ## 应用价值
 

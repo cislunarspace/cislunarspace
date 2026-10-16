@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/center-manifold/
 
 ## 定义
 
-在动力系统平衡点附近，线性化矩阵的特征值按实部可分为三类：负实部（稳定）、正实部（不稳定）、零实部（中心）。由中心特征方向张成的局部不变流形称为中心流形（center manifold）。CR3BP 共线平动点 $L_1$、$L_2$、$L_3$ 的线性化谱具有一对实特征值 $\pm d_1$（双曲方向）和两对纯虚特征值 $\pm i\omega_1$、$\pm i\omega_2$（中心方向），因此局部存在一个 4 维中心流形与一个 1 维稳定、1 维不稳定流形，见 Szebehely 1967 年与 Gómez 等 2001 年的工作\cite{szebehelyTheoryOrbitRestricted1967,szebehely1967theory,gomezgDengDynamicsMissionDesign2001}。
+在动力系统平衡点附近，线性化矩阵的特征值按实部可分为三类：负实部（稳定）、正实部（不稳定）、零实部（中心）。由中心特征方向张成的局部不变流形称为中心流形（center manifold）。CR3BP 共线平动点 $L_1$、$L_2$、$L_3$ 的线性化谱具有一对实特征值 $\pm d_1$（双曲方向）和两对纯虚特征值 $\pm i\omega_1$、$\pm i\omega_2$（中心方向），因此局部存在一个 4 维中心流形与一个 1 维稳定、1 维不稳定流形，见 Szebehely 1967 年与 Gómez 等 2001 年的工作\cite{szebehelyTheoryOrbitRestricted1967,gomezDynamicsMissionDesign2001f}。
 
 中心流形上的运动是有界的，Lissajous 轨道、Lyapunov 轨道和 Halo 轨道都落在中心流形或其延拓上。稳定/不稳定流形则在双曲方向上指数趋近或远离平衡点。
 

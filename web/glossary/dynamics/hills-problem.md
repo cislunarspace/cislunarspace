@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hills-problem/
 
 ## 定义
 
-希尔问题（Hill's problem）是圆型限制性三体问题（CR3BP）在小质量比极限 $\mu\to 0$ 下、并取原点在较小主天体（如地球）邻域得到的简化形式\cite{szebehely1967theory}。George William Hill 在 1878 年研究月球运动时引入此模型\cite{hillResearchesLunarTheory1878,szebehelyTheoryOrbitRestricted1967}，Szebehely 1967 年第 10.4 节有系统论述，核心做法是：
+希尔问题（Hill's problem）是圆型限制性三体问题（CR3BP）在小质量比极限 $\mu\to 0$ 下、并取原点在较小主天体（如地球）邻域得到的简化形式\cite{szebehelyTheoryOrbitRestricted1967}。George William Hill 在 1878 年研究月球运动时引入此模型\cite{hillResearchesLunarTheory1878,szebehelyTheoryOrbitRestricted1967}，Szebehely 1967 年第 10.4 节有系统论述，核心做法是：
 
 1. 取太阳视差为零（太阳位于无穷远、引力为均匀潮汐场）。
 2. 取太阳轨道偏心率为零（圆形日地轨道）。

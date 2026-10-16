@@ -42,7 +42,7 @@ permalink: /glossary/dynamics/poincare-section/
 
 - $y=0$ 截面：记录轨道穿过主天体连线时的状态，常配合 $\dot{y}>0$ 或 $\dot{y}<0$ 取单侧，避免同一周期轨道在截面上重复计数。适合展示 $x$-$\dot{x}$ 相平面。
 
-- $x=1-\mu$ 截面（次天体 $P_2$ 所在 $x$ 位置）：地月系或日地系中研究 $L_1$/$L_2$ 流形拼接、平动点附近转移的事实标准\cite{gomezDynamicsMissionDesign2001Vol2,gomezDynamicsMissionDesign2001d}。
+- $x=1-\mu$ 截面（次天体 $P_2$ 所在 $x$ 位置）：地月系或日地系中研究 $L_1$/$L_2$ 流形拼接、平动点附近转移的事实标准\cite{gomezDynamicsMissionDesign2001Vol2}。
 
 - $x=x_{L_i}$ 截面：取在某个平动点位置，用于研究穿越平动点门户的 transit/non-transit 轨道，见 Koon 等 2000。
 
@@ -84,7 +84,7 @@ $$\Sigma = \{\mathbf{x}\mid (\mathbf{x}-\mathbf{x}_0)\cdot\mathbf{n}=0\}$$
 
 - 流形拼接与转移初值：在 $x=1-\mu$ 截面上比较 $L_1$ 不稳定流形与 $L_2$ 稳定流形的交点，可识别 [heteroclinic/homoclinic 连接](/glossary/dynamics/poincare-map/) 的初值。
 
-- 捕获与逃逸分析：近星点截面上 transit 与 non-transit 点的边界由 Lyapunov 轨道的不变流形管刻画\cite{conleyLowEnergyTransit1968,conleyLowEnergyTransit1968}，见 Koon 等 2000\cite{koonHeteroclinicConnectionsPeriodic2000}。
+- 捕获与逃逸分析：近星点截面上 transit 与 non-transit 点的边界由 Lyapunov 轨道的不变流形管刻画\cite{conleyLowEnergyTransit1968}，见 Koon 等 2000\cite{koonHeteroclinicConnectionsPeriodic2000}。
 
 - 轨道辨识与编目：将观测状态投影到截面地图上，可像查字典一样辨识未知航天器所在轨道族，绕过混沌环境中直接数值积分的困难。
 
