@@ -5,7 +5,7 @@ description: 地月空间专业术语体系，涵盖三体动力学、任务轨�
 keywords: 地月空间术语, 词典, CR3BP, DRO, NRHO, 平动点, 导航, 观测, 通信
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-20
+lastUpdated: 2026-10-17
 wechatShare:
   title: 地月空间术语词典
   desc: 地月空间动力学、轨道、导航与工程术语体系。
@@ -120,7 +120,7 @@ wechatShare:
 - [高置信度仿真](/glossary/fundamentals/high-fidelity-simulation/)
 - [龙格-库塔法](/glossary/fundamentals/rk/)
 
-### 动力学与数学基础（dynamics，358 条）
+### 动力学与数学基础（dynamics，359 条）
 
 - [Edelbaum公式](/glossary/dynamics/edelbaums-equation/)
 - [Lawden 必要条件](/glossary/dynamics/lawdens-necessary-conditions/)
@@ -480,6 +480,7 @@ wechatShare:
 - [高保真模型](/glossary/dynamics/high-fidelity-model/)
 - [高阶目标相位法](/glossary/dynamics/tpha-target-phase-approach/)
 - [黏附区](/glossary/dynamics/sticky-region/)
+- [Sims-Flanagan 转录](/glossary/dynamics/sims-flanagan-transcription/)
 
 ### 任务轨道（orbits，142 条）
 
