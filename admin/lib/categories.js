@@ -280,8 +280,8 @@ async function assignGlossaryCategory(paths, target) {
     moved.push({ from: rel, to: targetRel, fromCat: cls.cat, stem: cls.stem });
   }
 
-  // 更新 glossary/README.md 索引：条目链接含分类路径，移动后需同步改写
-  const readmeUpdated = moved.length ? updateGlossaryReadmeIndex(moved, target) : false;
+  // 更新分类索引：索引行随条目从源分类页移到目标分类页，并同步首页计数
+  const readmeUpdated = moved.length ? updateGlossaryCategoryIndex(moved, target) : false;
 
   const genSidebar = moved.length ? await runGenSidebar() : null;
   log('ASSIGN_CATEGORY', [
@@ -295,29 +295,63 @@ async function assignGlossaryCategory(paths, target) {
   return { ok: true, kind: 'glossary', target, moved, skipped, errors, readmeUpdated, genSidebar };
 }
 
-/** 把 glossary/README.md 中已移动条目的链接路径改写到新分类，并刷新 lastUpdated */
-function updateGlossaryReadmeIndex(zhMoved, target) {
-  const readmeRel = 'glossary/README.md';
-  const full = path.join(WEB_ROOT, readmeRel);
-  if (!fs.existsSync(full)) return false;
-  let content = fs.readFileSync(full, 'utf8');
-  let updated = false;
+/** 把已移动条目的索引行从源分类索引页移到目标分类索引页，并同步首页计数 */
+function updateGlossaryCategoryIndex(zhMoved, target) {
+  const today = new Date().toISOString().slice(0, 10);
+  const bumpDate = (text) =>
+    text.replace(/^(lastUpdated:\s*)\d{4}-\d{2}-\d{2}$/m, `$1${today}`);
+  const readPage = (cat) => {
+    const rel = `glossary/${cat}/README.md`;
+    const full = path.join(WEB_ROOT, rel);
+    return fs.existsSync(full) ? { full, text: fs.readFileSync(full, 'utf8') } : null;
+  };
+
+  const movedLines = [];
   for (const m of zhMoved) {
+    const fromCat = m.fromCat.split('/')[0];
+    const toCat = String(target).split('/')[0];
+    const page = readPage(fromCat);
+    if (!page) continue;
     const oldToken = `/glossary/${m.fromCat}/${m.stem}/`;
     const newToken = `/glossary/${target}/${m.stem}/`;
-    if (content.includes(oldToken)) {
-      content = content.split(oldToken).join(newToken);
-      updated = true;
+    const lines = page.text.split('\n');
+    const idx = lines.findIndex((line) => line.includes(oldToken));
+    if (idx < 0) continue;
+    movedLines.push({ line: lines[idx].split(oldToken).join(newToken), fromCat, toCat });
+    lines.splice(idx, 1);
+    fs.writeFileSync(page.full, bumpDate(lines.join('\n')), 'utf8');
+  }
+  if (movedLines.length === 0) return false;
+
+  const byTarget = new Map();
+  for (const ml of movedLines) {
+    if (!byTarget.has(ml.toCat)) byTarget.set(ml.toCat, []);
+    byTarget.get(ml.toCat).push(ml.line);
+  }
+  for (const [cat, newLines] of byTarget) {
+    const page = readPage(cat);
+    if (!page) continue;
+    const lines = page.text.replace(/\n+$/, '').split('\n');
+    lines.push(...newLines);
+    fs.writeFileSync(page.full, `${bumpDate(lines.join('\n'))}\n`, 'utf8');
+  }
+
+  const homeFull = path.join(WEB_ROOT, 'glossary/README.md');
+  if (fs.existsSync(homeFull)) {
+    const delta = new Map();
+    for (const ml of movedLines) {
+      delta.set(ml.fromCat, (delta.get(ml.fromCat) || 0) - 1);
+      delta.set(ml.toCat, (delta.get(ml.toCat) || 0) + 1);
     }
+    let home = fs.readFileSync(homeFull, 'utf8');
+    for (const [cat, d] of delta) {
+      if (d === 0) continue;
+      const rowRe = new RegExp(`(\\| \\[[^\\]]+\\]\\(/glossary/${cat}/\\) \\| )(\\d+)( \\|)`);
+      home = home.replace(rowRe, (_m, p1, n, p3) => `${p1}${Number(n) + d}${p3}`);
+    }
+    fs.writeFileSync(homeFull, bumpDate(home), 'utf8');
   }
-  const today = new Date().toISOString().slice(0, 10);
-  const withDate = content.replace(/^(lastUpdated:\s*)\d{4}-\d{2}-\d{2}$/m, `$1${today}`);
-  if (withDate !== content) {
-    content = withDate;
-    updated = true;
-  }
-  if (updated) fs.writeFileSync(full, content, 'utf8');
-  return updated;
+  return true;
 }
 
 /** 在 web/ 目录执行 npm run gen-sidebar */

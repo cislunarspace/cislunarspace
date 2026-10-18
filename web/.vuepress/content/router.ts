@@ -3,7 +3,7 @@
  *
  * 规则来源（沿用既有目录约定，未引入新约定）：
  *   - glossary 词条：glossary/<category>/<slug>.md
- *     （glossary/README.md 同理不识别）
+ *     （glossary/README.md 与各分类索引页 glossary/<category>/README.md 同理不识别）
  *   - kb-section 页面：<section>/ 下任意深度的 .md（含各层 README）。
  *     section 目录列表由调用方注入 。 生产环境从 taxonomy 的
  *     kind:'section' 节点派生，测试传 fixture 列表。
@@ -32,7 +32,8 @@ export function createContentRouter(sectionDirs: readonly string[]): ContentRout
     if (!isSafeRelPath(relPath)) return null;
 
     let family: ContentFamily | null = null;
-    if (GLOSSARY_ENTRY.test(relPath)) {
+    const glossaryMatch = relPath.match(GLOSSARY_ENTRY);
+    if (glossaryMatch && glossaryMatch[2]!.toLowerCase() !== 'readme') {
       family = 'glossary';
     } else {
       const top = relPath.split('/')[0] ?? '';

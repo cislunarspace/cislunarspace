@@ -502,7 +502,7 @@ const columns = computed(() => [
       </p>
       <n-alert type="info">
         条目文件将移动到 <code>glossary/{{ assignTarget }}/</code>（中英镜像一起），
-        <code>glossary/README.md</code> 索引同步更新。
+        分类索引页与首页分类板块计数同步更新。
       </n-alert>
       <template #footer>
         <div style="display: flex; justify-content: flex-end; gap: 10px">
