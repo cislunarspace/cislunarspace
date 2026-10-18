@@ -138,67 +138,59 @@ export function createContentModule(deps: ContentDeps): ContentModule {
   }
 
   /**
-   * 清理 README 索引行：glossary 词条在 glossary/README.md 有
-   * `(/glossary/<cat>/<slug>/)` 形态的索引行。
+   * 清理 glossary 索引：删除词条所在分类索引页（glossary/<cat>/README.md）
+   * 中的索引行，并同步首页分类板块表的条目数与总计。
    */
   function cleanupReadmes(deletedFiles: string[]): DeleteReport['readmeLinesRemoved'] {
-    return cleanupGlossaryReadme(deletedFiles);
-  }
-
-  function cleanupGlossaryReadme(deletedFiles: string[]): DeleteReport['readmeLinesRemoved'] {
     const results: DeleteReport['readmeLinesRemoved'] = [];
-    const glossarySlugs = new Set(
-      deletedFiles.filter((f) => f.startsWith('glossary/') && f !== 'glossary/README.md'),
-    );
-    if (glossarySlugs.size === 0) return results;
+    const byCat = new Map<string, string[]>();
+    for (const f of deletedFiles) {
+      const parts = f.split('/');
+      if (!f.startsWith('glossary/') || parts.length < 3) continue;
+      const token = `/glossary/${parts.slice(1).join('/').replace(/\.md$/, '')}/`;
+      if (!byCat.has(parts[1])) byCat.set(parts[1], []);
+      byCat.get(parts[1])!.push(token);
+    }
+    if (byCat.size === 0) return results;
 
-    const readmeAbs = path.join(deps.webRoot, 'glossary', 'README.md');
-    if (!fs.existsSync(readmeAbs)) return results;
-    const lines = fs.readFileSync(readmeAbs, 'utf-8').split('\n');
+    const today = new Date().toISOString().slice(0, 10);
+    const bumpDate = (text: string) =>
+      text.replace(/^(lastUpdated:\s*)\d{4}-\d{2}-\d{2}$/m, `$1${today}`);
 
-    const isIndexLine = (line: string) => {
-      const m = line.match(/\]\(\/glossary\/([^/]+)\/([^/)]+)\/\)/);
-      return m !== null && glossarySlugs.has(`glossary/${m[1]}/${m[2]}.md`);
-    };
-    const removed = lines.filter(isIndexLine).length;
-    if (removed === 0) return results;
+    let totalRemoved = 0;
+    const removedByCat = new Map<string, number>();
+    for (const [cat, tokens] of byCat) {
+      const pageRel = `glossary/${cat}/README.md`;
+      const pageAbs = path.join(deps.webRoot, pageRel);
+      if (!fs.existsSync(pageAbs)) continue;
+      const lines = fs.readFileSync(pageAbs, 'utf-8').split('\n');
+      const kept = lines.filter((line) => !tokens.some((t) => line.includes(t)));
+      const removed = lines.length - kept.length;
+      if (removed === 0) continue;
+      fs.writeFileSync(pageAbs, bumpDate(kept.join('\n')), 'utf-8');
+      results.push({ file: pageRel, count: removed });
+      removedByCat.set(cat, removed);
+      totalRemoved += removed;
+    }
 
-    // 过滤索引行，同时按节重算
-    const outLines: string[] = [];
-    let sectionHeaderIdx = -1; // outLines 中当前节标题的位置
-    let sectionCount = 0;
-    const flushSection = () => {
-      if (sectionHeaderIdx < 0) return;
-      if (sectionCount === 0) {
-        // 空节：删除节标题与其后的空行，保留一个空行与后续内容分隔
-        outLines.splice(sectionHeaderIdx);
-        while (outLines.length > 0 && outLines[outLines.length - 1] === '') outLines.pop();
-        if (outLines.length > 0) outLines.push('');
-        sectionHeaderIdx = -1;
-      } else {
-        // 节标题形如「### 基础概念（fundamentals，218 条）」。重算计数
-        outLines[sectionHeaderIdx] = outLines[sectionHeaderIdx].replace(
-          /^(### .*?[（(][^,，]+[,，]\s*)\d+(\s*条[)）])/,
-          `$1${sectionCount}$2`,
+    if (totalRemoved > 0) {
+      const homeAbs = path.join(deps.webRoot, 'glossary', 'README.md');
+      if (fs.existsSync(homeAbs)) {
+        let content = fs.readFileSync(homeAbs, 'utf-8');
+        for (const [cat, removed] of removedByCat) {
+          const rowRe = new RegExp(`(\\| \\[[^\\]]+\\]\\(/glossary/${cat}/\\) \\| )(\\d+)( \\|)`);
+          content = content.replace(
+            rowRe,
+            (_m, p1: string, n: string, p3: string) => `${p1}${Number(n) - removed}${p3}`,
+          );
+        }
+        content = content.replace(
+          /(共 )(\d+)( 条词条)/,
+          (_m, p1: string, n: string, p3: string) => `${p1}${Number(n) - totalRemoved}${p3}`,
         );
-      }
-    };
-    for (const line of lines) {
-      if (line.startsWith('### ')) {
-        flushSection();
-        outLines.push(line);
-        sectionHeaderIdx = outLines.length - 1;
-        sectionCount = 0;
-      } else if (isIndexLine(line)) {
-        continue; // 已删除
-      } else {
-        if (line.startsWith('- [') && sectionHeaderIdx >= 0) sectionCount++;
-        outLines.push(line);
+        fs.writeFileSync(homeAbs, bumpDate(content), 'utf-8');
       }
     }
-    flushSection();
-    fs.writeFileSync(readmeAbs, `${outLines.join('\n').replace(/\n{3,}/g, '\n\n')}\n`, 'utf-8');
-    results.push({ file: 'glossary/README.md', count: removed });
     return results;
   }
 

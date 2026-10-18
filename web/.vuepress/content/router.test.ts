@@ -29,6 +29,7 @@ describe('createContentRouter / resolve', () => {
 
   it('不识别 glossary 根 README 与未知目录', () => {
     expect(router.resolve('glossary/README.md')).toBeNull();
+    expect(router.resolve('glossary/dynamics/README.md')).toBeNull();
     expect(router.resolve('unknown-section/page.md')).toBeNull();
     expect(router.resolve('README.md')).toBeNull();
     expect(router.resolve('ai-chat.md')).toBeNull();

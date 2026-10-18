@@ -85,9 +85,15 @@ function collectReadmeRefs(mdList) {
     const cls = classify(rel);
     let candidates = [];
     if (cls.kind === 'glossary') {
-      candidates = [
-        { path: 'glossary/README.md', token: `/glossary/${cls.cat}/${cls.stem}/` },
-      ];
+      const parts = rel.split('/');
+      candidates = parts.length >= 3
+        ? [
+            {
+              path: `glossary/${parts[1]}/README.md`,
+              token: `/glossary/${parts.slice(1).join('/').replace(/\.md$/, '')}/`,
+            },
+          ]
+        : [];
     }
     for (const cand of candidates) {
       if (!cand.path) continue;

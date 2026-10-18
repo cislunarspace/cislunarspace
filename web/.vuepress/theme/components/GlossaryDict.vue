@@ -21,6 +21,7 @@
     <p v-if="error" class="dict-msg">{{ error }}</p>
     <p v-else-if="!ready" class="dict-msg">加载中…</p>
     <template v-else>
+      <p v-if="autoHide && !hasQuery" class="dict-msg">输入关键词或选择分类开始检索。</p>
       <section v-for="c in visibleCategories" :key="c.slug" class="dict-section">
         <h3 :id="c.slug">
           {{ c.label }}<span class="dict-count">（{{ c.entries.length }}）</span>
@@ -34,7 +35,7 @@
         </div>
         <p v-if="filtered(c.entries).length === 0" class="dict-msg">本分类无匹配词条。</p>
       </section>
-      <p v-if="matchCount === 0" class="dict-msg">没有匹配的词条。</p>
+      <p v-if="matchCount === 0 && (!autoHide || hasQuery)" class="dict-msg">没有匹配的词条。</p>
     </template>
   </div>
 </template>
@@ -60,13 +61,18 @@ const categories = ref<DictCategory[]>([]);
 const ready = ref(false);
 const error = ref('');
 
+const props = withDefaults(defineProps<{ autoHide?: boolean }>(), { autoHide: false });
+
 const totalCount = computed(() => categories.value.reduce((n, c) => n + c.entries.length, 0));
 
-const visibleCategories = computed(() =>
-  activeCat.value === null
+const hasQuery = computed(() => keyword.value.trim() !== '' || activeCat.value !== null);
+
+const visibleCategories = computed(() => {
+  if (props.autoHide && !hasQuery.value) return [];
+  return activeCat.value === null
     ? categories.value
-    : categories.value.filter((c) => c.slug === activeCat.value),
-);
+    : categories.value.filter((c) => c.slug === activeCat.value);
+});
 
 function filtered(entries: DictEntry[]): DictEntry[] {
   const kw = keyword.value.trim().toLowerCase();

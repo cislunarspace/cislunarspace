@@ -9,6 +9,7 @@ import Footer from './components/Footer.vue';
 import PageSidebar from './components/ExtraSidebar.vue';
 import AiChat from './components/AiChat.vue';
 import ReferencesList from './components/ReferencesList.vue';
+import GlossaryDict from './components/GlossaryDict.vue';
 import type { PageData } from './utils/types';
 import { normalizePageMetadata } from '../utils/page-metadata';
 import { updateOgMeta } from './composables/useOgMeta';
@@ -36,6 +37,7 @@ export default defineClientConfig({
     app.component('PageSidebar', PageSidebar);
     app.component('AiChat', AiChat);
     app.component('ReferencesList', ReferencesList);
+    app.component('GlossaryDict', GlossaryDict);
   },
   setup() {
     const router = useRouter();
