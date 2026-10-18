@@ -2,7 +2,7 @@
 permalink: /resources-tools/
 title: 地月空间资源与工具
 description: 仿真软件、核心算法库、数据资源与计算平台索引。
-lastUpdated: 2026-04-27
+lastUpdated: 2026-10-17
 wechatShare:
   title: 地月空间资源与工具
   desc: 数据、代码库与数据集索引。
@@ -34,6 +34,7 @@ wechatShare:
 | [r2s2](https://github.com/r2s2-astro/r2s2) | 地月空间时空坐标转换库，支持惯性系、旋转系与月面固连系之间的高精度历表转换 |
 | [Orekit](https://github.com/CS-SI/Orekit) | 欧洲空间局开源飞行动力学底层算法库，基于Java实现，支持高保真数值积分 |
 | [pykep](https://github.com/esa/pykep) | 欧洲空间局行星际与深空轨迹优化库，提供转移轨道全局搜索算法 |
+| [TUDAT](https://github.com/tudat-team/tudat) | 荷兰代尔夫特理工大学开源航天动力学平台，C++ 计算内核配 Python 接口 TudatPy，覆盖高精度数值传播、状态估计与低推力轨迹优化 |
 | [scipy](https://github.com/scipy/scipy) | Python科学计算库，提供非线性方程求解、数值微分与常微分方程积分基础工具 |
 | [poliastro](https://github.com/poliastro/poliastro) | Python天体力学计算库，提供开普勒轨道根数转换与简单机动计算 |
 
