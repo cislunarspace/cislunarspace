@@ -51,7 +51,7 @@ permalink: /glossary/dynamics/orbital-element-drift/
 月球质量分布的球谐展开中，低阶带谐项 $J_2, J_3, J_4, \dots$ 是摄动的主导因素。对环月低轨道的轨道根数：
 
 - 升交点赤经 $\Omega$ 的漂移主要由 $J_2$ 项驱动，$$ \dot{\Omega} \propto -\frac{n}{(1-e^2)^2} \left(\frac{R_\oplus}{a}\right)^2 J_2 \cos i $$
-  对于低倾角环月轨道，$\dot{\Omega}$ 为负（西向进动）。对于高倾角轨道为正值。漂移率取决于轨道半长轴 $a$ 和倾角 $i$。
+  对于低倾角环月轨道，$\dot{\Omega}$ 为负（西向进动）。对于高倾角轨道为正值。漂移率取决于轨道半长轴 $a$ 和倾角 $i$\cite{battinIntroductionMathematicsMethods1999}。
 
 - 近地点幅角 $\omega$ 的漂移也由 $J_2$ 主导，$$ \dot{\omega} \propto \frac{n}{(1-e^2)^2} \left(\frac{R_\oplus}{a}\right)^2 J_2 \left(\frac{5}{2}\cos^2 i - \frac{1}{2}\right) $$。临界倾角 $\cos i_c = 1/\sqrt{5}$（约 $63.4\degree$ 或 $116.6\degree$）处 $\dot{\omega} = 0$，这使冻结轨道（frozen orbit）成为可能。
 
@@ -86,7 +86,3 @@ permalink: /glossary/dynamics/orbital-element-drift/
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 - [远距离逆行轨道（DRO）](/glossary/programs/dro/)
-
-## 参考文献
-
-- Battin, R. H., 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA Education Series, DOI: 10.2514/4.861543，摄动理论中轨道根数变化的完整推导

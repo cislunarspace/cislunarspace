@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lagrange-dalembert-principle/
 
 ## 定义
 
-描述受控机械系统变分结构的原理，是DMOC方法的理论基础。
+描述受控机械系统变分结构的原理，是DMOC方法的理论基础\cite{ober-blobaumDiscreteMechanicsOptimal2011}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/lagrange-dalembert-principle/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Ober-Blöbaum, Junge, Marsden, 2011, *Discrete mechanics and optimal control: An analysis*, ESAIM: Control, Optimisation and Calculus of Variations, 17(2): 322-352, DOI: 10.1051/cocv/2010012

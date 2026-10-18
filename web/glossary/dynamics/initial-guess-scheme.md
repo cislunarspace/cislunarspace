@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/initial-guess-scheme/
 
 ## 定义
 
-为Lambert求解器提供初始猜测的方案，本文利用转移角与通用变量的关系，在大圈数下仍保持准确性。
+为Lambert求解器提供初始猜测的方案，本文利用转移角与通用变量的关系，在大圈数下仍保持准确性\cite{mcelreathUniversalApproachSolving2025}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/initial-guess-scheme/
 - 中途脉冲（Midcourse Impulse）
 - 零推力参考轨迹（Zero-Thrust Reference Trajectory）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
-
-## 参考文献
-
-- McElreath, Down, Majji, 2025, *A universal approach for solving the multi-revolution Lambert's problem*, Celestial Mechanics and Dynamical Astronomy, 137(4): 22, DOI: 10.1007/s10569-025-10251-5

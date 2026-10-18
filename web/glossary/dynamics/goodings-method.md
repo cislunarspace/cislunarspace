@@ -34,9 +34,9 @@ permalink: /glossary/dynamics/goodings-method/
 
 ## Gooding 的两个不同方法
 
-Gooding（1990）Lambert 算法。现代最广泛使用的 Lambert 求解器之一，给出由 $\boldsymbol{r}_1, \boldsymbol{r}_2, t_f$ 计算 $\boldsymbol{v}_1$ 的高效稳定算法。算法用 Lagrange 形式的飞行时间方程（半长轴或等价变量的函数），结合超几何函数与一个高效率的初值猜测（覆盖多圈、短/长途径、椭圆/抛物/双曲分支），数值性能与稳健性优于 Gauss 原始方法\cite{valladoFundamentalsAstrodynamicsApplications2022}，Battin 1999 年的教材对此有系统论述。多数现代 Lambert 实现都以 Gooding 算法作为基准。
+Gooding（1990）Lambert 算法。现代最广泛使用的 Lambert 求解器之一，给出由 $\boldsymbol{r}_1, \boldsymbol{r}_2, t_f$ 计算 $\boldsymbol{v}_1$ 的高效稳定算法\cite{goodingProcedureSolutionLamberts1990}。算法用 Lagrange 形式的飞行时间方程（半长轴或等价变量的函数），结合超几何函数与一个高效率的初值猜测（覆盖多圈、短/长途径、椭圆/抛物/双曲分支），数值性能与稳健性优于 Gauss 原始方法\cite{valladoFundamentalsAstrodynamicsApplications2022}，Battin 1999 年的教材对此有系统论述\cite{battinIntroductionMathematicsMethods1999}。多数现代 Lambert 实现都以 Gooding 算法作为基准。
 
-Gooding（1996）三视线初轨确定（IOD）方案。与 Lambert 算法不同，这是从三个视线方向观测确定一条轨道的方法。最小情况下仅需三个方向观测 $\hat{\boldsymbol{\rho}}_1, \hat{\boldsymbol{\rho}}_2, \hat{\boldsymbol{\rho}}_3$，方案把 IOD 化为反复求解一个 Lambert 问题（给定两端距离 + 时间，求速度），迭代收敛到一致的轨道。形式简洁、计算高效，可自然推广到多观测数据。
+Gooding（1996）三视线初轨确定（IOD）方案\cite{goodingNewProcedureSolution1997}。与 Lambert 算法不同，这是从三个视线方向观测确定一条轨道的方法。最小情况下仅需三个方向观测 $\hat{\boldsymbol{\rho}}_1, \hat{\boldsymbol{\rho}}_2, \hat{\boldsymbol{\rho}}_3$，方案把 IOD 化为反复求解一个 Lambert 问题（给定两端距离 + 时间，求速度），迭代收敛到一致的轨道。形式简洁、计算高效，可自然推广到多观测数据。
 
 读 Gooding 论文时先确认是哪一个：1990 是 Lambert solver，1996 是 IOD scheme。
 
@@ -46,7 +46,7 @@ Lambert 问题最终归结为求一个标量方程（飞行时间方程）的根
 
 Householder 方法。高阶迭代法，$p$ 阶 Householder 用到 $f$ 的前 $p$ 阶导数，收敛阶为 $p+1$。三阶 Householder（$\mathcal{O}(4)$ 收敛）在 Lambert 问题中常用，几次迭代即达机器精度。代价是每次迭代要算 $f', f'', f'''$，对复杂飞行时间函数不便宜。
 
-Powell 混合算法（Powell's hybrid method）。把 Newton 法与割线法思路混合：在离根较远时用更稳健的步长限制，靠近根后切换到快速 Newton 收敛。Powell 1970 原作用于非线性方程组。在延拓法（continuation method）的每一步成功积分后做修正迭代时常被引用，月球低推力转移中即用到这一思路\cite{yoonMinimumfuelLowthrustTrajectories2023}。
+Powell 混合算法（Powell's hybrid method）。把 Newton 法与割线法思路混合：在离根较远时用更稳健的步长限制，靠近根后切换到快速 Newton 收敛。Powell 1970 原作用于非线性方程组\cite{powellHybridMethodNonlinear1970}。在延拓法（continuation method）的每一步成功积分后做修正迭代时常被引用，月球低推力转移中即用到这一思路\cite{yoonMinimumfuelLowthrustTrajectories2023}。
 
 双点迭代法（two-point method / 割线法 secant）。用前两次出离角与飞行时间的估计值，构造割线
 
@@ -100,8 +100,4 @@ $$
 
 ## 参考文献
 
-- Gooding, 1990, *A procedure for the solution of Lambert's orbital boundary-value problem*, Celestial Mechanics and Dynamical Astronomy, 48(2): 145-165, DOI: 10.1007/BF00049511，Gooding Lambert 算法
-- Gooding, 1996, *A new procedure for the solution of the classical problem of minimal orbit determination from three lines of sight*, Celestial Mechanics and Dynamical Astronomy, 66(4): 387-423, DOI: 10.1007/BF00049379，Gooding 三视线 IOD 方案
-- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, American Institute of Aeronautics and Astronautics, Reston, DOI: 10.2514/4.861543，Lambert 问题与飞行时间方程的经典教材
-- Powell, 1970, *A hybrid method for nonlinear equations*, in Rabinowitz, P. (ed.), Numerical Methods for Nonlinear Algebraic Equations, Gordon and Breach, London, 87-114，Powell 混合算法
 - Folta, D., et al., 2010，阻尼二分修正应用于平动点轨道保持，题录待补

@@ -48,7 +48,7 @@ $$
 
 符号决定短路径或长路径，$n_\text{rev}$ 为完整圈数。这条转移时间方程 $\Delta t = T(a)$ 正是 Lambert 求解器迭代的核心：给定 $\Delta t$，求 $a$。
 
-该通用变量形式由 Bate、Mueller 与 White 以及 Battin 1999 年给出，用单一通用变量 $\chi$ 代替 $\alpha_e, \beta_e$，对椭圆、抛物线、双曲线统一成立\cite{bateFundamentalsAstrodynamics1971}：
+该通用变量形式由 Bate、Mueller 与 White 以及 Battin 1999 年给出，用单一通用变量 $\chi$ 代替 $\alpha_e, \beta_e$，对椭圆、抛物线、双曲线统一成立\cite{bateFundamentalsAstrodynamics1971,battinIntroductionMathematicsMethods1999}：
 
 $$
 \sqrt{\mu}\,\Delta t = \tfrac{r_0 r}{\sqrt{a}} \sin\!\tfrac{\Delta\nu}{2}\, \chi + (1 - \lambda\cos\!\tfrac{\Delta\nu}{2})\,\chi^3 C(z) + \mu D(z),
@@ -101,9 +101,3 @@ ToF 不随 $C$ 平滑增长，而是呈阶梯状：$C \le 2.78$ 时约 3–5 天
 - [雅可比常数（Jacobi Constant）](/glossary/dynamics/jacobi-integral/)
 
 - [驻留维持（Station-Keeping）](/glossary/dynamics/station-keeping/)
-
-## 参考文献
-
-- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA, DOI: 10.2514/4.861543，通用变量形式与 Battin 的 Lambert 算法
-
-- Alessi, Gómez & Masdemont, 2009, *Leaving the Moon by means of invariant manifolds of libration point orbits*, Communications in Nonlinear Science and Numerical Simulation, 14(12): 4153-4167, DOI: 10.1016/j.cnsns.2008.09.016，稳定流形转移时间的统计，直飞 ≈ 10 天，每圈 +10 天，渐近段 5 天，1000 km 内 < 0.25 km/s

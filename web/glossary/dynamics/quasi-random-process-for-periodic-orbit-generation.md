@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/quasi-random-process-for-periodic-orbit-generation
 
 ## 应用价值
 
-该概念在地月空间轨道设计与转移规划中具有重要作用，可用于分析轨道特性与设计低能量转移方案。
+该概念在地月空间轨道设计与转移规划中具有重要作用，可用于分析轨道特性与设计低能量转移方案\cite{wilmerPreliminaryInvestigationProposal2025}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/quasi-random-process-for-periodic-orbit-generation
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
-
-## 参考文献
-
-- Wilmer et al., 2025, *Preliminary Investigation and Proposal of Periodic Orbits and Their Utilization for Logistics in the Cislunar Regime*, Space Policy, 71: 101635, DOI: 10.1016/j.spacepol.2024.101635

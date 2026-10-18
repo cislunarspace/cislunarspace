@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/phase-flow-structure/
 
 ## 定义
 
-限制性三体问题相空间中轨道的整体分布和运动规律，通过庞加莱截面等方法揭示相空间内的周期轨道、不变流形和混沌区域。
+限制性三体问题相空间中轨道的整体分布和运动规律，通过庞加莱截面等方法揭示相空间内的周期轨道、不变流形和混沌区域\cite{LiYanJunLiYongLaGeLangRiDianDeShenKongTanCeJiShu2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/phase-flow-structure/
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)
-
-## 参考文献
-
-- 李言俊等, 2015, *利用拉格朗日点的深空探测技术*, 西北工业大学出版社, 西安

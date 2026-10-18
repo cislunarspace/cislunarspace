@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/energy-level/
 
 ## 定义
 
-由雅可比常数C表征的动力学能级。在CR3BP中，相同雅可比常数的轨迹具有相同的能量水平。
+由雅可比常数C表征的动力学能级。在CR3BP中，相同雅可比常数的轨迹具有相同的能量水平\cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/energy-level/
 - [形状法（Shape Method）](/glossary/dynamics/shape-based-method/)
 - 差分动态规划（Differential Dynamic Programming, DDP）
 - 二阶锥规划（Second-Order Cone Programming, SOCP）
-
-## 参考文献
-
-- Vaquero and Howell, 2014, *Leveraging Resonant-Orbit Manifolds to Design Transfers Between Libration-Point Orbits*, Journal of Guidance, Control, and Dynamics, 37(4): 1143-1157, DOI: 10.2514/1.62230

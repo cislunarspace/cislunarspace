@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/system-translation/
 
 ## 定义
 
-将一个三体系统中计算的周期轨道和转移轨迹，通过质量参数连续延拓直接迁移到另一个三体系统的方法，无需在新系统中重新生成轨道和流形。
+将一个三体系统中计算的周期轨道和转移轨迹，通过质量参数连续延拓直接迁移到另一个三体系统的方法，无需在新系统中重新生成轨道和流形\cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/system-translation/
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)
-
-## 参考文献
-
-- Vaquero and Howell, 2014, *Leveraging Resonant-Orbit Manifolds to Design Transfers Between Libration-Point Orbits*, Journal of Guidance, Control, and Dynamics, 37(4): 1143-1157, DOI: 10.2514/1.62230

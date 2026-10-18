@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/high-fidelity-model/
 
 ## 定义
 
-在轨道动力学仿真中包含所有实际摄动源的力学模型。本文的高保真模型包括月球引力位（含 LP100K 高阶谐系数）、地球和太阳的第三体引力，远比仅考虑两个质点引力的圆型限制性三体模型精确。
+在轨道动力学仿真中包含所有实际摄动源的力学模型。本文的高保真模型包括月球引力位（含 LP100K 高阶谐系数）、地球和太阳的第三体引力，远比仅考虑两个质点引力的圆型限制性三体模型精确\cite{sannaOptimalImpulsiveOrbit2024}。
 
 ## 应用价值
 
@@ -43,7 +43,3 @@ permalink: /glossary/dynamics/high-fidelity-model/
 - 特征指数（Characteristic Exponents）
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
-
-## 参考文献
-
-- Sanna et al., 2024, *Optimal Impulsive Orbit Transfers from Gateway to Low Lunar Orbit*, Aerospace, 11(6): 460, DOI: 10.3390/aerospace11060460

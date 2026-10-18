@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/third-body-perturbation/
 
 ## 应用价值
 
-该分析方法用于评估航天器轨道的长期稳定性。在地月空间任务中，摄动因素复杂，稳定性分析对任务轨道设计和任务周期预测具有重要指导意义。
+该分析方法用于评估航天器轨道的长期稳定性。在地月空间任务中，摄动因素复杂，稳定性分析对任务轨道设计和任务周期预测具有重要指导意义\cite{criscolaApplicationTheoryFunctional2024}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/third-body-perturbation/
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
 - [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
-
-## 参考文献
-
-- Criscola, Canales & Mortari, 2024, *Application of the theory of functional connections to the perturbed Lambert's problem*, Celestial Mechanics and Dynamical Astronomy, 136(5), DOI: 10.1007/s10569-024-10212-4

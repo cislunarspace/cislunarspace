@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/continuation/
 
 ## 定义
 
-数值延拓（numerical continuation）是跟踪含参数非线性方程组
+数值延拓（numerical continuation）是跟踪含参数非线性方程组\cite{allgowerNumericalContinuationMethods1990,kellerNumericalSolutionBifurcation1977}
 
 $$\mathbf{F}(\mathbf{x},\lambda)=\mathbf{0},\qquad \mathbf{x}\in\mathbb{R}^n,\ \lambda\in\mathbb{R}$$
 
@@ -92,7 +92,7 @@ $$\begin{bmatrix}\mathbf{F}_\mathbf{x} & \mathbf{F}_\lambda \\ \dot{\mathbf{x}}_
 
 - 转向点（fold / saddle-node）：$\lambda$ 沿曲线方向局部极值，意味着同一 $\lambda$ 值对应多个解或解消失。CR3BP 周期-能量关系图上频繁出现，是族存在性边界的标志。
 
-- 分岔点（branching / bifurcation）：两条或多条解分支相交。Halo 轨道族即从平面 Lyapunov 族经过 pitchfork 分岔产生（后者关于 $z\to -z$ 对称性破缺）。DRO、NRHO、butterfly 等族之间的连接点也都通过延拓过程中检测雅可比零空间或 Floquet 乘子穿越 $+1$ 来识别，见 Galan-Vioque 等 2014 和 Zhang 2019。
+- 分岔点（branching / bifurcation）：两条或多条解分支相交\cite{seydelPracticalBifurcationStability2010}。Halo 轨道族即从平面 Lyapunov 族经过 pitchfork 分岔产生（后者关于 $z\to -z$ 对称性破缺）。DRO、NRHO、butterfly 等族之间的连接点也都通过延拓过程中检测雅可比零空间或 Floquet 乘子穿越 $+1$ 来识别，见 Galan-Vioque 等 2014 和 Zhang 2019。
 
 延拓扫描出整张分岔图后，再在各分支点处切换到新分支继续延拓，即可得完整的族系图谱。
 
@@ -136,12 +136,4 @@ $$\begin{bmatrix}\mathbf{F}_\mathbf{x} & \mathbf{F}_\lambda \\ \dot{\mathbf{x}}_
 
 ## 参考文献
 
-- Allgower and Georg, 1990, *Numerical Continuation Methods: An Introduction*, Springer, DOI: 10.1007/978-3-642-61257-2，延拓算法经典教材，自然参数 / 弧长 / 单纯形方法的系统讲述
-
-- Seydel, 2010, *Practical Bifurcation and Stability Analysis*, 3rd ed., Springer, DOI: 10.1007/978-1-4419-1740-9，含转向点、分岔点处理的工程化讲法
-
-- Keller, 1977, *Numerical solution of bifurcation and nonlinear eigenvalue problems*, Applications of Bifurcation Theory, Academic Press: 359-384，伪弧长延拓的提出性文献
-
 - Doedel et al., 2007, *AUTO-07P: Continuation and Bifurcation Software for Ordinary Differential Equations*, User's Guide, Concordia University, Montreal，主流延拓软件的实现与文档
-
-- Gómez and Mondelo, 2001, *The dynamics around the collinear equilibrium points of the RTBP*, Physica D: Nonlinear Phenomena, 157(4): 283-321, DOI: 10.1016/S0167-2789(01)00312-8，CR3BP 周期轨道族延拓的标准做法

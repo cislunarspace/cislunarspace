@@ -38,7 +38,7 @@ $\dot{q} = \partial H / \partial p$，$\dot{p} = -\partial H / \partial q$
 
 ## 正则变换
 
-正则变换（canonical transformation）是保持正则方程形式不变的相空间变量替换 $(q,p) \to (Q,P)$，即辛变换：它保持泊松括号 $\{Q,P\}_{q,p} = 1$，雅可比行列式为 1，从而保持相空间体积（刘维尔定理）。正则变换是天体力学中简化摄动问题的核心手段：通过合适的变换可以把快变量与慢变量分离、把含时坐标变为循环坐标，使对应广义动量守恒\cite{valladoFundamentalsAstrodynamicsApplications2022,dingCislunarSpaceSituational2025}。寻找正则变换本质上是在寻找更多的循环坐标。典型应用：Brouwer 用两级正则变换消去短周期项得到人工卫星解析理论，Deprit 用 Lie 变换改进之。von Zeipel 法、Hori 法同属此类。
+正则变换（canonical transformation）是保持正则方程形式不变的相空间变量替换 $(q,p) \to (Q,P)$，即辛变换：它保持泊松括号 $\{Q,P\}_{q,p} = 1$，雅可比行列式为 1，从而保持相空间体积（刘维尔定理）\cite{singhLowthrustTransfersSouthern2021}。正则变换是天体力学中简化摄动问题的核心手段：通过合适的变换可以把快变量与慢变量分离、把含时坐标变为循环坐标，使对应广义动量守恒\cite{valladoFundamentalsAstrodynamicsApplications2022,dingCislunarSpaceSituational2025}。寻找正则变换本质上是在寻找更多的循环坐标。典型应用：Brouwer 用两级正则变换消去短周期项得到人工卫星解析理论，Deprit 用 Lie 变换改进之。von Zeipel 法、Hori 法同属此类。
 
 ## 作用-角变量
 
@@ -70,7 +70,7 @@ $\Lambda = L$，$P = L - G$，$Q = G - H$
 
 - Poincaré 元素是春分点元素的正则对应，构造为 $\sqrt{\cdot}$ 形式，规避偏心率与倾角趋零的奇点，适合近圆/近赤道轨道的哈密顿摄动分析，见 Brouwer 和 Clemence 1961 年的工作\cite{valladoFundamentalsAstrodynamicsApplications2022}。
 
-- 修正春分点元素（MEEs）：一组非奇异轨道根数，由半通径 $p$、偏心率矢量分量 $(f,g)$、倾角矢量分量 $(h,k)$ 与真经度 $L$ 组成。相比经典开普勒根数，MEEs 在圆轨道与赤道轨道处无奇点，且与笛卡尔坐标的变换矩阵连续光滑，适合低推力轨迹优化中协态方程的直接推导，见 Singh 等 2021 年与 Broucke 和 Cefola 1972 年的工作。
+- 修正春分点元素（MEEs）：一组非奇异轨道根数，由半通径 $p$、偏心率矢量分量 $(f,g)$、倾角矢量分量 $(h,k)$ 与真经度 $L$ 组成。相比经典开普勒根数，MEEs 在圆轨道与赤道轨道处无奇点，且与笛卡尔坐标的变换矩阵连续光滑，适合低推力轨迹优化中协态方程的直接推导，见 Singh 等 2021 年与 Broucke 和 Cefola 1972 年的工作\cite{brouckeEquinoctialOrbitElements1972}。
 
 ### Jacobi 坐标
 
@@ -93,7 +93,3 @@ Jacobi 坐标（Jacobi coordinates）是把 N 体问题化为一系列相对坐�
 ## 参考文献
 
 - Brouwer 和 Clemence, 1961, *Methods of Celestial Mechanics*, Academic Press，Poincaré 元素
-
-- Singh 等, 2021, *Low-Thrust Transfers to Southern L2 Near-Rectilinear Halo Orbits Facilitated by Invariant Manifolds*, Journal of Optimization Theory and Applications, 191(2–3): 517–544, DOI: 10.1007/s10957-021-01898-9，MEEs 低推力优化
-
-- Broucke 和 Cefola, 1972, *On the equinoctial orbit elements*, Celestial Mechanics, 5(3): 303–310, DOI: 10.1007/BF01228432，修正春分点元素

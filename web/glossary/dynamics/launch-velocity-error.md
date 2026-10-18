@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/launch-velocity-error/
 
 ## 定义
 
-运载火箭精度不足导致的实际发射速度与标称值的偏差。对Halo轨道任务影响尤其显著：在椭圆转移轨道远地点附近，速度随时间急剧下降，修正所需的速度增量随延迟时间快速增长。Genesis任务的预期误差为7 m/s（1σ），相对3200 m/s的加速量看似很小，但修正窗口仅有数天。
+运载火箭精度不足导致的实际发射速度与标称值的偏差。对Halo轨道任务影响尤其显著：在椭圆转移轨道远地点附近，速度随时间急剧下降，修正所需的速度增量随延迟时间快速增长。Genesis任务的预期误差为7 m/s（1σ），相对3200 m/s的加速量看似很小，但修正窗口仅有数天\cite{serbanHaloOrbitMission2002}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/launch-velocity-error/
 - 微分代数（Differential Algebra, DA）
 - 羽流冲击（Plume Impingement）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- Serban et al., 2002, *Halo orbit mission correction maneuvers using optimal control*, Automatica, 38(4): 571-583, DOI: 10.1016/S0005-1098(01)00279-5

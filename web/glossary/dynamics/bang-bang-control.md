@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/bang-bang-control/
 
 ## 定义
 
-Bang-bang 控制是燃耗最优控制问题中推力幅值的标准形式：控制量仅在允许范围的两个极值间切换：推力要么取最大值 $F = F_{\max}$（开），要么为零 $F = 0$（关），不存在中间推力值的持续燃烧。bang-bang 一词源于继电器开关切换时发出的砰声。
+Bang-bang 控制是燃耗最优控制问题中推力幅值的标准形式：控制量仅在允许范围的两个极值间切换：推力要么取最大值 $F = F_{\max}$（开），要么为零 $F = 0$（关），不存在中间推力值的持续燃烧\cite{brysonAppliedOptimalControl1975}。bang-bang 一词源于继电器开关切换时发出的砰声。
 
-这是庞特里亚金极值原理（Pontryagin's Minimum Principle）的直接推论。在燃耗最省目标下，哈密顿函数对推力幅值 $F$ 呈线性依赖关系，极小化哈密顿函数等价于将推力幅值推向约束的边界，要么最大、要么最小（零）。仅当切换函数恒为零时可能出现中间值，此即奇异弧，需要额外分析。
+这是庞特里亚金极值原理（Pontryagin's Minimum Principle）的直接推论\cite{pontryaginMathematicalTheoryOptimal2018}。在燃耗最省目标下，哈密顿函数对推力幅值 $F$ 呈线性依赖关系，极小化哈密顿函数等价于将推力幅值推向约束的边界，要么最大、要么最小（零）。仅当切换函数恒为零时可能出现中间值，此即奇异弧，需要额外分析。
 
-Lawden 1963 年的著作《Optimal Trajectories for Space Navigation》将推力轨迹按幅值特征划分为三类弧段（arc），这一分类至今仍是推力优化理论的基础术语：
+Lawden 1963 年的著作《Optimal Trajectories for Space Navigation》将推力轨迹按幅值特征划分为三类弧段（arc），这一分类至今仍是推力优化理论的基础术语\cite{lawdenOptimalTrajectoriesSpace1963}：
 
 - 最大推力弧（Maximum-thrust arc, MT）：切换函数 $S < 0$ 时的弧段，发动机以 $F_{\max}$ 工作。
 
@@ -180,13 +180,3 @@ $$
 - [同伦法](/glossary/dynamics/homotopy-method/)：Bang-bang 控制数值求解的核心技术
 
 - [脉冲机动（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/)：脉冲推进模型下的机动方法，双脉冲是 Bang-bang 控制脉冲极限的初值来源
-
-## 参考文献
-
-- Lawden, 1963, *Optimal Trajectories for Space Navigation*, Butterworths, London，先驱向量的原始定义、切换函数与三类弧 MT/NT/IT 的经典分类
-
-- Pontryagin et al., 1962, *The Mathematical Theory of Optimal Processes*, Interscience Publishers, New York，庞特里亚金极小值原理的原始著作
-
-- Bryson and Ho, 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Hemisphere Publishing Corporation, Washington, D.C.，最优控制的系统教材，含 Bang-bang 控制的数值方法
-
-- 朱政帆, 高扬, 2017, *空间小推力轨道最优 Bang-Bang 控制的两类延拓解法综述*, 深空探测学报, 4(2): 101–110, DOI: 10.15982/j.issn.2095-7777.2017.02.001，能量-燃耗同伦与开关序列切换延拓两种方法的详细比较

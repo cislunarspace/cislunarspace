@@ -76,7 +76,7 @@ $$
 
 - 轨道面变换：PLF 的面外分量可代替一次独立的面外变轨，把航天器从地月轨道面外免费转入面内，节省量级 $10^2$ m/s，详见 [月球飞越辅助轨道面变换](/glossary/dynamics/lunar-flyby-plane-change/)。
 
-- 逆行动力 LGA（DRO 交会）：Murakami & Yamanaka（2015）提出的retrograde-powered lunar gravity assist。逆行飞越本就提供更大的转向角，再加近月点小幅脉冲，可显著降低 DRO 交会的总 $\Delta v$。Peng et al.（2024）在 GTO–DRO 任务里系统使用了双 PLF。
+- 逆行动力 LGA（DRO 交会）：Murakami & Yamanaka（2015）提出的retrograde-powered lunar gravity assist\cite{murakamiTrajectoryDesignRendezvous2015}。逆行飞越本就提供更大的转向角，再加近月点小幅脉冲，可显著降低 DRO 交会的总 $\Delta v$。Peng et al.（2024）在 GTO–DRO 任务里系统使用了双 PLF。
 
 ## 应用要点
 
@@ -103,9 +103,3 @@ $$
 - [远距离逆行轨道（DRO）](/glossary/programs/dro/)
 
 - [会合坐标系（Synodic Frame）](/glossary/fundamentals/synodic-frame/)
-
-## 参考文献
-
-- 魏赞 等, 2026, *地月远距离逆行轨道族月球借力转移入轨研究*, 北京航空航天大学学报, DOI: 10.13700/j.bh.1001-5965.2025.0868，顺行/逆行 LGA 用于 DRO 入轨，加速/减速入轨
-
-- Murakami & Yamanaka, 2015, *Trajectory design for rendezvous in lunar Distant Retrograde Orbit*, 2015 IEEE Aerospace Conference, 1-13, DOI: 10.1109/AERO.2015.7119023

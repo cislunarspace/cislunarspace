@@ -13,7 +13,7 @@ keywords: 多步积分器, Adams-Bashforth, Adams-Moulton, Gauss-Jackson, Störm
 
 ## 定义
 
-多步积分器利用当前时刻的状态加上此前若干步已算出的函数值历史（回值，back values），将解从 $t_n$ 推进到 $t_{n+1}$。这与仅用 $t_n$ 时刻状态的单步法（如 Runge-Kutta）不同。多步法通常以预测-校正（predictor-corrector）对的形式工作：预测公式给出初估 $y_{n+1}^p$，校正公式利用预测态的函数值对解做精化，推导见 8.5–8.6 节\cite{valladoFundamentalsAstrodynamicsApplications2022}。
+多步积分器利用当前时刻的状态加上此前若干步已算出的函数值历史（回值，back values），将解从 $t_n$ 推进到 $t_{n+1}$\cite{shampineComputerSolutionOrdinary1975,mauryCowellTypeNumerical1969}。这与仅用 $t_n$ 时刻状态的单步法（如 Runge-Kutta）不同。多步法通常以预测-校正（predictor-corrector）对的形式工作：预测公式给出初估 $y_{n+1}^p$，校正公式利用预测态的函数值对解做精化，推导见 8.5–8.6 节\cite{valladoFundamentalsAstrodynamicsApplications2022,herrickAstrodynamicsVol21972}。
 
 因为重复利用历史估值，多步法每步仅需 1–2 次力模型调用，远少于 Runge-Kutta 的 $s$ 级估值。代价是：不能自起步，需存储回值历史与累积差分，变步长控制更为复杂。
 
@@ -53,7 +53,7 @@ $$
 
 ## Krogh-Shampine-Gordon（KSG）与变步长多步法
 
-KSG 积分器由 Krogh 1974 年与 Shampine、Gordon 1975 年提出，用均差（divided difference）替代固定步长回值差分，在多步框架内实现自然变步长控制。它是一种非求和、变步长、可自起步的积分器，对大偏心率轨道尤为适用，可避免 Gauss-Jackson 在远地点的步长浪费。在地月空间编目定轨中已有应用，采用 60 秒步长对三体动力学模型积分\cite{ChenYanLingDiYueKongJianBianMuXiTongGuanCeTiZhiYanJiu2025}。
+KSG 积分器由 Krogh 1974 年与 Shampine、Gordon 1975 年提出，用均差（divided difference）替代固定步长回值差分，在多步框架内实现自然变步长控制\cite{kroghChangingStepsizeIntegration1974}。它是一种非求和、变步长、可自起步的积分器，对大偏心率轨道尤为适用，可避免 Gauss-Jackson 在远地点的步长浪费。在地月空间编目定轨中已有应用，采用 60 秒步长对三体动力学模型积分\cite{ChenYanLingDiYueKongJianBianMuXiTongGuanCeTiZhiYanJiu2025}。
 
 Vallado\cite{valladoFundamentalsAstrodynamicsApplications2022} 指出，Shampine-Gordon，以及 Berry 与 Healy 2004 年的最新实现，作为 Adams-Bashforth-Moulton 的替代方案值得进一步关注。
 
@@ -94,14 +94,6 @@ Vallado\cite{valladoFundamentalsAstrodynamicsApplications2022} 指出，Shampine
 
 ## 参考文献
 
-- Maury and Segal, 1969, *Cowell Type Numerical Integration as Applied to Satellite Orbit Computation*, GSFC X-553-69-164，1–15 阶系数表
-
 - Berry and Healy, 2003, *Comparison of Accuracy Assessment Techniques for Numerical Integration*, Advances in the Astronautical Sciences, 114: 1003–1016，Gauss-Jackson 详细实现与误差分析
-
-- Krogh, 1974, *Changing Stepsize in the Integration of Differential Equations Using Modified Divided Differences*, Lecture Notes in Mathematics, 362: 22–71, DOI: 10.1007/BFb0066584
-
-- Shampine and Gordon, 1975, *Computer Solution of Ordinary Differential Equations: The Initial Value Problem*, W.H. Freeman
-
-- Herrick, 1972, *Astrodynamics*, Vol. 2, Van Nostrand Reinhold，Gauss-Jackson 与 RK4 效率对比
 
 - Berry, 2004, 私人交流，Vallado 2022 引用，内容涉及 Störmer-Cowell 与 Krogh 变步长实现，题录待补

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/conic-approximation-of-transfer-segment/
 
 ## 定义
 
-在三体模型中计算近地停泊轨道与不变流形之间的拼接段时，先用二体模型下的圆锥曲线进行近似，通过经典轨道要素直接推导所需速度增量，避免在三体模型下的迭代求解，之后再用三体模型修正的计算策略。
+在三体模型中计算近地停泊轨道与不变流形之间的拼接段时，先用二体模型下的圆锥曲线进行近似，通过经典轨道要素直接推导所需速度增量，避免在三体模型下的迭代求解，之后再用三体模型修正的计算策略\cite{PanXunPingDongDianShuangMaiChongZhuanYiGuiDaoDeKuaiSuJiSuanFangFa2017}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/conic-approximation-of-transfer-segment/
 - 轨道改进（Orbit Improvement）
 - 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
-
-## 参考文献
-
-- 潘迅 等, 2017, *平动点双脉冲转移轨道的快速计算方法*, 宇航学报, 38(6): 574-582

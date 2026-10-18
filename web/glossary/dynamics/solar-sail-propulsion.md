@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/solar-sail-propulsion/
 
 ## 应用价值
 
-基于该术语的定义，它在地月空间任务中具有重要应用价值。例如在轨道设计中，可利用其特性进行转移轨道优化。在轨道维持中，能够实现精确的轨道控制。在导航定轨中，可用于提高状态估计精度。在任务规划中，可辅助决策轨道转移时机和策略。具体的工程应用需结合任务约束和轨道特性进行综合分析。
+基于该术语的定义，它在地月空间任务中具有重要应用价值。例如在轨道设计中，可利用其特性进行转移轨道优化。在轨道维持中，能够实现精确的轨道控制。在导航定轨中，可用于提高状态估计精度。在任务规划中，可辅助决策轨道转移时机和策略。具体的工程应用需结合任务约束和轨道特性进行综合分析\cite{HeRenGongPingDongDianFuJinHunHeTuiJinHangTianQiBianDuiHuaMoKongZhiBaoChi2023}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/solar-sail-propulsion/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
-
-## 参考文献
-
-- 贺京九 等, 2023, *人工平动点附近混合推进航天器编队滑模控制保持*, 北京航空航天大学学报, 49(5): 1222-1230, DOI: 10.13700/j.bh.1001-5965.2021.0420

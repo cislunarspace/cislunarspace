@@ -35,7 +35,7 @@ permalink: /glossary/dynamics/neck-opening-condition/
 ## 应用价值
 
 在颈部开启条件的分析中，可用于轨道传播和机动设计，帮助工程师评估航天器在不同动力学环境下的运动特性。
-该概念为地月空间任务设计提供了理论基础，尤其在平动点轨道设计和低能转移分析中具有重要应用价值。
+该概念为地月空间任务设计提供了理论基础，尤其在平动点轨道设计和低能转移分析中具有重要应用价值\cite{liangClassificationCislunarTrajectories2016}。
 利用颈部开启条件进行轨迹优化，可以有效降低任务燃料消耗，提高任务经济效益。
 在任务设计中，颈部开启条件的分析有助于理解航天器在复杂引力场中的行为，指导轨道保持策略的制定。
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/neck-opening-condition/
 - 微分代数（Differential Algebra, DA）
 - 羽流冲击（Plume Impingement）
 - 动量积分（Momentum Integral, MI）
-
-## 参考文献
-
-- Liang, Xu & Xu, 2016, *The classification of cislunar trajectories and its applications in the Earth-Moon system*, Astrophysics and Space Science, 361(1): 5, DOI: 10.1007/s10509-015-2577-z

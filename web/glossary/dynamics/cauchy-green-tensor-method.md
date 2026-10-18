@@ -42,7 +42,7 @@ $$
 \sigma(t_0,t_f) = \frac{1}{\Delta t}\ln\!\sqrt{\lambda_1(C)}.
 $$
 
-在初始条件网格上计算 $\sigma$ 得到 FTLE 场。场中的高值脊线（ridges）即拉格朗日相干结构（Lagrangian Coherent Structures, LCS）。LCS 标识有限时间内最显著地分隔不同流动区域的屏障，穿越轨道、捕获轨道与逃逸轨道在相空间里被 LCS 隔开，见 Haller 2001 年与 Shadden 等 2005 年的工作\cite{shaddenDefinitionPropertiesLagrangian2005}。
+在初始条件网格上计算 $\sigma$ 得到 FTLE 场。场中的高值脊线（ridges）即拉格朗日相干结构（Lagrangian Coherent Structures, LCS）\cite{perez-palauToolsDetectStructures2015,shortLagrangianCoherentStructures2014,gawlikLagrangianCoherentStructures2009,hallerDistinguishedMaterialSurfaces2001}。LCS 标识有限时间内最显著地分隔不同流动区域的屏障，穿越轨道、捕获轨道与逃逸轨道在相空间里被 LCS 隔开，见 Haller 2001 年与 Shadden 等 2005 年的工作\cite{shaddenDefinitionPropertiesLagrangian2005}。
 
 ## 与单值矩阵、庞加莱截面的区别
 
@@ -88,10 +88,3 @@ $$
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
 - [天平动点（Libration Point）](/glossary/fundamentals/libration-point/)
-
-## 参考文献
-
-- Haller, 2001, *Distinguished material surfaces and coherent structures in three-dimensional fluid flows*, Physica D, 149(4): 248–277, DOI: 10.1016/S0167-2789(00)00199-8
-- Gawlik et al., 2009, *Lagrangian coherent structures in the planar elliptic restricted three-body problem*, Celestial Mechanics and Dynamical Astronomy, 103(3): 227–249, DOI: 10.1007/s10569-008-9180-3
-- Short and Howell, 2014, *Lagrangian coherent structures in various map representations for application to multi-body gravitational regimes*, Acta Astronautica, 94(2): 592–607, DOI: 10.1016/j.actaastro.2013.08.020
-- Pérez-Palau et al., 2015, *Tools to detect structures in dynamical systems using Jet Transport*, Celestial Mechanics and Dynamical Astronomy, 123(3): 239–262, DOI: 10.1007/s10569-015-9634-3

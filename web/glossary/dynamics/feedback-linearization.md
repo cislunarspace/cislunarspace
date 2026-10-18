@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/feedback-linearization/
 
 ## 定义
 
-通过非线性状态反馈和坐标变换，将非线性系统精确转化为线性系统的设计方法。变换后的系统可用线性控制理论设计控制器。在轨道保持中用于将平动点附近的非线性航天器动力学线性化，但对未建模扰动和数字实现的鲁棒性较差。
+通过非线性状态反馈和坐标变换，将非线性系统精确转化为线性系统的设计方法。变换后的系统可用线性控制理论设计控制器。在轨道保持中用于将平动点附近的非线性航天器动力学线性化，但对未建模扰动和数字实现的鲁棒性较差\cite{elobaidApproximateTransverseFeedback2022}。
 
 ## 应用价值
 
-该术语在地月转移轨道设计中被广泛应用，用于优化转移轨迹、降低速度增量消耗。工程师在设计地月空间任务时，可以利用这一概念评估不同轨道的性能差异，选择满足任务约束的最优方案。此外，它也可用于分析轨道机动方案的可行性，支持任务规划与决策。
+该术语在地月转移轨道设计中被广泛应用，用于优化转移轨迹、降低速度增量消耗\cite{sannaOptimalImpulsiveOrbit2024}。工程师在设计地月空间任务时，可以利用这一概念评估不同轨道的性能差异，选择满足任务约束的最优方案。此外，它也可用于分析轨道机动方案的可行性，支持任务规划与决策。
 
 ## 相关概念
 
@@ -42,8 +42,3 @@ permalink: /glossary/dynamics/feedback-linearization/
 - 动力一致性（Dynamical Consistency）
 - 组合协方差（Combined Covariance）
 - [尼霍罗舍夫估计（Nekhorosev Estimates）](/glossary/dynamics/nekhorosev-estimates/)
-
-## 参考文献
-
-- Elobaid, Monaco and Normand-Cyrot, 2022, *Approximate Transverse Feedback Linearization Under Digital Control*, IEEE Control Systems Letters, 6: 13-18, DOI: 10.1109/LCSYS.2020.3046539
-- Sanna et al., 2024, *Optimal Impulsive Orbit Transfers from Gateway to Low Lunar Orbit*, Aerospace, 11(6): 460, DOI: 10.3390/aerospace11060460

@@ -36,7 +36,7 @@ $$
 \vec r(t) = f\,\vec r_0 + g\,\vec v_0,\qquad \vec v(t) = \dot f\,\vec r_0 + \dot g\,\vec v_0.
 $$
 
-四个系数 $f, g, \dot f, \dot g$ 称为 Lagrange 系数（Lagrange coefficients）或 f, g 函数（f and g functions）。Lagrange 在 18 世纪为月球运动研究提出此形式。它把在中心引力场中如何由一段状态推算另一段状态（开普勒问题）线性化地表达出来，是二体传播、初轨确定与 [兰伯特问题](/glossary/fundamentals/lamberts-problem/) 求解的基础构件\cite{bateFundamentalsAstrodynamics1971}。
+四个系数 $f, g, \dot f, \dot g$ 称为 Lagrange 系数（Lagrange coefficients）或 f, g 函数（f and g functions）\cite{battinIntroductionMathematicsMethods1999}。Lagrange 在 18 世纪为月球运动研究提出此形式。它把在中心引力场中如何由一段状态推算另一段状态（开普勒问题）线性化地表达出来，是二体传播、初轨确定与 [兰伯特问题](/glossary/fundamentals/lamberts-problem/) 求解的基础构件\cite{bateFundamentalsAstrodynamics1971}。
 
 ## 基本恒等式
 
@@ -131,7 +131,7 @@ $$
 g = \tau-\frac{u}{6}\tau^3-\frac{\dot u}{12}\tau^4-\frac{3\ddot u-u^2}{120}\tau^5-\cdots,
 $$
 
-其中 $\tau=t-t_0$，各阶 $u$ 的导数在 $t_0$ 处取值。级数在 $\tau$ 较短（典型为观测弧段的一小段）时收敛快，是只使用位置观测信息便可实现的传播工具。
+其中 $\tau=t-t_0$，各阶 $u$ 的导数在 $t_0$ 处取值\cite{escobalMethodsOrbitDetermination1965}。级数在 $\tau$ 较短（典型为观测弧段的一小段）时收敛快，是只使用位置观测信息便可实现的传播工具\cite{herrickAstrodynamicsVol21972}。
 
 ## 应用要点
 
@@ -152,9 +152,3 @@ $$
 - [通用变量法（Universal Variable Method）](/glossary/dynamics/universal-variable-method/)
 - [两点边值问题（Two-Point Boundary Value Problem）](/glossary/dynamics/tpbvp/)
 - [二体问题 / 开普勒问题]
-
-## 参考文献
-
-- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, AIAA, DOI: 10.2514/4.861543
-- Escobal, 1965, *Methods of Orbit Determination*, 2nd ed., Krieger
-- Herrick, 1971, *Astrodynamics*, Vol. 1, Van Nostrand Reinhold

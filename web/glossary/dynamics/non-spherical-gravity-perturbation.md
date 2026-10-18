@@ -68,11 +68,11 @@ $$
 
 - 临界倾角轨道（Critical Inclination Orbit）：取 $i = 63.4^{\circ}$ 或 $116.6^{\circ}$，使 $\dot{\omega} = 0$，近地点固定在某一方向（Molniya 轨道即此原理）。
 
-需要指出，对于地月平动点轨道（halo、NRHO、DRO 等），$J_2$ 影响相对很小：这些轨道本质上由三体引力主导，地球扁率引起的相对运动偏差通常仅毫米量级，在多数分析中可忽略。
+需要指出，对于地月平动点轨道（halo、NRHO、DRO 等），$J_2$ 影响相对很小：这些轨道本质上由三体引力主导，地球扁率引起的相对运动偏差通常仅毫米量级，在多数分析中可忽略\cite{foltaEarthMoonLibration2014}。
 
 ## 地球非球形引力场
 
-地球引力场模型（EGM96、EGM2008、JGM-3、GGM series）通过卫星测高、卫星激光测距（SLR）、重力测量（GOCE、GRACE）联合求解，最高展开至 $\ell_{max} = 2190$。在轨道力学中通常用 70×70（LEO 高精度）或 5×5（地月空间）就足够，见 Vallado 2022 年第 8.6.1 节与 2023 年的模型框架论文。
+地球引力场模型（EGM96、EGM2008、JGM-3、GGM series）通过卫星测高、卫星激光测距（SLR）、重力测量（GOCE、GRACE）联合求解，最高展开至 $\ell_{max} = 2190$。在轨道力学中通常用 70×70（LEO 高精度）或 5×5（地月空间）就足够，见 Vallado 2022 年第 8.6.1 节与 2023 年的模型框架论文\cite{witteModelFrameworkHighAccuracy2024}。
 
 参考椭球参数：
 
@@ -132,9 +132,3 @@ $$
 - [Adams-Cowell 积分器](/glossary/dynamics/adams-cowell-integrator/)
 
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Witte, Langbroek & Dirkx, 2024, *A Model Framework for High-Accuracy, Short- And Long-Term Orbit Determination and Propagation of Cislunar Space Debris, with Realistically Quantified Uncertainties*, 22nd IAA Symposium on Space Debris, 798-815, DOI: 10.52202/078360-0074，地月空间碎片定轨：地球 5×5 球谐 + 月球点质量的实践依据
-
-- Folta et al., 2014, *Earth-Moon libration point orbit stationkeeping: Theory, modeling, and operations*, Acta Astronautica, 94(1): 421-433, DOI: 10.1016/j.actaastro.2013.01.022，$J_2$ 对地月平动点轨道的微小影响

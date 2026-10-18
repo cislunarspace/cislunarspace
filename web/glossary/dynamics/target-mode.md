@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/target-mode/
 
 ## 定义
 
-Halo轨道维持的两种基本策略之一，由Farquhar和Breakwell提出。以跟踪标称轨道为控制目标，将探测器导引到期望位置。该方法具有一般反馈控制系统结构，设计思路简单，工程实现性好。与Floquet模式相对应，后者利用不变流形结构抑制不稳定分量。
+Halo轨道维持的两种基本策略之一，由Farquhar和Breakwell提出。以跟踪标称轨道为控制目标，将探测器导引到期望位置。该方法具有一般反馈控制系统结构，设计思路简单，工程实现性好。与Floquet模式相对应，后者利用不变流形结构抑制不稳定分量\cite{farquharFiftyYearsSpace2011}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ Halo轨道维持的两种基本策略之一，由Farquhar和Breakwell提出。�
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
-
-## 参考文献
-
-- Farquhar, 2011, *Fifty Years on the Space Frontier: Halo Orbits, Comets, Asteroids, and More*, Outskirts Press

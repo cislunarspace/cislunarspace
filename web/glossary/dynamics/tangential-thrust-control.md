@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/tangential-thrust-control/
 
 推力方向与控制关注的是小推力发动机推力矢量的方向描述和最优选择问题。与化学推进的脉冲式瞬时变轨不同，连续推力系统每一时刻都需要决定推力指向何方，这个方向不仅影响即时的轨道变化率，更决定了整个积分路径的燃耗效率。
 
-推力方向在最一般的情形下由最优控制理论确定：根据庞特里亚金极小值原理，最优推力方向应与 Lawden 先驱向量（速度协态函数的负值）的方向一致。但在解析研究、初值猜测和工程简化中，常采用特定的简化推力方向假设。
+推力方向在最一般的情形下由最优控制理论确定：根据庞特里亚金极小值原理，最优推力方向应与 Lawden 先驱向量（速度协态函数的负值）的方向一致\cite{lawdenOptimalTrajectoriesSpace1963}。但在解析研究、初值猜测和工程简化中，常采用特定的简化推力方向假设。
 
 ## 推力方向的简化策略
 
@@ -134,7 +134,5 @@ $$
 - [先驱向量（Primer Vector）](/glossary/dynamics/primer-vector/)：Lawden 提出的最优推力方向判定工具
 
 ## 参考文献
-
-- Lawden, 1963, *Optimal Trajectories for Space Navigation*, Butterworths，推力方向的最优性必要条件与先驱向量的原始推导
 
 - Du et al., 2024, 轨道根数受推力影响的变分分析，含切向/反切向推力效率的 Gauss 方程推导，题录待补

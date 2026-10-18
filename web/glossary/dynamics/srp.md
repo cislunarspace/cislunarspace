@@ -63,7 +63,7 @@ $$
 \hat{\mathbf{a}}_{srp} = -\sum_{i=1}^{N} \frac{P_{\odot} A_i \cos(\phi_i)}{m} \left[ 2\left( \frac{C_{R_d}}{3} + C_{R_s} \cos\phi_i \right) \hat{n}_i + (1 - C_{R_s}) \hat{s} \right]
 $$
 
-其中 $\phi_i$ 为面板法向 $\hat{n}_i$ 与太阳方向 $\hat{s}$ 的夹角，$C_{R_d}$ 和 $C_{R_s}$ 分别为漫反射系数和镜面反射系数。ROCK 模型通过傅里叶级数近似全模型结果以提速，广泛用于 GPS 卫星精密定轨，见 Fliegel 等 1992。
+其中 $\phi_i$ 为面板法向 $\hat{n}_i$ 与太阳方向 $\hat{s}$ 的夹角，$C_{R_d}$ 和 $C_{R_s}$ 分别为漫反射系数和镜面反射系数。ROCK 模型通过傅里叶级数近似全模型结果以提速，广泛用于 GPS 卫星精密定轨，见 Fliegel 等 1992\cite{fliegelGlobalPositioningSystem1992}。
 
 ## 地影效应（Eclipse）
 
@@ -89,15 +89,15 @@ $$
 
 ## 太阳帆：SRP 的主动利用
 
-SRP 不光是被消除的扰动力，也可通过太阳帆（solar sail）主动利用。太阳帆是利用大面积薄膜反射太阳光子来产生持续推力的无工质推进系统，它不是摄动源，而是推进装置，见 Vallado 第 8.6.4 节。通过在平动点附近主动调节反射面的方向，太阳帆可在天然平动点之外构造人工平动点（artificial libration point），扩大轨道选择的自由度，见 Gómez 等 2001。太阳帆推进在日地 $L_1$ 处的北极视点任务概念中有天然优势。
+SRP 不光是被消除的扰动力，也可通过太阳帆（solar sail）主动利用。太阳帆是利用大面积薄膜反射太阳光子来产生持续推力的无工质推进系统，它不是摄动源，而是推进装置，见 Vallado 第 8.6.4 节。通过在平动点附近主动调节反射面的方向，太阳帆可在天然平动点之外构造人工平动点（artificial libration point），扩大轨道选择的自由度，见 Gómez 等 2001\cite{gomezDynamicsMissionDesign2001f}。太阳帆推进在日地 $L_1$ 处的北极视点任务概念中有天然优势。
 
 但从术语归属上看，太阳帆人工平动点轨道和太阳帆推进属于推进/轨迹类而非摄动类，不应归入本族。
 
 ## SRP 在地月空间的实际量级
 
-以 cislunar 碎片定轨的实践为依据，见 Witte 等 2024，一个截面积 $A = 37.14$ m$^2$ 的助推级（如嫦娥二号上面级）取 $C_R = 1.2$，炮弹模型计算的 SRP 加速度约 $2 \times 10^{-7}$ m/s$^2$。相比月球在平动点附近的第三体摄动加速度（$\sim 10^{-4}$ m/s$^2$），SRP 小约三个量级，但它以长期效应累积，见 Casanova 等 2015，加上碎片普遍存在翻滚（方向不定、$C_R$ 波动），在数月以上的长期预报中成为不可忽略的误差源。
+以 cislunar 碎片定轨的实践为依据，见 Witte 等 2024，一个截面积 $A = 37.14$ m$^2$ 的助推级（如嫦娥二号上面级）取 $C_R = 1.2$，炮弹模型计算的 SRP 加速度约 $2 \times 10^{-7}$ m/s$^2$。相比月球在平动点附近的第三体摄动加速度（$\sim 10^{-4}$ m/s$^2$），SRP 小约三个量级，但它以长期效应累积，见 Casanova 等 2015，加上碎片普遍存在翻滚（方向不定、$C_R$ 波动），在数月以上的长期预报中成为不可忽略的误差源\cite{casanovaLongtermEvolutionSpace2015}。
 
-在定轨中，$C_R$ 是常估计参数，但窗口太短（<4 个月）时容易过拟合导出不合理值（如 $C_R \approx 14$ 或 $-0.9$）。同时估计 $C_R$ 和地面站偏差项可改善样本外预报性能，见 Witte 等 2024。
+在定轨中，$C_R$ 是常估计参数，但窗口太短（<4 个月）时容易过拟合导出不合理值（如 $C_R \approx 14$ 或 $-0.9$）。同时估计 $C_R$ 和地面站偏差项可改善样本外预报性能，见 Witte 等 2024\cite{witteModelFrameworkHighAccuracy2024}。
 
 ## 相关概念
 
@@ -110,13 +110,3 @@ SRP 不光是被消除的扰动力，也可通过太阳帆（solar sail）主动
 - [平动点](/glossary/fundamentals/libration-point/)
 
 - [限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-
-## 参考文献
-
-- Witte, Langbroek & Dirkx, 2024, *A Model Framework for High-Accuracy, Short- And Long-Term Orbit Determination and Propagation of Cislunar Space Debris, with Realistically Quantified Uncertainties*, 22nd IAA Symposium on Space Debris, 798-815, DOI: 10.52202/078360-0074，地月空间碎片 $C_r$ 估计：窗口长度与过拟合，SRP 的量级与误差
-
-- Casanova, Petit and Lemaître, 2015, *Long-term evolution of space debris under the J2 effect, the solar radiation pressure and the solar and lunar perturbations*, Celestial Mechanics and Dynamical Astronomy, 123(2): 223-238, DOI: 10.1007/s10569-015-9644-1，SRP + J2 + 日月摄动的长期耦合效应
-
-- Fliegel, Gallini and Swift, 1992, *Global Positioning System Radiation Force Model for geodetic applications*, Journal of Geophysical Research: Solid Earth, 97(B1): 559-568, DOI: 10.1029/91JB02564，ROCK4/ROCK42 模型的面板-傅里叶近似法
-
-- Gómez et al., 2001, *Dynamics and Mission Design Near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/4402，太阳帆人工平动点概念

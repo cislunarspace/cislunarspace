@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/cmdp/
 
 ## 定义
 
-带有约束条件的马尔可夫决策过程，通过拉格朗日松弛法转化为无约束MDP求解，用于在能量约束下优化调度策略使平均设备AoI最小。
+带有约束条件的马尔可夫决策过程，通过拉格朗日松弛法转化为无约束MDP求解，用于在能量约束下优化调度策略使平均设备AoI最小\cite{yuanAgeCislunarCommunication2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/cmdp/
 - 有动力月球借力（Powered Lunar Flyby, PLF）
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/cr3bp/)
 - 插入速度增量（Insertion Delta-V）
-
-## 参考文献
-
-- Yuan et al., 2024, *Toward the Age in Cislunar Communication: An AoI-optimal Multi-Relay Constellation with Heterogeneous Orbits*, IEEE Journal on Selected Areas in Communications, 42(5): 1420-1435, DOI: 10.1109/JSAC.2024.3365892

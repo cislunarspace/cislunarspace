@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/3-1-3-euler-angle-sequence/
 
 ## 定义
 
-将日地旋转坐标系变换到地月旋转坐标系的三步旋转序列。第一角 α 描述月球升交点相对日地 X 轴的位置，第二角 i 为轨道倾角（模型中固定为 5°），第三角 β 确定月球在轨道上相对升交点的位置。该角序列将限制性三体问题中的几何信息转换为历表模型中的时间信息，是系统间转移设计的核心参数。
+将日地旋转坐标系变换到地月旋转坐标系的三步旋转序列\cite{howellTransfersEarthMoon2006}。第一角 α 描述月球升交点相对日地 X 轴的位置，第二角 i 为轨道倾角（模型中固定为 5°），第三角 β 确定月球在轨道上相对升交点的位置。该角序列将限制性三体问题中的几何信息转换为历表模型中的时间信息，是系统间转移设计的核心参数。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/3-1-3-euler-angle-sequence/
 - [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
 - [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
-
-## 参考文献
-
-- Howell and Kakoi, 2006, *Transfers between the Earth–Moon and Sun–Earth systems using manifolds and transit orbits*, Acta Astronautica, 59(1–5): 367–380, DOI: 10.1016/j.actaastro.2006.02.010

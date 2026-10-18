@@ -82,7 +82,7 @@ $$
 - 高精度星历数值积分：地月转移、平动点轨道、月球低轨等场景都需在地球椭球、第三体摄动下长时间积分。Cowell 法直接对总加速度积分时步长受迫变小。改用 Battin-Giorgi 计算第三体项后，可在不损失精度的情况下放大步长\cite{valladoFundamentalsAstrodynamicsApplications2022}。
 - 地月空间第三体摄动评估：地球邻域的太阳、月球摄动。月球邻域的地球、太阳摄动，两类问题都满足 $r\ll\rho_j$，Battin-Giorgi 是默认选择。
 - 星载导航滤波：实时计算需求下，避免相消意味着可用更短字长（如 32 位浮点）获得同等精度，对星载计算机友好。
-- 教学参考：Battin《航天动力学的数学方法》1999 年修订版与 2018 年中译本 §8.4.1 给出完整推导。Sanna 等\cite{sannaOptimalImpulsiveOrbit2024} 在 Gateway 到低月轨的最优脉冲转移中援引该方法并把第三体摄动加速度的稳定计算列为基础假设之一。
+- 教学参考：Battin《航天动力学的数学方法》1999 年修订版与 2018 年中译本 §8.4.1 给出完整推导\cite{battinIntroductionMathematicsMethods1999}。Sanna 等\cite{sannaOptimalImpulsiveOrbit2024} 在 Gateway 到低月轨的最优脉冲转移中援引该方法并把第三体摄动加速度的稳定计算列为基础假设之一。
 
 ## 易混点
 
@@ -99,5 +99,4 @@ $$
 
 ## 参考文献
 
-- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA, DOI: 10.2514/4.861543，中译本：《航天动力学的数学方法》修订版，2018，第 8 章
 - Giorgi, 1964, *Una Formulazione Caratteristica del Metodo di Encke in Vista dell'Applicazione Numerica*, Scuola di Ingegneria Aerospaziale, Roma

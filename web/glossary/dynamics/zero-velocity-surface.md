@@ -113,7 +113,3 @@ $L_1$、$L_2$、$L_3$ 处的开口被形象地称为颈口（neck）或能量通
 - [Halo 轨道](/glossary/orbits/halo-orbit/)
 
 - [会合坐标系（Synodic Frame）](/glossary/fundamentals/synodic-frame/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, Ch. 4，即零速度曲线

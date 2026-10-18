@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hill-region-and-hill-problem/
 
 ## 定义
 
-Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量。给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影\cite{szebehelyTheoryOrbitRestricted1967,topputoOptimalTwoimpulseEarth2013a}。物理直观：质点在禁区内的势能大于总能量，无法到达。
+Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点被允许运动的构型空间区域\cite{szebehelyTheoryOrbitRestricted1967}。在会合系中，质点的能量由雅可比常数（[雅可比积分](/glossary/dynamics/jacobi-integral/)）度量。给定 $C$ 值，零速度曲面（[零速度曲面](/glossary/dynamics/zero-velocity-surface/)）把位置空间划分为允许区与禁区，Hill 区域即能量流形在位置空间上的投影\cite{szebehelyTheoryOrbitRestricted1967,topputoOptimalTwoimpulseEarth2013a}。物理直观：质点在禁区内的势能大于总能量，无法到达。
 
 ## 五种拓扑构型
 
@@ -54,11 +54,11 @@ Hill 问题（Hill problem / Hill's problem）是限制性三体问题在质量�
 
 $\ddot{x} - 2\dot{y} = 3x - \frac{x}{r^3}$，$\ddot{y} + 2\dot{x} = -\frac{y}{r^3}$，$\ddot{z} = -\frac{z}{r^3}$
 
-（无量纲化、$r=\sqrt{x^2+y^2+z^2}$）。该模型保留了限制性三体问题的主要动力学特征：存在雅可比型运动积分、周期轨道按单参数族组织（Hénon 的经典族划分）、在会合系中周期为 $2\pi$。它是推导和分类地月转移基本周期轨道族的理论起点，也是理解更复杂三体动力学的入门模型\cite{henonNumericalExplorationRestricted1969,mingottiTransfersDistantPeriodic2012}，Gómez 等 2001 年亦有系统论述。Gómez 和 Marcote 给出了 Hill 方程的高阶解析解\cite{gomezHighorderAnalyticalSolutions2006}。
+（无量纲化、$r=\sqrt{x^2+y^2+z^2}$）。该模型保留了限制性三体问题的主要动力学特征：存在雅可比型运动积分、周期轨道按单参数族组织（Hénon 的经典族划分）、在会合系中周期为 $2\pi$\cite{henonNumericalExplorationRestricted1969}。它是推导和分类地月转移基本周期轨道族的理论起点，也是理解更复杂三体动力学的入门模型\cite{henonNumericalExplorationRestricted1969,mingottiTransfersDistantPeriodic2012}，Gómez 等 2001 年亦有系统论述。Gómez 和 Marcote 给出了 Hill 方程的高阶解析解\cite{gomezHighorderAnalyticalSolutions2006}。
 
 ## Hill 模型与三体 Lambert 求解
 
-Hill 模型在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解。Sukhanov 和 Prado 2004 年基于此提出了收敛性较好的 Lambert 求解算法。该用法与Hill 区域Hill 问题指代不同对象，注意区分。
+Hill 模型在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解。Sukhanov 和 Prado 2004 年基于此提出了收敛性较好的 Lambert 求解算法\cite{sukhanovLambertProblemSolution2004}。该用法与Hill 区域Hill 问题指代不同对象，注意区分。
 
 ## 相关概念
 
@@ -71,13 +71,3 @@ Hill 模型在工程文献中有另一种用法：把限制性三体问题在航
 - [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
 
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press, New York，Hill 区域与五种构型经典出处
-
-- Hénon, 1969, *Numerical exploration of the restricted problem. V. Hill's case: periodic orbits and their stability*, Astronomy and Astrophysics, 1: 223-238，Hill 问题周期轨道族
-
-- Sukhanov and Prado, 2004, *Lambert problem solution in the Hill model of motion*, Celestial Mechanics and Dynamical Astronomy, 90(3-4): 331-354, DOI: 10.1007/s10569-004-1508-z，Hill 模型 Lambert 求解
-
-- Topputo, 2013, *On optimal two-impulse Earth-Moon transfers in a four-body model*, Celestial Mechanics and Dynamical Astronomy, 117(3): 279-313, DOI: 10.1007/s10569-013-9513-8，能量流形投影与可达集

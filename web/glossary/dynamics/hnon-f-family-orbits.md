@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/hnon-f-family-orbits/
 
 ## 定义
 
-Hénon在限制性三体问题中通过数值探索发现的周期轨道族之一。f族轨道的特征是飞行器围绕两个主天体运动，绕行方向与第三体公转方向相反，远距离逆行轨道即属于此族。
+Hénon在限制性三体问题中通过数值探索发现的周期轨道族之一\cite{henonNumericalExplorationRestricted1969}。f族轨道的特征是飞行器围绕两个主天体运动，绕行方向与第三体公转方向相反，远距离逆行轨道即属于此族\cite{minghuTransferLongTerm2014}。
 
 ## 应用价值
 
@@ -41,8 +41,3 @@ Hénon在限制性三体问题中通过数值探索发现的周期轨道族之�
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
 - 空间流形动力学（Space Manifold Dynamics, SMD）
 - [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/orbital-coordinate-frames/)
-
-## 参考文献
-
-- Tan et al., 2014, *Transfer to long term distant retrograde orbits around the Moon*, Acta Astronautica, 98: 50-63, DOI: 10.1016/j.actaastro.2014.01.016
-- Hénon, 1969, *Numerical exploration of the restricted problem. V. Hill's case: periodic orbits and their stability*, Astronomy and Astrophysics, 1: 223-238

@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/targeting-threshold/
 
 ## 定义
 
-控制器内部用于收敛判断的容忍度。在PC-SCoP中显式作为约束条件给出，取代了微分修正中非直觉的权重参数，可直接从任务需求推导。
+控制器内部用于收敛判断的容忍度。在PC-SCoP中显式作为约束条件给出，取代了微分修正中非直觉的权重参数，可直接从任务需求推导\cite{shimaneOptimizationbasedPhaseconstrainedXaxis2025}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/targeting-threshold/
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [科氏定理（Coriolis Theorem）](/glossary/dynamics/coriolis-theorem/)
 - 速度函数（Velocity Function）
-
-## 参考文献
-
-- Shimane, Ho & Weiss, 2025, *Optimization-Based Phase-Constrained x-Axis Crossing Control for Station-Keeping on Libration Point Orbits*, The Journal of the Astronautical Sciences, 72(6), DOI: 10.1007/s40295-025-00543-1

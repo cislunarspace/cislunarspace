@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/relaxation-method/
 
 ## 定义
 
-直接法求解最优控制问题的一种策略，将非凸动力学或操作约束松弛为凸约束，从而将原问题转化为可高效求解的凸优化问题。典型应用包括火星着陆动力下降制导中的二阶锥规划松弛。
+直接法求解最优控制问题的一种策略，将非凸动力学或操作约束松弛为凸约束，从而将原问题转化为可高效求解的凸优化问题。典型应用包括火星着陆动力下降制导中的二阶锥规划松弛\cite{You2022}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/relaxation-method/
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- You, S. X., Dai, R., Rea, J. R., 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815

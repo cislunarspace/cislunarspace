@@ -67,7 +67,7 @@ $$\boldsymbol{x}_l \leq \boldsymbol{x}(t) \leq \boldsymbol{x}_u \quad \text{（�
 
 $$\boldsymbol{\lambda}(t_i^{+}) = \boldsymbol{\lambda}(t_i^{-}) - \eta(t_i)\,\nabla S[\boldsymbol{x}(t_i)].$$
 
-对 $p$ 阶状态约束（即 $S$ 对时间求 $p$ 阶导后才显含 $\boldsymbol{u}$），跳跃出现在 $\boldsymbol{\lambda}^{(p-1)}$ 而非 $\boldsymbol{\lambda}$ 本身。这种非光滑性是间接法处理活动状态约束困难的根源。直接法通过 NLP 活动集机制隐式吸收，对算法影响小得多，You 和 Dai 2022 年的分析也支持这一结论。
+对 $p$ 阶状态约束（即 $S$ 对时间求 $p$ 阶导后才显含 $\boldsymbol{u}$），跳跃出现在 $\boldsymbol{\lambda}^{(p-1)}$ 而非 $\boldsymbol{\lambda}$ 本身。这种非光滑性是间接法处理活动状态约束困难的根源。直接法通过 NLP 活动集机制隐式吸收，对算法影响小得多，You 和 Dai 2022 年的分析也支持这一结论\cite{You2022}。
 
 ## 地月空间中的典型实例
 
@@ -117,7 +117,3 @@ $$\boldsymbol{\Delta}_{\text{prop}} = \frac{T_{\max}}{m}\,\delta\,\bar{\delta}_e
 - [低能转移](/glossary/dynamics/low-energy-transfer/)
 - [三体 Lambert 问题](/glossary/dynamics/three-body-lambert-problem/)
 - [轨道保持（Station-Keeping）](/glossary/dynamics/station-keeping/)
-
-## 参考文献
-
-- You, Dai & Rea, 2022, *Theoretical Analysis of Fuel-Optimal Powered Descent Problem with State Constraints*, Journal of Guidance, Control, and Dynamics, 45(12): 2350-2359, DOI: 10.2514/1.G006815

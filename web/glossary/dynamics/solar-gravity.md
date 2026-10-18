@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/solar-gravity/
 
 ## 定义
 
-太阳对地月系统内航天器的引力作用，是三角平动点附近最主要的摄动源。在限制性三体问题中加入太阳引力构成限制性四体问题，解析求解困难。在NASA戈达德的Swingby软件中，日地距离取1 AU，太阳引力常数是地球的333000倍。对三角平动点相对运动，忽略太阳引力导致的误差峰值可达约110 km（相对位置误差约1800%），必须包含在模型中。
+太阳对地月系统内航天器的引力作用，是三角平动点附近最主要的摄动源。在限制性三体问题中加入太阳引力构成限制性四体问题，解析求解困难。在NASA戈达德的Swingby软件中，日地距离取1 AU，太阳引力常数是地球的333000倍。对三角平动点相对运动，忽略太阳引力导致的误差峰值可达约110 km（相对位置误差约1800%），必须包含在模型中\cite{catlinEarthmoonTriangularLibration2007}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/solar-gravity/
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Catlin, McLaughlin, 2007, *Earth-Moon Triangular Libration Point Spacecraft Formations*, Journal of Spacecraft and Rockets, 44(3): 660-670, DOI: 10.2514/1.20152

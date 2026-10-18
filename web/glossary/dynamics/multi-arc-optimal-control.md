@@ -54,7 +54,7 @@ $$\dot{\boldsymbol{x}}^{(j)} = \boldsymbol{f}^{(j)}\!\left(\boldsymbol{x}^{(j)},
 
 $$\boldsymbol{\lambda}^{(j)}(\tau_j^{-}) = \boldsymbol{\lambda}^{(j+1)}(\tau_j^{+}), \qquad H^{(j)}(\tau_j^{-}) = H^{(j+1)}(\tau_j^{+}),$$
 
-即（统一到同一坐标表示下的）协态与 Hamiltonian 在界面处保持连续。当匹配函数 $\boldsymbol{\chi}_j$ 是隐式的时候，协态连续性推广为 $\boldsymbol{\lambda}^{(j)} = (\partial \boldsymbol{\chi}_j/\partial \boldsymbol{x}^{(j)}_{\text{fin}})^{-T} (\partial \boldsymbol{\chi}_j/\partial \boldsymbol{x}^{(j+1)}_{\text{ini}})^{T} \boldsymbol{\lambda}^{(j+1)}$ 加界面乘子项。
+即（统一到同一坐标表示下的）协态与 Hamiltonian 在界面处保持连续。当匹配函数 $\boldsymbol{\chi}_j$ 是隐式的时候，协态连续性推广为 $\boldsymbol{\lambda}^{(j)} = (\partial \boldsymbol{\chi}_j/\partial \boldsymbol{x}^{(j)}_{\text{fin}})^{-T} (\partial \boldsymbol{\chi}_j/\partial \boldsymbol{x}^{(j+1)}_{\text{ini}})^{T} \boldsymbol{\lambda}^{(j+1)}$ 加界面乘子项\cite{brysonAppliedOptimalControl1975}。
 
 ## 隐式协态变换
 
@@ -106,4 +106,3 @@ Pozzi 等（2025）在含日/地/月引力的全星历模型下，把 Gateway（
 ## 参考文献
 
 - Beolchi, A. C., Morselli, A., & Topputo, F. (2023). A multi-arc formulation for low-thrust orbit transfers in a high-fidelity multibody ephemeris model，题录待补
-- Bryson & Ho, 1975, *Applied Optimal Control: Optimization, Estimation, and Control*, Hemisphere Publishing Corporation，Weierstrass-Erdmann 角点条件的标准出处

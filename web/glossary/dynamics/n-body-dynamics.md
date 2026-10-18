@@ -20,7 +20,7 @@ permalink: /glossary/dynamics/n-body-dynamics/
 
 ## 定义
 
-n体动力学（N-Body Dynamics）是天体力学与航天动力学的经典模型，用于精确描述 $n$ 个具有质量的质点在相互万有引力作用下的运动微分方程系统。对于地月空间航天器，通常采用限制性 $n$ 体模型，忽略航天器自身微小质量对主要天体（如地球、月球、太阳、木星等）的反作用。
+n体动力学（N-Body Dynamics）是天体力学与航天动力学的经典模型，用于精确描述 $n$ 个具有质量的质点在相互万有引力作用下的运动微分方程系统\cite{battinIntroductionMathematicsMethods1999}。对于地月空间航天器，通常采用限制性 $n$ 体模型，忽略航天器自身微小质量对主要天体（如地球、月球、太阳、木星等）的反作用。
 
 ## 物理机制与工程价值
 
@@ -32,7 +32,7 @@ $$\ddot{\mathbf{r}} = -\sum_{i=1}^{n-1} \frac{\mu_i (\mathbf{r} - \mathbf{r}_i)}
 
 相较于圆型限制性三体问题（CR3BP），高精度星历 $n$ 体模型引入了月球偏心率、太阳第三体引力摄动、黄白交角长期旋进等实际摄动因素。CR3BP 中的保守积分（雅可比积分）在 $n$ 体模型中不再严格守恒，周期轨道退化为拟周期或受摄拟轨道。
 
-在工程实际任务中，地月转移轨迹规划、平动点长期驻留轨道保持、精确星历仿真与定轨滤波必须在全力 $n$ 体动力学框架下完成高保真度迭代与校验。
+在工程实际任务中，地月转移轨迹规划、平动点长期驻留轨道保持、精确星历仿真与定轨滤波必须在全力 $n$ 体动力学框架下完成高保真度迭代与校验\cite{vaqueroLeveragingResonantorbitManifolds2014}。
 
 ## 相关概念
 
@@ -40,8 +40,3 @@ $$\ddot{\mathbf{r}} = -\sum_{i=1}^{n-1} \frac{\mu_i (\mathbf{r} - \mathbf{r}_i)}
 - [星历多体模型（Ephemeris-Based N-Body Model）](/glossary/dynamics/ephemeris-based-n-body-model/)
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [无摄问题（Unperturbed Problem）](/glossary/dynamics/unperturbed-problem/)
-
-## 参考文献
-
-- Vaquero & Howell, 2014, *Leveraging Resonant-Orbit Manifolds to Design Transfers Between Libration-Point Orbits*, Journal of Guidance, Control, and Dynamics, 37(4): 1143-1157, DOI: 10.2514/1.62230
-- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, Revised Edition, AIAA Education Series, DOI: 10.2514/4.861543

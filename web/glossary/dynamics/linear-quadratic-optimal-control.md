@@ -36,7 +36,7 @@ $$
 J = \tfrac{1}{2}\boldsymbol{x}^T(t_f)\boldsymbol{S}_f\boldsymbol{x}(t_f) + \tfrac{1}{2}\int_{0}^{t_f}\!\left[\boldsymbol{x}^T\boldsymbol{Q}(t)\boldsymbol{x} + \boldsymbol{u}^T\boldsymbol{R}(t)\boldsymbol{u}\right]dt
 $$
 
-最小。这里 $\boldsymbol{Q}\succeq 0$ 为状态偏差权重、$\boldsymbol{R}\succ 0$ 为控制代价权重、$\boldsymbol{S}_f\succeq 0$ 为终端权重。LQR 的核心结论是：最优反馈增益由矩阵 Riccati 方程的解唯一决定，参见 Kalman 1960 与 Anderson 与 Moore 1990，从而把一个泛函最小化问题化归为求解矩阵微分方程。
+最小。这里 $\boldsymbol{Q}\succeq 0$ 为状态偏差权重、$\boldsymbol{R}\succ 0$ 为控制代价权重、$\boldsymbol{S}_f\succeq 0$ 为终端权重。LQR 的核心结论是：最优反馈增益由矩阵 Riccati 方程的解唯一决定，参见 Kalman 1960 与 Anderson 与 Moore 1990，从而把一个泛函最小化问题化归为求解矩阵微分方程\cite{ContributionsTheoryOptimal2009,andersonOptimalControlLinear1990}。
 
 ## Riccati 方程的两种形式
 
@@ -70,7 +70,7 @@ LQR 本身只对线性系统最优，但在地月空间任务中绝大多数场�
 
 次优控制与 SDRE。把非线性系统改写为状态依赖线性形式 $\dot{\boldsymbol{x}} = \boldsymbol{A}(\boldsymbol{x})\boldsymbol{x} + \boldsymbol{B}(\boldsymbol{x})\boldsymbol{u}$，在每个状态点处瞬时求解代数 Riccati 方程，得到状态依赖的 Riccati 增益。这类方法在中文文献中常与调解因子（mediation factor）一起讨论，用以逼近原非线性最优解。优点是无需积分伴随方程，缺点是缺乏全局最优性保证，且参数化不唯一。
 
-非线性输出调节（Francis-Byrnes-Isidori 方程）。当参考信号和扰动都可由一个外系统（exosystem）生成（如准 Halo 轨道与周期偏心率扰动），输出调节理论给出同时实现跟踪与扰动抑制的反馈律，关键在于求解一组称为 FBI 方程的结构方程，参见 Isidori 与 Byrnes 1990 以及 Di Giamberardino 与 Monaco 1996。该方法在平动点轨道保持中可与 LQR/SDRE 嵌套使用，参见 Elobaid 等 2022。
+非线性输出调节（Francis-Byrnes-Isidori 方程）。当参考信号和扰动都可由一个外系统（exosystem）生成（如准 Halo 轨道与周期偏心率扰动），输出调节理论给出同时实现跟踪与扰动抑制的反馈律，关键在于求解一组称为 FBI 方程的结构方程，参见 Isidori 与 Byrnes 1990 以及 Di Giamberardino 与 Monaco 1996\cite{isidoriOutputRegulationNonlinear1990}。该方法在平动点轨道保持中可与 LQR/SDRE 嵌套使用，参见 Elobaid 等 2022。
 
 ## ZEM/ZEV：双积分系统的 LQR 解析解
 
@@ -80,12 +80,12 @@ $$
 \boldsymbol{r}_{ZEM}(t) = \boldsymbol{r}(t) + \boldsymbol{v}(t)t_{go} + \int_{t}^{t_f}\!(t_f-\tau)\boldsymbol{g}(\boldsymbol{r}(\tau))\,d\tau,\quad \boldsymbol{v}_{ZEV}(t) = \boldsymbol{v}(t) + \int_{t}^{t_f}\!\boldsymbol{g}(\boldsymbol{r}(\tau))\,d\tau。
 $$
 
-对匀重力场 $\boldsymbol{g}$，最小化 $\int\!\|\boldsymbol{u}\|^2 dt$ 的 LQR 闭式解给出经典增益 $\boldsymbol{u}^* = \frac{6}{t_{go}^2}(\boldsymbol{r}_{ZEM}) - \frac{2}{t_{go}}(\boldsymbol{v}_{ZEV})$，即 $K_R=6$、$K_V=-2$。广义 ZEM/ZEV 算法将这两个常数增益替换为时变增益 $K_R(t), K_V(t)$，以便在非匀重力场（如月球动力下降、CR3BP 转移）下仍保持近最优\cite{scorsoglioRelativeMotionGuidance2023}，另见 Ebrahimi 等 2008。ZEM/ZEV 广泛用于登月动力下降与NRHO交会。
+对匀重力场 $\boldsymbol{g}$，最小化 $\int\!\|\boldsymbol{u}\|^2 dt$ 的 LQR 闭式解给出经典增益 $\boldsymbol{u}^* = \frac{6}{t_{go}^2}(\boldsymbol{r}_{ZEM}) - \frac{2}{t_{go}}(\boldsymbol{v}_{ZEV})$，即 $K_R=6$、$K_V=-2$。广义 ZEM/ZEV 算法将这两个常数增益替换为时变增益 $K_R(t), K_V(t)$，以便在非匀重力场（如月球动力下降、CR3BP 转移）下仍保持近最优\cite{scorsoglioRelativeMotionGuidance2023}，另见 Ebrahimi 等 2008\cite{ebrahimiOptimalSlidingmodeGuidance2008}。ZEM/ZEV 广泛用于登月动力下降与NRHO交会。
 
 ## 应用要点
 
 - 数值实现。 Riccati 方程是对称的，可只用上三角传播。稳态解可用 `scipy.linalg.solve_continuous_are` 或专门的 Schur 法求得，参见 Arnold 1984。
-- 鲁棒性边界。 LQR 至少有 60° 相位裕度、$[1/2, \infty)$ 增益裕度，参见 Safonov 与 Athans 1977，这一性质使其在模型不确定下仍可用。但当实际扰动达到 SRP 量级（无量纲 $\sim 10^{-4}$），标准 LQR 无法稳定收敛，需切换到鲁棒框架（如 [最优滑模控制](/glossary/dynamics/osmc/)）。
+- 鲁棒性边界。 LQR 至少有 60° 相位裕度、$[1/2, \infty)$ 增益裕度，参见 Safonov 与 Athans 1977，这一性质使其在模型不确定下仍可用\cite{safonovGainPhaseMargin1977}。但当实际扰动达到 SRP 量级（无量纲 $\sim 10^{-4}$），标准 LQR 无法稳定收敛，需切换到鲁棒框架（如 [最优滑模控制](/glossary/dynamics/osmc/)）。
 - 不宜滥用。 LQR 只在标称轨迹小邻域内有效，对大幅值偏差（如入轨误差 100 km）需要重新规划而非反馈。
 
 ## 相关概念
@@ -98,9 +98,4 @@ $$
 
 ## 参考文献
 
-- Kalman, 1960, *Contributions to the Theory of Optimal Control*, DOI: 10.1109/9780470544334.ch8，LQR 与 Riccati 方程的奠基论文
-- Anderson, Moore, 1990, *Optimal Control: Linear Quadratic Methods*，LQR 理论与权矩阵选取的系统教材
-- Safonov, Athans, 1977, *Gain and phase margin for multiloop LQG regulators*, IEEE Transactions on Automatic Control, 22(2): 173-179, DOI: 10.1109/TAC.1977.1101470，LQR 鲁棒裕度的经典结论
-- Isidori, Byrnes, 1990, *Output regulation of nonlinear systems*, IEEE Transactions on Automatic Control, 35(2): 131-140, DOI: 10.1109/9.45168，非线性输出调节与 FBI 方程
-- Ebrahimi, Bahrami, Roshanian, 2008, *Optimal sliding-mode guidance with terminal velocity constraint for fixed-interval propulsive maneuvers*, Acta Astronautica, 62(10-11): 556-562, DOI: 10.1016/j.actaastro.2008.02.002，月球着陆器终端速度约束下的最优滑模制导
 - Elobaid, M., et al., 2022，题录待补

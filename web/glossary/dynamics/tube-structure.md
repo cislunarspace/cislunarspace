@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/tube-structure/
 
 ## 定义
 
-小幅值平动点周期轨道的不变流形在相空间中形成的管道形拓扑结构。探测器可在流管内部的穿越轨道上自由通行，实现不同空间区域间的转移。大幅值Lyapunov轨道的稳定流形不再具有管状结构，而是展开为单条分支。
+小幅值平动点周期轨道的不变流形在相空间中形成的管道形拓扑结构。探测器可在流管内部的穿越轨道上自由通行，实现不同空间区域间的转移。大幅值Lyapunov轨道的稳定流形不再具有管状结构，而是展开为单条分支\cite{ZhengYueJiYuDaFuZhiLyapunovGuiDaoWenDingLiuXingDeDiYueZhuanYiFangFa2023}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/tube-structure/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- DOI:10.16804/j.cnki.issn1006-3242.2023.05.009，题录待补

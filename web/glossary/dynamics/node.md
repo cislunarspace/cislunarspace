@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/node/
 
 ## 应用价值
 
-该理论为轨道设计提供了数学基础，可用于分析航天器在引力场中的运动特性。
+该理论为轨道设计提供了数学基础，可用于分析航天器在引力场中的运动特性\cite{haapalaTrajectorySelectionStrategy2013}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/node/
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
 - [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
-
-## 参考文献
-
-- Haapala et al., 2013, *Trajectory Selection Strategy for Tours in the Earth-Moon System*, AAS/AIAA Astrodynamics Specialist Conference, AAS 13-782

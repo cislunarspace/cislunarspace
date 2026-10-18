@@ -56,11 +56,11 @@ Marchand 和 Howell 按相对构型在哪个参考系中定义，将编队分为
 
 ## 自然编队与控制编队
 
-自然编队（natural formation）利用多体动力学的内在特性。Héritier 和 Howell 在 2014 年的证明表明：沿某参考轨迹在惯性系中存在区域（近似二次曲面），其中成员间距离和指向方向的变化最小。这些区域的特性与参考轨道的Floquet特征结构耦合。
+自然编队（natural formation）利用多体动力学的内在特性。Héritier 和 Howell 在 2014 年的证明表明：沿某参考轨迹在惯性系中存在区域（近似二次曲面），其中成员间距离和指向方向的变化最小\cite{heritierDynamicalEvolutionNatural2014}。这些区域的特性与参考轨道的Floquet特征结构耦合。
 
-Barden 与 Howell 在 1998 年以及 Barden、Howell 与 Lo 在 1996 年的工作中，于日地 $L_1$/$L_2$ 平动点附近中心流形上发现了六航天器自然编队：成员间相对距离在做多个参考轨道周期后仍保持有界，不需主动控制，控制代价仅为参考轨道的轨道维持。
+Barden 与 Howell 在 1998 年以及 Barden、Howell 与 Lo 在 1996 年的工作中，于日地 $L_1$/$L_2$ 平动点附近中心流形上发现了六航天器自然编队：成员间相对距离在做多个参考轨道周期后仍保持有界，不需主动控制，控制代价仅为参考轨道的轨道维持\cite{bardenFundamentalMotionsCollinear1998}。
 
-自然伴飞编队（natural companion formation）是DRO附近的特例：副星在满足线性化相对运动周期性条件的初始状态下，沿DRO在主星前/后方以几米至几百千米间距做有界相对运动，不需主动控制即可长时间自然维持，见张如悦等 2025。
+自然伴飞编队（natural companion formation）是DRO附近的特例：副星在满足线性化相对运动周期性条件的初始状态下，沿DRO在主星前/后方以几米至几百千米间距做有界相对运动，不需主动控制即可长时间自然维持，见张如悦等 2025\cite{ZhangRuYueDiYueKongJianDROJinJuChiBianDuiXingJianCeLiangXiangDuiDingGui2025}。
 
 控制编队（controlled/non-natural formation）需要主动推力来抵消参考轨道不稳定特征模态驱动的自然发散。Marchand 和 Howell 的综述给出的方法包括：
 
@@ -74,7 +74,7 @@ Barden 与 Howell 在 1998 年以及 Barden、Howell 与 Lo 在 1996 年的工�
 
 - 编队构型保持（configuration keeping）：部署完成后维持预设的相对几何。控制力较小但需持续作用。性能指标包括基线相对误差、各轴位置误差与燃耗。
 
-- 轨道保持（stationkeeping）：更广义，涵盖维持绝对方位轨道及相对构型约束。DRO编队轨道保持需同时权衡误差敏感性传播、安全性约束及导航收敛时间，见敖海跃等 2024。
+- 轨道保持（stationkeeping）：更广义，涵盖维持绝对方位轨道及相对构型约束。DRO编队轨道保持需同时权衡误差敏感性传播、安全性约束及导航收敛时间，见敖海跃等 2024\cite{AoHaiYueYuanJuChiNiXingGuiDaoDeJinJuChiBianDuiGuiDaoBaoChiCeLue2024}。
 
 - 重构（reconfiguration）：副星在编队内从一点移至另一点。安全转移编队（safe transfer formation）用解析设计的参考轨迹保证转移过程中副星与主星始终维持安全距离，相比最优控制结构更简单、工程实用性更强。
 
@@ -82,9 +82,9 @@ Barden 与 Howell 在 1998 年以及 Barden、Howell 与 Lo 在 1996 年的工�
 
 ## 平动点编队的特殊性
 
-平动点参考轨迹（halo、Lissajous、quasi-halo、NRHO）本身是不稳定或弱稳定的。编队成员的相对运动受同一不稳定 Floquet 模态主导，因此两体近圆框架下的 Hill-Clohessy-Wiltshire（HCW）方程不可直接套用\cite{clohessy1960terminal,valladoFundamentalsAstrodynamicsApplications2022}，必须使用 CR3BP 完整的时变线性化动力学，即变分方程 $\delta\dot{x}(t)=A(t)\delta x(t)$，相关讨论见 Marchand 和 Howell 2005 与 Scheeres 等 2003。
+平动点参考轨迹（halo、Lissajous、quasi-halo、NRHO）本身是不稳定或弱稳定的。编队成员的相对运动受同一不稳定 Floquet 模态主导，因此两体近圆框架下的 Hill-Clohessy-Wiltshire（HCW）方程不可直接套用\cite{clohessy1960terminal,valladoFundamentalsAstrodynamicsApplications2022}，必须使用 CR3BP 完整的时变线性化动力学，即变分方程 $\delta\dot{x}(t)=A(t)\delta x(t)$，相关讨论见 Marchand 和 Howell 2005 与 Scheeres 等 2003\cite{scheeresStabilizingMotionRelative2003}。
 
-类地行星探测器（TPF）、Darwin 计划、MAXIM 计划等空间干涉任务催生了大量平动点编队研究。Gómez 等在 2001 与 2002 年为 TPF 模拟了 $L_2$ 附近的编队飞行。Gómez 等在 2005 年推导了适于控制编队的零相对径向加速度锥（zero-relative-radial-acceleration cones）。
+类地行星探测器（TPF）、Darwin 计划、MAXIM 计划等空间干涉任务催生了大量平动点编队研究。Gómez 等在 2001 与 2002 年为 TPF 模拟了 $L_2$ 附近的编队飞行\cite{gomezSimulationFormationFlight2001}。Gómez 等在 2005 年推导了适于控制编队的零相对径向加速度锥（zero-relative-radial-acceleration cones）\cite{gomezZeroRelativeRadial2005}。
 
 三角平动点编队：Catlin 和 McLaughlin 推导了地月 $L_4$/$L_5$ 附近相对运动的解析解。本征频率含长周期与短周期两支。选取初始条件滤除一支可得到纯长周期或纯短周期的相对椭圆。解析近似总幅值误差在最大幅值的 3% 以内。摄动分析指出太阳点质量和太阳光压的影响显著，地球扁率在地月 $L_4$ 区域可忽略。
 
@@ -113,19 +113,3 @@ Barden 与 Howell 在 1998 年以及 Barden、Howell 与 Lo 在 1996 年的工�
 - [远距逆行轨道（DRO）](/glossary/programs/dro/)
 
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
-
-## 参考文献
-
-- Barden, Howell, 1998, *Fundamental Motions Near Collinear Libration Points and Their Transitions*, The Journal of the Astronautical Sciences, 46(4): 361-378, DOI: 10.1007/BF03546387
-
-- Héritier, Howell, 2014, *Dynamical evolution of natural formations in libration point orbits in a multi-body regime*, Acta Astronautica, 102: 332-340, DOI: 10.1016/j.actaastro.2013.10.017
-
-- Gómez et al., 2001, *Simulation of Formation Flight Near L2 for the TPF Mission*, AAS/AIAA Astrodynamics Specialist Conference, AAS 01-305
-
-- Gómez et al., 2005, *Zero Relative Radial Acceleration Cones and Controlled Motions Suitable for Formation Flying*, The Journal of the Astronautical Sciences, 53(4): 413-431, DOI: 10.1007/BF03546361
-
-- 张如悦 等, 2025, *地月空间DRO近距离编队星间测量相对定轨*, 宇航学报, 46(10): 2146-2159, DOI: 10.3873/j.issn.1000-1328.2025.10.018
-
-- 敖海跃 等, 2024, *远距离逆行轨道的近距离编队轨道保持策略*, 航空学报, 45(22): 330306, DOI: 10.7527/S1000-6893.2024.30306
-
-- Scheeres, Hsiao and Vinh, 2003, *Stabilizing Motion Relative to an Unstable Orbit: Applications to Spacecraft Formation Flight*, Journal of Guidance, Control, and Dynamics, 26(1): 62-73, DOI: 10.2514/2.5015

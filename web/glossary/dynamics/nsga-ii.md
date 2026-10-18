@@ -26,7 +26,7 @@ permalink: /glossary/dynamics/nsga-ii/
 
 ## 定义
 
-NSGA II（Non-dominated Sorting Genetic Algorithm II）是由 Deb 等人于2002年提出的经典多目标进化算法，通过非支配排序和拥挤度距离机制在进化过程中维护帕累托前沿的多样性。NSGA II 具有计算效率高、收敛性好、帕累托前沿分布均匀等特点，是多目标优化领域应用最广泛的算法之一。
+NSGA II（Non-dominated Sorting Genetic Algorithm II）是由 Deb 等人于2002年提出的经典多目标进化算法，通过非支配排序和拥挤度距离机制在进化过程中维护帕累托前沿的多样性\cite{debFastElitistMultiobjective2002}。NSGA II 具有计算效率高、收敛性好、帕累托前沿分布均匀等特点，是多目标优化领域应用最广泛的算法之一。
 
 ## 算法原理
 
@@ -79,7 +79,3 @@ NSGA II 适用于连续和离散变量的多目标优化问题，广泛应用于
 - 帕累托最优（Pareto Optimality）
 - 多目标蒙特卡洛树搜索（MO-MCTS）
 - K-Medoids 聚类
-
-## 参考文献
-
-- Deb et al., 2002, *A fast and elitist multiobjective genetic algorithm: NSGA-II*, IEEE Transactions on Evolutionary Computation, 6(2): 182-197, DOI: 10.1109/4235.996017

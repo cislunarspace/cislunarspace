@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/control-parametrization/
 
 ## 定义
 
-控制参数化（control parametrization）是把无限维的连续推力控制 $\boldsymbol{u}(t)$ 表达为有限个参数的方法。设 $\boldsymbol{u}(t) = \sum_{i} c_i\,\phi_i(t)$，其中 $\{\phi_i\}$ 是选定的基函数族、$\{c_i\}$ 是待优化系数，最优控制问题就被转化为关于 $\{c_i\}$ 的非线性规划（NLP）。常用基函数族包括多项式、Fourier 级数、B 样条。节流因子/油门函数 是低推力发动机特有的标量/函数形式参数化，描述推力幅值随时间的变化\cite{colagrossiGuidanceNavigationControl2021}。
+控制参数化（control parametrization）是把无限维的连续推力控制 $\boldsymbol{u}(t)$ 表达为有限个参数的方法。设 $\boldsymbol{u}(t) = \sum_{i} c_i\,\phi_i(t)$，其中 $\{\phi_i\}$ 是选定的基函数族、$\{c_i\}$ 是待优化系数，最优控制问题就被转化为关于 $\{c_i\}$ 的非线性规划（NLP）。常用基函数族包括多项式、Fourier 级数、B 样条\cite{deboorPracticalGuideSplines1978}。节流因子/油门函数 是低推力发动机特有的标量/函数形式参数化，描述推力幅值随时间的变化\cite{colagrossiGuidanceNavigationControl2021}。
 
 ## 多项式与 Fourier 基
 
@@ -78,9 +78,9 @@ $$
 - 燃料最优控制：节流呈 bang-bang 形式，由切换函数符号决定 0 或 1，等价于能量最优同伦的极限。
 - 能量最优控制：节流连续取值，由协态变量和同伦参数共同决定。
 
-Du 等\cite{duNovelCalculationMethod2024} 与 Tu 等\cite{tuOptimalControlLowthrust2025} 给出 CR3BP 低推力轨道碰撞规避、Halo 转移的节流剖面实例。
+Du 等\cite{duNovelCalculationMethod2024} 与 Tu 等\cite{tuOptimalControlLowthrust2025} 给出 CR3BP 低推力轨道碰撞规避、Halo 转移的节流剖面实例\cite{duTwoTrajectoryConfigurations2023}。
 
-油门函数（throttle function） 是节流因子在多模式推进系统中的推广。Zhang Z 等 2026 年的双模式电推进系统用两个油门函数 $\delta_{P1}(t),\delta_{P2}(t)\in\{0,1\}$ 决定每种模式的开关状态，由 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 导出 bang-bang 解。在 [间接法](/glossary/dynamics/indirect-methods/) 框架下，油门函数是最优控制的显式表达，而非外部施加的参数化。
+油门函数（throttle function） 是节流因子在多模式推进系统中的推广。Zhang Z 等 2026 年的双模式电推进系统用两个油门函数 $\delta_{P1}(t),\delta_{P2}(t)\in\{0,1\}$ 决定每种模式的开关状态，由 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 导出 bang-bang 解\cite{zhangGaussianSmoothingTechnique2026}。在 [间接法](/glossary/dynamics/indirect-methods/) 框架下，油门函数是最优控制的显式表达，而非外部施加的参数化。
 
 ## 应用要点
 
@@ -102,8 +102,4 @@ Du 等\cite{duNovelCalculationMethod2024} 与 Tu 等\cite{tuOptimalControlLowthr
 
 ## 参考文献
 
-- de Boor, 1978, *A Practical Guide to Splines*, Springer, DOI: 10.1007/978-1-4612-6333-3，B 样条数学基础
 - Sanchez, P., et al., 2020, B 样条控制参数化在轨迹优化与姿态控制中的应用，题录待补
-- Aziz, Scheeres and Lantoine, 2019, *Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem*, Journal of Guidance, Control, and Dynamics, 42(5): 963-975, DOI: 10.2514/1.G003617，球面控制变量、RSW 退化切换、信赖域缩放
-- Du et al., 2023, *Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits in the Earth-Moon system*, Advances in Space Research, 72(10): 4093-4105, DOI: 10.1016/j.asr.2023.08.007，节流因子在 Halo 转移中的应用
-- Zhang et al., 2026, *Gaussian Smoothing Technique for Eclipse-Constrained Cislunar Multi-Mode Trajectory Optimization*, Space: Science & Technology, 6: 0441, DOI: 10.34133/space.0441，双模式电推进的油门函数与 bang-bang 解

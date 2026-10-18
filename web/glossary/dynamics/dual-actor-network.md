@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/dual-actor-network/
 
 ## 定义
 
-一种双网络结构，分别为地心惯性坐标系和月心惯性坐标系的Lyapunov控制器输出权重和效能阈值，解决从地球同步转移轨道到月球极轨道的全程正向转移问题。
+一种双网络结构，分别为地心惯性坐标系和月心惯性坐标系的Lyapunov控制器输出权重和效能阈值，解决从地球同步转移轨道到月球极轨道的全程正向转移问题\cite{holtReinforcedLyapunovControllers2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/dual-actor-network/
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
-
-## 参考文献
-
-- Holt, Baresi and Armellin, 2024, *Reinforced Lyapunov controllers for low-thrust lunar transfers*, Astrodynamics, 8(4): 633-656, DOI: 10.1007/s42064-024-0212-x

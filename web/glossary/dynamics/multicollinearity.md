@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/multicollinearity/
 
 ## 定义
 
-扩展系数矩阵H的列向量之间存在近似线性相关关系。在SST定轨中，两颗同类型轨道卫星的升交点赤经偏导数列几乎相反，状态转移关系又近似相同，导致法矩阵病态。不同力模型的轨道混合可以减弱这种共线性。
+扩展系数矩阵H的列向量之间存在近似线性相关关系。在SST定轨中，两颗同类型轨道卫星的升交点赤经偏导数列几乎相反，状态转移关系又近似相同，导致法矩阵病态。不同力模型的轨道混合可以减弱这种共线性\cite{DuLanYuanXingXianZhiXingSanTiWenTiXiaHaloRaoYueGuiDaoDeXingJianCeJuDingGui2013}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/multicollinearity/
 - 动力一致性（Dynamical Consistency）
 - 组合协方差（Combined Covariance）
 - [尼霍罗舍夫估计（Nekhorosev Estimates）](/glossary/dynamics/nekhorosev-estimates/)
-
-## 参考文献
-
-- 杜兰 等, 2013, *圆型限制性三体问题下Halo-绕月轨道的星间测距定轨*, 测绘学报, 42(2): 184-190

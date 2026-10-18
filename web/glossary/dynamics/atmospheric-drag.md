@@ -62,7 +62,7 @@ $$
 
 常用的经验大气模型如下，见 App. B 与 Picone 等 2002 年的工作\cite{valladoFundamentalsAstrodynamicsApplications2022}：
 
-- NRLMSISE-00：基于雷达非相干散射和卫星阻力数据建立，覆盖地面到高空，是目前应用最广泛的高层大气密度模型。
+- NRLMSISE-00：基于雷达非相干散射和卫星阻力数据建立，覆盖地面到高空，是目前应用最广泛的高层大气密度模型\cite{piconeNRLMSISE00EmpiricalModel2002}。
 
 - Jacchia-Roberts (JR-71)：基于卫星阻力反演，参数少但代码简洁，在一些操作程序中仍在使用。
 
@@ -100,7 +100,7 @@ $$
 2. 传感器检测检验质量相对于壳体的微位移。
 3. 控制系统驱动微推力器（冷气、电推等），使壳体追随检验质量运动，补偿外界阻力加速度。
 
-DFAC 的工程目的不是作姿控，而是利用微推将阻力产生的等效加速度消掉，这也是 Drag-Free 的准确含义（即无阻力，而非无阻力+姿控）。DFAC 技术最早在 NASA 的 TRIAD 卫星（1972 年）上实现，用于重力场测绘任务。当前最精确的应用是 LISA 探路者（LISA Pathfinder）的无阻力质心控制。在地月导航卫星高精度自主定轨中，DFAC 提供低噪声加速度环境是敏感器精密测量的前提。
+DFAC 的工程目的不是作姿控，而是利用微推将阻力产生的等效加速度消掉，这也是 Drag-Free 的准确含义（即无阻力，而非无阻力+姿控）。DFAC 技术最早在 NASA 的 TRIAD 卫星（1972 年）上实现，用于重力场测绘任务。当前最精确的应用是 LISA 探路者（LISA Pathfinder）的无阻力质心控制\cite{fichterLISAPathfinderDragfree2005}。在地月导航卫星高精度自主定轨中，DFAC 提供低噪声加速度环境是敏感器精密测量的前提\cite{witteModelFrameworkHighAccuracy2024}。
 
 ## 相关概念
 
@@ -114,10 +114,4 @@ DFAC 的工程目的不是作姿控，而是利用微推将阻力产生的等效
 
 ## 参考文献
 
-- Picone et al., 2002, *NRLMSISE-00 empirical model of the atmosphere: Statistical comparisons and scientific issues*, Journal of Geophysical Research: Space Physics, 107(A12): 1468, DOI: 10.1029/2002JA009430，NRLMSISE-00 的构造原理和统计验证
-
-- Witte, Langbroek, and Dirkx, 2023, *A Model Framework for High-Accuracy, Short- and Long-Term Orbit Determination and Propagation of Cislunar Space Debris, with Realistically Quantified Uncertainties*, 22nd IAA Symposium on Space Debris, 798–815, DOI: 10.52202/078360-0074，地月空间碎片定轨中的大气阻力处理实践
-
 - Vine, 1973, The TRIAD drag-free satellite mission，世界首个无阻力卫星任务，题录待补
-
-- Fichter et al., 2005, *LISA Pathfinder drag-free control and system implications*, Classical and Quantum Gravity, 22(10): S139–S148, DOI: 10.1088/0264-9381/22/10/002，LISA Pathfinder 无阻力控制

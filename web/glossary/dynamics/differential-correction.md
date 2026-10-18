@@ -70,7 +70,7 @@ CR3BP 中 $\mathbf{x}\in\mathbb{R}^6$（位置 + 速度），STM 是 $6\times 6$
 
 固定时间位置目标：自由变量 $\bar{X}=[\dot{x}_0,\dot{y}_0,\dot{z}_0]^T$，约束 $\bar{F}=\mathbf{r}(T)-\mathbf{r}_d$，雅可比 $D\bar{F}=\boldsymbol{\Phi}_{vr}(T,t_0)$（即 STM 的右上 $3\times3$ 子块，描述末端位置对初始速度的敏感性）。3 个方程 3 个未知量，适定求解。
 
-变时间位置目标：把飞行时间 $T$ 也作为自由变量，$\bar{X}=[\dot{x}_0,\dot{y}_0,\dot{z}_0,T]^T\in\mathbb{R}^4$，约束仍为 3 维末端位置残差，得欠定方程组，用最小范数解。雅可比新增的一列 $\partial\mathbf{r}(T)/\partial T=\dot{\mathbf{r}}(T)$ 即末端速度。变时间构型在周期轨道搜索中是标准做法，周期 $T$ 本身是未知量。
+变时间位置目标：把飞行时间 $T$ 也作为自由变量，$\bar{X}=[\dot{x}_0,\dot{y}_0,\dot{z}_0,T]^T\in\mathbb{R}^4$，约束仍为 3 维末端位置残差，得欠定方程组，用最小范数解\cite{wilsonGenerationAccurateBaseline2003}。雅可比新增的一列 $\partial\mathbf{r}(T)/\partial T=\dot{\mathbf{r}}(T)$ 即末端速度。变时间构型在周期轨道搜索中是标准做法，周期 $T$ 本身是未知量。
 
 ### 多重打靶（Multiple Shooting）
 
@@ -82,7 +82,7 @@ $$\bar{F}_i(\bar{X})=\bar{x}_{i+1}-\boldsymbol{\Phi}_{i+1,i}\,\bar{x}_i=\mathbf{
 
 ## Howell-Pernicka 两级修正
 
-准周期轨道（Lissajous、quasi-halo、拟周期 DRO）在 CR3BP 中不严格闭合，单层微分修正难以同时消除位置和速度残差。Howell 和 Pernicka 在 1987、1990、1993 年的两级修正（two-level corrector，文献中又称 two-level targeter / TLT）把迭代分成两层：
+准周期轨道（Lissajous、quasi-halo、拟周期 DRO）在 CR3BP 中不严格闭合，单层微分修正难以同时消除位置和速度残差\cite{howell1987numerical}。Howell 和 Pernicka 在 1987、1990、1993 年的两级修正（two-level corrector，文献中又称 two-level targeter / TLT）把迭代分成两层：
 
 - 内层（位置连续）：固定各拼接点位置，只修正各点速度，消除位置不连续。
 
@@ -106,7 +106,7 @@ $$\bar{F}_i(\bar{X})=\bar{x}_{i+1}-\boldsymbol{\Phi}_{i+1,i}\,\bar{x}_i=\mathbf{
 
 - 间接打靶：以协态初值 $\boldsymbol{\lambda}(t_0)$ 和终端时间 $t_f$ 为自由变量，积分 Hamilton 正则方程，使终端状态/横截条件满足。协态无物理直观、对初猜极敏感，典型困难见[两点边值问题](/glossary/dynamics/tpbvp/)。
 
-- 直接打靶 / 直接转录：把连续控制 $\mathbf{u}(t)$ 离散化为参数序列，整个最优控制问题化为非线性规划（NLP），不显式引入协态。直接多重打靶（direct multiple shooting）在每段节点同时设状态与控制变量，段内用显式积分，是航天 NLP 求解器的标准底层算法之一，相关方法见 Bock 1981 与 Sager 2009。
+- 直接打靶 / 直接转录：把连续控制 $\mathbf{u}(t)$ 离散化为参数序列，整个最优控制问题化为非线性规划（NLP），不显式引入协态。直接多重打靶（direct multiple shooting）在每段节点同时设状态与控制变量，段内用显式积分，是航天 NLP 求解器的标准底层算法之一，相关方法见 Bock 1981 与 Sager 2009\cite{bockMultipleShootingAlgorithm1984}。
 
 直接打靶收敛性更好但变量维度高。间接打靶维度低、精度高（满足 Pontryagin 必要条件），但初猜困难。实际工程中常用由直接法生成初猜再交由间接法精化的组合策略。
 
@@ -139,11 +139,3 @@ $$\bar{F}_i(\bar{X})=\bar{x}_{i+1}-\boldsymbol{\Phi}_{i+1,i}\,\bar{x}_i=\mathbf{
 - [单值矩阵（Monodromy Matrix）](/glossary/dynamics/monodromy-matrix/)
 
 - [Newton-Raphson 迭代](/glossary/dynamics/newton-raphson-method/)
-
-## 参考文献
-
-- Howell and Pernicka, 1987, *Numerical determination of Lissajous trajectories in the restricted three-body problem*, Celestial Mechanics, 41(1-4): 107-124, DOI: 10.1007/BF01238756，两级微分修正的原始出处
-
-- Wilson R S. Generation of accurate baseline numerical trajectories for the three-body problem[D]. Purdue University, 2003，自由变量/约束方程的形式化，题录待补
-
-- Bock and Plitt, 1984, *A multiple shooting algorithm for direct solution of optimal control problems*, IFAC Proceedings Volumes, 17(2): 1603-1608, DOI: 10.1016/S1474-6670(17)61205-9，直接多重打靶

@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/moving-point-strategy/
 
 ## 应用价值
 
-在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗。该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。在设计地月转移方案时，利用该轨道特性可降低任务总速度增量需求。对于大质量航天器的长时间转移，该推进方式可大幅降低推进剂消耗。
+在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗\cite{duTwoTrajectoryConfigurations2023}。该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。在设计地月转移方案时，利用该轨道特性可降低任务总速度增量需求。对于大质量航天器的长时间转移，该推进方式可大幅降低推进剂消耗。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/moving-point-strategy/
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- Du et al., 2023, *Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits in the Earth-Moon system*, Advances in Space Research, 72(10): 4093-4105, DOI: 10.1016/j.asr.2023.08.007

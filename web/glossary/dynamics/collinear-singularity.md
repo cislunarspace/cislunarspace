@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/collinear-singularity/
 
 ## 定义
 
-当初始与最终位置向量共线时，Lambert问题中速度向量不确定、运动平面无法确定的病态现象。
+当初始与最终位置向量共线时，Lambert问题中速度向量不确定、运动平面无法确定的病态现象\cite{schumacherUncertainLambertProblem2015}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/collinear-singularity/
 - 轨道转移（Orbital Transfer）
 - 双脉冲交会机动（Two-Impulse Rendezvous Maneuver）
 - 共轨交会（Co-Orbital Rendezvous）
-
-## 参考文献
-
-- Schumacher et al., 2015, *Uncertain Lambert Problem*, Journal of Guidance, Control, and Dynamics, 38(9): 1573-1584, DOI: 10.2514/1.G001019

@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/constrained-functional/
 
 ## 定义
 
-由TFC框架构造的函数，无论自由函数取值如何，始终满足预先指定的边界约束条件。对于Lambert问题，对p(t)、θ(t)、h(t)三个变量各构造一个约束泛函。
+由TFC框架构造的函数，无论自由函数取值如何，始终满足预先指定的边界约束条件。对于Lambert问题，对p(t)、θ(t)、h(t)三个变量各构造一个约束泛函\cite{criscolaApplicationTheoryFunctional2024}。
 
 ## 应用价值
 
@@ -44,7 +44,3 @@ permalink: /glossary/dynamics/constrained-functional/
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - 脉冲机动（Impulsive Maneuver）
 - Halo轨道（Halo Orbit）
-
-## 参考文献
-
-- Criscola, Canales and Mortari, 2024, *Application of the theory of functional connections to the perturbed Lambert's problem*, Celestial Mechanics and Dynamical Astronomy, 136(5): 36, DOI: 10.1007/s10569-024-10212-4

@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/numerical-integration-orbit-propagation/
 
 ## 应用价值
 
-该概念是分析地月空间动力学行为的基础工具。在轨道设计和任务分析中具有重要应用价值。
+该概念是分析地月空间动力学行为的基础工具。在轨道设计和任务分析中具有重要应用价值\cite{biswasGroundBasedNavigation2015}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/numerical-integration-orbit-propagation/
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- Biswas & Hablani, 2015, *Ground Based Navigation of Spacecraft in Lunar Transfer Trajectory, with Application to Chandrayaan-2*, Advances in Estimation, Navigation, and Spacecraft Control, 371-390, Section II.D, DOI: 10.1007/978-3-662-44785-7_20

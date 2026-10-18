@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/non-gaussian-distribution/
 
 ## 定义
 
-不确定Lambert问题在大飞行时间、大不确定性条件下呈现的概率分布特征，此时线性近似方法不再适用。
+不确定Lambert问题在大飞行时间、大不确定性条件下呈现的概率分布特征，此时线性近似方法不再适用\cite{duanAdaptivePolynomialChaos2025}。
 
 ## 应用价值
 
@@ -41,7 +41,3 @@ permalink: /glossary/dynamics/non-gaussian-distribution/
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [科氏定理（Coriolis Theorem）](/glossary/dynamics/coriolis-theorem/)
 - 速度函数（Velocity Function）
-
-## 参考文献
-
-- Duan, Yang & Luo, 2025, *Adaptive polynomial chaos expansion method for uncertain multiple-revolution Lambert problem*, Celestial Mechanics and Dynamical Astronomy, 137(5): 30, DOI: 10.1007/s10569-025-10259-x

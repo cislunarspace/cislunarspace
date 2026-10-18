@@ -30,11 +30,11 @@ permalink: /glossary/dynamics/characteristic-multiplier/
 
 ## 定义
 
-Poincaré 映射的特征值，表征周期轨道对微小扰动的响应特性。特征乘子模长为 1 对应中心模态（中性稳定），模长大于 1 对应不稳定模态。共线平动点附近的 Halo 轨道具有实特征乘子 lambda_5 > 1 和 lambda_6 = 1/lambda_5 < 1，反映鞍型不稳定结构。论文中 lambda_5 称为 Floquet 乘子，其与轨道幅值的关系直接影响维持策略的燃料消耗\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
+Poincaré 映射的特征值，表征周期轨道对微小扰动的响应特性。特征乘子模长为 1 对应中心模态（中性稳定），模长大于 1 对应不稳定模态。共线平动点附近的 Halo 轨道具有实特征乘子 lambda_5 > 1 和 lambda_6 = 1/lambda_5 < 1，反映鞍型不稳定结构\cite{gomezDynamicsMissionDesign2001f}。论文中 lambda_5 称为 Floquet 乘子，其与轨道幅值的关系直接影响维持策略的燃料消耗\cite{XuMingHaloGuiDaoWeiChiDeXianXingZhouQiKongZhiCeLue2008}。
 
 ## 应用价值
 
-在特征乘子的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
+在特征乘子的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析\cite{trofimovTransfersNearrectilinearHalo2020a}。
 
 ## 相关概念
 
@@ -42,8 +42,3 @@ Poincaré 映射的特征值，表征周期轨道对微小扰动的响应特性�
 - 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - 状态转移矩阵（State Transition Matrix）
-
-## 参考文献
-
-- Trofimov et al., 2020, *Transfers from near-rectilinear halo orbits to low-perilune orbits and the Moon’s surface*, Acta Astronautica, 167: 260–271, DOI: 10.1016/j.actaastro.2019.10.049
-- Gómez 等, 2001, *Dynamics and Mission Design Near Libration Points, Vol. I: Fundamentals: The Case of Collinear Libration Points*, World Scientific, DOI: 10.1142/4402

@@ -40,7 +40,7 @@ $$
 \vec\omega\times\vec q.
 $$
 
-$\vec\omega$ 是 $\mathcal R$ 相对 $\mathcal I$ 的瞬时角速度。矢量本身与参考系无关，但其分量与对时间求导的操作随参考系而变，科氏定理正是后者的变换法则。它是 [会合坐标系](/glossary/fundamentals/synodic-frame/)、月固系、地球固系等所有旋转参考系中航天器运动方程的推导根基。
+$\vec\omega$ 是 $\mathcal R$ 相对 $\mathcal I$ 的瞬时角速度。矢量本身与参考系无关，但其分量与对时间求导的操作随参考系而变，科氏定理正是后者的变换法则。它是 [会合坐标系](/glossary/fundamentals/synodic-frame/)、月固系、地球固系等所有旋转参考系中航天器运动方程的推导根基\cite{szebehelyTheoryOrbitRestricted1967}。
 
 ## 推导要点
 
@@ -97,7 +97,7 @@ $$
 
 ## 在体固系中的应用
 
-月球软着陆、地球再入等任务需要在月固系或地固系（与天体同步旋转的参考系）中建立动力学方程。以月固系为例\cite{ZhouJingYangYueQiuTanCeQiRuanZhaoLuJingQueJianMoJiZuiYouGuiDaoSheJi2007}：
+月球软着陆、地球再入等任务需要在月固系或地固系（与天体同步旋转的参考系）中建立动力学方程\cite{goldsteinClassicalMechanics2002}。以月固系为例\cite{ZhouJingYangYueQiuTanCeQiRuanZhaoLuJingQueJianMoJiZuiYouGuiDaoSheJi2007}：
 
 $$
 \vec V_I = \vec V_L + \vec\omega_M\times\vec R,
@@ -118,8 +118,3 @@ $$
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [惯性参考系（Inertial Reference Frames）](/glossary/fundamentals/inertial-reference-frames/)
-
-## 参考文献
-
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*, Academic Press
-- Goldstein, Poole and Safko, 2002, *Classical Mechanics*, 3rd ed., Addison-Wesley

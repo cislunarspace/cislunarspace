@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lnc/
 
 ## 定义
 
-燃料最优脉冲转移的一阶必要条件，包括先驱向量连续、模不超过1、在脉冲点与速度增量方向一致、内点脉冲处先驱向量导数与先驱向量正交。
+燃料最优脉冲转移的一阶必要条件，包括先驱向量连续、模不超过1、在脉冲点与速度增量方向一致、内点脉冲处先驱向量导数与先驱向量正交\cite{grossiOptimalThreeimpulseEarth2024}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/lnc/
 - 有动力月球借力（Powered Lunar Flyby, PLF）
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/cr3bp/)
 - 插入速度增量（Insertion Delta-V）
-
-## 参考文献
-
-- Grossi et al., 2024, *On optimal three-impulse Earth–Moon transfers in a four-body model*, Celestial Mechanics and Dynamical Astronomy, 136(3): 22, DOI: 10.1007/s10569-024-10193-4

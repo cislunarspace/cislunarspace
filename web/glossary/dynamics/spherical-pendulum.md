@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/spherical-pendulum/
 
 ## 定义
 
-质点约束在球面上运动的可积哈密顿系统例子。
+质点约束在球面上运动的可积哈密顿系统例子\cite{meyerIntroductionHamiltonianDynamical2017}。
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/spherical-pendulum/
 - 可达集（Reachability Set）
 - 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - 拉普拉斯方法（Laplace Method）
-
-## 参考文献
-
-- Meyer and Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, 3rd ed., Springer, DOI: 10.1007/978-3-319-53691-0

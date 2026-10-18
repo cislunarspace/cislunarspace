@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/angle-distance-section-method/
 
 ## 应用价值
 
-角度-距离截面法用角度量和距离量作为庞加莱截面坐标，比传统坐标表示更具几何特征且不随截面倾角变化而失效，便于分析轨道动力学特性。
+角度-距离截面法用角度量和距离量作为庞加莱截面坐标，比传统坐标表示更具几何特征且不随截面倾角变化而失效，便于分析轨道动力学特性\cite{LiYanJunLiYongLaGeLangRiDianDeShenKongTanCeJiShu2015}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/angle-distance-section-method/
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
-
-## 参考文献
-
-- 李言俊等, 2015, *利用拉格朗日点的深空探测技术*, 西北工业大学出版社

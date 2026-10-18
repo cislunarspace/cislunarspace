@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/two-layer-guidance-and-control/
 
 ## 定义
 
-由非线性最优控制器生成基准轨道、线性控制器补偿偏差的两层制导控制架构
+由非线性最优控制器生成基准轨道、线性控制器补偿偏差的两层制导控制架构\cite{bucchioniRendezvousCislunarHalo2023}
 
 ## 应用价值
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/two-layer-guidance-and-control/
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
 - [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
-
-## 参考文献
-
-- Muralidharan et al., 2023, *Rendezvous in cislunar halo orbits: Hardware-in-the-loop simulation with coupled orbit and attitude dynamics*, Acta Astronautica, 211: 556-573, DOI: 10.1016/j.actaastro.2023.06.028

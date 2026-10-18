@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/matching-conditions/
 
 ## 应用价值
 
-在轨道设计与优化中，该概念用于分析航天器在地月空间多体引力场中的运动特性，为低能量转移轨道设计提供理论依据。
+在轨道设计与优化中，该概念用于分析航天器在地月空间多体引力场中的运动特性，为低能量转移轨道设计提供理论依据\cite{pozziOptimalLowthrustOrbit2025}。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/matching-conditions/
 - 可达集（Reachability Set）
 - 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - 拉普拉斯方法（Laplace Method）
-
-## 参考文献
-
-- Pozzi et al., 2025, *Optimal low-thrust orbit transfers connecting Gateway with Earth and Moon*, Acta Astronautica, 228: 1107-1121, DOI: 10.1016/j.actaastro.2024.11.040

@@ -34,7 +34,7 @@ permalink: /glossary/dynamics/measurement-jacobian/
 
 ## 应用价值
 
-该矩阵在可观测性分析和滤波器设计中起关键作用。在编目系统中，该技术可提高对空间目标的探测、跟踪和编目能力。
+该矩阵在可观测性分析和滤波器设计中起关键作用\cite{fowlerObservabilityMetricsSpacebased2023}。在编目系统中，该技术可提高对空间目标的探测、跟踪和编目能力。
 
 ## 相关概念
 
@@ -42,7 +42,3 @@ permalink: /glossary/dynamics/measurement-jacobian/
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
-
-## 参考文献
-
-- Fowler & Paley, 2023, *Observability Metrics for Space-Based Cislunar Domain Awareness*, The Journal of the Astronautical Sciences, 70(2): 10, DOI: 10.1007/s40295-023-00368-w
