@@ -6,6 +6,7 @@ import { createChatUIManager } from '../../utils/chat-ui-manager';
 import { createChatActions } from './useChatActions';
 import { useChatHistory } from './useChatHistory';
 import { useChatI18n } from './useChatI18n';
+import { ensureKatex } from '../../utils/markdown-renderer';
 import type { HierarchicalSiteIndex, NormalizedConfig } from '../../chat/chat-types';
 
 const MAX_INPUT_LENGTH = 2000;
@@ -85,6 +86,8 @@ export function useChatSurface(
   onMounted(async () => {
     theme.loadTheme();
     ui.updateSuggestedQuestions();
+    // 后台加载 katex（消息公式渲染依赖）：不阻塞界面，就绪后消息自动重渲染。
+    void ensureKatex();
     await state.loadConfig(t);
     onEscapeHandler = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && ui.sidebarOpen.value) ui.sidebarOpen.value = false;

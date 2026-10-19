@@ -4,11 +4,34 @@
  * Handles KaTeX math, GFM tables, blockquotes, headings, links, bold/italic.
  * Input is model-generated markdown that may be malformed; output is sanitized HTML.
  *
- * Design: pure functions with no side effects. The one exception is
- * `sanitizeGeneratedHtml`, which requires a DOM environment.
+ * Design: pure functions with no side effects. The exceptions are
+ * `ensureKatex` / `sanitizeGeneratedHtml`: the former lazily loads the
+ * ~270 KB katex bundle (kept out of the app entry chunk so ordinary pages
+ * do not download it on first visit), the latter requires a DOM environment.
  */
-import katex from 'katex';
+import { ref } from 'vue';
 import { escapeHtml } from './html';
+
+type KatexModule = typeof import('katex');
+
+let katexPromise: Promise<void> | null = null;
+let katexLib: KatexModule | null = null;
+
+/**
+ * True once the lazily-loaded katex bundle is usable. Render functions
+ * read this ref so message rendering re-runs when katex becomes ready
+ * (formulas first show as raw LaTeX source, then re-render).
+ */
+export const katexReady = ref(false);
+
+/** Kick off (and await, if needed) the lazy katex bundle load. */
+export function ensureKatex(): Promise<void> {
+  katexPromise ??= import('katex').then((mod) => {
+    katexLib = mod.default;
+    katexReady.value = true;
+  });
+  return katexPromise;
+}
 
 // Unicode Private Use Area characters used as KaTeX placeholder delimiters.
 // Chosen to avoid collision with any valid Unicode character in model output.
@@ -29,9 +52,14 @@ export function renderKatex(text: string): KatexRenderResult {
 
   function pushPlaceholder(source: string, displayMode: boolean): string {
     const id = placeholders.length;
-    try {
-      placeholders.push(katex.renderToString(source.trim(), { displayMode, throwOnError: false }));
-    } catch {
+    if (katexLib) {
+      try {
+        placeholders.push(katexLib.renderToString(source.trim(), { displayMode, throwOnError: false }));
+      } catch {
+        placeholders.push(escapeHtml(source));
+      }
+    } else {
+      // katex 尚未加载完成：先占位为原文，katexReady 翻转后整体重渲染。
       placeholders.push(escapeHtml(source));
     }
     return `${KATEX_PLACEHOLDER_START}${id}${KATEX_PLACEHOLDER_END}`;
@@ -144,6 +172,8 @@ export function renderTableHtml(
  * Calls sanitizeGeneratedHtml on the output.
  */
 export function renderLinkedHtml(text: string): string {
+  // 读取响应式标志：katex 异步就绪时，依赖本函数的模板渲染会自动重跑。
+  void katexReady.value;
   const katexResult = renderKatex(text);
   const lines = katexResult.text.split('\n');
   const html: string[] = [];
