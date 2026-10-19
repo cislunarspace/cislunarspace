@@ -54,7 +54,9 @@ export function renderKatex(text: string): KatexRenderResult {
     const id = placeholders.length;
     if (katexLib) {
       try {
-        placeholders.push(katexLib.renderToString(source.trim(), { displayMode, throwOnError: false }));
+        placeholders.push(
+          katexLib.renderToString(source.trim(), { displayMode, throwOnError: false }),
+        );
       } catch {
         placeholders.push(escapeHtml(source));
       }
@@ -92,9 +94,11 @@ export function renderInlineMarkdown(text: string, placeholders: string[]): stri
     .replace(/%%KATEX(\d+)%%/g, (_, id) => placeholders[Number(id)] || '');
 
   // [text](url) links
+  // 输入已经过 escapeHtml（& 为 &amp; 等实体形式），href 与 label 直接
+  // 拼接即可；再调一次 escapeHtml 会把实体二次转义成 &amp;amp;。
   html = html.replace(
     /\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)\)/g,
-    (_, label, href) => `<a href="${escapeHtml(href)}" class="chat-link">${label}</a>`,
+    (_, label, href) => `<a href="${href}" class="chat-link">${label}</a>`,
   );
 
   // Bold
@@ -104,17 +108,15 @@ export function renderInlineMarkdown(text: string, placeholders: string[]): stri
   // Italic _text_
   html = html.replace(/(^|[^_])_([^_\n]+)_(?!_)/g, '$1<em>$2</em>');
 
-  // Auto-link bare https:// URLs
+  // Auto-link bare https:// URLs（href 已是转义后文本，直接使用，避免二次转义）
   html = html.replace(
     /(^|\s)(https?:\/\/[^\s<]+)/g,
-    (_, prefix, href) =>
-      `${prefix}<a href="${escapeHtml(href)}" class="chat-link">${escapeHtml(href)}</a>`,
+    (_, prefix, href) => `${prefix}<a href="${href}" class="chat-link">${href}</a>`,
   );
-  // Auto-link bare internal paths
+  // Auto-link bare internal paths（同上）
   html = html.replace(
     /(^|\s)(\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)/g,
-    (_, prefix, href) =>
-      `${prefix}<a href="${escapeHtml(href)}" class="chat-link">${escapeHtml(href)}</a>`,
+    (_, prefix, href) => `${prefix}<a href="${href}" class="chat-link">${href}</a>`,
   );
 
   return html;
