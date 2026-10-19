@@ -49,11 +49,10 @@
 
 ### Build Pipeline
 
-`npm run build` 三步：
+`npm run build` 两步：
 
 1. `generate.ts`（`npm run gen-sidebar`）：生成全部 JSON 工件
-2. `vuepress build`：构建静态站点
-3. `sync-figures.js`：把 `figures/` 目录拷入 `dist/`
+2. `vuepress build`：构建静态站点（入口 `build/build-cached.ts`，SSR 渲染带缓存与 worker 池）
 
 ### Checks
 

@@ -4,11 +4,34 @@
  * Handles KaTeX math, GFM tables, blockquotes, headings, links, bold/italic.
  * Input is model-generated markdown that may be malformed; output is sanitized HTML.
  *
- * Design: pure functions with no side effects. The one exception is
- * `sanitizeGeneratedHtml`, which requires a DOM environment.
+ * Design: pure functions with no side effects. The exceptions are
+ * `ensureKatex` / `sanitizeGeneratedHtml`: the former lazily loads the
+ * ~270 KB katex bundle (kept out of the app entry chunk so ordinary pages
+ * do not download it on first visit), the latter requires a DOM environment.
  */
-import katex from 'katex';
+import { ref } from 'vue';
 import { escapeHtml } from './html';
+
+type KatexModule = typeof import('katex');
+
+let katexPromise: Promise<void> | null = null;
+let katexLib: KatexModule | null = null;
+
+/**
+ * True once the lazily-loaded katex bundle is usable. Render functions
+ * read this ref so message rendering re-runs when katex becomes ready
+ * (formulas first show as raw LaTeX source, then re-render).
+ */
+export const katexReady = ref(false);
+
+/** Kick off (and await, if needed) the lazy katex bundle load. */
+export function ensureKatex(): Promise<void> {
+  katexPromise ??= import('katex').then((mod) => {
+    katexLib = mod.default;
+    katexReady.value = true;
+  });
+  return katexPromise;
+}
 
 // Unicode Private Use Area characters used as KaTeX placeholder delimiters.
 // Chosen to avoid collision with any valid Unicode character in model output.
@@ -29,9 +52,16 @@ export function renderKatex(text: string): KatexRenderResult {
 
   function pushPlaceholder(source: string, displayMode: boolean): string {
     const id = placeholders.length;
-    try {
-      placeholders.push(katex.renderToString(source.trim(), { displayMode, throwOnError: false }));
-    } catch {
+    if (katexLib) {
+      try {
+        placeholders.push(
+          katexLib.renderToString(source.trim(), { displayMode, throwOnError: false }),
+        );
+      } catch {
+        placeholders.push(escapeHtml(source));
+      }
+    } else {
+      // katex 尚未加载完成：先占位为原文，katexReady 翻转后整体重渲染。
       placeholders.push(escapeHtml(source));
     }
     return `${KATEX_PLACEHOLDER_START}${id}${KATEX_PLACEHOLDER_END}`;
@@ -64,9 +94,11 @@ export function renderInlineMarkdown(text: string, placeholders: string[]): stri
     .replace(/%%KATEX(\d+)%%/g, (_, id) => placeholders[Number(id)] || '');
 
   // [text](url) links
+  // 输入已经过 escapeHtml（& 为 &amp; 等实体形式），href 与 label 直接
+  // 拼接即可；再调一次 escapeHtml 会把实体二次转义成 &amp;amp;。
   html = html.replace(
     /\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)\)/g,
-    (_, label, href) => `<a href="${escapeHtml(href)}" class="chat-link">${label}</a>`,
+    (_, label, href) => `<a href="${href}" class="chat-link">${label}</a>`,
   );
 
   // Bold
@@ -76,17 +108,15 @@ export function renderInlineMarkdown(text: string, placeholders: string[]): stri
   // Italic _text_
   html = html.replace(/(^|[^_])_([^_\n]+)_(?!_)/g, '$1<em>$2</em>');
 
-  // Auto-link bare https:// URLs
+  // Auto-link bare https:// URLs（href 已是转义后文本，直接使用，避免二次转义）
   html = html.replace(
     /(^|\s)(https?:\/\/[^\s<]+)/g,
-    (_, prefix, href) =>
-      `${prefix}<a href="${escapeHtml(href)}" class="chat-link">${escapeHtml(href)}</a>`,
+    (_, prefix, href) => `${prefix}<a href="${href}" class="chat-link">${href}</a>`,
   );
-  // Auto-link bare internal paths
+  // Auto-link bare internal paths（同上）
   html = html.replace(
     /(^|\s)(\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)/g,
-    (_, prefix, href) =>
-      `${prefix}<a href="${escapeHtml(href)}" class="chat-link">${escapeHtml(href)}</a>`,
+    (_, prefix, href) => `${prefix}<a href="${href}" class="chat-link">${href}</a>`,
   );
 
   return html;
@@ -144,6 +174,8 @@ export function renderTableHtml(
  * Calls sanitizeGeneratedHtml on the output.
  */
 export function renderLinkedHtml(text: string): string {
+  // 读取响应式标志：katex 异步就绪时，依赖本函数的模板渲染会自动重跑。
+  void katexReady.value;
   const katexResult = renderKatex(text);
   const lines = katexResult.text.split('\n');
   const html: string[] = [];

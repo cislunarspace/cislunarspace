@@ -39,6 +39,8 @@ export default defineUserConfig({
   pagePatterns: ['**/*.md', '!**/_*.md', '!.vuepress/**/*.md', '!node_modules/**'],
 
   head: [
+    // 站点图标：public/favicon.ico（浏览器与爬虫的默认探测路径）
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
     [
       'link',
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' },
@@ -53,6 +55,11 @@ export default defineUserConfig({
     ],
     ...headScripts,
   ],
+
+  // 站点页面 800+，默认 prefetch 会往每页 HTML 注入全站 chunk 的
+  // <link rel="prefetch">（首页 799 个、合计约 8 到 10 MB）。出口带宽
+  // 约 350 kbps 时浏览器空闲预取会占满链路、挤占真实导航请求，整站关闭。
+  shouldPrefetch: false,
 
   bundler: viteBundler({
     viteOptions: {

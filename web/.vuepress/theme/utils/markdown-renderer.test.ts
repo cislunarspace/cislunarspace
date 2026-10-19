@@ -1,12 +1,18 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeAll } from 'vitest';
 import {
   renderKatex,
   renderInlineMarkdown,
   renderTableHtml,
   renderLinkedHtml,
   sanitizeGeneratedHtml,
+  ensureKatex,
 } from './markdown-renderer';
 import { escapeHtml } from './html';
+
+// katex 改为惰性加载后，公式渲染断言须在 katex 就绪后执行。
+beforeAll(async () => {
+  await ensureKatex();
+});
 
 describe('escapeHtml', () => {
   it('escapes & < > "', () => {
