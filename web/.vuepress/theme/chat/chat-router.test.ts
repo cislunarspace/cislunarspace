@@ -93,6 +93,24 @@ describe('chat-router', () => {
       );
     });
 
+    it('includes the reading context in the router user message', async () => {
+      const transport = createTransport({
+        choices: [{ message: { content: '{"paths": ["/cislunar-orbits/"]}' } }],
+      });
+      const router = createLLMRouter({ transport });
+
+      await router.route({
+        ...routerParams,
+        readingContext: { path: '/glossary/orbits/halo-orbit/', title: '晕轨道' },
+        callbacks: createCallbacks(),
+        signal: new AbortController().signal,
+      });
+
+      const payload = (transport.completeJson as ReturnType<typeof vi.fn>).mock.calls[0][1];
+      const userMessage = payload.messages.at(-1).content as string;
+      expect(userMessage).toContain('用户当前正在阅读：《晕轨道》（/glossary/orbits/halo-orbit/）');
+    });
+
     it('falls back to keyword matching when the LLM returns no valid paths', async () => {
       const transport = createTransport({
         choices: [{ message: { content: '/no-such-path/' } }],

@@ -73,4 +73,20 @@ describe('buildRouterUserMessage', () => {
     expect(result).toContain('msg4');
     expect(result).not.toContain('msg3');
   });
+
+  it('prepends the reading context when provided', () => {
+    const result = buildRouterUserMessage([], '这个公式什么意思', {
+      path: '/glossary/orbits/halo-orbit/',
+      title: '晕轨道',
+    });
+    expect(result).toContain('用户当前正在阅读：《晕轨道》（/glossary/orbits/halo-orbit/）');
+    expect(result).toContain('优先指该页面');
+    expect(result).toContain('当前用户问题：');
+    expect(result).toContain('这个公式什么意思');
+  });
+
+  it('omits the reading context block when absent', () => {
+    const result = buildRouterUserMessage([], '问题');
+    expect(result).not.toContain('正在阅读');
+  });
 });

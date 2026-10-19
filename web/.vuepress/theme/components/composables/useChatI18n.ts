@@ -18,6 +18,13 @@ const strings: Record<string, string> = {
   configError: 'AI 配置加载失败，请检查 /ai-chat-config.json。',
   emptyReply: '抱歉，未获取到有效回复。',
   networkError: '请求失败，请检查网络或服务器代理配置。',
+  assistantTitle: 'AI 助手',
+  assistantWelcome: '有什么想问的？我会结合本站内容为你解答。',
+  openAssistant: '打开 AI 助手',
+  closeAssistant: '关闭 AI 助手',
+  readingLabel: '正在阅读',
+  historyToggle: '历史会话',
+  historyEmpty: '暂无历史会话',
 };
 
 export function useChatI18n() {

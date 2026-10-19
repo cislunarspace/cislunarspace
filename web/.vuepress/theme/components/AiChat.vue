@@ -24,11 +24,11 @@
         </button>
       </div>
       <div class="sidebar-history">
-        <div v-if="surface.chatHistory.length === 0" class="sidebar-empty">暂无对话记录</div>
+        <div v-if="surface.chatHistory.value.length === 0" class="sidebar-empty">暂无对话记录</div>
         <div
           v-for="(chat, idx) in surface.chatHistory.value"
           :key="idx"
-          :class="['sidebar-item', { active: surface.activeChatIndex === idx }]"
+          :class="['sidebar-item', { active: surface.activeChatIndex.value === idx }]"
           tabindex="0"
           role="button"
           :aria-label="chat.title"

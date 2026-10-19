@@ -24,6 +24,7 @@ import type {
   Message,
   NormalizedConfig,
   ProcessStepKey,
+  ReadingContext,
 } from './chat-types';
 
 export type RouterStepKey = Extract<ProcessStepKey, 'stepNav' | 'stepExcerpt'>;
@@ -45,6 +46,7 @@ export interface ChatRouter {
     siteIndex: HierarchicalSiteIndex;
     flatIndex: IndexRow[];
     config: NormalizedConfig;
+    readingContext?: ReadingContext;
     callbacks: RouterCallbacks;
     signal: AbortSignal;
   }): Promise<RoutingDecision>;
@@ -74,11 +76,20 @@ export function createKeywordRouter(): ChatRouter {
 export function createLLMRouter(deps: LLMRouterDeps): ChatRouter {
   const { transport } = deps;
   return {
-    async route({ question, history, siteIndex, flatIndex, config, callbacks, signal }) {
+    async route({
+      question,
+      history,
+      siteIndex,
+      flatIndex,
+      config,
+      readingContext,
+      callbacks,
+      signal,
+    }) {
       const maxPaths = config.routerMaxPaths ?? 8;
 
       const mapText = buildSiteMapText(siteIndex);
-      const routerUser = buildRouterUserMessage(history, question);
+      const routerUser = buildRouterUserMessage(history, question, readingContext);
 
       callbacks.onProcessStep('stepNav');
 
@@ -112,6 +123,7 @@ export function createLLMRouter(deps: LLMRouterDeps): ChatRouter {
           siteIndex,
           flatIndex,
           config,
+          readingContext,
           callbacks,
           signal,
         });
@@ -131,6 +143,7 @@ export function createLLMRouter(deps: LLMRouterDeps): ChatRouter {
           siteIndex,
           flatIndex,
           config,
+          readingContext,
           callbacks,
           signal,
         });

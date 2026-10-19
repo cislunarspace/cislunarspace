@@ -38,8 +38,16 @@ function saveToStorage(history: ChatHistoryEntry[]): void {
   }
 }
 
+/**
+ * 模块级共享的历史列表：全局 AI 助手浮窗与 AI 问答全页表面在同一次页面
+ * 会话里读写同一份内存态（localStorage 只在写入时落盘）。activeChatIndex
+ * 刻意不共享：每个表面实例各自持有“当前编辑中的会话”，避免浮窗的新对话
+ * 覆盖另一个表面正在进行的会话。
+ */
+const sharedChatHistory = ref<ChatHistoryEntry[]>(loadFromStorage());
+
 export function useChatHistory() {
-  const chatHistory = ref<ChatHistoryEntry[]>(loadFromStorage());
+  const chatHistory = sharedChatHistory;
   const activeChatIndex = ref(-1);
 
   function getChatTitle(messages: Message[]): string {

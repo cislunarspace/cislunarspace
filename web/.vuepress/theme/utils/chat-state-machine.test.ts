@@ -102,7 +102,39 @@ describe('createChatStateMachine', () => {
       [{ role: 'user', content: 'question' }],
       expect.any(Object),
       expect.any(AbortSignal),
+      undefined,
     );
+  });
+
+  it('passes the reading context to the session when set', async () => {
+    const sm = createChatStateMachine();
+    sm.config.value = config;
+    sm.setReadingContext({ path: '/glossary/orbits/halo-orbit/', title: '晕轨道' });
+
+    const session = createMockSession();
+
+    await sm.sendMessage('这个词条什么意思', {
+      t,
+      createSession: () => session,
+      saveCurrentChat: vi.fn(),
+    });
+
+    expect(session.route).toHaveBeenCalledWith(
+      '这个词条什么意思',
+      [{ role: 'user', content: '这个词条什么意思' }],
+      expect.any(Object),
+      expect.any(AbortSignal),
+      { path: '/glossary/orbits/halo-orbit/', title: '晕轨道' },
+    );
+  });
+
+  it('clears the reading context when set to null', () => {
+    const sm = createChatStateMachine();
+    sm.setReadingContext({ path: '/glossary/orbits/halo-orbit/', title: '晕轨道' });
+
+    sm.setReadingContext(null);
+
+    expect(sm.readingContext.value).toBeNull();
   });
 
   it('accumulates streaming content through callbacks', async () => {

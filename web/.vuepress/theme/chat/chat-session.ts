@@ -24,6 +24,7 @@ import type {
   HierarchicalSiteIndex,
   Message,
   NormalizedConfig,
+  ReadingContext,
   RouteCallbacks,
   SiteContext,
 } from './chat-types';
@@ -57,6 +58,7 @@ export class ChatSession {
     history: Message[],
     callbacks: RouteCallbacks,
     signal: AbortSignal,
+    readingContext?: ReadingContext,
   ): Promise<void> {
     const paths = await runRoutingPhase({
       question,
@@ -67,6 +69,7 @@ export class ChatSession {
       siteIndex: this.siteIndex,
       flatIndex: this.flatIndex,
       router: this.router,
+      readingContext,
     });
     if (paths === null) return; // router-level abort, already surfaced
 
@@ -81,6 +84,24 @@ export class ChatSession {
       transport: this.transport,
     });
   }
+}
+
+/**
+ * Force the reading-context page to the front of the answer paths so its
+ * excerpt survives the context char budget (buildContextBlob fills paths
+ * in order). Only merges when the path exists in the flat index. Callers
+ * must only invoke this on paths produced by an actual router run, never
+ * on the answer-alone short-circuit, which must stay retrieval-free.
+ */
+function mergeReadingContextPath(
+  paths: string[],
+  readingContext: ReadingContext | undefined,
+  flatIndex: { path: string }[],
+): string[] {
+  if (!readingContext) return paths;
+  if (!flatIndex.some((row) => row.path === readingContext.path)) return paths;
+  if (paths.includes(readingContext.path)) return paths;
+  return [readingContext.path, ...paths];
 }
 
 function toRouterCallbacks(callbacks: RouteCallbacks) {
@@ -112,13 +133,16 @@ interface RoutingPhaseInput {
   siteIndex: HierarchicalSiteIndex;
   flatIndex: { path: string; title: string }[];
   router: ChatRouter;
+  readingContext?: ReadingContext;
 }
 
 /** Run the routing phase: short-circuit to "answer alone" when two-phase
  *  retrieval is off; otherwise call the router. Returns the chosen paths,
- *  or null when the router signaled abort. */
+ *  or null when the router signaled abort. When a reading context is set
+ *  and the router actually ran, its page is forced to the front of the
+ *  paths (the answer-alone short-circuit stays retrieval-free). */
 async function runRoutingPhase(input: RoutingPhaseInput): Promise<string[] | null> {
-  const { callbacks, cfg, flatIndex } = input;
+  const { callbacks, cfg, flatIndex, readingContext } = input;
   const twoPhaseOn = cfg.twoPhaseRetrieval !== false && flatIndex.length > 0;
   if (!twoPhaseOn) {
     callbacks.onProcessStep('stepAnswerAlone');
@@ -132,16 +156,17 @@ async function runRoutingPhase(input: RoutingPhaseInput): Promise<string[] | nul
       siteIndex: input.siteIndex,
       flatIndex,
       config: cfg,
+      readingContext,
       callbacks: toRouterCallbacks(callbacks),
       signal: input.signal,
     });
     callbacks.onProcessStepComplete('stepNav', '已选');
-    return decision.paths;
+    return mergeReadingContextPath(decision.paths, readingContext, flatIndex);
   } catch (err) {
     if (err instanceof Error && err.name === 'AbortError') throw err;
     callbacks.onProcessStepComplete('stepNav', '导览未成功');
     callbacks.onProcessStep('stepAnswer');
-    return [];
+    return mergeReadingContextPath([], readingContext, flatIndex);
   }
 }
 
