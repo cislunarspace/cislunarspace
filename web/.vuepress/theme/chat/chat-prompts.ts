@@ -36,10 +36,18 @@ export function buildRouterSystemPrompt(maxPaths: number): string {
 export function buildRouterUserMessage(
   history: Array<{ role: string; content: string }>,
   currentText: string,
+  readingContext?: { path: string; title: string },
 ): string {
   const tail = history.slice(-6);
   const parts: string[] = [];
 
+  if (readingContext) {
+    parts.push(`用户当前正在阅读：《${readingContext.title}》（${readingContext.path}）。`);
+    parts.push(
+      '问题中的指代（如“这个词条”“该轨道”）优先指该页面；若与该页面相关，请把它列入候选。',
+    );
+    parts.push('');
+  }
   if (tail.length) {
     parts.push('（以下为近期对话摘要，供理解指代，选页仍以当前问题为主）');
     for (const m of tail) {

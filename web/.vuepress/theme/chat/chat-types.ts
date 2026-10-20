@@ -55,6 +55,13 @@ export interface RouteResult {
   rationale?: string;
 }
 
+/** 阅读上下文（Reading context）：全局 AI 助手注入的当前阅读页信息。
+ *  path 必须是 AI 检索路径（与 AI 路由索引中的条目逐字一致，含尾部斜杠）。 */
+export interface ReadingContext {
+  path: string;
+  title: string;
+}
+
 export type ProcessStepKey = 'stepNav' | 'stepExcerpt' | 'stepAnswer' | 'stepAnswerAlone';
 export type ErrorKey = 'noStrongMatch' | 'emptyReply' | 'networkError';
 

@@ -3,11 +3,12 @@ import { ChatSession } from './chat-session';
 import type { ChatAnswerEngine, AnswerPhase } from './chat-answer-engine';
 import type { ChatContextManager } from './chat-context-manager';
 import type { ChatSessionDeps, ChatTransport } from './chat-engine-seams';
-import type { ChatRouter, RouterCallbacks } from './chat-router';
+import type { ChatRouter } from './chat-router';
 import type {
   HierarchicalSiteIndex,
   Message,
   NormalizedConfig,
+  ReadingContext,
   RouteCallbacks,
   SiteContext,
 } from './chat-types';
@@ -28,9 +29,17 @@ const config: NormalizedConfig = {
 const siteIndex: HierarchicalSiteIndex = [
   {
     category: '轨道',
-    entries: [{ path: '/cislunar-orbits/', title: '地月轨道' }],
+    entries: [
+      { path: '/cislunar-orbits/', title: '地月轨道' },
+      { path: '/glossary/orbits/halo-orbit/', title: '晕轨道' },
+    ],
   },
 ];
+
+const readingContext: ReadingContext = {
+  path: '/glossary/orbits/halo-orbit/',
+  title: '晕轨道',
+};
 
 function createCallbacks(): RouteCallbacks {
   return {
@@ -144,7 +153,10 @@ describe('ChatSession', () => {
     expect(router.route).toHaveBeenCalledWith(
       expect.objectContaining({
         question: '什么是地月轨道？',
-        flatIndex: [{ path: '/cislunar-orbits/', title: '地月轨道' }],
+        flatIndex: [
+          { path: '/cislunar-orbits/', title: '地月轨道' },
+          { path: '/glossary/orbits/halo-orbit/', title: '晕轨道' },
+        ],
       }),
     );
     expect(buildSpy).toHaveBeenCalledWith(
@@ -354,5 +366,111 @@ describe('ChatSession', () => {
     // ChatSession no longer trims history; the answer engine owns that. The
     // session passes the full history through, leaving trimming to the engine.
     expect(buildSpy).toHaveBeenCalledWith(expect.objectContaining({ history: longHistory }));
+  });
+
+  describe('reading context injection', () => {
+    function createSessionWithRouter(
+      router: ChatRouter,
+      overrides: Partial<NormalizedConfig> = {},
+    ) {
+      const { engine, buildSpy } = createAnswerEngineStub();
+      const session = new ChatSession({ ...config, ...overrides }, siteIndex, {
+        router,
+        answerEngine: engine,
+        transport: createTransportStub(),
+        contextManager: createContextManagerStub(),
+      });
+      return { session, buildSpy };
+    }
+
+    it('forces the reading-context page to the front of the answer paths', async () => {
+      const { session, buildSpy } = createSessionWithRouter(
+        createRouterStub({ paths: ['/cislunar-orbits/'] }),
+      );
+
+      await session.route(
+        '这个词条什么意思',
+        [],
+        createCallbacks(),
+        new AbortController().signal,
+        readingContext,
+      );
+
+      expect(buildSpy).toHaveBeenCalledWith(
+        expect.objectContaining({
+          paths: ['/glossary/orbits/halo-orbit/', '/cislunar-orbits/'],
+        }),
+      );
+    });
+
+    it('moves the page to the front without duplication when the router chose it but not first', async () => {
+      const { session, buildSpy } = createSessionWithRouter(
+        createRouterStub({ paths: ['/cislunar-orbits/', '/glossary/orbits/halo-orbit/'] }),
+      );
+
+      await session.route(
+        '这个词条什么意思',
+        [],
+        createCallbacks(),
+        new AbortController().signal,
+        readingContext,
+      );
+
+      expect(buildSpy).toHaveBeenCalledWith(
+        expect.objectContaining({
+          paths: ['/glossary/orbits/halo-orbit/', '/cislunar-orbits/'],
+        }),
+      );
+    });
+
+    it('ignores a reading context whose path is not in the flat index', async () => {
+      const { session, buildSpy } = createSessionWithRouter(
+        createRouterStub({ paths: ['/cislunar-orbits/'] }),
+      );
+
+      await session.route('问题', [], createCallbacks(), new AbortController().signal, {
+        path: '/not-in-index/',
+        title: '未知页',
+      });
+
+      expect(buildSpy).toHaveBeenCalledWith(
+        expect.objectContaining({ paths: ['/cislunar-orbits/'] }),
+      );
+    });
+
+    it('keeps the answer-alone short-circuit retrieval-free', async () => {
+      const { session, buildSpy } = createSessionWithRouter(
+        createRouterStub({ paths: ['/cislunar-orbits/'] }),
+        { twoPhaseRetrieval: false },
+      );
+
+      await session.route(
+        '这个词条什么意思',
+        [],
+        createCallbacks(),
+        new AbortController().signal,
+        readingContext,
+      );
+
+      expect(buildSpy).toHaveBeenCalledWith(expect.objectContaining({ paths: [] }));
+    });
+
+    it('still injects the page when the router fails and falls back', async () => {
+      const { session, buildSpy } = createSessionWithRouter(
+        createRouterStub({ paths: [], throw: new Error('router unavailable') }),
+      );
+
+      await session.route(
+        '这个词条什么意思',
+        [],
+        createCallbacks(),
+        new AbortController().signal,
+        readingContext,
+      );
+
+      expect(buildSpy).toHaveBeenCalledWith(
+        expect.objectContaining({ paths: ['/glossary/orbits/halo-orbit/'] }),
+      );
+    });
   });
 });

@@ -8,6 +8,7 @@
   <PageSidebar />
   <PageToc />
   <SidebarToggle />
+  <GlobalAiAssistant />
 </template>
 
 <script setup lang="ts">
@@ -20,6 +21,7 @@ import PageSidebar from '../components/ExtraSidebar.vue';
 import PageToc from '../components/PageToc.vue';
 import SidebarToggle from '../components/SidebarToggle.vue';
 import CopyPageButton from '../components/CopyPageButton.vue';
+import GlobalAiAssistant from '../components/GlobalAiAssistant.vue';
 import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy';
 import {
   enhanceContentTables,

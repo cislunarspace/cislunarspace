@@ -64,6 +64,14 @@ Router 选出的运行时 URL 路径，用来把 AI 路由索引中的 `IndexRow
 
 AI 问答流程：先对 AI 路由索引跑 Router 阶段，再用按 AI 检索路径从 AI 上下文语料连接出的摘录跑 Answer 阶段。关闭两阶段检索即仅答案模式：Answer 阶段仍把路由索引视为有效链接列表，但不加载 AI 上下文语料。
 
+### 全局 AI 助手（Global AI assistant）
+
+挂在默认页面外壳上的全局 AI 问答交互表面：右下角浮窗入口加弹出面板，出现在全部内容页（词条页、词典页、章节页），不出现在自带独立外壳的表面（AI 问答、辩证）。复用 AI 问答的引擎与会话历史，并注入阅读上下文。它是交互表面，不是布局，不是导航栏项。
+
+### 阅读上下文（Reading context）
+
+全局 AI 助手注入给 AI 问答流程的当前阅读页信息（标题加 AI 检索路径）。当前页在 AI 路由索引中时注入：Router 阶段获知用户正在阅读该页，Answer 阶段把该页语料强制排在节选最前。当前页不在 AI 路由索引中（首页、分类 index 页、404）时为空，退化为通用问答。阅读上下文是运行时指针，不是 AI 上下文语料（后者是全站语料工件），也不是 TaxonomyNode。
+
 ### Layout（布局）
 
 由页面 frontmatter 或 VuePress 路由配置选择的 VuePress 页面外壳（例如 `AiChatLayout`）。布局控制页面镶边与渲染结构。它不是页面的领域身份，不是 `TaxonomyNode.kind`，不是路由身份，也不是功能或表面本身。
@@ -74,11 +82,11 @@ AI 问答流程：先对 AI 路由索引跑 Router 阶段，再用按 AI 检索�
 
 ### Special surface（特殊表面）
 
-不只是知识库树中普通 markdown 内容页的非标准站点体验。特殊表面可能有布局、分类法节点、导航栏项、生成工件、运行时状态或外壳类钩子，但没有哪一样单独构成表面的身份。如今的例子是 AI 问答。
+不只是知识库树中普通 markdown 内容页的非标准站点体验。特殊表面可能有布局、分类法节点、导航栏项、生成工件、运行时状态或外壳类钩子，但没有哪一样单独构成表面的身份。如今的例子是 AI 问答与全局 AI 助手。
 
 ### Interactive surface（交互表面）
 
-主要价值来自用户交互或运行时行为而非阅读静态 markdown 内容的特殊表面。如今 AI 问答就是交互表面。
+主要价值来自用户交互或运行时行为而非阅读静态 markdown 内容的特殊表面。如今 AI 问答与全局 AI 助手就是交互表面。
 
 ### VuePress sidebar config（VuePress 侧边栏配置）
 
@@ -130,6 +138,7 @@ kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` �
 - 讨论 AI 检索时不加限定地说 Path：指 Router 选出、用于连接路由行与上下文记录的键时，要说 AI retrieval path。
 - 把 ChatIndexCategory 当普通 category：它是 AI 专用分组键，不是 glossary-category、编辑标签或文章属性。
 - 把 AI 生成工件描述为 Adapters 或 Intakes：adapter 从分类法派生站点表面输出。intake 采集构建期数据。`/ai-chat-index.json` 与 `/ai-chat-context.json` 是生成的 AI 问答工件。
+- 把全局 AI 助手叫成 AI 问答：AI 问答是 `/ai-chat` 的全页表面，全局 AI 助手是内容页上的浮窗表面，两者共享引擎与历史但是两个表面。
 - 用 hand-written reference list（手写参考文献表）指词条尾部的文献列表：该形态已由引用键取代，题录一律由 ref.bib 派生。
 
 - [ADR-0001：统一分类法模块](docs/adr/0001-unified-taxonomy-module.md)

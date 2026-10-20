@@ -24,6 +24,7 @@ import type {
   HierarchicalSiteIndex,
   Message,
   NormalizedConfig,
+  ReadingContext,
   RouteCallbacks,
   SiteContext,
 } from './chat-types';
@@ -57,6 +58,7 @@ export class ChatSession {
     history: Message[],
     callbacks: RouteCallbacks,
     signal: AbortSignal,
+    readingContext?: ReadingContext,
   ): Promise<void> {
     const paths = await runRoutingPhase({
       question,
@@ -67,6 +69,7 @@ export class ChatSession {
       siteIndex: this.siteIndex,
       flatIndex: this.flatIndex,
       router: this.router,
+      readingContext,
     });
     if (paths === null) return; // router-level abort, already surfaced
 
@@ -81,6 +84,23 @@ export class ChatSession {
       transport: this.transport,
     });
   }
+}
+
+/**
+ * 把阅读上下文的页面提到回答 paths 的最前，使其语料在字符预算内必得保留
+ * （buildContextBlob 按 paths 顺序装填，预算耗尽即截断）。仅在 path 存在于
+ * flatIndex 时合并。调用方只能对 Router 实际运行产生的 paths 调用它，仅答案
+ * 模式的短路必须保持无检索。
+ */
+function mergeReadingContextPath(
+  paths: string[],
+  readingContext: ReadingContext | undefined,
+  flatIndex: { path: string }[],
+): string[] {
+  if (!readingContext) return paths;
+  if (!flatIndex.some((row) => row.path === readingContext.path)) return paths;
+  if (paths[0] === readingContext.path) return paths;
+  return [readingContext.path, ...paths.filter((p) => p !== readingContext.path)];
 }
 
 function toRouterCallbacks(callbacks: RouteCallbacks) {
@@ -112,13 +132,14 @@ interface RoutingPhaseInput {
   siteIndex: HierarchicalSiteIndex;
   flatIndex: { path: string; title: string }[];
   router: ChatRouter;
+  readingContext?: ReadingContext;
 }
 
-/** Run the routing phase: short-circuit to "answer alone" when two-phase
- *  retrieval is off; otherwise call the router. Returns the chosen paths,
- *  or null when the router signaled abort. */
+/** 运行路由阶段：两阶段检索关闭时短路到仅答案模式，否则调用 Router。
+ *  返回选出的 paths，Router 中止时返回 null。设置了阅读上下文且 Router
+ *  实际运行时，当前页会被强制提到 paths 最前（仅答案模式保持无检索）。 */
 async function runRoutingPhase(input: RoutingPhaseInput): Promise<string[] | null> {
-  const { callbacks, cfg, flatIndex } = input;
+  const { callbacks, cfg, flatIndex, readingContext } = input;
   const twoPhaseOn = cfg.twoPhaseRetrieval !== false && flatIndex.length > 0;
   if (!twoPhaseOn) {
     callbacks.onProcessStep('stepAnswerAlone');
@@ -132,16 +153,17 @@ async function runRoutingPhase(input: RoutingPhaseInput): Promise<string[] | nul
       siteIndex: input.siteIndex,
       flatIndex,
       config: cfg,
+      readingContext,
       callbacks: toRouterCallbacks(callbacks),
       signal: input.signal,
     });
     callbacks.onProcessStepComplete('stepNav', '已选');
-    return decision.paths;
+    return mergeReadingContextPath(decision.paths, readingContext, flatIndex);
   } catch (err) {
     if (err instanceof Error && err.name === 'AbortError') throw err;
     callbacks.onProcessStepComplete('stepNav', '导览未成功');
     callbacks.onProcessStep('stepAnswer');
-    return [];
+    return mergeReadingContextPath([], readingContext, flatIndex);
   }
 }
 

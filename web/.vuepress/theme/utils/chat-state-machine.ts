@@ -17,6 +17,7 @@ import type {
   NormalizedConfig,
   ProcessStepKey,
   ErrorKey,
+  ReadingContext,
   SseDelta,
 } from '../chat/chat-types';
 import { beginStep, completeStep, finalizeSteps } from '../chat/chat-process-steps';
@@ -41,12 +42,16 @@ export interface ChatStateMachine {
   readonly config: Ref<NormalizedConfig | null>;
   readonly siteIndex: Ref<HierarchicalSiteIndex>;
   readonly abortController: Ref<AbortController | null>;
+  /** 全局 AI 助手注入的阅读上下文。AI 问答全页表面不设置。 */
+  readonly readingContext: Ref<ReadingContext | null>;
   abortRequest(): void;
   startNewChat(): void;
   switchChat(restored: Message[] | null): void;
   deleteChat(wasActive: boolean): void;
   /** Load config and site index. On error, sets an assistant message. */
   loadConfig(t: (key: string) => string): Promise<void>;
+  /** 设置阅读上下文，传 null 清除。对进行中的请求无影响，下一条消息生效。 */
+  setReadingContext(ctx: ReadingContext | null): void;
   sendMessage(text: string, deps: SendMessageDeps): Promise<void>;
 }
 
@@ -57,6 +62,7 @@ export function createChatStateMachine(): ChatStateMachine {
   const config = ref<NormalizedConfig | null>(null);
   const siteIndex = ref<HierarchicalSiteIndex>([]);
   const abortController = ref<AbortController | null>(null);
+  const readingContext = ref<ReadingContext | null>(null);
 
   function abortRequest() {
     if (abortController.value) {
@@ -105,6 +111,10 @@ export function createChatStateMachine(): ChatStateMachine {
     } catch (error) {
       loadConfigError(error, t);
     }
+  }
+
+  function setReadingContext(ctx: ReadingContext | null) {
+    readingContext.value = ctx;
   }
 
   async function sendMessage(text: string, deps: SendMessageDeps) {
@@ -168,6 +178,7 @@ export function createChatStateMachine(): ChatStateMachine {
           },
         },
         abortController.value.signal,
+        readingContext.value ?? undefined,
       );
     } catch (error) {
       if ((error as Error).name === 'AbortError') {
@@ -192,11 +203,13 @@ export function createChatStateMachine(): ChatStateMachine {
     config,
     siteIndex,
     abortController,
+    readingContext,
     abortRequest,
     startNewChat,
     switchChat,
     deleteChat,
     loadConfig,
+    setReadingContext,
     sendMessage,
   };
 }
