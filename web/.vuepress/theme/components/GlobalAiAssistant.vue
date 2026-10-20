@@ -139,13 +139,15 @@
                 }}<span v-if="ps.detail" class="assistant-step-detail">{{ ps.detail }}</span>
               </li>
             </ul>
-            <details
-              v-if="message.reasoning && String(message.reasoning).trim()"
-              class="assistant-reasoning"
-            >
-              <summary>{{ t('reasoningTitle') }}</summary>
-              <div class="assistant-reasoning-body">{{ message.reasoning }}</div>
-            </details>
+            <ChatReasoning
+              :reasoning="message.reasoning || ''"
+              :auto-open="
+                state.isLoading.value &&
+                index === state.messages.value.length - 1 &&
+                !message.content
+              "
+              :title="t('reasoningTitle')"
+            />
             <div class="assistant-bubble assistant-bubble-ai">
               <div
                 v-html="
@@ -212,6 +214,7 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { useChatSurface } from './composables/useChatSurface';
+import ChatReasoning from './ChatReasoning.vue';
 import type { ReadingContext } from '../chat/chat-types';
 
 /**
