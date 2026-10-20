@@ -1,7 +1,6 @@
 <template>
   <section class="subscribe-card">
     <div class="subscribe-card__inner">
-      <h2 class="subscribe-card__title">每日学术一词</h2>
       <p class="subscribe-card__desc">
         每天一封邮件，从本站收录的论文里挑一个学术词，给出音标、释义、论文原文例句与三个造句任务。适合地月空间、轨道动力学方向的研究与写作练习。
       </p>
@@ -87,13 +86,6 @@ async function submit() {
 
 .subscribe-card__inner {
   padding: 1.4rem 1.5rem;
-}
-
-.subscribe-card__title {
-  margin: 0 0 0.6rem;
-  font-size: 1.25rem;
-  border-bottom: none;
-  padding-bottom: 0;
 }
 
 .subscribe-card__desc {
