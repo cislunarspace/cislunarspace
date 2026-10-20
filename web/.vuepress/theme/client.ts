@@ -10,6 +10,7 @@ import PageSidebar from './components/ExtraSidebar.vue';
 import AiChat from './components/AiChat.vue';
 import ReferencesList from './components/ReferencesList.vue';
 import GlossaryDict from './components/GlossaryDict.vue';
+import SubscribeCard from './components/SubscribeCard.vue';
 import type { PageData } from './utils/types';
 import { normalizePageMetadata } from '../utils/page-metadata';
 import { updateOgMeta } from './composables/useOgMeta';
@@ -38,6 +39,7 @@ export default defineClientConfig({
     app.component('AiChat', AiChat);
     app.component('ReferencesList', ReferencesList);
     app.component('GlossaryDict', GlossaryDict);
+    app.component('SubscribeCard', SubscribeCard);
   },
   setup() {
     const router = useRouter();
