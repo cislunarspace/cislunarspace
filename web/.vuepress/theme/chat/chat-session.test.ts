@@ -403,9 +403,9 @@ describe('ChatSession', () => {
       );
     });
 
-    it('does not duplicate the page when the router already chose it', async () => {
+    it('moves the page to the front without duplication when the router chose it but not first', async () => {
       const { session, buildSpy } = createSessionWithRouter(
-        createRouterStub({ paths: ['/glossary/orbits/halo-orbit/', '/cislunar-orbits/'] }),
+        createRouterStub({ paths: ['/cislunar-orbits/', '/glossary/orbits/halo-orbit/'] }),
       );
 
       await session.route(

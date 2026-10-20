@@ -463,12 +463,27 @@ html[data-theme='dark'] .global-ai-assistant {
 /* ---- 输入区 ---- */
 
 .global-ai-assistant .assistant-input-box {
+  position: relative;
   display: flex;
   align-items: flex-end;
   gap: 0.5rem;
   padding: 0.6rem 0.75rem;
   border-top: 1px solid var(--ai-border);
   background: var(--ai-bg);
+}
+
+.global-ai-assistant .assistant-input-hint {
+  position: absolute;
+  top: -1.4rem;
+  right: 0.85rem;
+  margin: 0;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--ai-border);
+  border-radius: 6px;
+  background: var(--ai-bg-secondary);
+  font-size: 0.7rem;
+  color: var(--ai-text-secondary);
+  pointer-events: none;
 }
 
 .global-ai-assistant .assistant-textarea {

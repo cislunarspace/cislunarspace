@@ -87,11 +87,10 @@ export class ChatSession {
 }
 
 /**
- * Force the reading-context page to the front of the answer paths so its
- * excerpt survives the context char budget (buildContextBlob fills paths
- * in order). Only merges when the path exists in the flat index. Callers
- * must only invoke this on paths produced by an actual router run, never
- * on the answer-alone short-circuit, which must stay retrieval-free.
+ * 把阅读上下文的页面提到回答 paths 的最前，使其语料在字符预算内必得保留
+ * （buildContextBlob 按 paths 顺序装填，预算耗尽即截断）。仅在 path 存在于
+ * flatIndex 时合并。调用方只能对 Router 实际运行产生的 paths 调用它，仅答案
+ * 模式的短路必须保持无检索。
  */
 function mergeReadingContextPath(
   paths: string[],
@@ -100,8 +99,8 @@ function mergeReadingContextPath(
 ): string[] {
   if (!readingContext) return paths;
   if (!flatIndex.some((row) => row.path === readingContext.path)) return paths;
-  if (paths.includes(readingContext.path)) return paths;
-  return [readingContext.path, ...paths];
+  if (paths[0] === readingContext.path) return paths;
+  return [readingContext.path, ...paths.filter((p) => p !== readingContext.path)];
 }
 
 function toRouterCallbacks(callbacks: RouteCallbacks) {
@@ -136,11 +135,9 @@ interface RoutingPhaseInput {
   readingContext?: ReadingContext;
 }
 
-/** Run the routing phase: short-circuit to "answer alone" when two-phase
- *  retrieval is off; otherwise call the router. Returns the chosen paths,
- *  or null when the router signaled abort. When a reading context is set
- *  and the router actually ran, its page is forced to the front of the
- *  paths (the answer-alone short-circuit stays retrieval-free). */
+/** 运行路由阶段：两阶段检索关闭时短路到仅答案模式，否则调用 Router。
+ *  返回选出的 paths，Router 中止时返回 null。设置了阅读上下文且 Router
+ *  实际运行时，当前页会被强制提到 paths 最前（仅答案模式保持无检索）。 */
 async function runRoutingPhase(input: RoutingPhaseInput): Promise<string[] | null> {
   const { callbacks, cfg, flatIndex, readingContext } = input;
   const twoPhaseOn = cfg.twoPhaseRetrieval !== false && flatIndex.length > 0;

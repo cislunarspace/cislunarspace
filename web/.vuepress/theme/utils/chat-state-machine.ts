@@ -42,7 +42,7 @@ export interface ChatStateMachine {
   readonly config: Ref<NormalizedConfig | null>;
   readonly siteIndex: Ref<HierarchicalSiteIndex>;
   readonly abortController: Ref<AbortController | null>;
-  /** 全局 AI 助手注入的阅读上下文；AI 问答全页表面不设置。 */
+  /** 全局 AI 助手注入的阅读上下文。AI 问答全页表面不设置。 */
   readonly readingContext: Ref<ReadingContext | null>;
   abortRequest(): void;
   startNewChat(): void;
@@ -50,7 +50,7 @@ export interface ChatStateMachine {
   deleteChat(wasActive: boolean): void;
   /** Load config and site index. On error, sets an assistant message. */
   loadConfig(t: (key: string) => string): Promise<void>;
-  /** 设置阅读上下文；传 null 清除。对进行中的请求无影响，下一条消息生效。 */
+  /** 设置阅读上下文，传 null 清除。对进行中的请求无影响，下一条消息生效。 */
   setReadingContext(ctx: ReadingContext | null): void;
   sendMessage(text: string, deps: SendMessageDeps): Promise<void>;
 }

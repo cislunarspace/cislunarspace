@@ -40,7 +40,7 @@ describe('useChatHistory', () => {
     const surfaceB = useChatHistory();
 
     surfaceA.saveCurrentChat(messages('第一次提问'));
-    // 表面 A 保存后指向会话 0；表面 B 仍是新对话（-1）。
+    // 表面 A 保存后指向会话 0。表面 B 仍是新对话（-1）。
     expect(surfaceA.activeChatIndex.value).toBe(0);
     expect(surfaceB.activeChatIndex.value).toBe(-1);
 
@@ -54,14 +54,17 @@ describe('useChatHistory', () => {
 
   it('persists saves to localStorage capped at MAX_SAVED', async () => {
     const useChatHistory = await freshUseChatHistory();
-    const surface = useChatHistory();
 
-    surface.saveCurrentChat(messages('问题一'));
+    // 每个实例的首个保存都是新会话（前插）。31 个实例攒出 31 条，落盘只留 30 条。
+    for (let i = 1; i <= 31; i++) {
+      useChatHistory().saveCurrentChat(messages(`问题${i}`));
+    }
 
     const raw = window.localStorage.getItem('cislunar-chat-history');
     expect(raw).not.toBeNull();
     const persisted = JSON.parse(raw as string);
-    expect(persisted).toHaveLength(1);
-    expect(persisted[0].title).toBe('问题一');
+    expect(persisted).toHaveLength(30);
+    expect(persisted[0].title).toBe('问题31');
+    expect(persisted[29].title).toBe('问题2');
   });
 });

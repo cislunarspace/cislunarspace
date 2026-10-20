@@ -202,6 +202,7 @@
             <polygon points="22 2 15 22 11 13 2 9 22 2" />
           </svg>
         </button>
+        <p v-if="inputTooLong.value" class="assistant-input-hint">消息已截断至 2000 字符。</p>
       </div>
     </div>
   </div>
@@ -222,7 +223,7 @@ import type { ReadingContext } from '../chat/chat-types';
 const inputRef = ref<HTMLTextAreaElement | null>(null);
 const messagesContainer = ref<HTMLDivElement | null>(null);
 const surface = useChatSurface(inputRef, messagesContainer);
-const { t, state, ui, actions, chatHistory, sendMessage } = surface;
+const { t, state, ui, actions, chatHistory, sendMessage, inputTooLong } = surface;
 
 const route = useRoute();
 const open = ref(false);
