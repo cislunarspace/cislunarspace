@@ -309,39 +309,6 @@ html[data-theme='dark'] .global-ai-assistant {
   }
 }
 
-/* 思考过程 */
-
-.global-ai-assistant .assistant-reasoning {
-  font-size: 0.8rem;
-  border: 1px solid var(--ai-border);
-  border-radius: 10px;
-  background: var(--ai-bg-secondary);
-  color: var(--ai-text-secondary);
-  overflow: hidden;
-}
-
-.global-ai-assistant .assistant-reasoning summary {
-  padding: 0.4rem 0.7rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: var(--ai-text-primary);
-  list-style: none;
-  font-size: 0.75rem;
-}
-
-.global-ai-assistant .assistant-reasoning summary::-webkit-details-marker {
-  display: none;
-}
-
-.global-ai-assistant .assistant-reasoning-body {
-  padding: 0.4rem 0.7rem 0.6rem;
-  border-top: 1px solid var(--ai-border);
-  white-space: pre-wrap;
-  word-break: break-word;
-  max-height: 10rem;
-  overflow-y: auto;
-}
-
 /* markdown 内容 */
 
 .global-ai-assistant .assistant-bubble-ai p {

@@ -327,10 +327,9 @@
                   </li>
                 </ul>
               </div>
-              <details
-                v-if="message.reasoning && String(message.reasoning).trim()"
-                class="assistant-reasoning"
-                :open="
+              <ChatReasoning
+                :reasoning="message.reasoning || ''"
+                :auto-open="
                   surface.state.isLoading.value &&
                   index === surface.state.messages.value.length - 1 &&
                   !surface.ui.getMessageText(
@@ -340,12 +339,8 @@
                     surface.state.isLoading.value,
                   )
                 "
-              >
-                <summary class="assistant-reasoning-summary">
-                  {{ surface.t('reasoningTitle') }}
-                </summary>
-                <div class="assistant-reasoning-body">{{ message.reasoning }}</div>
-              </details>
+                :title="surface.t('reasoningTitle')"
+              />
               <div class="message-content assistant-content">
                 <div
                   v-html="
@@ -465,6 +460,7 @@ import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { withBase } from '@vuepress/client';
 import { useChatSurface } from './composables/useChatSurface';
+import ChatReasoning from './ChatReasoning.vue';
 
 const inputRef = ref<HTMLTextAreaElement | null>(null);
 const messagesContainer = ref<HTMLDivElement | null>(null);
