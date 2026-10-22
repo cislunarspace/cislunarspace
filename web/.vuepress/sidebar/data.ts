@@ -181,6 +181,7 @@ export const sidebarSections: SidebarSection[] = [
     children: [
       { slug: 'datasets', label: '空间数据集' },
       { slug: 'e2m2e', label: 'E2M2E 轨道设计库' },
+      { slug: 'glossary-api', label: '词典数据接口' },
     ],
   },
 ];
