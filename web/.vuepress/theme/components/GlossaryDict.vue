@@ -26,9 +26,10 @@
         <h3 :id="c.slug">
           {{ c.label }}<span class="dict-count">（{{ c.entries.length }}）</span>
         </h3>
-        <div v-for="e in filtered(c.entries)" :key="e.slug" class="dict-entry">
+        <div v-for="e in filtered(c.entries)" :key="e.url || e.slug" class="dict-entry">
           <div class="dict-titles">
-            <span class="dict-title">{{ e.title }}</span>
+            <a v-if="e.url" class="dict-title" :href="e.url">{{ e.title }}</a>
+            <span v-else class="dict-title">{{ e.title }}</span>
             <span v-if="e.otherTitle" class="dict-other">{{ e.otherTitle }}</span>
           </div>
           <p v-if="e.definition" class="dict-def">{{ e.definition }}</p>
@@ -48,6 +49,9 @@ interface DictEntry {
   title: string;
   otherTitle: string | null;
   definition: string;
+  url?: string;
+  keywords?: string[];
+  aliases?: string[];
 }
 interface DictCategory {
   slug: string;
@@ -81,6 +85,8 @@ function filtered(entries: DictEntry[]): DictEntry[] {
     (e) =>
       e.title.toLowerCase().includes(kw) ||
       (e.otherTitle ?? '').toLowerCase().includes(kw) ||
+      (e.keywords ?? []).some((k) => k.toLowerCase().includes(kw)) ||
+      (e.aliases ?? []).some((a) => a.toLowerCase().includes(kw)) ||
       e.definition.toLowerCase().includes(kw),
   );
 }
@@ -178,6 +184,16 @@ onMounted(async () => {
 .dict-title {
   font-weight: 600;
   font-size: 1.05rem;
+}
+
+a.dict-title {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.dict-title:hover {
+  color: var(--c-brand, #2563eb);
+  text-decoration: underline;
 }
 
 .dict-other {
