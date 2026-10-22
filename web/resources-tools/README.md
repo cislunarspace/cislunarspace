@@ -42,6 +42,8 @@ wechatShare:
 
 高精度行星月球星历、月球重力场球谐系数与空间物理参数的下载渠道与使用说明，详见 [数据集资源](/resources-tools/datasets/)。
 
+术语词典本身也作为公开数据文件提供，可用 HTTP 直接取，也可以接进 AI 客户端当检索工具，见 [词典数据接口与 MCP 接入](/resources-tools/glossary-api/)。
+
 ## 科学数据平台
 
 | 平台 | 说明 |

@@ -44,6 +44,12 @@
 
 正文中 `\cite{key}` 引用的 key，指向 `web/.vuepress/ref.bib` 的 BibTeX 条目。渲染为指向 `/references#key` 的编号链接。`check-links` 对其做存在性校验。手写参考文献表已废弃：正文引用即数据，编号与题录由 bibliography 生成器从 ref.bib 派生。
 
+### 词典工件（glossary dictionary artifact）
+
+以 `/glossary-dictionary.json` 伺服的生成型词典数据工件，由 `web/.vuepress/generators/glossary.ts` 从词条 markdown 派生。按词条类别分组，条目携带词条 slug、中文名、英文名、剥离引用标记与公式后的定义、页面路径 `url`（取自词条 frontmatter 的 `permalink`）与 `citations` 引用键数组。它同时是站内词典页的数据源与站外检索的对外数据契约，字段只增不改。见 [ADR-0009](docs/adr/0009-glossary-artifact-as-public-contract.md)。
+
+_Avoid_: 检索索引、词典 API、glossary 索引
+
 ### AI route index（AI 路由索引）
 
 以 `/ai-chat-index.json` 伺服的生成型 AI 问答路线规划工件。按 `ChatIndexCategory` 分组。每个 `ChatIndexCategory` 含一个分组键加若干 `IndexRow`。每个 `IndexRow` 携带一条 AI 检索路径和标题。AI 路由索引只用于路线选择与有效链接约束（它不是完整答案语料，也不是侧边栏树的 Index kind）。
