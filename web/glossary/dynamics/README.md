@@ -4,7 +4,7 @@ description: 多体动力学、平动点轨道、最优控制、数值积分与�
 keywords: 术语词典, 动力学与数学基础, dynamics
 author: 天疆说
 date: 2026-10-18
-lastUpdated: 2026-10-18
+lastUpdated: 2026-10-23
 permalink: /glossary/dynamics/
 wechatShare:
   title: 地月空间术语词典：动力学与数学基础
@@ -225,6 +225,7 @@ wechatShare:
 - [月球飞越辅助轨道面变换](/glossary/dynamics/lunar-flyby-plane-change/)
 - [机动飞掠](/glossary/dynamics/maneuvering-flyby/)
 - [李变换](/glossary/dynamics/lie-transformation/)
+- [李雅普诺夫指数（Lyapunov Exponent）](/glossary/dynamics/lyapunov-exponent/)
 - [松弛因子](/glossary/dynamics/slack-factor/)
 - [松弛法](/glossary/dynamics/relaxation-method/)
 - [极端地形机动](/glossary/dynamics/extreme-terrain-mobility/)
