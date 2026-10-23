@@ -87,7 +87,7 @@ $$
 3. 切换函数 $\Phi=-T_{\max}(\|\mathbf{p}\|/m+\lambda_m/c)$ 的符号决定节流开关。
 4. 切换时刻处 $\Phi=0$，即 $\|\mathbf{p}\|=-m\lambda_m/c$。
 
-Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧（NT）、中间推力弧（IT，即 [奇异弧](/glossary/dynamics/bang-bang-control/)）\cite{lawdenOptimalTrajectoriesSpace1963}。详见 [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/)。
+Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧（NT）、中间推力弧（IT，即 [奇异弧](/glossary/dynamics/lawden-arc-law/)）\cite{lawdenOptimalTrajectoriesSpace1963}。三类弧的判据与物理含义见 [Lawden 弧定律](/glossary/dynamics/lawden-arc-law/)。
 
 ## 脉冲推力情形：Lawden-Lion-Handelsman 必要条件
 
@@ -124,6 +124,7 @@ Jezewski 与 Rozendaal 于 1968 年将上述梯度嵌入 非线性规划（多�
 ## 相关概念
 
 - [Bang-bang 控制（Bang-bang Control）](/glossary/dynamics/bang-bang-control/)：先驱向量幅值通过切换函数导出的推力开关结构
+- [Lawden 弧定律（Lawden's Arc Law）](/glossary/dynamics/lawden-arc-law/)：按切换函数符号划分的三类弧，先驱向量判据的几何表述
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)：先驱向量的协态来源
 - [庞特里亚金最小值原理（PMP）](/glossary/dynamics/pontryagins-maximum-principle/)：推导先驱向量的数学基础
 - [同伦方法（Homotopy Method）](/glossary/dynamics/homotopy-method/)：求解先驱向量方程边值问题的主流数值手段

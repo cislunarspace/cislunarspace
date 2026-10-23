@@ -121,7 +121,9 @@ $$
 
 ## 相关概念
 
-- [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/)：推力幅值的最优开关逻辑，轨道保持中可能出现的离散化模式
+- [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)：推力幅值的最优开关逻辑，轨道保持中可能出现的离散化模式
+
+- [Lawden 弧定律](/glossary/dynamics/lawden-arc-law/)：推力弧的三类划分，切向推力假设是其简化对照
 
 - [电推进（EP）](/glossary/fundamentals/ep/)：连续推力系统的物理基础
 
