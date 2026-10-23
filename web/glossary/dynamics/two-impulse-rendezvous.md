@@ -124,7 +124,9 @@ Fossa 等进一步研究了 NRHO 上的两脉冲与三脉冲调相策略\cite{fo
 
 - [电推进（EP）](/glossary/fundamentals/ep/)：连续推力系统的物理基础，脉冲模型的互补推力类型
 
-- [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/)：连续推力燃耗最优的脉冲式开关逻辑，双脉冲解是其延拓初值
+- [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)：连续推力燃耗最优的开关律，双脉冲解是其延拓初值
+
+- [Lawden 弧定律](/glossary/dynamics/lawden-arc-law/)：三段弧的分类规律，MT 弧在高推力下收缩为脉冲
 
 - [推力方向与控制（Tangential Thrust Control）](/glossary/dynamics/tangential-thrust-control/)：连续推力下的推力方向策略
 

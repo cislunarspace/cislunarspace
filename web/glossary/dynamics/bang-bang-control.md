@@ -1,7 +1,7 @@
 ---
-title: Bang-bang 控制与 Lawden 弧定律（Bang-bang Control & Lawden's Arc Law）
-description: 燃耗最优推力幅值的最优控制律：推力仅在最大值和零之间切换，不存在中间值。涵盖庞特里亚金极值原理推导Bang-bang控制、切换函数与Lawden先驱向量、最大推力弧/无推力弧/中间推力弧（奇异弧）、能量-燃耗同伦延拓解法，以及在地月空间小推力转移中的工程实现。
-keywords: Bang-bang控制, Bang-bang Control, 最优控制, 燃耗最优, 切换函数, Lawden弧, 最大推力弧, Maximum-Thrust Arc, 无推力弧, Null-Thrust Arc, 中间推力弧, Intermediate thrust arc, 奇异弧, Singular Arc, 庞特里亚金极小值原理, 先驱向量, Primer Vector, 能量-燃耗同伦, 推力开关控制
+title: Bang-bang 控制（Bang-bang Control）
+description: 燃耗最优控制中推力幅值的最优开关律：推力只在最大值与零之间切换，不存在中间推力。涵盖庞特里亚金极值原理的线性哈密顿推导、切换函数与推力比判据、奇异弧的界定、能量-燃耗同伦求解，以及地月空间小推力转移中的工程关联。
+keywords: Bang-bang控制, Bang-bang Control, 最优控制, 燃耗最优, 切换函数, 推力开关控制, 推力幅值, 推力比, 能量-燃耗同伦, 间接法, 奇异弧
 aliases:
   - Bang-bang 控制
   - Bang-bang Control
@@ -10,23 +10,28 @@ author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-10-23
 wechatShare:
-  title: Bang-bang 控制与 Lawden 弧定律
-  desc: 燃耗最优推进的核心理论：为什么最优推力只在开或关之间切换，以及Lawden的三类推力弧。
+  title: Bang-bang 控制（Bang-bang Control）
+  desc: 燃耗最优推进的核心控制律：为什么最优推力只在开或关之间切换。
   image: /logo.png
 og:
-  title: Bang-bang 控制与 Lawden 弧定律详解 | 最优控制与推力弧
-  description: 燃耗最优推力幅值的最优控制律：推力仅在最大值和零之间切换，不存在中间值。涵盖庞特里亚金极值原理推导、切换函数与Lawden先驱向量、最大推力弧/无推力弧/中间推力弧（奇异弧）、能量-燃耗同伦延拓解法，以及在地月空间小推力转移中的工程实现。
+  title: Bang-bang 控制（Bang-bang Control）详解 | 术语定义
+  description: 燃耗最优控制中推力幅值的最优开关律：推力只在最大值与零之间切换，不存在中间推力。涵盖庞特里亚金极值原理的线性哈密顿推导、切换函数与推力比判据、奇异弧的界定、能量-燃耗同伦求解，以及地月空间小推力转移中的工程关联。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bang-bang 控制与 Lawden 弧定律详解 | 最优控制与推力弧
-  description: 燃耗最优推力幅值的最优控制律：推力仅在最大值和零之间切换，不存在中间值。涵盖庞特里亚金极值原理推导、切换函数与Lawden先驱向量、最大推力弧/无推力弧/中间推力弧（奇异弧）、能量-燃耗同伦延拓解法。
+  title: Bang-bang 控制（Bang-bang Control）详解 | 术语定义
+  description: 燃耗最优控制中推力幅值的最优开关律：推力只在最大值与零之间切换，不存在中间推力。涵盖庞特里亚金极值原理的线性哈密顿推导、切换函数判据、能量-燃耗同伦求解与工程关联。
   image: /logo.png
 permalink: /glossary/dynamics/bang-bang-control/
+related:
+  - ref: dynamics/lawden-arc-law
+    relation: related
+  - ref: dynamics/pontryagins-maximum-principle
+    relation: broader
 ---
 
-# Bang-bang 控制与 Lawden 弧定律（Bang-bang Control & Lawden's Arc Law）
+# Bang-bang 控制（Bang-bang Control）
 
 > 本文作者：天疆说
 >
@@ -36,15 +41,9 @@ permalink: /glossary/dynamics/bang-bang-control/
 
 Bang-bang 控制是燃耗最优控制问题中推力幅值的标准形式：控制量仅在允许范围的两个极值间切换：推力要么取最大值 $F = F_{\max}$（开），要么为零 $F = 0$（关），不存在中间推力值的持续燃烧\cite{brysonAppliedOptimalControl1975}。bang-bang 一词源于继电器开关切换时发出的砰声。
 
-这是庞特里亚金极值原理（Pontryagin's Minimum Principle）的直接推论\cite{pontryaginMathematicalTheoryOptimal2018}。在燃耗最省目标下，哈密顿函数对推力幅值 $F$ 呈线性依赖关系，极小化哈密顿函数等价于将推力幅值推向约束的边界，要么最大、要么最小（零）。仅当切换函数恒为零时可能出现中间值，此即奇异弧，需要额外分析。
+这是庞特里亚金极值原理（Pontryagin's Minimum Principle）的直接推论\cite{pontryaginMathematicalTheoryOptimal2018}。在燃耗最省目标下，哈密顿函数对推力幅值 $F$ 呈线性依赖关系，极小化哈密顿函数等价于将推力幅值推向约束的边界，要么最大、要么最小（零）。仅当切换函数恒为零时可能出现中间值，此即奇异弧。
 
-Lawden 1963 年的著作《Optimal Trajectories for Space Navigation》将推力轨迹按幅值特征划分为三类弧段（arc），这一分类至今仍是推力优化理论的基础术语\cite{lawdenOptimalTrajectoriesSpace1963}：
-
-- 最大推力弧（Maximum-thrust arc, MT）：切换函数 $S < 0$ 时的弧段，发动机以 $F_{\max}$ 工作。
-
-- 无推力弧（Null-thrust arc, NT）：切换函数 $S > 0$ 时的弧段，推力为零，航天器沿弹道滑行。
-
-- 中间推力弧（Intermediate thrust arc, IT）：切换函数 $S \equiv 0$ 的弧段，推力幅值不确定，需通过 Legendre-Clebsch 二阶必要条件进一步分析。在最优控制理论中称为奇异弧（singular arc）。
+按切换函数符号把推力轨迹划成三段弧（最大推力弧、无推力弧、中间推力弧）的分类规律，是 [Lawden 弧定律](/glossary/dynamics/lawden-arc-law/) 的内容。本词条只讲推力幅值本身的开关律，弧段分类及其物理含义见该词条。
 
 ## 数学推导
 
@@ -69,17 +68,17 @@ $$
 代入动力学方程并分离与控制相关的项：
 
 $$
-H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - {\lambda}_v^{\mathrm{T}}\frac{\mu}{r^3}\mathbf{r} + F\left(\frac{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
+H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - \frac{\mu}{r^3}{\lambda}_v^{\mathrm{T}}\mathbf{r} + F\left(\frac{\boldsymbol{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
 $$
 
 第三项对 $F$ 线性依赖，这直接导致了 Bang-bang 结构的出现。
 
-### 最优推力方向：Lawden 先驱向量
+### 最优推力方向：先驱向量
 
-定义先驱向量（primer vector）$\mathbf{p}(t) \equiv -{\lambda}_v(t)$，见 Lawden 1963 年第 3 章\cite{prussingEquationOptimalPowerlimited1993}。极小化哈密顿函数等价于令推力方向 $\boldsymbol{\alpha}$ 与 ${\lambda}_v$ 反向：
+定义先驱向量（primer vector）$\mathbf{p}(t) \equiv -\boldsymbol{\lambda}_v(t)$，见 Lawden 1963 年第 3 章\cite{prussingEquationOptimalPowerlimited1993}。极小化哈密顿函数等价于令推力方向 $\boldsymbol{\alpha}$ 与 $\boldsymbol{\lambda}_v$ 反向：
 
 $$
-\boldsymbol{\alpha}^* = -\frac{\lambda}_v}{\|{\lambda}_v\|} = \frac{\mathbf{p}}{\|\mathbf{p}\|}
+\boldsymbol{\alpha}^* = -\frac{\boldsymbol{\lambda}_v}{\|\boldsymbol{\lambda}_v\|} = \frac{\mathbf{p}}{\|\mathbf{p}\|}
 $$
 
 即最优推力方向与先驱向量方向一致\cite{prussingPrimerVectorTheory2010}。
@@ -89,42 +88,32 @@ $$
 定义开关函数（switching function）$S$：
 
 $$
-S = \frac{\partial H}{\partial F} = -\frac{\|{\lambda}_v\|}{m} - \frac{\lambda_m}{g_0 I_{sp}}
+S = \frac{\partial H}{\partial F} = -\frac{\|\boldsymbol{\lambda}_v\|}{m} - \frac{\lambda_m}{g_0 I_{sp}}
 $$
 
-根据庞特里亚金极小值原理，极小化 $H$ 等价于选择 $F$ 使 $F \cdot S$ 极小：
+根据庞特里亚金极小值原理，$H$ 对 $F$ 线性，$F$ 取区间端点中使 $F \cdot S$ 较小的一端：
 
 $$
 F^* = \begin{cases}
-0, & S > 0 \quad \text{(无推力弧 / Null-thrust)} \\[4pt]
-F_{\max}, & S < 0 \quad \text{(最大推力弧 / Maximum-thrust)} \\[4pt]
-\text{待定}, & S = 0 \quad \text{(中间推力弧 / 奇异弧)}
+0, & S > 0 \\[4pt]
+F_{\max}, & S < 0 \\[4pt]
+\text{待定}, & S = 0
 \end{cases}
 $$
 
-$S(t)$ 的符号在飞行过程中变化，形成开-关-开-关交替的 Bang-bang 结构。关键在于：开关时刻（$S(t)=0$ 的时刻）和开关次数事先未知，必须作为优化问题的一部分求解。
+三种情形对应的弧段命名与分类依据见 [Lawden 弧定律](/glossary/dynamics/lawden-arc-law/)。$S(t)$ 的符号在飞行过程中变化，形成开-关-开-关交替的 Bang-bang 结构。关键在于：开关时刻（$S(t)=0$ 的时刻）和开关次数事先未知，必须作为优化问题的一部分求解。
 
 在无量纲化下，可定义推力比 $u = F/F_{\max} \in [0,1]$，开关函数等价表示为\cite{ZhuZhengFanKongJianXiaoTuiLiGuiDaoZuiYouBangBangKongZhiDeLiangLeiYanTuoJieFaZongShu2017}：
 
 $$
-\rho = 1 - \frac{g_0 I_{sp} \|{\lambda}_v\|}{m} - \lambda_m
+\rho = 1 - \frac{g_0 I_{sp} \|\boldsymbol{\lambda}_v\|}{m} - \lambda_m
 $$
 
 Bang-bang 条件变为：$\rho > 0 \Rightarrow u^*=0$，$\rho < 0 \Rightarrow u^*=1$。
 
-### 奇异弧：中间推力弧
+### 奇异弧的界定
 
 当 $S(t) \equiv 0$ 在一个有限时间区间上恒成立时，一级必要条件不足以确定 $F$。此时需使用 Legendre-Clebsch 条件判断是否为极小路径。数值经验表明，在一般的小推力二体问题中，恒为零的奇异弧极少出现。但在某些特定问题（如功率受限的低推力轨迹）中可能出现，相关分析见 Thorne 1996 年第 4 章\cite{prussingEquationOptimalPowerlimited1993,thorneOptimalContinuousthrustOrbit1996}。
-
-## Lawden 弧定律的物理意义
-
-Lawden 1963 年的三类弧分类不仅是数学表述，更有清晰的物理内涵：
-
-1. 最大推力弧（MT）：发动机全开。出现在需要迅速改变轨道能量或角动量的弧段，如地球逃逸螺旋的推力段和月球捕获螺旋的减速段。在这些位置，单位推力的能量改变效率最高。
-2. 无推力弧（NT）：发动机关机滑行。出现在航天器穿越大范围地月空间时，以及切换函数预示当前不施加推力反而更优的弧段。滑行段利用引力场自然演化轨道，节省推进剂。
-3. 中间推力弧（IT / 奇异弧）：出现于二阶条件决定推力为中间值的特殊情形。在实践中极少遇到，通常意味着优化问题的某些对称性或简化假设在起作用。大多数实际求解中假定不存在奇异弧，以避开数值复杂性。
-
-在实际最优轨迹中，MT 和 NT 交替出现形成 Bang-coast-Bang 结构。中间的滑行段（coast）就是无推力弧。一个典型的 TCT（Thrust-Coast-Thrust）序列恰好对应 MT-NT-MT 三段弧。
 
 ## 能量-燃耗同伦：Bang-bang 控制的数值求解
 
@@ -165,11 +154,13 @@ $$
 
 - CR3BP+LT 轨迹优化：在限制性三体框架下考虑低推力，间接法（通过协态变量的两点边值问题）自然导出 Bang-bang 推力剖面。Fahey\cite{faheyDesignStrategiesLow2024} 在 Howell 组工作中使用 S 型函数平滑近似 Bang-bang 跳跃，作为最小燃料问题的中间步。
 
-- TCT 序列：地月转移中的 Thrust-Coast-Thrust 天然对应 MT-NT-MT，是 Bang-bang 结构在特定任务中的直接体现。
+- TCT 序列：地月转移中的 Thrust-Coast-Thrust 对应三段推力弧的交替，弧段的判据与命名见 [Lawden 弧定律](/glossary/dynamics/lawden-arc-law/)。
 
 - 连续推力轨道保持（Station-Keeping）：在 NRHO、Halo 等平动点轨道的长期保持中，最优控制律同样呈 Bang-bang 特征，仅在轨道偏差超过阈值时施加推力\cite{zhangContinuousthrustStationkeepingCislunar2022}。
 
 ## 相关概念
+
+- [Lawden 弧定律（Lawden's Arc Law）](/glossary/dynamics/lawden-arc-law/)：按切换函数符号划分的三类推力弧及其物理意义
 
 - [电推进（Electric Propulsion）](/glossary/fundamentals/ep/)：Bang-bang 控制的物理载体，低推力系统的推进基础
 
@@ -182,5 +173,9 @@ $$
 - [先驱向量（Primer Vector）](/glossary/dynamics/primer-vector/)：Lawden 提出的最优推力方向判定工具
 
 - [同伦法](/glossary/dynamics/homotopy-method/)：Bang-bang 控制数值求解的核心技术
+
+- [子弧](/glossary/dynamics/subarc/)：推力幅值取某一极值的连续时间段，是三类弧的切分单元
+
+- [燃料最优控制](/glossary/dynamics/fuel-optimal/)：Bang-bang 结构所属的性能指标框架
 
 - [脉冲机动（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/)：脉冲推进模型下的机动方法，双脉冲是 Bang-bang 控制脉冲极限的初值来源
