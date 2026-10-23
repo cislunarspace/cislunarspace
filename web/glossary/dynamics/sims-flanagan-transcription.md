@@ -4,7 +4,7 @@ description: 低推力轨迹优化中把连续推力近似为分段中点脉冲�
 keywords: Sims-Flanagan 转录, Sims-Flanagan Transcription, 低推力轨迹优化, 直接法, 打靶法, 脉冲近似, TUDAT
 author: 天疆说
 date: 2026-10-17
-lastUpdated: 2026-10-17
+lastUpdated: 2026-10-23
 wechatShare:
   title: Sims-Flanagan 转录
   desc: 分段中点脉冲近似与前后向匹配的低推力轨迹优化直接打靶转录。
@@ -20,6 +20,9 @@ twitter:
   description: 分段中点脉冲近似与前后向匹配的低推力轨迹优化直接打靶转录方法。
   image: /logo.png
 permalink: /glossary/dynamics/sims-flanagan-transcription/
+aliases:
+  - Sims-Flanagan 模型
+  - Sims-Flanagan Model
 ---
 
 # Sims-Flanagan 转录（Sims-Flanagan Transcription）
