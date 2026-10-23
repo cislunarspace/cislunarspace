@@ -377,3 +377,4 @@ wechatShare:
 - [高阶目标相位法](/glossary/dynamics/tpha-target-phase-approach/)
 - [黏附区](/glossary/dynamics/sticky-region/)
 - [Sims-Flanagan 转录](/glossary/dynamics/sims-flanagan-transcription/)
+- [轨道保持点（Station-Keeping Point）](/glossary/dynamics/station-keeping-point/)
