@@ -2,9 +2,13 @@
 title: Bang-bang 控制与 Lawden 弧定律（Bang-bang Control & Lawden's Arc Law）
 description: 燃耗最优推力幅值的最优控制律：推力仅在最大值和零之间切换，不存在中间值。涵盖庞特里亚金极值原理推导Bang-bang控制、切换函数与Lawden先驱向量、最大推力弧/无推力弧/中间推力弧（奇异弧）、能量-燃耗同伦延拓解法，以及在地月空间小推力转移中的工程实现。
 keywords: Bang-bang控制, Bang-bang Control, 最优控制, 燃耗最优, 切换函数, Lawden弧, 最大推力弧, Maximum-Thrust Arc, 无推力弧, Null-Thrust Arc, 中间推力弧, Intermediate thrust arc, 奇异弧, Singular Arc, 庞特里亚金极小值原理, 先驱向量, Primer Vector, 能量-燃耗同伦, 推力开关控制
+aliases:
+  - Bang-bang 控制
+  - Bang-bang Control
+  - 推力开关控制
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-23
 wechatShare:
   title: Bang-bang 控制与 Lawden 弧定律
   desc: 燃耗最优推进的核心理论：为什么最优推力只在开或关之间切换，以及Lawden的三类推力弧。
