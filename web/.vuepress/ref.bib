@@ -56764,3 +56764,31 @@ abstractTranslation: 本文提出了一种基于高斯行星方程一阶近似�
   address = {Girdwood, Alaska},
   langid = {english}
 }
+
+@article{chen2026constellationOptimization,
+  title = {Multi-Objective Optimization of Cislunar Space Situational Awareness Constellations for Direct Transfer Orbit Scenarios},
+  author = {Chen, Yujie and Hu, Jiaxin and Zhu, Yanwei},
+  journal = {Aerospace Science and Technology},
+  volume = {179},
+  pages = {113523},
+  year = {2026},
+  doi = {10.1016/j.ast.2026.113523},
+  abstract = {With the rapid development of cislunar space activities, space situational awareness (SSA) has become a core capability for cislunar space security. However, traditional cislunar constellation designs are mostly coverage-driven, suffering from abstract threat scenarios and insufficient optimization for robust orbit determination (OD) against dynamic transfer targets. To address this, we propose a unified analysis framework covering transfer orbit scenario construction, angular measurement OD evaluation and multi-objective constellation optimization. Under the Earth-Moon Circular Restricted Three-Body Problem (CR3BP), we develop a transfer orbit generation method based on parking orbit elements (i, Omega, u) and Lunar Sphere of Influence (SOI) entry region classification, generating 92 valid orbits covering four typical entry regions via a real seed search + local extension strategy. We further establish an NSGA-III multi-objective optimization model integrating orbit family selection, satellite allocation and sensor level, and conduct simulations within the 2-6 satellite design space. The results demonstrate that a complete and continuous cost-accuracy Pareto front is obtained, spanning a proxy cost interval of [78.0, 229.2] and a 95th-percentile robust terminal position error interval of [0.538, 2.950 km]. L5-Axial, L1-Vertical, and Distant Retrograde Orbit (DRO) emerge as the three dominant backbone orbit families across the solution set. Furthermore, constellation performance is found to depend more strongly on inter-orbit geometric complementarity and payload synergy than on a simple increase in satellite number. This work extends existing coverage-oriented constellation design approaches by incorporating dynamic transfer scenarios and OD-driven optimization, and provides a theoretical basis and engineering references for future cislunar situational awareness constellations targeting direct transfer threats.},
+  langid = {english},
+  annotation = {titleTranslation: 地月空间态势感知星座在直接转移轨道场景下的多目标优化},
+}
+
+@article{baduraMultihypothesisApproachAnglesonly2026,
+  title = {Multi-Hypothesis Approach to Angles-Only Cislunar Orbit Determination on Short Arcs},
+  author = {Badura, Gregory and Caper, Olivia and Shimane, Yuri and Nolton, Isabel and Gunter, Brian and Ho, Koki},
+  journal = {Advances in Space Research},
+  volume = {78},
+  number = {8},
+  pages = {7951--7976},
+  month = oct,
+  year = {2026},
+  doi = {10.1016/j.asr.2026.08.005},
+  abstract = {The proliferation of cislunar activity has driven demand for Initial Orbit Determination (IOD) algorithms capable of tracking objects under non-linear multi-body dynamics. Challenges unique to the cislunar volume, ie., extreme distances, difficult illumination, and limited telescope observations, make this especially difficult. Emerging IOD algorithms, ranging from Machine Learning (ML) to non-linear programming, have demonstrated convergence onto accurate state vectors from poor initial estimates. However, these methods are sensitive to local minima: a global optimum is only achievable when no other initial state vectors across the cislunar volume can explain the measured angles, angular rates, and angular accelerations. We present a multi-hypothesis IOD pipeline that addresses this limitation through a two-pronged approach. The pipeline first diagnoses whether existing IOD algorithms can converge on a given batch of measurements, then performs responsive IOD based on solution uniqueness. It leverages novel ML and computer vision techniques across sequential stages: ML-augmented admissible regions analysis, uniqueness determination on the derived contours via image processing, algorithm selection based on solution uniqueness, and (if required) follow-on tasking to disambiguate multiple local optima. We show that this prototype pipeline offers several advantages over currently deployed SSA algorithms, including reduced sensitivity to local optima under noisy line-of-sight measurements, substantially shorter timelines to global IOD convergence, and improved generation of trackable state vectors from sub-optimal observational phasing of stable cislunar objects.},
+  langid = {english},
+  annotation = {titleTranslation: 短弧段下仅测角地月空间轨道确定的多假设方法},
+}
