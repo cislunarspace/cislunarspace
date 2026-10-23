@@ -4,7 +4,7 @@ description: 参考系与坐标、轨道几何、数学工具与优化基础概�
 keywords: 术语词典, 基础概念, fundamentals
 author: 天疆说
 date: 2026-10-18
-lastUpdated: 2026-10-18
+lastUpdated: 2026-10-23
 permalink: /glossary/fundamentals/
 wechatShare:
   title: 地月空间术语词典：基础概念
@@ -97,6 +97,7 @@ wechatShare:
 - [隐藏基因遗传算法](/glossary/fundamentals/hidden-genes-genetic-algorithm/)
 - [雅可比场](/glossary/fundamentals/jacobi-field/)
 - [非劣排序遗传算法II](/glossary/fundamentals/nsga-ii/)
+- [非支配排序遗传算法 III（NSGA-III）](/glossary/fundamentals/nsga-iii/)
 - [预计算变分数据](/glossary/fundamentals/precomputed-variational-data/)
 - [高置信度仿真](/glossary/fundamentals/high-fidelity-simulation/)
 - [龙格-库塔法](/glossary/fundamentals/rk/)
