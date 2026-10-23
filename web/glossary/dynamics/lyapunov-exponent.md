@@ -79,17 +79,17 @@ $$\sigma_{t_0}^{T}(\mathbf{x})=\frac{1}{|T|}\ln\left\|\frac{\mathrm{d}\varphi_{t
 
 范数取 L2 诱导的矩阵范数，即最大奇异值。$T$ 取正对应前向时间，取负对应后向时间。该式在 $|T|\to\infty$ 时回到渐近指数，两者是同一个定义在不同时间窗上的取值 \cite{shaddenDefinitionPropertiesLagrangian2005}。
 
-- 局部李雅普诺夫指数（local Lyapunov exponent，LLE）：只保留窗内最强膨胀方向的单值，用状态转移矩阵的 2-范数写成
+- 局部李雅普诺夫指数（local Lyapunov exponent，LLE）：把同一表达式用在单条轨迹上，算成只反映窗内最强膨胀方向的标量，用状态转移矩阵的 2-范数写成
 
 $$\lambda_{\max}=\frac{1}{|T_h|}\ln\left\|\boldsymbol{\Phi}(t_0+T_h,t_0)\right\|_2$$
 
 其中 $\left\|\mathbf{M}\right\|_2$ 是 $\mathbf{M}^{\top}\mathbf{M}$ 最大特征值的平方根 \cite{renFamiliesTransfersMoon2020}。
 
-三层的关系是：LLE 是单方向加有限窗的取值，FTLE 是全矩阵加有限窗的取值，渐近指数是窗长趋于无穷的极限。同一个动力系统在三层上的数值不同，跨文献比较之前先对齐层次与窗长。小行星附近的轨道与姿态耦合分析是有限时间指数的一个典型用例 \cite{kikuchiStabilityAnalysisCoupled2019}。
+三层的关系是：LLE 与 FTLE 用同一个范数表达式，LLE 是单条轨迹上的标量，FTLE 是同一个量在初值空间上扫出的分布，渐近指数是窗长趋于无穷的极限。同一个动力系统在三层上的数值不同，跨文献比较之前先对齐层次与窗长。小行星附近的轨道与姿态耦合分析是有限时间指数的一个典型用例 \cite{kikuchiStabilityAnalysisCoupled2019}。
 
 ## 与单值矩阵、Floquet 乘子的关系
 
-对周期为 $P$ 的参考轨道，单值矩阵 $\mathbf{M}=\boldsymbol{\Phi}(P,0)$ 是状态转移矩阵在一个周期上的取值，其特征值 $\mu_i$ 是 Floquet 乘子。Floquet 理论给出分解 $\boldsymbol{\Phi}(t,0)=\mathbf{S}(t)e^{t\mathbf{K}}$，$\mathbf{S}(t)$ 以 $P$ 为周期，$\mathbf{K}$ 为常矩阵，于是 $\mathbf{M}=e^{P\mathbf{K}}$ \cite{gomezDynamicsMissionDesign2001Vol1}。沿第 $i$ 个特征方向的指数增长率是
+对周期为 $P$ 的参考轨道，单值矩阵 $\mathbf{M}=\boldsymbol{\Phi}(P,0)$ 是状态转移矩阵在一个周期上的取值，其特征值 $\mu_i$ 是 Floquet 乘子。Floquet 理论给出分解 $\boldsymbol{\Phi}(t,0)=\mathbf{S}(t)e^{t\mathbf{K}}$，$\mathbf{S}(t)$ 以 $P$ 为周期，$\mathbf{K}$ 为常矩阵，于是 $\mathbf{M}=e^{P\mathbf{K}}$。单值矩阵的幂与指数矩阵的关系见 Gómez 等 2001 年第 1 章与 Meyer 等 2017 年第 4.3 节 \cite{gomezDynamicsMissionDesign2001Vol1,meyerIntroductionHamiltonianDynamical2017}。沿第 $i$ 个特征方向的指数增长率是
 
 $$\lambda_i=\frac{1}{P}\ln|\mu_i|$$
 
@@ -108,13 +108,15 @@ $$\lambda_i=\frac{1}{P}\ln|\mu_i|$$
 - 整谱重正化：同时跟踪 $n$ 个扰动向量，按固定间隔做 Gram-Schmidt 正交化并累加对数，得到全谱而不溢出。Benettin 等给出这一算法及其理论依据 \cite{benettinLyapunovCharacteristicExponents1980}。
 - 有限幅值差分：从相邻的两个初值各传播一个时段，取终点位移与初始位移之比的对数再除以时段。实现简单，得到的是有限幅值、有限窗的量，依赖扰动大小与时间窗，不是无穷小极限 \cite{huangRobustIntelligentGuidance2026}。
 
+只有观测序列、拿不到动力学模型时，还可以用相空间重构做时间序列估计，地月空间的轨道问题一般用不到这条路 \cite{wolfDeterminingLyapunovExponents1985}。
+
 ## 地月空间用法
 
 保持点选择。Huang 等（2026）在椭圆限制性三体问题下研究 2:1 共振 DRO 的保持点，把初始位置误差与速度误差分开处理。位置项按一个共振周期 $\tilde{T}_{\mathrm{DRO}}$ 的终点位移比定义
 
 $$\lambda_R=\frac{1}{\tilde{T}_{\mathrm{DRO}}}\ln\frac{\left\|\mathbf{R}_R-\mathbf{R}_N\right\|}{\left\|\delta\mathbf{R}\right\|}$$
 
-其中 $\mathbf{R}_N$ 是标称终点，$\mathbf{R}_R$ 是受扰轨迹的终点，原文式(14)把标称终点记作 $\mathbf{R}_1$。速度项先由有限差商构造等效变换矩阵，把速度误差折算成等效位置误差，再按同一形式计算。判据是三项全负时受扰轨迹在一个共振周期后收敛到标称 DRO，该节点即鲁棒保持点。算例沿 2:1 共振 DRO 等分 10 000 个节点逐个计算，得到的保持点段时长 16 359.3055 s。初始误差取导航误差 10 km 与 10 mm/s、控制误差 1.7 mm/s，合成误差约 145.642 km，蒙特卡洛 10 000 次得到终值位置误差 0 到 120 km，小于初始合成误差 \cite{huangRobustIntelligentGuidance2026}。
+其中 $\mathbf{R}_N$ 是标称终点，$\mathbf{R}_R$ 是受扰轨迹的终点，原文式(14)把标称终点记作 $\mathbf{R}_1$。速度项先由有限差商构造等效变换矩阵，把速度误差折算成等效位置误差，再按同一形式计算。判据是这些指数的符号全为负时受扰轨迹在一个共振周期后收敛到标称 DRO，该节点即鲁棒保持点。算例沿 2:1 共振 DRO 等分 10 000 个节点逐个计算，得到的保持点段时长 16 359.3055 s。初始误差取导航误差 10 km 与 10 mm/s、控制误差 1.7 mm/s，合成误差约 145.642 km，蒙特卡洛 10 000 次得到终值位置误差 0 到 120 km，小于初始合成误差 \cite{huangRobustIntelligentGuidance2026}。
 
 该文的用词需要单独说明。它通篇写 Lyapunov exponent，从不写 finite-time，实际计算的却是有限幅值、单周期、逐分量的端点位移比，既不含无穷小极限，也不取最大方向，与标准 FTLE 和渐近指数都不同。原文没有报告 $\lambda$ 的数值与扰动幅值，引用时不宜把它当作有限时间指数的算例，也不要补出量级。
 

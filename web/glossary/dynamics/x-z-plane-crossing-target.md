@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/x-z-plane-crossing-target/
 
 ## 相关概念
 
-- 李雅普诺夫稳定性（Lyapunov Stability）
+- [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-exponent/)
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)

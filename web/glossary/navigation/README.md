@@ -4,7 +4,7 @@ description: 导航、制导与控制，含导航星座、测量体制与自主�
 keywords: 术语词典, 导航技术与系统, navigation
 author: 天疆说
 date: 2026-10-18
-lastUpdated: 2026-10-18
+lastUpdated: 2026-10-23
 permalink: /glossary/navigation/
 wechatShare:
   title: 地月空间术语词典：导航技术与系统
@@ -79,3 +79,7 @@ wechatShare:
 - [远距逆行轨道阴影遮挡](/glossary/navigation/dro-gnss-shadowing-by-moon/)
 - [迭代制导](/glossary/navigation/iterative-guidance/)
 - [高精度地月时空基准](/glossary/navigation/high-precision-cislunar-space-time-benchmark/)
+- [纯角度定轨（Angles-Only Orbit Determination）](/glossary/navigation/angles-only-orbit-determination/)
+- [线性协方差分析（Linear Covariance Analysis）](/glossary/navigation/linear-covariance-analysis/)
+- [O-C 残差（OC Residual）](/glossary/navigation/oc-residual/)
+- [极短弧（Very Short Arc）](/glossary/navigation/very-short-arc/)
