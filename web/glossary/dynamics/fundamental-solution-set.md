@@ -40,6 +40,6 @@ Floquet理论给出的周期系数线性化方程的一组线性无关解。对�
 
 ## 相关概念
 
-- 特征指数（Characteristic Exponents）
+- [特征指数（Characteristic Exponents）](/glossary/dynamics/lyapunov-exponent/)
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）

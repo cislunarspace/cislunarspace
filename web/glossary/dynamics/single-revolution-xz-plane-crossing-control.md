@@ -40,6 +40,6 @@ permalink: /glossary/dynamics/single-revolution-xz-plane-crossing-control/
 
 ## 相关概念
 
-- 特征指数（Characteristic Exponents）
+- [特征指数（Characteristic Exponents）](/glossary/dynamics/lyapunov-exponent/)
 - 捕获对接段（Capture Docking Phase）
 - 月球借力转移（Lunar Flyby Transfer）
