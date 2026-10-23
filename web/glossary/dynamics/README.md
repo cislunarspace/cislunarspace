@@ -257,6 +257,7 @@ wechatShare:
 - [特征运动方法](/glossary/dynamics/eigenmotion-method/)
 - [状态Jacobian矩阵](/glossary/dynamics/state-jacobian-matrix/)
 - [状态转移张量](/glossary/dynamics/stt/)
+- [稳定性指数（Stability Index）](/glossary/dynamics/stability-index/)
 - [球罐模型](/glossary/dynamics/cannon-ball-model/)
 - [球谐函数模型](/glossary/dynamics/spherical-harmonic-model/)
 - [球谐函数](/glossary/dynamics/spherical-harmonics/)
