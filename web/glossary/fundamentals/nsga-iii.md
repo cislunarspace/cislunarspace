@@ -96,6 +96,6 @@ Chen 等 2026 用 NSGA-III 求解地月空间态势感知星座的多目标优�
 
 ## 相关概念
 
-- [非劣排序遗传算法II（Non-Dominated Sorting Genetic Algorithm II）](/glossary/fundamentals/nsga-ii/)
+- [非支配排序遗传算法 II（NSGA-II）](/glossary/fundamentals/nsga-ii/)
 - [ΔV-TOF帕累托前沿（ΔV-TOF Pareto Front）](/glossary/dynamics/v-tof-pareto-front/)
 - [隐藏基因遗传算法（Hidden-Genes Genetic Algorithm）](/glossary/fundamentals/hidden-genes-genetic-algorithm/)

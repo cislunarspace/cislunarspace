@@ -45,7 +45,6 @@ wechatShare:
 - [Lagrange 系数](/glossary/dynamics/lagrange-coefficients/)
 - [Lambert 制导例程](/glossary/dynamics/lambert-guidance-routine/)
 - [NRHO入轨](/glossary/dynamics/nrhoi/)
-- [NSGA II（非支配排序遗传算法 II）](/glossary/dynamics/nsga-ii/)
 - [n体动力学](/glossary/dynamics/n-body-dynamics/)
 - [PS 平面](/glossary/dynamics/ps-plane/)
 - [PS截面](/glossary/dynamics/ps-section/)

@@ -96,7 +96,7 @@ wechatShare:
 - [降维](/glossary/fundamentals/dimensionality-reduction/)
 - [隐藏基因遗传算法](/glossary/fundamentals/hidden-genes-genetic-algorithm/)
 - [雅可比场](/glossary/fundamentals/jacobi-field/)
-- [非劣排序遗传算法II](/glossary/fundamentals/nsga-ii/)
+- [非支配排序遗传算法 II（NSGA-II）](/glossary/fundamentals/nsga-ii/)
 - [非支配排序遗传算法 III（NSGA-III）](/glossary/fundamentals/nsga-iii/)
 - [预计算变分数据](/glossary/fundamentals/precomputed-variational-data/)
 - [高置信度仿真](/glossary/fundamentals/high-fidelity-simulation/)
