@@ -50,7 +50,7 @@ related:
 
 $$\alpha = \arctan \frac{\rho_y}{\rho_x}, \qquad \beta = \arctan \frac{\rho_z}{\sqrt{\rho_x^2 + \rho_y^2}}.$$
 
-观测方程写成 $\boldsymbol{y}_k = \boldsymbol{h}(\boldsymbol{x}_k) + \boldsymbol{v}_k$，其中 $\boldsymbol{v}_k$ 为零均值高斯白噪声，协方差矩阵由测角精度决定。角度观测对位置的灵敏度只沿垂直于视线的两个方向展开，沿视线方向的偏导数接近零，法方程矩阵条件数很差，斜距解算对噪声与模型误差高度敏感 \cite{chen2026constellationOptimization}。弧段越短，角度变化越微小，信息量下降越明显，即便附加角率观测，等价约束也只覆盖视线方向及其导数。多站观测、动力学约束与长时间弧段积累是恢复可观测性的主要途径。
+观测方程写成 $\boldsymbol{y}_k = \boldsymbol{h}(\boldsymbol{x}_k) + \boldsymbol{v}_k$，其中 $\boldsymbol{v}_k$ 为零均值高斯白噪声，协方差矩阵由测角精度决定。角度观测对位置的灵敏度只沿垂直于视线的两个方向展开，沿视线方向的偏导数接近零，法方程严重病态，斜距解算对噪声与模型误差高度敏感 \cite{chen2026constellationOptimization}。弧段越短，角度变化越微小，信息量下降越明显，即便附加角率观测，等价约束也只覆盖视线方向及其导数。多站观测、动力学约束与长时间弧段积累是恢复可观测性的主要途径。
 
 ## 求解思路
 
