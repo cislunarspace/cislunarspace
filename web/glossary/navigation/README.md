@@ -83,3 +83,4 @@ wechatShare:
 - [线性协方差分析（Linear Covariance Analysis）](/glossary/navigation/linear-covariance-analysis/)
 - [O-C 残差（OC Residual）](/glossary/navigation/oc-residual/)
 - [极短弧（Very Short Arc）](/glossary/navigation/very-short-arc/)
+- [预测-校正制导](/glossary/navigation/predictor-corrector-guidance/)
