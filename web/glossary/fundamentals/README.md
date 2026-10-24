@@ -4,7 +4,7 @@ description: 参考系与坐标、轨道几何、数学工具与优化基础概�
 keywords: 术语词典, 基础概念, fundamentals
 author: 天疆说
 date: 2026-10-18
-lastUpdated: 2026-10-23
+lastUpdated: 2026-10-24
 permalink: /glossary/fundamentals/
 wechatShare:
   title: 地月空间术语词典：基础概念
@@ -74,6 +74,7 @@ wechatShare:
 - [状态转移矩阵病态](/glossary/fundamentals/ill-conditioned-state-transition-matrix/)
 - [状态转移矩阵](/glossary/fundamentals/stm/)
 - [电推进](/glossary/fundamentals/ep/)
+- [等值线提取（Marching Squares）](/glossary/fundamentals/marching-squares/)
 - [线性化](/glossary/fundamentals/linearization/)
 - [线性周期系统](/glossary/fundamentals/ltp/)
 - [终端指标函数](/glossary/fundamentals/terminal-performance-index/)
