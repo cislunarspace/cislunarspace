@@ -65,7 +65,7 @@ permalink: /resources-tools/glossary-api/
 
 ## 引用键与题录
 
-`citations` 里是 `\cite` 的键，例如 `vaqueroLeveragingResonantorbitManifolds2014`。键到题录的映射在 `https://cislunarspace.cn/bibliography.json`，结构是 `{键: {number, formatted}}`，`formatted` 是可直接显示的题录文本。
+`citations` 里是 `\cite` 的键，例如 `vaqueroLeveragingResonantorbitManifolds2014`。题录在 `https://cislunarspace.cn/bibliography.json`，顶层 `entries` 是 `{键: {number, formatted}}` 映射，`formatted` 是可直接显示的题录文本。顶层 `citedBy` 是同一个键到引用来源页面的反向映射。
 
 ## 兼容承诺
 
@@ -95,7 +95,7 @@ Claude Desktop，写入 `claude_desktop_config.json`：
   "mcpServers": {
     "cislunarspace": {
       "command": "npx",
-      "args": ["--allow-git=all", "-y", "github:cislunarspace/cislunarspace-mcp#v0.1.1"]
+      "args": ["--allow-git=all", "-y", "github:cislunarspace/cislunarspace-mcp#v0.1.2"]
     }
   }
 }
@@ -104,7 +104,7 @@ Claude Desktop，写入 `claude_desktop_config.json`：
 Claude Code：
 
 ```bash
-claude mcp add cislunarspace -- npx --allow-git=all -y github:cislunarspace/cislunarspace-mcp#v0.1.1
+claude mcp add cislunarspace -- npx --allow-git=all -y github:cislunarspace/cislunarspace-mcp#v0.1.2
 ```
 
 Cursor，写入 `~/.cursor/mcp.json`，形状与 Claude Desktop 相同：
@@ -114,7 +114,7 @@ Cursor，写入 `~/.cursor/mcp.json`，形状与 Claude Desktop 相同：
   "mcpServers": {
     "cislunarspace": {
       "command": "npx",
-      "args": ["--allow-git=all", "-y", "github:cislunarspace/cislunarspace-mcp#v0.1.1"]
+      "args": ["--allow-git=all", "-y", "github:cislunarspace/cislunarspace-mcp#v0.1.2"]
     }
   }
 }
@@ -128,7 +128,7 @@ VS Code，写入 `.vscode/mcp.json`：
     "cislunarspace": {
       "type": "stdio",
       "command": "npx",
-      "args": ["--allow-git=all", "-y", "github:cislunarspace/cislunarspace-mcp#v0.1.1"]
+      "args": ["--allow-git=all", "-y", "github:cislunarspace/cislunarspace-mcp#v0.1.2"]
     }
   }
 }
