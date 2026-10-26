@@ -1,6 +1,6 @@
 # 页面元数据与 frontmatter 模板
 
-页面元数据决定标签页标题、搜索摘要与分享卡片。字段的读取规则集中在 `web/.vuepress/utils/page-metadata-core.mjs`，标签页标题的拼装规则见[页面标题定制](page-title-customization.md)。
+页面元数据决定标签页标题、浏览器描述与分享卡片。字段的读取规则集中在 `web/.vuepress/utils/page-metadata-core.mjs`，标签页标题的拼装规则见[页面标题定制](page-title-customization.md)。
 
 ## 页面模板
 
@@ -28,7 +28,7 @@ wechatShare:
 | --- | --- |
 | `permalink` | 固定路由。未设置时按文件路径生成。 |
 | `title` | 页面名，供标签页标题、搜索、侧边栏与 AI 索引使用。只写简洁的页面名，不带栏目前缀。 |
-| `description` | 页面摘要，用于搜索摘要与分享描述的回退。写一到两句话。 |
+| `description` | 页面摘要，用于浏览器描述与分享描述的回退。写一到两句话。 |
 | `keywords` | 3 到 5 个关键词，用逗号分隔。词条的 keywords 会进入词典工件，供检索使用。 |
 | `author` | 作者署名。 |
 | `date` | 首次发布日期，格式 `YYYY-MM-DD`。 |
