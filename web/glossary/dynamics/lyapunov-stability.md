@@ -125,7 +125,7 @@ $$
 
 ### 哈密顿系统平衡点不可能渐近稳定
 
-哈密顿系统的相流保持相空间体积，这一性质即刘维尔定理。若平衡点渐近稳定，则其某邻域内的初值最终都被吸入更小的邻域，该邻域的相体积随时间趋于零，与体积保持矛盾。因此哈密顿系统的平衡点不可能渐近稳定，更不可能指数稳定，若稳定，只能是李雅普诺夫意义下的稳定\cite{meyerIntroductionHamiltonianDynamical2017,cellettiStabilityChaosCelestial2010}。
+哈密顿系统的相流保持相空间体积，这一性质即刘维尔定理。取平衡点的一个初始邻域，它在相流下的像在任意时刻都保持与初始邻域相同的正体积。渐近稳定要求该像最终落入原点的一个任意小邻域，后者的体积可以小于初始邻域的体积，两者矛盾。因此哈密顿系统的平衡点不可能渐近稳定，更不可能指数稳定，若稳定，只能是李雅普诺夫意义下的稳定\cite{meyerIntroductionHamiltonianDynamical2017,cellettiStabilityChaosCelestial2010}。
 
 这条结论划定了概念的使用范围。渐近稳定与指数稳定只出现在耗散系统或受控系统中，在保守的哈密顿模型里找不到。讨论地月空间的自然动力学时，稳定性通常指李雅普诺夫稳定或线性稳定，而不是收敛到平衡点\cite{meyerIntroductionHamiltonianDynamical2017}。
 
@@ -139,7 +139,7 @@ $$
 
 ### 周期轨道与 Floquet 稳定性
 
-周期轨道的线性稳定性由单值矩阵 $M=\Phi(T,0)$ 的谱决定，其特征值称 Floquet 乘子。对一般的周期系数线性系统，全部乘子的模不大于 1，且位于单位圆上的乘子对应单重特征值时，周期轨道线性稳定。哈密顿系统的辛结构使乘子按互反与共轭成组出现，线性稳定等价于全部乘子落在单位圆上且单重\cite{brouckeStabilityPeriodicOrbits1969,henonVerticalStabilityPeriodic1973,meyerIntroductionHamiltonianDynamical2017}。
+周期轨道的线性稳定性由单值矩阵 $M=\Phi(T,0)$ 的谱决定，其特征值称 Floquet 乘子。对一般的周期系数线性系统，全部乘子的模不大于 1，且位于单位圆上的乘子对应单重特征值时，周期轨道线性稳定。哈密顿系统的辛结构使乘子按互反与共轭成组出现。线性稳定要求全部乘子落在单位圆上，除沿轨相位与雅可比积分方向的两个恒等于 1 的平凡乘子外其余乘子单重，且单位圆上的乘子对应半单特征值，不出现非平凡 Jordan 块\cite{brouckeStabilityPeriodicOrbits1969,henonVerticalStabilityPeriodic1973,meyerIntroductionHamiltonianDynamical2017}。
 
 乘子给出每个模态在一圈内的放大或衰减倍数，工程上把它们压缩成 [稳定性指数（Stability Index）](/glossary/dynamics/stability-index/)，用于比较族成员与判别分岔。稳定性指数是线性化判据在庞加莱映射上的标量化，不涉及李雅普诺夫函数\cite{brouckeStabilityPeriodicOrbits1969}。
 
@@ -169,7 +169,7 @@ Holt 等 2024 把李雅普诺夫控制器用于低推力地月转移，从地球
 
 ### 与李雅普诺夫指数
 
-[李雅普诺夫指数（Lyapunov Exponent）](/glossary/dynamics/lyapunov-exponent/)是相邻轨迹分离或收敛的定量速率，按时间平均定义，最大指数为正提示敏感依赖与混沌。它回答分离多快，不回答扰动是否有界。指数为零不能推出稳定，指数为负也不等于满足李雅普诺夫稳定定义，因为指数是平均增长率，有限时段内仍可能出现增长，而非线性系统的稳定性要求对全部初值与全部时间成立\cite{guzzoTheoryApplicationsFast2023}。稳定性的判据是李雅普诺夫函数或线性化谱，判据里不出现指数增长率\cite{seydelPracticalBifurcationStability2010}。
+[李雅普诺夫指数（Lyapunov Exponent）](/glossary/dynamics/lyapunov-exponent/)是相邻轨迹分离或收敛的定量速率，按时间平均定义。指数回答分离多快，不回答扰动是否有界。最大指数为正提示敏感依赖与混沌。指数为负表示平均意义下的收敛，但有限时间指数为负不能推出李雅普诺夫稳定，有限窗内的增长与非线性效应仍可能使轨迹越出邻域。渐近指数与稳定性的对应需要一致双曲等额外结构，不能把指数符号直接当作稳定性判据\cite{guzzoTheoryApplicationsFast2023}。稳定性的判据是李雅普诺夫函数或线性化谱，判据里不出现指数增长率\cite{seydelPracticalBifurcationStability2010}。
 
 ### 与拉格朗日稳定性
 
