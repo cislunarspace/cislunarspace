@@ -13,7 +13,7 @@
     "format:check": "prettier --check .",
     "check": "tsx .vuepress/build/check-links.ts && tsx .vuepress/build/check-glossary-frontmatter.ts"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@traptitech/markdown-it-katex": "^3.6.0",
