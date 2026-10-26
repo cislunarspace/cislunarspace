@@ -91,7 +91,7 @@ $$
 
 它只用到向量场，不需要轨迹的解析表达式。判据分三层\cite{LuTongXingFeiXianXingWuLiGaiLunDi2Ban2010,seydelPracticalBifurcationStability2010}。
 
-- 若 $\dot V\le 0$ 在 $D$ 上成立，则原点是稳定的。$V$ 沿轨迹不增，轨迹被限制在 $V$ 的等值面内，不能越出任意小的邻域。
+- 若 $\dot V\le 0$ 在 $D$ 上成立，则原点是稳定的。$V$ 沿轨迹不增，轨迹被限制在过初值点的次水平集 $\{V\le V(\mathbf x(t_0))\}$ 内，取初始偏差足够小即可把这个集合压进 $\varepsilon$ 邻域。
 - 若 $\dot V$ 在 $D\setminus\{\mathbf 0\}$ 上负定，即 $\dot V<0$，则原点是渐近稳定的。$V$ 严格下降，轨迹除原点外不能停在任一等值面上。
 - 若还存在 $c_1,c_2,c_3>0$，使 $c_1\|\mathbf x\|^2\le V(\mathbf x)\le c_2\|\mathbf x\|^2$ 且 $\dot V\le -c_3\|\mathbf x\|^2$，则原点指数稳定，衰减率可由 $c_3/(2c_2)$ 估计。
 

@@ -5,7 +5,7 @@ description: 地月空间专业术语体系，涵盖三体动力学、任务轨�
 keywords: 地月空间术语, 词典, CR3BP, DRO, NRHO, 平动点, 导航, 观测, 通信
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-24
+lastUpdated: 2026-10-26
 wechatShare:
   title: 地月空间术语词典
   desc: 地月空间动力学、轨道、导航与工程术语体系。

@@ -4,7 +4,7 @@ description: 多体动力学、平动点轨道、最优控制、数值积分与�
 keywords: 术语词典, 动力学与数学基础, dynamics
 author: 天疆说
 date: 2026-10-18
-lastUpdated: 2026-10-23
+lastUpdated: 2026-10-26
 permalink: /glossary/dynamics/
 wechatShare:
   title: 地月空间术语词典：动力学与数学基础
