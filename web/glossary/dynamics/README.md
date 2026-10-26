@@ -378,3 +378,4 @@ wechatShare:
 - [黏附区](/glossary/dynamics/sticky-region/)
 - [Sims-Flanagan 转录](/glossary/dynamics/sims-flanagan-transcription/)
 - [轨道保持点（Station-Keeping Point）](/glossary/dynamics/station-keeping-point/)
+- [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-stability/)

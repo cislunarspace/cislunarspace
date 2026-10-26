@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/control-curve-ui/
 
 ## 相关概念
 
-- [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-exponent/)
+- [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-stability/)
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
 - 汉森系数（Hansen Coefficients）
 - 拼接圆锥曲线法（Patched Conics Method）
