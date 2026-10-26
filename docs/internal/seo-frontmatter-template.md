@@ -1,60 +1,50 @@
+# 页面元数据与 frontmatter 模板
 
-# SEO优化的Front Matter模板
+页面元数据决定标签页标题、搜索摘要与分享卡片。字段的读取规则集中在 `web/.vuepress/utils/page-metadata-core.mjs`，标签页标题的拼装规则见[页面标题定制](page-title-customization.md)。
 
-## 中文页面模板
+## 页面模板
 
 ```yaml
 ---
 permalink: /页面路径/
-title: 页面标题  # 只写简洁的页面名，不要带栏目前缀
-description: 页面描述，150-160字符，包含关键词
+title: 页面名
+description: 一到两句话，说明页面主题与范围
 keywords: 关键词1, 关键词2, 关键词3
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
-category: [关键词1, 关键词2]  # 必须为数组；单个分类也要写成单元素数组
+category: [分类1, 分类2]
+image: /logo.png
 wechatShare:
-  title: 微信分享标题
-  desc: 微信分享描述
-  image: /logo.png
-og:
-  title: 页面标题  # 不需要添加后缀，SEO插件会处理
-  description: Open Graph描述
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: 页面标题  # 不需要添加后缀，SEO插件会处理
-  description: Twitter卡片描述
+  title: 分享标题
+  desc: 分享描述
   image: /logo.png
 ---
 ```
 
-## 关键SEO字段说明
+## 字段说明
 
-1. title: 页面标题，只写简洁的页面名（如“西北工业大学”），不要带栏目前缀（如“地月空间研究机构与团队盘点 | ”），长标题放在 wechatShare.title 中
-2. description: 页面描述，150-160字符，包含主要关键词
-3. keywords: 关键词，3-5个，用逗号分隔
-4. author: 作者，增强权威性
-5. date/lastUpdated: 发布时间和最后更新时间，有利于新鲜度排名
-6. og/twitter: Open Graph和Twitter卡片元数据，提升社交媒体分享效果
-7. wechatShare: 微信分享专用元数据
-8. category: 分类标签，必须为数组（即使只有一个分类），便于下游消费侧按统一形态处理。新建文章请直接写 `category: [foo]`
+| 字段 | 作用 |
+| --- | --- |
+| `permalink` | 固定路由。未设置时按文件路径生成。 |
+| `title` | 页面名，供标签页标题、搜索、侧边栏与 AI 索引使用。只写简洁的页面名，不带栏目前缀。 |
+| `description` | 页面摘要，用于搜索摘要与分享描述的回退。写一到两句话。 |
+| `keywords` | 3 到 5 个关键词，用逗号分隔。词条的 keywords 会进入词典工件，供检索使用。 |
+| `author` | 作者署名。 |
+| `date` | 首次发布日期，格式 `YYYY-MM-DD`。 |
+| `lastUpdated` | 最近更新日期，格式 `YYYY-MM-DD`。内容改动后同步更新。 |
+| `category` | 分类数组。即使只有一个值也写成 `[foo]`，便于下游统一处理。 |
+| `image` | 分享图片路径。省略时使用 `/logo.png`。 |
+| `wechatShare` | 微信分享覆盖项。`title`、`desc`、`image` 优先于顶层同名字段。 |
+| `layout` | 指定页面外壳，例如 AI 问答页。 |
+| `draft` | 草稿标记。 |
 
-## 页面分类和关键词建议
+## 分享元数据的生成
 
-### 1. 地月空间是什么 (What Is Cislunar Space)
+`og:` 与 `twitter:` 不需要手写。构建时由 `web/.vuepress/og-meta-plugin.ts` 与客户端 `useOgMeta` 从 `title`、`description`、`image` 与 `wechatShare` 生成。手写这两个块不会生效，还会与页面实际元数据不一致。
 
-- 主要关键词: 地月空间, 地月空间定义, 地月空间环境, 地月空间战略价值
+分享标题优先取 `wechatShare.title`，其次取 `title`。分享描述优先取 `wechatShare.desc`，其次取 `description`。分享图片优先取 `wechatShare.image`，其次取 `image`，都没有时使用 `/logo.png`。
 
-### 2. 地月空间术语词典 (Cislunar Glossary)
+## 写作要求
 
-- 主要关键词: CR3BP, 圆形限制性三体问题, X射线脉冲星导航, 地月空间术语
-
-### 3. 资源与工具 (Resources & Tools)
-
-- 主要关键词: 地月空间数据集, JPL星历, 轨道仿真工具, 航天资源
-
-### 4. 研究前沿 (Research Frontiers)
-
-- 主要关键词: 地月空间研究方向, 研究机构, 期刊会议, 重大工程项目
+标题与描述都按页面实际内容写，不堆砌关键词。标题回答「这个页面是什么」，描述补充「覆盖哪些范围」。关键词按主题选取，不与分类混用。
