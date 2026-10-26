@@ -34,6 +34,7 @@
 `web/.vuepress/taxonomy/data.ts`（目标态）。今天这一职责分散在 `sidebar/data.ts`、`navbar.ts`、`glossary-meta.ts`、`category-meta.json` 以及 `wayfinding-intake.ts` 的内联数组里。迁移计划见 ADR-0001。
 
 ### 词条 frontmatter 关系字段（aliases / related）
+
 词条 frontmatter 中的知识库数据字段：`aliases` 为非空不重复的别名数组。`related` 为 `{ ref, relation }` 数组，`ref` 是词条 slug 路径（如 `orbits/halo-orbit`），必须解析到存在的词条文件 `glossary/<ref>.md`。`relation` 属于开放枚举 `{broader, transfer, related}`。由 `check-glossary-frontmatter` 在 `npm run check` 中强制校验。正文“相关概念”列表是该数据的人工视图。
 
 ### 页面标签页标题（tab title）
@@ -146,6 +147,8 @@ kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` �
 - 把 AI 生成工件描述为 Adapters 或 Intakes：adapter 从分类法派生站点表面输出。intake 采集构建期数据。`/ai-chat-index.json` 与 `/ai-chat-context.json` 是生成的 AI 问答工件。
 - 把全局 AI 助手叫成 AI 问答：AI 问答是 `/ai-chat` 的全页表面，全局 AI 助手是内容页上的浮窗表面，两者共享引擎与历史但是两个表面。
 - 用 hand-written reference list（手写参考文献表）指词条尾部的文献列表：该形态已由引用键取代，题录一律由 ref.bib 派生。
+
+## 相关文档
 
 - [ADR-0001：统一分类法模块](docs/adr/0001-unified-taxonomy-module.md)
 - [ADR-0003：内容模块](docs/adr/0003-content-module.md)

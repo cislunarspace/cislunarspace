@@ -45,7 +45,8 @@
 
 1. 知识库章节：`web/what-is-cislunarspace/`、`web/cislunar-orbits/` 等
 2. 词典：`web/glossary/`
-3. 特殊表面：`web/ai-chat.md`
+
+`web/ai-chat.md` 是特殊表面，不属于内容族，由独立布局处理。
 
 ### Build Pipeline
 
@@ -63,4 +64,4 @@
 
 ### Deployment
 
-Nginx 从 `web/.vuepress/dist/` 伺服，SPA 回退。配置见 `web/deploy/nginx-ai-proxy.conf`。`/api/ai/` 路径反代 DeepSeek API。
+Nginx 从 `web/.vuepress/dist/` 伺服，SPA 回退。配置示例见 `deploy/nginx-ai-proxy.conf`。`/api/ai/` 路径反代 DeepSeek API。

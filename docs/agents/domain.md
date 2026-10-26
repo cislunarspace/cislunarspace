@@ -13,13 +13,13 @@
 
 ```text
 /
-├── CONTEXT-MAP.md                     ← 上下文索引
-├── CONTEXT.md                         ← 站点级领域词汇表（权威来源）
-├── docs/adr/                          ← 系统级决策
+├── CONTEXT-MAP.md                     # 上下文索引
+├── CONTEXT.md                         # 站点级领域词汇表（权威来源）
+├── docs/adr/                          # 系统级决策
 │   ├── 0001-unified-taxonomy-module.md
 │   └── ...
 └── web/
-    └── CONTEXT.md                     ← VuePress 配置与构建工具链上下文
+    └── CONTEXT.md                     # VuePress 配置与构建工具链上下文
 ```
 
 经验法则：处理内容（markdown 章节、术语词条、引用键）读根 `CONTEXT.md`。处理构建工具、主题或插件读 `web/CONTEXT.md`。

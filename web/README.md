@@ -19,7 +19,7 @@ wechatShare:
 
 ## 学习路径
 
-建议按照由浅入深、循序渐进的三步路线阅读：
+建议按以下三步路线阅读：
 
 <div class="module-grid">
   <a href="/what-is-cislunarspace/" class="module-card module-card--what-is">
@@ -69,4 +69,4 @@ wechatShare:
 
 ## 开放协作
 
-本站内容依托开源社区持续维护与更新，代码与文档托管于 GitHub 平台，欢迎同行学者与工程人员共同完善。
+本站内容依托开源社区持续维护。代码与文档托管在 [GitHub](https://github.com/cislunarspace/cislunarspace)，欢迎通过 Issue 与 Pull Request 参与，贡献流程见 [CONTRIBUTING.md](https://github.com/cislunarspace/cislunarspace/blob/master/CONTRIBUTING.md)。
