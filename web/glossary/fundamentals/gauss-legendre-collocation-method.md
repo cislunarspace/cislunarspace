@@ -42,3 +42,4 @@ permalink: /glossary/fundamentals/gauss-legendre-collocation-method/
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
 - 惯性坐标系
 - [哈密顿量](/glossary/dynamics/hamiltonian/)
+- [配点法（Collocation）](/glossary/dynamics/collocation/)

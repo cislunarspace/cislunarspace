@@ -4,7 +4,7 @@ description: 多体动力学、平动点轨道、最优控制、数值积分与�
 keywords: 术语词典, 动力学与数学基础, dynamics
 author: 天疆说
 date: 2026-10-18
-lastUpdated: 2026-10-26
+lastUpdated: 2026-10-28
 permalink: /glossary/dynamics/
 wechatShare:
   title: 地月空间术语词典：动力学与数学基础
@@ -379,3 +379,4 @@ wechatShare:
 - [Sims-Flanagan 转录](/glossary/dynamics/sims-flanagan-transcription/)
 - [轨道保持点（Station-Keeping Point）](/glossary/dynamics/station-keeping-point/)
 - [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-stability/)
+- [配点法（Collocation）](/glossary/dynamics/collocation/)

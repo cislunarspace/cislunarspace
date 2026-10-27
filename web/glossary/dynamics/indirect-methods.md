@@ -151,6 +151,7 @@ $$
 - [燃料最优控制（Fuel-optimal Control）](/glossary/dynamics/fuel-optimal/)：间接法应用的主要问题类型
 - [对偶控制变换（Adjoint-Control Transformation）](/glossary/dynamics/adjoint-control-transformation/)：用 primer vector 替代协态降低打靶维度
 - [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)：自由变量-约束法背后的牛顿迭代
+- [配点法（Collocation）](/glossary/dynamics/collocation/)：间接配点把状态-协态方程转成代数方程组
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)：地月间接法优化的动力学背景
 
 ## 参考文献
