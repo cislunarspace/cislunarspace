@@ -82,7 +82,7 @@ PIML 不替代数值积分器。长时间、高精度的轨迹预测仍由数值
 
 ### 短弧段仅测角初轨确定
 
-地月空间目标的光学观测往往只有短弧段与纯角度信息，初轨确定（initial orbit determination，IOD）是病态问题。容许区域（admissible region）把候选初始状态限制在观测几何与动力学允许的区域内，为病态问题提供物理先验。Badura 等 2026 提出的多假设 IOD 流水线在容许区域分析、依导出轮廓判别解唯一性与算法选择各环节引入机器学习与图像处理，动力学定义的容许区域充当学习任务的输出空间，流水线中的算法选择环节在多种既有 IOD 算法之间调度\cite{baduraMultihypothesisApproachAnglesonly2026}。这类把物理结构约束学习器的做法按本词条的口径属于 PIML 的应用。该文以机器学习行文，摘要与标题并未使用 PIML 一词，引用时应注意区分方法学归类与原文用语。经典确定性数值路线的对照见 [Gooding 方法与轨道边值问题数值求解器](/glossary/dynamics/goodings-method/)。
+地月空间目标的光学观测往往只有短弧段与纯角度信息，初轨确定（initial orbit determination，IOD）是病态问题。容许区域（admissible region）把候选初始状态限制在观测几何与动力学允许的区域内，为病态问题提供物理先验。Badura 等 2026 提出的多假设 IOD 流水线把机器学习与图像处理用于增强容许区域分析、依导出轮廓判别解唯一性与按解唯一性调度既有 IOD 算法等环节\cite{baduraMultihypothesisApproachAnglesonly2026}。该文以机器学习行文，摘要与标题并未使用 PIML 一词，摘要也未交代物理是否进入学习器的损失函数或解空间，方法学归类不超出摘要可证的范围。经典确定性数值路线的对照见 [Gooding 方法与轨道边值问题数值求解器](/glossary/dynamics/goodings-method/)。
 
 ### 不确定性传播
 
@@ -90,7 +90,7 @@ n 体动力学下的轨道不确定度传播需要自适应方法平衡精度与
 
 ### 最优轨道转移
 
-Schiassi 等 2021 把物理信息极值函数连接理论（physics-informed extreme theory of functional connections，X-TFC）用于最优轨道转移问题。近似解的表达式用函数连接理论构造为精确满足边界条件与动力学方程约束的形式，即硬约束路线，自由参数由配点上的回归确定\cite{schiassiPhysicsinformedExtremeTheory2021}。
+Schiassi 等 2021 把物理信息极值函数连接理论（physics-informed extreme theory of functional connections，X-TFC）用于最优轨道转移问题。近似解的表达式用函数连接理论构造为精确满足边界条件与初始条件的形式，这是把约束嵌入解空间构造的硬约束路线；动力学方程残差在配点上以回归最小化，自由参数由此确定\cite{schiassiPhysicsinformedExtremeTheory2021}。
 
 ## 相关概念
 
