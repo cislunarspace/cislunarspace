@@ -4,7 +4,7 @@ description: 圆型限制性三体问题中共线平动点（L1/L2/L3）附近�
 keywords: 晕轨道, Halo Orbit, 平动点轨道, NRHO, Lissajous, 轨道设计, 周期轨道, 不变流形
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-28
 wechatShare:
   title: 晕轨道（Halo Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -20,6 +20,10 @@ twitter:
   description: 圆型限制性三体问题中共线平动点（L1/L2/L3）附近的三维周期轨道，关于 xz 平面对称，南北两族互为镜像。多数成员不稳定并带有不变流形，是地月空间低能转移与月球通信导航星座的基础轨道。
   image: /logo.png
 permalink: /glossary/orbits/halo-orbit/
+aliases:
+  - L2 halo orbit
+  - L2 晕轨道
+  - 地月 L2 晕轨道
 ---
 
 # 晕轨道（Halo Orbit）
