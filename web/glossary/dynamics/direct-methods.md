@@ -4,7 +4,7 @@ description: 轨迹优化的一大类数值方法。把无限维最优控制问�
 keywords: 直接法, Direct Method, 直接转录, Direct Transcription, 非线性规划, NLP, 轨迹优化, 最优控制, SQP, 内点法, Ipopt, SNOPT, 卡罗需-库恩-塔克, KKT, 协态映射
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-28
 wechatShare:
   title: 直接法
   desc: 把最优控制问题转录为非线性规划求解：分支、数学细节、工程取舍。
@@ -56,7 +56,7 @@ $$\min_{\mathbf{X}} F(\mathbf{X})\quad \text{s.t.}\quad \mathbf{c}_l\leq\mathbf{
 
 按离散策略，直接法可分为：
 
-- 直接打靶（direct shooting）：只参数化有限个控制参数（如 pitch 角的多项式系数），动力学用显式 ODE 积分器前向积分，将终端约束作为非线性约束交给 NLP。变量少，但误差沿轨迹迅速累积，对参数初值敏感。早期 POST、GTS 等发射轨道优化程序属此类。
+- [直接打靶](/glossary/dynamics/direct-shooting/)（direct shooting）：只参数化有限个控制参数（如 pitch 角的多项式系数），动力学用显式 ODE 积分器前向积分，将终端约束作为非线性约束交给 NLP。变量少，但误差沿轨迹迅速累积，对参数初值敏感。早期 POST、GTS 等发射轨道优化程序属此类。
 - 多重打靶（multiple shooting）：将区间分段，每段独立积分，在分段点施加状态连续性约束。改善了误差累积，但变量规模扩大。
 - 直接配点（direct collocation）：在每个子区间用低阶分段多项式（如 Hermite-Simpson 三次、五次 Gauss-Lobatto）插值状态，在配点处强制满足动力学，得到稀疏的缺陷约束。详见 [直接配点法](/glossary/dynamics/direct-collocation/)。
 - 伪谱法（pseudospectral method）：在整个区间用单一高阶全局 Lagrange 多项式插值，配点取 Legendre-Gauss / Legendre-Gauss-Radau / Legendre-Gauss-Lobatto 正交节点。具有谱收敛性，详见 [伪谱法](/glossary/dynamics/pseudospectral-method/)。
