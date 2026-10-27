@@ -1,10 +1,10 @@
 ---
 title: 同伦方法（Homotopy Method）
 description: 通过构造连接“易解问题”与“目标问题”的同伦函数 H(y,κ)=κF(y)+(1-κ)G(y)，沿 κ 从 0 到 1 跟踪零路径以求解难解的两点边值问题。在小推力轨迹优化中是把光滑的能量最优解逐步变形为 bang-bang 燃料最优解、或把高推力解降到目标低推力的核心数值手段。
-keywords: 同伦方法, homotopy method, 同伦延拓, homotopy continuation, 平滑技术, 推力同伦, L2-L1 同伦, 能量-燃料最优, 间接法, 两点边值问题
+keywords: 同伦方法, homotopy method, 同伦延拓, homotopy continuation, 平滑技术, 平滑同伦, α 同伦, α homotopy, p 同伦, p homotopy, power homotopy, sigmoid 同伦, sigmoid homotopy, 推力同伦, L2-L1 同伦, 能量-燃料最优, 间接法, 两点边值问题
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-27
 wechatShare:
   title: 同伦方法（Homotopy Method）
   desc: 小推力轨迹优化中把能量最优解逐步变形为燃料最优解的核心数值方法。
@@ -77,19 +77,30 @@ $$J_\varepsilon=\int_{t_0}^{t_f}\bigl[\|\mathbf{u}\|-\varepsilon\,F(\|\mathbf{u}
 
 ### 平滑函数的选择
 
-扰动项 $F$ 的具体形式决定同伦路径的光滑性与收敛速度：
+上文用 $J_\varepsilon$ 表示整个性能指标，下面用 $L$ 表示其中的被积代价，并把 $\|\mathbf u\|$ 简记为 $u$。燃料最优代价 $L=u$ 对应 bang-bang 控制，直接打靶难以收敛。文献中常用的平滑做法可以归为三族：α 同伦、p 同伦、sigmoid 同伦。三族都把切换函数 $S=\lambda_v-1$ 映射成连续的控制量，区别在映射函数的形状与陡峭化方式\cite{parrishLowThrustTrajectory2018}。另有一类对数障碍同伦不在这三族内，下文单独列出。
 
-- 多项式平滑（原型）：$F(w)=w(1-w)$。最简单，但低推力下控制切换次数剧增时精度恶化、二阶最优性条件难以验证。
+- α 同伦：取 $L^1$ 与 $L^2$ 的凸组合作为代价，$L=\alpha u+(1-\alpha)u^2$，其中 $u=\|\mathbf u\|$，$\alpha\in[0,1]$。$\alpha=0$ 对应能量最优，$\alpha=1$ 对应燃料最优。最优控制律为 $u_\alpha^*=\operatorname{clip}\left((\rho-\alpha)/[2(1-\alpha)],0,1\right)$，其中 $\rho=\|\boldsymbol\lambda_v\|$ 为速度协态的模。控制律在 $\rho\le\alpha$ 时取 0，在 $\rho\ge 2-\alpha$ 时取 1，有限 $\alpha$ 下就能得到精确的关机段与满推段。$\alpha$ 趋近 1 时，过渡段斜率 $1/[2(1-\alpha)]$ 发散，死区与饱和区向 $\rho=1$ 收缩，极限为 bang-bang。多项式平滑、L2-L1 同伦都属于这一族：多项式平滑取 $F(w)=w(1-w)$，代价为 $L=u-\varepsilon u(1-u)=(1-\varepsilon)u+\varepsilon u^2$，与上式在 $\alpha=1-\varepsilon$ 时一致\cite{bertrandNewSmoothingTechniques2002a,caillauMinimumFuelControl2012}。控制律在 $\rho=\alpha$ 与 $\rho=2-\alpha$ 两处导数不连续，低推力下切换次数增多时精度恶化，二阶最优性条件也难以验证。
 
-- L2-L1 同伦\cite{caillauMinimumFuelControl2012}：取 $L^2$ 与 $L^1$ 的凸组合作为代价，等价于上述凸组合形式的特例，与多项式平滑在 CR3BP 平面最小燃料问题中是经典实现。
+- p 同伦：把代价写成推力幅值的幂，$L=u^p$，$p\in(1,2]$。从 $p=2$ 的能量最优解出发，逐步把 $p$ 降到 1。最优控制律为 $u_p^*=\operatorname{clip}\left((\rho/p)^{1/(p-1)},0,1\right)$。$p=2$ 时退化为能量最优的 $u=\rho/2$。$p$ 趋近 1 时指数 $1/(p-1)$ 发散，$\mathrm du_p^*/\mathrm d\rho$ 在切换点附近无界，极限为 bang-bang，同伦步长必须取得很小。有限 $p$ 下控制量只在 $\rho=0$ 处为 0，没有成段的死区。它的优点是 $p=2$ 的目标函数可直接用于直接法优化，为间接法提供可靠的协态初值\cite{parrishLowThrustTrajectory2018}。控制律只在 $\rho=p$ 的饱和边界处因截断而导数不连续，最小控制一侧是光滑的。
 
-- 对数障碍同伦：在代价中加 $-\varepsilon\ln(\|\mathbf{u}\|(1-\|\mathbf{u}\|))$，强制 $0<\|\mathbf{u}\|<1$，使哈密顿最大化处处可微，克服 L2-L1 同伦在低推力下精度恶化的困难。
+- sigmoid 同伦：在燃料代价上加熵型正则项，$L=u+\varepsilon[u\ln u+(1-u)\ln(1-u)]$。最优控制律为 $u_\varepsilon^*=\sigma\left((\rho-1)/\varepsilon\right)$，其中 $\sigma$ 为 logistic 函数。$\varepsilon$ 越小过渡带越窄，$\varepsilon\to 0$ 时趋于阶跃，极限为 bang-bang。对任意 $\varepsilon>0$，控制律处处光滑，控制量始终落在 $(0,1)$ 内，有限 $\varepsilon$ 下没有精确的关机段或满推段，需要事件检测或后处理精修切换时刻。扩展对数平滑是这一族的早期形式，它把对数平滑改写为对切换函数的平滑，产生的控制律正是 $\sigma(S/\varepsilon)$，与状态转移矩阵法结合可获得高精度雅可比。$\tanh$、代数函数、误差函数 erf 等参数化 sigmoid 也属于这一族，其中误差函数在 L1 到 L2 halo 转移算例中比 $\tanh$ 与代数形式收敛更快\cite{zhangSmoothingTechniqueIndirect2025}。sigmoid 同伦的起点不是能量最优问题，而是有限 $\varepsilon$ 的平滑燃料问题，Parrish 取 $\varepsilon=1$ 并逐步降到 $10^{-4}$，能量最优解只作为初值使用\cite{parrishLowThrustTrajectory2018}。
 
-- 扩展对数平滑：把对数平滑改写为对切换函数（switching function）的平滑，并与状态转移矩阵法结合以获得高精度雅可比，使 $\varepsilon$ 可大幅跳跃（如从 1 到 0.01 再到 $10^{-5}$）仅需 3 个子问题而非 6 个。
+- 对数障碍同伦：不属于上述三族。它在代价中加 $-\varepsilon\ln(u(1-u))$，强制 $0<u<1$，使哈密顿最大化处处可微，用于缓解 α 同伦在低推力下精度恶化的问题\cite{caillauMinimumFuelControl2012}。
 
-- sigmoid 平滑：用 $\tanh$、代数函数、误差函数 erf 等参数化 sigmoid 逼近符号函数 $\mathrm{sign}(S)$，其中 $S$ 为切换函数。误差函数在 L1 到 L2 halo 转移算例中比 $\tanh$ 与代数形式收敛快一倍、终端误差低一个量级。
+三族的主要差异见下表。
 
-工程上的实证判据是：给定 $\varepsilon$，最优控制接近 bang-bang 的程度：经验上 $\varepsilon\sim 10^{-5}$ 时推力剖面与真正 bang-bang 已几乎不可分辨\cite{zhangSmoothingTechniqueIndirect2025}。
+| 项目 | α 同伦 | p 同伦 | sigmoid 同伦 |
+| :--- | :--- | :--- | :--- |
+| 同伦参数 | $\alpha$ 从 0 到 1 | $p$ 从 2 到 1 | $\varepsilon$ 由大到小 |
+| 控制律 | $\operatorname{clip}\left(\frac{\rho-\alpha}{2(1-\alpha)},0,1\right)$ | $\operatorname{clip}\left(\left(\frac{\rho}{p}\right)^{1/(p-1)},0,1\right)$ | $\sigma\left(\frac{\rho-1}{\varepsilon}\right)$ |
+| 关机段 | 死区 $\rho\le\alpha$ 给出精确的 $u=0$ | 仅 $\rho=0$ 为 0，无成段死区 | 恒为内点，无精确的 0 或 1 |
+| 陡峭化机制 | 斜率 $1/[2(1-\alpha)]$ 增大 | 指数 $1/(p-1)$ 增大 | 过渡带宽度随 $\varepsilon$ 减小 |
+| 光滑性 | 最小与最大控制处导数不连续 | 最大控制处导数不连续 | 处处光滑 |
+| 实证收敛步数 | 无对比数据 | 两体动力学约 20 个中间参数 | 两体动力学约 3 个中间参数 |
+
+按 Parrish 2018 的比较，光滑性从高到低为 sigmoid、p、α。要达到同等锐利的 bang-bang 解，两体动力学下 p 同伦约需 20 个中间参数，sigmoid 同伦约需 3 个，sigmoid 允许更大的同伦步长。三体动力学下两者都需要更多中间参数\cite{parrishLowThrustTrajectory2018}。
+
+工程上的实证判据是：给定 $\varepsilon$ 时，最优控制接近 bang-bang 的程度随 $\varepsilon$ 减小而提高。经验上 $\varepsilon\sim 10^{-5}$ 时，推力剖面与真正 bang-bang 已几乎不可分辨\cite{zhangSmoothingTechniqueIndirect2025}。
 
 ### 推力幅值同伦（thrust continuation / thrust homotopy）
 
