@@ -22,7 +22,7 @@ permalink: /glossary/fundamentals/mact/
 
 ## 定义
 
-映射伴随控制变换（Mapped Adjoint Control Transformation, MACT）是一种用于求解空间航天器小推力最优轨迹间接法（Indirect Method）两点边值问题（TPBVP）的变量映射正则化技术。该方法将抽象且物理意义模糊的协态变量（Costate Variables）非线性变换至有明确几何物理边界的参数空间（如推力方向角、无量纲开关函数与瞬时主引向矢量模值），从而显著拓宽间接打靶法的初值收敛域\cite{jawaharlalayyanathanMappedAdjointControl2022}。
+映射伴随控制变换（Mapped Adjoint Control Transformation, MACT）是一种用于求解空间航天器小推力最优轨迹间接法（Indirect Method）两点边值问题（TPBVP）的变量映射正则化技术。该方法将抽象且物理意义模糊的协态变量（Costate Variables）非线性变换至有明确几何物理边界的参数空间（如推力方向角、无量纲开关函数与瞬时主引向矢量模值），从而显著拓宽[间接打靶法](/glossary/dynamics/indirect-shooting/)的初值收敛域\cite{jawaharlalayyanathanMappedAdjointControl2022}。
 
 ## 物理机制与工程价值
 

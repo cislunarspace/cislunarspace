@@ -53,5 +53,6 @@ related:
 ## 相关概念
 
 - [单次打靶微分修正器](/glossary/orbits/ssdc/)
+- [间接打靶法（Indirect Shooting）](/glossary/dynamics/indirect-shooting/)
 - [近直线晕轨道](/glossary/orbits/nrho/)
 - [晕轨道](/glossary/orbits/halo-orbit/)
