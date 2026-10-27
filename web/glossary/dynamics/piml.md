@@ -90,7 +90,7 @@ n 体动力学下的轨道不确定度传播需要自适应方法平衡精度与
 
 ### 最优轨道转移
 
-Schiassi 等 2021 把物理信息极值函数连接理论（physics-informed extreme theory of functional connections，X-TFC）用于最优轨道转移问题。近似解的表达式用函数连接理论构造为精确满足边界条件与初始条件的形式，这是把约束嵌入解空间构造的硬约束路线；动力学方程残差在配点上以回归最小化，自由参数由此确定\cite{schiassiPhysicsinformedExtremeTheory2021}。
+Schiassi 等 2021 把物理信息极值函数连接理论（physics-informed extreme theory of functional connections，X-TFC）用于最优轨道转移问题。近似解的表达式用函数连接理论构造为精确满足边界条件与初始条件的形式，这是把约束嵌入解空间构造的硬约束路线。动力学方程残差在配点上以回归最小化，自由参数由此确定\cite{schiassiPhysicsinformedExtremeTheory2021}。
 
 ## 相关概念
 
