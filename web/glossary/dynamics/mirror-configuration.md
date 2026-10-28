@@ -1,6 +1,6 @@
 ---
 title: 镜像构型（Mirror Configuration）
-description: "圆型限制性三体问题中关于对称平面的一种状态：位置落在对称平面内，速度垂直于该平面，在关于该平面反射并反转时间的联合变换下保持不变。两个相隔半个周期的镜像构型互为镜像，可拼成对称周期轨道，是晕轨道等周期解计算与长期捕获轨道种子反推的初值来源。"
+description: "圆型限制性三体问题中关于对称平面的一种状态：位置落在对称平面内，速度垂直于该平面，在关于该平面反射并反转时间的联合变换下保持不变。从镜像构型出发积分半周期再次遇到镜像构型，前后两段轨迹互为镜像，拼成对称周期轨道，是晕轨道等周期解计算与长期捕获轨道种子反推的初值来源。"
 keywords: 镜像构型, Mirror Configuration, 对称周期轨道, 垂直穿越, 镜像对称, CR3BP, 周期轨道
 author: 天疆说
 date: 2026-10-28
@@ -61,7 +61,7 @@ $$
 (x,y,z,\dot x,\dot y,\dot z,t)\mapsto(x,-y,z,-\dot x,\dot y,-\dot z,-t).
 $$
 
-镜像构型把一条轨迹分成互为镜像的两段。从镜像构型出发沿相流积分，若在时刻 $T/2$ 再次垂直穿越同一平面，则第二段轨迹是第一段关于 x-z 平面的镜像，两段首尾相接构成周期为 $T$ 的对称周期轨道\cite{mieleTheoremImageTrajectories1961,gomezDynamicsMissionDesign2001Vol1}。对只经过两个镜像构型的对称轨道，第二个状态是第一个的镜像，位置分量相同，速度反向。
+镜像构型把一条轨迹分成互为镜像的两段。从镜像构型出发沿相流积分，若在时刻 $T/2$ 再次垂直穿越同一平面，则第二段轨迹是第一段关于 x-z 平面的镜像，两段首尾相接构成周期为 $T$ 的对称周期轨道\cite{mieleTheoremImageTrajectories1961,gomezDynamicsMissionDesign2001Vol1}。对只经过两个镜像构型的对称轨道，两个穿越点一般不在同一位置，各自都在联合变换下保持不变。互为镜像的是两段轨迹，不是这两个端点状态。
 
 数值求解时，未知量取对称平面上的状态分量与半周期。以 x-z 平面为例，初值形如 $(x_0,0,z_0,0,\dot y_0,0)$，打靶条件要求积分 $T/2$ 后再次满足 $y=0$、$\dot x=0$、$\dot z=0$。固定一个族参数，例如面外振幅 $z_0$ 或雅可比常数，条件数与未知量数相等，用[微分修正](/glossary/dynamics/differential-correction/)或多次打靶收敛。这样求出的轨道关于 x-z 平面对称，周期为 $T$。
 
@@ -87,7 +87,7 @@ $$
 
 ## 在周期解研究中的用法
 
-从晕族分岔出的三维周期解研究把镜像构型作为描述半周期回归的几何条件。Howell 与 Campbell 1999 以 L1、L2 晕族为基线，识别出与其他三维族的相交与分岔，并数值计算了这些族中的轨道\cite{howellThreeDimensionalPeriodic1999}。用镜像构型写闭合条件，可以把周期轨道问题化为对称平面上的打靶，这正是上一节构造方法的来源。
+Howell 与 Campbell 1999 以 L1、L2 晕族为基线，识别出从晕族分岔或与之相交的其他三维周期族，并数值计算了其中的轨道\cite{howellThreeDimensionalPeriodic1999}。用镜像构型写闭合条件，可以把周期轨道问题化为对称平面上的打靶\cite{gomezDynamicsMissionDesign2001Vol1}。
 
 长期捕获轨道搜索也用到同一几何。[庞加莱映射](/glossary/dynamics/poincare-map/)的近星点图上，non-transit 点附近的周期轨道种子可以由镜像构型反推初值，再经[延拓](/glossary/dynamics/continuation/)得到。
 
