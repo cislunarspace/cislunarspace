@@ -4,7 +4,7 @@ description: 仅利用光学观测的视线方向（方位角与俯仰角，或�
 keywords: 纯角度定轨, Angles-Only Orbit Determination, 仅测角定轨, 初轨确定, 可接受域, 弱可观测性, 地月空间态势感知
 author: 天疆说
 date: 2026-10-23
-lastUpdated: 2026-10-23
+lastUpdated: 2026-10-27
 wechatShare:
   title: 纯角度定轨（Angles-Only Orbit Determination）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -23,6 +23,8 @@ permalink: /glossary/navigation/angles-only-orbit-determination/
 aliases:
   - Angles-Only Orbit Determination
   - angles-only OD
+  - angles-only IOD
+  - angles-only initial orbit determination
   - 纯角度轨道确定
   - 仅测角定轨
 related:
