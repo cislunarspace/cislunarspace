@@ -30,6 +30,8 @@ related:
     relation: broader
   - ref: dynamics/indirect-methods
     relation: related
+  - ref: dynamics/indirect-shooting
+    relation: related
   - ref: dynamics/direct-collocation
     relation: related
   - ref: orbits/multiple-shooting
@@ -158,7 +160,7 @@ $\mathbf{S}(t_f)$ 给出终端状态对参数的导数，再与 $\partial\boldsy
 
 ### 与间接打靶
 
-间接打靶是[间接法](/glossary/dynamics/indirect-methods/)求解两点边值问题的一条路线：先由庞特里亚金极值原理导出状态-协态方程与横截条件，再猜协态初值，用牛顿法打中终端条件。它的未知量是协态初值，残差是最优性条件。直接打靶不引入协态，未知量是控制参数，残差是终端约束，最后由 NLP 求解。两者都叫打靶，都在前向积分，但打靶对象与问题类型不同\cite{bettsSurveyNumericalMethods1998}。
+[间接打靶](/glossary/dynamics/indirect-shooting/)是[间接法](/glossary/dynamics/indirect-methods/)求解两点边值问题的一条路线：先由庞特里亚金极值原理导出状态-协态方程与横截条件，再猜协态初值，用牛顿法打中终端条件。它的未知量是协态初值，残差是最优性条件。直接打靶不引入协态，未知量是控制参数，残差是终端约束，最后由 NLP 求解。两者都叫打靶，都在前向积分，但打靶对象与问题类型不同\cite{bettsSurveyNumericalMethods1998}。
 
 ### 与单次打靶微分修正器
 
@@ -184,6 +186,7 @@ $\mathbf{S}(t_f)$ 给出终端状态对参数的导数，再与 $\partial\boldsy
 
 - [直接法（Direct Methods）](/glossary/dynamics/direct-methods/)
 - [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/)
+- [间接打靶法（Indirect Shooting）](/glossary/dynamics/indirect-shooting/)
 - [直接配点法（Direct Collocation）](/glossary/dynamics/direct-collocation/)
 - [多重打靶法（Multiple Shooting Method）](/glossary/orbits/multiple-shooting/)
 - [Sims-Flanagan 转录（Sims-Flanagan Transcription）](/glossary/dynamics/sims-flanagan-transcription/)
