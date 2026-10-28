@@ -56,7 +56,7 @@ $$\dot{\mathbf{p}}(t_i)=\mathbf{f}(\mathbf{p}(t_i),t_i),\quad i=1,\dots,N,$$
 
 其中 $\mathbf{p}(t)$ 是插值多项式。连同初始条件，连续问题变成关于多项式系数或节点值的有限维代数方程组\cite{bettsSurveyNumericalMethods1998,conwaySpacecraftTrajectoryOptimization2010}。
 
-配点法不是单一算法，而是一族离散策略。配点位置与多项式范围决定具体格式：分段低阶多项式配点用于直接配点与间接配点，全局高阶多项式配点就是伪谱法，Gauss 点上的正交配点用于高精度常微分方程与微分代数方程积分。[直接配点法](/glossary/dynamics/direct-collocation/)、[伪谱法](/glossary/dynamics/pseudospectral-method/) 与间接配点法都是这条原则在不同问题结构上的实例\cite{hargravesDirectTrajectoryOptimization1987,bettsPracticalMethodsOptimal2010}。配点原则不专属于直接法，间接法同样用它离散状态-协态方程。
+配点法不是单一算法，而是一族离散策略。配点位置与多项式范围决定具体格式：分段低阶多项式配点用于直接配点与间接配点，全局高阶多项式配点就是伪谱法，Gauss 点上的正交配点用于高精度常微分方程与微分代数方程积分。[直接配点法](/glossary/dynamics/direct-collocation/)、[伪谱法](/glossary/dynamics/pseudospectral-method/) 与间接配点都是这条原则在不同问题结构上的实例\cite{hargravesDirectTrajectoryOptimization1987,bettsPracticalMethodsOptimal2010}。配点原则不专属于直接法，间接法同样用它离散状态-协态方程。
 
 ## 数学形式
 
