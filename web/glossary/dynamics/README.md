@@ -380,4 +380,5 @@ wechatShare:
 - [轨道保持点（Station-Keeping Point）](/glossary/dynamics/station-keeping-point/)
 - [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-stability/)
 - [物理信息机器学习（Physics-Informed Machine Learning）](/glossary/dynamics/piml/)
+- [间接打靶法（Indirect Shooting）](/glossary/dynamics/indirect-shooting/)
 - [配点法（Collocation）](/glossary/dynamics/collocation/)
