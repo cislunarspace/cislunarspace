@@ -72,7 +72,7 @@ $$
 
 ### 单次打靶 vs. 多重打靶
 
-- 单次打靶（single shooting）：把整段轨迹当作一次初值问题，对 $\mathbf{z}$ 用牛顿法。实现简单但雅可比条件数大，对长转移不稳健。
+- [单次打靶（single shooting）](/glossary/dynamics/indirect-shooting/)：把整段轨迹当作一次初值问题，对 $\mathbf{z}$ 用牛顿法。实现简单但雅可比条件数大，对长转移不稳健。
 - 多重打靶（multiple shooting）：把 $[t_0,t_f]$ 分段，每段独立积分，段间用匹配条件连接。自由变量-约束法（free-variable and constraint method）就是多重打靶的工程化形式，把所有节点的状态、协态、参数堆叠为自由变量向量 $\mathbf{V}$，把段间连续性、端点条件堆叠为约束向量 $\mathbf{C}(\mathbf{V})=\mathbf{0}$，用牛顿法解线性方程组，详见 Spreen 2021 与 [微分修正](/glossary/dynamics/differential-correction/)。
 
 ### 间接配点法
@@ -145,6 +145,7 @@ $$
 
 - [庞特里亚金最小值原理（PMP）](/glossary/dynamics/pontryagins-maximum-principle/)：间接法的数学出发点
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)：TPBVP 的核心未知量
+- [间接打靶法（Indirect Shooting）](/glossary/dynamics/indirect-shooting/)：以协态初值为打靶变量的单次打靶路线
 - [先驱向量（Primer Vector）](/glossary/dynamics/primer-vector/)：速度协态的物理化身，决定最优推力方向
 - [同伦方法（Homotopy Method）](/glossary/dynamics/homotopy-method/)：间接法求解 Bang-bang 控制的主流数值手段
 - [Bang-bang 控制（Bang-bang Control）](/glossary/dynamics/bang-bang-control/)：间接法导出的典型控制结构

@@ -4,7 +4,7 @@ description: 地月空间轨道动力学的基础数学模型：在会合坐标�
 keywords: 圆形限制性三体问题, CR3BP, CRTBP, 限制性三体问题, R3BP, 会合坐标系, 雅可比常数, 零速度曲面, 质量参数, 无量纲化, 平动点, 周期轨道, 地月空间动力学
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-28
 wechatShare:
   title: 圆形限制性三体问题（CR3BP）详解
   desc: 地月空间动力学的基础模型：从定义到运动方程，从雅可比常数到周期轨道数值求解。
@@ -20,6 +20,11 @@ twitter:
   description: 地月空间轨道动力学的基础数学模型：在会合坐标系中，质量可忽略的航天器受两个主天体引力作用，覆盖模型假设、无量纲化、运动方程、质量参数、雅可比常数、零速度曲面及扩展变体。
   image: /logo.png
 permalink: /glossary/dynamics/cr3bp/
+aliases:
+  - Circular Restricted Three-Body Problem
+  - Circular Restricted Three-Body Problem (CRTBP)
+  - CR3BP
+  - CRTBP
 ---
 
 # 圆形限制性三体问题

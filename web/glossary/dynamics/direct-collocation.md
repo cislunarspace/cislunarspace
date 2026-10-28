@@ -4,7 +4,7 @@ description: 直接法中最常用的一类：在网格上用分段低阶多项�
 keywords: 直接配点法, Direct Collocation, 直接转录, Direct Transcription, DCNLP, 缺陷约束, Defect Constraint, Hermite-Simpson, Trapezoidal, Gauss-Lobatto, 非线性规划, SQP, Ipopt
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-10-27
 wechatShare:
   title: 直接配点法（Direct Collocation）
   desc: 用分段多项式 + 缺陷约束把 OCP 转录为稀疏 NLP：配点格式、网加密、地月转移应用。
@@ -20,6 +20,10 @@ twitter:
   description: 直接法中最常用的一类：用分段低阶多项式插值状态、配点处满足动力学，得到稀疏缺陷约束。覆盖梯形/Hermite-Simpson/5 阶 Gauss-Lobatto、缺陷约束数学形式、网加密与地月转移应用要点。
   image: /logo.png
 permalink: /glossary/dynamics/direct-collocation/
+aliases:
+  - 直接转录
+  - Direct Transcription
+  - DCNLP
 ---
 
 # 直接配点法（Direct Collocation）
