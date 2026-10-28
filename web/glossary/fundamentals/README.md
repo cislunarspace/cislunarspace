@@ -4,7 +4,7 @@ description: 参考系与坐标、轨道几何、数学工具与优化基础概�
 keywords: 术语词典, 基础概念, fundamentals
 author: 天疆说
 date: 2026-10-18
-lastUpdated: 2026-10-24
+lastUpdated: 2026-10-28
 permalink: /glossary/fundamentals/
 wechatShare:
   title: 地月空间术语词典：基础概念
