@@ -106,9 +106,9 @@ $$\bar{F}_i(\bar{X})=\bar{x}_{i+1}-\boldsymbol{\Phi}_{i+1,i}\,\bar{x}_i=\mathbf{
 
 - 间接打靶：以协态初值 $\boldsymbol{\lambda}(t_0)$ 和终端时间 $t_f$ 为自由变量，积分 Hamilton 正则方程，使终端状态/横截条件满足。协态无物理直观、对初猜极敏感，典型困难见[两点边值问题](/glossary/dynamics/tpbvp/)。
 
-- [直接打靶](/glossary/dynamics/direct-shooting/)：把连续控制 $\mathbf{u}(t)$ 离散化为参数序列，整个最优控制问题化为非线性规划（NLP），不显式引入协态。直接多重打靶（direct multiple shooting）在每段节点同时设状态与控制变量，段内用显式积分，是航天 NLP 求解器的标准底层算法之一，相关方法见 Bock 1981 与 Sager 2009\cite{bockMultipleShootingAlgorithm1984}。
+- [直接打靶](/glossary/dynamics/direct-shooting/)：把连续控制 $\mathbf{u}(t)$ 离散化为参数序列，整个最优控制问题化为非线性规划（NLP），不显式引入协态。直接多重打靶（direct multiple shooting）在每段节点同时设状态与控制变量，段内用显式积分，是航天 NLP 求解器的标准底层算法之一，相关方法见 Bock 与 Plitt 1984\cite{bockMultipleShootingAlgorithm1984}。
 
-直接打靶收敛性更好但变量维度高。间接打靶维度低、精度高（满足 Pontryagin 必要条件），但初猜困难。实际工程中常用由直接法生成初猜再交由间接法精化的组合策略。
+直接打靶变量少、实现简单，动力学由积分器在积分容差内满足，但收敛域窄、对初猜敏感。间接打靶维度更低、精度高（满足 Pontryagin 必要条件），但协态初猜更困难。实际工程中常用由直接法生成初猜再交由间接法精化的组合策略。
 
 ## 在地月空间中的应用
 
