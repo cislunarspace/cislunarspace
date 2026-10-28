@@ -13,7 +13,7 @@ keywords: 形状基法, shape-based method, 逆多项式形状函数, 指数正�
 
 ## 定义
 
-形状基法预先指定小推力轨道的几何形状（通常以极径 $r(t)$ 或极角 $\theta(t)$ 作为时间的参数化解析函数）再从运动方程反解出实现该形状所需的推力加速度剖面 $\mathbf{a}_T(t)$\cite{wallShapeBasedApproachLowThrust2009}。这绕过了完整的最优控制求解，给出快速的近似轨迹，作为后续高保真数值优化（直接配点或间接打靶法）的初值，见 Petropoulos 与 Longuski 2004\cite{petropoulosShapeBasedAlgorithmAutomated2004}。
+形状基法预先指定小推力轨道的几何形状（通常以极径 $r(t)$ 或极角 $\theta(t)$ 作为时间的参数化解析函数）再从运动方程反解出实现该形状所需的推力加速度剖面 $\mathbf{a}_T(t)$\cite{wallShapeBasedApproachLowThrust2009}。这绕过了完整的最优控制求解，给出快速的近似轨迹，作为后续高保真数值优化（直接配点或[间接打靶法](/glossary/dynamics/indirect-shooting/)）的初值，见 Petropoulos 与 Longuski 2004\cite{petropoulosShapeBasedAlgorithmAutomated2004}。
 
 在小推力任务的初始设计阶段尤其有用：设计空间巨大、NLP 解算器难以无初值收敛。
 
