@@ -5,7 +5,7 @@ description: 地月空间专业术语体系，涵盖三体动力学、任务轨�
 keywords: 地月空间术语, 词典, CR3BP, DRO, NRHO, 平动点, 导航, 观测, 通信
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-10-26
+lastUpdated: 2026-10-28
 wechatShare:
   title: 地月空间术语词典
   desc: 地月空间动力学、轨道、导航与工程术语体系。
@@ -22,7 +22,7 @@ wechatShare:
 
 | 分类板块 | 条目数 | 涵盖范围 |
 | :--- | ---: | :--- |
-| [基础概念](/glossary/fundamentals/) | 86 | 参考系与坐标、轨道几何、数学工具与优化基础概念。 |
+| [基础概念](/glossary/fundamentals/) | 87 | 参考系与坐标、轨道几何、数学工具与优化基础概念。 |
 | [动力学与数学基础](/glossary/dynamics/) | 363 | 多体动力学、平动点轨道、最优控制、数值积分与轨道确定方法。 |
 | [任务轨道](/glossary/orbits/) | 154 | 平动点轨道族、地月转移与任务轨道设计。 |
 | [导航技术与系统](/glossary/navigation/) | 68 | 导航、制导与控制，含导航星座、测量体制与自主导航。 |

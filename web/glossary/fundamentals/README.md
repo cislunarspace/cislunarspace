@@ -92,6 +92,7 @@ wechatShare:
 - [逐级优化](/glossary/fundamentals/staggered-optimization/)
 - [速度增量预算](/glossary/fundamentals/delta-v-budget/)
 - [速度增量](/glossary/fundamentals/delta-v/)
+- [速端曲线（Hodograph）](/glossary/fundamentals/hodograph/)
 - [重力梯度矩阵](/glossary/fundamentals/gravity-gradient-matrix/)
 - [重构谐波平衡法](/glossary/fundamentals/reconstructed-harmonic-balance-method/)
 - [降维](/glossary/fundamentals/dimensionality-reduction/)
