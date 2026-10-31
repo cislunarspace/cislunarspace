@@ -86,6 +86,7 @@ $$
 
 ## 相关概念
 
+- [速端曲线（Hodograph）](/glossary/fundamentals/hodograph/)
 - [直接配点法（Direct Collocation）](/glossary/dynamics/differential-correction/)
 - [差分动态规划（DDP/iLQR/HDDP）](/glossary/dynamics/hddp/)
 - [控制参数化（Control Parametrization）](/glossary/dynamics/control-parametrization/)
