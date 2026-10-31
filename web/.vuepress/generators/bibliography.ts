@@ -60,7 +60,7 @@ function getDocTypeCode(type: string): string {
   return map[type] || 'M';
 }
 
-function formatEntryGb7714(entry: any): string {
+export function formatEntryGb7714(entry: any): string {
   const authors = (entry.author || []).map(formatAuthor).join(', ');
 
   const title = entry.title || '';
@@ -97,7 +97,7 @@ function formatEntryGb7714(entry: any): string {
   return result;
 }
 
-function parseBibEntries(bibContent: string): any[] {
+export function parseBibEntries(bibContent: string): any[] {
   // Split into individual entries by @ delimiter, keeping the delimiter
   const rawEntries = bibContent.split(/(?=^@)/m).filter((s) => s.trim().startsWith('@'));
 
@@ -120,14 +120,19 @@ export function generateBibliographyArtifacts(
   files: MarkdownFile[],
   webRoot: string,
   outDir: string,
+  bibContent?: string,
 ): BibliographyData {
   const bibPath = path.join(webRoot, '.vuepress', 'ref.bib');
-  if (!fs.existsSync(bibPath)) {
-    throw new Error(`BibTeX file not found: ${bibPath}`);
+  let content: string;
+  if (bibContent !== undefined) {
+    content = bibContent;
+  } else {
+    if (!fs.existsSync(bibPath)) {
+      throw new Error(`BibTeX file not found: ${bibPath}`);
+    }
+    content = fs.readFileSync(bibPath, 'utf-8');
   }
-
-  const bibContent = fs.readFileSync(bibPath, 'utf-8');
-  const allEntries = parseBibEntries(bibContent);
+  const allEntries = parseBibEntries(content);
   const citedKeys = extractCitedKeys(files);
 
   // Filter to only cited entries

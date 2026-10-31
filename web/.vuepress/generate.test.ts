@@ -43,6 +43,7 @@ describe('gen-sidebar command generation', () => {
         'ai-chat-index.json',
         'ai-chat-context.json',
         'glossary-dictionary.json',
+        'bibliography.json',
       ]),
     );
     expect(writtenPaths).not.toContain('space-news-articles-zh.json');

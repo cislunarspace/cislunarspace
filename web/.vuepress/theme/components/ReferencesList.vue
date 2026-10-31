@@ -93,7 +93,7 @@ onMounted(async () => {
 }
 
 .references-error {
-  color: #ef4444;
+  color: var(--c-danger);
 }
 
 .references-list {
@@ -103,18 +103,24 @@ onMounted(async () => {
 
 .references-item {
   display: flex;
-  gap: 0.5rem;
-  padding: 0.6rem 0.75rem;
-  margin: 0.35rem 0;
-  border-radius: 6px;
+  gap: 0.6rem;
+  padding: 0.7rem 0.85rem;
+  margin: 0.4rem 0;
+  background: var(--c-bg-lighter);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
   line-height: 1.7;
-  transition: background-color 2s ease-out;
+  transition:
+    background-color 2s ease-out,
+    border-color 2s ease-out,
+    box-shadow 2s ease-out;
 }
 
 .references-number {
   flex-shrink: 0;
-  color: var(--vp-c-accent);
+  color: var(--vp-c-text-mute);
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
   min-width: 2rem;
 }
 
@@ -123,7 +129,10 @@ onMounted(async () => {
   word-break: break-word;
 }
 
-.cite-highlight {
-  background-color: rgba(250, 240, 170, 0.5);
+/* 覆盖 index.scss 中遗留的黄色高亮，深色主题同样使用中性色 */
+.references-root .references-item.cite-highlight {
+  background-color: color-mix(in oklab, var(--vp-c-accent) 12%, var(--c-bg-lighter));
+  border-color: var(--vp-c-accent);
+  box-shadow: inset 3px 0 0 var(--vp-c-accent);
 }
 </style>

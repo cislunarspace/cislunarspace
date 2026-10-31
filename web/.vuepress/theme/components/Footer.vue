@@ -1,9 +1,7 @@
 <template>
   <footer class="site-footer">
-    <!-- Main Footer Content -->
     <div class="footer-main">
       <div class="footer-container">
-        <!-- Branding Column -->
         <div class="footer-branding">
           <div class="footer-logo">
             <img src="/logo.png" :alt="branding.nameZh" class="logo-img" />
@@ -26,7 +24,6 @@
           </a>
         </div>
 
-        <!-- Navigation Columns -->
         <div v-for="(section, idx) in sections" :key="idx" class="footer-nav-col">
           <h4 class="nav-col-title">{{ section.title }}</h4>
           <ul class="nav-links">
@@ -36,7 +33,6 @@
           </ul>
         </div>
 
-        <!-- Social Column -->
         <div class="footer-social-col">
           <h4 class="nav-col-title">关注我们</h4>
           <div class="social-links">
@@ -65,7 +61,6 @@
       </div>
     </div>
 
-    <!-- Utility Bar -->
     <div class="footer-utility">
       <div class="footer-container utility-content">
         <span class="copyright">
@@ -108,12 +103,9 @@ const currentYear = computed(() => String(new Date().getFullYear()));
 <style lang="scss">
 .site-footer {
   --footer-bg: var(--vp-c-bg);
-  --footer-bg-gradient: linear-gradient(180deg, var(--vp-c-bg-alt) 0%, var(--vp-c-bg) 100%);
   --footer-border: var(--vp-c-divider);
   --footer-text: var(--vp-c-text-mute);
   --footer-text-muted: var(--vp-c-text-subtle);
-  --footer-accent: var(--vp-c-accent);
-  --footer-accent-hover: var(--vp-c-accent-hover);
 
   background: var(--footer-bg);
   color: var(--footer-text);
@@ -121,7 +113,6 @@ const currentYear = computed(() => String(new Date().getFullYear()));
 }
 
 .footer-main {
-  background: var(--footer-bg-gradient);
   padding: 4rem 0 3rem;
   border-bottom: 1px solid var(--footer-border);
 }
@@ -176,13 +167,27 @@ const currentYear = computed(() => String(new Date().getFullYear()));
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  width: fit-content;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: var(--radius-pill);
   color: var(--footer-text);
   text-decoration: none;
   font-size: 0.875rem;
-  transition: color 0.2s;
+  transition:
+    color 0.2s,
+    background-color 0.2s,
+    border-color 0.2s;
 
   &:hover {
-    color: var(--footer-accent);
+    color: var(--vp-c-text);
+    border-color: var(--vp-c-border-hard);
+    background: var(--vp-c-control);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--vp-c-accent);
+    outline-offset: 2px;
   }
 
   .arrow-icon {
@@ -227,7 +232,13 @@ const currentYear = computed(() => String(new Date().getFullYear()));
   transition: color 0.2s;
 
   &:hover {
-    color: var(--footer-accent);
+    color: var(--vp-c-text);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--vp-c-accent);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
   }
 }
 
@@ -251,7 +262,9 @@ const currentYear = computed(() => String(new Date().getFullYear()));
   align-items: center;
   justify-content: center;
   color: var(--footer-text-muted);
-  transition: all 0.2s;
+  transition:
+    color 0.2s,
+    background-color 0.2s;
 
   svg {
     width: 1.125rem;
@@ -259,8 +272,13 @@ const currentYear = computed(() => String(new Date().getFullYear()));
   }
 
   &:hover {
-    background: var(--footer-accent);
+    background: var(--vp-c-control-hover);
     color: var(--vp-c-text);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--vp-c-accent);
+    outline-offset: 2px;
   }
 }
 
@@ -287,7 +305,13 @@ const currentYear = computed(() => String(new Date().getFullYear()));
     transition: color 0.2s;
 
     &:hover {
-      color: var(--footer-accent);
+      color: var(--vp-c-text);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--vp-c-accent);
+      outline-offset: 2px;
+      border-radius: var(--radius-sm);
     }
   }
 }
@@ -311,7 +335,13 @@ const currentYear = computed(() => String(new Date().getFullYear()));
   transition: color 0.2s;
 
   &:hover {
-    color: var(--footer-accent);
+    color: var(--vp-c-text);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--vp-c-accent);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
   }
 
   &:not(:last-child)::after {

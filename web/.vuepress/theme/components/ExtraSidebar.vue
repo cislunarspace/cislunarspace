@@ -50,22 +50,22 @@ function hideToc(event: MouseEvent) {
   right: 1.5rem;
   bottom: 0;
   box-sizing: border-box;
-  border-left: 0px solid var(--c-border);
+  border-left: 0;
 }
 
 .toc-container {
   display: none;
   position: absolute;
   top: 0;
-  color: var(--c-text);
+  color: var(--vp-c-text);
   left: unset;
   right: 100%;
   margin-right: 10px;
   margin-left: 0;
   width: 240px;
-  background: var(--c-bg);
-  border: 1px solid var(--c-border);
-  border-radius: 8px;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow-lg);
   animation: dropdownIn 0.2s var(--ease-out-expo);
   .pos-box {
@@ -88,7 +88,7 @@ function hideToc(event: MouseEvent) {
   top: calc(var(--navbar-height, 3.6rem) + 2rem) !important;
   width: 44px;
   div.option-box:last-child {
-    border-top: 0px solid var(--c-border);
+    border-bottom: 0;
   }
   div.option-box.on {
     .toc-container {
@@ -102,27 +102,28 @@ function hideToc(event: MouseEvent) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid var(--c-border);
-    background-color: var(--c-bg);
+    border-bottom: 1px solid var(--vp-c-border);
+    border-radius: var(--radius-md);
+    background-color: var(--vp-c-bg);
     height: 60px;
     cursor: pointer;
     transition:
-      background 0.2s,
-      color 0.2s,
+      background 0.2s var(--ease-smooth),
+      color 0.2s var(--ease-smooth),
       transform 0.2s var(--ease-out-back);
     .show-txt {
-      color: var(--c-text-lighter);
+      color: var(--vp-c-text-mute);
       margin-top: 3px;
       font-size: 0.6875rem;
-      transition: color 0.2s;
+      transition: color 0.2s var(--ease-smooth);
     }
   }
   div.option-box:hover {
-    color: var(--c-brand);
-    background: var(--c-accent-soft);
+    color: var(--vp-c-text);
+    background: var(--vp-c-accent-soft);
     transform: translateY(-2px);
     .show-txt {
-      color: var(--c-brand);
+      color: var(--vp-c-text);
     }
   }
 }

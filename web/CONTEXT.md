@@ -31,6 +31,7 @@
 - `ai-chat.ts`：AI Chat 路由索引与上下文语料（单语）
 - `glossary.ts`：词典侧边栏数据
 - `bibliography.ts`：从 `ref.bib` 生成全站参考文献表
+- `publications.ts`：从 `ref.bib` 全量条目生成文献发表看板数据 `publications.json`（见根 CONTEXT.md 文献发表看板词条）
 
 ### Intakes
 

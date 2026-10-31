@@ -45,6 +45,14 @@
 
 正文中 `\cite{key}` 引用的 key，指向 `web/.vuepress/ref.bib` 的 BibTeX 条目。渲染为指向 `/references#key` 的编号链接。`check-links` 对其做存在性校验。手写参考文献表已废弃：正文引用即数据，编号与题录由 bibliography 生成器从 ref.bib 派生。
 
+### 文献发表看板（Publication board）
+
+从全量 `ref.bib` 派生的只读交互表面，路由 `/research-frontiers/publications/`，数据由构建期生成器写入 `publications.json`，提供看板、表格、统计图三种视图，按出版载体、年份、月份整理。与参考文献表的区别：参考文献表只含正文中被 `\cite` 引用的条目并承担编号与锚点，看板覆盖 `ref.bib` 全部条目，不参与引用编号。
+
+### 出版载体（Publication venue）
+
+文献的期刊、会议录、图书系列等出版来源，取自 BibTeX 的 `container-title` 字段，归并键由名称的 NFKC 归一形式派生。缺失时显示“未注明载体”，不用出版社、会议简称或 DOI 猜测。
+
 ### 词典工件（glossary dictionary artifact）
 
 以 `/glossary-dictionary.json` 伺服的生成型词典数据工件，由 `web/.vuepress/generators/glossary.ts` 从词条 markdown 派生。按词条类别分组，条目携带词条 slug、中文名、英文名、剥离引用标记与公式后的定义、页面路径 `url`（取自词条 frontmatter 的 `permalink`）与 `citations` 引用键数组。它同时是站内词典页的数据源与站外检索的对外数据契约，字段只增不改。见 [ADR-0009](docs/adr/0009-glossary-artifact-as-public-contract.md)。

@@ -11,6 +11,7 @@ import AiChat from './components/AiChat.vue';
 import ReferencesList from './components/ReferencesList.vue';
 import GlossaryDict from './components/GlossaryDict.vue';
 import SubscribeCard from './components/SubscribeCard.vue';
+import PublicationBoard from './components/PublicationBoard.vue';
 import type { PageData } from './utils/types';
 import { normalizePageMetadata } from '../utils/page-metadata';
 import { updateOgMeta } from './composables/useOgMeta';
@@ -39,6 +40,7 @@ export default defineClientConfig({
     app.component('AiChat', AiChat);
     app.component('ReferencesList', ReferencesList);
     app.component('GlossaryDict', GlossaryDict);
+    app.component('PublicationBoard', PublicationBoard);
     app.component('SubscribeCard', SubscribeCard);
   },
   setup() {

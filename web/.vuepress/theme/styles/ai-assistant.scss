@@ -1,21 +1,22 @@
-/* 全局 AI 助手浮窗。与站点 vars.scss 深空青体系对齐；
+/* 全局 AI 助手浮窗。本地 --ai-* 变量统一映射到站点 zinc 语义变量；
    暗色跟随站点主题钩子 html[data-theme='dark']，不消费 chat 自己的明暗状态。
    全部选择器收在 .global-ai-assistant 名字空间下，避免影响其他表面。 */
 
 .global-ai-assistant {
-  --ai-bg: #ffffff;
-  --ai-bg-secondary: #f0f9ff;
-  --ai-border: #e2e8f0;
-  --ai-text: #334155;
-  --ai-text-primary: #0f172a;
-  --ai-text-secondary: #475569;
-  --ai-text-tertiary: #94a3b8;
-  --ai-accent: #2563eb;
-  --ai-accent-hover: #3b82f6;
-  --ai-user-bubble: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  --ai-assistant-surface: rgba(241, 245, 249, 0.85);
-  --ai-shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.16);
-  --ai-scrollbar-thumb: #cbd5e1;
+  --ai-bg: var(--vp-c-bg);
+  --ai-bg-secondary: var(--vp-c-bg-elv);
+  --ai-border: var(--c-border);
+  --ai-text: var(--vp-c-text);
+  --ai-text-primary: var(--vp-c-text);
+  --ai-text-secondary: var(--vp-c-text-mute);
+  --ai-text-tertiary: var(--vp-c-text-subtle);
+  --ai-accent: var(--vp-c-accent);
+  --ai-accent-hover: var(--vp-c-accent-hover);
+  --ai-accent-text: var(--vp-c-accent-text);
+  --ai-user-bubble: var(--vp-c-accent);
+  --ai-assistant-surface: var(--c-bg-lighter);
+  --ai-shadow-lg: var(--shadow-lg);
+  --ai-scrollbar-thumb: var(--scrollbar-thumb);
 
   position: fixed;
   right: 1.25rem;
@@ -26,25 +27,22 @@
 }
 
 html[data-theme='dark'] .global-ai-assistant {
-  --ai-bg: #1e293b;
-  --ai-bg-secondary: rgba(30, 41, 59, 0.6);
-  --ai-border: #334155;
-  --ai-text: #cbd5e1;
-  --ai-text-primary: #f1f5f9;
-  --ai-text-secondary: #94a3b8;
-  --ai-text-tertiary: #64748b;
-  --ai-accent: #60a5fa;
-  --ai-accent-hover: #93c5fd;
-  --ai-user-bubble: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
-  --ai-assistant-surface: rgba(30, 41, 59, 0.65);
-  --ai-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
-  --ai-scrollbar-thumb: #475569;
+  /* 暗色下浮窗改用浮层底色，与页面底色拉开层次 */
+  --ai-bg: var(--c-bg-alt);
 }
 
 .global-ai-assistant *,
 .global-ai-assistant *::before,
 .global-ai-assistant *::after {
   box-sizing: border-box;
+}
+
+/* 键盘焦点：浮窗整体统一 2px 中性主色描边 */
+.global-ai-assistant button:focus-visible,
+.global-ai-assistant a:focus-visible,
+.global-ai-assistant textarea:focus-visible {
+  outline: 2px solid var(--vp-c-accent);
+  outline-offset: 2px;
 }
 
 /* ---- 浮动按钮 ---- */
@@ -57,18 +55,20 @@ html[data-theme='dark'] .global-ai-assistant {
   height: 52px;
   border: none;
   border-radius: 50%;
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  color: #ffffff;
+  background: var(--ai-accent);
+  color: var(--ai-accent-text);
   cursor: pointer;
-  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+  box-shadow: var(--shadow-md);
   transition:
     transform 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    background 0.2s ease;
 }
 
 .global-ai-assistant .assistant-fab:hover {
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 10px 26px rgba(37, 99, 235, 0.5);
+  transform: translateY(-2px);
+  background: var(--ai-accent-hover);
+  box-shadow: var(--shadow-lg);
 }
 
 /* ---- 面板 ---- */
@@ -80,7 +80,7 @@ html[data-theme='dark'] .global-ai-assistant {
   height: min(640px, calc(100vh - 6rem));
   background: var(--ai-bg);
   border: 1px solid var(--ai-border);
-  border-radius: 16px;
+  border-radius: var(--radius-xl);
   box-shadow: var(--ai-shadow-lg);
   overflow: hidden;
   animation: assistantPanelIn 0.22s ease;
@@ -124,7 +124,7 @@ html[data-theme='dark'] .global-ai-assistant {
   width: 30px;
   height: 30px;
   border: none;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   background: transparent;
   color: var(--ai-text-secondary);
   cursor: pointer;
@@ -135,8 +135,8 @@ html[data-theme='dark'] .global-ai-assistant {
 
 .global-ai-assistant .assistant-icon-btn:hover,
 .global-ai-assistant .assistant-icon-btn.active {
-  background: var(--ai-assistant-surface);
-  color: var(--ai-accent);
+  background: var(--vp-c-control-hover);
+  color: var(--ai-text-primary);
 }
 
 .global-ai-assistant .assistant-icon-btn:disabled {
@@ -165,7 +165,7 @@ html[data-theme='dark'] .global-ai-assistant {
   width: 100%;
   padding: 0.45rem 0.6rem;
   border: none;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   background: transparent;
   color: var(--ai-text);
   font-size: 0.8rem;
@@ -178,8 +178,8 @@ html[data-theme='dark'] .global-ai-assistant {
 }
 
 .global-ai-assistant .assistant-history-item:hover {
-  background: var(--ai-assistant-surface);
-  color: var(--ai-accent);
+  background: var(--vp-c-control-hover);
+  color: var(--ai-text-primary);
 }
 
 /* ---- 阅读上下文条 ---- */
@@ -250,18 +250,18 @@ html[data-theme='dark'] .global-ai-assistant {
 
 .global-ai-assistant .assistant-bubble-user {
   padding: 0.55rem 0.9rem;
-  border-radius: 14px 14px 4px 14px;
+  border-radius: var(--radius-xl) var(--radius-xl) var(--radius-sm) var(--radius-xl);
   background: var(--ai-user-bubble);
-  color: #ffffff;
+  color: var(--ai-accent-text);
   white-space: pre-wrap;
-  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+  box-shadow: var(--shadow-sm);
 }
 
 .global-ai-assistant .assistant-bubble-ai {
   width: 100%;
   padding: 0.65rem 0.9rem;
   border: 1px solid var(--ai-border);
-  border-radius: 4px 14px 14px 14px;
+  border-radius: var(--radius-sm) var(--radius-xl) var(--radius-xl) var(--radius-xl);
   background: var(--ai-assistant-surface);
   color: var(--ai-text-primary);
 }
@@ -282,7 +282,7 @@ html[data-theme='dark'] .global-ai-assistant {
   align-items: center;
   gap: 0.3rem;
   padding: 0.15rem 0.55rem;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   border: 1px solid var(--ai-border);
   background: var(--ai-bg);
   font-size: 0.7rem;
@@ -348,28 +348,27 @@ html[data-theme='dark'] .global-ai-assistant {
 }
 
 .global-ai-assistant .assistant-bubble-ai a {
-  color: var(--ai-accent);
+  color: var(--c-link);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease;
 }
 
 .global-ai-assistant .assistant-bubble-ai a:hover {
-  color: var(--ai-accent-hover);
-  border-bottom-color: var(--ai-accent-hover);
+  border-bottom-color: var(--c-link);
 }
 
 .global-ai-assistant .assistant-bubble-ai code {
   background: var(--ai-bg-secondary);
   padding: 0.12em 0.35em;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   font-size: 0.82em;
   font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
 }
 
 .global-ai-assistant .assistant-bubble-ai pre {
   background: var(--ai-bg-secondary);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   padding: 0.75rem;
   overflow-x: auto;
   margin: 0.6rem 0;
@@ -446,7 +445,7 @@ html[data-theme='dark'] .global-ai-assistant {
   margin: 0;
   padding: 0.15rem 0.5rem;
   border: 1px solid var(--ai-border);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   background: var(--ai-bg-secondary);
   font-size: 0.7rem;
   color: var(--ai-text-secondary);
@@ -457,7 +456,7 @@ html[data-theme='dark'] .global-ai-assistant {
   flex: 1;
   resize: none;
   border: 1px solid var(--ai-border);
-  border-radius: 10px;
+  border-radius: var(--radius-lg);
   padding: 0.5rem 0.7rem;
   background: var(--ai-bg-secondary);
   color: var(--ai-text-primary);
@@ -471,6 +470,11 @@ html[data-theme='dark'] .global-ai-assistant {
 
 .global-ai-assistant .assistant-textarea:focus {
   border-color: var(--ai-accent);
+}
+
+.global-ai-assistant .assistant-textarea:focus-visible {
+  outline: 2px solid var(--ai-accent);
+  outline-offset: 1px;
 }
 
 .global-ai-assistant .assistant-textarea::placeholder {
@@ -488,18 +492,20 @@ html[data-theme='dark'] .global-ai-assistant {
   width: 38px;
   height: 38px;
   border: none;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  color: #ffffff;
+  border-radius: var(--radius-lg);
+  background: var(--ai-accent);
+  color: var(--ai-accent-text);
   cursor: pointer;
   flex-shrink: 0;
   transition:
     transform 0.15s ease,
-    opacity 0.15s ease;
+    opacity 0.15s ease,
+    background 0.15s ease;
 }
 
 .global-ai-assistant .assistant-send:hover:not(:disabled) {
   transform: translateY(-1px);
+  background: var(--ai-accent-hover);
 }
 
 .global-ai-assistant .assistant-send:disabled {
