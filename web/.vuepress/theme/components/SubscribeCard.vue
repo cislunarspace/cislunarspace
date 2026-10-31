@@ -79,9 +79,9 @@ async function submit() {
 <style scoped>
 .subscribe-card {
   margin: 2rem 0;
-  border: 1px solid var(--c-border, #e5e7eb);
-  border-radius: 10px;
-  background: var(--c-bg-light, #f8f9fa);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-xl);
+  background: var(--c-bg-lighter);
 }
 
 .subscribe-card__inner {
@@ -91,7 +91,7 @@ async function submit() {
 .subscribe-card__desc {
   margin: 0 0 1rem;
   line-height: 1.75;
-  color: var(--c-text, #2c3e50);
+  color: var(--c-text);
   font-size: 0.95rem;
 }
 
@@ -99,7 +99,7 @@ async function submit() {
   display: block;
   margin-bottom: 0.4rem;
   font-size: 0.85rem;
-  color: var(--c-text-lighter, #64748b);
+  color: var(--c-text-light);
 }
 
 .subscribe-card__row {
@@ -112,38 +112,58 @@ async function submit() {
   flex: 1 1 16rem;
   min-width: 0;
   padding: 0.55rem 0.75rem;
-  border: 1px solid var(--c-border, #d0d7de);
-  border-radius: 6px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
   font-size: 0.95rem;
-  background: var(--c-bg, #fff);
-  color: var(--c-text, #2c3e50);
+  background: var(--vp-c-bg);
+  color: var(--c-text);
+  transition:
+    border-color 0.2s,
+    outline-color 0.2s;
+}
+
+.subscribe-card__input::placeholder {
+  color: var(--vp-c-text-subtle);
 }
 
 .subscribe-card__input:focus {
-  outline: none;
-  border-color: var(--c-brand, #0d9488);
+  border-color: var(--vp-c-accent);
+  outline: 2px solid var(--vp-c-accent);
+  outline-offset: 1px;
 }
 
 .subscribe-card__button {
   padding: 0.55rem 1.3rem;
-  border: none;
-  border-radius: 6px;
-  background: var(--c-brand, #0d9488);
-  color: #fff;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  background: var(--vp-c-accent);
+  color: var(--vp-c-accent-text);
   font-size: 0.95rem;
   cursor: pointer;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.subscribe-card__button:hover:not(:disabled) {
+  background: var(--vp-c-accent-hover);
+}
+
+.subscribe-card__button:focus-visible {
+  outline: 2px solid var(--vp-c-accent);
+  outline-offset: 2px;
 }
 
 .subscribe-card__button:disabled {
-  opacity: 0.65;
-  cursor: default;
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .subscribe-card__note {
   margin: 0.7rem 0 0;
   font-size: 0.82rem;
   line-height: 1.7;
-  color: var(--c-text-lighter, #64748b);
+  color: var(--c-text-light);
 }
 
 .subscribe-card__message {
@@ -153,10 +173,11 @@ async function submit() {
 }
 
 .subscribe-card__message.is-done {
-  color: #0f766e;
+  color: var(--vp-c-text);
+  font-weight: 500;
 }
 
 .subscribe-card__message.is-error {
-  color: #b91c1c;
+  color: var(--c-danger);
 }
 </style>

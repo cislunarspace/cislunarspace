@@ -190,7 +190,9 @@ export function enhanceContentTables() {
   let globalIndex = 0;
   roots.forEach((root) => {
     const raw = Array.from(root.querySelectorAll('table')) as HTMLTableElement[];
-    const toWrap = raw.filter((t) => !t.closest('.vp-table-block'));
+    const toWrap = raw.filter(
+      (t) => !t.closest('.vp-table-block') && !t.closest('.publication-board'),
+    );
     toWrap.forEach((table) => {
       wrapTable(table, globalIndex);
       globalIndex += 1;

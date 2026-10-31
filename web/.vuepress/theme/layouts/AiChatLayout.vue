@@ -10,11 +10,15 @@
   inset: 0;
   z-index: 100;
   overflow: hidden;
-  background: linear-gradient(165deg, #f0f9ff 0%, #f8fafc 38%, #ffffff 100%);
+  background: linear-gradient(165deg, oklch(0.967 0.001 286.375) 0%, oklch(1 0 0) 100%);
 }
 
 html[data-chat-theme='dark'] .ai-chat-layout {
-  background: linear-gradient(165deg, #0c1222 0%, #0f172a 45%, #111827 100%);
+  background: linear-gradient(
+    165deg,
+    oklch(0.141 0.005 285.823) 0%,
+    oklch(0.21 0.006 285.885) 100%
+  );
 }
 
 .ai-chat-layout .theme-default-content,

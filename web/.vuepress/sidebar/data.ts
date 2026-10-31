@@ -170,6 +170,7 @@ export const sidebarSections: SidebarSection[] = [
         slug: 'journals-conferences',
         label: '主流学术期刊与会议',
       },
+      { slug: 'publications', label: '文献发表看板' },
       { slug: 'major-projects', label: '国内外重大工程项目' },
     ],
   },

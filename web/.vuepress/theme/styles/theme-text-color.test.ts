@@ -8,6 +8,16 @@ function compileScss(): string {
   return result.css;
 }
 
+/** 取指定选择器块的正文（大括号之间），找不到返回 null。 */
+function ruleBlock(css: string, selector: string): string | null {
+  const start = css.indexOf(selector);
+  if (start === -1) return null;
+  const open = css.indexOf('{', start);
+  const close = css.indexOf('}', open);
+  if (open === -1 || close === -1) return null;
+  return css.slice(open + 1, close);
+}
+
 describe('theme text colors', () => {
   let compiledCss: string;
 
@@ -15,33 +25,29 @@ describe('theme text colors', () => {
     compiledCss = compileScss();
   });
 
-  test('light mode body text color is slate-900', () => {
-    // :root should define --vp-c-text as slate-900 (softened from pure black)
-    expect(compiledCss).toContain('--vp-c-text: #0f172a');
-    expect(compiledCss).toContain('--c-text: #0f172a');
+  test('light and dark themes both define the semantic text variables', () => {
+    const rootBlock = ruleBlock(compiledCss, ':root');
+    const darkBlock = ruleBlock(compiledCss, '[data-theme=dark]');
+
+    expect(rootBlock).not.toBeNull();
+    expect(darkBlock).not.toBeNull();
+
+    // 语义变量成对存在，具体色值不在测试里钉死
+    for (const block of [rootBlock, darkBlock]) {
+      expect(block).toMatch(/--vp-c-text:\s*[^;]+;/);
+      expect(block).toMatch(/--c-text:\s*[^;]+;/);
+    }
+
+    // 深浅主题的同名变量取值应不同，防止误写成同一份
+    const lightText = rootBlock?.match(/--vp-c-text:\s*([^;]+);/)?.[1];
+    const darkText = darkBlock?.match(/--vp-c-text:\s*([^;]+);/)?.[1];
+    expect(lightText).toBeDefined();
+    expect(darkText).toBeDefined();
+    expect(lightText).not.toBe(darkText);
   });
 
-  test('dark mode body text color is slate-200', () => {
-    // [data-theme="dark"] should define --vp-c-text as slate-200 (softened from pure white)
-    const darkThemeStart = compiledCss.indexOf('[data-theme=dark]');
-    expect(darkThemeStart).toBeGreaterThan(-1);
-
-    const darkThemeSection = compiledCss.slice(darkThemeStart);
-    // Find the next closing brace to isolate dark theme block
-    const darkThemeEnd = darkThemeSection.indexOf('}\n:root'); // next :root or end
-    const darkThemeBlock = darkThemeSection.slice(0, darkThemeEnd > 0 ? darkThemeEnd : undefined);
-
-    expect(darkThemeBlock).toContain('--vp-c-text: #e2e8f0');
-    expect(darkThemeBlock).toContain('--c-text: #e2e8f0');
-  });
-
-  test('paragraphs use primary text color variable', () => {
-    expect(compiledCss).toContain('[vp-content] p {');
-    const paragraphStart = compiledCss.indexOf('[vp-content] p {');
-    const paragraphSection = compiledCss.slice(paragraphStart);
-    const paragraphEnd = paragraphSection.indexOf('}');
-    const paragraphBlock = paragraphSection.slice(0, paragraphEnd + 1);
-
+  test('paragraphs use the primary text color variable', () => {
+    const paragraphBlock = ruleBlock(compiledCss, '[vp-content] p');
     expect(paragraphBlock).toContain('color: var(--vp-c-text)');
   });
 });

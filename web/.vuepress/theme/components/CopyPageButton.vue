@@ -79,24 +79,32 @@ onBeforeUnmount(() => {
   align-items: center;
   gap: 6px;
   padding: 8px 16px;
-  border: 1px solid var(--c-border, #eaecef);
-  border-radius: 6px;
-  background: var(--c-bg-light, #f6f8fa);
-  color: var(--c-text-lighter, #999);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-pill);
+  background: var(--c-bg);
+  color: var(--c-text-light);
   font-size: 0.85rem;
   cursor: pointer;
-  transition: all 0.2s;
+  transition:
+    color 0.2s,
+    background-color 0.2s,
+    border-color 0.2s;
 
   &:hover {
-    color: var(--c-brand, #2563eb);
-    border-color: var(--c-brand, #2563eb);
-    background: var(--c-bg-lighter, #f0f4f8);
+    color: var(--c-text);
+    border-color: var(--vp-c-border-hard);
+    background: var(--vp-c-control-hover);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--vp-c-accent);
+    outline-offset: 2px;
   }
 
   &.copied {
-    color: var(--c-brand, #2563eb);
-    border-color: var(--c-brand, #2563eb);
-    background: rgba(37, 99, 235, 0.08);
+    color: var(--c-text);
+    border-color: var(--vp-c-border-hard);
+    background: var(--vp-c-accent-soft);
   }
 }
 </style>

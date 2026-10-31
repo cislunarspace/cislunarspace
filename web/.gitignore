@@ -5,6 +5,7 @@
 .vuepress/public/ai-chat-index.json
 .vuepress/public/ai-chat-context.json
 .vuepress/public/bibliography.json
+.vuepress/public/publications.json
 # 内容删除回收站（content.delete，可整体恢复）
 .trash/
 .vuepress/public/glossary-dictionary.json

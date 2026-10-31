@@ -1,5 +1,5 @@
 <template>
-  <aside v-if="headerList.length" class="page-toc">
+  <aside v-if="!isWideSurface && headerList.length" class="page-toc">
     <div class="page-toc-inner">
       <div class="page-toc-title">{{ pageTitle }}</div>
       <hr class="page-toc-divider" />
@@ -61,10 +61,14 @@ const route = useRoute();
 const page = usePage();
 const activeId = ref('');
 const headerList = ref<TocHeader[]>([]);
-
 const pageTitle = computed(() => {
   return (page.value as PageData).title || '';
 });
+
+// 文献发表看板页（pageClass: publication-board-page）不渲染右侧目录，为宽看板让位
+const isWideSurface = computed(
+  () => (page.value as PageData).frontmatter?.pageClass === 'publication-board-page',
+);
 
 function extractHeaders(): TocHeader[] {
   const content =
@@ -188,16 +192,16 @@ watch(
 
 .page-toc-inner {
   padding: 16px;
-  border-left: 2px solid var(--c-border, #eaecef);
+  border-left: 1px solid var(--vp-c-border);
   max-height: calc(100vh - var(--navbar-height, 3.6rem) - 4rem);
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: thin;
-  scrollbar-color: var(--scrollbar-thumb, #cbd5e1) transparent;
-  transition: border-color 0.3s;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+  transition: border-color 0.3s var(--ease-smooth);
 
   &:hover {
-    border-left-color: var(--c-brand);
+    border-left-color: var(--vp-c-accent);
   }
 
   &::-webkit-scrollbar {
@@ -207,18 +211,18 @@ watch(
     background: transparent;
   }
   &::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-thumb, #cbd5e1);
-    border-radius: 2px;
+    background-color: var(--scrollbar-thumb);
+    border-radius: var(--radius-pill);
   }
   &::-webkit-scrollbar-thumb:hover {
-    background-color: var(--scrollbar-thumb-hover, #94a3b8);
+    background-color: var(--scrollbar-thumb-hover);
   }
 }
 
 .page-toc-title {
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--c-text, #2c3e50);
+  color: var(--vp-c-text);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -226,7 +230,7 @@ watch(
 
 .page-toc-divider {
   border: none;
-  border-top: 1px solid var(--c-border, #eaecef);
+  border-top: 1px solid var(--vp-c-divider);
   margin: 0.5rem 0 0.75rem;
 }
 
@@ -255,7 +259,7 @@ watch(
 
 .page-toc-link {
   display: block;
-  color: var(--c-text-lighter, #666);
+  color: var(--vp-c-text-mute);
   text-decoration: none;
   line-height: 1.4;
   font-weight: 400;
@@ -264,20 +268,26 @@ watch(
   text-overflow: ellipsis;
   transition:
     color 0.25s var(--ease-smooth),
-    padding-left 0.25s var(--ease-out-expo);
-  border-radius: 4px;
+    padding-left 0.25s var(--ease-out-expo),
+    background-color 0.25s var(--ease-smooth);
+  border-radius: var(--radius-sm);
   padding: 2px 6px;
   margin-left: -6px;
 
   &:hover {
-    color: var(--c-brand, #2563eb);
-    background: var(--c-accent-soft, rgba(14, 165, 233, 0.06));
+    color: var(--vp-c-text);
+    background: var(--vp-c-accent-soft);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--vp-c-accent);
+    outline-offset: 2px;
   }
 
   &.active {
-    color: var(--c-brand, #2563eb);
+    color: var(--vp-c-text);
     font-weight: 600;
-    background: var(--c-accent-soft, rgba(14, 165, 233, 0.06));
+    background: var(--vp-c-accent-soft);
     padding-left: 10px;
   }
 }
