@@ -108,6 +108,7 @@ GPOPS-II、SPARTAN 等工具内置 hp 自适应。对强 bang-bang 问题，近�
 
 - [直接法（Direct Methods）](/glossary/dynamics/direct-methods/)
 - [直接配点法（Direct Collocation）](/glossary/dynamics/direct-collocation/)
+- [配点法（Collocation）](/glossary/dynamics/collocation/)
 - [序列凸规划（SCP）](/glossary/dynamics/scp/)
 - [协态变量（Costate Variable）](/glossary/dynamics/co-state-variables/)
 - [庞特里亚金极大值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagins-maximum-principle/)

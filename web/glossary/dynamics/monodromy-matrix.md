@@ -114,6 +114,8 @@ Conley（1968）的平衡区域（equilibrium region）理论揭示了共线平�
 
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-map/)
 
+- [Floquet 乘子（Floquet Multiplier）](/glossary/dynamics/floquet-multiplier/)
+
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 
 - [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
