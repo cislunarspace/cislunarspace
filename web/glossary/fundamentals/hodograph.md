@@ -19,7 +19,7 @@ twitter:
   title: 速端曲线（Hodograph）详解 | 术语定义
   description: 速度矢量端点在速度空间描出的曲线。二体轨道的速端曲线是圆，并在小推力轨迹设计中用作形状基方法的设计坐标。
   image: /logo.png
-  permalink: /glossary/fundamentals/hodograph/
+permalink: /glossary/fundamentals/hodograph/
 aliases:
   - Hodograph
   - hodograph
