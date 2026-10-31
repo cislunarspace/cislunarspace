@@ -382,3 +382,5 @@ wechatShare:
 - [物理信息机器学习（Physics-Informed Machine Learning）](/glossary/dynamics/piml/)
 - [间接打靶法（Indirect Shooting）](/glossary/dynamics/indirect-shooting/)
 - [镜像构型（Mirror Configuration）](/glossary/dynamics/mirror-configuration/)
+- [配点法（Collocation）](/glossary/dynamics/collocation/)
+- [Floquet 乘子（Floquet Multiplier）](/glossary/dynamics/floquet-multiplier/)

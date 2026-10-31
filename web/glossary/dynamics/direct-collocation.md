@@ -87,6 +87,7 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 ## 相关概念
 
 - [直接法（Direct Methods）](/glossary/dynamics/direct-methods/)
+- [配点法（Collocation）](/glossary/dynamics/collocation/)
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
 - [打靶法 / 微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
 - [协态变量（Costate Variable）](/glossary/dynamics/co-state-variables/)
